@@ -10,6 +10,7 @@ Usage
   svgmaker render <fichiers.svg | dossiers>… [options]   MP4 (+ couverture) à côté de chaque SVG
   svgmaker probe  <fichiers | dossiers>…                  durée, taille, animations détectées
   svgmaker audit  <fichiers | dossiers>…                  contrôle Reels (zones sûres, corps, accroche, final)
+  svgmaker studio [--port 4321]                           interface web locale (projets, vidéos, rendus)
 
 Options de rendu
   -o, --out <dossier>      dossier de sortie (défaut : à côté du SVG)
@@ -33,7 +34,7 @@ Options de rendu
   -f, --force              ignore l'empreinte et refait tout
   -h, --help               cette aide
 
-Dans le SVG (facultatif) : <svg data-duration="14.5" data-fps="30">, et data-role="hook" / "final"
+Dans le SVG (facultatif) : <svg data-duration="14.5" data-fps="30" data-music="audio.wav">, et data-role="hook" / "final"
 sur les textes d'accroche et de carton final pour un audit plus précis.`
 
 const { values: o, positionals } = parseArgs({
@@ -59,11 +60,18 @@ const { values: o, positionals } = parseArgs({
     'no-dedup': { type: 'boolean' },
     force: { type: 'boolean', short: 'f' },
     help: { type: 'boolean', short: 'h' },
+    port: { type: 'string' },
   },
 })
 
 const [cmd, ...inputs] = positionals
-if (o.help || !cmd || !['render', 'probe', 'audit'].includes(cmd) || !inputs.length) {
+if (cmd === 'studio') {
+  const { startStudio } = await import('../src/studio.mjs')
+  const port = Number(o.port ?? 4321)
+  await startStudio({ port })
+  console.log(`svgMaker Studio → http://localhost:${port}  (projets : studio.json, Ctrl+C pour arrêter)`)
+  await new Promise(() => {}) // le serveur tourne jusqu'à Ctrl+C
+} else if (o.help || !cmd || !['render', 'probe', 'audit'].includes(cmd) || !inputs.length) {
   console.log(HELP)
   process.exit(o.help ? 0 : 1)
 }
@@ -82,7 +90,7 @@ const opts = {
   bg: o.bg,
   music: o.music && path.resolve(o.music),
   musicVolume: num(o['music-volume']),
-  loudnorm: !!o.music && o['music-volume'] == null,
+  loudnorm: o['music-volume'] == null, // appliqué seulement s'il y a une musique (--music ou data-music)
   gif: !!o.gif,
   cover: !o['no-cover'],
   coverAt: num(o['cover-at']),

@@ -1,0 +1,49 @@
+{
+  "id": "055-sports",
+  "theme": {
+    "en": "Sports",
+    "th": "กีฬา"
+  },
+  "words": [
+    {
+      "en": "Football",
+      "say": "ฟุต-บอล",
+      "th": "ฟุตบอล",
+      "color": "#3DBE5A",
+      "idle": "bounce",
+      "art": "<g transform=\"scale(1.12)\"><circle cx=\"0\" cy=\"-10\" r=\"168\" fill=\"#fff\" stroke=\"#3B2A20\" stroke-width=\"12\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polygon points=\"0,-62 49.5,-26.1 30.6,32.1 -30.6,32.1 -49.5,-26.1\" fill=\"#3B2A20\" stroke=\"#3B2A20\" stroke-width=\"8\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M 0.0 -62.0 L 0.0 -160.0\" fill=\"none\" stroke=\"#3B2A20\" stroke-width=\"8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /><polygon points=\"55.3,-86 42.9,-124.1 75.2,-147.6 107.6,-124.1 95.2,-86\" fill=\"#3B2A20\" stroke=\"#3B2A20\" stroke-width=\"8\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M 49.5 -26.1 L 142.7 -56.4\" fill=\"none\" stroke=\"#3B2A20\" stroke-width=\"8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /><polygon points=\"89.4,19 121.7,-4.4 154.1,19 141.7,57.1 101.8,57.1\" fill=\"#3B2A20\" stroke=\"#3B2A20\" stroke-width=\"8\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M 30.6 32.1 L 88.2 111.4\" fill=\"none\" stroke=\"#3B2A20\" stroke-width=\"8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /><polygon points=\"0,84 32.3,107.5 20,145.5 -20,145.5 -32.3,107.5\" fill=\"#3B2A20\" stroke=\"#3B2A20\" stroke-width=\"8\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M -30.6 32.1 L -88.2 111.4\" fill=\"none\" stroke=\"#3B2A20\" stroke-width=\"8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /><polygon points=\"-89.4,19 -101.8,57.1 -141.7,57.1 -154.1,19 -121.7,-4.4\" fill=\"#3B2A20\" stroke=\"#3B2A20\" stroke-width=\"8\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M -49.5 -26.1 L -142.7 -56.4\" fill=\"none\" stroke=\"#3B2A20\" stroke-width=\"8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /><polygon points=\"-55.3,-86 -95.2,-86 -107.6,-124.1 -75.2,-147.6 -42.9,-124.1\" fill=\"#3B2A20\" stroke=\"#3B2A20\" stroke-width=\"8\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"0\" cy=\"-10\" r=\"168\" fill=\"none\" stroke=\"#3B2A20\" stroke-width=\"12\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g>"
+    },
+    {
+      "en": "Basketball",
+      "say": "บาส-เก็ต-บอล",
+      "th": "บาสเกตบอล",
+      "color": "#FF8A3D",
+      "idle": "bounce",
+      "art": "<circle cx=\"0\" cy=\"0\" r=\"175\" fill=\"#F28A2E\" stroke=\"#3B2A20\" stroke-width=\"12\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M 0 -175 L 0 175 M -175 0 L 175 0 M -122 -126 Q -40 0 -122 126 M 122 -126 Q 40 0 122 126\" fill=\"none\" stroke=\"#3B2A20\" stroke-width=\"11\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /><ellipse cx=\"-95\" cy=\"-95\" rx=\"22\" ry=\"42\" transform=\"rotate(40 -95 -95)\" fill=\"#fff\" opacity=\".5\"/>"
+    },
+    {
+      "en": "Tennis",
+      "say": "เทน-นิส",
+      "th": "เทนนิส",
+      "color": "#E8453C",
+      "idle": "swing",
+      "art": "<g transform=\"translate(-40 -50) rotate(-30)\"><ellipse cx=\"0\" cy=\"0\" rx=\"92\" ry=\"115\" fill=\"#F5F7FA\"  /><path d=\"M -68 -73.5 L -68 73.5 M -44 -97.0 L -44 97.0 M -20 -108.2 L -20 108.2 M 4 -110.9 L 4 110.9 M 28 -105.5 L 28 105.5 M 52 -90.9 L 52 90.9 M 76 -60.8 L 76 60.8 M -52.3 -91 L 52.3 -91 M -70.8 -67 L 70.8 -67 M -81.3 -43 L 81.3 -43 M -86.7 -19 L 86.7 -19 M -87.9 5 L 87.9 5 M -85.0 29 L 85.0 29 M -77.6 53 L 77.6 53 M -64.3 77 L 64.3 77 M -40.0 101 L 40.0 101 \" fill=\"none\" stroke=\"#9AA6B4\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /><path d=\"M 0 115 L 0 135\" fill=\"none\" stroke=\"#3B2A20\" stroke-width=\"24\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M 0 115 L 0 135\" fill=\"none\" stroke=\"#8C96A3\" stroke-width=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M 0 125 L 0 205\" fill=\"none\" stroke=\"#3B2A20\" stroke-width=\"36\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M 0 125 L 0 205\" fill=\"none\" stroke=\"#1E5AAC\" stroke-width=\"22\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><ellipse rx=\"92\" ry=\"115\" fill=\"none\" stroke=\"#3B2A20\" stroke-width=\"30\"/><ellipse rx=\"92\" ry=\"115\" fill=\"none\" stroke=\"#E8453C\" stroke-width=\"16\"/></g><circle cx=\"120\" cy=\"120\" r=\"56\" fill=\"#D7F04B\" stroke=\"#3B2A20\" stroke-width=\"12\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M 76 86 Q 120 120 80 160 M 164 82 Q 124 120 166 156\" fill=\"none\" stroke=\"#fff\" stroke-width=\"9\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /><circle cx=\"120\" cy=\"120\" r=\"56\" fill=\"none\" stroke=\"#3B2A20\" stroke-width=\"12\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"98\" cy=\"96\" rx=\"8\" ry=\"14\" transform=\"rotate(30 98 96)\" fill=\"#fff\" opacity=\".5\"/>"
+    },
+    {
+      "en": "Badminton",
+      "say": "แบด-มิน-ตัน",
+      "th": "แบดมินตัน",
+      "color": "#1E9BE0",
+      "idle": "swing",
+      "art": "<g transform=\"translate(140 0) rotate(25)\"><ellipse cx=\"0\" cy=\"0\" rx=\"60\" ry=\"80\" fill=\"#F5F7FA\"  /><path d=\"M -36 -60.0 L -36 60.0 M -12 -74.4 L -12 74.4 M 12 -74.4 L 12 74.4 M 36 -60.0 L 36 60.0 M -38.8 -56 L 38.8 -56 M -51.0 -32 L 51.0 -32 M -55.7 -8 L 55.7 -8 M -54.8 16 L 54.8 16 M -48.0 40 L 48.0 40 M -32.0 64 L 32.0 64 \" fill=\"none\" stroke=\"#9AA6B4\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /><path d=\"M 0 80 L 0 150\" fill=\"none\" stroke=\"#3B2A20\" stroke-width=\"24\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M 0 80 L 0 150\" fill=\"none\" stroke=\"#8C96A3\" stroke-width=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M 0 140 L 0 220\" fill=\"none\" stroke=\"#3B2A20\" stroke-width=\"36\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M 0 140 L 0 220\" fill=\"none\" stroke=\"#FFB400\" stroke-width=\"22\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><ellipse rx=\"60\" ry=\"80\" fill=\"none\" stroke=\"#3B2A20\" stroke-width=\"30\"/><ellipse rx=\"60\" ry=\"80\" fill=\"none\" stroke=\"#1E9BE0\" stroke-width=\"16\"/></g><g transform=\"translate(-30 0) rotate(-35)\"><path d=\"M -46 70 L -118 -150 Q 0 -178 118 -150 L 46 70 Z\" fill=\"#fff\" stroke=\"#3B2A20\" stroke-width=\"12\" stroke-linejoin=\"round\" stroke-linecap=\"round\" /><path d=\"M -24 70 L -62 -158 M 0 70 L 0 -164 M 24 70 L 62 -158\" fill=\"none\" stroke=\"#C7D0DA\" stroke-width=\"8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /><path d=\"M -96 -80 Q 0 -100 96 -80\" fill=\"none\" stroke=\"#C7D0DA\" stroke-width=\"7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /><path d=\"M -52 66 L 52 66 Q 52 150 0 150 Q -52 150 -52 66 Z\" fill=\"#fff\" stroke=\"#3B2A20\" stroke-width=\"12\" stroke-linejoin=\"round\" stroke-linecap=\"round\" /><rect x=\"-56\" y=\"56\" width=\"112\" height=\"28\" rx=\"10\" fill=\"#E8453C\" stroke=\"#3B2A20\" stroke-width=\"10\" stroke-linejoin=\"round\" stroke-linecap=\"round\" /></g>"
+    },
+    {
+      "en": "Golf",
+      "say": "กอล์ฟ",
+      "th": "กอล์ฟ",
+      "color": "#8E5BD9",
+      "idle": "wiggle",
+      "art": "<path d=\"M -210 196 Q -200 110 0 104 Q 200 110 210 196 Z\" fill=\"#7ED957\" stroke=\"#3B2A20\" stroke-width=\"12\" stroke-linejoin=\"round\" stroke-linecap=\"round\" /><ellipse cx=\"100\" cy=\"140\" rx=\"36\" ry=\"12\" fill=\"#3B2A20\"  /><path d=\"M 100 138 L 100 -175\" fill=\"none\" stroke=\"#3B2A20\" stroke-width=\"24\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M 100 138 L 100 -175\" fill=\"none\" stroke=\"#fff\" stroke-width=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M 106 -178 L 205 -145 L 106 -112 Z\" fill=\"#E8453C\" stroke=\"#3B2A20\" stroke-width=\"10\" stroke-linejoin=\"round\" stroke-linecap=\"round\" /><path d=\"M -205 -180 L -96 120\" fill=\"none\" stroke=\"#3B2A20\" stroke-width=\"24\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M -205 -180 L -96 120\" fill=\"none\" stroke=\"#8C96A3\" stroke-width=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M -118 108 L -60 104 Q -46 124 -64 138 L -122 136 Q -132 120 -118 108 Z\" fill=\"#555\" stroke=\"#3B2A20\" stroke-width=\"10\" stroke-linejoin=\"round\" stroke-linecap=\"round\" /><path d=\"M -40 128 L -40 150\" fill=\"none\" stroke=\"#3B2A20\" stroke-width=\"18\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /><path d=\"M -40 128 L -40 150\" fill=\"none\" stroke=\"#fff\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /><circle cx=\"-40\" cy=\"98\" r=\"34\" fill=\"#fff\" stroke=\"#3B2A20\" stroke-width=\"12\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"-52\" cy=\"88\" r=\"4\" fill=\"#C7D0DA\" /><circle cx=\"-30\" cy=\"84\" r=\"4\" fill=\"#C7D0DA\" /><circle cx=\"-42\" cy=\"104\" r=\"4\" fill=\"#C7D0DA\" /><circle cx=\"-22\" cy=\"104\" r=\"4\" fill=\"#C7D0DA\" /><circle cx=\"-56\" cy=\"108\" r=\"4\" fill=\"#C7D0DA\" />"
+    }
+  ]
+}

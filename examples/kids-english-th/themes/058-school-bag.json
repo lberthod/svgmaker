@@ -1,0 +1,49 @@
+{
+  "id": "058-school-bag",
+  "theme": {
+    "en": "School bag",
+    "th": "กระเป๋านักเรียน"
+  },
+  "words": [
+    {
+      "en": "Book",
+      "say": "บุ๊ก",
+      "th": "หนังสือ",
+      "color": "#1E9BE0",
+      "idle": "float",
+      "art": "<path d=\"M 0 -110 Q -90 -150 -195 -122 L -195 128 Q -90 104 0 140 Q 90 104 195 128 L 195 -122 Q 90 -150 0 -110 Z\" fill=\"#1E9BE0\" stroke=\"#3B2A20\" stroke-width=\"12\" stroke-linejoin=\"round\" stroke-linecap=\"round\" /><path d=\"M 0 -120 Q -84 -160 -178 -136 L -178 110 Q -84 88 0 124 Z\" fill=\"#fff\" stroke=\"#3B2A20\" stroke-width=\"10\" stroke-linejoin=\"round\" stroke-linecap=\"round\" /><path d=\"M 0 -120 Q 84 -160 178 -136 L 178 110 Q 84 88 0 124 Z\" fill=\"#fff\" stroke=\"#3B2A20\" stroke-width=\"10\" stroke-linejoin=\"round\" stroke-linecap=\"round\" /><path d=\"M -150 -100 Q -90 -116 -30 -94 M -150 -60 Q -90 -76 -30 -54 M -150 -20 Q -90 -36 -30 -14 M 30 -94 Q 90 -116 150 -100 M 30 -54 Q 90 -76 150 -60 M 30 -14 Q 90 -36 150 -20\" fill=\"none\" stroke=\"#9BB7D4\" stroke-width=\"8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /><circle cx=\"-95\" cy=\"50\" r=\"26\" fill=\"#FFD93B\" stroke=\"#3B2A20\" stroke-width=\"7\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M 50 80 L 95 20 L 140 80 Z\" fill=\"#3DBE5A\" stroke=\"#3B2A20\" stroke-width=\"7\" stroke-linejoin=\"round\" stroke-linecap=\"round\" /><path d=\"M -10 124 L -10 190 L 4 176 L 18 190 L 18 124 Z\" fill=\"#E8453C\" stroke=\"#3B2A20\" stroke-width=\"7\" stroke-linejoin=\"round\" stroke-linecap=\"round\" />"
+    },
+    {
+      "en": "Pencil",
+      "say": "เพน-ซิล",
+      "th": "ดินสอ",
+      "color": "#FFB400",
+      "idle": "wiggle",
+      "art": "<g transform=\"rotate(-40)\"><rect x=\"-42\" y=\"-205\" width=\"84\" height=\"44\" rx=\"14\" fill=\"#FF8FA3\" stroke=\"#3B2A20\" stroke-width=\"12\" stroke-linejoin=\"round\" stroke-linecap=\"round\" /><rect x=\"-42\" y=\"-168\" width=\"84\" height=\"30\" rx=\"4\" fill=\"#B8C2CC\" stroke=\"#3B2A20\" stroke-width=\"10\" stroke-linejoin=\"round\" stroke-linecap=\"round\" /><rect x=\"-42\" y=\"-140\" width=\"84\" height=\"250\" rx=\"4\" fill=\"#FFC93B\" stroke=\"#3B2A20\" stroke-width=\"12\" stroke-linejoin=\"round\" stroke-linecap=\"round\" /><path d=\"M -14 -140 L -14 110 M 14 -140 L 14 110\" fill=\"none\" stroke=\"#F2A400\" stroke-width=\"8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /><path d=\"M -42 110 L 0 196 L 42 110 Z\" fill=\"#F3D3A8\" stroke=\"#3B2A20\" stroke-width=\"12\" stroke-linejoin=\"round\" stroke-linecap=\"round\" /><path d=\"M -14 167 L 0 196 L 14 167 Z\" fill=\"#3B2A20\" stroke=\"none\" /><g transform=\"rotate(40 0 -15)\"><ellipse cx=\"-23.4\" cy=\"-25\" rx=\"11.7\" ry=\"16.2\" fill=\"#3B2A20\"/><circle cx=\"-18.9\" cy=\"-30.4\" r=\"4.5\" fill=\"#fff\"/><ellipse cx=\"23.4\" cy=\"-25\" rx=\"11.7\" ry=\"16.2\" fill=\"#3B2A20\"/><circle cx=\"27.9\" cy=\"-30.4\" r=\"4.5\" fill=\"#fff\"/><circle cx=\"-48\" cy=\"2\" r=\"13.5\" fill=\"#FF8FA3\" opacity=\".7\"/><circle cx=\"48\" cy=\"2\" r=\"13.5\" fill=\"#FF8FA3\" opacity=\".7\"/><path d=\"M -21.6 2 Q 0 27.2 21.6 2\" fill=\"none\" stroke=\"#3B2A20\" stroke-width=\"8.1\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /></g></g>"
+    },
+    {
+      "en": "Bag",
+      "say": "แบ็ก",
+      "th": "กระเป๋า",
+      "color": "#E8453C",
+      "idle": "bounce",
+      "art": "<path d=\"M -60 -150 Q -60 -205 0 -205 Q 60 -205 60 -150\" fill=\"none\" stroke=\"#3B2A20\" stroke-width=\"30\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /><path d=\"M -60 -150 Q -60 -205 0 -205 Q 60 -205 60 -150\" fill=\"none\" stroke=\"#1E5AAC\" stroke-width=\"16\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /><rect x=\"-160\" y=\"-160\" width=\"320\" height=\"355\" rx=\"70\" fill=\"#E8453C\" stroke=\"#3B2A20\" stroke-width=\"12\" stroke-linejoin=\"round\" stroke-linecap=\"round\" /><path d=\"M -160 -60 Q -160 -160 -90 -160 L 90 -160 Q 160 -160 160 -60 Q 0 -10 -160 -60 Z\" fill=\"#C93A32\" stroke=\"#3B2A20\" stroke-width=\"12\" stroke-linejoin=\"round\" stroke-linecap=\"round\" /><rect x=\"-115\" y=\"60\" width=\"230\" height=\"115\" rx=\"30\" fill=\"#FFB400\" stroke=\"#3B2A20\" stroke-width=\"12\" stroke-linejoin=\"round\" stroke-linecap=\"round\" /><path d=\"M -80 95 L 80 95\" fill=\"none\" stroke=\"#3B2A20\" stroke-width=\"8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /><rect x=\"-20\" y=\"-60\" width=\"40\" height=\"36\" rx=\"8\" fill=\"#FFD93B\" stroke=\"#3B2A20\" stroke-width=\"8\" stroke-linejoin=\"round\" stroke-linecap=\"round\" /><ellipse cx=\"-36\" cy=\"-110\" rx=\"11.7\" ry=\"16.2\" fill=\"#3B2A20\"/><circle cx=\"-31.5\" cy=\"-115.4\" r=\"4.5\" fill=\"#fff\"/><ellipse cx=\"36\" cy=\"-110\" rx=\"11.7\" ry=\"16.2\" fill=\"#3B2A20\"/><circle cx=\"40.5\" cy=\"-115.4\" r=\"4.5\" fill=\"#fff\"/><circle cx=\"-70\" cy=\"-85\" r=\"13.5\" fill=\"#FF8FA3\" opacity=\".7\"/><circle cx=\"70\" cy=\"-85\" r=\"13.5\" fill=\"#FF8FA3\" opacity=\".7\"/><path d=\"M -21.6 -86 Q 0 -60.8 21.6 -86\" fill=\"none\" stroke=\"#3B2A20\" stroke-width=\"8.1\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /><ellipse cx=\"-128\" cy=\"0\" rx=\"10\" ry=\"40\" transform=\"rotate(0 -128 0)\" fill=\"#fff\" opacity=\".5\"/>"
+    },
+    {
+      "en": "Eraser",
+      "say": "อี-เร-เซอร์",
+      "th": "ยางลบ",
+      "color": "#FF5C8A",
+      "idle": "wiggle",
+      "art": "<path d=\"M -195 -175 Q -150 -205 -110 -170 Q -70 -140 -40 -170\" fill=\"none\" stroke=\"#8C96A3\" stroke-width=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-dasharray=\"2 22\"/><path d=\"M -195 -175 Q -150 -205 -110 -170\" fill=\"none\" stroke=\"#8C96A3\" stroke-width=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /><path d=\"M -170 -50 L -120 -110 L 200 -110 L 150 -50 Z\" fill=\"#FFC2D1\" stroke=\"#3B2A20\" stroke-width=\"12\" stroke-linejoin=\"round\" stroke-linecap=\"round\" /><path d=\"M 150 -50 L 200 -110 L 200 30 L 150 90 Z\" fill=\"#E86F92\" stroke=\"#3B2A20\" stroke-width=\"12\" stroke-linejoin=\"round\" stroke-linecap=\"round\" /><rect x=\"-170\" y=\"-50\" width=\"320\" height=\"140\" rx=\"22\" fill=\"#FF8FA3\" stroke=\"#3B2A20\" stroke-width=\"12\" stroke-linejoin=\"round\" stroke-linecap=\"round\" /><path d=\"M -170 -50 L -120 -110 L -50 -110 L -100 -50 Z\" fill=\"#5C9DF5\" stroke=\"#3B2A20\" stroke-width=\"10\" stroke-linejoin=\"round\" stroke-linecap=\"round\" /><rect x=\"-170\" y=\"-50\" width=\"70\" height=\"140\" rx=\"0\" fill=\"#1E5AAC\" stroke=\"#3B2A20\" stroke-width=\"10\" stroke-linejoin=\"round\" stroke-linecap=\"round\" /><ellipse cx=\"-2\" cy=\"0\" rx=\"13\" ry=\"18\" fill=\"#3B2A20\"/><circle cx=\"3\" cy=\"-6\" r=\"5\" fill=\"#fff\"/><ellipse cx=\"62\" cy=\"0\" rx=\"13\" ry=\"18\" fill=\"#3B2A20\"/><circle cx=\"67\" cy=\"-6\" r=\"5\" fill=\"#fff\"/><circle cx=\"-30\" cy=\"30\" r=\"15\" fill=\"#FF8FA3\" opacity=\".7\"/><circle cx=\"90\" cy=\"30\" r=\"15\" fill=\"#FF8FA3\" opacity=\".7\"/><path d=\"M 6 30 Q 30 58 54 30\" fill=\"none\" stroke=\"#3B2A20\" stroke-width=\"9\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /><ellipse cx=\"-120\" cy=\"150\" rx=\"12\" ry=\"7\" fill=\"#FF8FA3\" stroke=\"#3B2A20\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\" /><ellipse cx=\"-60\" cy=\"165\" rx=\"12\" ry=\"7\" fill=\"#FF8FA3\" stroke=\"#3B2A20\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\" /><ellipse cx=\"60\" cy=\"160\" rx=\"12\" ry=\"7\" fill=\"#FF8FA3\" stroke=\"#3B2A20\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\" /><ellipse cx=\"120\" cy=\"150\" rx=\"12\" ry=\"7\" fill=\"#FF8FA3\" stroke=\"#3B2A20\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\" /><ellipse cx=\"10\" cy=\"175\" rx=\"12\" ry=\"7\" fill=\"#FF8FA3\" stroke=\"#3B2A20\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\" />"
+    },
+    {
+      "en": "Ruler",
+      "say": "รู-เลอร์",
+      "th": "ไม้บรรทัด",
+      "color": "#3DBE5A",
+      "idle": "swing",
+      "art": "<g transform=\"rotate(-25)\"><rect x=\"-215\" y=\"-50\" width=\"430\" height=\"100\" rx=\"14\" fill=\"#FFC93B\" stroke=\"#3B2A20\" stroke-width=\"12\" stroke-linejoin=\"round\" stroke-linecap=\"round\" /><path d=\"M -190 -50 L -190 -6 M -170 -50 L -170 -26 M -150 -50 L -150 -26 M -130 -50 L -130 -26 M -110 -50 L -110 -26 M -90 -50 L -90 -6 M -70 -50 L -70 -26 M -50 -50 L -50 -26 M -30 -50 L -30 -26 M -10 -50 L -10 -26 M 10 -50 L 10 -6 M 30 -50 L 30 -26 M 50 -50 L 50 -26 M 70 -50 L 70 -26 M 90 -50 L 90 -26 M 110 -50 L 110 -6 M 130 -50 L 130 -26 M 150 -50 L 150 -26 M 170 -50 L 170 -26 M 190 -50 L 190 -26\" fill=\"none\" stroke=\"#3B2A20\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /><ellipse cx=\"-24\" cy=\"18\" rx=\"10.4\" ry=\"14.4\" fill=\"#3B2A20\"/><circle cx=\"-20\" cy=\"13.2\" r=\"4\" fill=\"#fff\"/><ellipse cx=\"24\" cy=\"18\" rx=\"10.4\" ry=\"14.4\" fill=\"#3B2A20\"/><circle cx=\"28\" cy=\"13.2\" r=\"4\" fill=\"#fff\"/><circle cx=\"-56\" cy=\"36\" r=\"12\" fill=\"#FF8FA3\" opacity=\".7\"/><circle cx=\"56\" cy=\"36\" r=\"12\" fill=\"#FF8FA3\" opacity=\".7\"/><path d=\"M -16.8 26 Q 0 45.6 16.8 26\" fill=\"none\" stroke=\"#3B2A20\" stroke-width=\"6.3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /><ellipse cx=\"-150\" cy=\"30\" rx=\"30\" ry=\"5\" transform=\"rotate(0 -150 30)\" fill=\"#fff\" opacity=\".5\"/></g>"
+    }
+  ]
+}

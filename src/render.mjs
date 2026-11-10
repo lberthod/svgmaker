@@ -122,11 +122,16 @@ export async function renderAll(files, opts, log = console.log) {
     const outDir = opts.outDir ? path.resolve(opts.outDir) : path.dirname(file)
     const base = path.basename(file, path.extname(file))
     const out = path.join(outDir, base + '.mp4')
-    const hash = hashOf(await readFile(file), opts)
+    const buf = await readFile(file)
+    // musique propre au fichier : <svg data-music="audio.wav"> (chemin relatif au SVG), prioritaire sur --music
+    const dm = /<svg\b[^>]*\sdata-music="([^"]+)"/.exec(buf.toString('utf8', 0, 4096))
+    const music = dm ? path.resolve(path.dirname(file), dm[1]) : opts.music
+    if (dm && !existsSync(music)) { log(`✗ ${base} : data-music introuvable (${dm[1]})`); continue }
+    const hash = hashOf(buf, { ...opts, music })
     const m = manifestFor(outDir)
     const prev = (await m.load()).files[base]
     if (!opts.force && !opts.probeOnly && !opts.auditOnly && prev?.hash === hash && existsSync(out)) { skipped++; continue }
-    tasks.push({ file, base, outDir, out, hash, manifest: m, audit_store: auditFor(outDir) })
+    tasks.push({ file, base, outDir, out, hash, music, manifest: m, audit_store: auditFor(outDir) })
   }
   if (skipped) log(`= ${skipped} fichier(s) déjà à jour (empreinte identique), ignoré(s). --force pour tout refaire.`)
   if (!tasks.length) return { results: [], skipped, failed: 0 }
@@ -246,7 +251,7 @@ async function finish(t, opts, log) {
   if (!opts.auditOnly) {
     await ff.finalize({
       segments: t.segs.map((s) => s.file), listFile: path.join(t.tmp, 'list.txt'), out: t.out,
-      duration: t.duration, music: opts.music, musicVolume: opts.musicVolume ?? 0.55, loudnorm: opts.loudnorm,
+      duration: t.duration, music: t.music, musicVolume: opts.musicVolume ?? 0.55, loudnorm: opts.loudnorm ?? (t.music && opts.musicVolume == null),
     })
     files.push(t.out)
     if (opts.cover) { const c = path.join(t.outDir, `${t.base}-cover.jpg`); await ff.cover(t.out, c, opts.coverAt ?? 0); files.push(c) }
@@ -264,7 +269,7 @@ async function finish(t, opts, log) {
   if (!opts.auditOnly) {
     await t.manifest.set(t.base, {
       hash: t.hash, svg: path.relative(t.outDir, t.file), duration: t.duration, fps: t.fps, frames: t.frames,
-      size: `${t.width}x${t.height}`, audio: !!opts.music, renderedAt: new Date().toISOString(), tool: `svgmaker ${VERSION}`,
+      size: `${t.width}x${t.height}`, audio: t.music ? path.relative(t.outDir, t.music) : false, renderedAt: new Date().toISOString(), tool: `svgmaker ${VERSION}`,
     })
   }
   const parts = [`${t.duration.toFixed(1)} s`, `${t.width}×${t.height} ${t.fps} i/s`]

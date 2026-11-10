@@ -1,0 +1,50 @@
+{
+  "id": "014-vegetables",
+  "theme": {
+    "en": "Vegetables",
+    "th": "ผัก",
+    "voiceTh": "ผัก"
+  },
+  "words": [
+    {
+      "en": "Carrot",
+      "say": "แค-รอท",
+      "th": "แครอท",
+      "color": "#FF8A1F",
+      "idle": "wiggle",
+      "art": "<g transform=\"translate(0 12)\"><g transform=\"translate(0 -130) rotate(-125)\"><path d=\"M 0 0 Q 55 -46.199999999999996 110 0 Q 55 46.199999999999996 0 0 Z\" fill=\"#3DBE5A\" stroke=\"#3B2A20\" stroke-width=\"9\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M 8 0 L 82.5 0\" fill=\"none\" stroke=\"#2E9E48\" stroke-width=\"5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(0 -130) rotate(-55)\"><path d=\"M 0 0 Q 55 -46.199999999999996 110 0 Q 55 46.199999999999996 0 0 Z\" fill=\"#3DBE5A\" stroke=\"#3B2A20\" stroke-width=\"9\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M 8 0 L 82.5 0\" fill=\"none\" stroke=\"#2E9E48\" stroke-width=\"5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(0 -130) rotate(-90)\"><path d=\"M 0 0 Q 50 -42 100 0 Q 50 42 0 0 Z\" fill=\"#3DBE5A\" stroke=\"#3B2A20\" stroke-width=\"9\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M 8 0 L 75 0\" fill=\"none\" stroke=\"#2E9E48\" stroke-width=\"5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><path d=\"M -105 -95 C -105 -150 105 -150 105 -95 C 105 0 30 165 0 200 C -30 165 -105 0 -105 -95 Z\" fill=\"#FF8A1F\" stroke=\"#3B2A20\" stroke-width=\"12\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M -82 40 L -50 40 M 60 70 L 30 70 M -40 130 L -20 130 M 80 -10 L 55 -10\" fill=\"none\" stroke=\"#D96A00\" stroke-width=\"8\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"-70\" cy=\"-80\" rx=\"14\" ry=\"30\" fill=\"#fff\"  transform=\"rotate(10 -70 -80)\" opacity=\".55\"/><ellipse cx=\"-37.8\" cy=\"-55\" rx=\"13.5\" ry=\"18.9\" fill=\"#3B2A20\" /><ellipse cx=\"37.8\" cy=\"-55\" rx=\"13.5\" ry=\"18.9\" fill=\"#3B2A20\" /><circle cx=\"-33.3\" cy=\"-61.3\" r=\"4.5\" fill=\"#fff\" /><circle cx=\"42.3\" cy=\"-61.3\" r=\"4.5\" fill=\"#fff\" /><circle cx=\"-72\" cy=\"-19\" r=\"18\" fill=\"#FF8FA3\"  opacity=\".75\"/><circle cx=\"72\" cy=\"-19\" r=\"18\" fill=\"#FF8FA3\"  opacity=\".75\"/><path d=\"M -30.6 -15.4 Q 0 18.8 30.6 -15.4\" fill=\"none\" stroke=\"#3B2A20\" stroke-width=\"9\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g>"
+    },
+    {
+      "en": "Tomato",
+      "say": "โท-เม-โท่",
+      "th": "มะเขือเทศ",
+      "color": "#E8322F",
+      "idle": "bounce",
+      "art": "<ellipse cx=\"0\" cy=\"25\" rx=\"180\" ry=\"155\" fill=\"#F23B3B\" stroke=\"#3B2A20\" stroke-width=\"12\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M 0 -140 L -40 -165 L -30 -125 L -90 -120 L -35 -105 L -55 -70 L 0 -98 L 55 -70 L 35 -105 L 90 -120 L 30 -125 L 40 -165 Z\" fill=\"#3DBE5A\" stroke=\"#3B2A20\" stroke-width=\"8\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M 0 -130 L 8 -175\" fill=\"none\" stroke=\"#3B2A20\" stroke-width=\"24\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M 0 -130 L 8 -175\" fill=\"none\" stroke=\"#2E9E48\" stroke-width=\"12\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"-115\" cy=\"-25\" rx=\"22\" ry=\"44\" fill=\"#fff\"  transform=\"rotate(30 -115 -25)\" opacity=\".55\"/><ellipse cx=\"-42\" cy=\"35\" rx=\"15\" ry=\"21\" fill=\"#3B2A20\" /><ellipse cx=\"42\" cy=\"35\" rx=\"15\" ry=\"21\" fill=\"#3B2A20\" /><circle cx=\"-37\" cy=\"28\" r=\"5\" fill=\"#fff\" /><circle cx=\"47\" cy=\"28\" r=\"5\" fill=\"#fff\" /><circle cx=\"-80\" cy=\"75\" r=\"20\" fill=\"#FF8FA3\"  opacity=\".75\"/><circle cx=\"80\" cy=\"75\" r=\"20\" fill=\"#FF8FA3\"  opacity=\".75\"/><path d=\"M -34 79 Q 0 117 34 79\" fill=\"none\" stroke=\"#3B2A20\" stroke-width=\"10\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "en": "Potato",
+      "say": "โพ-เท-โท่",
+      "th": "มันฝรั่ง",
+      "color": "#C68B3C",
+      "idle": "wiggle",
+      "art": "<path d=\"M -185 -10 C -195 -110 -70 -145 20 -135 C 125 -128 200 -70 190 20 C 182 115 95 145 -10 135 C -125 128 -178 75 -185 -10 Z\" fill=\"#DDB06A\" stroke=\"#3B2A20\" stroke-width=\"12\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"-130\" cy=\"-60\" rx=\"9\" ry=\"6\" fill=\"#A9772F\" /><ellipse cx=\"120\" cy=\"-70\" rx=\"9\" ry=\"6\" fill=\"#A9772F\" /><ellipse cx=\"140\" cy=\"50\" rx=\"9\" ry=\"6\" fill=\"#A9772F\" /><ellipse cx=\"-120\" cy=\"80\" rx=\"9\" ry=\"6\" fill=\"#A9772F\" /><ellipse cx=\"40\" cy=\"-105\" rx=\"9\" ry=\"6\" fill=\"#A9772F\" /><ellipse cx=\"-60\" cy=\"110\" rx=\"9\" ry=\"6\" fill=\"#A9772F\" /><ellipse cx=\"-110\" cy=\"-40\" rx=\"18\" ry=\"38\" fill=\"#fff\"  transform=\"rotate(60 -110 -40)\" opacity=\".55\"/><ellipse cx=\"-42\" cy=\"-5\" rx=\"15\" ry=\"21\" fill=\"#3B2A20\" /><ellipse cx=\"42\" cy=\"-5\" rx=\"15\" ry=\"21\" fill=\"#3B2A20\" /><circle cx=\"-37\" cy=\"-12\" r=\"5\" fill=\"#fff\" /><circle cx=\"47\" cy=\"-12\" r=\"5\" fill=\"#fff\" /><circle cx=\"-80\" cy=\"35\" r=\"20\" fill=\"#FF8FA3\"  opacity=\".75\"/><circle cx=\"80\" cy=\"35\" r=\"20\" fill=\"#FF8FA3\"  opacity=\".75\"/><path d=\"M -34 39 Q 0 77 34 39\" fill=\"none\" stroke=\"#3B2A20\" stroke-width=\"10\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "en": "Corn",
+      "say": "คอร์น",
+      "th": "ข้าวโพด",
+      "color": "#F2B705",
+      "idle": "swing",
+      "art": "<ellipse cx=\"0\" cy=\"-25\" rx=\"95\" ry=\"175\" fill=\"#FFD93B\" stroke=\"#3B2A20\" stroke-width=\"12\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M -70 -130 Q 0 -110 70 -130 M -88 -70 Q 0 -50 88 -70 M -93 -10 Q 0 10 93 -10 M -88 50 Q 0 70 88 50 M -70 105 Q 0 125 70 105 M -30 -190 L -40 135 M 30 -190 L 40 135\" fill=\"none\" stroke=\"#E6A800\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M 0 195 C -150 160 -170 10 -130 -110 C -95 -20 -70 90 0 195 Z\" fill=\"#5BC24A\" stroke=\"#3B2A20\" stroke-width=\"11\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M 0 195 C 150 160 170 10 130 -110 C 95 -20 70 90 0 195 Z\" fill=\"#4CAF50\" stroke=\"#3B2A20\" stroke-width=\"11\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"0\" cy=\"-30\" rx=\"62\" ry=\"58\" fill=\"#FFD93B\" /><ellipse cx=\"-31.5\" cy=\"-45\" rx=\"11.3\" ry=\"15.8\" fill=\"#3B2A20\" /><ellipse cx=\"31.5\" cy=\"-45\" rx=\"11.3\" ry=\"15.8\" fill=\"#3B2A20\" /><circle cx=\"-27.7\" cy=\"-50.2\" r=\"3.8\" fill=\"#fff\" /><circle cx=\"35.3\" cy=\"-50.2\" r=\"3.8\" fill=\"#fff\" /><circle cx=\"-60\" cy=\"-15\" r=\"15\" fill=\"#FF8FA3\"  opacity=\".75\"/><circle cx=\"60\" cy=\"-15\" r=\"15\" fill=\"#FF8FA3\"  opacity=\".75\"/><path d=\"M -25.5 -12 Q 0 16.5 25.5 -12\" fill=\"none\" stroke=\"#3B2A20\" stroke-width=\"7.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "en": "Cucumber",
+      "say": "คิว-คัม-เบอร์",
+      "th": "แตงกวา",
+      "color": "#3AA346",
+      "idle": "swing",
+      "art": "<g transform=\"rotate(-30)\"><rect x=\"-200\" y=\"-72\" width=\"400\" height=\"144\" rx=\"72\" fill=\"#4CAF50\" stroke=\"#3B2A20\" stroke-width=\"12\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"-178\" cy=\"0\" rx=\"18\" ry=\"40\" fill=\"#A5D96A\" /><ellipse cx=\"-120\" cy=\"-40\" rx=\"7\" ry=\"5\" fill=\"#A5D96A\" /><ellipse cx=\"-60\" cy=\"45\" rx=\"7\" ry=\"5\" fill=\"#A5D96A\" /><ellipse cx=\"120\" cy=\"-45\" rx=\"7\" ry=\"5\" fill=\"#A5D96A\" /><ellipse cx=\"140\" cy=\"35\" rx=\"7\" ry=\"5\" fill=\"#A5D96A\" /><ellipse cx=\"60\" cy=\"45\" rx=\"7\" ry=\"5\" fill=\"#A5D96A\" /><ellipse cx=\"-140\" cy=\"30\" rx=\"7\" ry=\"5\" fill=\"#A5D96A\" /><rect x=\"-150\" y=\"-55\" width=\"230\" height=\"16\" rx=\"8\" fill=\"#fff\"  opacity=\".4\"/><ellipse cx=\"-35.7\" cy=\"0\" rx=\"12.8\" ry=\"17.8\" fill=\"#3B2A20\" /><ellipse cx=\"35.7\" cy=\"0\" rx=\"12.8\" ry=\"17.8\" fill=\"#3B2A20\" /><circle cx=\"-31.4\" cy=\"-5.9\" r=\"4.3\" fill=\"#fff\" /><circle cx=\"39.9\" cy=\"-5.9\" r=\"4.3\" fill=\"#fff\" /><circle cx=\"-68\" cy=\"34\" r=\"17\" fill=\"#FF8FA3\"  opacity=\".75\"/><circle cx=\"68\" cy=\"34\" r=\"17\" fill=\"#FF8FA3\"  opacity=\".75\"/><path d=\"M -28.9 37.4 Q 0 69.7 28.9 37.4\" fill=\"none\" stroke=\"#3B2A20\" stroke-width=\"8.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g>"
+    }
+  ]
+}

@@ -1,0 +1,444 @@
+{
+  "duration": 65.4,
+  "lines": [
+    {
+      "t": 2.4,
+      "role": "mali_en",
+      "text": "Hi! I'm Mali!"
+    },
+    {
+      "t": 3.7,
+      "role": "mali_th",
+      "text": "สวัสดีจ้า ฉันชื่อมะลิ"
+    },
+    {
+      "t": 7,
+      "role": "narrator",
+      "text": "Cat"
+    },
+    {
+      "t": 8,
+      "role": "mali_en",
+      "text": "Cat!"
+    },
+    {
+      "t": 9.2,
+      "role": "mali_en",
+      "text": "Your turn!"
+    },
+    {
+      "t": 12.15,
+      "role": "mali_en",
+      "text": "Yay!"
+    },
+    {
+      "t": 12.8,
+      "role": "mali_th",
+      "text": "แมว"
+    },
+    {
+      "t": 16,
+      "role": "narrator",
+      "text": "Dog"
+    },
+    {
+      "t": 17,
+      "role": "mali_en",
+      "text": "Dog!"
+    },
+    {
+      "t": 18.2,
+      "role": "mali_en",
+      "text": "Your turn!"
+    },
+    {
+      "t": 21.15,
+      "role": "mali_en",
+      "text": "Yay!"
+    },
+    {
+      "t": 21.8,
+      "role": "mali_th",
+      "text": "หมา"
+    },
+    {
+      "t": 25,
+      "role": "narrator",
+      "text": "Apple"
+    },
+    {
+      "t": 26,
+      "role": "mali_en",
+      "text": "Apple!"
+    },
+    {
+      "t": 27.2,
+      "role": "mali_en",
+      "text": "Your turn!"
+    },
+    {
+      "t": 30.15,
+      "role": "mali_en",
+      "text": "Yay!"
+    },
+    {
+      "t": 30.8,
+      "role": "mali_th",
+      "text": "แอปเปิ้ล"
+    },
+    {
+      "t": 34,
+      "role": "narrator",
+      "text": "Sun"
+    },
+    {
+      "t": 35,
+      "role": "mali_en",
+      "text": "Sun!"
+    },
+    {
+      "t": 36.2,
+      "role": "mali_en",
+      "text": "Your turn!"
+    },
+    {
+      "t": 39.15,
+      "role": "mali_en",
+      "text": "Yay!"
+    },
+    {
+      "t": 39.8,
+      "role": "mali_th",
+      "text": "พระอาทิตย์"
+    },
+    {
+      "t": 43,
+      "role": "narrator",
+      "text": "Fish"
+    },
+    {
+      "t": 44,
+      "role": "mali_en",
+      "text": "Fish!"
+    },
+    {
+      "t": 45.2,
+      "role": "mali_en",
+      "text": "Your turn!"
+    },
+    {
+      "t": 48.15,
+      "role": "mali_en",
+      "text": "Yay!"
+    },
+    {
+      "t": 48.8,
+      "role": "mali_th",
+      "text": "ปลา"
+    },
+    {
+      "t": 50.7,
+      "role": "mali_en",
+      "text": "Where is the fish?"
+    },
+    {
+      "t": 52.2,
+      "role": "mali_th",
+      "text": "ปลาอยู่ไหนนะ?"
+    },
+    {
+      "t": 56.4,
+      "role": "mali_en",
+      "text": "Yes! Fish!"
+    },
+    {
+      "t": 57.8,
+      "role": "mali_th",
+      "text": "เก่งมาก!"
+    },
+    {
+      "t": 60.7,
+      "role": "mali_en",
+      "text": "Bye-bye! See you soon!"
+    },
+    {
+      "t": 62.4,
+      "role": "mali_th",
+      "text": "บ๊ายบาย แล้วเจอกันนะ"
+    }
+  ],
+  "sfx": [
+    {
+      "t": 0.1,
+      "kind": "step"
+    },
+    {
+      "t": 0.6,
+      "kind": "step"
+    },
+    {
+      "t": 1.1,
+      "kind": "step"
+    },
+    {
+      "t": 1.6,
+      "kind": "step"
+    },
+    {
+      "t": 2.3,
+      "kind": "boing"
+    },
+    {
+      "t": 5.35,
+      "kind": "whoosh"
+    },
+    {
+      "t": 5.85,
+      "kind": "pop"
+    },
+    {
+      "t": 5.95,
+      "kind": "boing"
+    },
+    {
+      "t": 6,
+      "kind": "meow"
+    },
+    {
+      "t": 10.15,
+      "kind": "tick"
+    },
+    {
+      "t": 10.95,
+      "kind": "tick"
+    },
+    {
+      "t": 11.75,
+      "kind": "tick"
+    },
+    {
+      "t": 12.1,
+      "kind": "yay"
+    },
+    {
+      "t": 12.4,
+      "kind": "whoosh"
+    },
+    {
+      "t": 13.25,
+      "kind": "collect"
+    },
+    {
+      "t": 14.35,
+      "kind": "whoosh"
+    },
+    {
+      "t": 14.4,
+      "kind": "step"
+    },
+    {
+      "t": 14.65,
+      "kind": "step"
+    },
+    {
+      "t": 14.9,
+      "kind": "step"
+    },
+    {
+      "t": 15.15,
+      "kind": "step"
+    },
+    {
+      "t": 15.35,
+      "kind": "woof"
+    },
+    {
+      "t": 15.45,
+      "kind": "giggle"
+    },
+    {
+      "t": 15.75,
+      "kind": "woof"
+    },
+    {
+      "t": 19.15,
+      "kind": "tick"
+    },
+    {
+      "t": 19.95,
+      "kind": "tick"
+    },
+    {
+      "t": 20.75,
+      "kind": "tick"
+    },
+    {
+      "t": 21.1,
+      "kind": "yay"
+    },
+    {
+      "t": 21.4,
+      "kind": "whoosh"
+    },
+    {
+      "t": 22.25,
+      "kind": "collect"
+    },
+    {
+      "t": 23.35,
+      "kind": "whoosh"
+    },
+    {
+      "t": 24.02,
+      "kind": "bonk"
+    },
+    {
+      "t": 28.15,
+      "kind": "tick"
+    },
+    {
+      "t": 28.95,
+      "kind": "tick"
+    },
+    {
+      "t": 29.75,
+      "kind": "tick"
+    },
+    {
+      "t": 30.1,
+      "kind": "yay"
+    },
+    {
+      "t": 30.4,
+      "kind": "whoosh"
+    },
+    {
+      "t": 31.25,
+      "kind": "collect"
+    },
+    {
+      "t": 32.35,
+      "kind": "whoosh"
+    },
+    {
+      "t": 32.6,
+      "kind": "sparkle"
+    },
+    {
+      "t": 33.45,
+      "kind": "cool"
+    },
+    {
+      "t": 37.15,
+      "kind": "tick"
+    },
+    {
+      "t": 37.95,
+      "kind": "tick"
+    },
+    {
+      "t": 38.75,
+      "kind": "tick"
+    },
+    {
+      "t": 39.1,
+      "kind": "yay"
+    },
+    {
+      "t": 39.4,
+      "kind": "whoosh"
+    },
+    {
+      "t": 40.25,
+      "kind": "collect"
+    },
+    {
+      "t": 41.35,
+      "kind": "whoosh"
+    },
+    {
+      "t": 41.6,
+      "kind": "splash"
+    },
+    {
+      "t": 42.4,
+      "kind": "splash"
+    },
+    {
+      "t": 46.15,
+      "kind": "tick"
+    },
+    {
+      "t": 46.95,
+      "kind": "tick"
+    },
+    {
+      "t": 47.75,
+      "kind": "tick"
+    },
+    {
+      "t": 48.1,
+      "kind": "yay"
+    },
+    {
+      "t": 48.4,
+      "kind": "whoosh"
+    },
+    {
+      "t": 49.25,
+      "kind": "collect"
+    },
+    {
+      "t": 50.35,
+      "kind": "whoosh"
+    },
+    {
+      "t": 53.4,
+      "kind": "drumroll"
+    },
+    {
+      "t": 56.15,
+      "kind": "ding"
+    },
+    {
+      "t": 56.2,
+      "kind": "yay"
+    },
+    {
+      "t": 56.8,
+      "kind": "whoosh"
+    },
+    {
+      "t": 57.65,
+      "kind": "collect"
+    },
+    {
+      "t": 60.35,
+      "kind": "whoosh"
+    },
+    {
+      "t": 60.6,
+      "kind": "boing"
+    },
+    {
+      "t": 63.1,
+      "kind": "step"
+    },
+    {
+      "t": 63.6,
+      "kind": "step"
+    },
+    {
+      "t": 64.1,
+      "kind": "step"
+    },
+    {
+      "t": 64.6,
+      "kind": "step"
+    },
+    {
+      "t": 65.1,
+      "kind": "step"
+    }
+  ]
+}

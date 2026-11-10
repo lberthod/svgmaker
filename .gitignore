@@ -4,3 +4,15 @@ node_modules/
 *.gif
 !examples/**
 .DS_Store
+
+# Sorties générées des exemples (vidéos, voix, rendus) : recréées par build.sh / web.sh
+examples/*/out/
+examples/kids-english-th/videos/
+examples/kids-english-th/web/
+examples/*/build.log
+examples/mali-english-th/mali.*
+!examples/mali-english-th/mali.svg
+examples/mali-english-th/mali-*.jpg
+examples/mali-english-th/audio.wav
+examples/mali-english-th/.svgmaker.json
+examples/mali-english-th/svgmaker-audit.json

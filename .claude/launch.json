@@ -1,0 +1,6 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    { "name": "svgmaker-studio", "runtimeExecutable": "node", "runtimeArgs": ["bin/svgmaker.mjs", "studio", "--port", "4321"], "port": 4321 }
+  ]
+}

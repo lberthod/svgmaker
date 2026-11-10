@@ -1,0 +1,11 @@
+{
+  "projects": [
+    {
+      "id": "kids-english-th",
+      "name": "Anglais pour enfants · Thaïlande",
+      "dir": "examples/kids-english-th",
+      "kind": "kids-series",
+      "description": "5 mots d’anglais par vidéo, voix anglaise + thaïe, pour enfants de 4 ans"
+    }
+  ]
+}
