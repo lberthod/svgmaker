@@ -20,3 +20,4 @@ examples/mali-english-th/svgmaker-audit.json
 
 # Sorties des exemples de formats (svgmaker new / preview / render)
 src/formats/*/examples/out/
+__pycache__/

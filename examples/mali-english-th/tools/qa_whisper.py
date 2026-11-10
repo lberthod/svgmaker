@@ -23,7 +23,7 @@ def norm(s):
 
 bad, results = 0, []
 for c in json.load(open(sys.argv[1], encoding="utf-8")):
-    got = mlx_whisper.transcribe(c["wav"], path_or_hf_repo=REPO, language=c["lang"])["text"].strip()
+    got = mlx_whisper.transcribe(c["wav"], path_or_hf_repo=REPO, language=c["lang"], temperature=0.0, condition_on_previous_text=False)["text"].strip()
     ok = norm(c["text"]) in norm(got) or norm(got) in norm(c["text"])
     # thaï : Whisper est peu fiable sur un mot isolé (consonne muette, tons) → simple avis
     mark = "✓" if ok else ("ℹ" if c["lang"] == "th" else "⚠")

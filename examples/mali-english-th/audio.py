@@ -123,7 +123,11 @@ def qa(idx, tag):
         checks.append({"wav": padded, "text": lines[i]["text"], "lang": "th" if lines[i]["role"] == "mali_th" else "en"})
     cf, rf = os.path.join(tmp, f"checks_{tag}.json"), os.path.join(tmp, f"results_{tag}.json")
     json.dump(checks, open(cf, "w", encoding="utf-8"), ensure_ascii=False)
-    r = subprocess.run([VENV_PY, os.path.join(TOOLS, "qa_whisper.py"), cf, rf], env=ENV, capture_output=True, text=True)
+    try:  # délai maximal : le verrou GPU bloque les autres builds tant que ce processus tourne
+        r = subprocess.run([VENV_PY, os.path.join(TOOLS, "qa_whisper.py"), cf, rf], env=ENV, capture_output=True, text=True, timeout=600)
+    except subprocess.TimeoutExpired:
+        print(f"⚠ contrôle Whisper [{tag}] trop long (> 10 min), ignoré")
+        return {}
     if r.returncode:
         print("⚠ contrôle Whisper impossible :", r.stderr.strip()[-300:])
         return {}
@@ -143,7 +147,11 @@ if "--no-qa" not in sys.argv and os.path.exists(VENV_PY) and kokoro_ok:
                     "speed": ROLES[lines[i]["role"]][2], "carrier": k} for i in todo]
             jf = os.path.join(tmp, f"fix{k}.json")
             json.dump(fix, open(jf, "w", encoding="utf-8"), ensure_ascii=False)
-            subprocess.run([VENV_PY, os.path.join(TOOLS, "tts_kokoro.py"), jf], env=ENV, capture_output=True, text=True)
+            try:
+                subprocess.run([VENV_PY, os.path.join(TOOLS, "tts_kokoro.py"), jf], env=ENV, capture_output=True, text=True, timeout=600)
+            except subprocess.TimeoutExpired:
+                print(f"⚠ réparation {k} trop longue (> 10 min), arrêtée")
+                break
             for i in todo:
                 post(raw[i], final[i], ROLES[lines[i]["role"]][3])
             res2 = qa(todo, f"réparation {k}")

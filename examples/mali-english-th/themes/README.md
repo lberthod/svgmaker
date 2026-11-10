@@ -51,6 +51,10 @@ Les gags sont dans `src/kit/actors/gags.mjs` (partagés avec les futurs formats)
 | `self` | Partie du corps : l'objet s'affiche dans une carte, et **la même partie sur Mali** est entourée et bouge. | `part` : `nose` (trompe qui s'agite), `ears` (oreilles déployées), `eyes`, `mouth`, `feet` (elle saute), `tail` |
 | `pop` | L'objet apparaît dans une gerbe d'étincelles, Mali danse. | `scale`, `sfx` |
 
+Avec `box`, la moitié basse du dessin (y > 0) reste cachée dans le carton : il faut mettre le visage et les détails importants dans la moitié haute.
+
+Certains mots isolés sont mal prononcés par Kokoro, même après les réparations : « Doll » est entendu « Dull ». Dans ce cas, il faut choisir un autre mot.
+
 Varier les gags dans un thème : au moins 4 types différents sur les 5 mots.
 
 **Bruitages (`sfx`)** : `step boing pop meow woof bonk splash sparkle cool tick drumroll ding yay whoosh collect giggle moo oink quack cluck neigh beep toot vroom`.
