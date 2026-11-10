@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-300 -300 600 600" width="600" height="600" data-art="horse-mali">
+<title>horse</title>
+<!-- art -->
+    <path d="M -72 -105 L -95 -195 L -25 -140 Z" fill="#B9773F" stroke="#3B2A20" stroke-width="12" stroke-linejoin="round" stroke-linecap="round"/><path d="M 72 -105 L 95 -195 L 25 -140 Z" fill="#B9773F" stroke="#3B2A20" stroke-width="12" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M -72 -120 L -84 -168 L -48 -140 Z" fill="#FFB3C1"/><path d="M 72 -120 L 84 -168 L 48 -140 Z" fill="#FFB3C1"/>
+    <path d="M 70 -130 Q 165 -100 150 20 Q 175 60 140 110 Q 120 40 110 0 Z" fill="#5A3418" stroke="#3B2A20" stroke-width="12" stroke-linejoin="round" stroke-linecap="round"/>
+    <ellipse cy="-10" rx="115" ry="160" fill="#B9773F" stroke="#3B2A20" stroke-width="12" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M -55 -150 Q -40 -195 0 -165 Q 30 -200 55 -150 Q 40 -95 0 -105 Q -45 -95 -55 -150 Z" fill="#5A3418" stroke="#3B2A20" stroke-width="9" stroke-linejoin="round" stroke-linecap="round"/>
+    <ellipse cx="-60" cy="-55" rx="16" ry="34" transform="rotate(20 -60 -55)" fill="#fff" opacity=".35"/>
+    
+  <ellipse cx="-48" cy="-30" rx="16" ry="23" fill="#3B2A20"/><ellipse cx="48" cy="-30" rx="16" ry="23" fill="#3B2A20"/>
+  <circle cx="-42" cy="-38" r="6" fill="#fff"/><circle cx="54" cy="-38" r="6" fill="#fff"/>
+    <ellipse cy="90" rx="95" ry="65" fill="#E8C08F" stroke="#3B2A20" stroke-width="12" stroke-linejoin="round" stroke-linecap="round"/>
+    <ellipse cx="-38" cy="78" rx="12" ry="16" fill="#3B2A20"/><ellipse cx="38" cy="78" rx="12" ry="16" fill="#3B2A20"/>
+    <path d="M -36 118 Q 0 140 36 118" fill="none" stroke="#3B2A20" stroke-width="8" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="-78" cy="15" r="15" fill="#FF8FA3" opacity=".7"/><circle cx="78" cy="15" r="15" fill="#FF8FA3" opacity=".7"/><!-- /art -->
+</svg>

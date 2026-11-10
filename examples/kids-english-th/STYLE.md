@@ -17,8 +17,8 @@ Public : enfants thaïlandais d'environ **4 ans**. Tout doit être immédiatemen
       "th": "วัว",
       "color": "#8E5BD9",
       "idle": "wiggle",
-      "art": "<ellipse rx=\"150\" ry=\"120\" fill=\"#fff\" stroke=\"#3B2A20\" stroke-width=\"12\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/> …",
-      "spin": "(facultatif) partie qui tourne sans fin DERRIÈRE le dessin, ex. rayons du soleil",
+      "art": "cow",
+      "spin": "(facultatif) id d'un dessin qui tourne sans fin DERRIÈRE le dessin, ex. « sun-spin »",
       "bubbles": false
     }
   ]
@@ -36,8 +36,26 @@ Public : enfants thaïlandais d'environ **4 ans**. Tout doit être immédiatemen
 | `th` | le mot thaï naturel qu'un parent dit à un enfant de 4 ans : หมา plutôt que สุนัข, แม่ plutôt que มารดา |
 | `color` | couleur vive `#RRGGBB` du cadre et de la pastille, **différente pour les 5 mots** et assortie au dessin |
 | `idle` | petit mouvement en boucle du dessin : `wiggle` (penche), `bounce` (saute), `swing` (balance), `swim` (nage), `pulse` (gonfle), `float` (flotte), `spin` (tourne un peu dans les deux sens) |
-| `spin` | (facultatif) fragment SVG qui tourne en continu autour de (0,0), placé **derrière** `art` : rayons, pétales, auréole |
+| `art` | **id d'un dessin de la bibliothèque** `library/` (« cow », « ice-cream »). Un fragment SVG en ligne (commençant par `<`) est encore accepté, mais un dessin réutilisable va dans la bibliothèque |
+| `spin` | (facultatif) id d'un dessin qui tourne en continu autour de (0,0), placé **derrière** `art` : rayons, pétales, auréole. Convention : `<id>-spin` |
 | `bubbles` | (facultatif) `true` = 3 bulles qui montent (animaux marins) |
+
+## Bibliothèque de dessins (`library/`)
+
+Les dessins vivent dans `library/<catégorie>/<id>.svg` (un fichier par dessin, visible tel quel dans un navigateur et dans l'onglet **Bibliothèque** du studio). Avant de dessiner, **cherche s'il existe déjà** :
+
+```bash
+node ../../bin/svgmaker.mjs art list cow          # par nom
+node ../../bin/svgmaker.mjs art list --cat fruits  # par catégorie
+```
+
+Pour un nouveau dessin : écris le fragment SVG (règles ci-dessous) dans un fichier, puis
+
+```bash
+node ../../bin/svgmaker.mjs art add giraffe /chemin/giraffe.svg --cat wild-animals --tags kids
+```
+
+`art add` valide le dessin, l'enregistre et met `library/index.json` à jour. Les id sont en minuscules avec des tirets (`traffic-light`). Le suffixe `-mali` est réservé aux dessins dans le style de Mali.
 
 ## Règles de dessin (`art` et `spin`)
 
@@ -52,7 +70,7 @@ Public : enfants thaïlandais d'environ **4 ans**. Tout doit être immédiatemen
   - « Under » = un chat sous une table.
   - « Hello » = enfant qui fait coucou.
 - **Interdit** (refusé par `make.mjs`) : `<script>`, `<animate>`, `<set>`, `animation`, `@keyframes`, `<style>`, attributs `id=` et `class=`, `href=`, `<image>`, `<foreignObject>`. Les dégradés sont donc impossibles (ils demandent un `id`) : utilise des aplats.
-- `<text>` est autorisé seulement pour un chiffre ou une lettre **dessinés comme élément du dessin**, en grand (au moins 60), avec `font-family="Chalkboard SE"`. Jamais pour répéter le mot : il est déjà écrit sous la carte.
+- `<text>` est autorisé seulement pour un chiffre ou une lettre **dessinés comme élément du dessin**, en grand (au moins 60), avec `font-family="Fredoka, Chalkboard SE, sans-serif"` (police embarquée). Jamais pour répéter le mot : il est déjà écrit sous la carte.
 - Rien d'effrayant ni de violent : pas d'armes, de sang ou de dents pointues menaçantes. Requin, crocodile, monstre, dragon et loup doivent être **gentils et souriants**.
 - Échappe les guillemets dans le JSON (`\"`). Un fichier JSON par thème, encodé en UTF-8.
 

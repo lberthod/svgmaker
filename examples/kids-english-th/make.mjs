@@ -7,20 +7,18 @@
 // Format d'un thème : voir STYLE.md.
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs'
 import path from 'node:path'
+import * as kit from '../../src/kit/core.mjs'
+import { resolveArt } from '../../src/kit/library.mjs'
 
+const { RAINBOW, INK, EN_FONT, TH_FONT, esc, validateArt } = kit
 const HERE = path.dirname(new URL(import.meta.url).pathname)
 const INTRO = 5.0, SCENE = 5.2, OUTRO_LEN = 7.4
-const RAINBOW = ['#F23B3B', '#FF8A3D', '#F2B705', '#3DBE5A', '#1E9BE0', '#8E5BD9']
 const IDLES = ['wiggle', 'bounce', 'swing', 'swim', 'pulse', 'float', 'spin']
-const INK = '#3B2A20'
-const EN_FONT = `'Chalkboard SE','Comic Sans MS','Arial Rounded MT Bold',sans-serif`
-const TH_FONT = `'Sukhumvit Set','Thonburi',sans-serif`
-const f = (n) => +n.toFixed(2)
-const esc = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+const f = kit.fixed(2)
 
-// largeur visible approximative (le thaï a des voyelles/tons « au-dessus », sans largeur)
-const visLen = (s) => [...s.replace(/[ัิ-ฺ็-๎]/g, '')].length
-const fit = (s, max, width, k = 0.56) => Math.round(Math.min(max, width / (visLen(s) * k)))
+// corps qui fait tenir le texte dans `width` px, mesuré avec la vraie police (thaï → Mali, sinon Fredoka)
+const kindOf = (s) => (/[฀-๿]/.test(s) ? 'th' : 'en')
+const fit = (s, max, width) => kit.fitSize(s, { kind: kindOf(s), max, width })
 
 // ---------------------------------------------------------------- validation
 export function validate(t, file = '') {
@@ -33,10 +31,11 @@ export function validate(t, file = '') {
     for (const k of ['en', 'say', 'th', 'color', 'idle', 'art']) if (!w[k]) err(`${where} : champ « ${k} » manquant`)
     if (!IDLES.includes(w.idle)) err(`${where} : idle doit être ${IDLES.join('|')}`)
     if (!/^#[0-9A-Fa-f]{6}$/.test(w.color)) err(`${where} : color attendu #RRGGBB`)
-    for (const part of [w.art, w.spin].filter(Boolean)) {
-      if (/<script|<animate|<set\b|animation|@keyframes|\bid=|\bclass=|<style|href=|<image|<foreignObject/i.test(part))
-        err(`${where} : interdit dans art/spin (script, animation, id, class, style, href, image)`)
-    }
+    // art / spin : id de library/ (« cow ») ou, à défaut, dessin SVG en ligne
+    try {
+      validateArt(resolveArt(w.art), `art « ${w.art.slice(0, 40)} »`)
+      if (w.spin) validateArt(resolveArt(w.spin), `spin « ${w.spin.slice(0, 40)} »`)
+    } catch (e) { err(`${where} : ${e.message}`) }
   }
   return t
 }
@@ -68,15 +67,11 @@ text{font-weight:700;paint-order:stroke;stroke:#fff;stroke-linejoin:round}
 .pulse{animation:pulse 1.2s ease-in-out infinite}.float{animation:float 2.4s ease-in-out infinite}
 .spin{animation:spinSlow 2.6s ease-in-out infinite}.rays{animation:spin 9s linear infinite}`
 
-const anim = (name, dur, delay, ease = 'cubic-bezier(.3,1.5,.5,1)') => `animation:${name} ${dur}s ${ease} ${f(delay)}s both`
-const rainbow = (word, offset = 0) => [...word].map((c, i) => (c === ' ' ? ' ' : `<tspan fill="${RAINBOW[(i + offset) % RAINBOW.length]}">${esc(c)}</tspan>`)).join('')
+const anim = (name, dur, delay, ease) => kit.anim(name, dur, delay, ease, 'both', f)
+const rainbow = (word, offset = 0) => kit.rainbow(word, offset, { keepSpaces: true })
 const star = (x, y, r, color, delay) =>
-  `<g transform="translate(${x} ${y})"><path class="fx" style="animation:twinkle 1.6s ease-in-out ${f(delay)}s infinite" d="${Array.from({ length: 10 }, (_, i) => {
-    const a = (i * Math.PI) / 5 - Math.PI / 2, rr = i % 2 ? r * 0.45 : r
-    return `${i ? 'L' : 'M'}${f(Math.cos(a) * rr)} ${f(Math.sin(a) * rr)}`
-  }).join(' ')}Z" fill="${color}" stroke="${INK}" stroke-width="5" stroke-linejoin="round"/></g>`
-const cloud = (x, y, k, delay) =>
-  `<g transform="translate(${x} ${y}) scale(${k})"><g style="animation:drift 7s ease-in-out ${delay}s infinite"><path d="M -110 30 Q -130 -20 -80 -30 Q -70 -80 -10 -70 Q 30 -110 80 -60 Q 140 -60 130 0 Q 160 40 110 50 L -90 50 Q -140 50 -110 30 Z" fill="#fff" stroke="#BFE3F2" stroke-width="8" stroke-linejoin="round"/></g></g>`
+  `<g transform="translate(${x} ${y})"><path class="fx" style="animation:twinkle 1.6s ease-in-out ${f(delay)}s infinite" d="${kit.starPath(r, f)}" fill="${color}" stroke="${INK}" stroke-width="5" stroke-linejoin="round"/></g>`
+const cloud = (x, y, k, delay) => kit.cloud(x, y, k, delay)
 
 /** Dessin d'un mot : art statique (via <use>), rayons tournants éventuels, bulles éventuelles. */
 const artOf = (w, i, animated = true) => {
@@ -96,13 +91,13 @@ export function build(t) {
   const intro = () => {
     cues.push({ t: 0.3, voice: 'Samantha', rate: 165, text: `Let's learn English! ${t.theme.en}!` })
     cues.push({ t: 2.2, voice: 'Kanya', rate: 170, text: `มาเรียนคำศัพท์ หมวด${t.theme.voiceTh || t.theme.th} กัน!`, after: true })
-    const ts = fit(t.theme.en, 150, 900, 0.58)
+    const ts = fit(t.theme.en, 150, 900)
     return `
   <g class="sc" style="animation:scene ${INTRO}s ease-out 0s both">
     <g transform="translate(540 480) scale(.8)"><g class="pop" style="${anim('pop', 0.7, 0)}"><g class="bounce" filter="url(#crayon)">${artOf(W[0], 0)}</g></g></g>
     <text class="en pop" x="540" y="830" text-anchor="middle" font-size="${fit('Let’s learn English!', 96, 900)}" fill="${INK}" stroke-width="14" data-role="hook" style="${anim('pop', 0.6, 0.15)}">Let’s learn English!</text>
     <text class="en pop" x="540" y="${f(830 + 40 + ts * 0.9)}" text-anchor="middle" font-size="${ts}" stroke-width="20" data-role="hook" style="${anim('pop', 0.6, 0.5)}">${rainbow(t.theme.en)}</text>
-    <text class="th fx" x="540" y="${f(830 + 140 + ts * 0.9)}" text-anchor="middle" font-size="${fit(t.theme.th, 70, 880, 0.55)}" fill="#1E9BE0" stroke-width="12" style="${anim('up', 0.5, 2.0, 'ease-out')}">${esc(t.theme.th)}</text>
+    <text class="th fx" x="540" y="${f(830 + 140 + ts * 0.9)}" text-anchor="middle" font-size="${fit(t.theme.th, 70, 880)}" fill="#1E9BE0" stroke-width="12" style="${anim('up', 0.5, 2.0, 'ease-out')}">${esc(t.theme.th)}</text>
     <text class="th fx" x="540" y="${f(830 + 230 + ts * 0.9)}" text-anchor="middle" font-size="50" fill="#7A6A5C" stroke-width="10" style="${anim('up', 0.5, 2.5, 'ease-out')}">5 คำศัพท์ง่าย ๆ</text>
   </g>`
   }
@@ -112,8 +107,9 @@ export function build(t) {
     cues.push({ t: t0 + 0.7, voice: 'Samantha', rate: 150, text: w.en, ding: true })
     cues.push({ t: t0 + 2.0, voice: 'Samantha', rate: 118, text: w.en, slow: true })
     cues.push({ t: t0 + 3.2, voice: 'Kanya', rate: 150, text: w.th })
-    const thSize = fit(w.th, 80, 640, 0.52)
-    const pillW = Math.max(380, Math.min(860, visLen(w.th) * thSize * 0.55 + 140))
+    // pastille 118 px de haut : l'encre (tons thaïs empilés compris) reste dedans, centrée
+    const { size: thSize, y: thY } = kit.fitInBox(w.th, { kind: 'th', max: 80, width: 640, height: 100, cy: 1349 })
+    const pillW = Math.max(380, Math.min(860, kit.textWidth(w.th, 'th', thSize) + 140))
     return `
   <g class="sc" style="animation:scene ${SCENE}s ease-out ${f(t0)}s both">
     <g transform="rotate(${i % 2 ? 2 : -2} 540 665)">
@@ -126,11 +122,11 @@ export function build(t) {
         <g filter="url(#crayon)" class="${w.idle}">${artOf(w, i)}</g>
       </g>
     </g>
-    <text class="en pop" x="540" y="1170" text-anchor="middle" font-size="${fit(w.en, 168, 800, 0.6)}" stroke-width="18" style="${anim('pop', 0.6, t0 + 0.6)}">${rainbow(w.en, i)}</text>
-    <text class="th fx" x="540" y="1252" text-anchor="middle" font-size="${fit('อ่านว่า “' + w.say + '”', 46, 900, 0.5)}" fill="#7A6A5C" stroke-width="10" style="${anim('up', 0.5, t0 + 1.8, 'ease-out')}">อ่านว่า “${esc(w.say)}”</text>
+    <text class="en pop" x="540" y="1170" text-anchor="middle" font-size="${fit(w.en, 168, 800)}" stroke-width="18" style="${anim('pop', 0.6, t0 + 0.6)}">${rainbow(w.en, i)}</text>
+    <text class="th fx" x="540" y="1252" text-anchor="middle" font-size="${fit('อ่านว่า “' + w.say + '”', 46, 900)}" fill="#7A6A5C" stroke-width="10" style="${anim('up', 0.5, t0 + 1.8, 'ease-out')}">อ่านว่า “${esc(w.say)}”</text>
     <g class="pop" style="${anim('pop', 0.6, t0 + 3.0)}">
       <rect x="${f(540 - pillW / 2)}" y="1290" width="${f(pillW)}" height="118" rx="59" fill="${w.color}" stroke="${INK}" stroke-width="8"/>
-      <text class="th" x="540" y="${f(1349 + thSize * 0.32)}" text-anchor="middle" font-size="${thSize}" fill="#fff" style="stroke:${INK};stroke-width:7px">${esc(w.th)}</text>
+      <text class="th" x="540" y="${f(thY)}" text-anchor="middle" font-size="${thSize}" fill="#fff" style="stroke:${INK};stroke-width:7px">${esc(w.th)}</text>
     </g>
   </g>`
   }
@@ -164,14 +160,12 @@ export function build(t) {
   <title>${esc(t.theme.en)} · 5 English words for kids · ${esc(t.theme.th)}</title>
   <!-- Généré par make.mjs depuis themes/${t.id}.json : ne pas éditer à la main. -->
   <defs>
-    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFF4C9"/><stop offset=".55" stop-color="#FFE9EF"/><stop offset="1" stop-color="#D4F1FF"/></linearGradient>
-    <filter id="crayon" x="-10%" y="-10%" width="120%" height="120%">
-      <feTurbulence type="fractalNoise" baseFrequency=".035" numOctaves="2" seed="4" result="n"/>
-      <feDisplacementMap in="SourceGraphic" in2="n" scale="7" xChannelSelector="R" yChannelSelector="G"/>
-    </filter>
-    ${W.map((w, i) => `<g id="art-${i}">${w.art}</g>${w.spin ? `<g id="spin-${i}">${w.spin}</g>` : ''}`).join('\n    ')}
+    ${kit.SKY_GRADIENT}
+    ${kit.crayonFilter({ pad: 10, scale: 7 })}
+    ${W.map((w, i) => `<g id="art-${i}">${resolveArt(w.art)}</g>${w.spin ? `<g id="spin-${i}">${resolveArt(w.spin)}</g>` : ''}`).join('\n    ')}
   </defs>
-  <style>${css}</style>
+  <style>${kit.fontFaceCSS()}
+${css}</style>
   <rect width="1080" height="1920" fill="url(#sky)"/>
   ${cloud(170, 170, 0.9, 0)}${cloud(900, 260, 0.7, 1.5)}${cloud(820, 1640, 0.6, 3)}
   <path d="M 0 1580 Q 270 1530 540 1580 T 1080 1570 L 1080 1920 L 0 1920 Z" fill="#9BE07A" stroke="#6DBF4E" stroke-width="10" filter="url(#crayon)"/>

@@ -4,7 +4,7 @@
 //   → out/<id>/<id>-art.jpg (les 5 dessins en grand, pour juger le dessin)
 // Imprime aussi l'audit svgMaker (zones sûres, textes coupés, superpositions…).
 import { execFileSync } from 'node:child_process'
-import { mkdirSync, readFileSync, writeFileSync, rmSync } from 'node:fs'
+import { existsSync, mkdirSync, readFileSync, writeFileSync, rmSync } from 'node:fs'
 import path from 'node:path'
 import { chromium } from '../../node_modules/playwright/index.mjs'
 import { analyse } from '../../src/audit.mjs'
@@ -25,7 +25,9 @@ for (const file of files) {
   mkdirSync(dir, { recursive: true })
   const svgFile = path.join(dir, `${t.id}.svg`)
   writeFileSync(svgFile, svg)
-  writeFileSync(path.join(dir, 'cues.json'), JSON.stringify(cues, null, 2))
+  // n'écrase cues.json que s'il change (sinon build.sh croirait les voix périmées et les referait)
+  const cf = path.join(dir, 'cues.json'), cj = JSON.stringify(cues, null, 2)
+  if (!existsSync(cf) || readFileSync(cf, 'utf8') !== cj) writeFileSync(cf, cj)
 
   const page = await browser.newPage({ viewport: { width: 1080, height: 1920 } })
   const errors = []

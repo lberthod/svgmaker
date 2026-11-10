@@ -5,7 +5,7 @@ Un thème correspond à un fichier `themes/<id>.mjs`. On fabrique la vidéo avec
 Le moteur (`engine.mjs`) gère tout ce qui est commun : Mali, voix, bouche synchronisée, expressions, caméra, « Your turn! », étoiles, quiz et fin. Un thème ne fournit que **5 mots, leurs dessins et leurs gags**.
 
 ```js
-import { INK, S, face, f } from '../engine.mjs'
+import { lib } from '../../../src/kit/library.mjs'
 
 export default {
   id: 'fruits',                                   // = nom du fichier
@@ -16,7 +16,7 @@ export default {
       gag: { type: 'bonk', sfx: 'bonk' }, sound: 'Bonk!' },
     …
   ],
-  art: { banana: `…SVG…` },                      // dessins (voir ci-dessous)
+  art: lib({ banana: 'banana-mali', … }),         // clé du mot → id dans library/ (voir ci-dessous)
   quiz: { answer: 3, choices: [1, 3, 0], q: { en: 'Where is the watermelon?', th: 'แตงโมอยู่ไหนนะ?' } }, // q facultatif
 }
 ```
@@ -28,13 +28,15 @@ export default {
 | `en` | Mot anglais, affiché et dit 3 fois (narrateur, Mali, puis l'enfant). **Un seul mot**, avec la majuscule. |
 | `say` | Prononciation écrite en thaï (`อ่านว่า “…”`). |
 | `th` | Traduction thaïe, affichée « Cat = แมว » et dite par Mali. |
-| `art` | Clé du dessin, dans `art` du thème ou dans `ART_BUILTIN` (cat, dog, apple, sun, fish). |
+| `art` | Clé du dessin, dans `art` du thème ou dans `ART_BUILTIN` (cat, dog, apple, sun, fish → `cat-mali`, `dog-mali`… dans `library/`). |
 | `color` | Couleur du mot (cadre, pastille). Couleur vive. |
 | `gag` | Mise en scène, voir le tableau. Une chaîne (`'bonk'`) ou un objet (`{ type, sfx, … }`). |
 | `plural` | `true` pour un mot au pluriel (Ears, Grapes) : la question du quiz devient « Where are the … ? ». |
 | `sound` | Texte de la bulle comique près de l'objet (« Meow! », « Beep beep! »). **12 caractères maximum.** |
 
 ## Gags (le dessin `art` est l'objet de la scène)
+
+Les gags sont dans `src/kit/actors/gags.mjs` (partagés avec les futurs formats) ; pour en ajouter un, c'est là.
 
 | type | Ce qui se passe | Options |
 |---|---|---|
@@ -54,6 +56,11 @@ Varier les gags dans un thème : au moins 4 types différents sur les 5 mots.
 **Bruitages (`sfx`)** : `step boing pop meow woof bonk splash sparkle cool tick drumroll ding yay whoosh collect giggle moo oink quack cluck neigh beep toot vroom`.
 
 ## Dessins (`art`)
+
+Les dessins sont dans la bibliothèque partagée `library/` (onglet **Bibliothèque** du studio, ou `node ../../bin/svgmaker.mjs art list --tags mali`). Ceux dans le style de Mali portent le suffixe `-mali` (`cow-mali`) ; ceux sans suffixe viennent de la série kids-english-th et marchent aussi (`art: lib({ giraffe: 'giraffe' })`).
+
+Nouveau dessin : écris-le (ou génère-le avec un petit script qui utilise `S()` et `face()` de `engine.mjs`) dans un fichier, puis
+`node ../../bin/svgmaker.mjs art add <nom>-mali <fichier.svg> --cat <catégorie> --tags mali`. `make.mjs` refuse un dessin qui contient un script, une animation, un style, un `id` ou une `class`.
 
 - Chaque dessin est une chaîne SVG **centrée en (0,0)**, qui tient dans un rayon d'environ **200 px** (le moteur le réduit selon le gag, entre ×0,3 et ×0,75).
 - **Style imposé** : dessin d'enfant au crayon.

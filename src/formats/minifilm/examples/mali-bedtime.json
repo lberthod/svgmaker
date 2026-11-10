@@ -1,0 +1,18 @@
+{
+  "format": "minifilm",
+  "id": "mali-bedtime",
+  "title": { "en": "Bedtime, Mali!", "th": "ได้เวลานอนแล้ว" },
+  "shots": [
+    { "duration": 6, "set": "night", "mali": { "x": 300, "move": "walk" },
+      "props": [{ "art": "teddy-bear", "x": 820, "y": 1180, "size": 300, "enter": "pop", "at": 2.0, "idle": "wiggle" }],
+      "lines": [{ "at": 2.4, "role": "narrator", "text": "It's bedtime." }, { "at": 3.8, "role": "mali_en", "text": "My teddy bear!" }],
+      "actions": [{ "at": 3.6, "do": "point", "eyes": "happy", "mouth": "laugh" }] },
+    { "duration": 6, "set": "night",
+      "gag": { "type": "float", "art": "star", "at": 0.4, "balloon": "#FFC93C", "sfx": "sparkle" },
+      "lines": [{ "at": 2.6, "role": "mali_en", "text": "A little star!" }, { "at": 4.2, "role": "mali_th", "text": "ดาวดวงน้อย" }] },
+    { "duration": 6, "set": "night",
+      "actions": [{ "at": 0.5, "do": "listen", "eyes": "squint" }],
+      "lines": [{ "at": 1.0, "role": "mali_en", "text": "Good night, everyone!" }, { "at": 2.8, "role": "mali_th", "text": "ฝันดีนะ" }] }
+  ],
+  "end": "Sweet dreams"
+}

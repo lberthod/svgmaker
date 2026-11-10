@@ -1,0 +1,10166 @@
+{
+ "airplane": {
+  "file": "sky-and-sea/airplane.svg",
+  "cat": "sky-and-sea",
+  "tags": [
+   "kids",
+   "sky-and-sea"
+  ],
+  "source": "kids-english-th/062-sky-and-sea",
+  "colors": [
+   "#1E9BE0",
+   "#3B2A20",
+   "#1576B8",
+   "#F4F8FF",
+   "#BDE8FF",
+   "#FF8FA3"
+  ],
+  "bytes": 2171
+ },
+ "airport": {
+  "file": "more-places/airport.svg",
+  "cat": "more-places",
+  "tags": [
+   "kids",
+   "more-places"
+  ],
+  "source": "kids-english-th/066-more-places",
+  "colors": [
+   "#E6E9EE",
+   "#3B2A20",
+   "#BDE8FF",
+   "#2F80ED",
+   "#F23B3B",
+   "#F4F8FF",
+   "#1E9BE0",
+   "#1576B8",
+   "#FF8FA3"
+  ],
+  "bytes": 4008
+ },
+ "alarm": {
+  "file": "bedtime/alarm.svg",
+  "cat": "bedtime",
+  "tags": [
+   "kids",
+   "bedtime"
+  ],
+  "source": "kids-english-th/089-bedtime",
+  "colors": [
+   "#3B2A20",
+   "#FFC83D",
+   "#B8C4CF",
+   "#F23B3B",
+   "#FFFFFF",
+   "#FF8FA3",
+   "#1E9BE0"
+  ],
+  "bytes": 2523
+ },
+ "alien": {
+  "file": "space/alien.svg",
+  "cat": "space",
+  "tags": [
+   "kids",
+   "space"
+  ],
+  "source": "kids-english-th/070-space",
+  "colors": [
+   "#FFD93B",
+   "#3B2A20",
+   "#7ED957",
+   "#B8F08A",
+   "#FF8FA3",
+   "#FF6F91"
+  ],
+  "bytes": 3892
+ },
+ "ambulance": {
+  "file": "city-ride/ambulance.svg",
+  "cat": "city-ride",
+  "tags": [
+   "kids",
+   "city-ride"
+  ],
+  "source": "kids-english-th/063-city-ride",
+  "colors": [
+   "#F23B3B",
+   "#3B2A20",
+   "#1E9BE0",
+   "#BDE8FF",
+   "#FF8FA3",
+   "#FFE36B",
+   "#4A4F5C",
+   "#D9DEE6"
+  ],
+  "bytes": 2350
+ },
+ "anchor": {
+  "file": "pirates/anchor.svg",
+  "cat": "pirates",
+  "tags": [
+   "kids",
+   "pirates"
+  ],
+  "source": "kids-english-th/090-pirates",
+  "colors": [
+   "#3B2A20",
+   "#5B7DA8",
+   "#E2B66A"
+  ],
+  "bytes": 1880
+ },
+ "angry": {
+  "file": "feelings/angry.svg",
+  "cat": "feelings",
+  "tags": [
+   "kids",
+   "feelings"
+  ],
+  "source": "kids-english-th/024-feelings",
+  "colors": [
+   "#3B2A20",
+   "#E8E8EE",
+   "#F7A383",
+   "#2B2024",
+   "#FF8FA3"
+  ],
+  "bytes": 2416
+ },
+ "ant": {
+  "file": "insects/ant.svg",
+  "cat": "insects",
+  "tags": [
+   "kids",
+   "insects"
+  ],
+  "source": "kids-english-th/007-insects",
+  "colors": [
+   "#3B2A20",
+   "#D9534F",
+   "#FF8FA3"
+  ],
+  "bytes": 1572
+ },
+ "apple": {
+  "file": "first-words/apple.svg",
+  "cat": "first-words",
+  "tags": [
+   "kids",
+   "first-words"
+  ],
+  "source": "kids-english-th/000-first-words",
+  "colors": [
+   "#7A4B2A",
+   "#3DBE5A",
+   "#3B2A20",
+   "#F23B3B",
+   "#FF8FA3"
+  ],
+  "bytes": 1050
+ },
+ "apple-mali": {
+  "file": "fruits/apple-mali.svg",
+  "cat": "fruits",
+  "tags": [
+   "mali",
+   "fruits"
+  ],
+  "source": "mali-english-th/engine.mjs",
+  "colors": [
+   "#7A4B2A",
+   "#3DBE5A",
+   "#3B2A20",
+   "#F23B3B",
+   "#FF8FA3"
+  ],
+  "bytes": 1079
+ },
+ "apricot": {
+  "file": "berries/apricot.svg",
+  "cat": "berries",
+  "tags": [
+   "kids",
+   "berries"
+  ],
+  "source": "kids-english-th/093-berries",
+  "colors": [
+   "#7A4B2A",
+   "#3DBE5A",
+   "#3B2A20",
+   "#FFA53D",
+   "#FF7A45",
+   "#E8862A",
+   "#FF8FA3"
+  ],
+  "bytes": 1301
+ },
+ "arm": {
+  "file": "body/arm.svg",
+  "cat": "body",
+  "tags": [
+   "kids",
+   "body"
+  ],
+  "source": "kids-english-th/022-body",
+  "colors": [
+   "#3DBE5A",
+   "#3B2A20",
+   "#F5C28E",
+   "#F23B3B",
+   "#1E78D0",
+   "#FF8A3D",
+   "#2B2024",
+   "#FF8FA3",
+   "#B8323F",
+   "#FF7A8A",
+   "#E3A06B",
+   "#FFD93B"
+  ],
+  "bytes": 4140
+ },
+ "arrow": {
+  "file": "more-shapes/arrow.svg",
+  "cat": "more-shapes",
+  "tags": [
+   "kids",
+   "more-shapes"
+  ],
+  "source": "kids-english-th/044-more-shapes",
+  "colors": [
+   "#F23B3B",
+   "#3B2A20",
+   "#FF8FA3"
+  ],
+  "bytes": 765
+ },
+ "astronaut": {
+  "file": "space/astronaut.svg",
+  "cat": "space",
+  "tags": [
+   "kids",
+   "space"
+  ],
+  "source": "kids-english-th/070-space",
+  "colors": [
+   "#FFD93B",
+   "#3B2A20",
+   "#B8C2CC",
+   "#F4F8FF",
+   "#F23B3B",
+   "#5CC8FF",
+   "#2DB84C",
+   "#BDE8FF",
+   "#F6C9A0",
+   "#5A3A2A",
+   "#FF8FA3"
+  ],
+  "bytes": 4421
+ },
+ "autumn": {
+  "file": "seasons/autumn.svg",
+  "cat": "seasons",
+  "tags": [
+   "kids",
+   "seasons"
+  ],
+  "source": "kids-english-th/077-seasons",
+  "colors": [
+   "#FFEBC9",
+   "#C9D96B",
+   "#3B2A20",
+   "#9B6A3F",
+   "#FF9A2E",
+   "#FFC83D",
+   "#F25C54"
+  ],
+  "bytes": 3666
+ },
+ "baby": {
+  "file": "family/baby.svg",
+  "cat": "family",
+  "tags": [
+   "kids",
+   "family"
+  ],
+  "source": "kids-english-th/026-family",
+  "colors": [
+   "#FFE27A",
+   "#3B2A20",
+   "#F5C28E",
+   "#2B2024",
+   "#FF8FA3",
+   "#7FD1FF",
+   "#FF8FB1",
+   "#FFD93B"
+  ],
+  "bytes": 2163
+ },
+ "backpack": {
+  "file": "camping/backpack.svg",
+  "cat": "camping",
+  "tags": [
+   "kids",
+   "camping"
+  ],
+  "source": "kids-english-th/068-camping",
+  "colors": [
+   "#C62828",
+   "#3B2A20",
+   "#F23B3B",
+   "#FF8A3D",
+   "#FFD93B",
+   "#FF8FA3"
+  ],
+  "bytes": 1840
+ },
+ "badminton": {
+  "file": "sports/badminton.svg",
+  "cat": "sports",
+  "tags": [
+   "kids",
+   "sports"
+  ],
+  "source": "kids-english-th/055-sports",
+  "colors": [
+   "#F5F7FA",
+   "#9AA6B4",
+   "#3B2A20",
+   "#8C96A3",
+   "#FFB400",
+   "#1E9BE0",
+   "#C7D0DA",
+   "#E8453C"
+  ],
+  "bytes": 1858
+ },
+ "bag": {
+  "file": "school-bag/bag.svg",
+  "cat": "school-bag",
+  "tags": [
+   "kids",
+   "school-bag"
+  ],
+  "source": "kids-english-th/058-school-bag",
+  "colors": [
+   "#3B2A20",
+   "#1E5AAC",
+   "#E8453C",
+   "#C93A32",
+   "#FFB400",
+   "#FFD93B",
+   "#FF8FA3"
+  ],
+  "bytes": 1669
+ },
+ "baker": {
+  "file": "workers/baker.svg",
+  "cat": "workers",
+  "tags": [
+   "kids",
+   "workers"
+  ],
+  "source": "kids-english-th/083-workers",
+  "colors": [
+   "#33261F",
+   "#3B2A20",
+   "#FFFFFF",
+   "#FFD5A8",
+   "#FFC08A",
+   "#F6C9A0",
+   "#FF8FA3",
+   "#B8C4CF",
+   "#D9822B",
+   "#F5C27A"
+  ],
+  "bytes": 2779
+ },
+ "ball": {
+  "file": "toys/ball.svg",
+  "cat": "toys",
+  "tags": [
+   "kids",
+   "toys"
+  ],
+  "source": "kids-english-th/040-toys",
+  "colors": [
+   "#F23B3B",
+   "#3B2A20",
+   "#FFD93B",
+   "#29A8F0",
+   "#FF8FA3"
+  ],
+  "bytes": 1285
+ },
+ "balloon": {
+  "file": "party/balloon.svg",
+  "cat": "party",
+  "tags": [
+   "kids",
+   "party"
+  ],
+  "source": "kids-english-th/060-party",
+  "colors": [
+   "#3B2A20",
+   "#1E9BE0",
+   "#FFD93B",
+   "#E8453C",
+   "#FF8FA3"
+  ],
+  "bytes": 2056
+ },
+ "bamboo": {
+  "file": "plants/bamboo.svg",
+  "cat": "plants",
+  "tags": [
+   "kids",
+   "plants"
+  ],
+  "source": "kids-english-th/075-plants",
+  "colors": [
+   "#4CAF50",
+   "#3B2A20",
+   "#8BD15C",
+   "#5FA83A",
+   "#7ED957"
+  ],
+  "bytes": 5593
+ },
+ "banana": {
+  "file": "fruits/banana.svg",
+  "cat": "fruits",
+  "tags": [
+   "kids",
+   "fruits"
+  ],
+  "source": "kids-english-th/011-fruits",
+  "colors": [
+   "#3B2A20",
+   "#7A4B2A",
+   "#FFE135",
+   "#FFF6B0",
+   "#FF8FA3"
+  ],
+  "bytes": 1135
+ },
+ "banana-mali": {
+  "file": "fruits/banana-mali.svg",
+  "cat": "fruits",
+  "tags": [
+   "mali",
+   "fruits"
+  ],
+  "source": "mali-english-th/themes/fruits.mjs",
+  "colors": [
+   "#7A4B2A",
+   "#FFD93B",
+   "#3B2A20",
+   "#E8B400",
+   "#FF8FA3"
+  ],
+  "bytes": 1038
+ },
+ "bandage": {
+  "file": "health/bandage.svg",
+  "cat": "health",
+  "tags": [
+   "kids",
+   "health"
+  ],
+  "source": "kids-english-th/087-health",
+  "colors": [
+   "#F7B98B",
+   "#3B2A20",
+   "#FBE3C5",
+   "#D98F5C",
+   "#FF8FA3",
+   "#FF6FB5",
+   "#FFD93B"
+  ],
+  "bytes": 1787
+ },
+ "barn": {
+  "file": "farm/barn.svg",
+  "cat": "farm",
+  "tags": [
+   "kids",
+   "farm"
+  ],
+  "source": "kids-english-th/069-farm",
+  "colors": [
+   "#7ED957",
+   "#3B2A20",
+   "#E8463A",
+   "#FFC93B"
+  ],
+  "bytes": 1666
+ },
+ "basket": {
+  "file": "market/basket.svg",
+  "cat": "market",
+  "tags": [
+   "kids",
+   "market"
+  ],
+  "source": "kids-english-th/086-market",
+  "colors": [
+   "#3B2A20",
+   "#C98B4F",
+   "#FFE04A",
+   "#F23B3B",
+   "#7A4B2A",
+   "#FF9A1E",
+   "#3DA53D",
+   "#4CAF50",
+   "#D9A05B",
+   "#B7803F",
+   "#C99A4E",
+   "#FF8FA3"
+  ],
+  "bytes": 3300
+ },
+ "basketball": {
+  "file": "sports/basketball.svg",
+  "cat": "sports",
+  "tags": [
+   "kids",
+   "sports"
+  ],
+  "source": "kids-english-th/055-sports",
+  "colors": [
+   "#F28A2E",
+   "#3B2A20"
+  ],
+  "bytes": 423
+ },
+ "bat": {
+  "file": "woodland-animals/bat.svg",
+  "cat": "woodland-animals",
+  "tags": [
+   "kids",
+   "woodland-animals"
+  ],
+  "source": "kids-english-th/096-woodland-animals",
+  "colors": [
+   "#7B4FC9",
+   "#3B2A20",
+   "#5B36A0",
+   "#9A6BE0",
+   "#FFB3C1",
+   "#C7A8F2",
+   "#FF8FA3",
+   "#FFD93B"
+  ],
+  "bytes": 2127
+ },
+ "bath": {
+  "file": "bath-time/bath.svg",
+  "cat": "bath-time",
+  "tags": [
+   "kids",
+   "bath-time"
+  ],
+  "source": "kids-english-th/028-bath-time",
+  "colors": [
+   "#F5C28E",
+   "#3B2A20",
+   "#2B2024",
+   "#FF8FA3",
+   "#B8323F",
+   "#FF7A8A",
+   "#FFB400",
+   "#5CC8FF",
+   "#FFD93B",
+   "#FF8A3D",
+   "#DFF4FF"
+  ],
+  "bytes": 3704
+ },
+ "beak": {
+  "file": "bird-parts/beak.svg",
+  "cat": "bird-parts",
+  "tags": [
+   "kids",
+   "bird-parts"
+  ],
+  "source": "kids-english-th/095-bird-parts",
+  "colors": [
+   "#6CC24A",
+   "#3B2A20",
+   "#4FAE5A",
+   "#8EDB6A",
+   "#FFF1B8",
+   "#FF8FA3",
+   "#E86A10",
+   "#FF9A1F",
+   "#FFD93B"
+  ],
+  "bytes": 2500
+ },
+ "beans": {
+  "file": "green-food/beans.svg",
+  "cat": "green-food",
+  "tags": [
+   "kids",
+   "green-food"
+  ],
+  "source": "kids-english-th/094-green-food",
+  "colors": [
+   "#3B2A20",
+   "#3FA34D",
+   "#7FD067",
+   "#4CB050",
+   "#6CC24A",
+   "#FF8FA3",
+   "#FF5FA2",
+   "#FF8FC0"
+  ],
+  "bytes": 3543
+ },
+ "bear": {
+  "file": "more-wild-animals/bear.svg",
+  "cat": "more-wild-animals",
+  "tags": [
+   "kids",
+   "more-wild-animals"
+  ],
+  "source": "kids-english-th/080-more-wild-animals",
+  "colors": [
+   "#A0673A",
+   "#3B2A20",
+   "#E8C08A",
+   "#FFB400",
+   "#FFD93B",
+   "#FF8FA3"
+  ],
+  "bytes": 2466
+ },
+ "beaver": {
+  "file": "woodland-animals/beaver.svg",
+  "cat": "woodland-animals",
+  "tags": [
+   "kids",
+   "woodland-animals"
+  ],
+  "source": "kids-english-th/096-woodland-animals",
+  "colors": [
+   "#29A8F0",
+   "#6B4A2E",
+   "#3B2A20",
+   "#4E3420",
+   "#A0652E",
+   "#D9A066",
+   "#FF8FA3",
+   "#E8C9A0"
+  ],
+  "bytes": 2463
+ },
+ "bed": {
+  "file": "bedroom/bed.svg",
+  "cat": "bedroom",
+  "tags": [
+   "kids",
+   "bedroom"
+  ],
+  "source": "kids-english-th/033-bedroom",
+  "colors": [
+   "#FF8A3D",
+   "#3B2A20",
+   "#FF6F91",
+   "#EAF6FF",
+   "#29A8F0",
+   "#8FD3FF",
+   "#FFAA66",
+   "#FF8FA3"
+  ],
+  "bytes": 1959
+ },
+ "bee": {
+  "file": "insects/bee.svg",
+  "cat": "insects",
+  "tags": [
+   "kids",
+   "insects"
+  ],
+  "source": "kids-english-th/007-insects",
+  "colors": [
+   "#D6F0FF",
+   "#3B2A20",
+   "#FFD93B",
+   "#FF8FA3"
+  ],
+  "bytes": 2308
+ },
+ "bell": {
+  "file": "christmas/bell.svg",
+  "cat": "christmas",
+  "tags": [
+   "kids",
+   "christmas"
+  ],
+  "source": "kids-english-th/088-christmas",
+  "colors": [
+   "#E0A21B",
+   "#3B2A20",
+   "#FFC83D",
+   "#FF8FA3",
+   "#F23B3B",
+   "#E02B2B",
+   "#3DBE5A"
+  ],
+  "bytes": 2903
+ },
+ "bicycle": {
+  "file": "vehicles/bicycle.svg",
+  "cat": "vehicles",
+  "tags": [
+   "kids",
+   "vehicles"
+  ],
+  "source": "kids-english-th/061-vehicles",
+  "colors": [
+   "#EAF6FF",
+   "#3B2A20",
+   "#9AA0A6",
+   "#2DB84C",
+   "#F23B3B",
+   "#FFC93B"
+  ],
+  "bytes": 2661
+ },
+ "big": {
+  "file": "sizes/big.svg",
+  "cat": "sizes",
+  "tags": [
+   "kids",
+   "sizes"
+  ],
+  "source": "kids-english-th/047-sizes",
+  "colors": [
+   "#FFF1A8",
+   "#FFC93B",
+   "#FF8A3D",
+   "#3B2A20",
+   "#FF8FA3",
+   "#2F9BFF"
+  ],
+  "bytes": 2063
+ },
+ "bird": {
+  "file": "bird-parts/bird.svg",
+  "cat": "bird-parts",
+  "tags": [
+   "kids",
+   "bird-parts"
+  ],
+  "source": "kids-english-th/095-bird-parts",
+  "colors": [
+   "#F28C00",
+   "#29A8F0",
+   "#3B2A20",
+   "#1E88D9",
+   "#5CC8FF",
+   "#D6F2FF",
+   "#FF8FA3",
+   "#FFB400"
+  ],
+  "bytes": 1786
+ },
+ "black": {
+  "file": "more-colors/black.svg",
+  "cat": "more-colors",
+  "tags": [
+   "kids",
+   "more-colors"
+  ],
+  "source": "kids-english-th/042-more-colors",
+  "colors": [
+   "#2E2B33",
+   "#3B2A20",
+   "#FFB3C1",
+   "#FF8FA3",
+   "#FF6F91",
+   "#C9C4D0"
+  ],
+  "bytes": 1560
+ },
+ "blanket": {
+  "file": "bedroom/blanket.svg",
+  "cat": "bedroom",
+  "tags": [
+   "kids",
+   "bedroom"
+  ],
+  "source": "kids-english-th/033-bedroom",
+  "colors": [
+   "#EAF6FF",
+   "#3B2A20",
+   "#FFD9B3",
+   "#FF8FA3",
+   "#FF6F91",
+   "#FFD93B",
+   "#5CC8FF",
+   "#8E5BD9"
+  ],
+  "bytes": 2764
+ },
+ "blocks": {
+  "file": "toys/blocks.svg",
+  "cat": "toys",
+  "tags": [
+   "kids",
+   "toys"
+  ],
+  "source": "kids-english-th/040-toys",
+  "colors": [
+   "#FF7A7A",
+   "#3B2A20",
+   "#C42B2B",
+   "#F23B3B",
+   "#7FD0FF",
+   "#1E7BC6",
+   "#29A8F0",
+   "#7FE296",
+   "#2E9E48",
+   "#3DBE5A"
+  ],
+  "bytes": 2270
+ },
+ "blue": {
+  "file": "colors/blue.svg",
+  "cat": "colors",
+  "tags": [
+   "kids",
+   "colors"
+  ],
+  "source": "kids-english-th/041-colors",
+  "colors": [
+   "#3B2A20",
+   "#2F7BE8",
+   "#1F5FC4",
+   "#6FA8FF",
+   "#FF8FA3"
+  ],
+  "bytes": 1643
+ },
+ "blue-mali": {
+  "file": "colors/blue-mali.svg",
+  "cat": "colors",
+  "tags": [
+   "mali",
+   "colors"
+  ],
+  "source": "mali-english-th/themes/colors.mjs",
+  "colors": [
+   "#1FA2F2",
+   "#3B2A20",
+   "#FF8FA3"
+  ],
+  "bytes": 2598
+ },
+ "blueberry": {
+  "file": "berries/blueberry.svg",
+  "cat": "berries",
+  "tags": [
+   "kids",
+   "berries"
+  ],
+  "source": "kids-english-th/093-berries",
+  "colors": [
+   "#3DBE5A",
+   "#3B2A20",
+   "#5DCB6A",
+   "#5A7FF0",
+   "#2B3E99",
+   "#3F63D6",
+   "#4A6FE3",
+   "#FF8FA3"
+  ],
+  "bytes": 2219
+ },
+ "boat": {
+  "file": "sky-and-sea/boat.svg",
+  "cat": "sky-and-sea",
+  "tags": [
+   "kids",
+   "sky-and-sea"
+  ],
+  "source": "kids-english-th/062-sky-and-sea",
+  "colors": [
+   "#8B5A2B",
+   "#3B2A20",
+   "#F23B3B",
+   "#FF8A3D",
+   "#FFD93B",
+   "#E2661B",
+   "#FF8FA3",
+   "#5CC8FF"
+  ],
+  "bytes": 1906
+ },
+ "boat-mali": {
+  "file": "vehicles/boat-mali.svg",
+  "cat": "vehicles",
+  "tags": [
+   "mali",
+   "vehicles"
+  ],
+  "source": "mali-english-th/themes/vehicles.mjs",
+  "colors": [
+   "#F23B3B",
+   "#3B2A20",
+   "#FFFFFF",
+   "#A9E4FF",
+   "#FF8A3D",
+   "#FF8FA3",
+   "#2E9BD6"
+  ],
+  "bytes": 1970
+ },
+ "book": {
+  "file": "school-bag/book.svg",
+  "cat": "school-bag",
+  "tags": [
+   "kids",
+   "school-bag"
+  ],
+  "source": "kids-english-th/058-school-bag",
+  "colors": [
+   "#1E9BE0",
+   "#3B2A20",
+   "#9BB7D4",
+   "#FFD93B",
+   "#3DBE5A",
+   "#E8453C"
+  ],
+  "bytes": 1231
+ },
+ "boots": {
+  "file": "accessories/boots.svg",
+  "cat": "accessories",
+  "tags": [
+   "kids",
+   "accessories"
+  ],
+  "source": "kids-english-th/097-accessories",
+  "colors": [
+   "#FFD12E",
+   "#3B2A20",
+   "#E89B00",
+   "#FFE98A",
+   "#FF8FA3"
+  ],
+  "bytes": 1711
+ },
+ "bottle": {
+  "file": "containers/bottle.svg",
+  "cat": "containers",
+  "tags": [
+   "kids",
+   "containers"
+  ],
+  "source": "kids-english-th/098-containers",
+  "colors": [
+   "#3D7BFF",
+   "#3B2A20",
+   "#2A5FD0",
+   "#DDF2FF",
+   "#7FD0FF",
+   "#4DB6E8",
+   "#FF8FA3"
+  ],
+  "bytes": 1645
+ },
+ "bowl": {
+  "file": "tableware/bowl.svg",
+  "cat": "tableware",
+  "tags": [
+   "kids",
+   "tableware"
+  ],
+  "source": "kids-english-th/034-tableware",
+  "colors": [
+   "#3B2A20",
+   "#D8D2C8",
+   "#7A4FC0",
+   "#9B6BE0",
+   "#FFD93B",
+   "#FF8FA3"
+  ],
+  "bytes": 1355
+ },
+ "box": {
+  "file": "containers/box.svg",
+  "cat": "containers",
+  "tags": [
+   "kids",
+   "containers"
+  ],
+  "source": "kids-english-th/098-containers",
+  "colors": [
+   "#EBBE85",
+   "#3B2A20",
+   "#8B5A2B",
+   "#C98B4A",
+   "#E0A964",
+   "#FF8FA3"
+  ],
+  "bytes": 1522
+ },
+ "boy": {
+  "file": "people/boy.svg",
+  "cat": "people",
+  "tags": [
+   "kids",
+   "people"
+  ],
+  "source": "kids-english-th/027-people",
+  "colors": [
+   "#3B2A20",
+   "#F5C28E",
+   "#F23B3B",
+   "#1E78D0",
+   "#3DBE5A",
+   "#2B2024",
+   "#FF8FA3",
+   "#FFD93B"
+  ],
+  "bytes": 3563
+ },
+ "bread": {
+  "file": "breakfast/bread.svg",
+  "cat": "breakfast",
+  "tags": [
+   "kids",
+   "breakfast"
+  ],
+  "source": "kids-english-th/016-breakfast",
+  "colors": [
+   "#C9813A",
+   "#3B2A20",
+   "#FBE1A8",
+   "#FF8FA3"
+  ],
+  "bytes": 953
+ },
+ "bridge": {
+  "file": "on-the-road/bridge.svg",
+  "cat": "on-the-road",
+  "tags": [
+   "kids",
+   "on-the-road"
+  ],
+  "source": "kids-english-th/064-on-the-road",
+  "colors": [
+   "#5CC8FF",
+   "#3B2A20",
+   "#C62828",
+   "#F39A4B"
+  ],
+  "bytes": 2221
+ },
+ "broccoli": {
+  "file": "more-vegetables/broccoli.svg",
+  "cat": "more-vegetables",
+  "tags": [
+   "kids",
+   "more-vegetables"
+  ],
+  "source": "kids-english-th/015-more-vegetables",
+  "colors": [
+   "#A5D96A",
+   "#3B2A20",
+   "#7CB342",
+   "#3DA34A",
+   "#2E8B3A",
+   "#FF8FA3"
+  ],
+  "bytes": 2353
+ },
+ "broom": {
+  "file": "cleaning/broom.svg",
+  "cat": "cleaning",
+  "tags": [
+   "kids",
+   "cleaning"
+  ],
+  "source": "kids-english-th/039-cleaning",
+  "colors": [
+   "#C77B3A",
+   "#3B2A20",
+   "#FFD15C",
+   "#E0A92A",
+   "#F23B3B",
+   "#FF8FA3",
+   "#D8D2C8"
+  ],
+  "bytes": 1534
+ },
+ "brother": {
+  "file": "people/brother.svg",
+  "cat": "people",
+  "tags": [
+   "kids",
+   "people"
+  ],
+  "source": "kids-english-th/027-people",
+  "colors": [
+   "#3B2A20",
+   "#F5C28E",
+   "#F23B3B",
+   "#3B4CB8",
+   "#1E9BE0",
+   "#2B2024",
+   "#FF8FA3",
+   "#FF6F91",
+   "#FFB400",
+   "#FF8A3D",
+   "#FF5C7A",
+   "#FFD93B"
+  ],
+  "bytes": 7607
+ },
+ "brown": {
+  "file": "more-colors/brown.svg",
+  "cat": "more-colors",
+  "tags": [
+   "kids",
+   "more-colors"
+  ],
+  "source": "kids-english-th/042-more-colors",
+  "colors": [
+   "#A86A3D",
+   "#3B2A20",
+   "#E2B48A",
+   "#FF8FA3"
+  ],
+  "bytes": 1374
+ },
+ "brush": {
+  "file": "tools/brush.svg",
+  "cat": "tools",
+  "tags": [
+   "kids",
+   "tools"
+  ],
+  "source": "kids-english-th/038-tools",
+  "colors": [
+   "#8E5BD9",
+   "#E8A15C",
+   "#3B2A20",
+   "#FFE0A3",
+   "#E0B870",
+   "#C9D3DC",
+   "#FF8FA3"
+  ],
+  "bytes": 1603
+ },
+ "bucket": {
+  "file": "tools/bucket.svg",
+  "cat": "tools",
+  "tags": [
+   "kids",
+   "tools"
+  ],
+  "source": "kids-english-th/038-tools",
+  "colors": [
+   "#3B2A20",
+   "#9AA6B2",
+   "#29A8F0",
+   "#1E7BC6",
+   "#FFD93B",
+   "#FF8FA3"
+  ],
+  "bytes": 1546
+ },
+ "builder": {
+  "file": "more-jobs/builder.svg",
+  "cat": "more-jobs",
+  "tags": [
+   "kids",
+   "more-jobs"
+  ],
+  "source": "kids-english-th/082-more-jobs",
+  "colors": [
+   "#3F7FD9",
+   "#3B2A20",
+   "#FF8A1E",
+   "#FFE45C",
+   "#F6C9A0",
+   "#33261F",
+   "#FF8FA3",
+   "#FFC81E",
+   "#FFD93B",
+   "#E0603C"
+  ],
+  "bytes": 2900
+ },
+ "bus": {
+  "file": "vehicles/bus.svg",
+  "cat": "vehicles",
+  "tags": [
+   "kids",
+   "vehicles"
+  ],
+  "source": "kids-english-th/061-vehicles",
+  "colors": [
+   "#FFC12E",
+   "#3B2A20",
+   "#BDE8FF",
+   "#E2661B",
+   "#FF8FA3",
+   "#FFE36B",
+   "#4A4F5C",
+   "#D9DEE6"
+  ],
+  "bytes": 2501
+ },
+ "bus-mali": {
+  "file": "vehicles/bus-mali.svg",
+  "cat": "vehicles",
+  "tags": [
+   "mali",
+   "vehicles"
+  ],
+  "source": "mali-english-th/themes/vehicles.mjs",
+  "colors": [
+   "#FFC21A",
+   "#3B2A20",
+   "#A9E4FF",
+   "#F23B3B",
+   "#FFF3B0",
+   "#FF8FA3",
+   "#4A4A55",
+   "#D9DDE5"
+  ],
+  "bytes": 2163
+ },
+ "butter": {
+  "file": "baking/butter.svg",
+  "cat": "baking",
+  "tags": [
+   "kids",
+   "baking"
+  ],
+  "source": "kids-english-th/092-baking",
+  "colors": [
+   "#BDE3FF",
+   "#3B2A20",
+   "#DDF1FF",
+   "#F2BE2E",
+   "#FFEA9A",
+   "#FFD95A",
+   "#FF8FA3"
+  ],
+  "bytes": 1397
+ },
+ "butterfly": {
+  "file": "insects/butterfly.svg",
+  "cat": "insects",
+  "tags": [
+   "kids",
+   "insects"
+  ],
+  "source": "kids-english-th/007-insects",
+  "colors": [
+   "#FF6FB5",
+   "#3B2A20",
+   "#FFB13B",
+   "#FFD6EC",
+   "#FFE7A8",
+   "#8E5BD9",
+   "#FF8FA3"
+  ],
+  "bytes": 2062
+ },
+ "cabbage": {
+  "file": "green-food/cabbage.svg",
+  "cat": "green-food",
+  "tags": [
+   "kids",
+   "green-food"
+  ],
+  "source": "kids-english-th/094-green-food",
+  "colors": [
+   "#BDE69A",
+   "#3B2A20",
+   "#8CCB66",
+   "#4FAE5A",
+   "#8FD68A",
+   "#FF8FA3"
+  ],
+  "bytes": 1422
+ },
+ "cactus": {
+  "file": "plants/cactus.svg",
+  "cat": "plants",
+  "tags": [
+   "kids",
+   "plants"
+  ],
+  "source": "kids-english-th/075-plants",
+  "colors": [
+   "#5DBB3F",
+   "#3B2A20",
+   "#FF7EB6",
+   "#FFD93B",
+   "#FF8FA3",
+   "#E07B39",
+   "#F29358"
+  ],
+  "bytes": 2591
+ },
+ "cake": {
+  "file": "sweets/cake.svg",
+  "cat": "sweets",
+  "tags": [
+   "kids",
+   "sweets"
+  ],
+  "source": "kids-english-th/018-sweets",
+  "colors": [
+   "#C9E8FF",
+   "#3B2A20",
+   "#FFC2D1",
+   "#7FD1F7",
+   "#FFB400",
+   "#F23B3B",
+   "#FF8FA3"
+  ],
+  "bytes": 1632
+ },
+ "calf": {
+  "file": "baby-animals/calf.svg",
+  "cat": "baby-animals",
+  "tags": [
+   "kids",
+   "baby-animals"
+  ],
+  "source": "kids-english-th/079-baby-animals",
+  "colors": [
+   "#3B2A20",
+   "#8B5A2B",
+   "#FFB3C1",
+   "#F3D3A8",
+   "#FFC2CF",
+   "#FF8FA3",
+   "#FFD93B"
+  ],
+  "bytes": 3588
+ },
+ "camera": {
+  "file": "electronics/camera.svg",
+  "cat": "electronics",
+  "tags": [
+   "kids",
+   "electronics"
+  ],
+  "source": "kids-english-th/091-electronics",
+  "colors": [
+   "#FF8FB0",
+   "#3B2A20",
+   "#FFD93B",
+   "#FF4F79",
+   "#FFF6B0",
+   "#E3E6EE",
+   "#3B4A8C",
+   "#22305E",
+   "#FFB400"
+  ],
+  "bytes": 1264
+ },
+ "campfire": {
+  "file": "camping/campfire.svg",
+  "cat": "camping",
+  "tags": [
+   "kids",
+   "camping"
+  ],
+  "source": "kids-english-th/068-camping",
+  "colors": [
+   "#A9B4C2",
+   "#3B2A20",
+   "#8B5A2B",
+   "#A0683A",
+   "#FF8A3D",
+   "#FFD93B",
+   "#FF8FA3",
+   "#FFB400"
+  ],
+  "bytes": 1682
+ },
+ "can": {
+  "file": "containers/can.svg",
+  "cat": "containers",
+  "tags": [
+   "kids",
+   "containers"
+  ],
+  "source": "kids-english-th/098-containers",
+  "colors": [
+   "#C9CED8",
+   "#3B2A20",
+   "#3DBE5A",
+   "#E3E6EC",
+   "#9AA3B5",
+   "#FF8FA3"
+  ],
+  "bytes": 1607
+ },
+ "candle": {
+  "file": "party/candle.svg",
+  "cat": "party",
+  "tags": [
+   "kids",
+   "party"
+  ],
+  "source": "kids-english-th/060-party",
+  "colors": [
+   "#FFF2A8",
+   "#8FD3FF",
+   "#3B2A20",
+   "#FF8FA3",
+   "#FFB400",
+   "#FFE66B",
+   "#B8C2CC"
+  ],
+  "bytes": 1521
+ },
+ "candy": {
+  "file": "sweets/candy.svg",
+  "cat": "sweets",
+  "tags": [
+   "kids",
+   "sweets"
+  ],
+  "source": "kids-english-th/018-sweets",
+  "colors": [
+   "#FFD93B",
+   "#3B2A20",
+   "#E6B800",
+   "#FF5C8A",
+   "#FF8FA3"
+  ],
+  "bytes": 1390
+ },
+ "car": {
+  "file": "vehicles/car.svg",
+  "cat": "vehicles",
+  "tags": [
+   "kids",
+   "vehicles"
+  ],
+  "source": "kids-english-th/061-vehicles",
+  "colors": [
+   "#F23B3B",
+   "#3B2A20",
+   "#BDE8FF",
+   "#FF8A3D",
+   "#FFE36B",
+   "#4A4F5C",
+   "#D9DEE6",
+   "#FF8FA3"
+  ],
+  "bytes": 2360
+ },
+ "car-mali": {
+  "file": "vehicles/car-mali.svg",
+  "cat": "vehicles",
+  "tags": [
+   "mali",
+   "vehicles"
+  ],
+  "source": "mali-english-th/themes/vehicles.mjs",
+  "colors": [
+   "#F23B3B",
+   "#3B2A20",
+   "#A9E4FF",
+   "#FFE066",
+   "#FF8FA3",
+   "#4A4A55",
+   "#D9DDE5"
+  ],
+  "bytes": 1911
+ },
+ "carrot": {
+  "file": "vegetables/carrot.svg",
+  "cat": "vegetables",
+  "tags": [
+   "kids",
+   "vegetables"
+  ],
+  "source": "kids-english-th/014-vegetables",
+  "colors": [
+   "#3DBE5A",
+   "#3B2A20",
+   "#2E9E48",
+   "#FF8A1F",
+   "#D96A00",
+   "#FF8FA3"
+  ],
+  "bytes": 2002
+ },
+ "castle": {
+  "file": "fantasy/castle.svg",
+  "cat": "fantasy",
+  "tags": [
+   "kids",
+   "fantasy"
+  ],
+  "source": "kids-english-th/078-fantasy",
+  "colors": [
+   "#FFB6D5",
+   "#3B2A20",
+   "#F25C54",
+   "#8E6BD6",
+   "#5A4A8A",
+   "#FFD93B",
+   "#FFC7DF",
+   "#2E9BF0",
+   "#B388FF",
+   "#B5793F",
+   "#FFE066",
+   "#7ED957"
+  ],
+  "bytes": 3359
+ },
+ "cat": {
+  "file": "first-words/cat.svg",
+  "cat": "first-words",
+  "tags": [
+   "kids",
+   "first-words"
+  ],
+  "source": "kids-english-th/000-first-words",
+  "colors": [
+   "#FF8A3D",
+   "#3B2A20",
+   "#FFB3C1",
+   "#E2661B",
+   "#FF6F91",
+   "#FF8FA3"
+  ],
+  "bytes": 1461
+ },
+ "cat-mali": {
+  "file": "animals/cat-mali.svg",
+  "cat": "animals",
+  "tags": [
+   "mali",
+   "animals"
+  ],
+  "source": "mali-english-th/engine.mjs",
+  "colors": [
+   "#FF8A3D",
+   "#3B2A20",
+   "#FFB3C1",
+   "#E2661B",
+   "#FF6F91",
+   "#FF8FA3"
+  ],
+  "bytes": 1502
+ },
+ "caterpillar": {
+  "file": "garden-bugs/caterpillar.svg",
+  "cat": "garden-bugs",
+  "tags": [
+   "kids",
+   "garden-bugs"
+  ],
+  "source": "kids-english-th/008-garden-bugs",
+  "colors": [
+   "#3B2A20",
+   "#7ED957",
+   "#FFD93B",
+   "#5BC24A",
+   "#F23B3B",
+   "#FF8FA3"
+  ],
+  "bytes": 2413
+ },
+ "cave": {
+  "file": "more-nature/cave.svg",
+  "cat": "more-nature",
+  "tags": [
+   "kids",
+   "more-nature"
+  ],
+  "source": "kids-english-th/074-more-nature",
+  "colors": [
+   "#BDE6FF",
+   "#A58B74",
+   "#3B2A20",
+   "#8C735E",
+   "#7ED957",
+   "#A9AEBC",
+   "#8E6BD6"
+  ],
+  "bytes": 1975
+ },
+ "cereal": {
+  "file": "breakfast/cereal.svg",
+  "cat": "breakfast",
+  "tags": [
+   "kids",
+   "breakfast"
+  ],
+  "source": "kids-english-th/016-breakfast",
+  "colors": [
+   "#3B2A20",
+   "#C9D3E0",
+   "#FF6F91",
+   "#FFF8E7",
+   "#FFD93B",
+   "#3DBE5A",
+   "#FF8A3D",
+   "#9B59E0",
+   "#29A8F0",
+   "#3D8BD9",
+   "#4DA3FF",
+   "#FF8FA3"
+  ],
+  "bytes": 4599
+ },
+ "chair": {
+  "file": "living-room/chair.svg",
+  "cat": "living-room",
+  "tags": [
+   "kids",
+   "living-room"
+  ],
+  "source": "kids-english-th/032-living-room",
+  "colors": [
+   "#3DBE5A",
+   "#3B2A20",
+   "#2E9E48",
+   "#6EDB8A",
+   "#FF8FA3",
+   "#FFD93B"
+  ],
+  "bytes": 1494
+ },
+ "chalk": {
+  "file": "classroom/chalk.svg",
+  "cat": "classroom",
+  "tags": [
+   "kids",
+   "classroom"
+  ],
+  "source": "kids-english-th/059-classroom",
+  "colors": [
+   "#B9773F",
+   "#3B2A20",
+   "#2F6B4F",
+   "#FFE08A",
+   "#FF8FA3",
+   "#8B5A2B",
+   "#E2E7ED"
+  ],
+  "bytes": 1737
+ },
+ "cheese": {
+  "file": "snacks/cheese.svg",
+  "cat": "snacks",
+  "tags": [
+   "kids",
+   "snacks"
+  ],
+  "source": "kids-english-th/020-snacks",
+  "colors": [
+   "#FFE47A",
+   "#3B2A20",
+   "#FFC93C",
+   "#E6A817",
+   "#FF8FA3"
+  ],
+  "bytes": 1141
+ },
+ "chef": {
+  "file": "more-jobs/chef.svg",
+  "cat": "more-jobs",
+  "tags": [
+   "kids",
+   "more-jobs"
+  ],
+  "source": "kids-english-th/082-more-jobs",
+  "colors": [
+   "#FFFFFF",
+   "#3B2A20",
+   "#F23B3B",
+   "#F6C9A0",
+   "#33261F",
+   "#FF8FA3",
+   "#D9DEE5",
+   "#C98B4F"
+  ],
+  "bytes": 2998
+ },
+ "cherry": {
+  "file": "more-fruits/cherry.svg",
+  "cat": "more-fruits",
+  "tags": [
+   "kids",
+   "more-fruits"
+  ],
+  "source": "kids-english-th/013-more-fruits",
+  "colors": [
+   "#3B2A20",
+   "#4E8A2E",
+   "#3DBE5A",
+   "#2E9E48",
+   "#E5243B",
+   "#FF8FA3"
+  ],
+  "bytes": 2321
+ },
+ "chick": {
+  "file": "baby-animals/chick.svg",
+  "cat": "baby-animals",
+  "tags": [
+   "kids",
+   "baby-animals"
+  ],
+  "source": "kids-english-th/079-baby-animals",
+  "colors": [
+   "#3B2A20",
+   "#FFE14D",
+   "#FFD02E",
+   "#FF9A2E",
+   "#FF8FA3",
+   "#FFFDF5",
+   "#F3E6CC"
+  ],
+  "bytes": 1602
+ },
+ "chicken": {
+  "file": "farm-birds/chicken.svg",
+  "cat": "farm-birds",
+  "tags": [
+   "kids",
+   "farm-birds"
+  ],
+  "source": "kids-english-th/002-farm-birds",
+  "colors": [
+   "#FFB400",
+   "#F23B3B",
+   "#3B2A20",
+   "#F2EEE6",
+   "#FF8FA3"
+  ],
+  "bytes": 1929
+ },
+ "chicken-mali": {
+  "file": "farm/chicken-mali.svg",
+  "cat": "farm",
+  "tags": [
+   "mali",
+   "farm"
+  ],
+  "source": "mali-english-th/themes/farm.mjs",
+  "colors": [
+   "#F23B3B",
+   "#3B2A20",
+   "#E8F4FF",
+   "#FFA41B",
+   "#FF8FA3"
+  ],
+  "bytes": 1315
+ },
+ "chocolate": {
+  "file": "sweets/chocolate.svg",
+  "cat": "sweets",
+  "tags": [
+   "kids",
+   "sweets"
+  ],
+  "source": "kids-english-th/018-sweets",
+  "colors": [
+   "#7B4A2A",
+   "#3B2A20",
+   "#93603A",
+   "#D9DDE3",
+   "#E83A4A",
+   "#FF8FA3"
+  ],
+  "bytes": 1947
+ },
+ "christmas-tree": {
+  "file": "christmas/christmas-tree.svg",
+  "cat": "christmas",
+  "tags": [
+   "kids",
+   "christmas"
+  ],
+  "source": "kids-english-th/088-christmas",
+  "colors": [
+   "#8A5A33",
+   "#3B2A20",
+   "#2FA84F",
+   "#3DBE5A",
+   "#4CCB66",
+   "#FFD93B",
+   "#F23B3B",
+   "#1E9BE0",
+   "#FFB400",
+   "#FF6FB5",
+   "#FF8FA3"
+  ],
+  "bytes": 2450
+ },
+ "circle": {
+  "file": "shapes/circle.svg",
+  "cat": "shapes",
+  "tags": [
+   "kids",
+   "shapes"
+  ],
+  "source": "kids-english-th/043-shapes",
+  "colors": [
+   "#FF5A4E",
+   "#3B2A20",
+   "#FF8FA3"
+  ],
+  "bytes": 713
+ },
+ "clap": {
+  "file": "more-actions/clap.svg",
+  "cat": "more-actions",
+  "tags": [
+   "kids",
+   "more-actions"
+  ],
+  "source": "kids-english-th/051-more-actions",
+  "colors": [
+   "#FFD93B",
+   "#3B2A20",
+   "#FF8A3D",
+   "#FFD3A8",
+   "#E8453C",
+   "#2E5AAC",
+   "#4A3226",
+   "#FF8FA3",
+   "#D9405E"
+  ],
+  "bytes": 3634
+ },
+ "clock": {
+  "file": "living-room/clock.svg",
+  "cat": "living-room",
+  "tags": [
+   "kids",
+   "living-room"
+  ],
+  "source": "kids-english-th/032-living-room",
+  "colors": [
+   "#3B2A20",
+   "#FFD93B",
+   "#29A8F0",
+   "#F23B3B",
+   "#FF8FA3"
+  ],
+  "bytes": 1936
+ },
+ "closet": {
+  "file": "bedroom/closet.svg",
+  "cat": "bedroom",
+  "tags": [
+   "kids",
+   "bedroom"
+  ],
+  "source": "kids-english-th/033-bedroom",
+  "colors": [
+   "#7A4B2A",
+   "#3B2A20",
+   "#B98AEB",
+   "#6B4A35",
+   "#C9D3DC",
+   "#FFD93B",
+   "#9B6BE0",
+   "#FF8FA3"
+  ],
+  "bytes": 2214
+ },
+ "cloud": {
+  "file": "weather/cloud.svg",
+  "cat": "weather",
+  "tags": [
+   "kids",
+   "weather"
+  ],
+  "source": "kids-english-th/071-weather",
+  "colors": [
+   "#EAF6FF",
+   "#3B2A20",
+   "#FF8FA3"
+  ],
+  "bytes": 865
+ },
+ "coconut": {
+  "file": "tropical-fruits/coconut.svg",
+  "cat": "tropical-fruits",
+  "tags": [
+   "kids",
+   "tropical-fruits"
+  ],
+  "source": "kids-english-th/012-tropical-fruits",
+  "colors": [
+   "#7BC043",
+   "#3B2A20",
+   "#FFF8E1",
+   "#E8DDB5",
+   "#FF6F91",
+   "#FF8FA3"
+  ],
+  "bytes": 1373
+ },
+ "coffee": {
+  "file": "drinks/coffee.svg",
+  "cat": "drinks",
+  "tags": [
+   "kids",
+   "drinks"
+  ],
+  "source": "kids-english-th/019-drinks",
+  "colors": [
+   "#B8C4D6",
+   "#3B2A20",
+   "#F2A33A",
+   "#FFB74D",
+   "#6B3E1F",
+   "#F6E3C8",
+   "#FF8FA3"
+  ],
+  "bytes": 2034
+ },
+ "coin": {
+  "file": "market/coin.svg",
+  "cat": "market",
+  "tags": [
+   "kids",
+   "market"
+  ],
+  "source": "kids-english-th/086-market",
+  "colors": [
+   "#FFC83D",
+   "#3B2A20",
+   "#E0A21B",
+   "#FF8FA3",
+   "#FFD93B"
+  ],
+  "bytes": 2471
+ },
+ "cold": {
+  "file": "opposites/cold.svg",
+  "cat": "opposites",
+  "tags": [
+   "kids",
+   "opposites"
+  ],
+  "source": "kids-english-th/048-opposites",
+  "colors": [
+   "#3B2A20",
+   "#7A4B2A",
+   "#2F8CFF",
+   "#FF8FA3",
+   "#FF8A3D",
+   "#F23B3B",
+   "#5CC8FF"
+  ],
+  "bytes": 3375
+ },
+ "comb": {
+  "file": "bath-time/comb.svg",
+  "cat": "bath-time",
+  "tags": [
+   "kids",
+   "bath-time"
+  ],
+  "source": "kids-english-th/028-bath-time",
+  "colors": [
+   "#B07CE8",
+   "#3B2A20",
+   "#FF8FB1",
+   "#FFD93B",
+   "#FF8FA3"
+  ],
+  "bytes": 2968
+ },
+ "compass": {
+  "file": "pirates/compass.svg",
+  "cat": "pirates",
+  "tags": [
+   "kids",
+   "pirates"
+  ],
+  "source": "kids-english-th/090-pirates",
+  "colors": [
+   "#FFC83D",
+   "#3B2A20",
+   "#FFFDF5",
+   "#F23B3B",
+   "#5B7DA8"
+  ],
+  "bytes": 1792
+ },
+ "computer": {
+  "file": "classroom/computer.svg",
+  "cat": "classroom",
+  "tags": [
+   "kids",
+   "classroom"
+  ],
+  "source": "kids-english-th/059-classroom",
+  "colors": [
+   "#CFD8E3",
+   "#3B2A20",
+   "#8FD3FF",
+   "#FF8FA3",
+   "#AEB9C6",
+   "#E2E7ED",
+   "#8C96A3"
+  ],
+  "bytes": 1911
+ },
+ "confetti": {
+  "file": "party/confetti.svg",
+  "cat": "party",
+  "tags": [
+   "kids",
+   "party"
+  ],
+  "source": "kids-english-th/060-party",
+  "colors": [
+   "#E8453C",
+   "#3B2A20",
+   "#1E9BE0",
+   "#3DBE5A",
+   "#FFB400",
+   "#8E5BD9",
+   "#FF5C8A",
+   "#FFD93B",
+   "#5E3AA8",
+   "#FF8FA3"
+  ],
+  "bytes": 3552
+ },
+ "cook": {
+  "file": "kind-actions/cook.svg",
+  "cat": "kind-actions",
+  "tags": [
+   "kids",
+   "kind-actions"
+  ],
+  "source": "kids-english-th/053-kind-actions",
+  "colors": [
+   "#3B2A20",
+   "#FFD3A8",
+   "#4A3226",
+   "#FF8FA3",
+   "#C9733A",
+   "#C93A32",
+   "#E8453C",
+   "#B8C2CC"
+  ],
+  "bytes": 3843
+ },
+ "cookie": {
+  "file": "sweets/cookie.svg",
+  "cat": "sweets",
+  "tags": [
+   "kids",
+   "sweets"
+  ],
+  "source": "kids-english-th/018-sweets",
+  "colors": [
+   "#E0A458",
+   "#3B2A20",
+   "#5A3418",
+   "#FF8FA3"
+  ],
+  "bytes": 1601
+ },
+ "corn": {
+  "file": "vegetables/corn.svg",
+  "cat": "vegetables",
+  "tags": [
+   "kids",
+   "vegetables"
+  ],
+  "source": "kids-english-th/014-vegetables",
+  "colors": [
+   "#FFD93B",
+   "#3B2A20",
+   "#E6A800",
+   "#5BC24A",
+   "#4CAF50",
+   "#FF8FA3"
+  ],
+  "bytes": 1298
+ },
+ "cow": {
+  "file": "farm-animals/cow.svg",
+  "cat": "farm-animals",
+  "tags": [
+   "kids",
+   "farm-animals"
+  ],
+  "source": "kids-english-th/001-farm-animals",
+  "colors": [
+   "#FFF3D6",
+   "#3B2A20",
+   "#FFB3C1",
+   "#FF8FA3",
+   "#D45C7A"
+  ],
+  "bytes": 2162
+ },
+ "cow-mali": {
+  "file": "farm/cow-mali.svg",
+  "cat": "farm",
+  "tags": [
+   "mali",
+   "farm"
+  ],
+  "source": "mali-english-th/themes/farm.mjs",
+  "colors": [
+   "#FFE7A3",
+   "#3B2A20",
+   "#FFB3C1",
+   "#E8F4FF",
+   "#E0708A",
+   "#FF8FA3"
+  ],
+  "bytes": 2074
+ },
+ "crab": {
+  "file": "sea-animals/crab.svg",
+  "cat": "sea-animals",
+  "tags": [
+   "kids",
+   "sea-animals"
+  ],
+  "source": "kids-english-th/005-sea-animals",
+  "colors": [
+   "#3B2A20",
+   "#F2553B",
+   "#FF8FA3",
+   "#C93A26"
+  ],
+  "bytes": 4179
+ },
+ "crayon": {
+  "file": "art-time/crayon.svg",
+  "cat": "art-time",
+  "tags": [
+   "kids",
+   "art-time"
+  ],
+  "source": "kids-english-th/057-art-time",
+  "colors": [
+   "#1E9BE0",
+   "#3B2A20",
+   "#5CC8FF",
+   "#3DBE5A",
+   "#7ED957",
+   "#E8453C",
+   "#FF7A6E"
+  ],
+  "bytes": 2327
+ },
+ "crocodile": {
+  "file": "jungle-animals/crocodile.svg",
+  "cat": "jungle-animals",
+  "tags": [
+   "kids",
+   "jungle-animals"
+  ],
+  "source": "kids-english-th/004-jungle-animals",
+  "colors": [
+   "#5BBE4A",
+   "#3B2A20",
+   "#3E9A35",
+   "#C8E86B",
+   "#FF8FA3"
+  ],
+  "bytes": 2765
+ },
+ "cucumber": {
+  "file": "vegetables/cucumber.svg",
+  "cat": "vegetables",
+  "tags": [
+   "kids",
+   "vegetables"
+  ],
+  "source": "kids-english-th/014-vegetables",
+  "colors": [
+   "#4CAF50",
+   "#3B2A20",
+   "#A5D96A",
+   "#FF8FA3"
+  ],
+  "bytes": 1161
+ },
+ "cup": {
+  "file": "tableware/cup.svg",
+  "cat": "tableware",
+  "tags": [
+   "kids",
+   "tableware"
+  ],
+  "source": "kids-english-th/034-tableware",
+  "colors": [
+   "#3B2A20",
+   "#FF6F91",
+   "#C9C9D9",
+   "#9A5B2E",
+   "#FF8FA3"
+  ],
+  "bytes": 1508
+ },
+ "cupcake": {
+  "file": "party/cupcake.svg",
+  "cat": "party",
+  "tags": [
+   "kids",
+   "party"
+  ],
+  "source": "kids-english-th/060-party",
+  "colors": [
+   "#FF8FA3",
+   "#3B2A20",
+   "#E86F92",
+   "#FFF4E0",
+   "#E8453C",
+   "#1E9BE0",
+   "#3DBE5A",
+   "#FFB400",
+   "#8E5BD9"
+  ],
+  "bytes": 3475
+ },
+ "curry": {
+  "file": "thai-food/curry.svg",
+  "cat": "thai-food",
+  "tags": [
+   "kids",
+   "thai-food"
+  ],
+  "source": "kids-english-th/085-thai-food",
+  "colors": [
+   "#B9C7D3",
+   "#E6EEF5",
+   "#3B2A20",
+   "#FFFFFF",
+   "#1E9BE0",
+   "#9BCB4A",
+   "#E7F5C4",
+   "#F3DEC0",
+   "#4E9A3A",
+   "#F23B3B",
+   "#2E7D32",
+   "#FF8FA3"
+  ],
+  "bytes": 2858
+ },
+ "dad": {
+  "file": "family/dad.svg",
+  "cat": "family",
+  "tags": [
+   "kids",
+   "family"
+  ],
+  "source": "kids-english-th/026-family",
+  "colors": [
+   "#5CA8F0",
+   "#3B2A20",
+   "#F23B3B",
+   "#C9252B",
+   "#F5C28E",
+   "#2B2024",
+   "#E3A06B",
+   "#FF8FA3",
+   "#FFD93B"
+  ],
+  "bytes": 2383
+ },
+ "dance": {
+  "file": "more-actions/dance.svg",
+  "cat": "more-actions",
+  "tags": [
+   "kids",
+   "more-actions"
+  ],
+  "source": "kids-english-th/051-more-actions",
+  "colors": [
+   "#3B2A20",
+   "#FFD3A8",
+   "#E8453C",
+   "#FFB400",
+   "#1E9BE0",
+   "#4A3226",
+   "#FF6F91",
+   "#FF8FA3",
+   "#D9405E",
+   "#FF5C8A",
+   "#3DBE5A"
+  ],
+  "bytes": 4711
+ },
+ "day": {
+  "file": "times-of-day/day.svg",
+  "cat": "times-of-day",
+  "tags": [
+   "kids",
+   "times-of-day"
+  ],
+  "source": "kids-english-th/076-times-of-day",
+  "colors": [
+   "#8FD3FF",
+   "#FFB400",
+   "#FFD93B",
+   "#3B2A20",
+   "#FFF0A0",
+   "#FF8FA3",
+   "#7ED957",
+   "#FF7EB6",
+   "#B388FF"
+  ],
+  "bytes": 5298
+ },
+ "deer": {
+  "file": "more-wild-animals/deer.svg",
+  "cat": "more-wild-animals",
+  "tags": [
+   "kids",
+   "more-wild-animals"
+  ],
+  "source": "kids-english-th/080-more-wild-animals",
+  "colors": [
+   "#3B2A20",
+   "#A66E3A",
+   "#C98B4F",
+   "#FFC2CF",
+   "#F3D3A8",
+   "#FF8FA3"
+  ],
+  "bytes": 2178
+ },
+ "dentist": {
+  "file": "more-jobs/dentist.svg",
+  "cat": "more-jobs",
+  "tags": [
+   "kids",
+   "more-jobs"
+  ],
+  "source": "kids-english-th/082-more-jobs",
+  "colors": [
+   "#33261F",
+   "#3B2A20",
+   "#36C2B4",
+   "#2BA89B",
+   "#F6C9A0",
+   "#FF8FA3",
+   "#B8C4CF",
+   "#D9F2FF",
+   "#FFD93B"
+  ],
+  "bytes": 3492
+ },
+ "desert": {
+  "file": "more-nature/desert.svg",
+  "cat": "more-nature",
+  "tags": [
+   "kids",
+   "more-nature"
+  ],
+  "source": "kids-english-th/074-more-nature",
+  "colors": [
+   "#CDEFFF",
+   "#FFB400",
+   "#FFD93B",
+   "#3B2A20",
+   "#FFF0A0",
+   "#FF8FA3",
+   "#F5C26B",
+   "#4CAF50",
+   "#3E9E4F",
+   "#FBD889",
+   "#E0A955"
+  ],
+  "bytes": 3690
+ },
+ "desk": {
+  "file": "classroom/desk.svg",
+  "cat": "classroom",
+  "tags": [
+   "kids",
+   "classroom"
+  ],
+  "source": "kids-english-th/059-classroom",
+  "colors": [
+   "#3B2A20",
+   "#8C96A3",
+   "#F2B35A",
+   "#C9733A",
+   "#E0904A",
+   "#B9773F",
+   "#1E9BE0",
+   "#E8453C",
+   "#7A4B2A"
+  ],
+  "bytes": 1903
+ },
+ "diamond": {
+  "file": "more-shapes/diamond.svg",
+  "cat": "more-shapes",
+  "tags": [
+   "kids",
+   "more-shapes"
+  ],
+  "source": "kids-english-th/044-more-shapes",
+  "colors": [
+   "#FF8A1F",
+   "#3B2A20",
+   "#FF8FA3",
+   "#FFC93B"
+  ],
+  "bytes": 1157
+ },
+ "doctor": {
+  "file": "jobs/doctor.svg",
+  "cat": "jobs",
+  "tags": [
+   "kids",
+   "jobs"
+  ],
+  "source": "kids-english-th/081-jobs",
+  "colors": [
+   "#FFFFFF",
+   "#3B2A20",
+   "#3CC6B4",
+   "#F23B3B",
+   "#5B6B7F",
+   "#C9D3DD",
+   "#F6C9A0",
+   "#33261F",
+   "#FF8FA3"
+  ],
+  "bytes": 2652
+ },
+ "dog": {
+  "file": "first-words/dog.svg",
+  "cat": "first-words",
+  "tags": [
+   "kids",
+   "first-words"
+  ],
+  "source": "kids-english-th/000-first-words",
+  "colors": [
+   "#7A4B2A",
+   "#3B2A20",
+   "#D9A066",
+   "#F3D3A8",
+   "#FF6F91"
+  ],
+  "bytes": 1299
+ },
+ "dog-mali": {
+  "file": "animals/dog-mali.svg",
+  "cat": "animals",
+  "tags": [
+   "mali",
+   "animals"
+  ],
+  "source": "mali-english-th/engine.mjs",
+  "colors": [
+   "#7A4B2A",
+   "#3B2A20",
+   "#D9A066",
+   "#F3D3A8",
+   "#FF6F91"
+  ],
+  "bytes": 1340
+ },
+ "doll": {
+  "file": "toys/doll.svg",
+  "cat": "toys",
+  "tags": [
+   "kids",
+   "toys"
+  ],
+  "source": "kids-english-th/040-toys",
+  "colors": [
+   "#7A4B2A",
+   "#3B2A20",
+   "#F23B3B",
+   "#FFD9B3",
+   "#FF6F91",
+   "#FF8FA3"
+  ],
+  "bytes": 2613
+ },
+ "dolphin": {
+  "file": "sea-animals/dolphin.svg",
+  "cat": "sea-animals",
+  "tags": [
+   "kids",
+   "sea-animals"
+  ],
+  "source": "kids-english-th/005-sea-animals",
+  "colors": [
+   "#6FA8DC",
+   "#3B2A20",
+   "#D6EEFF",
+   "#FF8FA3"
+  ],
+  "bytes": 1112
+ },
+ "donut": {
+  "file": "snacks/donut.svg",
+  "cat": "snacks",
+  "tags": [
+   "kids",
+   "snacks"
+  ],
+  "source": "kids-english-th/020-snacks",
+  "colors": [
+   "#E0A458",
+   "#3B2A20",
+   "#FF9EC0",
+   "#29A8F0",
+   "#FFD93B",
+   "#3DBE5A",
+   "#FFFFFF",
+   "#FF8FA3"
+  ],
+  "bytes": 5378
+ },
+ "door": {
+  "file": "house/door.svg",
+  "cat": "house",
+  "tags": [
+   "kids",
+   "house"
+  ],
+  "source": "kids-english-th/031-house",
+  "colors": [
+   "#EADFD8",
+   "#B9A898",
+   "#FFF4E6",
+   "#F2E3EE",
+   "#E6F2F8",
+   "#F2553C",
+   "#3B2A20",
+   "#FF8FA3",
+   "#FFD93B"
+  ],
+  "bytes": 2311
+ },
+ "down": {
+  "file": "positions/down.svg",
+  "cat": "positions",
+  "tags": [
+   "kids",
+   "positions"
+  ],
+  "source": "kids-english-th/049-positions",
+  "colors": [
+   "#FF8A3D",
+   "#3B2A20",
+   "#8BD45A",
+   "#9CA3AF",
+   "#2F9BFF",
+   "#FF8FA3",
+   "#C0392B"
+  ],
+  "bytes": 1521
+ },
+ "dragon": {
+  "file": "fantasy/dragon.svg",
+  "cat": "fantasy",
+  "tags": [
+   "kids",
+   "fantasy"
+  ],
+  "source": "kids-english-th/078-fantasy",
+  "colors": [
+   "#3B2A20",
+   "#5DBB3F",
+   "#FF9A2E",
+   "#B388FF",
+   "#FFE38A",
+   "#E8B84A",
+   "#FFD93B",
+   "#8EDB6F",
+   "#FF8FA3"
+  ],
+  "bytes": 3274
+ },
+ "dragonfly": {
+  "file": "garden-bugs/dragonfly.svg",
+  "cat": "garden-bugs",
+  "tags": [
+   "kids",
+   "garden-bugs"
+  ],
+  "source": "kids-english-th/008-garden-bugs",
+  "colors": [
+   "#D6F0FF",
+   "#3B2A20",
+   "#9FD3F0",
+   "#2BB5C9",
+   "#1A8A9C",
+   "#7ED957",
+   "#FF8FA3"
+  ],
+  "bytes": 2365
+ },
+ "draw": {
+  "file": "fun-actions/draw.svg",
+  "cat": "fun-actions",
+  "tags": [
+   "kids",
+   "fun-actions"
+  ],
+  "source": "kids-english-th/052-fun-actions",
+  "colors": [
+   "#3B2A20",
+   "#B9773F",
+   "#FFD93B",
+   "#FFB400",
+   "#FF8A3D",
+   "#7A4B2A",
+   "#3DBE5A",
+   "#C9733A",
+   "#FFD3A8",
+   "#E8453C",
+   "#2E5AAC",
+   "#4A3226",
+   "#FF6F91",
+   "#FF8FA3"
+  ],
+  "bytes": 5573
+ },
+ "dream": {
+  "file": "bedtime/dream.svg",
+  "cat": "bedtime",
+  "tags": [
+   "kids",
+   "bedtime"
+  ],
+  "source": "kids-english-th/089-bedtime",
+  "colors": [
+   "#8E5BD9",
+   "#3B2A20",
+   "#FFFFFF",
+   "#F6C9A0",
+   "#33261F",
+   "#FF8FA3",
+   "#B39BFF",
+   "#FFE45C",
+   "#F23B3B",
+   "#FFD93B",
+   "#3DBE5A",
+   "#FF6FB5"
+  ],
+  "bytes": 4082
+ },
+ "dress": {
+  "file": "clothes/dress.svg",
+  "cat": "clothes",
+  "tags": [
+   "kids",
+   "clothes"
+  ],
+  "source": "kids-english-th/029-clothes",
+  "colors": [
+   "#FF8FB1",
+   "#3B2A20",
+   "#FF6F91",
+   "#FFD93B",
+   "#FFB400"
+  ],
+  "bytes": 2086
+ },
+ "drink": {
+  "file": "kind-actions/drink.svg",
+  "cat": "kind-actions",
+  "tags": [
+   "kids",
+   "kind-actions"
+  ],
+  "source": "kids-english-th/053-kind-actions",
+  "colors": [
+   "#3B2A20",
+   "#FFD3A8",
+   "#E8453C",
+   "#2E5AAC",
+   "#1E9BE0",
+   "#4A3226",
+   "#FF8FA3",
+   "#FF5C8A",
+   "#D9405E",
+   "#EAF7FF",
+   "#FF9A2E"
+  ],
+  "bytes": 3669
+ },
+ "driver": {
+  "file": "workers/driver.svg",
+  "cat": "workers",
+  "tags": [
+   "kids",
+   "workers"
+  ],
+  "source": "kids-english-th/083-workers",
+  "colors": [
+   "#F23B3B",
+   "#3B2A20",
+   "#BDE8FF",
+   "#F6C9A0",
+   "#FF8FA3",
+   "#1E9BE0",
+   "#FFE45C",
+   "#FF8A3D",
+   "#3B3F4A",
+   "#D9DEE5"
+  ],
+  "bytes": 2616
+ },
+ "drum": {
+  "file": "music/drum.svg",
+  "cat": "music",
+  "tags": [
+   "kids",
+   "music"
+  ],
+  "source": "kids-english-th/056-music",
+  "colors": [
+   "#E8453C",
+   "#3B2A20",
+   "#FFD93B",
+   "#F5F0E6",
+   "#E0A060",
+   "#FFE08A",
+   "#FFB400"
+  ],
+  "bytes": 1822
+ },
+ "duck": {
+  "file": "farm-birds/duck.svg",
+  "cat": "farm-birds",
+  "tags": [
+   "kids",
+   "farm-birds"
+  ],
+  "source": "kids-english-th/002-farm-birds",
+  "colors": [
+   "#FFD93B",
+   "#3B2A20",
+   "#FF8A3D",
+   "#FFC300",
+   "#FF8FA3"
+  ],
+  "bytes": 1575
+ },
+ "duck-mali": {
+  "file": "farm/duck-mali.svg",
+  "cat": "farm",
+  "tags": [
+   "mali",
+   "farm"
+  ],
+  "source": "mali-english-th/themes/farm.mjs",
+  "colors": [
+   "#FFD93B",
+   "#3B2A20",
+   "#F07A10",
+   "#FF9A2E",
+   "#FF8FA3"
+  ],
+  "bytes": 1221
+ },
+ "dumpling": {
+  "file": "thai-food/dumpling.svg",
+  "cat": "thai-food",
+  "tags": [
+   "kids",
+   "thai-food"
+  ],
+  "source": "kids-english-th/085-thai-food",
+  "colors": [
+   "#FFFFFF",
+   "#3B2A20",
+   "#FDE7E0",
+   "#B9C7D3",
+   "#FFF6E6",
+   "#E0CBA8",
+   "#FF8FA3"
+  ],
+  "bytes": 2770
+ },
+ "durian": {
+  "file": "tropical-fruits/durian.svg",
+  "cat": "tropical-fruits",
+  "tags": [
+   "kids",
+   "tropical-fruits"
+  ],
+  "source": "kids-english-th/012-tropical-fruits",
+  "colors": [
+   "#7FA82A",
+   "#3B2A20",
+   "#B5D33D",
+   "#8DB32B",
+   "#7A4B2A",
+   "#FF8FA3"
+  ],
+  "bytes": 3918
+ },
+ "eagle": {
+  "file": "birds/eagle.svg",
+  "cat": "birds",
+  "tags": [
+   "kids",
+   "birds"
+  ],
+  "source": "kids-english-th/009-birds",
+  "colors": [
+   "#7A4B2A",
+   "#3B2A20",
+   "#5A3A22",
+   "#FFB400",
+   "#8B5A2B",
+   "#6B4220",
+   "#FF8FA3"
+  ],
+  "bytes": 2093
+ },
+ "ear": {
+  "file": "face/ear.svg",
+  "cat": "face",
+  "tags": [
+   "kids",
+   "face"
+  ],
+  "source": "kids-english-th/021-face",
+  "colors": [
+   "#3DBE5A",
+   "#F5C28E",
+   "#3B2A20",
+   "#2B2024",
+   "#FF8FA3",
+   "#E3A06B"
+  ],
+  "bytes": 2088
+ },
+ "ears-mali": {
+  "file": "body/ears-mali.svg",
+  "cat": "body",
+  "tags": [
+   "mali",
+   "body"
+  ],
+  "source": "mali-english-th/themes/body.mjs",
+  "colors": [
+   "#FFD0A8",
+   "#3B2A20",
+   "#F2A877",
+   "#FF8FA3"
+  ],
+  "bytes": 1129
+ },
+ "eat": {
+  "file": "actions/eat.svg",
+  "cat": "actions",
+  "tags": [
+   "kids",
+   "actions"
+  ],
+  "source": "kids-english-th/050-actions",
+  "colors": [
+   "#FFD3A8",
+   "#3B2A20",
+   "#5A3A22",
+   "#FF8FA3",
+   "#C0392B",
+   "#FF8FC8",
+   "#C9CED6",
+   "#FF5C8A"
+  ],
+  "bytes": 2823
+ },
+ "egg": {
+  "file": "breakfast/egg.svg",
+  "cat": "breakfast",
+  "tags": [
+   "kids",
+   "breakfast"
+  ],
+  "source": "kids-english-th/016-breakfast",
+  "colors": [
+   "#FCE2B8",
+   "#3B2A20",
+   "#FF8FA3"
+  ],
+  "bytes": 784
+ },
+ "eight": {
+  "file": "numbers-6-10/eight.svg",
+  "cat": "numbers-6-10",
+  "tags": [
+   "kids",
+   "numbers-6-10"
+  ],
+  "source": "kids-english-th/046-numbers-6-10",
+  "colors": [
+   "#FF5C8A",
+   "#3B2A20",
+   "#FFF6E0",
+   "#F0DDB0"
+  ],
+  "bytes": 3151
+ },
+ "elephant": {
+  "file": "wild-animals/elephant.svg",
+  "cat": "wild-animals",
+  "tags": [
+   "kids",
+   "wild-animals"
+  ],
+  "source": "kids-english-th/003-wild-animals",
+  "colors": [
+   "#9FB3C8",
+   "#3B2A20",
+   "#FFC2D1",
+   "#FF8FA3"
+  ],
+  "bytes": 2056
+ },
+ "eraser": {
+  "file": "school-bag/eraser.svg",
+  "cat": "school-bag",
+  "tags": [
+   "kids",
+   "school-bag"
+  ],
+  "source": "kids-english-th/058-school-bag",
+  "colors": [
+   "#8C96A3",
+   "#FFC2D1",
+   "#3B2A20",
+   "#E86F92",
+   "#FF8FA3",
+   "#5C9DF5",
+   "#1E5AAC"
+  ],
+  "bytes": 2235
+ },
+ "evening": {
+  "file": "times-of-day/evening.svg",
+  "cat": "times-of-day",
+  "tags": [
+   "kids",
+   "times-of-day"
+  ],
+  "source": "kids-english-th/076-times-of-day",
+  "colors": [
+   "#FFA45E",
+   "#A77BDB",
+   "#FFE066",
+   "#3B2A20",
+   "#FF6F3C",
+   "#FFF0A0",
+   "#FF8FA3",
+   "#5E5BC9",
+   "#FFB26B"
+  ],
+  "bytes": 2353
+ },
+ "excited": {
+  "file": "more-feelings/excited.svg",
+  "cat": "more-feelings",
+  "tags": [
+   "kids",
+   "more-feelings"
+  ],
+  "source": "kids-english-th/025-more-feelings",
+  "colors": [
+   "#3B2A20",
+   "#F5C28E",
+   "#FFB400",
+   "#1E9BE0",
+   "#F23B3B",
+   "#2B2024",
+   "#FF8FA3",
+   "#B8323F",
+   "#FF7A8A",
+   "#3DBE5A",
+   "#FF6F91",
+   "#8E5BD9",
+   "#FFD93B",
+   "#00B5D8"
+  ],
+  "bytes": 5150
+ },
+ "eye": {
+  "file": "face/eye.svg",
+  "cat": "face",
+  "tags": [
+   "kids",
+   "face"
+  ],
+  "source": "kids-english-th/021-face",
+  "colors": [
+   "#F5C28E",
+   "#3B2A20",
+   "#2B2024",
+   "#E3A06B",
+   "#FF8FA3",
+   "#1E9BE0",
+   "#FFD93B"
+  ],
+  "bytes": 2641
+ },
+ "eyes-mali": {
+  "file": "body/eyes-mali.svg",
+  "cat": "body",
+  "tags": [
+   "mali",
+   "body"
+  ],
+  "source": "mali-english-th/themes/body.mjs",
+  "colors": [
+   "#3B2A20",
+   "#7A4B2A"
+  ],
+  "bytes": 999
+ },
+ "fairy": {
+  "file": "fantasy/fairy.svg",
+  "cat": "fantasy",
+  "tags": [
+   "kids",
+   "fantasy"
+  ],
+  "source": "kids-english-th/078-fantasy",
+  "colors": [
+   "#CFF1FF",
+   "#3B2A20",
+   "#FFD9B8",
+   "#FF7EB6",
+   "#FF8FC0",
+   "#FFD93B",
+   "#FFC83D",
+   "#FF8FA3",
+   "#FFE066"
+  ],
+  "bytes": 4644
+ },
+ "farmer": {
+  "file": "jobs/farmer.svg",
+  "cat": "jobs",
+  "tags": [
+   "kids",
+   "jobs"
+  ],
+  "source": "kids-english-th/081-jobs",
+  "colors": [
+   "#33261F",
+   "#3B2A20",
+   "#3F5BA9",
+   "#2A3F80",
+   "#F6C9A0",
+   "#FF8FA3",
+   "#7A4B2A",
+   "#E8C27A",
+   "#C49A4A",
+   "#C0392B",
+   "#3DA53D",
+   "#F2C744"
+  ],
+  "bytes": 5032
+ },
+ "fast": {
+  "file": "opposites/fast.svg",
+  "cat": "opposites",
+  "tags": [
+   "kids",
+   "opposites"
+  ],
+  "source": "kids-english-th/048-opposites",
+  "colors": [
+   "#9CA3AF",
+   "#3B2A20",
+   "#E8D5C0",
+   "#F2E4D6",
+   "#FFB3C1",
+   "#FF8FA3",
+   "#C0392B",
+   "#FF6F91",
+   "#E5E7EB"
+  ],
+  "bytes": 2389
+ },
+ "feather": {
+  "file": "bird-parts/feather.svg",
+  "cat": "bird-parts",
+  "tags": [
+   "kids",
+   "bird-parts"
+  ],
+  "source": "kids-english-th/095-bird-parts",
+  "colors": [
+   "#3B2A20",
+   "#FF8FB8",
+   "#B07CD8",
+   "#E85A97"
+  ],
+  "bytes": 1460
+ },
+ "feet-mali": {
+  "file": "body/feet-mali.svg",
+  "cat": "body",
+  "tags": [
+   "mali",
+   "body"
+  ],
+  "source": "mali-english-th/themes/body.mjs",
+  "colors": [
+   "#FFD0A8",
+   "#3B2A20",
+   "#FF8FA3"
+  ],
+  "bytes": 2108
+ },
+ "fence": {
+  "file": "farm/fence.svg",
+  "cat": "farm",
+  "tags": [
+   "kids",
+   "farm"
+  ],
+  "source": "kids-english-th/069-farm",
+  "colors": [
+   "#FFD93B",
+   "#3B2A20",
+   "#C47A3D",
+   "#F0B66E",
+   "#7ED957",
+   "#FF6F91",
+   "#FFB400",
+   "#FF8FA3"
+  ],
+  "bytes": 4377
+ },
+ "finger": {
+  "file": "more-body/finger.svg",
+  "cat": "more-body",
+  "tags": [
+   "kids",
+   "more-body"
+  ],
+  "source": "kids-english-th/023-more-body",
+  "colors": [
+   "#FF8A3D",
+   "#3B2A20",
+   "#F5C28E",
+   "#E3A06B",
+   "#FFD3DC",
+   "#FFD93B",
+   "#FF8FA3",
+   "#7FD1FF"
+  ],
+  "bytes": 2299
+ },
+ "fire-truck": {
+  "file": "city-ride/fire-truck.svg",
+  "cat": "city-ride",
+  "tags": [
+   "kids",
+   "city-ride"
+  ],
+  "source": "kids-english-th/063-city-ride",
+  "colors": [
+   "#F23B3B",
+   "#3B2A20",
+   "#E6E9EE",
+   "#FFD93B",
+   "#C62828",
+   "#1E9BE0",
+   "#BDE8FF",
+   "#FF8FA3",
+   "#FFE36B",
+   "#4A4F5C",
+   "#D9DEE6"
+  ],
+  "bytes": 2936
+ },
+ "firefighter": {
+  "file": "more-jobs/firefighter.svg",
+  "cat": "more-jobs",
+  "tags": [
+   "kids",
+   "more-jobs"
+  ],
+  "source": "kids-english-th/082-more-jobs",
+  "colors": [
+   "#F2B705",
+   "#3B2A20",
+   "#D9DEE5",
+   "#F6C9A0",
+   "#33261F",
+   "#FF8FA3",
+   "#E8322B",
+   "#F23B3B",
+   "#C42A24",
+   "#FFC83D",
+   "#3B3F4A",
+   "#5CC8FF"
+  ],
+  "bytes": 3776
+ },
+ "firework": {
+  "file": "festivals/firework.svg",
+  "cat": "festivals",
+  "tags": [
+   "kids",
+   "festivals"
+  ],
+  "source": "kids-english-th/084-festivals",
+  "colors": [
+   "#FFB400",
+   "#3DBE5A",
+   "#1E9BE0",
+   "#FF6FB5",
+   "#8E5BD9",
+   "#FFD93B",
+   "#3B2A20"
+  ],
+  "bytes": 4982
+ },
+ "firework-spin": {
+  "file": "festivals/firework-spin.svg",
+  "cat": "festivals",
+  "tags": [
+   "kids",
+   "festivals",
+   "spin"
+  ],
+  "source": "kids-english-th/084-festivals",
+  "colors": [
+   "#F23B3B",
+   "#FFB400",
+   "#3DBE5A",
+   "#1E9BE0",
+   "#8E5BD9",
+   "#FF6FB5"
+  ],
+  "bytes": 2118
+ },
+ "fish": {
+  "file": "first-words/fish.svg",
+  "cat": "first-words",
+  "tags": [
+   "kids",
+   "first-words"
+  ],
+  "source": "kids-english-th/000-first-words",
+  "colors": [
+   "#29A8F0",
+   "#3B2A20",
+   "#5CC8FF",
+   "#2E9BD6",
+   "#FF8FA3"
+  ],
+  "bytes": 966
+ },
+ "fish-mali": {
+  "file": "animals/fish-mali.svg",
+  "cat": "animals",
+  "tags": [
+   "mali",
+   "animals"
+  ],
+  "source": "mali-english-th/engine.mjs",
+  "colors": [
+   "#29A8F0",
+   "#3B2A20",
+   "#5CC8FF",
+   "#2E9BD6",
+   "#FF8FA3"
+  ],
+  "bytes": 995
+ },
+ "fisherman": {
+  "file": "workers/fisherman.svg",
+  "cat": "workers",
+  "tags": [
+   "kids",
+   "workers"
+  ],
+  "source": "kids-english-th/083-workers",
+  "colors": [
+   "#F2B705",
+   "#3B2A20",
+   "#F6C9A0",
+   "#33261F",
+   "#FF8FA3",
+   "#4F9D5A",
+   "#C98B4F",
+   "#FF8A3D",
+   "#FFB03B",
+   "#A86D35",
+   "#5CC8FF"
+  ],
+  "bytes": 2905
+ },
+ "five": {
+  "file": "numbers-1-5/five.svg",
+  "cat": "numbers-1-5",
+  "tags": [
+   "kids",
+   "numbers-1-5"
+  ],
+  "source": "kids-english-th/045-numbers-1-5",
+  "colors": [
+   "#2F9BFF",
+   "#3B2A20",
+   "#FFF6E0",
+   "#F0DDB0"
+  ],
+  "bytes": 2809
+ },
+ "flamingo": {
+  "file": "birds/flamingo.svg",
+  "cat": "birds",
+  "tags": [
+   "kids",
+   "birds"
+  ],
+  "source": "kids-english-th/009-birds",
+  "colors": [
+   "#3B2A20",
+   "#FF8FC0",
+   "#FF6FA8",
+   "#FF8FA3"
+  ],
+  "bytes": 2079
+ },
+ "flashlight": {
+  "file": "camping/flashlight.svg",
+  "cat": "camping",
+  "tags": [
+   "kids",
+   "camping"
+  ],
+  "source": "kids-english-th/068-camping",
+  "colors": [
+   "#FFF3A0",
+   "#2F80ED",
+   "#3B2A20",
+   "#FFE36B",
+   "#F23B3B",
+   "#FF8FA3",
+   "#FFB400"
+  ],
+  "bytes": 1586
+ },
+ "flour": {
+  "file": "baking/flour.svg",
+  "cat": "baking",
+  "tags": [
+   "kids",
+   "baking"
+  ],
+  "source": "kids-english-th/092-baking",
+  "colors": [
+   "#3B2A20",
+   "#F2E2C0",
+   "#F7EBD2",
+   "#C9A15B",
+   "#B07D1E",
+   "#E0A93B",
+   "#FF8FA3"
+  ],
+  "bytes": 2643
+ },
+ "flower": {
+  "file": "garden/flower.svg",
+  "cat": "garden",
+  "tags": [
+   "kids",
+   "garden"
+  ],
+  "source": "kids-english-th/037-garden",
+  "colors": [
+   "#3B2A20",
+   "#3DBE5A",
+   "#5CD27A",
+   "#FF7FA0",
+   "#FFD93B",
+   "#FF8FA3"
+  ],
+  "bytes": 2136
+ },
+ "fog": {
+  "file": "stormy-weather/fog.svg",
+  "cat": "stormy-weather",
+  "tags": [
+   "kids",
+   "stormy-weather"
+  ],
+  "source": "kids-english-th/072-stormy-weather",
+  "colors": [
+   "#D6DEE8",
+   "#FFE58A",
+   "#8FD36A",
+   "#3B2A20",
+   "#FF9E80",
+   "#9B6A3F",
+   "#6CC44A",
+   "#F7F9FC"
+  ],
+  "bytes": 1979
+ },
+ "foot": {
+  "file": "body/foot.svg",
+  "cat": "body",
+  "tags": [
+   "kids",
+   "body"
+  ],
+  "source": "kids-english-th/022-body",
+  "colors": [
+   "#F5C28E",
+   "#3B2A20",
+   "#E3A06B",
+   "#FFD93B",
+   "#FF8FA3",
+   "#7FD1FF"
+  ],
+  "bytes": 1688
+ },
+ "football": {
+  "file": "sports/football.svg",
+  "cat": "sports",
+  "tags": [
+   "kids",
+   "sports"
+  ],
+  "source": "kids-english-th/055-sports",
+  "colors": [
+   "#3B2A20"
+  ],
+  "bytes": 1950
+ },
+ "forest": {
+  "file": "nature/forest.svg",
+  "cat": "nature",
+  "tags": [
+   "kids",
+   "nature"
+  ],
+  "source": "kids-english-th/073-nature",
+  "colors": [
+   "#BDE6FF",
+   "#3B2A20",
+   "#7ED957",
+   "#9B6A3F",
+   "#2F8F4E",
+   "#3E9E4F",
+   "#5DBB3F",
+   "#7ACB45",
+   "#FF8FA3",
+   "#F25C54"
+  ],
+  "bytes": 4404
+ },
+ "fork": {
+  "file": "tableware/fork.svg",
+  "cat": "tableware",
+  "tags": [
+   "kids",
+   "tableware"
+  ],
+  "source": "kids-english-th/034-tableware",
+  "colors": [
+   "#DDE6EE",
+   "#3B2A20",
+   "#3DBE5A",
+   "#FF8FA3"
+  ],
+  "bytes": 1539
+ },
+ "four": {
+  "file": "numbers-1-5/four.svg",
+  "cat": "numbers-1-5",
+  "tags": [
+   "kids",
+   "numbers-1-5"
+  ],
+  "source": "kids-english-th/045-numbers-1-5",
+  "colors": [
+   "#B86BE0",
+   "#3B2A20",
+   "#FFF6E0",
+   "#F0DDB0",
+   "#FF8FC8",
+   "#FFD93B"
+  ],
+  "bytes": 3544
+ },
+ "fox": {
+  "file": "more-wild-animals/fox.svg",
+  "cat": "more-wild-animals",
+  "tags": [
+   "kids",
+   "more-wild-animals"
+  ],
+  "source": "kids-english-th/080-more-wild-animals",
+  "colors": [
+   "#FF8A3D",
+   "#3B2A20",
+   "#5A3A2A",
+   "#FF8FA3"
+  ],
+  "bytes": 2851
+ },
+ "fridge": {
+  "file": "kitchen/fridge.svg",
+  "cat": "kitchen",
+  "tags": [
+   "kids",
+   "kitchen"
+  ],
+  "source": "kids-english-th/035-kitchen",
+  "colors": [
+   "#3B3B48",
+   "#8FD3FF",
+   "#3B2A20",
+   "#FFD93B",
+   "#F23B3B",
+   "#3DBE5A",
+   "#FF8FA3"
+  ],
+  "bytes": 1854
+ },
+ "friend": {
+  "file": "people/friend.svg",
+  "cat": "people",
+  "tags": [
+   "kids",
+   "people"
+  ],
+  "source": "kids-english-th/027-people",
+  "colors": [
+   "#3B2A20",
+   "#C68A5C",
+   "#3DBE5A",
+   "#3B4CB8",
+   "#FF8A3D",
+   "#2B2024",
+   "#FF8FA3",
+   "#F5C28E",
+   "#FF6F91",
+   "#FFB400",
+   "#FF5C7A",
+   "#FFD93B"
+  ],
+  "bytes": 7796
+ },
+ "frog": {
+  "file": "pets/frog.svg",
+  "cat": "pets",
+  "tags": [
+   "kids",
+   "pets"
+  ],
+  "source": "kids-english-th/010-pets",
+  "colors": [
+   "#5BC24A",
+   "#3B2A20",
+   "#B5E07A",
+   "#FF8FA3"
+  ],
+  "bytes": 2084
+ },
+ "garland": {
+  "file": "festivals/garland.svg",
+  "cat": "festivals",
+  "tags": [
+   "kids",
+   "festivals"
+  ],
+  "source": "kids-english-th/084-festivals",
+  "colors": [
+   "#3B2A20",
+   "#F4EFD8",
+   "#FFFFFF",
+   "#3DA53D",
+   "#FF8A1E",
+   "#F23B3B",
+   "#3DBE5A",
+   "#B81F2E",
+   "#FFD93B",
+   "#8E5BD9"
+  ],
+  "bytes": 8464
+ },
+ "garlic": {
+  "file": "green-food/garlic.svg",
+  "cat": "green-food",
+  "tags": [
+   "kids",
+   "green-food"
+  ],
+  "source": "kids-english-th/094-green-food",
+  "colors": [
+   "#B98B4E",
+   "#FBF6EE",
+   "#3B2A20",
+   "#E4D3F0",
+   "#C79AE6",
+   "#FF8FA3"
+  ],
+  "bytes": 1525
+ },
+ "gas-station": {
+  "file": "on-the-road/gas-station.svg",
+  "cat": "on-the-road",
+  "tags": [
+   "kids",
+   "on-the-road"
+  ],
+  "source": "kids-english-th/064-on-the-road",
+  "colors": [
+   "#6B7280",
+   "#3B2A20",
+   "#F23B3B",
+   "#FFC93B",
+   "#1E9BE0",
+   "#BDE8FF",
+   "#FF8FA3",
+   "#C62828",
+   "#4A4F5C",
+   "#9AA0A6"
+  ],
+  "bytes": 2357
+ },
+ "gift": {
+  "file": "party/gift.svg",
+  "cat": "party",
+  "tags": [
+   "kids",
+   "party"
+  ],
+  "source": "kids-english-th/060-party",
+  "colors": [
+   "#FF5C8A",
+   "#3B2A20",
+   "#FFC2D1",
+   "#FFD93B",
+   "#E8457E",
+   "#FFC93B"
+  ],
+  "bytes": 1405
+ },
+ "giraffe": {
+  "file": "wild-animals/giraffe.svg",
+  "cat": "wild-animals",
+  "tags": [
+   "kids",
+   "wild-animals"
+  ],
+  "source": "kids-english-th/003-wild-animals",
+  "colors": [
+   "#3B2A20",
+   "#7A4B2A",
+   "#FFC94A",
+   "#B9773F",
+   "#C1782E",
+   "#F5B041",
+   "#FF8FA3"
+  ],
+  "bytes": 3587
+ },
+ "girl": {
+  "file": "people/girl.svg",
+  "cat": "people",
+  "tags": [
+   "kids",
+   "people"
+  ],
+  "source": "kids-english-th/027-people",
+  "colors": [
+   "#3B2A20",
+   "#F5C28E",
+   "#FF6F91",
+   "#B07CE8",
+   "#2B2024",
+   "#FF5C9A",
+   "#FF8FA3",
+   "#8E5BD9",
+   "#FFD93B"
+  ],
+  "bytes": 4371
+ },
+ "glasses": {
+  "file": "accessories/glasses.svg",
+  "cat": "accessories",
+  "tags": [
+   "kids",
+   "accessories"
+  ],
+  "source": "kids-english-th/097-accessories",
+  "colors": [
+   "#3B2A20",
+   "#3D7BFF",
+   "#CDEBFF",
+   "#FFD93B"
+  ],
+  "bytes": 1817
+ },
+ "globe": {
+  "file": "classroom/globe.svg",
+  "cat": "classroom",
+  "tags": [
+   "kids",
+   "classroom"
+  ],
+  "source": "kids-english-th/059-classroom",
+  "colors": [
+   "#3B2A20",
+   "#8C96A3",
+   "#8E5BD9",
+   "#FFD93B",
+   "#3DA5F5",
+   "#7ED957"
+  ],
+  "bytes": 1491
+ },
+ "gloves": {
+  "file": "more-clothes/gloves.svg",
+  "cat": "more-clothes",
+  "tags": [
+   "kids",
+   "more-clothes"
+  ],
+  "source": "kids-english-th/030-more-clothes",
+  "colors": [
+   "#3B2A20",
+   "#1E9BE0",
+   "#1565B0",
+   "#FFD93B",
+   "#E0B020"
+  ],
+  "bytes": 4160
+ },
+ "glue": {
+  "file": "art-time/glue.svg",
+  "cat": "art-time",
+  "tags": [
+   "kids",
+   "art-time"
+  ],
+  "source": "kids-english-th/057-art-time",
+  "colors": [
+   "#3B2A20",
+   "#FFD93B",
+   "#FF8A3D",
+   "#FF8FA3"
+  ],
+  "bytes": 1342
+ },
+ "goat": {
+  "file": "farm-animals/goat.svg",
+  "cat": "farm-animals",
+  "tags": [
+   "kids",
+   "farm-animals"
+  ],
+  "source": "kids-english-th/001-farm-animals",
+  "colors": [
+   "#A88A6A",
+   "#3B2A20",
+   "#D9B48A",
+   "#FFB3C1",
+   "#F3EBDD",
+   "#FF8FA3",
+   "#8B5E3C"
+  ],
+  "bytes": 1953
+ },
+ "goldfish": {
+  "file": "pets/goldfish.svg",
+  "cat": "pets",
+  "tags": [
+   "kids",
+   "pets"
+  ],
+  "source": "kids-english-th/010-pets",
+  "colors": [
+   "#FFA62B",
+   "#3B2A20",
+   "#FF8A00",
+   "#FFB547",
+   "#E2661B",
+   "#FF8FA3"
+  ],
+  "bytes": 1494
+ },
+ "golf": {
+  "file": "sports/golf.svg",
+  "cat": "sports",
+  "tags": [
+   "kids",
+   "sports"
+  ],
+  "source": "kids-english-th/055-sports",
+  "colors": [
+   "#7ED957",
+   "#3B2A20",
+   "#E8453C",
+   "#8C96A3",
+   "#C7D0DA"
+  ],
+  "bytes": 1661
+ },
+ "goodbye": {
+  "file": "manners/goodbye.svg",
+  "cat": "manners",
+  "tags": [
+   "kids",
+   "manners"
+  ],
+  "source": "kids-english-th/100-manners",
+  "colors": [
+   "#FF8A3D",
+   "#3B2A20",
+   "#C9671E",
+   "#29A8F0",
+   "#F2C49B",
+   "#2B211A",
+   "#5A4A40",
+   "#FF8FA3"
+  ],
+  "bytes": 3826
+ },
+ "goose": {
+  "file": "farm-birds/goose.svg",
+  "cat": "farm-birds",
+  "tags": [
+   "kids",
+   "farm-birds"
+  ],
+  "source": "kids-english-th/002-farm-birds",
+  "colors": [
+   "#FF8A3D",
+   "#3B2A20",
+   "#E8E4DC",
+   "#FF8FA3"
+  ],
+  "bytes": 1768
+ },
+ "grandma": {
+  "file": "family/grandma.svg",
+  "cat": "family",
+  "tags": [
+   "kids",
+   "family"
+  ],
+  "source": "kids-english-th/026-family",
+  "colors": [
+   "#B07CE8",
+   "#3B2A20",
+   "#D9D6E2",
+   "#F5C28E",
+   "#FF8FA3",
+   "#E3A06B",
+   "#FFD93B"
+  ],
+  "bytes": 3026
+ },
+ "grandpa": {
+  "file": "family/grandpa.svg",
+  "cat": "family",
+  "tags": [
+   "kids",
+   "family"
+  ],
+  "source": "kids-english-th/026-family",
+  "colors": [
+   "#3DBE5A",
+   "#3B2A20",
+   "#F5C28E",
+   "#D9D6E2",
+   "#B0D6E2",
+   "#E3A06B",
+   "#FF8FA3",
+   "#F4F4F8",
+   "#FFD93B"
+  ],
+  "bytes": 2922
+ },
+ "grapes": {
+  "file": "fruits/grapes.svg",
+  "cat": "fruits",
+  "tags": [
+   "kids",
+   "fruits"
+  ],
+  "source": "kids-english-th/011-fruits",
+  "colors": [
+   "#3B2A20",
+   "#7A4B2A",
+   "#3DBE5A",
+   "#2E9E48",
+   "#9B59E0",
+   "#A86BE8",
+   "#FF8FA3"
+  ],
+  "bytes": 3145
+ },
+ "grapes-mali": {
+  "file": "fruits/grapes-mali.svg",
+  "cat": "fruits",
+  "tags": [
+   "mali",
+   "fruits"
+  ],
+  "source": "mali-english-th/themes/fruits.mjs",
+  "colors": [
+   "#7A4B2A",
+   "#3DBE5A",
+   "#3B2A20",
+   "#2E9446",
+   "#A56BE0",
+   "#FF8FA3"
+  ],
+  "bytes": 3131
+ },
+ "grass": {
+  "file": "garden/grass.svg",
+  "cat": "garden",
+  "tags": [
+   "kids",
+   "garden"
+  ],
+  "source": "kids-english-th/037-garden",
+  "colors": [
+   "#4CB83A",
+   "#3B2A20",
+   "#7ACC29",
+   "#8FD94A",
+   "#FFD93B",
+   "#FF8FA3"
+  ],
+  "bytes": 2329
+ },
+ "grasshopper": {
+  "file": "garden-bugs/grasshopper.svg",
+  "cat": "garden-bugs",
+  "tags": [
+   "kids",
+   "garden-bugs"
+  ],
+  "source": "kids-english-th/008-garden-bugs",
+  "colors": [
+   "#3B2A20",
+   "#7ED957",
+   "#4FAE3F",
+   "#5BC24A",
+   "#FF8FA3"
+  ],
+  "bytes": 2020
+ },
+ "gray": {
+  "file": "more-colors/gray.svg",
+  "cat": "more-colors",
+  "tags": [
+   "kids",
+   "more-colors"
+  ],
+  "source": "kids-english-th/042-more-colors",
+  "colors": [
+   "#A7ADB8",
+   "#3B2A20",
+   "#F2B8C6",
+   "#7F8794",
+   "#FF8FA3"
+  ],
+  "bytes": 1615
+ },
+ "green": {
+  "file": "colors/green.svg",
+  "cat": "colors",
+  "tags": [
+   "kids",
+   "colors"
+  ],
+  "source": "kids-english-th/041-colors",
+  "colors": [
+   "#3DBE5A",
+   "#3B2A20",
+   "#FF8FA3",
+   "#2A8A3E"
+  ],
+  "bytes": 1126
+ },
+ "green-mali": {
+  "file": "colors/green-mali.svg",
+  "cat": "colors",
+  "tags": [
+   "mali",
+   "colors"
+  ],
+  "source": "mali-english-th/themes/colors.mjs",
+  "colors": [
+   "#2FBF4A",
+   "#3B2A20",
+   "#FF8FA3"
+  ],
+  "bytes": 2372
+ },
+ "guitar": {
+  "file": "music/guitar.svg",
+  "cat": "music",
+  "tags": [
+   "kids",
+   "music"
+  ],
+  "source": "kids-english-th/056-music",
+  "colors": [
+   "#8B5A2B",
+   "#3B2A20",
+   "#7A4B2A",
+   "#FFD93B",
+   "#D9B98A",
+   "#FF9A2E",
+   "#F5F0E6"
+  ],
+  "bytes": 2089
+ },
+ "hair": {
+  "file": "face/hair.svg",
+  "cat": "face",
+  "tags": [
+   "kids",
+   "face"
+  ],
+  "source": "kids-english-th/021-face",
+  "colors": [
+   "#8E5BD9",
+   "#2B2024",
+   "#3B2A20",
+   "#5A4652",
+   "#F5C28E",
+   "#FF8FA3",
+   "#FFD93B",
+   "#7FD1FF"
+  ],
+  "bytes": 2604
+ },
+ "hammer": {
+  "file": "tools/hammer.svg",
+  "cat": "tools",
+  "tags": [
+   "kids",
+   "tools"
+  ],
+  "source": "kids-english-th/038-tools",
+  "colors": [
+   "#E8A15C",
+   "#3B2A20",
+   "#F23B3B",
+   "#B82A2A",
+   "#9AA6B2",
+   "#7C8794",
+   "#FF8FA3"
+  ],
+  "bytes": 1425
+ },
+ "hamster": {
+  "file": "pets/hamster.svg",
+  "cat": "pets",
+  "tags": [
+   "kids",
+   "pets"
+  ],
+  "source": "kids-english-th/010-pets",
+  "colors": [
+   "#F5A85B",
+   "#3B2A20",
+   "#FFB3C1",
+   "#FFF3E0",
+   "#FF8FA3",
+   "#FF6F91"
+  ],
+  "bytes": 1808
+ },
+ "hand": {
+  "file": "body/hand.svg",
+  "cat": "body",
+  "tags": [
+   "kids",
+   "body"
+  ],
+  "source": "kids-english-th/022-body",
+  "colors": [
+   "#3B2A20",
+   "#F5C28E",
+   "#E3A06B",
+   "#FF8A3D",
+   "#FFD93B",
+   "#7FD1FF"
+  ],
+  "bytes": 2343
+ },
+ "happy": {
+  "file": "feelings/happy.svg",
+  "cat": "feelings",
+  "tags": [
+   "kids",
+   "feelings"
+  ],
+  "source": "kids-english-th/024-feelings",
+  "colors": [
+   "#2B2024",
+   "#3B2A20",
+   "#F5C28E",
+   "#FF5C9A",
+   "#FF8FA3",
+   "#B8323F",
+   "#FF7A8A",
+   "#FF5C7A",
+   "#FFD93B",
+   "#FF8A3D"
+  ],
+  "bytes": 3053
+ },
+ "hat": {
+  "file": "clothes/hat.svg",
+  "cat": "clothes",
+  "tags": [
+   "kids",
+   "clothes"
+  ],
+  "source": "kids-english-th/029-clothes",
+  "colors": [
+   "#FFC93B",
+   "#3B2A20",
+   "#FFD95A",
+   "#F23B3B",
+   "#FFB400",
+   "#E0A21B",
+   "#FFD93B",
+   "#FF8FA3"
+  ],
+  "bytes": 1782
+ },
+ "hay": {
+  "file": "farm/hay.svg",
+  "cat": "farm",
+  "tags": [
+   "kids",
+   "farm"
+  ],
+  "source": "kids-english-th/069-farm",
+  "colors": [
+   "#7ED957",
+   "#3B2A20",
+   "#FFD24C",
+   "#D9A42E",
+   "#E0A82E",
+   "#FF8FA3"
+  ],
+  "bytes": 1380
+ },
+ "head": {
+  "file": "body/head.svg",
+  "cat": "body",
+  "tags": [
+   "kids",
+   "body"
+  ],
+  "source": "kids-english-th/022-body",
+  "colors": [
+   "#F23B3B",
+   "#3B2A20",
+   "#F5C28E",
+   "#FF8A3D",
+   "#3DBE5A",
+   "#1E9BE0",
+   "#2B2024",
+   "#FF8FA3",
+   "#FFD93B"
+  ],
+  "bytes": 3837
+ },
+ "heart": {
+  "file": "shapes/heart.svg",
+  "cat": "shapes",
+  "tags": [
+   "kids",
+   "shapes"
+  ],
+  "source": "kids-english-th/043-shapes",
+  "colors": [
+   "#FF5C8A",
+   "#3B2A20",
+   "#FF8FA3"
+  ],
+  "bytes": 841
+ },
+ "heavy": {
+  "file": "opposites/heavy.svg",
+  "cat": "opposites",
+  "tags": [
+   "kids",
+   "opposites"
+  ],
+  "source": "kids-english-th/048-opposites",
+  "colors": [
+   "#3B2A20",
+   "#4A5A8A",
+   "#FFD3A8",
+   "#3DBE5A",
+   "#5A3A22",
+   "#FF8FA3",
+   "#9CA3AF",
+   "#4B4F58",
+   "#6B7280",
+   "#5CC8FF"
+  ],
+  "bytes": 3945
+ },
+ "hedgehog": {
+  "file": "woodland-animals/hedgehog.svg",
+  "cat": "woodland-animals",
+  "tags": [
+   "kids",
+   "woodland-animals"
+  ],
+  "source": "kids-english-th/096-woodland-animals",
+  "colors": [
+   "#7A4B2A",
+   "#3B2A20",
+   "#A97142",
+   "#C98B4A",
+   "#F3D3A8",
+   "#FF8FA3"
+  ],
+  "bytes": 1553
+ },
+ "helicopter": {
+  "file": "sky-and-sea/helicopter.svg",
+  "cat": "sky-and-sea",
+  "tags": [
+   "kids",
+   "sky-and-sea"
+  ],
+  "source": "kids-english-th/062-sky-and-sea",
+  "colors": [
+   "#FFC93B",
+   "#3B2A20",
+   "#F23B3B",
+   "#9AA0A6",
+   "#BDE8FF",
+   "#FF8FA3",
+   "#6B7280"
+  ],
+  "bytes": 2170
+ },
+ "hello": {
+  "file": "manners/hello.svg",
+  "cat": "manners",
+  "tags": [
+   "kids",
+   "manners"
+  ],
+  "source": "kids-english-th/100-manners",
+  "colors": [
+   "#FFC400",
+   "#3B2A20",
+   "#F2C49B",
+   "#2B211A",
+   "#5A4A40",
+   "#FF8FA3"
+  ],
+  "bytes": 3303
+ },
+ "hippo": {
+  "file": "jungle-animals/hippo.svg",
+  "cat": "jungle-animals",
+  "tags": [
+   "kids",
+   "jungle-animals"
+  ],
+  "source": "kids-english-th/004-jungle-animals",
+  "colors": [
+   "#A58FCB",
+   "#3B2A20",
+   "#FF8FA3",
+   "#B9A5DB",
+   "#6B5596"
+  ],
+  "bytes": 1640
+ },
+ "honey": {
+  "file": "snacks/honey.svg",
+  "cat": "snacks",
+  "tags": [
+   "kids",
+   "snacks"
+  ],
+  "source": "kids-english-th/020-snacks",
+  "colors": [
+   "#3B2A20",
+   "#A0703F",
+   "#F5A623",
+   "#E08E0B",
+   "#FFC933",
+   "#FF8FA3",
+   "#E8F7FF",
+   "#FFD93B"
+  ],
+  "bytes": 2146
+ },
+ "horse": {
+  "file": "farm-animals/horse.svg",
+  "cat": "farm-animals",
+  "tags": [
+   "kids",
+   "farm-animals"
+  ],
+  "source": "kids-english-th/001-farm-animals",
+  "colors": [
+   "#7A4B2A",
+   "#3B2A20",
+   "#C98A4B",
+   "#5A3A22",
+   "#E8B88A",
+   "#FF8FA3"
+  ],
+  "bytes": 2862
+ },
+ "horse-mali": {
+  "file": "farm/horse-mali.svg",
+  "cat": "farm",
+  "tags": [
+   "mali",
+   "farm"
+  ],
+  "source": "mali-english-th/themes/farm.mjs",
+  "colors": [
+   "#B9773F",
+   "#3B2A20",
+   "#FFB3C1",
+   "#5A3418",
+   "#E8C08F",
+   "#FF8FA3"
+  ],
+  "bytes": 1761
+ },
+ "hospital": {
+  "file": "places/hospital.svg",
+  "cat": "places",
+  "tags": [
+   "kids",
+   "places"
+  ],
+  "source": "kids-english-th/065-places",
+  "colors": [
+   "#3B2A20",
+   "#F23B3B",
+   "#F4F8FF",
+   "#5CC8FF",
+   "#BDE8FF"
+  ],
+  "bytes": 2722
+ },
+ "hot": {
+  "file": "opposites/hot.svg",
+  "cat": "opposites",
+  "tags": [
+   "kids",
+   "opposites"
+  ],
+  "source": "kids-english-th/048-opposites",
+  "colors": [
+   "#B9B4C4",
+   "#FF8A3D",
+   "#3B2A20",
+   "#F25C2A",
+   "#FFD93B",
+   "#3DBE5A",
+   "#FF8FA3",
+   "#C0392B",
+   "#5CC8FF",
+   "#F23B3B"
+  ],
+  "bytes": 1985
+ },
+ "hug": {
+  "file": "kind-actions/hug.svg",
+  "cat": "kind-actions",
+  "tags": [
+   "kids",
+   "kind-actions"
+  ],
+  "source": "kids-english-th/053-kind-actions",
+  "colors": [
+   "#FF5C8A",
+   "#3B2A20",
+   "#FF8FA3",
+   "#FFD3A8",
+   "#E8453C",
+   "#2E5AAC",
+   "#C68A52",
+   "#F3D3A8",
+   "#4A3226",
+   "#FF6F91"
+  ],
+  "bytes": 5314
+ },
+ "ice": {
+  "file": "stormy-weather/ice.svg",
+  "cat": "stormy-weather",
+  "tags": [
+   "kids",
+   "stormy-weather"
+  ],
+  "source": "kids-english-th/072-stormy-weather",
+  "colors": [
+   "#E6F9FF",
+   "#3B2A20",
+   "#8ED6F2",
+   "#BDEBFF",
+   "#FF8FA3"
+  ],
+  "bytes": 2825
+ },
+ "ice-cream": {
+  "file": "sweets/ice-cream.svg",
+  "cat": "sweets",
+  "tags": [
+   "kids",
+   "sweets"
+  ],
+  "source": "kids-english-th/018-sweets",
+  "colors": [
+   "#F2B158",
+   "#3B2A20",
+   "#C9823A",
+   "#FF9EC0",
+   "#3DBE5A",
+   "#F23B3B",
+   "#29A8F0",
+   "#FFD93B",
+   "#FF8FA3"
+  ],
+  "bytes": 2048
+ },
+ "in": {
+  "file": "positions/in.svg",
+  "cat": "positions",
+  "tags": [
+   "kids",
+   "positions"
+  ],
+  "source": "kids-english-th/049-positions",
+  "colors": [
+   "#B9773F",
+   "#3B2A20",
+   "#FF8A3D",
+   "#FFB3C1",
+   "#E2661B",
+   "#FF8FA3",
+   "#FF6F91",
+   "#D9A066",
+   "#C58A4F",
+   "#FFD93B"
+  ],
+  "bytes": 2671
+ },
+ "island": {
+  "file": "nature/island.svg",
+  "cat": "nature",
+  "tags": [
+   "kids",
+   "nature"
+  ],
+  "source": "kids-english-th/073-nature",
+  "colors": [
+   "#BDE6FF",
+   "#3B2A20",
+   "#2E9BF0",
+   "#F7D58B",
+   "#C48A4A",
+   "#8A5A2B",
+   "#4CBF4F",
+   "#9BDBFF"
+  ],
+  "bytes": 3130
+ },
+ "jacket": {
+  "file": "more-clothes/jacket.svg",
+  "cat": "more-clothes",
+  "tags": [
+   "kids",
+   "more-clothes"
+  ],
+  "source": "kids-english-th/030-more-clothes",
+  "colors": [
+   "#7A4FC9",
+   "#3B2A20",
+   "#9B6BE8",
+   "#FFC93B",
+   "#8A5ED8"
+  ],
+  "bytes": 1805
+ },
+ "jar": {
+  "file": "containers/jar.svg",
+  "cat": "containers",
+  "tags": [
+   "kids",
+   "containers"
+  ],
+  "source": "kids-english-th/098-containers",
+  "colors": [
+   "#F23B3B",
+   "#3B2A20",
+   "#EAF6FF",
+   "#E8336D",
+   "#FFF6D6",
+   "#FF8FA3"
+  ],
+  "bytes": 1494
+ },
+ "jellyfish": {
+  "file": "ocean-friends/jellyfish.svg",
+  "cat": "ocean-friends",
+  "tags": [
+   "kids",
+   "ocean-friends"
+  ],
+  "source": "kids-english-th/006-ocean-friends",
+  "colors": [
+   "#3B2A20",
+   "#FF6FB5",
+   "#B57EDC",
+   "#FF9ECF",
+   "#FFC4E1",
+   "#FF8FA3"
+  ],
+  "bytes": 2443
+ },
+ "juice": {
+  "file": "drinks/juice.svg",
+  "cat": "drinks",
+  "tags": [
+   "kids",
+   "drinks"
+  ],
+  "source": "kids-english-th/019-drinks",
+  "colors": [
+   "#3B2A20",
+   "#3DBE5A",
+   "#FF9F1C",
+   "#FFD93B",
+   "#FF8C1A",
+   "#2E9E48",
+   "#FF8FA3"
+  ],
+  "bytes": 1774
+ },
+ "jump": {
+  "file": "actions/jump.svg",
+  "cat": "actions",
+  "tags": [
+   "kids",
+   "actions"
+  ],
+  "source": "kids-english-th/050-actions",
+  "colors": [
+   "#3B2A20",
+   "#9CA3AF",
+   "#4A5A8A",
+   "#FFD3A8",
+   "#FFB400",
+   "#5A3A22",
+   "#FF8FA3",
+   "#C0392B",
+   "#FFC93B"
+  ],
+  "bytes": 3068
+ },
+ "kangaroo": {
+  "file": "more-wild-animals/kangaroo.svg",
+  "cat": "more-wild-animals",
+  "tags": [
+   "kids",
+   "more-wild-animals"
+  ],
+  "source": "kids-english-th/080-more-wild-animals",
+  "colors": [
+   "#D9915A",
+   "#3B2A20",
+   "#FFC2CF",
+   "#C47A45",
+   "#F5D6A8",
+   "#FF8FA3"
+  ],
+  "bytes": 2669
+ },
+ "kettle": {
+  "file": "kitchen/kettle.svg",
+  "cat": "kitchen",
+  "tags": [
+   "kids",
+   "kitchen"
+  ],
+  "source": "kids-english-th/035-kitchen",
+  "colors": [
+   "#3B2A20",
+   "#19B5A5",
+   "#C9C9D9",
+   "#FFB400",
+   "#0E8F82",
+   "#FF8FA3"
+  ],
+  "bytes": 1814
+ },
+ "kite": {
+  "file": "toys/kite.svg",
+  "cat": "toys",
+  "tags": [
+   "kids",
+   "toys"
+  ],
+  "source": "kids-english-th/040-toys",
+  "colors": [
+   "#3B2A20",
+   "#FFD93B",
+   "#3DBE5A",
+   "#F23B3B",
+   "#29A8F0",
+   "#FF8FA3"
+  ],
+  "bytes": 1641
+ },
+ "kitten": {
+  "file": "baby-animals/kitten.svg",
+  "cat": "baby-animals",
+  "tags": [
+   "kids",
+   "baby-animals"
+  ],
+  "source": "kids-english-th/079-baby-animals",
+  "colors": [
+   "#3B2A20",
+   "#C4C2D4",
+   "#FFB3C1",
+   "#A09EB5",
+   "#FF8FA3",
+   "#FF6F91",
+   "#FF7EB6"
+  ],
+  "bytes": 2609
+ },
+ "kiwi": {
+  "file": "more-fruits/kiwi.svg",
+  "cat": "more-fruits",
+  "tags": [
+   "kids",
+   "more-fruits"
+  ],
+  "source": "kids-english-th/013-more-fruits",
+  "colors": [
+   "#A0703F",
+   "#3B2A20",
+   "#6E4524",
+   "#FF8FA3",
+   "#7CC242",
+   "#F4F1C8"
+  ],
+  "bytes": 2856
+ },
+ "knee": {
+  "file": "more-body/knee.svg",
+  "cat": "more-body",
+  "tags": [
+   "kids",
+   "more-body"
+  ],
+  "source": "kids-english-th/023-more-body",
+  "colors": [
+   "#8E5BD9",
+   "#3B2A20",
+   "#F5C28E",
+   "#3DBE5A",
+   "#1E9BE0",
+   "#FFB400",
+   "#2B2024",
+   "#FF8FA3",
+   "#B8323F",
+   "#FF7A8A",
+   "#F7C58B",
+   "#FFD93B"
+  ],
+  "bytes": 4393
+ },
+ "ladder": {
+  "file": "tools/ladder.svg",
+  "cat": "tools",
+  "tags": [
+   "kids",
+   "tools"
+  ],
+  "source": "kids-english-th/038-tools",
+  "colors": [
+   "#3B2A20",
+   "#FFD93B",
+   "#FFB400"
+  ],
+  "bytes": 1869
+ },
+ "ladybug": {
+  "file": "insects/ladybug.svg",
+  "cat": "insects",
+  "tags": [
+   "kids",
+   "insects"
+  ],
+  "source": "kids-english-th/007-insects",
+  "colors": [
+   "#3B2A20",
+   "#F23B3B",
+   "#4A3B33",
+   "#FF8FA3"
+  ],
+  "bytes": 1989
+ },
+ "lake": {
+  "file": "more-nature/lake.svg",
+  "cat": "more-nature",
+  "tags": [
+   "kids",
+   "more-nature"
+  ],
+  "source": "kids-english-th/074-more-nature",
+  "colors": [
+   "#BDE6FF",
+   "#8EA6D6",
+   "#3B2A20",
+   "#A8B8E6",
+   "#7ED957",
+   "#4FB3F6",
+   "#FFD93B",
+   "#FF9A2E",
+   "#9B6A3F",
+   "#3E9E4F",
+   "#5DBB3F"
+  ],
+  "bytes": 3107
+ },
+ "lamb": {
+  "file": "baby-animals/lamb.svg",
+  "cat": "baby-animals",
+  "tags": [
+   "kids",
+   "baby-animals"
+  ],
+  "source": "kids-english-th/079-baby-animals",
+  "colors": [
+   "#6B5A52",
+   "#3B2A20",
+   "#FFF8EC",
+   "#FFE3C7",
+   "#FF8FA3",
+   "#B07A6A"
+  ],
+  "bytes": 2704
+ },
+ "lamp": {
+  "file": "living-room/lamp.svg",
+  "cat": "living-room",
+  "tags": [
+   "kids",
+   "living-room"
+  ],
+  "source": "kids-english-th/032-living-room",
+  "colors": [
+   "#8E5BD9",
+   "#3B2A20",
+   "#FFD93B",
+   "#FFB400",
+   "#FF8FA3"
+  ],
+  "bytes": 1268
+ },
+ "lantern": {
+  "file": "festivals/lantern.svg",
+  "cat": "festivals",
+  "tags": [
+   "kids",
+   "festivals"
+  ],
+  "source": "kids-english-th/084-festivals",
+  "colors": [
+   "#FFF1C2",
+   "#FFD93B",
+   "#3B2A20",
+   "#FF9A3D",
+   "#E87A1E",
+   "#E05A2B",
+   "#FF8FA3"
+  ],
+  "bytes": 2656
+ },
+ "leaf": {
+  "file": "garden/leaf.svg",
+  "cat": "garden",
+  "tags": [
+   "kids",
+   "garden"
+  ],
+  "source": "kids-english-th/037-garden",
+  "colors": [
+   "#3B2A20",
+   "#2E9E48",
+   "#4CC85A",
+   "#FF8FA3"
+  ],
+  "bytes": 1208
+ },
+ "leg": {
+  "file": "body/leg.svg",
+  "cat": "body",
+  "tags": [
+   "kids",
+   "body"
+  ],
+  "source": "kids-english-th/022-body",
+  "colors": [
+   "#8E5BD9",
+   "#3B2A20",
+   "#F5C28E",
+   "#FFB400",
+   "#3DBE5A",
+   "#2B2024",
+   "#FF8FA3",
+   "#B8323F",
+   "#FF7A8A",
+   "#FFD93B"
+  ],
+  "bytes": 4047
+ },
+ "lemon": {
+  "file": "more-fruits/lemon.svg",
+  "cat": "more-fruits",
+  "tags": [
+   "kids",
+   "more-fruits"
+  ],
+  "source": "kids-english-th/013-more-fruits",
+  "colors": [
+   "#FFE135",
+   "#3B2A20",
+   "#E5C100",
+   "#3DBE5A",
+   "#2E9E48",
+   "#FF8FA3"
+  ],
+  "bytes": 1464
+ },
+ "lemonade": {
+  "file": "drinks/lemonade.svg",
+  "cat": "drinks",
+  "tags": [
+   "kids",
+   "drinks"
+  ],
+  "source": "kids-english-th/019-drinks",
+  "colors": [
+   "#3B2A20",
+   "#FF6F91",
+   "#FFF27A",
+   "#F0FBFF",
+   "#FFE135",
+   "#FFF6A8",
+   "#F2C200",
+   "#FF8FA3"
+  ],
+  "bytes": 2334
+ },
+ "letter": {
+  "file": "mail/letter.svg",
+  "cat": "mail",
+  "tags": [
+   "kids",
+   "mail"
+  ],
+  "source": "kids-english-th/099-mail",
+  "colors": [
+   "#FFF1D6",
+   "#3B2A20",
+   "#FFE0A8",
+   "#FF5FA2",
+   "#FF8FA3",
+   "#FF8FB0"
+  ],
+  "bytes": 1510
+ },
+ "lettuce": {
+  "file": "green-food/lettuce.svg",
+  "cat": "green-food",
+  "tags": [
+   "kids",
+   "green-food"
+  ],
+  "source": "kids-english-th/094-green-food",
+  "colors": [
+   "#6CC24A",
+   "#3B2A20",
+   "#E9FBD0",
+   "#8EDB4F",
+   "#A8E85F",
+   "#FF8FA3"
+  ],
+  "bytes": 4177
+ },
+ "library": {
+  "file": "more-places/library.svg",
+  "cat": "more-places",
+  "tags": [
+   "kids",
+   "more-places"
+  ],
+  "source": "kids-english-th/066-more-places",
+  "colors": [
+   "#C47A3D",
+   "#3B2A20",
+   "#7A4B2A",
+   "#F23B3B",
+   "#2F80ED",
+   "#FFC93B",
+   "#2DB84C",
+   "#8E5BD9",
+   "#FF8A3D",
+   "#FF5FA2",
+   "#29C6C6"
+  ],
+  "bytes": 5749
+ },
+ "lightning": {
+  "file": "stormy-weather/lightning.svg",
+  "cat": "stormy-weather",
+  "tags": [
+   "kids",
+   "stormy-weather"
+  ],
+  "source": "kids-english-th/072-stormy-weather",
+  "colors": [
+   "#FFD93B",
+   "#3B2A20",
+   "#FF8FA3",
+   "#B8C6DA",
+   "#FFB400"
+  ],
+  "bytes": 1355
+ },
+ "lion": {
+  "file": "wild-animals/lion.svg",
+  "cat": "wild-animals",
+  "tags": [
+   "kids",
+   "wild-animals"
+  ],
+  "source": "kids-english-th/003-wild-animals",
+  "colors": [
+   "#E8833A",
+   "#3B2A20",
+   "#FFC94A",
+   "#F3A93B",
+   "#FF8FA3",
+   "#FFF1C9",
+   "#7A4B2A"
+  ],
+  "bytes": 3956
+ },
+ "long": {
+  "file": "sizes/long.svg",
+  "cat": "sizes",
+  "tags": [
+   "kids",
+   "sizes"
+  ],
+  "source": "kids-english-th/047-sizes",
+  "colors": [
+   "#3B2A20",
+   "#4CC96A",
+   "#FFD93B",
+   "#FF8FA3",
+   "#E2661B"
+  ],
+  "bytes": 1364
+ },
+ "lotus": {
+  "file": "plants/lotus.svg",
+  "cat": "plants",
+  "tags": [
+   "kids",
+   "plants"
+  ],
+  "source": "kids-english-th/075-plants",
+  "colors": [
+   "#4FB3F6",
+   "#3B2A20",
+   "#5DBB3F",
+   "#4CAF50",
+   "#FFC2DA",
+   "#F25C9A",
+   "#FF9CC8",
+   "#FF7EB6"
+  ],
+  "bytes": 2691
+ },
+ "lunchbox": {
+  "file": "containers/lunchbox.svg",
+  "cat": "containers",
+  "tags": [
+   "kids",
+   "containers"
+  ],
+  "source": "kids-english-th/098-containers",
+  "colors": [
+   "#C3A2F5",
+   "#3B2A20",
+   "#EFE6FF",
+   "#2E4A2E",
+   "#FFC400",
+   "#8FD14F",
+   "#3DBE5A",
+   "#8E5BD9",
+   "#FFD93B",
+   "#FF8FA3"
+  ],
+  "bytes": 2472
+ },
+ "mailbox": {
+  "file": "mail/mailbox.svg",
+  "cat": "mail",
+  "tags": [
+   "kids",
+   "mail"
+  ],
+  "source": "kids-english-th/099-mail",
+  "colors": [
+   "#C81E2B",
+   "#3B2A20",
+   "#F23B3B",
+   "#FF8FA3"
+  ],
+  "bytes": 1490
+ },
+ "mango": {
+  "file": "tropical-fruits/mango.svg",
+  "cat": "tropical-fruits",
+  "tags": [
+   "kids",
+   "tropical-fruits"
+  ],
+  "source": "kids-english-th/012-tropical-fruits",
+  "colors": [
+   "#3B2A20",
+   "#7A4B2A",
+   "#3DBE5A",
+   "#2E9E48",
+   "#FFC233",
+   "#FF7A3D",
+   "#FF8FA3"
+  ],
+  "bytes": 1483
+ },
+ "mango-mali": {
+  "file": "fruits/mango-mali.svg",
+  "cat": "fruits",
+  "tags": [
+   "mali",
+   "fruits"
+  ],
+  "source": "mali-english-th/themes/fruits.mjs",
+  "colors": [
+   "#7A4B2A",
+   "#FFC531",
+   "#3B2A20",
+   "#FF7A3D",
+   "#3DBE5A",
+   "#2E9446",
+   "#FF8FA3"
+  ],
+  "bytes": 1414
+ },
+ "map": {
+  "file": "classroom/map.svg",
+  "cat": "classroom",
+  "tags": [
+   "kids",
+   "classroom"
+  ],
+  "source": "kids-english-th/059-classroom",
+  "colors": [
+   "#A8DEFF",
+   "#3B2A20",
+   "#86CBF5",
+   "#7ED957",
+   "#B9773F",
+   "#FFD93B",
+   "#E8453C"
+  ],
+  "bytes": 1859
+ },
+ "market": {
+  "file": "places/market.svg",
+  "cat": "places",
+  "tags": [
+   "kids",
+   "places"
+  ],
+  "source": "kids-english-th/065-places",
+  "colors": [
+   "#C47A3D",
+   "#3B2A20",
+   "#F23B3B",
+   "#FF8A3D",
+   "#2DB84C",
+   "#FF5B6E",
+   "#FFD93B",
+   "#FF8FA3"
+  ],
+  "bytes": 3942
+ },
+ "mask": {
+  "file": "health/mask.svg",
+  "cat": "health",
+  "tags": [
+   "kids",
+   "health"
+  ],
+  "source": "kids-english-th/087-health",
+  "colors": [
+   "#FFD93B",
+   "#3B2A20",
+   "#F6C9A0",
+   "#33261F",
+   "#8FD3FF",
+   "#5BB6F0"
+  ],
+  "bytes": 1485
+ },
+ "medicine": {
+  "file": "health/medicine.svg",
+  "cat": "health",
+  "tags": [
+   "kids",
+   "health"
+  ],
+  "source": "kids-english-th/087-health",
+  "colors": [
+   "#3DBE5A",
+   "#3B2A20",
+   "#E6F6FF",
+   "#FF6F91",
+   "#FFFFFF",
+   "#F23B3B",
+   "#FF8FA3",
+   "#FFD93B"
+  ],
+  "bytes": 2206
+ },
+ "melon": {
+  "file": "berries/melon.svg",
+  "cat": "berries",
+  "tags": [
+   "kids",
+   "berries"
+  ],
+  "source": "kids-english-th/093-berries",
+  "colors": [
+   "#7A4B2A",
+   "#D6E68A",
+   "#3B2A20",
+   "#A9BC4E",
+   "#FF8FA3",
+   "#5DB85C",
+   "#FFA94D",
+   "#FFF0C8"
+  ],
+  "bytes": 1734
+ },
+ "milk": {
+  "file": "breakfast/milk.svg",
+  "cat": "breakfast",
+  "tags": [
+   "kids",
+   "breakfast"
+  ],
+  "source": "kids-english-th/016-breakfast",
+  "colors": [
+   "#3B2A20",
+   "#5CC8FF",
+   "#FF8FA3"
+  ],
+  "bytes": 1393
+ },
+ "mirror": {
+  "file": "bathroom/mirror.svg",
+  "cat": "bathroom",
+  "tags": [
+   "kids",
+   "bathroom"
+  ],
+  "source": "kids-english-th/036-bathroom",
+  "colors": [
+   "#9B6BE0",
+   "#3B2A20",
+   "#FFD93B",
+   "#BFE8FF",
+   "#FF8FA3"
+  ],
+  "bytes": 1494
+ },
+ "mom": {
+  "file": "family/mom.svg",
+  "cat": "family",
+  "tags": [
+   "kids",
+   "family"
+  ],
+  "source": "kids-english-th/026-family",
+  "colors": [
+   "#FF8FB1",
+   "#3B2A20",
+   "#2B2024",
+   "#F5C28E",
+   "#FF8FA3",
+   "#E8475F",
+   "#FFC93B",
+   "#FF5C7A",
+   "#FFD93B"
+  ],
+  "bytes": 2624
+ },
+ "money": {
+  "file": "market/money.svg",
+  "cat": "market",
+  "tags": [
+   "kids",
+   "market"
+  ],
+  "source": "kids-english-th/086-market",
+  "colors": [
+   "#9AD9A0",
+   "#3B2A20",
+   "#3E9A4A",
+   "#FFFFFF",
+   "#9CC9F5",
+   "#2F74C0",
+   "#F7A3A3",
+   "#C83A3A"
+  ],
+  "bytes": 1361
+ },
+ "monkey": {
+  "file": "wild-animals/monkey.svg",
+  "cat": "wild-animals",
+  "tags": [
+   "kids",
+   "wild-animals"
+  ],
+  "source": "kids-english-th/003-wild-animals",
+  "colors": [
+   "#9C6B3E",
+   "#3B2A20",
+   "#F3D3A8",
+   "#FF6F91",
+   "#FF8FA3"
+  ],
+  "bytes": 1393
+ },
+ "monster": {
+  "file": "fantasy/monster.svg",
+  "cat": "fantasy",
+  "tags": [
+   "kids",
+   "fantasy"
+  ],
+  "source": "kids-english-th/078-fantasy",
+  "colors": [
+   "#FFD93B",
+   "#3B2A20",
+   "#9B6BFF",
+   "#B99BFF",
+   "#5A2B4A",
+   "#FF6F91",
+   "#FF8FA3"
+  ],
+  "bytes": 3057
+ },
+ "moon": {
+  "file": "space/moon.svg",
+  "cat": "space",
+  "tags": [
+   "kids",
+   "space"
+  ],
+  "source": "kids-english-th/070-space",
+  "colors": [
+   "#FFD93B",
+   "#3B2A20",
+   "#F2C12E",
+   "#FF8FA3"
+  ],
+  "bytes": 1828
+ },
+ "mop": {
+  "file": "cleaning/mop.svg",
+  "cat": "cleaning",
+  "tags": [
+   "kids",
+   "cleaning"
+  ],
+  "source": "kids-english-th/039-cleaning",
+  "colors": [
+   "#19B5A5",
+   "#3B2A20",
+   "#8FD3FF",
+   "#BFE8FF",
+   "#FFB400",
+   "#FF8FA3",
+   "#EAF6FF"
+  ],
+  "bytes": 3317
+ },
+ "morning": {
+  "file": "times-of-day/morning.svg",
+  "cat": "times-of-day",
+  "tags": [
+   "kids",
+   "times-of-day"
+  ],
+  "source": "kids-english-th/076-times-of-day",
+  "colors": [
+   "#BFE8FF",
+   "#FFE7A8",
+   "#FFB400",
+   "#FFD93B",
+   "#3B2A20",
+   "#FFF0A0",
+   "#FF8FA3",
+   "#FF6F91",
+   "#7ED957",
+   "#FF7EB6"
+  ],
+  "bytes": 4543
+ },
+ "motorbike": {
+  "file": "vehicles/motorbike.svg",
+  "cat": "vehicles",
+  "tags": [
+   "kids",
+   "vehicles"
+  ],
+  "source": "kids-english-th/061-vehicles",
+  "colors": [
+   "#3B2A20",
+   "#9AA0A6",
+   "#4A4F5C",
+   "#D9DEE6",
+   "#8E5BD9",
+   "#5B3A9E",
+   "#5A3A2A",
+   "#FFE36B",
+   "#FF8FA3",
+   "#F23B3B"
+  ],
+  "bytes": 2728
+ },
+ "mountain": {
+  "file": "nature/mountain.svg",
+  "cat": "nature",
+  "tags": [
+   "kids",
+   "nature"
+  ],
+  "source": "kids-english-th/073-nature",
+  "colors": [
+   "#BDE6FF",
+   "#3B2A20",
+   "#8EA6D6",
+   "#B98A5E",
+   "#7ED957",
+   "#FF8FA3"
+  ],
+  "bytes": 2219
+ },
+ "mouse": {
+  "file": "pets/mouse.svg",
+  "cat": "pets",
+  "tags": [
+   "kids",
+   "pets"
+  ],
+  "source": "kids-english-th/010-pets",
+  "colors": [
+   "#3B2A20",
+   "#FFB3C1",
+   "#B0B7C3",
+   "#E3E6EC",
+   "#FF8FA3",
+   "#FF6F91"
+  ],
+  "bytes": 1939
+ },
+ "mouth": {
+  "file": "face/mouth.svg",
+  "cat": "face",
+  "tags": [
+   "kids",
+   "face"
+  ],
+  "source": "kids-english-th/021-face",
+  "colors": [
+   "#F5C28E",
+   "#3B2A20",
+   "#2B2024",
+   "#E3A06B",
+   "#F23B3B",
+   "#FF8FA3",
+   "#B8323F",
+   "#FF7A8A",
+   "#FFD93B",
+   "#FF5C7A"
+  ],
+  "bytes": 2207
+ },
+ "mouth-mali": {
+  "file": "body/mouth-mali.svg",
+  "cat": "body",
+  "tags": [
+   "mali",
+   "body"
+  ],
+  "source": "mali-english-th/themes/body.mjs",
+  "colors": [
+   "#C8243A",
+   "#3B2A20",
+   "#E8D9CC",
+   "#FF6F91",
+   "#E2466F"
+  ],
+  "bytes": 970
+ },
+ "mushroom": {
+  "file": "more-vegetables/mushroom.svg",
+  "cat": "more-vegetables",
+  "tags": [
+   "kids",
+   "more-vegetables"
+  ],
+  "source": "kids-english-th/015-more-vegetables",
+  "colors": [
+   "#FFF1D6",
+   "#3B2A20",
+   "#F23B3B",
+   "#FF8FA3"
+  ],
+  "bytes": 1153
+ },
+ "nest": {
+  "file": "bird-parts/nest.svg",
+  "cat": "bird-parts",
+  "tags": [
+   "kids",
+   "bird-parts"
+  ],
+  "source": "kids-english-th/095-bird-parts",
+  "colors": [
+   "#A8DDF5",
+   "#3B2A20",
+   "#6FBFE3",
+   "#B07A43",
+   "#7A4B2A",
+   "#FF8FA3"
+  ],
+  "bytes": 1871
+ },
+ "night": {
+  "file": "times-of-day/night.svg",
+  "cat": "times-of-day",
+  "tags": [
+   "kids",
+   "times-of-day"
+  ],
+  "source": "kids-english-th/076-times-of-day",
+  "colors": [
+   "#2B3A6B",
+   "#FFE066",
+   "#3B2A20",
+   "#FFF4B0",
+   "#FF8FA3",
+   "#2F6B57",
+   "#E58F65"
+  ],
+  "bytes": 2402
+ },
+ "nine": {
+  "file": "numbers-6-10/nine.svg",
+  "cat": "numbers-6-10",
+  "tags": [
+   "kids",
+   "numbers-6-10"
+  ],
+  "source": "kids-english-th/046-numbers-6-10",
+  "colors": [
+   "#B86BE0",
+   "#3B2A20",
+   "#FFF6E0",
+   "#F0DDB0",
+   "#FF8FC8",
+   "#FFD93B"
+  ],
+  "bytes": 7585
+ },
+ "noodles": {
+  "file": "lunch/noodles.svg",
+  "cat": "lunch",
+  "tags": [
+   "kids",
+   "lunch"
+  ],
+  "source": "kids-english-th/017-lunch",
+  "colors": [
+   "#F2A33A",
+   "#3B2A20",
+   "#FFE08A",
+   "#B5651D",
+   "#3DBE5A",
+   "#D9362E",
+   "#F23B3B",
+   "#FF8FA3"
+  ],
+  "bytes": 2939
+ },
+ "nose": {
+  "file": "face/nose.svg",
+  "cat": "face",
+  "tags": [
+   "kids",
+   "face"
+  ],
+  "source": "kids-english-th/021-face",
+  "colors": [
+   "#F5C28E",
+   "#3B2A20",
+   "#2B2024",
+   "#FF8A3D",
+   "#F0A06A",
+   "#FF8FA3",
+   "#FFD93B"
+  ],
+  "bytes": 2225
+ },
+ "nose-mali": {
+  "file": "body/nose-mali.svg",
+  "cat": "body",
+  "tags": [
+   "mali",
+   "body"
+  ],
+  "source": "mali-english-th/themes/body.mjs",
+  "colors": [
+   "#FFD0A8",
+   "#3B2A20",
+   "#F2A877",
+   "#FF8FA3"
+  ],
+  "bytes": 765
+ },
+ "nurse": {
+  "file": "jobs/nurse.svg",
+  "cat": "jobs",
+  "tags": [
+   "kids",
+   "jobs"
+  ],
+  "source": "kids-english-th/081-jobs",
+  "colors": [
+   "#33261F",
+   "#3B2A20",
+   "#FFFFFF",
+   "#FF8FB1",
+   "#F23B3B",
+   "#F6C9A0",
+   "#FF8FA3"
+  ],
+  "bytes": 2111
+ },
+ "octopus": {
+  "file": "sea-animals/octopus.svg",
+  "cat": "sea-animals",
+  "tags": [
+   "kids",
+   "sea-animals"
+  ],
+  "source": "kids-english-th/005-sea-animals",
+  "colors": [
+   "#3B2A20",
+   "#B57EDC",
+   "#E5C3F5",
+   "#9B5FC7",
+   "#FF8FA3"
+  ],
+  "bytes": 2891
+ },
+ "oil": {
+  "file": "baking/oil.svg",
+  "cat": "baking",
+  "tags": [
+   "kids",
+   "baking"
+  ],
+  "source": "kids-english-th/092-baking",
+  "colors": [
+   "#3DBE5A",
+   "#3B2A20",
+   "#FFC93C",
+   "#FFE27A",
+   "#9BE27A",
+   "#FF8FA3"
+  ],
+  "bytes": 1443
+ },
+ "one": {
+  "file": "numbers-1-5/one.svg",
+  "cat": "numbers-1-5",
+  "tags": [
+   "kids",
+   "numbers-1-5"
+  ],
+  "source": "kids-english-th/045-numbers-1-5",
+  "colors": [
+   "#F23B3B",
+   "#3B2A20",
+   "#FFF6E0",
+   "#F0DDB0",
+   "#7A4B2A",
+   "#3DBE5A"
+  ],
+  "bytes": 1008
+ },
+ "onion": {
+  "file": "more-vegetables/onion.svg",
+  "cat": "more-vegetables",
+  "tags": [
+   "kids",
+   "more-vegetables"
+  ],
+  "source": "kids-english-th/015-more-vegetables",
+  "colors": [
+   "#3B2A20",
+   "#F0C77E",
+   "#C98B3A",
+   "#A0703F",
+   "#FF8FA3"
+  ],
+  "bytes": 1439
+ },
+ "orange": {
+  "file": "fruits/orange.svg",
+  "cat": "fruits",
+  "tags": [
+   "kids",
+   "fruits"
+  ],
+  "source": "kids-english-th/011-fruits",
+  "colors": [
+   "#3B2A20",
+   "#7A4B2A",
+   "#3DBE5A",
+   "#2E9E48",
+   "#FF9F1C",
+   "#E07B00",
+   "#FF8FA3"
+  ],
+  "bytes": 1745
+ },
+ "orange-mali": {
+  "file": "fruits/orange-mali.svg",
+  "cat": "fruits",
+  "tags": [
+   "mali",
+   "fruits"
+  ],
+  "source": "mali-english-th/themes/fruits.mjs",
+  "colors": [
+   "#7A4B2A",
+   "#3DBE5A",
+   "#3B2A20",
+   "#2E9446",
+   "#FF8A1E",
+   "#E06A00",
+   "#FF8FA3"
+  ],
+  "bytes": 1566
+ },
+ "out": {
+  "file": "positions/out.svg",
+  "cat": "positions",
+  "tags": [
+   "kids",
+   "positions"
+  ],
+  "source": "kids-english-th/049-positions",
+  "colors": [
+   "#7A4B2A",
+   "#3B2A20",
+   "#D9A066",
+   "#C58A4F",
+   "#FFD93B",
+   "#9CA3AF",
+   "#FF8A3D",
+   "#FFB3C1",
+   "#E2661B",
+   "#FF8FA3",
+   "#FF6F91",
+   "#FFC93B"
+  ],
+  "bytes": 3332
+ },
+ "oval": {
+  "file": "more-shapes/oval.svg",
+  "cat": "more-shapes",
+  "tags": [
+   "kids",
+   "more-shapes"
+  ],
+  "source": "kids-english-th/044-more-shapes",
+  "colors": [
+   "#14C2B0",
+   "#3B2A20",
+   "#FF8FA3"
+  ],
+  "bytes": 722
+ },
+ "oven": {
+  "file": "kitchen/oven.svg",
+  "cat": "kitchen",
+  "tags": [
+   "kids",
+   "kitchen"
+  ],
+  "source": "kids-english-th/035-kitchen",
+  "colors": [
+   "#3B3B48",
+   "#FFB400",
+   "#3B2A20",
+   "#F28C00",
+   "#7CF29A",
+   "#C9D3DC",
+   "#FF8A3D",
+   "#FFC27A",
+   "#9AA6B2",
+   "#FFE0B2",
+   "#FF6F91",
+   "#F23B3B",
+   "#FF8FA3"
+  ],
+  "bytes": 2678
+ },
+ "owl": {
+  "file": "birds/owl.svg",
+  "cat": "birds",
+  "tags": [
+   "kids",
+   "birds"
+  ],
+  "source": "kids-english-th/009-birds",
+  "colors": [
+   "#8B5A2B",
+   "#3B2A20",
+   "#FFB400",
+   "#9C6B3E",
+   "#7A4B2A",
+   "#F3D3A8",
+   "#C9A27E",
+   "#FF8FA3"
+  ],
+  "bytes": 2024
+ },
+ "paint": {
+  "file": "art-time/paint.svg",
+  "cat": "art-time",
+  "tags": [
+   "kids",
+   "art-time"
+  ],
+  "source": "kids-english-th/057-art-time",
+  "colors": [
+   "#F6D29B",
+   "#3B2A20",
+   "#E8453C",
+   "#FFD93B",
+   "#3DBE5A",
+   "#1E9BE0",
+   "#8E5BD9",
+   "#B8C2CC",
+   "#FF8FA3"
+  ],
+  "bytes": 2417
+ },
+ "painter": {
+  "file": "workers/painter.svg",
+  "cat": "workers",
+  "tags": [
+   "kids",
+   "workers"
+  ],
+  "source": "kids-english-th/083-workers",
+  "colors": [
+   "#7ED0F2",
+   "#3B2A20",
+   "#F23B3B",
+   "#FFD93B",
+   "#3DBE5A",
+   "#FF8A3D",
+   "#F6C9A0",
+   "#33261F",
+   "#FF8FA3",
+   "#E8322B",
+   "#F5D6A0",
+   "#1E9BE0",
+   "#C98B4F",
+   "#8E5BD9"
+  ],
+  "bytes": 3146
+ },
+ "pajamas": {
+  "file": "bedtime/pajamas.svg",
+  "cat": "bedtime",
+  "tags": [
+   "kids",
+   "bedtime"
+  ],
+  "source": "kids-english-th/089-bedtime",
+  "colors": [
+   "#7D9BF7",
+   "#3B2A20",
+   "#FFFFFF",
+   "#FFD93B",
+   "#FFE45C"
+  ],
+  "bytes": 2785
+ },
+ "pan": {
+  "file": "kitchen/pan.svg",
+  "cat": "kitchen",
+  "tags": [
+   "kids",
+   "kitchen"
+  ],
+  "source": "kids-english-th/035-kitchen",
+  "colors": [
+   "#7A4B2A",
+   "#3B2A20",
+   "#4A4E5A",
+   "#6B7080",
+   "#FFC21A",
+   "#FF8FA3"
+  ],
+  "bytes": 1480
+ },
+ "pancake": {
+  "file": "breakfast/pancake.svg",
+  "cat": "breakfast",
+  "tags": [
+   "kids",
+   "breakfast"
+  ],
+  "source": "kids-english-th/016-breakfast",
+  "colors": [
+   "#E3A048",
+   "#3B2A20",
+   "#F6C66E",
+   "#B3561E",
+   "#FFE066",
+   "#FF8FA3"
+  ],
+  "bytes": 1486
+ },
+ "pants": {
+  "file": "clothes/pants.svg",
+  "cat": "clothes",
+  "tags": [
+   "kids",
+   "clothes"
+  ],
+  "source": "kids-english-th/029-clothes",
+  "colors": [
+   "#3C7FD9",
+   "#3B2A20",
+   "#2E64B3",
+   "#FFC93B"
+  ],
+  "bytes": 1424
+ },
+ "papaya": {
+  "file": "tropical-fruits/papaya.svg",
+  "cat": "tropical-fruits",
+  "tags": [
+   "kids",
+   "tropical-fruits"
+  ],
+  "source": "kids-english-th/012-tropical-fruits",
+  "colors": [
+   "#9CCB3B",
+   "#3B2A20",
+   "#FF8A3D",
+   "#FFB37A",
+   "#2A1E16",
+   "#FF8FA3"
+  ],
+  "bytes": 4158
+ },
+ "paper": {
+  "file": "art-time/paper.svg",
+  "cat": "art-time",
+  "tags": [
+   "kids",
+   "art-time"
+  ],
+  "source": "kids-english-th/057-art-time",
+  "colors": [
+   "#5CC8FF",
+   "#3B2A20",
+   "#FF8FA3",
+   "#DDE3EA"
+  ],
+  "bytes": 1170
+ },
+ "parade": {
+  "file": "festivals/parade.svg",
+  "cat": "festivals",
+  "tags": [
+   "kids",
+   "festivals"
+  ],
+  "source": "kids-english-th/084-festivals",
+  "colors": [
+   "#3B2A20",
+   "#F23B3B",
+   "#FFD93B",
+   "#3DBE5A",
+   "#1E9BE0",
+   "#FF6FB5",
+   "#C98B4F",
+   "#F6C9A0",
+   "#33261F",
+   "#FF8FA3",
+   "#FFF6E0",
+   "#8E5BD9"
+  ],
+  "bytes": 4977
+ },
+ "parcel": {
+  "file": "mail/parcel.svg",
+  "cat": "mail",
+  "tags": [
+   "kids",
+   "mail"
+  ],
+  "source": "kids-english-th/099-mail",
+  "colors": [
+   "#E8BC80",
+   "#3B2A20",
+   "#B97F3E",
+   "#D9A066",
+   "#7A4B2A",
+   "#F2E2C0",
+   "#BFC6D6",
+   "#FF8FC0"
+  ],
+  "bytes": 1465
+ },
+ "park": {
+  "file": "places/park.svg",
+  "cat": "places",
+  "tags": [
+   "kids",
+   "places"
+  ],
+  "source": "kids-english-th/065-places",
+  "colors": [
+   "#FFD93B",
+   "#3B2A20",
+   "#7ED957",
+   "#8B5A2B",
+   "#3DBE5A",
+   "#F23B3B",
+   "#E2661B",
+   "#FF6F91",
+   "#FFB400",
+   "#8E5BD9"
+  ],
+  "bytes": 4835
+ },
+ "parrot": {
+  "file": "birds/parrot.svg",
+  "cat": "birds",
+  "tags": [
+   "kids",
+   "birds"
+  ],
+  "source": "kids-english-th/009-birds",
+  "colors": [
+   "#1E9BE0",
+   "#3B2A20",
+   "#FFD93B",
+   "#9C6B3E",
+   "#F23B3B",
+   "#2BB673",
+   "#7A7A7A",
+   "#FF8FA3"
+  ],
+  "bytes": 1945
+ },
+ "peach": {
+  "file": "more-fruits/peach.svg",
+  "cat": "more-fruits",
+  "tags": [
+   "kids",
+   "more-fruits"
+  ],
+  "source": "kids-english-th/013-more-fruits",
+  "colors": [
+   "#3B2A20",
+   "#7A4B2A",
+   "#3DBE5A",
+   "#2E9E48",
+   "#FFB38A",
+   "#FF7F7F",
+   "#E0785F",
+   "#FF8FA3"
+  ],
+  "bytes": 1872
+ },
+ "pear": {
+  "file": "more-fruits/pear.svg",
+  "cat": "more-fruits",
+  "tags": [
+   "kids",
+   "more-fruits"
+  ],
+  "source": "kids-english-th/013-more-fruits",
+  "colors": [
+   "#3B2A20",
+   "#7A4B2A",
+   "#3DBE5A",
+   "#2E9E48",
+   "#C2DB3A",
+   "#FF8FA3"
+  ],
+  "bytes": 1412
+ },
+ "peas": {
+  "file": "green-food/peas.svg",
+  "cat": "green-food",
+  "tags": [
+   "kids",
+   "green-food"
+  ],
+  "source": "kids-english-th/094-green-food",
+  "colors": [
+   "#3F8A3A",
+   "#3FA34D",
+   "#3B2A20",
+   "#5DB85C",
+   "#B6E58C",
+   "#8FD14F",
+   "#FF8FA3",
+   "#FFD93B"
+  ],
+  "bytes": 3329
+ },
+ "pencil": {
+  "file": "school-bag/pencil.svg",
+  "cat": "school-bag",
+  "tags": [
+   "kids",
+   "school-bag"
+  ],
+  "source": "kids-english-th/058-school-bag",
+  "colors": [
+   "#FF8FA3",
+   "#3B2A20",
+   "#B8C2CC",
+   "#FFC93B",
+   "#F2A400",
+   "#F3D3A8"
+  ],
+  "bytes": 1364
+ },
+ "penguin": {
+  "file": "birds/penguin.svg",
+  "cat": "birds",
+  "tags": [
+   "kids",
+   "birds"
+  ],
+  "source": "kids-english-th/009-birds",
+  "colors": [
+   "#FF8A3D",
+   "#3B2A20",
+   "#2F3A4A",
+   "#FF8FA3"
+  ],
+  "bytes": 1508
+ },
+ "pepper": {
+  "file": "more-vegetables/pepper.svg",
+  "cat": "more-vegetables",
+  "tags": [
+   "kids",
+   "more-vegetables"
+  ],
+  "source": "kids-english-th/015-more-vegetables",
+  "colors": [
+   "#3B2A20",
+   "#2E8B3A",
+   "#F23B3B",
+   "#C81E2E",
+   "#3DBE5A",
+   "#FF8FA3"
+  ],
+  "bytes": 1412
+ },
+ "phone": {
+  "file": "electronics/phone.svg",
+  "cat": "electronics",
+  "tags": [
+   "kids",
+   "electronics"
+  ],
+  "source": "kids-english-th/091-electronics",
+  "colors": [
+   "#3B2A20",
+   "#3D7BFF",
+   "#BDEBFF",
+   "#FF8FA3"
+  ],
+  "bytes": 1340
+ },
+ "piano": {
+  "file": "music/piano.svg",
+  "cat": "music",
+  "tags": [
+   "kids",
+   "music"
+  ],
+  "source": "kids-english-th/056-music",
+  "colors": [
+   "#E8453C",
+   "#3B2A20",
+   "#C7D0DA",
+   "#FF8FA3",
+   "#C93A32",
+   "#1E9BE0",
+   "#3DBE5A"
+  ],
+  "bytes": 3542
+ },
+ "pig": {
+  "file": "farm-animals/pig.svg",
+  "cat": "farm-animals",
+  "tags": [
+   "kids",
+   "farm-animals"
+  ],
+  "source": "kids-english-th/001-farm-animals",
+  "colors": [
+   "#FF9EB5",
+   "#3B2A20",
+   "#FF7FA0",
+   "#FFB3C8",
+   "#FF8FA3",
+   "#FF8FAB",
+   "#C25476"
+  ],
+  "bytes": 1384
+ },
+ "pig-mali": {
+  "file": "farm/pig-mali.svg",
+  "cat": "farm",
+  "tags": [
+   "mali",
+   "farm"
+  ],
+  "source": "mali-english-th/themes/farm.mjs",
+  "colors": [
+   "#FF9EB5",
+   "#3B2A20",
+   "#FF7A9A",
+   "#FFB3C6",
+   "#FF8AA8",
+   "#FF8FA3"
+  ],
+  "bytes": 1376
+ },
+ "pillow": {
+  "file": "bedroom/pillow.svg",
+  "cat": "bedroom",
+  "tags": [
+   "kids",
+   "bedroom"
+  ],
+  "source": "kids-english-th/033-bedroom",
+  "colors": [
+   "#8FD3FF",
+   "#3B2A20",
+   "#5AAEE0",
+   "#FF8FA3"
+  ],
+  "bytes": 1290
+ },
+ "pilot": {
+  "file": "more-jobs/pilot.svg",
+  "cat": "more-jobs",
+  "tags": [
+   "kids",
+   "more-jobs"
+  ],
+  "source": "kids-english-th/082-more-jobs",
+  "colors": [
+   "#33261F",
+   "#3B2A20",
+   "#FFFFFF",
+   "#2F3E66",
+   "#FFC83D",
+   "#F6C9A0",
+   "#FF8FA3",
+   "#22263A",
+   "#1E9BE0"
+  ],
+  "bytes": 3567
+ },
+ "pineapple": {
+  "file": "tropical-fruits/pineapple.svg",
+  "cat": "tropical-fruits",
+  "tags": [
+   "kids",
+   "tropical-fruits"
+  ],
+  "source": "kids-english-th/012-tropical-fruits",
+  "colors": [
+   "#3DBE5A",
+   "#3B2A20",
+   "#FFC72C",
+   "#D98F00",
+   "#FF8FA3"
+  ],
+  "bytes": 2187
+ },
+ "pink": {
+  "file": "colors/pink.svg",
+  "cat": "colors",
+  "tags": [
+   "kids",
+   "colors"
+  ],
+  "source": "kids-english-th/041-colors",
+  "colors": [
+   "#FF9EC0",
+   "#3B2A20",
+   "#FF8FA3",
+   "#FF77A8"
+  ],
+  "bytes": 1237
+ },
+ "pink-mali": {
+  "file": "colors/pink-mali.svg",
+  "cat": "colors",
+  "tags": [
+   "mali",
+   "colors"
+  ],
+  "source": "mali-english-th/themes/colors.mjs",
+  "colors": [
+   "#FF6FB5",
+   "#3B2A20",
+   "#FF8FA3"
+  ],
+  "bytes": 2589
+ },
+ "pirate": {
+  "file": "pirates/pirate.svg",
+  "cat": "pirates",
+  "tags": [
+   "kids",
+   "pirates"
+  ],
+  "source": "kids-english-th/090-pirates",
+  "colors": [
+   "#FFFFFF",
+   "#3B2A20",
+   "#F23B3B",
+   "#F6C9A0",
+   "#33261F",
+   "#FF8FA3",
+   "#2E2A3A",
+   "#FFC83D"
+  ],
+  "bytes": 2521
+ },
+ "pizza": {
+  "file": "lunch/pizza.svg",
+  "cat": "lunch",
+  "tags": [
+   "kids",
+   "lunch"
+  ],
+  "source": "kids-english-th/017-lunch",
+  "colors": [
+   "#FFD24A",
+   "#3B2A20",
+   "#FFE07A",
+   "#D9893B",
+   "#E5402E",
+   "#3DBE5A",
+   "#FF8FA3"
+  ],
+  "bytes": 1404
+ },
+ "plane-mali": {
+  "file": "vehicles/plane-mali.svg",
+  "cat": "vehicles",
+  "tags": [
+   "mali",
+   "vehicles"
+  ],
+  "source": "mali-english-th/themes/vehicles.mjs",
+  "colors": [
+   "#F23B3B",
+   "#3B2A20",
+   "#F2B705",
+   "#FFFFFF",
+   "#A9E4FF",
+   "#1E9BE0",
+   "#FF8FA3"
+  ],
+  "bytes": 1859
+ },
+ "planet": {
+  "file": "space/planet.svg",
+  "cat": "space",
+  "tags": [
+   "kids",
+   "space"
+  ],
+  "source": "kids-english-th/070-space",
+  "colors": [
+   "#FFD93B",
+   "#3B2A20",
+   "#5CC8FF",
+   "#FF9F43",
+   "#E07B1A",
+   "#FF8FA3"
+  ],
+  "bytes": 2350
+ },
+ "plate": {
+  "file": "tableware/plate.svg",
+  "cat": "tableware",
+  "tags": [
+   "kids",
+   "tableware"
+  ],
+  "source": "kids-english-th/034-tableware",
+  "colors": [
+   "#1E9BE0",
+   "#3B2A20",
+   "#8FD3FF",
+   "#FF8FA3"
+  ],
+  "bytes": 1374
+ },
+ "play": {
+  "file": "fun-actions/play.svg",
+  "cat": "fun-actions",
+  "tags": [
+   "kids",
+   "fun-actions"
+  ],
+  "source": "kids-english-th/052-fun-actions",
+  "colors": [
+   "#FF5C8A",
+   "#3B2A20",
+   "#1E9BE0",
+   "#FFB400",
+   "#FFD3A8",
+   "#E8453C",
+   "#3DBE5A",
+   "#4A3226",
+   "#FF8FA3",
+   "#D9405E",
+   "#FFD93B"
+  ],
+  "bytes": 4481
+ },
+ "please": {
+  "file": "manners/please.svg",
+  "cat": "manners",
+  "tags": [
+   "kids",
+   "manners"
+  ],
+  "source": "kids-english-th/100-manners",
+  "colors": [
+   "#2FAE52",
+   "#3B2A20",
+   "#F2C49B",
+   "#2B211A",
+   "#5A4A40",
+   "#FF8FA3",
+   "#FFD93B",
+   "#FF8FB0"
+  ],
+  "bytes": 3457
+ },
+ "plum": {
+  "file": "berries/plum.svg",
+  "cat": "berries",
+  "tags": [
+   "kids",
+   "berries"
+  ],
+  "source": "kids-english-th/093-berries",
+  "colors": [
+   "#7A4B2A",
+   "#3DBE5A",
+   "#3B2A20",
+   "#9A47C9",
+   "#6A2A8C",
+   "#FF8FA3"
+  ],
+  "bytes": 1155
+ },
+ "police": {
+  "file": "jobs/police.svg",
+  "cat": "jobs",
+  "tags": [
+   "kids",
+   "jobs"
+  ],
+  "source": "kids-english-th/081-jobs",
+  "colors": [
+   "#A8774A",
+   "#3B2A20",
+   "#8A5A33",
+   "#FFC83D",
+   "#9A6A3E",
+   "#F6C9A0",
+   "#33261F",
+   "#FF8FA3",
+   "#2F3E66",
+   "#22263A"
+  ],
+  "bytes": 2881
+ },
+ "popcorn": {
+  "file": "snacks/popcorn.svg",
+  "cat": "snacks",
+  "tags": [
+   "kids",
+   "snacks"
+  ],
+  "source": "kids-english-th/020-snacks",
+  "colors": [
+   "#FFF5D6",
+   "#3B2A20",
+   "#FFD24A",
+   "#F23B3B",
+   "#FF8FA3"
+  ],
+  "bytes": 3210
+ },
+ "postcard": {
+  "file": "mail/postcard.svg",
+  "cat": "mail",
+  "tags": [
+   "kids",
+   "mail"
+  ],
+  "source": "kids-english-th/099-mail",
+  "colors": [
+   "#3B2A20",
+   "#9FE3FF",
+   "#29A8F0",
+   "#FFD93B",
+   "#FF8FA3",
+   "#BFC6D6",
+   "#FF8FC0"
+  ],
+  "bytes": 2354
+ },
+ "pot": {
+  "file": "kitchen/pot.svg",
+  "cat": "kitchen",
+  "tags": [
+   "kids",
+   "kitchen"
+  ],
+  "source": "kids-english-th/035-kitchen",
+  "colors": [
+   "#C9C9D9",
+   "#3B3B48",
+   "#3B2A20",
+   "#F23B3B",
+   "#FF6B6B",
+   "#FF8FA3"
+  ],
+  "bytes": 1507
+ },
+ "potato": {
+  "file": "vegetables/potato.svg",
+  "cat": "vegetables",
+  "tags": [
+   "kids",
+   "vegetables"
+  ],
+  "source": "kids-english-th/014-vegetables",
+  "colors": [
+   "#DDB06A",
+   "#3B2A20",
+   "#A9772F",
+   "#FF8FA3"
+  ],
+  "bytes": 1141
+ },
+ "proud": {
+  "file": "more-feelings/proud.svg",
+  "cat": "more-feelings",
+  "tags": [
+   "kids",
+   "more-feelings"
+  ],
+  "source": "kids-english-th/025-more-feelings",
+  "colors": [
+   "#3B2A20",
+   "#F5C28E",
+   "#F23B3B",
+   "#3B4CB8",
+   "#1E9BE0",
+   "#FFC93B",
+   "#FFF0A0",
+   "#2B2024",
+   "#FF8FA3",
+   "#B8323F",
+   "#FF7A8A",
+   "#FFD93B"
+  ],
+  "bytes": 4630
+ },
+ "puddle": {
+  "file": "stormy-weather/puddle.svg",
+  "cat": "stormy-weather",
+  "tags": [
+   "kids",
+   "stormy-weather"
+  ],
+  "source": "kids-english-th/072-stormy-weather",
+  "colors": [
+   "#5BC0F8",
+   "#3B2A20",
+   "#FFD23F",
+   "#F2A900",
+   "#FF8FA3",
+   "#BDEBFF"
+  ],
+  "bytes": 2689
+ },
+ "pumpkin": {
+  "file": "more-vegetables/pumpkin.svg",
+  "cat": "more-vegetables",
+  "tags": [
+   "kids",
+   "more-vegetables"
+  ],
+  "source": "kids-english-th/015-more-vegetables",
+  "colors": [
+   "#3B2A20",
+   "#5E8C31",
+   "#3DBE5A",
+   "#2E9E48",
+   "#FF8C1A",
+   "#FFA02E",
+   "#FF8FA3"
+  ],
+  "bytes": 1584
+ },
+ "puppy": {
+  "file": "baby-animals/puppy.svg",
+  "cat": "baby-animals",
+  "tags": [
+   "kids",
+   "baby-animals"
+  ],
+  "source": "kids-english-th/079-baby-animals",
+  "colors": [
+   "#3B2A20",
+   "#F2C98A",
+   "#FFF1D9",
+   "#F25C54",
+   "#FFD93B",
+   "#A0673A",
+   "#FF6F91",
+   "#FF8FA3"
+  ],
+  "bytes": 2487
+ },
+ "purple": {
+  "file": "more-colors/purple.svg",
+  "cat": "more-colors",
+  "tags": [
+   "kids",
+   "more-colors"
+  ],
+  "source": "kids-english-th/042-more-colors",
+  "colors": [
+   "#7A4B2A",
+   "#3DBE5A",
+   "#3B2A20",
+   "#8E4FD9"
+  ],
+  "bytes": 2575
+ },
+ "rabbit": {
+  "file": "pets/rabbit.svg",
+  "cat": "pets",
+  "tags": [
+   "kids",
+   "pets"
+  ],
+  "source": "kids-english-th/010-pets",
+  "colors": [
+   "#3B2A20",
+   "#FFB3C1",
+   "#FF8FA3",
+   "#FF6F91"
+  ],
+  "bytes": 1816
+ },
+ "raccoon": {
+  "file": "woodland-animals/raccoon.svg",
+  "cat": "woodland-animals",
+  "tags": [
+   "kids",
+   "woodland-animals"
+  ],
+  "source": "kids-english-th/096-woodland-animals",
+  "colors": [
+   "#8A90A2",
+   "#3B2A20",
+   "#4A4F5C",
+   "#A3A9B8",
+   "#5A6070",
+   "#3B3F4A",
+   "#FF8FA3"
+  ],
+  "bytes": 1787
+ },
+ "radio": {
+  "file": "electronics/radio.svg",
+  "cat": "electronics",
+  "tags": [
+   "kids",
+   "electronics"
+  ],
+  "source": "kids-english-th/091-electronics",
+  "colors": [
+   "#3B2A20",
+   "#FF5FA2",
+   "#8FE3A0",
+   "#3DBE5A",
+   "#FFE08A",
+   "#B07D1E",
+   "#F23B3B",
+   "#FF8A3D"
+  ],
+  "bytes": 2473
+ },
+ "rain": {
+  "file": "weather/rain.svg",
+  "cat": "weather",
+  "tags": [
+   "kids",
+   "weather"
+  ],
+  "source": "kids-english-th/071-weather",
+  "colors": [
+   "#C9D9EC",
+   "#3B2A20",
+   "#FF8FA3",
+   "#3FA9F5"
+  ],
+  "bytes": 1891
+ },
+ "rainbow": {
+  "file": "weather/rainbow.svg",
+  "cat": "weather",
+  "tags": [
+   "kids",
+   "weather"
+  ],
+  "source": "kids-english-th/071-weather",
+  "colors": [
+   "#3B2A20",
+   "#F44336",
+   "#FF9800",
+   "#FFEB3B",
+   "#4CAF50",
+   "#2196F3",
+   "#9C27B0",
+   "#FF8FA3"
+  ],
+  "bytes": 2404
+ },
+ "raspberry": {
+  "file": "berries/raspberry.svg",
+  "cat": "berries",
+  "tags": [
+   "kids",
+   "berries"
+  ],
+  "source": "kids-english-th/093-berries",
+  "colors": [
+   "#3F8A3A",
+   "#3B2A20",
+   "#F2477A",
+   "#C21852",
+   "#3DBE5A",
+   "#FF8FA3"
+  ],
+  "bytes": 8879
+ },
+ "read": {
+  "file": "fun-actions/read.svg",
+  "cat": "fun-actions",
+  "tags": [
+   "kids",
+   "fun-actions"
+  ],
+  "source": "kids-english-th/052-fun-actions",
+  "colors": [
+   "#3B2A20",
+   "#FFD3A8",
+   "#E8453C",
+   "#2E5AAC",
+   "#FFB400",
+   "#4A3226",
+   "#FF8FA3",
+   "#9BB7D4"
+  ],
+  "bytes": 3780
+ },
+ "rectangle": {
+  "file": "more-shapes/rectangle.svg",
+  "cat": "more-shapes",
+  "tags": [
+   "kids",
+   "more-shapes"
+  ],
+  "source": "kids-english-th/044-more-shapes",
+  "colors": [
+   "#9B5DE5",
+   "#3B2A20",
+   "#FF8FA3"
+  ],
+  "bytes": 736
+ },
+ "red": {
+  "file": "colors/red.svg",
+  "cat": "colors",
+  "tags": [
+   "kids",
+   "colors"
+  ],
+  "source": "kids-english-th/041-colors",
+  "colors": [
+   "#3B2A20",
+   "#D92A2A",
+   "#F23B3B",
+   "#FF8FA3"
+  ],
+  "bytes": 1058
+ },
+ "red-mali": {
+  "file": "colors/red-mali.svg",
+  "cat": "colors",
+  "tags": [
+   "mali",
+   "colors"
+  ],
+  "source": "mali-english-th/themes/colors.mjs",
+  "colors": [
+   "#F23B3B",
+   "#3B2A20",
+   "#FF8FA3"
+  ],
+  "bytes": 2395
+ },
+ "reindeer": {
+  "file": "christmas/reindeer.svg",
+  "cat": "christmas",
+  "tags": [
+   "kids",
+   "christmas"
+  ],
+  "source": "kids-english-th/088-christmas",
+  "colors": [
+   "#3B2A20",
+   "#B9773F",
+   "#A86A3A",
+   "#E9C49A",
+   "#FF8FA3",
+   "#F23B3B"
+  ],
+  "bytes": 2179
+ },
+ "restaurant": {
+  "file": "more-places/restaurant.svg",
+  "cat": "more-places",
+  "tags": [
+   "kids",
+   "more-places"
+  ],
+  "source": "kids-english-th/066-more-places",
+  "colors": [
+   "#FFF6E0",
+   "#3B2A20",
+   "#FFC93B",
+   "#9AA0A6",
+   "#F23B3B",
+   "#BDE8FF",
+   "#C47A3D",
+   "#FF8A3D"
+  ],
+  "bytes": 4435
+ },
+ "rhino": {
+  "file": "jungle-animals/rhino.svg",
+  "cat": "jungle-animals",
+  "tags": [
+   "kids",
+   "jungle-animals"
+  ],
+  "source": "kids-english-th/004-jungle-animals",
+  "colors": [
+   "#3B2A20",
+   "#9AA5B1",
+   "#7D8894",
+   "#F3E5C8",
+   "#FF8FA3"
+  ],
+  "bytes": 2143
+ },
+ "rice": {
+  "file": "lunch/rice.svg",
+  "cat": "lunch",
+  "tags": [
+   "kids",
+   "lunch"
+  ],
+  "source": "kids-english-th/017-lunch",
+  "colors": [
+   "#3B2A20",
+   "#FF8FA3",
+   "#1E7FC2",
+   "#29A8F0"
+  ],
+  "bytes": 2516
+ },
+ "ring": {
+  "file": "accessories/ring.svg",
+  "cat": "accessories",
+  "tags": [
+   "kids",
+   "accessories"
+  ],
+  "source": "kids-english-th/097-accessories",
+  "colors": [
+   "#3B2A20",
+   "#FFD12E",
+   "#FF6FB5",
+   "#FFD93B"
+  ],
+  "bytes": 1486
+ },
+ "river": {
+  "file": "nature/river.svg",
+  "cat": "nature",
+  "tags": [
+   "kids",
+   "nature"
+  ],
+  "source": "kids-english-th/073-nature",
+  "colors": [
+   "#BDE6FF",
+   "#FFB400",
+   "#FFD93B",
+   "#3B2A20",
+   "#FFF0A0",
+   "#7ED957",
+   "#4FB3F6",
+   "#9B6A3F",
+   "#5DBB3F",
+   "#4CAF50",
+   "#6CC44A"
+  ],
+  "bytes": 2278
+ },
+ "road": {
+  "file": "on-the-road/road.svg",
+  "cat": "on-the-road",
+  "tags": [
+   "kids",
+   "on-the-road"
+  ],
+  "source": "kids-english-th/064-on-the-road",
+  "colors": [
+   "#BDE8FF",
+   "#5BBF4A",
+   "#FFD93B",
+   "#3B2A20",
+   "#7ED957",
+   "#6B7280",
+   "#2DB84C",
+   "#8B5A2B",
+   "#FF6F91",
+   "#FFB400"
+  ],
+  "bytes": 3082
+ },
+ "robot": {
+  "file": "toys/robot.svg",
+  "cat": "toys",
+  "tags": [
+   "kids",
+   "toys"
+  ],
+  "source": "kids-english-th/040-toys",
+  "colors": [
+   "#3B2A20",
+   "#F23B3B",
+   "#9AA6B2",
+   "#3B3B48",
+   "#FFD93B",
+   "#19B5A5",
+   "#E3F4FF",
+   "#3DBE5A",
+   "#C9D3DC",
+   "#FF8FA3"
+  ],
+  "bytes": 3546
+ },
+ "rock": {
+  "file": "more-nature/rock.svg",
+  "cat": "more-nature",
+  "tags": [
+   "kids",
+   "more-nature"
+  ],
+  "source": "kids-english-th/074-more-nature",
+  "colors": [
+   "#D8D2C8",
+   "#A9AEBC",
+   "#3B2A20",
+   "#8D93A3",
+   "#FF8FA3",
+   "#BFC4D0",
+   "#3E9E4F"
+  ],
+  "bytes": 1332
+ },
+ "rocket": {
+  "file": "sky-and-sea/rocket.svg",
+  "cat": "sky-and-sea",
+  "tags": [
+   "kids",
+   "sky-and-sea"
+  ],
+  "source": "kids-english-th/062-sky-and-sea",
+  "colors": [
+   "#FF8A3D",
+   "#3B2A20",
+   "#FFD93B",
+   "#F23B3B",
+   "#F4F8FF",
+   "#9AA0A6",
+   "#BDE8FF",
+   "#FF8FA3"
+  ],
+  "bytes": 2943
+ },
+ "roof": {
+  "file": "house/roof.svg",
+  "cat": "house",
+  "tags": [
+   "kids",
+   "house"
+  ],
+  "source": "kids-english-th/031-house",
+  "colors": [
+   "#7A4FC0",
+   "#3B2A20",
+   "#FFF4E6",
+   "#B9A898",
+   "#9B6BE0",
+   "#FF8FA3",
+   "#E6F2F8",
+   "#F0E2D2",
+   "#D8C6B4",
+   "#FFD93B"
+  ],
+  "bytes": 2285
+ },
+ "rooster": {
+  "file": "farm-birds/rooster.svg",
+  "cat": "farm-birds",
+  "tags": [
+   "kids",
+   "farm-birds"
+  ],
+  "source": "kids-english-th/002-farm-birds",
+  "colors": [
+   "#2BB673",
+   "#3B2A20",
+   "#1E9BE0",
+   "#8E5BD9",
+   "#FFB400",
+   "#F23B3B",
+   "#E8692D",
+   "#B24A1E",
+   "#F5A623",
+   "#FFD93B",
+   "#FF8FA3"
+  ],
+  "bytes": 2354
+ },
+ "root": {
+  "file": "plants/root.svg",
+  "cat": "plants",
+  "tags": [
+   "kids",
+   "plants"
+  ],
+  "source": "kids-english-th/075-plants",
+  "colors": [
+   "#8B5A2B",
+   "#3B2A20",
+   "#6E4420",
+   "#FFE2A8",
+   "#7ED957",
+   "#5DBB3F",
+   "#6CCB4C",
+   "#4CAF50"
+  ],
+  "bytes": 2033
+ },
+ "rope": {
+  "file": "pirates/rope.svg",
+  "cat": "pirates",
+  "tags": [
+   "kids",
+   "pirates"
+  ],
+  "source": "kids-english-th/090-pirates",
+  "colors": [
+   "#3B2A20",
+   "#E2B66A",
+   "#B7803F",
+   "#FF8FA3"
+  ],
+  "bytes": 6832
+ },
+ "ruler": {
+  "file": "school-bag/ruler.svg",
+  "cat": "school-bag",
+  "tags": [
+   "kids",
+   "school-bag"
+  ],
+  "source": "kids-english-th/058-school-bag",
+  "colors": [
+   "#FFC93B",
+   "#3B2A20",
+   "#FF8FA3"
+  ],
+  "bytes": 1255
+ },
+ "run": {
+  "file": "actions/run.svg",
+  "cat": "actions",
+  "tags": [
+   "kids",
+   "actions"
+  ],
+  "source": "kids-english-th/050-actions",
+  "colors": [
+   "#9CA3AF",
+   "#3B2A20",
+   "#4A5A8A",
+   "#FFD3A8",
+   "#F23B3B",
+   "#5A3A22",
+   "#FF8FA3",
+   "#C0392B",
+   "#E5E7EB"
+  ],
+  "bytes": 2528
+ },
+ "sad": {
+  "file": "feelings/sad.svg",
+  "cat": "feelings",
+  "tags": [
+   "kids",
+   "feelings"
+  ],
+  "source": "kids-english-th/024-feelings",
+  "colors": [
+   "#F5C28E",
+   "#3B2A20",
+   "#2B2024",
+   "#FF8FA3",
+   "#5CC8FF"
+  ],
+  "bytes": 2282
+ },
+ "salt": {
+  "file": "baking/salt.svg",
+  "cat": "baking",
+  "tags": [
+   "kids",
+   "baking"
+  ],
+  "source": "kids-english-th/092-baking",
+  "colors": [
+   "#3B2A20",
+   "#C9CED8",
+   "#DDF2FF",
+   "#A9D8F0",
+   "#C9E6F5",
+   "#9AA3B5",
+   "#FF8FA3"
+  ],
+  "bytes": 2465
+ },
+ "sand": {
+  "file": "beach/sand.svg",
+  "cat": "beach",
+  "tags": [
+   "kids",
+   "beach"
+  ],
+  "source": "kids-english-th/067-beach",
+  "colors": [
+   "#3B2A20",
+   "#C47A3D",
+   "#2F80ED",
+   "#F6D58E",
+   "#D9A85C",
+   "#F23B3B",
+   "#FF8A3D",
+   "#FF8FA3"
+  ],
+  "bytes": 2324
+ },
+ "sandals": {
+  "file": "accessories/sandals.svg",
+  "cat": "accessories",
+  "tags": [
+   "kids",
+   "accessories"
+  ],
+  "source": "kids-english-th/097-accessories",
+  "colors": [
+   "#FFB36B",
+   "#3B2A20",
+   "#FFD3A0",
+   "#FF8A3D",
+   "#FF5FA2",
+   "#FFD93B"
+  ],
+  "bytes": 1902
+ },
+ "sandbox": {
+  "file": "playground/sandbox.svg",
+  "cat": "playground",
+  "tags": [
+   "kids",
+   "playground"
+  ],
+  "source": "kids-english-th/054-playground",
+  "colors": [
+   "#FFE08A",
+   "#3B2A20",
+   "#E0904A",
+   "#B9773F",
+   "#F6C85F",
+   "#C98B2B",
+   "#FF5C8A",
+   "#E8453C",
+   "#C93A32",
+   "#1E9BE0",
+   "#FF8FA3"
+  ],
+  "bytes": 2565
+ },
+ "sandwich": {
+  "file": "lunch/sandwich.svg",
+  "cat": "lunch",
+  "tags": [
+   "kids",
+   "lunch"
+  ],
+  "source": "kids-english-th/017-lunch",
+  "colors": [
+   "#E0A458",
+   "#3B2A20",
+   "#7CD957",
+   "#FFD93B",
+   "#FFF2CC",
+   "#FF8FA3"
+  ],
+  "bytes": 1908
+ },
+ "santa": {
+  "file": "christmas/santa.svg",
+  "cat": "christmas",
+  "tags": [
+   "kids",
+   "christmas"
+  ],
+  "source": "kids-english-th/088-christmas",
+  "colors": [
+   "#F23B3B",
+   "#3B2A20",
+   "#F6C9A0",
+   "#FF8FA3",
+   "#FF7A7A"
+  ],
+  "bytes": 1781
+ },
+ "satay": {
+  "file": "thai-food/satay.svg",
+  "cat": "thai-food",
+  "tags": [
+   "kids",
+   "thai-food"
+  ],
+  "source": "kids-english-th/085-thai-food",
+  "colors": [
+   "#3B2A20",
+   "#E2B66A",
+   "#D9782F",
+   "#8A3E1B",
+   "#C9612B",
+   "#FFFFFF",
+   "#C9782F",
+   "#F23B3B",
+   "#FF8FA3",
+   "#9BD36A",
+   "#E7F5C4"
+  ],
+  "bytes": 5803
+ },
+ "saw": {
+  "file": "tools/saw.svg",
+  "cat": "tools",
+  "tags": [
+   "kids",
+   "tools"
+  ],
+  "source": "kids-english-th/038-tools",
+  "colors": [
+   "#DDE6EE",
+   "#3B2A20",
+   "#C9D3DC",
+   "#FF8A3D",
+   "#FF8FA3"
+  ],
+  "bytes": 1695
+ },
+ "scale": {
+  "file": "market/scale.svg",
+  "cat": "market",
+  "tags": [
+   "kids",
+   "market"
+  ],
+  "source": "kids-english-th/086-market",
+  "colors": [
+   "#E8483D",
+   "#3B2A20",
+   "#B8C4CF",
+   "#FFFFFF",
+   "#F23B3B",
+   "#FF9A1E",
+   "#FFC83D",
+   "#3DBE5A",
+   "#D9DEE5"
+  ],
+  "bytes": 1998
+ },
+ "scared": {
+  "file": "feelings/scared.svg",
+  "cat": "feelings",
+  "tags": [
+   "kids",
+   "feelings"
+  ],
+  "source": "kids-english-th/024-feelings",
+  "colors": [
+   "#8E5BD9",
+   "#2B2024",
+   "#3B2A20",
+   "#F8D9BC",
+   "#B07CE8",
+   "#9EDBFF"
+  ],
+  "bytes": 3232
+ },
+ "scarf": {
+  "file": "more-clothes/scarf.svg",
+  "cat": "more-clothes",
+  "tags": [
+   "kids",
+   "more-clothes"
+  ],
+  "source": "kids-english-th/030-more-clothes",
+  "colors": [
+   "#F5C28E",
+   "#3B2A20",
+   "#2B2024",
+   "#FF8FA3",
+   "#B8323F",
+   "#FF7A8A",
+   "#F23B3B",
+   "#7FD1FF"
+  ],
+  "bytes": 2616
+ },
+ "school": {
+  "file": "places/school.svg",
+  "cat": "places",
+  "tags": [
+   "kids",
+   "places"
+  ],
+  "source": "kids-english-th/065-places",
+  "colors": [
+   "#3B2A20",
+   "#E8463A",
+   "#2F4B9A",
+   "#FFC93B",
+   "#F23B3B",
+   "#FFD93B",
+   "#BDE8FF",
+   "#C47A3D",
+   "#E6E9EE",
+   "#FF8FA3"
+  ],
+  "bytes": 3371
+ },
+ "scissors": {
+  "file": "art-time/scissors.svg",
+  "cat": "art-time",
+  "tags": [
+   "kids",
+   "art-time"
+  ],
+  "source": "kids-english-th/057-art-time",
+  "colors": [
+   "#C7D0DA",
+   "#3B2A20",
+   "#E2E7ED",
+   "#FF8A3D",
+   "#3DBE5A",
+   "#FFD93B"
+  ],
+  "bytes": 1716
+ },
+ "scooter": {
+  "file": "playground/scooter.svg",
+  "cat": "playground",
+  "tags": [
+   "kids",
+   "playground"
+  ],
+  "source": "kids-english-th/054-playground",
+  "colors": [
+   "#8E5BD9",
+   "#3B2A20",
+   "#E8453C",
+   "#FFD93B"
+  ],
+  "bytes": 1550
+ },
+ "sea": {
+  "file": "nature/sea.svg",
+  "cat": "nature",
+  "tags": [
+   "kids",
+   "nature"
+  ],
+  "source": "kids-english-th/073-nature",
+  "colors": [
+   "#BDE6FF",
+   "#FFB400",
+   "#FFD93B",
+   "#3B2A20",
+   "#FFF0A0",
+   "#FF8FA3",
+   "#F25C54",
+   "#2E9BF0",
+   "#9BDBFF"
+  ],
+  "bytes": 2759
+ },
+ "seal": {
+  "file": "ocean-friends/seal.svg",
+  "cat": "ocean-friends",
+  "tags": [
+   "kids",
+   "ocean-friends"
+  ],
+  "source": "kids-english-th/006-ocean-friends",
+  "colors": [
+   "#7A90A4",
+   "#3B2A20",
+   "#8FA3B5",
+   "#C9D6E2",
+   "#F23B3B",
+   "#FFD93B",
+   "#FF8FA3"
+  ],
+  "bytes": 2425
+ },
+ "seed": {
+  "file": "plants/seed.svg",
+  "cat": "plants",
+  "tags": [
+   "kids",
+   "plants"
+  ],
+  "source": "kids-english-th/075-plants",
+  "colors": [
+   "#3B2A20",
+   "#5DBB3F",
+   "#6CCB4C",
+   "#C98B4F",
+   "#A86B35",
+   "#FF8FA3",
+   "#9B6A3F",
+   "#7A4B2A"
+  ],
+  "bytes": 2137
+ },
+ "seesaw": {
+  "file": "playground/seesaw.svg",
+  "cat": "playground",
+  "tags": [
+   "kids",
+   "playground"
+  ],
+  "source": "kids-english-th/054-playground",
+  "colors": [
+   "#1E9BE0",
+   "#3B2A20",
+   "#3DBE5A",
+   "#FFD3A8",
+   "#4A3226",
+   "#FF8FA3",
+   "#D9405E",
+   "#FF5C8A",
+   "#FF6F91",
+   "#FF8A3D"
+  ],
+  "bytes": 5387
+ },
+ "seven": {
+  "file": "numbers-6-10/seven.svg",
+  "cat": "numbers-6-10",
+  "tags": [
+   "kids",
+   "numbers-6-10"
+  ],
+  "source": "kids-english-th/046-numbers-6-10",
+  "colors": [
+   "#FFB400",
+   "#3B2A20",
+   "#FFF6E0",
+   "#F0DDB0",
+   "#FFD93B"
+  ],
+  "bytes": 2424
+ },
+ "shark": {
+  "file": "sea-animals/shark.svg",
+  "cat": "sea-animals",
+  "tags": [
+   "kids",
+   "sea-animals"
+  ],
+  "source": "kids-english-th/005-sea-animals",
+  "colors": [
+   "#7D95AD",
+   "#3B2A20",
+   "#4F6880",
+   "#FF8FA3"
+  ],
+  "bytes": 1255
+ },
+ "sheep": {
+  "file": "farm-animals/sheep.svg",
+  "cat": "farm-animals",
+  "tags": [
+   "kids",
+   "farm-animals"
+  ],
+  "source": "kids-english-th/001-farm-animals",
+  "colors": [
+   "#5A4A42",
+   "#3B2A20",
+   "#FF8FA3"
+  ],
+  "bytes": 4815
+ },
+ "shell": {
+  "file": "beach/shell.svg",
+  "cat": "beach",
+  "tags": [
+   "kids",
+   "beach"
+  ],
+  "source": "kids-english-th/067-beach",
+  "colors": [
+   "#FF8FA3",
+   "#3B2A20",
+   "#FFB3C1",
+   "#FF6F91"
+  ],
+  "bytes": 1196
+ },
+ "ship": {
+  "file": "sky-and-sea/ship.svg",
+  "cat": "sky-and-sea",
+  "tags": [
+   "kids",
+   "sky-and-sea"
+  ],
+  "source": "kids-english-th/062-sky-and-sea",
+  "colors": [
+   "#E6E9EE",
+   "#3B2A20",
+   "#F23B3B",
+   "#F4F8FF",
+   "#BDE8FF",
+   "#2F6FD0",
+   "#FF8FA3",
+   "#5CC8FF"
+  ],
+  "bytes": 4249
+ },
+ "shirt": {
+  "file": "clothes/shirt.svg",
+  "cat": "clothes",
+  "tags": [
+   "kids",
+   "clothes"
+  ],
+  "source": "kids-english-th/029-clothes",
+  "colors": [
+   "#F2504B",
+   "#3B2A20",
+   "#E03A36"
+  ],
+  "bytes": 1448
+ },
+ "shoes": {
+  "file": "clothes/shoes.svg",
+  "cat": "clothes",
+  "tags": [
+   "kids",
+   "clothes"
+  ],
+  "source": "kids-english-th/029-clothes",
+  "colors": [
+   "#2FA84F",
+   "#3B2A20",
+   "#BBBBC8",
+   "#3DBE5A",
+   "#FFD93B"
+  ],
+  "bytes": 2234
+ },
+ "shop": {
+  "file": "more-places/shop.svg",
+  "cat": "more-places",
+  "tags": [
+   "kids",
+   "more-places"
+  ],
+  "source": "kids-english-th/066-more-places",
+  "colors": [
+   "#FFD6A5",
+   "#3B2A20",
+   "#2F80ED",
+   "#FFC93B",
+   "#BDE8FF",
+   "#F23B3B",
+   "#C47A3D",
+   "#9AA0A6"
+  ],
+  "bytes": 3629
+ },
+ "short": {
+  "file": "sizes/short.svg",
+  "cat": "sizes",
+  "tags": [
+   "kids",
+   "sizes"
+  ],
+  "source": "kids-english-th/047-sizes",
+  "colors": [
+   "#FFF1A8",
+   "#FFC93B",
+   "#3B2A20",
+   "#4A5A8A",
+   "#FFD3A8",
+   "#2F8CFF",
+   "#5A3A22",
+   "#FF8FA3",
+   "#FF8A3D",
+   "#E2661B"
+  ],
+  "bytes": 4696
+ },
+ "shower": {
+  "file": "bathroom/shower.svg",
+  "cat": "bathroom",
+  "tags": [
+   "kids",
+   "bathroom"
+  ],
+  "source": "kids-english-th/036-bathroom",
+  "colors": [
+   "#3B2A20",
+   "#C9D3DC",
+   "#5CC8FF",
+   "#19B5A5",
+   "#FF8FA3"
+  ],
+  "bytes": 3391
+ },
+ "shrimp": {
+  "file": "ocean-friends/shrimp.svg",
+  "cat": "ocean-friends",
+  "tags": [
+   "kids",
+   "ocean-friends"
+  ],
+  "source": "kids-english-th/006-ocean-friends",
+  "colors": [
+   "#3B2A20",
+   "#FF9966",
+   "#FF7F50",
+   "#D9532A",
+   "#FF8FA3"
+  ],
+  "bytes": 2517
+ },
+ "shy": {
+  "file": "more-feelings/shy.svg",
+  "cat": "more-feelings",
+  "tags": [
+   "kids",
+   "more-feelings"
+  ],
+  "source": "kids-english-th/025-more-feelings",
+  "colors": [
+   "#2B2024",
+   "#3B2A20",
+   "#F5C28E",
+   "#FF8FA3",
+   "#FF7A93",
+   "#FF5C7A"
+  ],
+  "bytes": 3241
+ },
+ "silly": {
+  "file": "more-feelings/silly.svg",
+  "cat": "more-feelings",
+  "tags": [
+   "kids",
+   "more-feelings"
+  ],
+  "source": "kids-english-th/025-more-feelings",
+  "colors": [
+   "#3B2A20",
+   "#F5C28E",
+   "#E3A06B",
+   "#2B2024",
+   "#FF8FA3",
+   "#FF6F91",
+   "#D94470",
+   "#FFD93B"
+  ],
+  "bytes": 5644
+ },
+ "sing": {
+  "file": "fun-actions/sing.svg",
+  "cat": "fun-actions",
+  "tags": [
+   "kids",
+   "fun-actions"
+  ],
+  "source": "kids-english-th/052-fun-actions",
+  "colors": [
+   "#3B2A20",
+   "#8E5BD9",
+   "#1E9BE0",
+   "#3DBE5A",
+   "#FFD3A8",
+   "#E8453C",
+   "#2E5AAC",
+   "#FF5C8A",
+   "#4A3226",
+   "#FF6F91",
+   "#FF8FA3",
+   "#D9405E",
+   "#B8C2CC",
+   "#7D8B99"
+  ],
+  "bytes": 5142
+ },
+ "singer": {
+  "file": "workers/singer.svg",
+  "cat": "workers",
+  "tags": [
+   "kids",
+   "workers"
+  ],
+  "source": "kids-english-th/083-workers",
+  "colors": [
+   "#33261F",
+   "#3B2A20",
+   "#9B5DE5",
+   "#FFD93B",
+   "#F6C9A0",
+   "#FF8FA3",
+   "#FF6F91",
+   "#3B3F4A",
+   "#B8C4CF",
+   "#8A96A3",
+   "#FF6FB5",
+   "#1E9BE0",
+   "#3DBE5A"
+  ],
+  "bytes": 4235
+ },
+ "sister": {
+  "file": "people/sister.svg",
+  "cat": "people",
+  "tags": [
+   "kids",
+   "people"
+  ],
+  "source": "kids-english-th/027-people",
+  "colors": [
+   "#3B2A20",
+   "#F5C28E",
+   "#8E5BD9",
+   "#FF6F91",
+   "#2B2024",
+   "#FFB400",
+   "#FF8FA3",
+   "#FF8A3D",
+   "#1E9BE0",
+   "#3DBE5A",
+   "#FF5C7A",
+   "#FFD93B"
+  ],
+  "bytes": 7607
+ },
+ "sit": {
+  "file": "more-actions/sit.svg",
+  "cat": "more-actions",
+  "tags": [
+   "kids",
+   "more-actions"
+  ],
+  "source": "kids-english-th/051-more-actions",
+  "colors": [
+   "#F2B35A",
+   "#3B2A20",
+   "#E0904A",
+   "#C9733A",
+   "#FFD3A8",
+   "#E8453C",
+   "#2E5AAC",
+   "#FF8A3D",
+   "#4A3226",
+   "#FF8FA3"
+  ],
+  "bytes": 3776
+ },
+ "six": {
+  "file": "numbers-6-10/six.svg",
+  "cat": "numbers-6-10",
+  "tags": [
+   "kids",
+   "numbers-6-10"
+  ],
+  "source": "kids-english-th/046-numbers-6-10",
+  "colors": [
+   "#FF8A3D",
+   "#3B2A20",
+   "#FFF6E0",
+   "#F0DDB0",
+   "#FFB347"
+  ],
+  "bytes": 2383
+ },
+ "skirt": {
+  "file": "more-clothes/skirt.svg",
+  "cat": "more-clothes",
+  "tags": [
+   "kids",
+   "more-clothes"
+  ],
+  "source": "kids-english-th/030-more-clothes",
+  "colors": [
+   "#FF6F91",
+   "#3B2A20",
+   "#D9466E",
+   "#E0457A",
+   "#FFD93B"
+  ],
+  "bytes": 1471
+ },
+ "sky": {
+  "file": "times-of-day/sky.svg",
+  "cat": "times-of-day",
+  "tags": [
+   "kids",
+   "times-of-day"
+  ],
+  "source": "kids-english-th/076-times-of-day",
+  "colors": [
+   "#7CCBFF",
+   "#FFB400",
+   "#FFD93B",
+   "#3B2A20",
+   "#FFF0A0",
+   "#FF8FA3",
+   "#F25C54",
+   "#4FB3F6"
+  ],
+  "bytes": 3502
+ },
+ "sleep": {
+  "file": "actions/sleep.svg",
+  "cat": "actions",
+  "tags": [
+   "kids",
+   "actions"
+  ],
+  "source": "kids-english-th/050-actions",
+  "colors": [
+   "#B9773F",
+   "#3B2A20",
+   "#9A5F2E",
+   "#FFD3A8",
+   "#5A3A22",
+   "#FF8FA3",
+   "#6FA8FF",
+   "#FFD93B"
+  ],
+  "bytes": 2730
+ },
+ "sleeping-bag": {
+  "file": "camping/sleeping-bag.svg",
+  "cat": "camping",
+  "tags": [
+   "kids",
+   "camping"
+  ],
+  "source": "kids-english-th/068-camping",
+  "colors": [
+   "#3B2A20",
+   "#F6C9A0",
+   "#5A3A2A",
+   "#FF8FA3",
+   "#2DB84C",
+   "#1E9A3C",
+   "#7ED957",
+   "#FFC93B",
+   "#8E5BD9"
+  ],
+  "bytes": 2367
+ },
+ "sleepy": {
+  "file": "feelings/sleepy.svg",
+  "cat": "feelings",
+  "tags": [
+   "kids",
+   "feelings"
+  ],
+  "source": "kids-english-th/024-feelings",
+  "colors": [
+   "#F5C28E",
+   "#3B2A20",
+   "#2B2024",
+   "#FF8FA3",
+   "#B8323F",
+   "#5B6CFF",
+   "#8E9BFF",
+   "#FFD93B"
+  ],
+  "bytes": 2732
+ },
+ "slide": {
+  "file": "playground/slide.svg",
+  "cat": "playground",
+  "tags": [
+   "kids",
+   "playground"
+  ],
+  "source": "kids-english-th/054-playground",
+  "colors": [
+   "#E8453C",
+   "#3B2A20",
+   "#1E9BE0",
+   "#FFC93B",
+   "#F2A400",
+   "#3DBE5A",
+   "#FFD3A8",
+   "#4A3226",
+   "#FF8FA3",
+   "#D9405E",
+   "#FFB400"
+  ],
+  "bytes": 3617
+ },
+ "slow": {
+  "file": "opposites/slow.svg",
+  "cat": "opposites",
+  "tags": [
+   "kids",
+   "opposites"
+  ],
+  "source": "kids-english-th/048-opposites",
+  "colors": [
+   "#C8B89A",
+   "#FFC48A",
+   "#3B2A20",
+   "#B86BE0",
+   "#7B3FB0",
+   "#FF8FA3"
+  ],
+  "bytes": 1783
+ },
+ "small": {
+  "file": "sizes/small.svg",
+  "cat": "sizes",
+  "tags": [
+   "kids",
+   "sizes"
+  ],
+  "source": "kids-english-th/047-sizes",
+  "colors": [
+   "#FFF1A8",
+   "#FFC93B",
+   "#FF8A3D",
+   "#3B2A20",
+   "#FF8FA3",
+   "#2F9BFF"
+  ],
+  "bytes": 2018
+ },
+ "smile": {
+  "file": "kind-actions/smile.svg",
+  "cat": "kind-actions",
+  "tags": [
+   "kids",
+   "kind-actions"
+  ],
+  "source": "kids-english-th/053-kind-actions",
+  "colors": [
+   "#FFD3A8",
+   "#3B2A20",
+   "#4A3226",
+   "#FF8FA3",
+   "#D9405E",
+   "#FFD93B",
+   "#5CC8FF"
+  ],
+  "bytes": 1955
+ },
+ "snail": {
+  "file": "garden-bugs/snail.svg",
+  "cat": "garden-bugs",
+  "tags": [
+   "kids",
+   "garden-bugs"
+  ],
+  "source": "kids-english-th/008-garden-bugs",
+  "colors": [
+   "#B5E07A",
+   "#3B2A20",
+   "#FFB13B",
+   "#D9771B",
+   "#FF8FA3"
+  ],
+  "bytes": 2097
+ },
+ "snake": {
+  "file": "jungle-animals/snake.svg",
+  "cat": "jungle-animals",
+  "tags": [
+   "kids",
+   "jungle-animals"
+  ],
+  "source": "kids-english-th/004-jungle-animals",
+  "colors": [
+   "#3B2A20",
+   "#7ED957",
+   "#FFD93B",
+   "#FF8FA3",
+   "#F23B3B"
+  ],
+  "bytes": 1749
+ },
+ "snow": {
+  "file": "weather/snow.svg",
+  "cat": "weather",
+  "tags": [
+   "kids",
+   "weather"
+  ],
+  "source": "kids-english-th/071-weather",
+  "colors": [
+   "#3B2A20",
+   "#5BC0F8",
+   "#DDF3FF",
+   "#FF8FA3"
+  ],
+  "bytes": 2194
+ },
+ "snowflake": {
+  "file": "christmas/snowflake.svg",
+  "cat": "christmas",
+  "tags": [
+   "kids",
+   "christmas"
+  ],
+  "source": "kids-english-th/088-christmas",
+  "colors": [
+   "#BFE9FF",
+   "#3B2A20",
+   "#FF8FA3"
+  ],
+  "bytes": 718
+ },
+ "snowflake-spin": {
+  "file": "christmas/snowflake-spin.svg",
+  "cat": "christmas",
+  "tags": [
+   "kids",
+   "christmas",
+   "spin"
+  ],
+  "source": "kids-english-th/088-christmas",
+  "colors": [
+   "#3B2A20",
+   "#7FD3FF"
+  ],
+  "bytes": 2559
+ },
+ "snowman": {
+  "file": "seasons/snowman.svg",
+  "cat": "seasons",
+  "tags": [
+   "kids",
+   "seasons"
+  ],
+  "source": "kids-english-th/077-seasons",
+  "colors": [
+   "#8A5A2B",
+   "#3B2A20",
+   "#E3F3FF",
+   "#F25C54",
+   "#4A4E8C",
+   "#FF8FA3",
+   "#FF8A3D"
+  ],
+  "bytes": 2150
+ },
+ "soap": {
+  "file": "bath-time/soap.svg",
+  "cat": "bath-time",
+  "tags": [
+   "kids",
+   "bath-time"
+  ],
+  "source": "kids-english-th/028-bath-time",
+  "colors": [
+   "#3B2A20",
+   "#FF9EC4",
+   "#FF8FA3",
+   "#DFF4FF"
+  ],
+  "bytes": 2271
+ },
+ "socks": {
+  "file": "more-clothes/socks.svg",
+  "cat": "more-clothes",
+  "tags": [
+   "kids",
+   "more-clothes"
+  ],
+  "source": "kids-english-th/030-more-clothes",
+  "colors": [
+   "#FF8A3D",
+   "#FFE27A",
+   "#3B2A20"
+  ],
+  "bytes": 2197
+ },
+ "sofa": {
+  "file": "living-room/sofa.svg",
+  "cat": "living-room",
+  "tags": [
+   "kids",
+   "living-room"
+  ],
+  "source": "kids-english-th/032-living-room",
+  "colors": [
+   "#7A4B2A",
+   "#3B2A20",
+   "#FF7FA0",
+   "#E45C82",
+   "#FF97B2",
+   "#FF8FA3"
+  ],
+  "bytes": 1801
+ },
+ "sorry": {
+  "file": "manners/sorry.svg",
+  "cat": "manners",
+  "tags": [
+   "kids",
+   "manners"
+  ],
+  "source": "kids-english-th/100-manners",
+  "colors": [
+   "#8E5BD9",
+   "#3B2A20",
+   "#F2C49B",
+   "#2B211A",
+   "#5A4A40",
+   "#FF8FA3",
+   "#7FD0FF",
+   "#FF5FA2"
+  ],
+  "bytes": 2817
+ },
+ "soup": {
+  "file": "lunch/soup.svg",
+  "cat": "lunch",
+  "tags": [
+   "kids",
+   "lunch"
+  ],
+  "source": "kids-english-th/017-lunch",
+  "colors": [
+   "#B8C4D6",
+   "#FF9A3D",
+   "#3B2A20",
+   "#FF6A00",
+   "#3DBE5A",
+   "#C9D3E0",
+   "#2E9E48",
+   "#5CC85A",
+   "#FF8FA3"
+  ],
+  "bytes": 2357
+ },
+ "spider": {
+  "file": "insects/spider.svg",
+  "cat": "insects",
+  "tags": [
+   "kids",
+   "insects"
+  ],
+  "source": "kids-english-th/007-insects",
+  "colors": [
+   "#3B2A20",
+   "#8E5BD9",
+   "#FF8FA3"
+  ],
+  "bytes": 3335
+ },
+ "spiral": {
+  "file": "more-shapes/spiral.svg",
+  "cat": "more-shapes",
+  "tags": [
+   "kids",
+   "more-shapes"
+  ],
+  "source": "kids-english-th/044-more-shapes",
+  "colors": [
+   "#3B2A20",
+   "#3FA9F5"
+  ],
+  "bytes": 4366
+ },
+ "sponge": {
+  "file": "bathroom/sponge.svg",
+  "cat": "bathroom",
+  "tags": [
+   "kids",
+   "bathroom"
+  ],
+  "source": "kids-english-th/036-bathroom",
+  "colors": [
+   "#EAF6FF",
+   "#3B2A20",
+   "#3DBE5A",
+   "#FFD93B",
+   "#E8B800",
+   "#FF8FA3"
+  ],
+  "bytes": 2171
+ },
+ "spoon": {
+  "file": "tableware/spoon.svg",
+  "cat": "tableware",
+  "tags": [
+   "kids",
+   "tableware"
+  ],
+  "source": "kids-english-th/034-tableware",
+  "colors": [
+   "#FFB400",
+   "#3B2A20",
+   "#DDE6EE",
+   "#EEF3F7",
+   "#FF8FA3"
+  ],
+  "bytes": 1027
+ },
+ "spring": {
+  "file": "seasons/spring.svg",
+  "cat": "seasons",
+  "tags": [
+   "kids",
+   "seasons"
+  ],
+  "source": "kids-english-th/077-seasons",
+  "colors": [
+   "#CDEFFF",
+   "#7ED957",
+   "#3B2A20",
+   "#9B6A3F",
+   "#FFB6D5",
+   "#FF7EB6",
+   "#3E9E4F",
+   "#F25C54",
+   "#FFD93B",
+   "#B388FF",
+   "#FF9A2E"
+  ],
+  "bytes": 10331
+ },
+ "spring-roll": {
+  "file": "thai-food/spring-roll.svg",
+  "cat": "thai-food",
+  "tags": [
+   "kids",
+   "thai-food"
+  ],
+  "source": "kids-english-th/085-thai-food",
+  "colors": [
+   "#FFFFFF",
+   "#3B2A20",
+   "#EAF4FB",
+   "#7FCB5A",
+   "#F2B04B",
+   "#D98A2B",
+   "#F7D08A",
+   "#7FBF4D",
+   "#FF8FA3",
+   "#F2563B",
+   "#B81F2E"
+  ],
+  "bytes": 3005
+ },
+ "square": {
+  "file": "shapes/square.svg",
+  "cat": "shapes",
+  "tags": [
+   "kids",
+   "shapes"
+  ],
+  "source": "kids-english-th/043-shapes",
+  "colors": [
+   "#2F8CFF",
+   "#3B2A20",
+   "#FF8FA3"
+  ],
+  "bytes": 740
+ },
+ "squirrel": {
+  "file": "woodland-animals/squirrel.svg",
+  "cat": "woodland-animals",
+  "tags": [
+   "kids",
+   "woodland-animals"
+  ],
+  "source": "kids-english-th/096-woodland-animals",
+  "colors": [
+   "#C9672A",
+   "#3B2A20",
+   "#E89A55",
+   "#E07B2E",
+   "#F7D2A8",
+   "#FF8FA3",
+   "#C98B4A",
+   "#7A4B2A"
+  ],
+  "bytes": 2500
+ },
+ "stairs": {
+  "file": "house/stairs.svg",
+  "cat": "house",
+  "tags": [
+   "kids",
+   "house"
+  ],
+  "source": "kids-english-th/031-house",
+  "colors": [
+   "#3B2A20",
+   "#3DBE5A",
+   "#E8A15C",
+   "#FFD9A8",
+   "#C97F3C",
+   "#FF8FA3"
+  ],
+  "bytes": 1668
+ },
+ "stamp": {
+  "file": "mail/stamp.svg",
+  "cat": "mail",
+  "tags": [
+   "kids",
+   "mail"
+  ],
+  "source": "kids-english-th/099-mail",
+  "colors": [
+   "#FFF6E0",
+   "#3B2A20",
+   "#9FE3FF",
+   "#6CC24A",
+   "#FFD93B",
+   "#FF8FA3",
+   "#F23B3B",
+   "#E0C9A0"
+  ],
+  "bytes": 4796
+ },
+ "stand": {
+  "file": "more-actions/stand.svg",
+  "cat": "more-actions",
+  "tags": [
+   "kids",
+   "more-actions"
+  ],
+  "source": "kids-english-th/051-more-actions",
+  "colors": [
+   "#3B2A20",
+   "#3DBE5A",
+   "#FFD93B",
+   "#5CC8FF",
+   "#FFD3A8",
+   "#E8453C",
+   "#2E5AAC",
+   "#8E5BD9",
+   "#4A3226",
+   "#FF6F91",
+   "#FF8FA3"
+  ],
+  "bytes": 4448
+ },
+ "star": {
+  "file": "shapes/star.svg",
+  "cat": "shapes",
+  "tags": [
+   "kids",
+   "shapes"
+  ],
+  "source": "kids-english-th/043-shapes",
+  "colors": [
+   "#FFD93B",
+   "#3B2A20",
+   "#FF8FA3"
+  ],
+  "bytes": 814
+ },
+ "starfish": {
+  "file": "ocean-friends/starfish.svg",
+  "cat": "ocean-friends",
+  "tags": [
+   "kids",
+   "ocean-friends"
+  ],
+  "source": "kids-english-th/006-ocean-friends",
+  "colors": [
+   "#3B2A20",
+   "#FF9A3D",
+   "#FFC27A",
+   "#FF8FA3"
+  ],
+  "bytes": 1492
+ },
+ "stethoscope": {
+  "file": "health/stethoscope.svg",
+  "cat": "health",
+  "tags": [
+   "kids",
+   "health"
+  ],
+  "source": "kids-english-th/087-health",
+  "colors": [
+   "#3B2A20",
+   "#B8C4CF",
+   "#3FA4E8",
+   "#E6EEF5",
+   "#FF8FA3",
+   "#FF6FB5",
+   "#FFD93B"
+  ],
+  "bytes": 2006
+ },
+ "sticky-rice": {
+  "file": "thai-food/sticky-rice.svg",
+  "cat": "thai-food",
+  "tags": [
+   "kids",
+   "thai-food"
+  ],
+  "source": "kids-english-th/085-thai-food",
+  "colors": [
+   "#A87536",
+   "#3B2A20",
+   "#FFFFFF",
+   "#E2B66A",
+   "#B7863C",
+   "#C99A4E",
+   "#FF8FA3",
+   "#D9A85A",
+   "#7A4B2A"
+  ],
+  "bytes": 4233
+ },
+ "storm": {
+  "file": "stormy-weather/storm.svg",
+  "cat": "stormy-weather",
+  "tags": [
+   "kids",
+   "stormy-weather"
+  ],
+  "source": "kids-english-th/072-stormy-weather",
+  "colors": [
+   "#8D9BB5",
+   "#3B2A20",
+   "#FF8FA3",
+   "#3FA9F5",
+   "#FFD93B"
+  ],
+  "bytes": 2377
+ },
+ "storybook": {
+  "file": "bedtime/storybook.svg",
+  "cat": "bedtime",
+  "tags": [
+   "kids",
+   "bedtime"
+  ],
+  "source": "kids-english-th/089-bedtime",
+  "colors": [
+   "#E8483D",
+   "#3B2A20",
+   "#FFFDF5",
+   "#FFD93B",
+   "#B9C7D3",
+   "#FF6FB5",
+   "#1E9BE0",
+   "#3DBE5A"
+  ],
+  "bytes": 2843
+ },
+ "strawberry": {
+  "file": "fruits/strawberry.svg",
+  "cat": "fruits",
+  "tags": [
+   "kids",
+   "fruits"
+  ],
+  "source": "kids-english-th/011-fruits",
+  "colors": [
+   "#F2304A",
+   "#3B2A20",
+   "#FFE066",
+   "#3DBE5A",
+   "#2E9E48",
+   "#FF8FA3"
+  ],
+  "bytes": 1881
+ },
+ "sugar": {
+  "file": "baking/sugar.svg",
+  "cat": "baking",
+  "tags": [
+   "kids",
+   "baking"
+  ],
+  "source": "kids-english-th/092-baking",
+  "colors": [
+   "#3B2A20",
+   "#E3E6EE",
+   "#FF5FA2",
+   "#FF8FC0",
+   "#FFD93B",
+   "#FF8FA3"
+  ],
+  "bytes": 2910
+ },
+ "summer": {
+  "file": "seasons/summer.svg",
+  "cat": "seasons",
+  "tags": [
+   "kids",
+   "seasons"
+  ],
+  "source": "kids-english-th/077-seasons",
+  "colors": [
+   "#8FD8FF",
+   "#FFB400",
+   "#FFD93B",
+   "#3B2A20",
+   "#FFF0A0",
+   "#FF8FA3",
+   "#2E9BF0",
+   "#9BDBFF",
+   "#F7D58B",
+   "#F25C54"
+  ],
+  "bytes": 3037
+ },
+ "sun": {
+  "file": "first-words/sun.svg",
+  "cat": "first-words",
+  "tags": [
+   "kids",
+   "first-words"
+  ],
+  "source": "kids-english-th/000-first-words",
+  "colors": [
+   "#FFD93B",
+   "#3B2A20",
+   "#FFF0A0",
+   "#FF8FA3"
+  ],
+  "bytes": 632
+ },
+ "sun-mali": {
+  "file": "weather/sun-mali.svg",
+  "cat": "weather",
+  "tags": [
+   "mali",
+   "weather"
+  ],
+  "source": "mali-english-th/engine.mjs",
+  "colors": [
+   "#FFD93B",
+   "#3B2A20",
+   "#FFF0A0",
+   "#FF8FA3"
+  ],
+  "bytes": 638
+ },
+ "sun-spin": {
+  "file": "first-words/sun-spin.svg",
+  "cat": "first-words",
+  "tags": [
+   "kids",
+   "first-words",
+   "spin"
+  ],
+  "source": "kids-english-th/000-first-words",
+  "colors": [
+   "#FFB400"
+  ],
+  "bytes": 1284
+ },
+ "sun-spin-mali": {
+  "file": "weather/sun-spin-mali.svg",
+  "cat": "weather",
+  "tags": [
+   "mali",
+   "weather"
+  ],
+  "source": "mali-english-th/engine.mjs",
+  "colors": [
+   "#FFB400"
+  ],
+  "bytes": 1304
+ },
+ "sunglasses": {
+  "file": "beach/sunglasses.svg",
+  "cat": "beach",
+  "tags": [
+   "kids",
+   "beach"
+  ],
+  "source": "kids-english-th/067-beach",
+  "colors": [
+   "#FFD93B",
+   "#3B2A20",
+   "#FFB400",
+   "#FF5FA2",
+   "#2D3748"
+  ],
+  "bytes": 1850
+ },
+ "surprised": {
+  "file": "more-feelings/surprised.svg",
+  "cat": "more-feelings",
+  "tags": [
+   "kids",
+   "more-feelings"
+  ],
+  "source": "kids-english-th/025-more-feelings",
+  "colors": [
+   "#F5C28E",
+   "#3B2A20",
+   "#2B2024",
+   "#FF8FA3",
+   "#B8323F",
+   "#FF8A3D"
+  ],
+  "bytes": 2087
+ },
+ "swim": {
+  "file": "actions/swim.svg",
+  "cat": "actions",
+  "tags": [
+   "kids",
+   "actions"
+  ],
+  "source": "kids-english-th/050-actions",
+  "colors": [
+   "#3B2A20",
+   "#FFD3A8",
+   "#5A3A22",
+   "#FF8FA3",
+   "#C0392B",
+   "#5CC8FF",
+   "#9FDCFF"
+  ],
+  "bytes": 2594
+ },
+ "swing": {
+  "file": "playground/swing.svg",
+  "cat": "playground",
+  "tags": [
+   "kids",
+   "playground"
+  ],
+  "source": "kids-english-th/054-playground",
+  "colors": [
+   "#3B2A20",
+   "#E8453C",
+   "#8C96A3",
+   "#FFB400",
+   "#FFD3A8",
+   "#2E5AAC",
+   "#FF5C8A",
+   "#4A3226",
+   "#FF6F91",
+   "#FF8FA3",
+   "#D9405E",
+   "#1E9BE0"
+  ],
+  "bytes": 4735
+ },
+ "table": {
+  "file": "living-room/table.svg",
+  "cat": "living-room",
+  "tags": [
+   "kids",
+   "living-room"
+  ],
+  "source": "kids-english-th/032-living-room",
+  "colors": [
+   "#C77B3A",
+   "#3B2A20",
+   "#E8A15C",
+   "#F5B977",
+   "#FF8FA3",
+   "#3DBE5A",
+   "#5CC8FF",
+   "#FF6F91",
+   "#FFD93B"
+  ],
+  "bytes": 2271
+ },
+ "tablet": {
+  "file": "electronics/tablet.svg",
+  "cat": "electronics",
+  "tags": [
+   "kids",
+   "electronics"
+  ],
+  "source": "kids-english-th/091-electronics",
+  "colors": [
+   "#8E5BD9",
+   "#3B2A20",
+   "#FFF6D6",
+   "#FF5FA2",
+   "#FFC400",
+   "#3DBE5A",
+   "#29A8F0",
+   "#FF8A3D",
+   "#F23B3B",
+   "#3D7BFF",
+   "#2FAE52",
+   "#B07CD8",
+   "#FFD93B",
+   "#5CC8FF",
+   "#FF8FA3"
+  ],
+  "bytes": 2927
+ },
+ "tall": {
+  "file": "sizes/tall.svg",
+  "cat": "sizes",
+  "tags": [
+   "kids",
+   "sizes"
+  ],
+  "source": "kids-english-th/047-sizes",
+  "colors": [
+   "#FFF1A8",
+   "#FFC93B",
+   "#3B2A20",
+   "#4A5A8A",
+   "#FFD3A8",
+   "#2F8CFF",
+   "#5A3A22",
+   "#FF8FA3",
+   "#FF8A3D",
+   "#E2661B"
+  ],
+  "bytes": 4717
+ },
+ "taxi": {
+  "file": "city-ride/taxi.svg",
+  "cat": "city-ride",
+  "tags": [
+   "kids",
+   "city-ride"
+  ],
+  "source": "kids-english-th/063-city-ride",
+  "colors": [
+   "#FFE36B",
+   "#3B2A20",
+   "#FF5FA2",
+   "#BDE8FF",
+   "#2DB84C",
+   "#4A4F5C",
+   "#D9DEE6",
+   "#FF8FA3"
+  ],
+  "bytes": 2577
+ },
+ "tea": {
+  "file": "drinks/tea.svg",
+  "cat": "drinks",
+  "tags": [
+   "kids",
+   "drinks"
+  ],
+  "source": "kids-english-th/019-drinks",
+  "colors": [
+   "#B8C4D6",
+   "#BDE8D0",
+   "#3B2A20",
+   "#5CC8A0",
+   "#C8782A",
+   "#FFD93B",
+   "#FF8FA3"
+  ],
+  "bytes": 1960
+ },
+ "teacher": {
+  "file": "jobs/teacher.svg",
+  "cat": "jobs",
+  "tags": [
+   "kids",
+   "jobs"
+  ],
+  "source": "kids-english-th/081-jobs",
+  "colors": [
+   "#7A4B2A",
+   "#3B2A20",
+   "#2F7D4A",
+   "#33261F",
+   "#F25C8A",
+   "#F6C9A0",
+   "#FF8FA3",
+   "#C98B4F",
+   "#1E9BE0",
+   "#F2B705"
+  ],
+  "bytes": 3150
+ },
+ "teddy-bear": {
+  "file": "bedroom/teddy-bear.svg",
+  "cat": "bedroom",
+  "tags": [
+   "kids",
+   "bedroom"
+  ],
+  "source": "kids-english-th/033-bedroom",
+  "colors": [
+   "#C98A4B",
+   "#3B2A20",
+   "#F3D3A8",
+   "#FF8FA3",
+   "#F23B3B"
+  ],
+  "bytes": 2510
+ },
+ "telescope": {
+  "file": "space/telescope.svg",
+  "cat": "space",
+  "tags": [
+   "kids",
+   "space"
+  ],
+  "source": "kids-english-th/070-space",
+  "colors": [
+   "#FFD93B",
+   "#3B2A20",
+   "#8B5A2B",
+   "#4A4F5C",
+   "#2F80ED",
+   "#FFC93B",
+   "#BDE8FF",
+   "#FF8FA3"
+  ],
+  "bytes": 3006
+ },
+ "temple": {
+  "file": "places/temple.svg",
+  "cat": "places",
+  "tags": [
+   "kids",
+   "places"
+  ],
+  "source": "kids-english-th/065-places",
+  "colors": [
+   "#3B2A20",
+   "#E6E9EE",
+   "#E8463A",
+   "#FFC93B",
+   "#FFF6E0"
+  ],
+  "bytes": 3348
+ },
+ "ten": {
+  "file": "numbers-6-10/ten.svg",
+  "cat": "numbers-6-10",
+  "tags": [
+   "kids",
+   "numbers-6-10"
+  ],
+  "source": "kids-english-th/046-numbers-6-10",
+  "colors": [
+   "#F23B3B",
+   "#3B2A20",
+   "#FFF6E0",
+   "#F0DDB0",
+   "#7A4B2A",
+   "#3DBE5A"
+  ],
+  "bytes": 7016
+ },
+ "tennis": {
+  "file": "sports/tennis.svg",
+  "cat": "sports",
+  "tags": [
+   "kids",
+   "sports"
+  ],
+  "source": "kids-english-th/055-sports",
+  "colors": [
+   "#F5F7FA",
+   "#9AA6B4",
+   "#3B2A20",
+   "#8C96A3",
+   "#1E5AAC",
+   "#E8453C",
+   "#D7F04B"
+  ],
+  "bytes": 1708
+ },
+ "tent": {
+  "file": "camping/tent.svg",
+  "cat": "camping",
+  "tags": [
+   "kids",
+   "camping"
+  ],
+  "source": "kids-english-th/068-camping",
+  "colors": [
+   "#7ED957",
+   "#3B2A20",
+   "#FFD93B",
+   "#FF8A3D",
+   "#7A4B2A",
+   "#FFB066",
+   "#FF8FA3"
+  ],
+  "bytes": 1730
+ },
+ "thank-you": {
+  "file": "manners/thank-you.svg",
+  "cat": "manners",
+  "tags": [
+   "kids",
+   "manners"
+  ],
+  "source": "kids-english-th/100-manners",
+  "colors": [
+   "#FF5FA2",
+   "#3B2A20",
+   "#F2C49B",
+   "#2B211A",
+   "#5A4A40",
+   "#FF8FA3",
+   "#FFD93B"
+  ],
+  "bytes": 2964
+ },
+ "thermometer": {
+  "file": "health/thermometer.svg",
+  "cat": "health",
+  "tags": [
+   "kids",
+   "health"
+  ],
+  "source": "kids-english-th/087-health",
+  "colors": [
+   "#F2FAFF",
+   "#3B2A20",
+   "#F23B3B"
+  ],
+  "bytes": 1862
+ },
+ "three": {
+  "file": "numbers-1-5/three.svg",
+  "cat": "numbers-1-5",
+  "tags": [
+   "kids",
+   "numbers-1-5"
+  ],
+  "source": "kids-english-th/045-numbers-1-5",
+  "colors": [
+   "#FFB400",
+   "#3B2A20",
+   "#FFF6E0",
+   "#F0DDB0",
+   "#FFD93B"
+  ],
+  "bytes": 1232
+ },
+ "tiger": {
+  "file": "wild-animals/tiger.svg",
+  "cat": "wild-animals",
+  "tags": [
+   "kids",
+   "wild-animals"
+  ],
+  "source": "kids-english-th/003-wild-animals",
+  "colors": [
+   "#FF9A2E",
+   "#3B2A20",
+   "#FF8FA3",
+   "#FF6F91"
+  ],
+  "bytes": 1758
+ },
+ "tissue": {
+  "file": "bathroom/tissue.svg",
+  "cat": "bathroom",
+  "tags": [
+   "kids",
+   "bathroom"
+  ],
+  "source": "kids-english-th/036-bathroom",
+  "colors": [
+   "#3B2A20",
+   "#C9D3DC",
+   "#FF6F91",
+   "#C94A6E",
+   "#FF8FA3"
+  ],
+  "bytes": 1718
+ },
+ "toe": {
+  "file": "more-body/toe.svg",
+  "cat": "more-body",
+  "tags": [
+   "kids",
+   "more-body"
+  ],
+  "source": "kids-english-th/023-more-body",
+  "colors": [
+   "#3DBE5A",
+   "#F5C28E",
+   "#3B2A20",
+   "#FFB3C1",
+   "#FFD93B",
+   "#FF8FA3"
+  ],
+  "bytes": 2829
+ },
+ "toilet": {
+  "file": "bathroom/toilet.svg",
+  "cat": "bathroom",
+  "tags": [
+   "kids",
+   "bathroom"
+  ],
+  "source": "kids-english-th/036-bathroom",
+  "colors": [
+   "#E3F4FF",
+   "#3B2A20",
+   "#1E9BE0",
+   "#FF8FA3",
+   "#5CC8FF"
+  ],
+  "bytes": 1591
+ },
+ "tomato": {
+  "file": "vegetables/tomato.svg",
+  "cat": "vegetables",
+  "tags": [
+   "kids",
+   "vegetables"
+  ],
+  "source": "kids-english-th/014-vegetables",
+  "colors": [
+   "#F23B3B",
+   "#3B2A20",
+   "#3DBE5A",
+   "#2E9E48",
+   "#FF8FA3"
+  ],
+  "bytes": 1178
+ },
+ "tongue": {
+  "file": "more-body/tongue.svg",
+  "cat": "more-body",
+  "tags": [
+   "kids",
+   "more-body"
+  ],
+  "source": "kids-english-th/023-more-body",
+  "colors": [
+   "#F5C28E",
+   "#3B2A20",
+   "#2B2024",
+   "#FF8FA3",
+   "#FF5C8A",
+   "#B8323F",
+   "#FF6F91",
+   "#D94470",
+   "#FFD93B"
+  ],
+  "bytes": 2502
+ },
+ "tooth": {
+  "file": "more-body/tooth.svg",
+  "cat": "more-body",
+  "tags": [
+   "kids",
+   "more-body"
+  ],
+  "source": "kids-english-th/023-more-body",
+  "colors": [
+   "#3B2A20",
+   "#DDF3FF",
+   "#FF8FA3",
+   "#7FD1FF",
+   "#FFD93B"
+  ],
+  "bytes": 1525
+ },
+ "toothbrush": {
+  "file": "bath-time/toothbrush.svg",
+  "cat": "bath-time",
+  "tags": [
+   "kids",
+   "bath-time"
+  ],
+  "source": "kids-english-th/028-bath-time",
+  "colors": [
+   "#3DBE5A",
+   "#3B2A20",
+   "#BFE3F2",
+   "#7FD1FF",
+   "#FFD93B"
+  ],
+  "bytes": 1522
+ },
+ "toothpaste": {
+  "file": "bedtime/toothpaste.svg",
+  "cat": "bedtime",
+  "tags": [
+   "kids",
+   "bedtime"
+  ],
+  "source": "kids-english-th/089-bedtime",
+  "colors": [
+   "#E6EEF5",
+   "#3B2A20",
+   "#FFFFFF",
+   "#3DBE5A",
+   "#1E9BE0",
+   "#FF8FA3",
+   "#FF6FB5"
+  ],
+  "bytes": 2857
+ },
+ "towel": {
+  "file": "bath-time/towel.svg",
+  "cat": "bath-time",
+  "tags": [
+   "kids",
+   "bath-time"
+  ],
+  "source": "kids-english-th/028-bath-time",
+  "colors": [
+   "#3B2A20",
+   "#C98B4E",
+   "#FF9A4D",
+   "#FFD93B",
+   "#E07A2E",
+   "#FF8FA3"
+  ],
+  "bytes": 1877
+ },
+ "tractor": {
+  "file": "farm/tractor.svg",
+  "cat": "farm",
+  "tags": [
+   "kids",
+   "farm"
+  ],
+  "source": "kids-english-th/069-farm",
+  "colors": [
+   "#E6E9EE",
+   "#3B2A20",
+   "#6B7280",
+   "#2DB84C",
+   "#BDE8FF",
+   "#FF8FA3",
+   "#4A4F5C",
+   "#FFC93B"
+  ],
+  "bytes": 2427
+ },
+ "traffic-light": {
+  "file": "on-the-road/traffic-light.svg",
+  "cat": "on-the-road",
+  "tags": [
+   "kids",
+   "on-the-road"
+  ],
+  "source": "kids-english-th/064-on-the-road",
+  "colors": [
+   "#6B7280",
+   "#3B2A20",
+   "#3D4756",
+   "#FF4F4F",
+   "#FFC93B",
+   "#4CD964"
+  ],
+  "bytes": 1421
+ },
+ "train": {
+  "file": "city-ride/train.svg",
+  "cat": "city-ride",
+  "tags": [
+   "kids",
+   "city-ride"
+  ],
+  "source": "kids-english-th/063-city-ride",
+  "colors": [
+   "#E6E9EE",
+   "#3B2A20",
+   "#F23B3B",
+   "#C62828",
+   "#BDE8FF",
+   "#4A4F5C",
+   "#1E9BE0",
+   "#FFC93B",
+   "#FF8FA3",
+   "#D9DEE6",
+   "#9AA0A6"
+  ],
+  "bytes": 3414
+ },
+ "train-mali": {
+  "file": "vehicles/train-mali.svg",
+  "cat": "vehicles",
+  "tags": [
+   "mali",
+   "vehicles"
+  ],
+  "source": "mali-english-th/themes/vehicles.mjs",
+  "colors": [
+   "#3B2A20",
+   "#4A4A55",
+   "#F23B3B",
+   "#A9E4FF",
+   "#3DBE5A",
+   "#F2B705",
+   "#FF8FA3",
+   "#D9DDE5"
+  ],
+  "bytes": 2653
+ },
+ "trash-can": {
+  "file": "cleaning/trash-can.svg",
+  "cat": "cleaning",
+  "tags": [
+   "kids",
+   "cleaning"
+  ],
+  "source": "kids-english-th/039-cleaning",
+  "colors": [
+   "#3DBE5A",
+   "#3B2A20",
+   "#2E9E48",
+   "#FF8FA3"
+  ],
+  "bytes": 1286
+ },
+ "treasure": {
+  "file": "pirates/treasure.svg",
+  "cat": "pirates",
+  "tags": [
+   "kids",
+   "pirates"
+  ],
+  "source": "kids-english-th/090-pirates",
+  "colors": [
+   "#8A5A33",
+   "#3B2A20",
+   "#6B4426",
+   "#FFC83D",
+   "#F23B3B",
+   "#1E9BE0",
+   "#3DBE5A",
+   "#B9773F",
+   "#FF8FA3",
+   "#FFE45C"
+  ],
+  "bytes": 4772
+ },
+ "tree": {
+  "file": "garden/tree.svg",
+  "cat": "garden",
+  "tags": [
+   "kids",
+   "garden"
+  ],
+  "source": "kids-english-th/037-garden",
+  "colors": [
+   "#9A5B2E",
+   "#3B2A20",
+   "#6E3E1C",
+   "#4CC85A",
+   "#F23B3B",
+   "#FF8FA3"
+  ],
+  "bytes": 2595
+ },
+ "triangle": {
+  "file": "shapes/triangle.svg",
+  "cat": "shapes",
+  "tags": [
+   "kids",
+   "shapes"
+  ],
+  "source": "kids-english-th/043-shapes",
+  "colors": [
+   "#3DBE5A",
+   "#3B2A20",
+   "#FF8FA3"
+  ],
+  "bytes": 722
+ },
+ "truck": {
+  "file": "vehicles/truck.svg",
+  "cat": "vehicles",
+  "tags": [
+   "kids",
+   "vehicles"
+  ],
+  "source": "kids-english-th/061-vehicles",
+  "colors": [
+   "#FF9F1C",
+   "#3B2A20",
+   "#6B7280",
+   "#2F80ED",
+   "#BDE8FF",
+   "#FF8FA3",
+   "#FFE36B",
+   "#4A4F5C",
+   "#D9DEE6"
+  ],
+  "bytes": 2495
+ },
+ "trumpet": {
+  "file": "music/trumpet.svg",
+  "cat": "music",
+  "tags": [
+   "kids",
+   "music"
+  ],
+  "source": "kids-english-th/056-music",
+  "colors": [
+   "#3B2A20",
+   "#FFC93B",
+   "#F2A400",
+   "#E8453C",
+   "#1E9BE0"
+  ],
+  "bytes": 2720
+ },
+ "tuk-tuk": {
+  "file": "city-ride/tuk-tuk.svg",
+  "cat": "city-ride",
+  "tags": [
+   "kids",
+   "city-ride"
+  ],
+  "source": "kids-english-th/063-city-ride",
+  "colors": [
+   "#C0C6CF",
+   "#3B2A20",
+   "#BDE8FF",
+   "#1E9BE0",
+   "#FFC93B",
+   "#F23B3B",
+   "#9AA0A6",
+   "#FFE36B",
+   "#FF8FA3",
+   "#4A4F5C",
+   "#D9DEE6"
+  ],
+  "bytes": 4680
+ },
+ "tunnel": {
+  "file": "on-the-road/tunnel.svg",
+  "cat": "on-the-road",
+  "tags": [
+   "kids",
+   "on-the-road"
+  ],
+  "source": "kids-english-th/064-on-the-road",
+  "colors": [
+   "#7ED957",
+   "#3B2A20",
+   "#2DB84C",
+   "#8B5A2B",
+   "#C9B79C",
+   "#FFE36B",
+   "#A8E070",
+   "#6B7280"
+  ],
+  "bytes": 1809
+ },
+ "turkey": {
+  "file": "farm-birds/turkey.svg",
+  "cat": "farm-birds",
+  "tags": [
+   "kids",
+   "farm-birds"
+  ],
+  "source": "kids-english-th/002-farm-birds",
+  "colors": [
+   "#C0392B",
+   "#3B2A20",
+   "#E67E22",
+   "#F4D03F",
+   "#2BB673",
+   "#8B5A2B",
+   "#FFB400",
+   "#A0682F",
+   "#7A4B2A",
+   "#F5C6A5",
+   "#FF8FA3",
+   "#F23B3B"
+  ],
+  "bytes": 4415
+ },
+ "turtle": {
+  "file": "ocean-friends/turtle.svg",
+  "cat": "ocean-friends",
+  "tags": [
+   "kids",
+   "ocean-friends"
+  ],
+  "source": "kids-english-th/006-ocean-friends",
+  "colors": [
+   "#9BD77A",
+   "#3B2A20",
+   "#3FA34D",
+   "#7ED957",
+   "#F5D76E",
+   "#FF8FA3"
+  ],
+  "bytes": 1921
+ },
+ "tv": {
+  "file": "electronics/tv.svg",
+  "cat": "electronics",
+  "tags": [
+   "kids",
+   "electronics"
+  ],
+  "source": "kids-english-th/091-electronics",
+  "colors": [
+   "#3B2A20",
+   "#FF5FA2",
+   "#FF8A3D",
+   "#9FE3FF",
+   "#FFD93B",
+   "#FF8FA3"
+  ],
+  "bytes": 1831
+ },
+ "two": {
+  "file": "numbers-1-5/two.svg",
+  "cat": "numbers-1-5",
+  "tags": [
+   "kids",
+   "numbers-1-5"
+  ],
+  "source": "kids-english-th/045-numbers-1-5",
+  "colors": [
+   "#FF5C8A",
+   "#3B2A20",
+   "#FFF6E0",
+   "#F0DDB0"
+  ],
+  "bytes": 1041
+ },
+ "umbrella": {
+  "file": "beach/umbrella.svg",
+  "cat": "beach",
+  "tags": [
+   "kids",
+   "beach"
+  ],
+  "source": "kids-english-th/067-beach",
+  "colors": [
+   "#F6D58E",
+   "#3B2A20",
+   "#8B5A2B",
+   "#F23B3B",
+   "#FFC93B"
+  ],
+  "bytes": 1273
+ },
+ "under": {
+  "file": "positions/under.svg",
+  "cat": "positions",
+  "tags": [
+   "kids",
+   "positions"
+  ],
+  "source": "kids-english-th/049-positions",
+  "colors": [
+   "#B9773F",
+   "#3B2A20",
+   "#9A5F2E",
+   "#5CC8FF",
+   "#FF8A3D",
+   "#FFB3C1",
+   "#E2661B",
+   "#FF8FA3",
+   "#FF6F91"
+  ],
+  "bytes": 2452
+ },
+ "unicorn": {
+  "file": "fantasy/unicorn.svg",
+  "cat": "fantasy",
+  "tags": [
+   "kids",
+   "fantasy"
+  ],
+  "source": "kids-english-th/078-fantasy",
+  "colors": [
+   "#FF8FC0",
+   "#3B2A20",
+   "#B388FF",
+   "#7FD6F7",
+   "#8EDB6F",
+   "#FFD93B",
+   "#FFB3C1",
+   "#E8A800",
+   "#FFD6E7",
+   "#FF8FA3"
+  ],
+  "bytes": 2765
+ },
+ "up": {
+  "file": "positions/up.svg",
+  "cat": "positions",
+  "tags": [
+   "kids",
+   "positions"
+  ],
+  "source": "kids-english-th/049-positions",
+  "colors": [
+   "#3DBE5A",
+   "#3B2A20",
+   "#D92A2A",
+   "#F23B3B",
+   "#FF8FA3",
+   "#9CA3AF"
+  ],
+  "bytes": 1436
+ },
+ "vacuum": {
+  "file": "cleaning/vacuum.svg",
+  "cat": "cleaning",
+  "tags": [
+   "kids",
+   "cleaning"
+  ],
+  "source": "kids-english-th/039-cleaning",
+  "colors": [
+   "#3B2A20",
+   "#9AA6B2",
+   "#C9D3DC",
+   "#3B3B48",
+   "#F23B3B",
+   "#B82A2A",
+   "#FF8FA3",
+   "#D8D2C8"
+  ],
+  "bytes": 2198
+ },
+ "violin": {
+  "file": "music/violin.svg",
+  "cat": "music",
+  "tags": [
+   "kids",
+   "music"
+  ],
+  "source": "kids-english-th/056-music",
+  "colors": [
+   "#C96A2B",
+   "#3B2A20",
+   "#A1531F",
+   "#F3D3A8",
+   "#F5F0E6",
+   "#B9773F"
+  ],
+  "bytes": 1831
+ },
+ "volcano": {
+  "file": "more-nature/volcano.svg",
+  "cat": "more-nature",
+  "tags": [
+   "kids",
+   "more-nature"
+  ],
+  "source": "kids-english-th/074-more-nature",
+  "colors": [
+   "#BDE6FF",
+   "#D2D6DE",
+   "#3B2A20",
+   "#A0623A",
+   "#FF6B2C",
+   "#7ED957",
+   "#FF8FA3"
+  ],
+  "bytes": 2459
+ },
+ "walk": {
+  "file": "more-actions/walk.svg",
+  "cat": "more-actions",
+  "tags": [
+   "kids",
+   "more-actions"
+  ],
+  "source": "kids-english-th/051-more-actions",
+  "colors": [
+   "#3DBE5A",
+   "#3B2A20",
+   "#FFD3A8",
+   "#E8453C",
+   "#2E5AAC",
+   "#4A3226",
+   "#FF8FA3"
+  ],
+  "bytes": 3231
+ },
+ "wall": {
+  "file": "house/wall.svg",
+  "cat": "house",
+  "tags": [
+   "kids",
+   "house"
+  ],
+  "source": "kids-english-th/031-house",
+  "colors": [
+   "#EADFD8",
+   "#B9A898",
+   "#FF9A3D",
+   "#3B2A20",
+   "#E57A1A",
+   "#F2E3EE",
+   "#E6F2F8",
+   "#F0E2D2",
+   "#D8C6B4",
+   "#FFD93B"
+  ],
+  "bytes": 2560
+ },
+ "wallet": {
+  "file": "market/wallet.svg",
+  "cat": "market",
+  "tags": [
+   "kids",
+   "market"
+  ],
+  "source": "kids-english-th/086-market",
+  "colors": [
+   "#9AD9A0",
+   "#3B2A20",
+   "#F7A3A3",
+   "#3E9A4A",
+   "#C83A3A",
+   "#FFC83D",
+   "#E0A21B",
+   "#C27A3D",
+   "#E8A866",
+   "#A8622C",
+   "#FF8FA3"
+  ],
+  "bytes": 1921
+ },
+ "wash": {
+  "file": "kind-actions/wash.svg",
+  "cat": "kind-actions",
+  "tags": [
+   "kids",
+   "kind-actions"
+  ],
+  "source": "kids-english-th/053-kind-actions",
+  "colors": [
+   "#8FD3FF",
+   "#3B2A20",
+   "#CDEBFF",
+   "#B8C2CC",
+   "#5CC8FF",
+   "#FF8A3D",
+   "#FFD3A8",
+   "#BFE6FF"
+  ],
+  "bytes": 4589
+ },
+ "washing-machine": {
+  "file": "cleaning/washing-machine.svg",
+  "cat": "cleaning",
+  "tags": [
+   "kids",
+   "cleaning"
+  ],
+  "source": "kids-english-th/039-cleaning",
+  "colors": [
+   "#F4F8FB",
+   "#3B2A20",
+   "#C9D3DC",
+   "#3DBE5A",
+   "#FFD93B",
+   "#1E9BE0",
+   "#5CC8FF",
+   "#F23B3B"
+  ],
+  "bytes": 2086
+ },
+ "watch": {
+  "file": "accessories/watch.svg",
+  "cat": "accessories",
+  "tags": [
+   "kids",
+   "accessories"
+  ],
+  "source": "kids-english-th/097-accessories",
+  "colors": [
+   "#3DBE5A",
+   "#3B2A20",
+   "#2A9445",
+   "#FFB400",
+   "#FFD93B",
+   "#F23B3B",
+   "#FF8FA3"
+  ],
+  "bytes": 2898
+ },
+ "water": {
+  "file": "drinks/water.svg",
+  "cat": "drinks",
+  "tags": [
+   "kids",
+   "drinks"
+  ],
+  "source": "kids-english-th/019-drinks",
+  "colors": [
+   "#EAF7FF",
+   "#3B2A20",
+   "#5CC8FF",
+   "#9EDFFF",
+   "#FF8FA3"
+  ],
+  "bytes": 1389
+ },
+ "water-gun": {
+  "file": "festivals/water-gun.svg",
+  "cat": "festivals",
+  "tags": [
+   "kids",
+   "festivals"
+  ],
+  "source": "kids-english-th/084-festivals",
+  "colors": [
+   "#FF6FB5",
+   "#3B2A20",
+   "#FFD93B",
+   "#2EC4E8",
+   "#FF8A3D",
+   "#8E5BD9",
+   "#5CC8FF",
+   "#FF8FA3"
+  ],
+  "bytes": 2753
+ },
+ "watering-can": {
+  "file": "garden/watering-can.svg",
+  "cat": "garden",
+  "tags": [
+   "kids",
+   "garden"
+  ],
+  "source": "kids-english-th/037-garden",
+  "colors": [
+   "#3B2A20",
+   "#29A8F0",
+   "#FFD93B",
+   "#5CC8FF",
+   "#1E7BC6",
+   "#FF8FA3"
+  ],
+  "bytes": 2631
+ },
+ "watermelon": {
+  "file": "fruits/watermelon.svg",
+  "cat": "fruits",
+  "tags": [
+   "kids",
+   "fruits"
+  ],
+  "source": "kids-english-th/011-fruits",
+  "colors": [
+   "#3DBE5A",
+   "#3B2A20",
+   "#F4FFE0",
+   "#FF4D5E",
+   "#FF8FA3"
+  ],
+  "bytes": 1241
+ },
+ "watermelon-mali": {
+  "file": "fruits/watermelon-mali.svg",
+  "cat": "fruits",
+  "tags": [
+   "mali",
+   "fruits"
+  ],
+  "source": "mali-english-th/themes/fruits.mjs",
+  "colors": [
+   "#2E9446",
+   "#3B2A20",
+   "#D8F5B0",
+   "#FF4D5E",
+   "#FF8FA3"
+  ],
+  "bytes": 1319
+ },
+ "wave": {
+  "file": "beach/wave.svg",
+  "cat": "beach",
+  "tags": [
+   "kids",
+   "beach"
+  ],
+  "source": "kids-english-th/067-beach",
+  "colors": [
+   "#29A8F0",
+   "#3B2A20",
+   "#7FD4FF",
+   "#FF8FA3"
+  ],
+  "bytes": 1892
+ },
+ "whale": {
+  "file": "sea-animals/whale.svg",
+  "cat": "sea-animals",
+  "tags": [
+   "kids",
+   "sea-animals"
+  ],
+  "source": "kids-english-th/005-sea-animals",
+  "colors": [
+   "#5CC8FF",
+   "#4A90E2",
+   "#3B2A20",
+   "#BDE3FF",
+   "#8EC6EE",
+   "#FF8FA3"
+  ],
+  "bytes": 1519
+ },
+ "white": {
+  "file": "more-colors/white.svg",
+  "cat": "more-colors",
+  "tags": [
+   "kids",
+   "more-colors"
+  ],
+  "source": "kids-english-th/042-more-colors",
+  "colors": [
+   "#BFE6FF",
+   "#3B2A20",
+   "#FFB3C1",
+   "#FF8FA3",
+   "#FF6F91"
+  ],
+  "bytes": 1609
+ },
+ "wind": {
+  "file": "weather/wind.svg",
+  "cat": "weather",
+  "tags": [
+   "kids",
+   "weather"
+  ],
+  "source": "kids-english-th/071-weather",
+  "colors": [
+   "#3B2A20",
+   "#7FD6F7",
+   "#EAF6FF",
+   "#FF8FA3",
+   "#FF6F91",
+   "#6CCB4C",
+   "#FF9A2E",
+   "#FFC83D"
+  ],
+  "bytes": 2711
+ },
+ "windmill": {
+  "file": "farm/windmill.svg",
+  "cat": "farm",
+  "tags": [
+   "kids",
+   "farm"
+  ],
+  "source": "kids-english-th/069-farm",
+  "colors": [
+   "#7ED957",
+   "#3B2A20",
+   "#FFF6E0",
+   "#E8463A",
+   "#C47A3D",
+   "#BDE8FF",
+   "#F23B3B",
+   "#FFD93B",
+   "#FF6F91",
+   "#FFB400"
+  ],
+  "bytes": 2625
+ },
+ "windmill-spin": {
+  "file": "farm/windmill-spin.svg",
+  "cat": "farm",
+  "tags": [
+   "kids",
+   "farm",
+   "spin"
+  ],
+  "source": "kids-english-th/069-farm",
+  "colors": [
+   "#3B2A20",
+   "#8B5A2B"
+  ],
+  "bytes": 2035
+ },
+ "window": {
+  "file": "house/window.svg",
+  "cat": "house",
+  "tags": [
+   "kids",
+   "house"
+  ],
+  "source": "kids-english-th/031-house",
+  "colors": [
+   "#EADFD8",
+   "#B9A898",
+   "#FFF4E6",
+   "#F2E3EE",
+   "#FFD93B",
+   "#3B2A20",
+   "#5CC8FF",
+   "#FFB400",
+   "#F0E2D2",
+   "#D8C6B4"
+  ],
+  "bytes": 2447
+ },
+ "wing": {
+  "file": "bird-parts/wing.svg",
+  "cat": "bird-parts",
+  "tags": [
+   "kids",
+   "bird-parts"
+  ],
+  "source": "kids-english-th/095-bird-parts",
+  "colors": [
+   "#EADCFF",
+   "#F28C00",
+   "#FFD93B",
+   "#3B2A20",
+   "#F2C200",
+   "#FFE27A",
+   "#FFF5C8",
+   "#FF8FA3",
+   "#FF8A3D",
+   "#A974F0",
+   "#7D4FC4"
+  ],
+  "bytes": 2600
+ },
+ "winter": {
+  "file": "seasons/winter.svg",
+  "cat": "seasons",
+  "tags": [
+   "kids",
+   "seasons"
+  ],
+  "source": "kids-english-th/077-seasons",
+  "colors": [
+   "#BFD9F0",
+   "#FFFFFF",
+   "#3B2A20",
+   "#9B6A3F",
+   "#3E9E4F"
+  ],
+  "bytes": 2674
+ },
+ "wolf": {
+  "file": "more-wild-animals/wolf.svg",
+  "cat": "more-wild-animals",
+  "tags": [
+   "kids",
+   "more-wild-animals"
+  ],
+  "source": "kids-english-th/080-more-wild-animals",
+  "colors": [
+   "#9AA5B8",
+   "#3B2A20",
+   "#F0C9D2",
+   "#EEF1F6",
+   "#7D889C",
+   "#FF6F91",
+   "#FF8FA3"
+  ],
+  "bytes": 1771
+ },
+ "worm": {
+  "file": "garden-bugs/worm.svg",
+  "cat": "garden-bugs",
+  "tags": [
+   "kids",
+   "garden-bugs"
+  ],
+  "source": "kids-english-th/008-garden-bugs",
+  "colors": [
+   "#3B2A20",
+   "#FF9EB5",
+   "#E86A8E",
+   "#FFC4D3",
+   "#FF8FA3",
+   "#A0764B",
+   "#7A5634"
+  ],
+  "bytes": 1732
+ },
+ "write": {
+  "file": "fun-actions/write.svg",
+  "cat": "fun-actions",
+  "tags": [
+   "kids",
+   "fun-actions"
+  ],
+  "source": "kids-english-th/052-fun-actions",
+  "colors": [
+   "#3B2A20",
+   "#1E9BE0",
+   "#E8453C",
+   "#3DBE5A",
+   "#8E5BD9",
+   "#D5DCE6",
+   "#FFD3A8",
+   "#2E5AAC",
+   "#5CC8FF",
+   "#4A3226",
+   "#FF8FA3",
+   "#FFD93B",
+   "#F3D3A8"
+  ],
+  "bytes": 4639
+ },
+ "yellow": {
+  "file": "colors/yellow.svg",
+  "cat": "colors",
+  "tags": [
+   "kids",
+   "colors"
+  ],
+  "source": "kids-english-th/041-colors",
+  "colors": [
+   "#FFD93B",
+   "#3B2A20",
+   "#FF9F1C",
+   "#FFC21A",
+   "#FF8FA3"
+  ],
+  "bytes": 1385
+ },
+ "yellow-mali": {
+  "file": "colors/yellow-mali.svg",
+  "cat": "colors",
+  "tags": [
+   "mali",
+   "colors"
+  ],
+  "source": "mali-english-th/themes/colors.mjs",
+  "colors": [
+   "#FFD21A",
+   "#3B2A20",
+   "#FF8FA3"
+  ],
+  "bytes": 2201
+ },
+ "yogurt": {
+  "file": "snacks/yogurt.svg",
+  "cat": "snacks",
+  "tags": [
+   "kids",
+   "snacks"
+  ],
+  "source": "kids-english-th/020-snacks",
+  "colors": [
+   "#3B2A20",
+   "#C9D3E0",
+   "#C9A3F0",
+   "#FFE3EC",
+   "#F2304A",
+   "#3DBE5A",
+   "#FF8FA3"
+  ],
+  "bytes": 1733
+ },
+ "zebra": {
+  "file": "jungle-animals/zebra.svg",
+  "cat": "jungle-animals",
+  "tags": [
+   "kids",
+   "jungle-animals"
+  ],
+  "source": "kids-english-th/004-jungle-animals",
+  "colors": [
+   "#3B2A20",
+   "#5A4A42",
+   "#FF8FA3"
+  ],
+  "bytes": 4526
+ },
+ "zoo": {
+  "file": "more-places/zoo.svg",
+  "cat": "more-places",
+  "tags": [
+   "kids",
+   "more-places"
+  ],
+  "source": "kids-english-th/066-more-places",
+  "colors": [
+   "#C47A3D",
+   "#3B2A20",
+   "#2DB84C",
+   "#FFD93B",
+   "#FFC93B",
+   "#D9893B",
+   "#F6D58E",
+   "#FF8FA3",
+   "#A9B4C2",
+   "#FFB3C1"
+  ],
+  "bytes": 4056
+ }
+}

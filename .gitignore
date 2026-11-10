@@ -17,3 +17,6 @@ examples/mali-english-th/mali-*.jpg
 examples/mali-english-th/audio.wav
 examples/mali-english-th/.svgmaker.json
 examples/mali-english-th/svgmaker-audit.json
+
+# Sorties des exemples de formats (svgmaker new / preview / render)
+src/formats/*/examples/out/

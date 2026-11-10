@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-300 -300 600 600" width="600" height="600" data-art="ears-mali">
+<title>ears</title>
+<!-- art -->
+  <path d="M -60 -120 C -175 -190 -230 -20 -160 70 C -130 110 -150 165 -95 160 C -50 155 -60 110 -70 70 C -80 30 -40 0 -45 -60 C -47 -90 -52 -110 -60 -120 Z" fill="#FFD0A8" stroke="#3B2A20" stroke-width="12" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M -80 -80 C -150 -110 -175 -20 -130 30 C -110 50 -100 20 -115 0" fill="none" stroke="#F2A877" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="-108" cy="125" r="14" fill="#FF8FA3" opacity=".7"/>
+  <ellipse cx="-155" cy="-80" rx="12" ry="26" transform="rotate(-30 -155 -80)" fill="#fff" opacity=".55"/>
+  <path d="M 60 -120 C 175 -190 230 -20 160 70 C 130 110 150 165 95 160 C 50 155 60 110 70 70 C 80 30 40 0 45 -60 C 47 -90 52 -110 60 -120 Z" fill="#FFD0A8" stroke="#3B2A20" stroke-width="12" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M 80 -80 C 150 -110 175 -20 130 30 C 110 50 100 20 115 0" fill="none" stroke="#F2A877" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="108" cy="125" r="14" fill="#FF8FA3" opacity=".7"/>
+  <ellipse cx="155" cy="-80" rx="12" ry="26" transform="rotate(30 155 -80)" fill="#fff" opacity=".55"/><!-- /art -->
+</svg>

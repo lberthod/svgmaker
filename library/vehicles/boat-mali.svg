@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-300 -300 600 600" width="600" height="600" data-art="boat-mali">
+<title>boat</title>
+<!-- art -->
+      <path d="M 70 -110 L 70 -175 L 120 -175 L 120 -110 Z" fill="#F23B3B" stroke="#3B2A20" stroke-width="9" stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M 70 -150 L 120 -150" stroke="#fff" stroke-width="12"/>
+      <circle cx="138" cy="-192" r="16" fill="#fff" stroke="#3B2A20" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/><circle cx="160" cy="-208" r="11" fill="#fff" stroke="#3B2A20" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+      <rect x="-30" y="-120" width="180" height="110" rx="22" fill="#FFFFFF" stroke="#3B2A20" stroke-width="12" stroke-linejoin="round" stroke-linecap="round"/>
+      <circle cx="30" cy="-65" r="22" fill="#A9E4FF" stroke="#3B2A20" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/><circle cx="95" cy="-65" r="22" fill="#A9E4FF" stroke="#3B2A20" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M -205 -20 L 200 -20 Q 190 70 120 115 L -130 115 Q -185 70 -205 -20 Z" fill="#FF8A3D" stroke="#3B2A20" stroke-width="12" stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M -190 20 L 192 20" stroke="#fff" stroke-width="10" stroke-linecap="round" opacity=".9"/>
+      <ellipse cx="-140" cy="-2" rx="30" ry="8" fill="#fff" opacity=".55"/>
+      <g transform="translate(-30 50) scale(0.58)">
+  <ellipse cx="-42" cy="-10" rx="15" ry="21" fill="#3B2A20"/><ellipse cx="42" cy="-10" rx="15" ry="21" fill="#3B2A20"/>
+  <circle cx="-37" cy="-17" r="5" fill="#fff"/><circle cx="47" cy="-17" r="5" fill="#fff"/>
+  <circle cx="-80" cy="30" r="20" fill="#FF8FA3" opacity=".75"/><circle cx="80" cy="30" r="20" fill="#FF8FA3" opacity=".75"/>
+  <path d="M -34 34 Q 0 72 34 34" fill="none" stroke="#3B2A20" stroke-width="10" stroke-linejoin="round" stroke-linecap="round"/></g>
+      <path d="M -200 140 q 25 -22 50 0 t 50 0 t 50 0 t 50 0 t 50 0 t 50 0 t 50 0 t 50 0" fill="none" stroke="#2E9BD6" stroke-width="12" stroke-linecap="round"/><!-- /art -->
+</svg>

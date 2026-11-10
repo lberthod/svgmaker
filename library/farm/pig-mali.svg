@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-300 -300 600 600" width="600" height="600" data-art="pig-mali">
+<title>pig</title>
+<!-- art -->
+    <path d="M -120 -60 L -150 -180 L -40 -130 Z" fill="#FF9EB5" stroke="#3B2A20" stroke-width="12" stroke-linejoin="round" stroke-linecap="round"/><path d="M 120 -60 L 150 -180 L 40 -130 Z" fill="#FF9EB5" stroke="#3B2A20" stroke-width="12" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M -112 -85 L -128 -150 L -70 -124 Z" fill="#FF7A9A"/><path d="M 112 -85 L 128 -150 L 70 -124 Z" fill="#FF7A9A"/>
+    <circle r="150" fill="#FFB3C6" stroke="#3B2A20" stroke-width="12" stroke-linejoin="round" stroke-linecap="round"/>
+    <ellipse cx="-75" cy="-80" rx="22" ry="40" transform="rotate(30 -75 -80)" fill="#fff" opacity=".45"/>
+    
+  <ellipse cx="-55" cy="-30" rx="17" ry="25" fill="#3B2A20"/><ellipse cx="55" cy="-30" rx="17" ry="25" fill="#3B2A20"/>
+  <circle cx="-49" cy="-38" r="6" fill="#fff"/><circle cx="61" cy="-38" r="6" fill="#fff"/>
+    <ellipse cy="45" rx="66" ry="48" fill="#FF8AA8" stroke="#3B2A20" stroke-width="12" stroke-linejoin="round" stroke-linecap="round"/>
+    <ellipse cx="-22" cy="45" rx="12" ry="18" fill="#3B2A20"/><ellipse cx="22" cy="45" rx="12" ry="18" fill="#3B2A20"/>
+    <path d="M -34 110 Q 0 135 34 110" fill="none" stroke="#3B2A20" stroke-width="8" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="-105" cy="60" r="18" fill="#FF8FA3" opacity=".7"/><circle cx="105" cy="60" r="18" fill="#FF8FA3" opacity=".7"/><!-- /art -->
+</svg>

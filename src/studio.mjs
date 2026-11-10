@@ -7,6 +7,7 @@ import { createReadStream, existsSync, readFileSync, statSync, writeFileSync } f
 import { readdir, readFile, stat } from 'node:fs/promises'
 import http from 'node:http'
 import path from 'node:path'
+import * as library from './kit/library.mjs'
 
 const ROOT = path.resolve(new URL('..', import.meta.url).pathname)
 const CONFIG = path.join(ROOT, 'studio.json')
@@ -159,8 +160,19 @@ export function startStudio({ port = 4321 } = {}) {
       const project = (id) => cfg.projects.find((p) => p.id === id)
 
       // toute adresse hors /api et /files affiche l'interface (évite un 404 sur /fr/, /index.html…)
-      if (parts[0] !== 'api' && parts[0] !== 'files')
+      if (parts[0] !== 'api' && parts[0] !== 'files' && parts[0] !== 'library')
         return sendFile(req, res, path.join(ROOT, 'studio', 'index.html'))
+      // bibliothèque de dessins : index et fichiers .svg (visibles tels quels dans <img>)
+      if (parts[0] === 'api' && parts[1] === 'library') {
+        library.reload()
+        return json(res, Object.entries(library.index()).map(([id, e]) => ({ id, ...e })))
+      }
+      if (parts[0] === 'library') {
+        const file = path.resolve(library.LIBRARY, parts.slice(1).join('/'))
+        if (!file.startsWith(library.LIBRARY + path.sep) || !file.endsWith('.svg') || !statSync(file, { throwIfNoEntry: false })?.isFile())
+          return json(res, { error: 'fichier introuvable' }, 404)
+        return sendFile(req, res, file)
+      }
       if (parts[0] === 'api' && parts[1] === 'projects' && parts.length === 2)
         return json(res, await Promise.all(cfg.projects.map(async (p) => {
           const items = await listItems(p)

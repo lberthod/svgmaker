@@ -92,10 +92,52 @@ Les choix qui comptent :
 | Audit seul des 8 SVG | passe séparée de quelques minutes | environ 2 s |
 | Relancer un lot inchangé | tout est refait | 0 s (empreinte) |
 
+## Boîte à outils de création (`src/kit/`, `library/`)
+
+Les générateurs de séries partagent :
+
+- `src/kit/core.mjs` : charte (encre, arc-en-ciel, polices), échappement, animations, étoile, nuage, ciel, filtre crayon, `validateArt` ;
+- `src/kit/text.mjs` + `src/kit/fonts/` : **polices libres embarquées** dans chaque SVG (Fredoka pour l'anglais, Mali pour le thaï, licence OFL, environ 60 Ko en base64) et **texte mesuré** avec les vraies avances des glyphes (`fitSize`, `textWidth`) : plus d'estimation, le rendu est identique sur toutes les machines. Pour changer de police : `python3 -I src/kit/fonts/build-fonts.py <en.ttf> <th.ttf>` ;
+- `src/kit/actors/` : de quoi animer des personnages, indépendamment d'une série :
+  - `scene.mjs` (répliques, bruitages, calques d'animation, trajectoires, script pour l'audio),
+  - `camera.mjs` (zoom `punch`, tremblement `quake`),
+  - `lipsync.mjs` (bouche calée sur l'enveloppe réelle de la voix),
+  - `mali.mjs` (l'éléphante Mali : marche, saut, expressions, trompe, oreilles, lunettes),
+  - `gags.mjs` (10 entrées en scène d'objet avec la réaction du personnage : `box`, `run`, `bonk`, `rise`, `splash`, `float`, `drive`, `fly`, `self`, `pop`) ;
+- `src/kit/library.mjs` + `library/` : **540 dessins** réutilisables, un fichier par dessin (`library/<catégorie>/<id>.svg`) et un index `library/index.json`.
+
+```bash
+svgmaker art list [texte] [--cat fruits] [--tags mali]   # chercher un dessin
+svgmaker art add <id> dessin.svg --cat <cat> [--tags …]   # ajouter (validé, indexé)
+svgmaker art check                                        # contrôler toute la bibliothèque
+```
+
+### Formats (`src/formats/`) : un brief JSON → une vidéo
+
+| Format | Pour | Guide |
+|---|---|---|
+| `carton` | astuces, chiffres clés, listes, citations, offres (thèmes `warm`, `night`, `kids`, couleur de marque) | [STYLE.md](src/formats/carton/STYLE.md) |
+| `quiz` | questions à 2 à 4 choix illustrés, compte à rebours, révélation, explication | [STYLE.md](src/formats/quiz/STYLE.md) |
+| `minifilm` | petite histoire en plans avec Mali : décors, accessoires, gags, caméra, voix et sous-titres | [STYLE.md](src/formats/minifilm/STYLE.md) |
+
+```bash
+svgmaker formats                                  # liste
+svgmaker preview src/formats/quiz/examples/animal-sounds.json   # planche + audit en 2 s
+src/formats/build.sh <brief.json> [--music x.wav]  # voix (si répliques) → MP4 + audit + planche
+```
+
+Chaque format a 3 briefs d'exemple dans `src/formats/<format>/examples/`. Les textes sont mesurés, coupés en lignes équilibrées (« 18 °C » et « nuit ! » ne sont jamais séparés), et l'audit Reels doit être vide.
+
+### Sous-agents experts (`.claude/agents/`) et skill `/produire-video`
+
+`svg-pedagogue`, `svg-illustrateur`, `svg-localisateur-th`, `svg-typographe`, `svg-realisateur`, `svg-sound-designer`, `svg-directeur-artistique`, `svg-qa` : chacun connaît son métier, les commandes svgMaker de son domaine et son portail qualité. La skill `.claude/skills/produire-video` les orchestre (cadrage → contenu et dessins en parallèle → aperçu + DA → son et rendu → QA). Dans Claude Code : « fais un quiz sur les animaux de la ferme pour enfants ».
+
+Dans un thème : `"art": "cow"` (kids-english-th) ou `art: lib({ cow: 'cow-mali' })` (Mali). Le studio a un onglet **Bibliothèque** (recherche, catégories, style). Feuille de route : [RAPPORT-BOITE-A-OUTILS-SVG.md](RAPPORT-BOITE-A-OUTILS-SVG.md).
+
 ## Tests
 
 ```bash
-npm test   # audit, détection de durée, rendu MP4 complet, incrémental
+npm test   # audit, détection de durée, rendu MP4, incrémental, studio, bibliothèque, générateurs (golden)
 ```
 
 ## Limites connues

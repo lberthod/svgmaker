@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-300 -300 600 600" width="600" height="600" data-art="mouth-mali">
+<title>mouth</title>
+<!-- art -->
+      <path d="M -175 -50 Q 0 -10 175 -50 Q 165 150 0 155 Q -165 150 -175 -50 Z" fill="#C8243A" stroke="#3B2A20" stroke-width="12" stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M -150 -40 Q 0 -10 150 -40 L 140 5 Q 0 25 -140 5 Z" fill="#fff" stroke="#3B2A20" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M -50 -22 L -48 15 M 50 -22 L 48 15" fill="none" stroke="#E8D9CC" stroke-width="7" stroke-linecap="round"/>
+      <path d="M -85 140 Q -80 60 0 70 Q 80 60 85 140 Q 0 165 -85 140 Z" fill="#FF6F91" stroke="#3B2A20" stroke-width="8" stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M 0 80 L 0 125" stroke="#E2466F" stroke-width="8" stroke-linecap="round"/>
+      <ellipse cx="-120" cy="-62" rx="30" ry="9" fill="#fff" opacity=".55"/>
+      <path d="M -175 -50 q -18 -14 -30 -32 M 175 -50 q 18 -14 30 -32" fill="none" stroke="#3B2A20" stroke-width="10" stroke-linejoin="round" stroke-linecap="round"/><!-- /art -->
+</svg>

@@ -1,0 +1,12 @@
+{
+  "format": "carton",
+  "id": "sommeil-night",
+  "theme": "night",
+  "cards": [
+    { "type": "hook", "text": "Ton téléphone te vole du sommeil.", "art": "moon" },
+    { "type": "text", "text": "La lumière des écrans retarde l’endormissement.", "sub": "Le cerveau croit qu’il fait encore jour." },
+    { "type": "list", "title": "Ce soir, essaie", "items": ["Écran coupé 30 min avant", "Lumière douce et chaude", "Chambre fraîche, vers 18 °C"] },
+    { "type": "quote", "text": "Une bonne nuit commence bien avant d’aller au lit." },
+    { "type": "final", "text": "Bonne nuit 🌙", "sub": "Enregistre ce rappel pour ce soir" }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "format": "quiz",
+  "id": "peinture-warm",
+  "theme": "warm",
+  "title": "Vrai ou faux ?",
+  "sub": "3 idées reçues sur la peinture",
+  "countdown": 3,
+  "questions": [
+    { "q": "Peindre directement sur un mur gras ?", "choices": [{ "label": "Ça tient" }, { "label": "Ça s’écaille" }], "answer": 1, "explain": "On lessive toujours avant de peindre." },
+    { "q": "Une 2e couche, c’est utile ?", "choices": [{ "label": "Oui" }, { "label": "Non" }], "answer": 0, "explain": "Elle uniformise la teinte et protège." },
+    { "q": "Quelle finition pour une salle de bain ?", "choices": [{ "label": "Mat" }, { "label": "Velours" }, { "label": "Satinée" }], "answer": 2, "explain": "Le satiné se nettoie et résiste à l’humidité." }
+  ],
+  "outro": { "text": "Alors, combien ?", "sub": "Dis-le en commentaire" }
+}

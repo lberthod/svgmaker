@@ -11,6 +11,10 @@ Usage
   svgmaker probe  <fichiers | dossiers>…                  durée, taille, animations détectées
   svgmaker audit  <fichiers | dossiers>…                  contrôle Reels (zones sûres, corps, accroche, final)
   svgmaker studio [--port 4321]                           interface web locale (projets, vidéos, rendus)
+  svgmaker art    list|check|add …                        bibliothèque de dessins (library/), voir « svgmaker art »
+  svgmaker formats                                        formats disponibles (carton, quiz, minifilm)
+  svgmaker new     <brief.json>… [-o dossier]             brief → out/<id>/<id>.svg (+ script.json)
+  svgmaker preview <brief.json>…                          idem + planche <id>-preview.jpg + audit, sans vidéo
 
 Options de rendu
   -o, --out <dossier>      dossier de sortie (défaut : à côté du SVG)
@@ -61,8 +65,89 @@ const { values: o, positionals } = parseArgs({
     force: { type: 'boolean', short: 'f' },
     help: { type: 'boolean', short: 'h' },
     port: { type: 'string' },
+    cat: { type: 'string' },
+    tags: { type: 'string' },
   },
 })
+
+/** svgmaker new|preview <brief.json>… : brief d'un format → SVG (+ planche et audit). Retourne le code de sortie. */
+async function briefCommand(which, files) {
+  if (!files.length) { console.error(`usage : svgmaker ${which} <brief.json>… [-o dossier]`); return 1 }
+  const { writeBrief } = await import('../src/formats/index.mjs')
+  const built = []
+  let bad = 0
+  for (const file of files) {
+    try {
+      const r = writeBrief(file, { outDir: files.length === 1 ? o.out : undefined })
+      built.push(r)
+      const voice = r.script.lines.length ? ` · ${r.script.lines.length} répliques (${r.voiced ? 'voix réelles' : 'voix estimées : lancer audio.py puis refaire new'})` : ''
+      console.log(`✓ ${r.brief.format} · ${path.relative(process.cwd(), r.svgFile)} · ${r.duration} s${voice}`)
+    } catch (e) { bad++; console.error(`✗ ${file} : ${e.message}`) }
+  }
+  if (which === 'preview' && built.length) {
+    const { previewSvgs } = await import('../src/preview.mjs')
+    const res = await previewSvgs(built.map((r) => ({ svgFile: r.svgFile, duration: r.duration, keyTimes: r.keyTimes, sheet: r.svgFile.replace(/\.svg$/, '-preview.jpg') })))
+    for (const x of res) {
+      if (x.issues.length) bad++
+      console.log(`${x.issues.length ? '⚠' : '✓'} aperçu ${path.relative(process.cwd(), x.sheet)}${x.issues.map((i) => `\n    ⚠ ${i}`).join('')}`)
+    }
+  }
+  return bad ? 1 : 0
+}
+
+/** svgmaker art list|check|add : bibliothèque de dessins (library/). Retourne le code de sortie. */
+async function artCommand([sub, ...args]) {
+  const L = await import('../src/kit/library.mjs')
+  const { readFileSync } = await import('node:fs')
+  if (sub === 'list') {
+    const q = (args[0] ?? '').toLowerCase()
+    const rows = Object.entries(L.index())
+      .filter(([id, e]) => (!o.cat || e.cat === o.cat) && (!o.tags || o.tags.split(',').every((t) => e.tags.includes(t))) && (!q || id.includes(q)))
+    for (const [id, e] of rows) console.log(`${id.padEnd(28)} ${e.cat.padEnd(18)} ${String(e.bytes).padStart(6)} o  ${e.source}`)
+    console.log(`→ ${rows.length} dessin(s) sur ${Object.keys(L.index()).length}`)
+    return 0
+  }
+  if (sub === 'refresh') {
+    L.refresh()
+    console.log(`✓ index.json recalculé (${Object.keys(L.index()).length} dessins)`)
+    return 0
+  }
+  if (sub === 'check') {
+    let issues = []
+    if (!args.length) issues = L.check()
+    for (const f of args) {
+      try {
+        const text = readFileSync(f, 'utf8')
+        const { validateArt } = await import('../src/kit/core.mjs')
+        validateArt(text.includes('<!-- art -->') ? L.parseArtFile(text, f) : text, f)
+      } catch (e) { issues.push(e.message) }
+    }
+    for (const i of issues) console.log(`✗ ${i}`)
+    console.log(issues.length ? `→ ${issues.length} problème(s)` : `✓ ${args.length ? `${args.length} fichier(s)` : `bibliothèque (${Object.keys(L.index()).length} dessins)`} sans problème`)
+    return issues.length ? 1 : 0
+  }
+  if (sub === 'add') {
+    const [id, file] = args
+    if (!id || !file || !o.cat) { console.error('usage : svgmaker art add <id> <dessin.svg> --cat <catégorie> [--tags a,b]'); return 1 }
+    try {
+      const text = readFileSync(file, 'utf8')
+      const svg = text.includes('<!-- art -->') ? L.parseArtFile(text, file) : text.trim()
+      const e = L.addArt(id, svg, { cat: o.cat, tags: o.tags ? o.tags.split(',') : [], source: path.relative(process.cwd(), file) })
+      L.saveIndex()
+      console.log(`✓ ${id} → library/${e.file} (${e.bytes} o, ${e.colors.length} couleurs)`)
+      return 0
+    } catch (e) { console.error(`✗ ${e.message}`); return 1 }
+  }
+  console.log(`svgmaker art : bibliothèque de dessins (library/)
+  svgmaker art list [texte] [--cat animals] [--tags kids,farm]   liste les dessins
+  svgmaker art check [fichiers.svg…]                              contrôle la bibliothèque, ou des dessins précis
+  svgmaker art add <id> <dessin.svg> --cat <catégorie> [--tags …] ajoute ou remplace un dessin
+  svgmaker art refresh                                            recalcule l'index après une retouche à la main
+
+Un dessin est du SVG statique centré en (0,0), tenant dans ±250 : ni script, animation, style, id, class, href ni image.
+Dans un thème : "art": "<id>" (kids-english-th) ou art: lib({ clé: '<id>' }) (Mali).`)
+  return sub ? 1 : 0
+}
 
 const [cmd, ...inputs] = positionals
 if (cmd === 'studio') {
@@ -71,6 +156,14 @@ if (cmd === 'studio') {
   await startStudio({ port })
   console.log(`svgMaker Studio → http://localhost:${port}  (projets : studio.json, Ctrl+C pour arrêter)`)
   await new Promise(() => {}) // le serveur tourne jusqu'à Ctrl+C
+} else if (cmd === 'art') {
+  process.exit(await artCommand(inputs))
+} else if (cmd === 'new' || cmd === 'preview') {
+  process.exit(await briefCommand(cmd, inputs))
+} else if (cmd === 'formats') {
+  const { FORMATS } = await import('../src/formats/index.mjs')
+  for (const [k, fm] of Object.entries(FORMATS)) console.log(`${k.padEnd(10)} ${fm.description}  (src/formats/${k}/STYLE.md)`)
+  process.exit(0)
 } else if (o.help || !cmd || !['render', 'probe', 'audit'].includes(cmd) || !inputs.length) {
   console.log(HELP)
   process.exit(o.help ? 0 : 1)

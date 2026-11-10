@@ -30,6 +30,18 @@ test('studio : fichiers — traversal, dossier et plage invalides refusés', asy
   })
 })
 
+test('studio : bibliothèque de dessins (index et fichiers)', async () => {
+  await withStudio(async (base) => {
+    const arts = await (await fetch(`${base}/api/library`)).json()
+    assert.ok(arts.length >= 540)
+    const r = await fetch(`${base}/library/${arts[0].file}`)
+    assert.equal(r.status, 200)
+    assert.match(r.headers.get('content-type'), /svg/)
+    assert.equal((await fetch(`${base}/library/..%2Fpackage.json`)).status, 404)
+    assert.equal((await fetch(`${base}/library/index.json`)).status, 404)
+  })
+})
+
 test('studio : le rendu refuse une origine étrangère', async () => {
   await withStudio(async (base) => {
     const r = await fetch(`${base}/api/render?project=x&item=y`, { method: 'POST', headers: { Origin: 'http://evil.example' } })

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-300 -300 600 600" width="600" height="600" data-art="eyes-mali">
+<title>eyes</title>
+<!-- art -->
+  <path d="M -143 -110 l -14 -34 M -88 -122 l 0 -38 M -33 -110 l 14 -34" fill="none" stroke="#3B2A20" stroke-width="10" stroke-linejoin="round" stroke-linecap="round"/>
+  <ellipse cx="-88" cy="0" rx="78" ry="100" fill="#fff" stroke="#3B2A20" stroke-width="12" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="-80" cy="14" r="50" fill="#7A4B2A"/>
+  <circle cx="-80" cy="14" r="28" fill="#3B2A20"/>
+  <circle cx="-62" cy="-6" r="13" fill="#fff"/><circle cx="-94" cy="34" r="6" fill="#fff"/>
+  <path d="M 33 -110 l -14 -34 M 88 -122 l 0 -38 M 143 -110 l 14 -34" fill="none" stroke="#3B2A20" stroke-width="10" stroke-linejoin="round" stroke-linecap="round"/>
+  <ellipse cx="88" cy="0" rx="78" ry="100" fill="#fff" stroke="#3B2A20" stroke-width="12" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="96" cy="14" r="50" fill="#7A4B2A"/>
+  <circle cx="96" cy="14" r="28" fill="#3B2A20"/>
+  <circle cx="114" cy="-6" r="13" fill="#fff"/><circle cx="82" cy="34" r="6" fill="#fff"/><!-- /art -->
+</svg>

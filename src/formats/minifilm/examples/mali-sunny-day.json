@@ -1,0 +1,124 @@
+{
+  "format": "minifilm",
+  "id": "mali-sunny-day",
+  "title": {
+    "en": "Mali's sunny day",
+    "th": "วันแดดดีของมะลิ"
+  },
+  "shots": [
+    {
+      "duration": 6,
+      "set": "day",
+      "mali": {
+        "x": 300,
+        "move": "walk"
+      },
+      "props": [
+        {
+          "art": "sun-mali",
+          "x": 850,
+          "y": 800,
+          "size": 420,
+          "enter": "rise",
+          "at": 0.6
+        }
+      ],
+      "lines": [
+        {
+          "at": 2.6,
+          "role": "mali_en",
+          "text": "What a sunny day!"
+        },
+        {
+          "at": 4.2,
+          "role": "mali_th",
+          "text": "วันนี้แดดดีจัง"
+        }
+      ],
+      "actions": [
+        {
+          "at": 2.4,
+          "do": "wave",
+          "eyes": "happy",
+          "mouth": "laugh"
+        }
+      ]
+    },
+    {
+      "duration": 6,
+      "set": "day",
+      "gag": {
+        "type": "bonk",
+        "art": "apple-mali",
+        "at": 0.6,
+        "sfx": "bonk"
+      },
+      "lines": [
+        {
+          "at": 2.6,
+          "role": "mali_en",
+          "text": "Ouch! An apple!"
+        },
+        {
+          "at": 4.2,
+          "role": "narrator",
+          "text": "Apple"
+        }
+      ]
+    },
+    {
+      "duration": 6,
+      "set": "beach",
+      "mali": {
+        "x": 260,
+        "move": "cut"
+      },
+      "gag": {
+        "type": "splash",
+        "art": "fish-mali",
+        "at": 0.5,
+        "sfx": "splash"
+      },
+      "lines": [
+        {
+          "at": 2.4,
+          "role": "mali_en",
+          "text": "Hello, little fish!"
+        },
+        {
+          "at": 4.0,
+          "role": "mali_th",
+          "text": "สวัสดีปลาน้อย"
+        }
+      ]
+    },
+    {
+      "duration": 6,
+      "set": "night",
+      "mali": {
+        "x": 300,
+        "move": "walk-out"
+      },
+      "lines": [
+        {
+          "at": 0.8,
+          "role": "mali_en",
+          "text": "Good night!"
+        },
+        {
+          "at": 2.2,
+          "role": "mali_th",
+          "text": "ราตรีสวัสดิ์"
+        }
+      ],
+      "actions": [
+        {
+          "at": 0.6,
+          "do": "wave",
+          "eyes": "happy"
+        }
+      ]
+    }
+  ],
+  "end": "The end"
+}

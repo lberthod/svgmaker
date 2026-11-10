@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-300 -300 600 600" width="600" height="600" data-art="fish-mali">
+<title>fish</title>
+<!-- art -->
+    <path d="M 110 0 L 215 -95 Q 190 0 215 95 Z" fill="#29A8F0" stroke="#3B2A20" stroke-width="12" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M -40 -95 Q 10 -165 70 -92 Z" fill="#29A8F0" stroke="#3B2A20" stroke-width="9" stroke-linejoin="round" stroke-linecap="round"/>
+    <ellipse cx="-20" cy="0" rx="165" ry="108" fill="#5CC8FF" stroke="#3B2A20" stroke-width="12" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M 10 -40 q 25 40 0 80 M 55 -40 q 25 40 0 80" fill="none" stroke="#2E9BD6" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="-100" cy="-22" r="30" fill="#fff" stroke="#3B2A20" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/><circle cx="-94" cy="-20" r="15" fill="#3B2A20"/><circle cx="-89" cy="-26" r="5" fill="#fff"/>
+    <path d="M -150 30 Q -128 52 -104 34" fill="none" stroke="#3B2A20" stroke-width="9" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="-60" cy="30" r="15" fill="#FF8FA3" opacity=".7"/><!-- /art -->
+</svg>

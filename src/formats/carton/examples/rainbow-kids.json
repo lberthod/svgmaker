@@ -1,0 +1,11 @@
+{
+  "format": "carton",
+  "id": "rainbow-kids",
+  "theme": "kids",
+  "cards": [
+    { "type": "hook", "text": "Rainbow time!", "sub": "มาดูสีรุ้งกัน", "art": "rainbow" },
+    { "type": "list", "title": "Colors", "items": ["Red · สีแดง", "Yellow · สีเหลือง", "Blue · สีฟ้า"] },
+    { "type": "stat", "value": "7", "text": "colors in a rainbow", "sub": "สีรุ้งมี 7 สี" },
+    { "type": "final", "text": "Great job!", "sub": "เก่งมาก!" }
+  ]
+}

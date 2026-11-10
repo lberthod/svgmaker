@@ -1,0 +1,13 @@
+{
+  "format": "quiz",
+  "id": "fruits-th",
+  "theme": "night",
+  "title": "Fruit quiz",
+  "sub": "ผลไม้อะไรเอ่ย",
+  "countdown": 4,
+  "questions": [
+    { "q": "Which one is yellow? · อันไหนสีเหลือง", "choices": [{ "art": "banana", "label": "Banana" }, { "art": "apple", "label": "Apple" }, { "art": "grapes", "label": "Grapes" }, { "art": "watermelon", "label": "Watermelon" }], "answer": 0, "explain": "Banana · กล้วย" },
+    { "q": "Which one is sour? · อันไหนเปรี้ยว", "choices": [{ "art": "watermelon", "label": "Watermelon" }, { "art": "lemon", "label": "Lemon" }, { "art": "cake", "label": "Cake" }], "answer": 1, "explain": "Lemon · มะนาว" }
+  ],
+  "outro": { "text": "Yummy!", "sub": "อร่อยจัง" }
+}

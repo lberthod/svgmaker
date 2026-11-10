@@ -1,0 +1,13 @@
+{
+  "format": "carton",
+  "id": "astuce-peinture",
+  "theme": "warm",
+  "brand": { "name": "Votre atelier peinture", "color": "#C2410C" },
+  "cards": [
+    { "type": "hook", "text": "Même mur. Deux résultats.", "sub": "La différence tient en 10 minutes." },
+    { "type": "text", "text": "Sans sous-couche, la peinture accroche mal et finit par s’écailler.", "art": "paint" },
+    { "type": "stat", "value": "3×", "text": "plus durable avec une sous-couche adaptée" },
+    { "type": "list", "title": "Les 3 étapes", "items": ["Lessiver le mur", "Poncer légèrement", "Sous-couche, puis peinture"] },
+    { "type": "final", "text": "Un devis en 24 h", "sub": "Écrivez-nous en message privé" }
+  ]
+}

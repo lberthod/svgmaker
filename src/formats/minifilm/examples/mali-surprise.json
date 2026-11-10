@@ -1,0 +1,19 @@
+{
+  "format": "minifilm",
+  "id": "mali-surprise",
+  "title": { "en": "A box for Mali", "th": "กล่องของมะลิ" },
+  "shots": [
+    { "duration": 5, "set": "day", "mali": { "x": 300, "move": "walk" },
+      "lines": [{ "at": 2.4, "role": "mali_en", "text": "Oh! A box!" }],
+      "props": [{ "art": "balloon", "x": 860, "y": 520, "size": 260, "enter": "fly", "at": 0.4 }],
+      "actions": [{ "at": 2.2, "do": "point", "eyes": "wide", "mouth": "o" }] },
+    { "duration": 6, "set": "day",
+      "gag": { "type": "box", "art": "cat-mali", "at": 0.4, "sfx": "meow" },
+      "lines": [{ "at": 2.6, "role": "mali_en", "text": "A cat! Hello, cat!" }, { "at": 4.3, "role": "mali_th", "text": "แมวเหมียว" }] },
+    { "duration": 6, "set": "day",
+      "actions": [{ "at": 0.5, "do": "dance", "eyes": "happy", "mouth": "laugh", "sfx": "yay" }, { "at": 2.5, "do": "bigjump" }],
+      "camera": [{ "at": 0.4, "dur": 1.6, "k": 1.1 }],
+      "lines": [{ "at": 3.4, "role": "mali_en", "text": "Best day ever!" }] }
+  ],
+  "end": "Bye-bye!"
+}

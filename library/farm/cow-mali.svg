@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-300 -300 600 600" width="600" height="600" data-art="cow-mali">
+<title>cow</title>
+<!-- art -->
+    <path d="M -80 -115 Q -125 -150 -118 -200 Q -80 -175 -55 -128 Z" fill="#FFE7A3" stroke="#3B2A20" stroke-width="9" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M 80 -115 Q 125 -150 118 -200 Q 80 -175 55 -128 Z" fill="#FFE7A3" stroke="#3B2A20" stroke-width="9" stroke-linejoin="round" stroke-linecap="round"/>
+    <ellipse cx="-160" cy="-70" rx="58" ry="30" transform="rotate(-20 -160 -70)" fill="#fff" stroke="#3B2A20" stroke-width="12" stroke-linejoin="round" stroke-linecap="round"/>
+    <ellipse cx="160" cy="-70" rx="58" ry="30" transform="rotate(20 160 -70)" fill="#fff" stroke="#3B2A20" stroke-width="12" stroke-linejoin="round" stroke-linecap="round"/>
+    <ellipse cx="-160" cy="-70" rx="30" ry="13" transform="rotate(-20 -160 -70)" fill="#FFB3C1"/>
+    <ellipse cx="160" cy="-70" rx="30" ry="13" transform="rotate(20 160 -70)" fill="#FFB3C1"/>
+    <ellipse cy="-5" rx="135" ry="150" fill="#fff" stroke="#3B2A20" stroke-width="12" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M -40 -150 Q -10 -125 -30 -95 Q -60 -70 -100 -85 Q -110 -120 -80 -140 Q -60 -152 -40 -150 Z" fill="#3B2A20"/>
+    <path d="M 60 -145 Q 110 -140 118 -90 Q 80 -75 58 -105 Q 45 -130 60 -145 Z" fill="#3B2A20"/>
+    <ellipse cx="-105" cy="-40" rx="14" ry="28" transform="rotate(25 -105 -40)" fill="#E8F4FF" opacity=".9"/>
+    
+  <ellipse cx="-52" cy="-30" rx="17" ry="25" fill="#3B2A20"/><ellipse cx="52" cy="-30" rx="17" ry="25" fill="#3B2A20"/>
+  <circle cx="-46" cy="-38" r="6" fill="#fff"/><circle cx="58" cy="-38" r="6" fill="#fff"/>
+    <ellipse cy="85" rx="112" ry="72" fill="#FFB3C1" stroke="#3B2A20" stroke-width="12" stroke-linejoin="round" stroke-linecap="round"/>
+    <ellipse cx="-40" cy="78" rx="15" ry="20" fill="#E0708A"/><ellipse cx="40" cy="78" rx="15" ry="20" fill="#E0708A"/>
+    <path d="M -36 118 Q 0 140 36 118" fill="none" stroke="#3B2A20" stroke-width="8" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="-102" cy="30" r="16" fill="#FF8FA3" opacity=".7"/><circle cx="102" cy="30" r="16" fill="#FF8FA3" opacity=".7"/><!-- /art -->
+</svg>

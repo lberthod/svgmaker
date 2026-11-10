@@ -1,0 +1,13 @@
+{
+  "format": "quiz",
+  "id": "animal-sounds",
+  "theme": "kids",
+  "title": "Animal quiz!",
+  "sub": "ทายเสียงสัตว์กัน",
+  "questions": [
+    { "q": "Who says “moo”?", "choices": [{ "art": "cow", "label": "Cow" }, { "art": "pig", "label": "Pig" }, { "art": "duck", "label": "Duck" }], "answer": 0, "explain": "The cow says moo! · วัวร้องมอ" },
+    { "q": "Who says “quack”?", "choices": [{ "art": "pig", "label": "Pig" }, { "art": "duck", "label": "Duck" }, { "art": "cow", "label": "Cow" }], "answer": 1, "explain": "The duck says quack! · เป็ดร้องก๊าบ" },
+    { "q": "Who can fly?", "choices": [{ "art": "penguin", "label": "Penguin" }, { "art": "eagle", "label": "Eagle" }], "answer": 1, "explain": "Eagles fly high! · นกอินทรีบินได้" }
+  ],
+  "outro": { "text": "Great job!", "sub": "เก่งมาก!" }
+}
