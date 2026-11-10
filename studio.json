@@ -6,6 +6,13 @@
       "dir": "examples/kids-english-th",
       "kind": "kids-series",
       "description": "5 mots d’anglais par vidéo, voix anglaise + thaïe, pour enfants de 4 ans"
+    },
+    {
+      "id": "mali-english-th",
+      "name": "Mali · anglais pour enfants (Thaïlande)",
+      "dir": "examples/mali-english-th",
+      "kind": "generic",
+      "description": "Série avec le personnage Mali : 5 mots par thème, voix, bouche synchronisée, quiz"
     }
   ]
 }

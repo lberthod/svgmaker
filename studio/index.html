@@ -92,6 +92,61 @@ td.say{color:var(--muted)}
 pre.log{background:var(--soft);border-radius:10px;padding:10px 12px;font-size:12px;max-height:160px;overflow:auto;white-space:pre-wrap;margin-top:14px}
 .preview{margin-top:20px}
 .preview img{width:100%;border-radius:10px;border:1px solid var(--line)}
+button.brand{border:0;background:none;color:inherit;padding:0;font:inherit;font-weight:700;font-size:17px}
+/* accueil */
+.hero{display:flex;flex-wrap:wrap;gap:20px;align-items:flex-end;justify-content:space-between;margin-bottom:26px}
+.hero h1{font-size:32px}
+.hero .sub{font-size:16px;max-width:560px}
+.kpis{display:grid;grid-template-columns:repeat(6,1fr);gap:12px;margin-bottom:34px}
+@media (max-width:1200px){.kpis{grid-template-columns:repeat(3,1fr)}}
+.kpi{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:14px 16px}
+.kpi b{display:block;font-size:24px;letter-spacing:-.01em;font-variant-numeric:tabular-nums}
+.kpi span{color:var(--muted);font-size:13px}
+.sec{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin:0 0 14px}
+.sec h2{font-size:19px;margin:0}
+.sec span{color:var(--muted);font-size:13px}
+.pgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:18px;margin-bottom:38px}
+.pcard{background:var(--panel);border:1px solid var(--line);border-radius:18px;overflow:hidden;display:flex;flex-direction:column;transition:box-shadow .15s,transform .15s}
+.pcard:hover{box-shadow:var(--shadow);transform:translateY(-2px)}
+.collage{display:grid;grid-template-columns:repeat(4,1fr);gap:3px;background:var(--soft);height:190px;overflow:hidden;cursor:pointer;border:0;padding:0}
+.collage img{width:100%;height:100%;object-fit:cover;display:block}
+.collage .ph{background:var(--soft)}
+.pcard .pb{padding:16px 18px 18px;display:flex;flex-direction:column;gap:10px;flex:1}
+.pcard h3{margin:0;font-size:18px}
+.pcard p{margin:0;color:var(--muted);font-size:14px}
+.pmeta{display:flex;flex-wrap:wrap;gap:6px}
+.pmeta span{background:var(--soft);padding:3px 9px;border-radius:8px;font-size:12.5px;color:var(--muted)}
+.prog{height:6px;border-radius:99px;background:var(--soft);overflow:hidden}
+.prog i{display:block;height:100%;background:var(--ok);border-radius:99px}
+.pact{display:flex;gap:8px;margin-top:auto;padding-top:4px}
+.recent{display:grid;grid-template-columns:repeat(auto-fill,minmax(120px,1fr));gap:12px;margin-bottom:38px}
+.rc{border:0;padding:0;background:none;color:inherit;text-align:left}
+.rc img,.rc .ph{width:100%;aspect-ratio:9/16;object-fit:cover;border-radius:12px;display:block;background:var(--soft);border:1px solid var(--line);transition:transform .15s}
+.rc:hover img{transform:translateY(-2px)}
+.rc b{display:block;font-size:13px;margin-top:6px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.rc small{color:var(--muted);font-size:12px}
+.tips{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.tip{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:14px 16px;font-size:14px}
+.tip b{display:block;margin-bottom:4px}
+.tip code{background:var(--soft);padding:1px 6px;border-radius:6px;font-size:12.5px}
+/* lecture continue (« Tout lire ») */
+.playall{background:var(--accent);border:1px solid var(--accent);color:var(--accent-ink);padding:8px 15px;border-radius:999px;font-size:13.5px;font-weight:600}
+.playall:disabled{opacity:.45;cursor:default}
+.tv{position:fixed;inset:0;background:#0b0a09;color:#f1eee9;display:none;flex-direction:column;z-index:20}
+.tv.open{display:flex}
+.tv-top{display:flex;align-items:center;gap:14px;padding:14px 20px}
+.tv-top .t{flex:1;min-width:0}
+.tv-top h2{margin:0;font-size:18px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.tv-top .s{color:#a39d94;font-size:13px}
+.tv-count{background:#26231f;padding:5px 11px;border-radius:999px;font-size:13px;font-variant-numeric:tabular-nums}
+.tv-stage{flex:1;min-height:0;display:flex;align-items:center;justify-content:center;padding:0 16px}
+.tv-stage video{height:100%;max-height:100%;max-width:100%;aspect-ratio:9/16;border-radius:14px;background:#000}
+.tv-bottom{display:flex;align-items:center;justify-content:center;gap:10px;padding:14px 16px 18px;flex-wrap:wrap}
+.tv button{border:0;background:#26231f;color:#f1eee9;padding:10px 16px;border-radius:11px;font-weight:600}
+.tv button:hover{background:#36322c}
+.tv .next-up{color:#a39d94;font-size:13px;min-width:0;max-width:280px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.tv .bar-prog{height:3px;background:#26231f}
+.tv .bar-prog i{display:block;height:100%;background:var(--accent);width:0;transition:width .3s}
 @media (max-width:820px){
   .app{grid-template-columns:1fr} aside{position:static;height:auto;border-right:0;border-bottom:1px solid var(--line)}
   main{padding:20px 16px} .dlg{grid-template-columns:1fr} .media{border-radius:20px 20px 0 0}
@@ -102,11 +157,13 @@ pre.log{background:var(--soft);border-radius:10px;padding:10px 12px;font-size:12
 <body>
 <div class="app">
   <aside>
-    <div class="brand"><div class="logo">▶</div>svgMaker Studio</div>
-    <div class="label">Projets</div>
+    <button class="brand" data-home><div class="logo">▶</div>svgMaker Studio</button>
+    <button class="proj home-link" id="homelink" data-home>Accueil<small>Vue d'ensemble</small></button>
+    <div class="label" style="margin-top:18px">Projets</div>
     <nav id="projects"></nav>
   </aside>
-  <main>
+  <main id="home" hidden></main>
+  <main id="projview" hidden>
     <div class="head">
       <div><h1 id="pname">…</h1><p class="sub" id="pdesc"></p></div>
       <div class="stats" id="stats"></div>
@@ -115,6 +172,7 @@ pre.log{background:var(--soft);border-radius:10px;padding:10px 12px;font-size:12
       <label class="search"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
         <input id="q" type="search" placeholder="Chercher un thème ou un mot (anglais ou thaï)…" autocomplete="off"></label>
       <div class="chips" id="filters"></div>
+      <button class="playall" id="playall" title="Lire à la suite toutes les vidéos affichées">▶ Tout lire</button>
     </div>
     <div class="grid" id="grid"></div>
   </main>
@@ -127,6 +185,22 @@ pre.log{background:var(--soft);border-radius:10px;padding:10px 12px;font-size:12
       <div class="tabs" id="tabs"></div>
     </div>
     <div class="info" id="info"></div>
+  </div>
+</div>
+
+<div class="tv" id="tv" role="dialog" aria-modal="true" aria-label="Lecture continue">
+  <div class="bar-prog"><i id="tv-prog"></i></div>
+  <div class="tv-top">
+    <div class="t"><h2 id="tv-title"></h2><div class="s" id="tv-sub"></div></div>
+    <span class="tv-count" id="tv-count"></span>
+    <button id="tv-close" aria-label="Quitter la lecture continue">✕ Quitter</button>
+  </div>
+  <div class="tv-stage"><video id="tv-video" controls autoplay playsinline></video></div>
+  <div class="tv-bottom">
+    <button id="tv-prev">⏮ Précédente</button>
+    <button id="tv-next">Suivante ⏭</button>
+    <label style="display:flex;align-items:center;gap:6px;font-size:13px;color:#a39d94"><input type="checkbox" id="tv-loop"> en boucle</label>
+    <span class="next-up" id="tv-upnext"></span>
   </div>
 </div>
 
@@ -150,13 +224,81 @@ const fmtDate = (d) => d ? new Date(d).toLocaleString('fr-CH', { day: 'numeric',
 
 async function loadProjects() {
   projects = await (await fetch('/api/projects')).json()
-  current ??= new URLSearchParams(location.hash.slice(1)).get('p') || projects[0]?.id
+  $('#homelink').classList.toggle('on', !current)
   $('#projects').innerHTML = projects.map((p) =>
     `<button class="proj ${p.id === current ? 'on' : ''}" data-p="${esc(p.id)}">${esc(p.name)}<small>${p.rendered}/${p.count} vidéos</small></button>`).join('')
+  if (!current) renderHome()
+}
+
+// ---------------------------------------------------------------- accueil
+const pUrl = (pid, rel) => rel && `/files/${encodeURIComponent(pid)}/${rel.split('/').map(encodeURIComponent).join('/')}`
+const fmtDur = (s) => !s ? '–' : s >= 3600 ? `${Math.floor(s / 3600)} h ${String(Math.round((s % 3600) / 60)).padStart(2, '0')}` : `${Math.round(s / 60)} min`
+const fmtBytes = (b) => !b ? '–' : b >= 1e9 ? (b / 1e9).toFixed(1) + ' Go' : Math.round(b / 1e6) + ' Mo'
+const ago = (d) => {
+  if (!d) return 'jamais'
+  const m = Math.round((Date.now() - new Date(d)) / 60000)
+  return m < 1 ? 'à l’instant' : m < 60 ? `il y a ${m} min` : m < 1440 ? `il y a ${Math.round(m / 60)} h` : `il y a ${Math.round(m / 1440)} j`
+}
+let lastHome = ''
+function renderHome() {
+  const sum = (k) => projects.reduce((a, p) => a + (p[k] ?? 0), 0)
+  const key = JSON.stringify(projects)
+  if (key === lastHome && !$('#home').hidden) return
+  lastHome = key
+  const recent = projects.flatMap((p) => p.recent.map((r) => ({ ...r, pid: p.id, pname: p.name })))
+    .sort((a, b) => new Date(b.renderedAt) - new Date(a.renderedAt)).slice(0, 12)
+  const h = new Date().getHours()
+  $('#home').innerHTML = `
+    <div class="hero">
+      <div><h1>${h < 12 ? 'Bonjour' : h < 18 ? 'Bon après-midi' : 'Bonsoir'} 👋</h1>
+        <p class="sub">Tes SVG animés et les vidéos qui en sortent : choisis un projet, regarde une vidéo ou lance-les toutes à la suite.</p></div>
+    </div>
+    <div class="kpis">
+      ${[[projects.length, 'projets'], [sum('rendered'), 'vidéos prêtes'], [sum('words'), 'mots enseignés'],
+        [fmtDur(sum('duration')), 'de vidéo'], [fmtBytes(sum('bytes')), 'de masters'], [sum('warn'), 'à vérifier']]
+        .map(([n, l]) => `<div class="kpi"><b>${n}</b><span>${l}</span></div>`).join('')}
+    </div>
+    <div class="sec"><h2>Projets</h2><span>${projects.length} au total</span></div>
+    <div class="pgrid">${projects.map((p) => {
+      const c = [...p.covers, null, null, null, null].slice(0, 4)
+      const pct = p.count ? Math.round((p.rendered / p.count) * 100) : 0
+      return `<article class="pcard">
+        <button class="collage" data-p="${esc(p.id)}" aria-label="Ouvrir ${esc(p.name)}">${c.map((x) => x ? `<img loading="lazy" src="${pUrl(p.id, x)}" alt="">` : '<div class="ph"></div>').join('')}</button>
+        <div class="pb">
+          <h3>${esc(p.name)}</h3>
+          <p>${esc(p.description)}</p>
+          <div class="pmeta"><span>${p.rendered}/${p.count} vidéos</span>${p.words ? `<span>${p.words} mots</span>` : ''}${p.duration ? `<span>${fmtDur(p.duration)}</span>` : ''}<span>${fmtBytes(p.bytes)}</span><span>rendu ${ago(p.lastRender)}</span>${p.warn ? `<span style="color:var(--warn)">${p.warn} à vérifier</span>` : ''}</div>
+          <div class="prog" title="${pct} % rendu"><i style="width:${pct}%"></i></div>
+          <div class="pact"><button class="btn primary" data-p="${esc(p.id)}">Ouvrir</button>${p.rendered ? `<button class="btn" data-playproj="${esc(p.id)}">▶ Tout lire</button>` : ''}</div>
+        </div></article>`
+    }).join('')}</div>
+    ${recent.length ? `<div class="sec"><h2>Derniers rendus</h2><span>tous projets</span></div>
+    <div class="recent">${recent.map((r) => `<button class="rc" data-open="${esc(r.pid)}|${esc(r.id)}">
+      ${r.cover ? `<img loading="lazy" src="${pUrl(r.pid, r.cover)}" alt="">` : '<div class="ph"></div>'}
+      <b>${esc(r.title)}</b><small>${ago(r.renderedAt)}</small></button>`).join('')}</div>` : ''}
+    <div class="sec"><h2>Raccourcis</h2></div>
+    <div class="tips">
+      <div class="tip"><b>Rendre un SVG en vidéo</b><code>svgmaker render mon.svg --audit</code></div>
+      <div class="tip"><b>Ajouter un projet</b>Ajoute une entrée dans <code>studio.json</code> (id, nom, dossier) : le Studio le liste aussitôt.</div>
+      <div class="tip"><b>Clavier</b><code>/</code> chercher · <code>←</code> <code>→</code> vidéo précédente / suivante · <code>Échap</code> fermer</div>
+    </div>`
+}
+
+function showView() {
+  $('#home').hidden = !!current
+  $('#projview').hidden = !current
+  if (!current) { lastHome = ''; renderHome() }
+}
+async function goProject(id, openAfter) {
+  current = id; filter = 'all'; lastJson = ''; $('#q').value = ''
+  location.hash = id ? `p=${id}` : ''
+  showView(); await loadProjects()
+  if (id) { await loadItems(); window.scrollTo(0, 0); if (openAfter) openItem(openAfter) }
 }
 
 let lastJson = ''
 async function loadItems() {
+  if (!current) return
   const txt = await (await fetch(`/api/projects/${encodeURIComponent(current)}/items`)).text()
   if (txt === lastJson) return // rien n'a changé : pas de redessin (pas de clignotement)
   lastJson = txt
@@ -171,6 +313,60 @@ function matches(i, q) {
   return q.toLowerCase().split(/\s+/).every((t) => hay.includes(t))
 }
 
+// vidéos affichées (recherche + filtre), dans l'ordre de la grille
+function visible() {
+  const q = $('#q').value.trim()
+  return items.filter((i) => matches(i, q)).filter((i) => {
+    const s = state(i)[0]
+    return filter === 'all' || (filter === 'ready' && s === 'ok') || (filter === 'todo' && !i.files.mp4) || (filter === 'warn' && s === 'warn')
+  })
+}
+
+// ---------------------------------------------------------------- lecture continue
+let tv = null // { list, pos, project }
+function tvStart(startId) {
+  const list = visible().filter((i) => i.files.mp4)
+  if (!list.length) return
+  if (openId) closeItem()
+  tv = { list, project: current, pos: Math.max(0, list.findIndex((i) => i.id === startId)) }
+  $('#tv').classList.add('open')
+  tvShow()
+}
+function tvShow() {
+  const { list, pos } = tv, i = list[pos], nx = list[pos + 1] ?? ($('#tv-loop').checked ? list[0] : null)
+  const v = $('#tv-video')
+  v.poster = i.files.cover ? fileUrl(i.files.cover) : ''
+  v.src = `${fileUrl(i.files.mp4)}?v=${Date.parse(i.renderedAt)}`
+  v.play().catch(() => {})
+  $('#tv-title').textContent = i.title
+  $('#tv-sub').textContent = [i.subtitle, i.words.map((w) => w.en).join(' · ')].filter(Boolean).join('  —  ')
+  $('#tv-count').textContent = `${pos + 1} / ${list.length}`
+  $('#tv-prog').style.width = `${((pos + 1) / list.length) * 100}%`
+  $('#tv-upnext').textContent = nx ? `Ensuite : ${nx.title}` : 'Dernière vidéo'
+  $('#tv-prev').disabled = pos === 0
+  location.hash = `p=${tv.project}&play=${encodeURIComponent(i.id)}`
+}
+function tvGo(d) {
+  if (!tv) return
+  let p = tv.pos + d
+  if (p >= tv.list.length) { if (!$('#tv-loop').checked) return tvStop(); p = 0 }
+  if (p < 0) return
+  tv.pos = p
+  tvShow()
+}
+function tvStop() {
+  if (!tv) return
+  const v = $('#tv-video'); v.pause(); v.removeAttribute('src'); v.load()
+  $('#tv').classList.remove('open')
+  tv = null
+  location.hash = `p=${current}`
+}
+$('#tv-video').addEventListener('ended', () => tvGo(1))
+$('#tv-next').onclick = () => tvGo(1)
+$('#tv-prev').onclick = () => tvGo(-1)
+$('#tv-close').onclick = tvStop
+$('#playall').onclick = () => tvStart()
+
 function render() {
   const p = projects.find((x) => x.id === current)
   $('#pname').textContent = p?.name ?? ''
@@ -184,14 +380,14 @@ function render() {
   $('#filters').innerHTML = FILTERS.map(([k, l]) => `<button class="chip ${k === filter ? 'on' : ''}" data-f="${k}">${l}<em>${counts[k]}</em></button>`).join('')
 
   const q = $('#q').value.trim()
-  const list = items.filter((i) => matches(i, q)).filter((i) => {
-    const s = state(i)[0]
-    return filter === 'all' || (filter === 'ready' && s === 'ok') || (filter === 'todo' && !i.files.mp4) || (filter === 'warn' && s === 'warn')
-  })
+  const list = visible()
+  const playable = list.filter((i) => i.files.mp4).length
+  $('#playall').disabled = !playable
+  $('#playall').textContent = `▶ Tout lire (${playable})`
   $('#grid').innerHTML = list.length ? list.map((i) => {
     const [cls, lab] = state(i)
     // miniature : 1re image de la planche d'aperçu (intro), sinon couverture, sinon le SVG
-    const thumb = i.files.preview
+    const thumb = i.files.thumb ? `<img loading="lazy" src="${fileUrl(i.files.thumb)}" alt="">` : i.files.preview
       ? `<div class="strip" style="background-image:url('${fileUrl(i.files.preview)}')"></div>`
       : (i.files.cover || i.files.svg) ? `<img loading="lazy" src="${fileUrl(i.files.cover || i.files.svg)}" alt="">` : ''
     return `<button class="card" data-id="${esc(i.id)}">
@@ -231,6 +427,7 @@ function openItem(id, refresh = false) {
     ${i.stale ? `<div class="issues">Le thème a été modifié après le dernier rendu : relance le rendu.</div>` : ''}
     <div class="actions">
       <button class="btn primary" data-render ${running ? 'disabled' : ''}>${running ? 'Rendu en cours…' : i.files.mp4 ? 'Refaire la vidéo' : 'Créer la vidéo'}</button>
+      ${i.files.mp4 ? `<button class="btn" data-playfrom="${esc(i.id)}">▶ Tout lire depuis ici</button>` : ''}
       ${i.files.mp4 ? `<a class="btn" href="${fileUrl(i.files.mp4)}" download="${esc(i.id)}.mp4">Télécharger MP4</a>` : ''}
       ${i.files.cover ? `<a class="btn" href="${fileUrl(i.files.cover)}" download>Couverture</a>` : ''}
       ${i.files.svg ? `<a class="btn" href="${fileUrl(i.files.svg)}" target="_blank">Ouvrir le SVG</a>` : ''}
@@ -244,9 +441,13 @@ function openItem(id, refresh = false) {
 function closeItem() { $('#sheet').classList.remove('open'); $('#player').innerHTML = ''; $('#player').dataset.k = ''; openId = null; location.hash = `p=${current}` }
 
 document.addEventListener('click', async (e) => {
-  const t = e.target.closest('[data-p],[data-f],.card,[data-close],[data-t],[data-render]')
+  const t = e.target.closest('[data-p],[data-f],.card,[data-close],[data-t],[data-render],[data-playfrom],[data-home],[data-playproj],[data-open]')
   if (!t) { if (e.target.id === 'sheet') closeItem(); return }
-  if (t.dataset.p) { current = t.dataset.p; filter = 'all'; lastJson = ''; location.hash = `p=${current}`; await loadProjects(); await loadItems() }
+  if (t.dataset.playfrom) tvStart(t.dataset.playfrom)
+  else if (t.hasAttribute('data-home')) goProject(null)
+  else if (t.dataset.playproj) { await goProject(t.dataset.playproj); tvStart() }
+  else if (t.dataset.open) { const [pid, iid] = t.dataset.open.split('|'); goProject(pid, iid) }
+  else if (t.dataset.p) goProject(t.dataset.p)
   else if (t.dataset.f) { filter = t.dataset.f; render() }
   else if (t.classList.contains('card')) openItem(t.dataset.id)
   else if (t.hasAttribute('data-close')) closeItem()
@@ -258,6 +459,13 @@ document.addEventListener('click', async (e) => {
   }
 })
 document.addEventListener('keydown', (e) => {
+  if (tv) {
+    if (e.key === 'Escape') tvStop()
+    else if (e.key === 'ArrowRight' || e.key === 'n') tvGo(1)
+    else if (e.key === 'ArrowLeft' || e.key === 'p') tvGo(-1)
+    else if (e.key === ' ' && e.target === document.body) { e.preventDefault(); const v = $('#tv-video'); v.paused ? v.play() : v.pause() }
+    return
+  }
   if (e.key === 'Escape' && openId) closeItem()
   if (e.key === '/' && document.activeElement !== $('#q')) { e.preventDefault(); $('#q').focus() }
 })
@@ -266,9 +474,12 @@ $('#q').addEventListener('input', render)
 ;(async () => {
   const h = new URLSearchParams(location.hash.slice(1))
   current = h.get('p')
+  showView()
   await loadProjects()
+  if (current && !projects.some((p) => p.id === current)) { current = null; showView(); await loadProjects() }
   await loadItems()
   if (h.get('i')) openItem(h.get('i'))
+  else if (h.get('play')) tvStart(h.get('play'))
   // actualisation douce : rendus en cours, nouvelles vidéos produites par build.sh
   setInterval(async () => { if (!document.hidden) { await loadProjects(); await loadItems() } }, 4000)
 })()

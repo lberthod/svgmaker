@@ -91,12 +91,13 @@ async function listGeneric(p) {
   await walk(p.abs, 0)
   return Promise.all(out.sort().map(async (abs) => {
     const base = abs.replace(/\.svg$/, ''), rel = (x) => path.relative(p.abs, x)
-    const [mp4, cover, sheet] = await Promise.all([`${base}.mp4`, `${base}-cover.jpg`, `${base}-planche.jpg`].map(exists))
+    // -thumb.jpg (facultatif) : miniature plus parlante que la couverture, pour la grille et l'accueil
+    const [mp4, cover, sheet, thumb] = await Promise.all([`${base}.mp4`, `${base}-cover.jpg`, `${base}-planche.jpg`, `${base}-thumb.jpg`].map(exists))
     const name = path.basename(base)
     const audit = (await readJson(path.join(path.dirname(abs), 'svgmaker-audit.json')))?.files?.[name] ?? null
     return {
       id: rel(base), title: name, subtitle: path.relative(p.abs, path.dirname(abs)) || '', words: [],
-      files: { svg: rel(abs), mp4: mp4 && rel(`${base}.mp4`), cover: cover && rel(`${base}-cover.jpg`), preview: sheet && rel(`${base}-planche.jpg`) },
+      files: { svg: rel(abs), mp4: mp4 && rel(`${base}.mp4`), cover: cover && rel(`${base}-cover.jpg`), preview: sheet && rel(`${base}-planche.jpg`), thumb: thumb && rel(`${base}-thumb.jpg`) },
       duration: null, size: mp4?.size ?? null, renderedAt: mp4 ? mp4.mtime : null, stale: false, issues: audit?.issues ?? null,
     }
   }))
@@ -132,8 +133,14 @@ function sendFile(req, res, file) {
   const type = MIME[path.extname(file).toLowerCase()] ?? 'application/octet-stream'
   const range = req.headers.range && /bytes=(\d*)-(\d*)/.exec(req.headers.range)
   if (range) {
-    const start = range[1] ? +range[1] : 0
-    const end = range[2] ? Math.min(+range[2], st.size - 1) : st.size - 1
+    // « bytes=-N » = les N derniers octets
+    const suffix = !range[1] && range[2]
+    const start = suffix ? Math.max(0, st.size - +range[2]) : range[1] ? +range[1] : 0
+    const end = !suffix && range[2] ? Math.min(+range[2], st.size - 1) : st.size - 1
+    if (start > end || start >= st.size) {
+      res.writeHead(416, { 'Content-Range': `bytes */${st.size}` })
+      return res.end()
+    }
     res.writeHead(206, { 'Content-Type': type, 'Content-Range': `bytes ${start}-${end}/${st.size}`, 'Accept-Ranges': 'bytes', 'Content-Length': end - start + 1 })
     return createReadStream(file, { start, end }).pipe(res)
   }
@@ -157,7 +164,20 @@ export function startStudio({ port = 4321 } = {}) {
       if (parts[0] === 'api' && parts[1] === 'projects' && parts.length === 2)
         return json(res, await Promise.all(cfg.projects.map(async (p) => {
           const items = await listItems(p)
-          return { id: p.id, name: p.name, description: p.description ?? '', count: items.length, rendered: items.filter((i) => i.files.mp4).length }
+          const done = items.filter((i) => i.files.mp4)
+          const byDate = [...done].sort((a, b) => new Date(b.renderedAt) - new Date(a.renderedAt))
+          const pic = (i) => i.files.thumb || i.files.cover
+          const pick = (i) => ({ id: i.id, title: i.title, subtitle: i.subtitle, cover: pic(i), renderedAt: i.renderedAt })
+          return {
+            id: p.id, name: p.name, description: p.description ?? '', count: items.length, rendered: done.length,
+            words: items.reduce((a, i) => a + i.words.length, 0),
+            bytes: done.reduce((a, i) => a + (i.size ?? 0), 0),
+            duration: items.reduce((a, i) => a + (i.duration ?? 0), 0) || null,
+            warn: items.filter((i) => i.stale || i.issues?.length).length,
+            lastRender: byDate[0]?.renderedAt ?? null,
+            covers: done.filter(pic).slice(0, 4).map(pic),
+            recent: byDate.slice(0, 6).map(pick),
+          }
         })))
       if (parts[0] === 'api' && parts[1] === 'projects' && parts[3] === 'items') {
         const p = project(parts[2])
@@ -167,6 +187,10 @@ export function startStudio({ port = 4321 } = {}) {
         return json(res, items)
       }
       if (parts[0] === 'api' && parts[1] === 'render' && req.method === 'POST') {
+        // protège le lancement de rendu contre les pages tierces (CSRF, DNS rebinding)
+        const local = /^(localhost|127\.0\.0\.1)(:\d+)?$/
+        const origin = req.headers.origin && new URL(req.headers.origin).host
+        if (!local.test(req.headers.host ?? '') || (origin && !local.test(origin))) return json(res, { error: 'interdit' }, 403)
         const p = project(url.searchParams.get('project'))
         const item = p && (await listItems(p)).find((i) => i.id === url.searchParams.get('item'))
         if (!item) return json(res, { error: 'introuvable' }, 404)
@@ -176,7 +200,7 @@ export function startStudio({ port = 4321 } = {}) {
         const p = project(parts[1])
         if (!p) return json(res, { error: 'projet inconnu' }, 404)
         const file = path.resolve(p.abs, parts.slice(2).join('/'))
-        if (!file.startsWith(p.abs + path.sep) || !existsSync(file)) return json(res, { error: 'fichier introuvable' }, 404)
+        if (!file.startsWith(p.abs + path.sep) || !statSync(file, { throwIfNoEntry: false })?.isFile()) return json(res, { error: 'fichier introuvable' }, 404)
         return sendFile(req, res, file)
       }
       json(res, { error: 'introuvable' }, 404)

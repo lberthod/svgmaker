@@ -9,6 +9,7 @@ node_modules/
 examples/*/out/
 examples/kids-english-th/videos/
 examples/kids-english-th/web/
+examples/*/web/
 examples/*/build.log
 examples/mali-english-th/mali.*
 !examples/mali-english-th/mali.svg
