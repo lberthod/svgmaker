@@ -21,3 +21,16 @@ examples/mali-english-th/svgmaker-audit.json
 # Sorties des exemples de formats (svgmaker new / preview / render)
 src/formats/*/examples/out/
 __pycache__/
+
+# Épisodes animés (cartoon-ecole, manga-combat, au-pied-de-la-lettre…) : seuls make.mjs,
+# audio.py et les prises de voix voix/ sont versionnés ; le reste se régénère
+examples/cartoon-ecole/*
+!examples/cartoon-ecole/make.mjs
+!examples/cartoon-ecole/audio.py
+examples/manga-combat*/*
+!examples/manga-combat*/make.mjs
+!examples/manga-combat*/audio.py
+!examples/manga-combat*/voix/
+examples/au-pied-de-la-lettre-*/*
+!examples/au-pied-de-la-lettre-*/make.mjs
+!examples/au-pied-de-la-lettre-*/audio.py
