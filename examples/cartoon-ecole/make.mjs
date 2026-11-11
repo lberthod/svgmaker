@@ -1,4 +1,4 @@
-// Renard & Lapin vont à l'école — 30 s, 1280x720, 4 scènes en plans coupés.
+// Roussin & Lino vont à l'école — 30 s, 1280x720, 4 scènes en plans coupés.
 // Génère cartoon-ecole.svg + timeline.json (répliques et effets pour audio.py).
 import { writeFileSync } from 'node:fs';
 
@@ -320,7 +320,7 @@ const s1 = scene(T1, T1e, tf(`
   <g transform="translate(600 120)"><rect width="200" height="12" rx="4" fill="#8a5224" stroke="${INK}" stroke-width="4"/><rect x="20" y="-52" width="34" height="52" fill="#e8434e" stroke="${INK}" stroke-width="4"/><rect x="60" y="-64" width="30" height="64" fill="#3b82f6" stroke="${INK}" stroke-width="4"/><rect x="96" y="-44" width="40" height="44" fill="#22a06b" stroke="${INK}" stroke-width="4"/></g>
   <g transform="translate(790 430)"><rect x="0" y="80" width="150" height="90" rx="10" fill="#8a5224" stroke="${INK}" stroke-width="5"/></g>
   `, { t0: 0, d: T1e, from: 'scale(1)', to: 'scale(1.07)', o: '640px 400px', e: 'linear' }) +
-  // Lapin endormi (0 → 2.3) : tête de face sur l'oreiller, oreilles tombantes, couette jusqu'au menton
+  // Lino endormi (0 → 2.3) : tête de face sur l'oreiller, oreilles tombantes, couette jusqu'au menton
   vis(0, 2.3, `<g>
     <rect x="136" y="388" width="214" height="96" rx="42" fill="#fff" stroke="${INK}" stroke-width="5"/>
     <g style="transform-origin:200px 410px;animation:earidle 2s ease-in-out infinite alternate"><ellipse cx="150" cy="398" rx="82" ry="21" fill="#f1eff7" stroke="${INK}" stroke-width="5" transform="rotate(-10 150 398)"/><ellipse cx="146" cy="398" rx="60" ry="9" fill="#ffb3c6" transform="rotate(-10 146 398)"/>
@@ -353,12 +353,12 @@ const s1 = scene(T1, T1e, tf(`
       <circle cx="0" cy="-40" r="52" fill="#e8434e" stroke="${INK}" stroke-width="5"/><circle cx="0" cy="-40" r="40" fill="#fff" stroke="${INK}" stroke-width="3"/><g transform="translate(0 -40)">${clockHands}</g><rect x="-30" y="0" width="12" height="14" fill="${INK}"/><rect x="18" y="0" width="12" height="14" fill="${INK}"/>`)}
   </g>` +
   sfx('DRING !', 700, 400, 0.15, 2.1, -8, '#ffd23f', 84, 'alarm') +
-  // réveil en sursaut : Lapin assis (2.3 → 3.9)
+  // réveil en sursaut : Lino assis (2.3 → 3.9)
   vis(2.3, 3.9, `<g transform="translate(300 505)"><g style="transform-origin:0 0;${an({ n: 'wake', d: 0.5, t: 2.3, f: 'both' })}">
     ${shake(tf(rabbit({ talk: [[2.55, 3.8]], mood: 'panic', sweatWin: [2.5, 3.9], noBag: true }), { t0: 3.4, d: 0.45, from: 'scale(1,1)', to: 'scale(1.22,.74)' }), 2.6, 0.7, 2)}</g></g>
     <g transform="translate(490 296)"><g style="${an({ n: 'sfxk', d: 1.4, t: 2.35, f: 'both' })}"><text class="sfx" style="font-size:110px;fill:#e8434e">!!</text></g></g>`) +
   bub('rab', 'Oh non ! 8h25 !!', 345, 175, 2.5, 1.4, true) +
-  // Lapin file (3.9 → 5.6)
+  // Lino file (3.9 → 5.6)
   vis(3.9, T1e, tf(
     `<g style="${an({ n: 'leapk', d: 0.7, t: 3.9, f: 'both' })}">${put(0, 0, 1.2, rabbit({ run: [4.55, 5.55], runExtra: [[4.55, 5.55]], jumps: [[3.9, 4.55, 0]], talk: [], mood: 'panic' }))}</g>`,
     { t0: 3.9, d: 1.5, from: 'translate(300px,600px)', to: 'translate(1600px,600px)', e: 'cubic-bezier(.6,0,.9,.5)' })) +
@@ -367,7 +367,7 @@ const s1 = scene(T1, T1e, tf(`
 );
 const S1 = shake(s1, 2.3, 0.45, 9);
 
-// ───────── SCÈNE 2 · Renard et le croissant (5.6 → 12.6) ─────────
+// ───────── SCÈNE 2 · Roussin et le croissant (5.6 → 12.6) ─────────
 const T2 = 5.6, T2e = 12.6;
 const house = (x, w, h, c, r) => `<g transform="translate(${x} ${560 - h})"><rect width="${w}" height="${h}" fill="${c}" stroke="${INK}" stroke-width="5"/><polygon points="-12,0 ${w / 2},-70 ${w + 12},0" fill="${r}" stroke="${INK}" stroke-width="5" stroke-linejoin="round"/>
   ${[0, 1].map((i) => `<rect x="${24 + i * (w - 96)}" y="${h * 0.3}" width="52" height="58" rx="6" fill="#bfe6ff" stroke="${INK}" stroke-width="4"/>`).join('')}<rect x="${w / 2 - 22}" y="${h - 76}" width="44" height="76" rx="6" fill="#7a4a2a" stroke="${INK}" stroke-width="4"/></g>`;
@@ -382,14 +382,14 @@ const s2 = scene(T2, T2e, tf(`
   ${Array.from({ length: 8 }, (_, i) => `<rect x="${30 + i * 170}" y="650" width="100" height="12" rx="6" fill="#fff"/>`).join('')}
   <g transform="translate(1130 560)"><rect x="-8" y="-300" width="16" height="300" fill="#3a3f4a" stroke="${INK}" stroke-width="4"/><circle cx="0" cy="-308" r="24" fill="#ffe27a" stroke="${INK}" stroke-width="4"/></g>
   `, { t0: T2, d: T2e - T2, from: 'scale(1)', to: 'scale(1.04)', o: '800px 420px', e: 'linear' }) +
-  // Renard campé, croissant en main
+  // Roussin campé, croissant en main
   vis(0, 11.95, put(850, 612, 1.4, fox({ talk: [[6.65, 7.8], [10.85, 12.1]], holdArm: true, run: null, jolt: [9.1, 10.65], dropArmAt: 11.3, panicAt: 10.65, upright: -24, sweatWin: [9.1, 11.95] }), true)) +
   vis(11.95, 99, tf(put(0, 0, 1.4, fox({ run: [11.95, 12.7], mood: 'panic' })), { t0: 11.95, d: 0.5, from: 'translate(820px,612px)', to: 'translate(1480px,612px)', e: 'cubic-bezier(.35,0,.7,1)' })) +
   vis(0, 10.65, `<g transform="translate(753 434)"><g style="${an({ n: 'croidown', d: 1.4, t: 6.55 })}"><g style="${an({ n: 'munch', d: 0.3, c: 999, dir: 'alternate' })}">${croissant}</g></g></g>`) +
-  // Lapin déboule puis dérape
+  // Lino déboule puis dérape
   vis(T2, 99, tf(tf(put(0, 0, 1.4, rabbit({ run: [5.7, 6.3], runExtra: [[5.7, 6.3], [12.1, 12.7]], talk: [[8.0, 9.4]], mood: 'panic', sweatWin: [6.6, 12.1], skid: 6.3, hops: [[7.0, 12.05, 10]] })), { t0: 12.1, d: 0.55, from: 'translate(0px,0px)', to: 'translate(900px,0px)', e: 'cubic-bezier(.35,0,.7,1)' }),
     { t0: T2, d: 0.9, from: 'translate(-260px,612px)', to: 'translate(400px,612px)', e: 'cubic-bezier(.2,.3,.4,1)' })) +
-  // dérapage Lapin → poussière
+  // dérapage Lino → poussière
   vis(6.45, 7.2, `<g transform="translate(500 606)">${[0, 1, 2, 3, 4].map((i) => `<g style="${an({ n: 'dustk', d: 0.55, t: 6.5 + i * 0.05 })}"><circle cx="${-i * 26}" cy="${-i * 6}" r="${26 - i * 2}" fill="#e6e9ee" stroke="#b9c0c9" stroke-width="3"/></g>`).join('')}</g>`) +
   sfx('SCRIIITCH !', 290, 110, 6.2, 1.1, -6, '#ff9a3d', 70, 'skid') +
   bub('fox', 'Salut ! Tu cours ?', 760, 232, 6.7, 1.3) +
@@ -514,7 +514,7 @@ const s4 = scene(T4, 99, `
   bub('owl', 'Bravo, pile à l\'heure !', 1020, 322, 26.8, 1.5) +
   `<g style="${an({ n: 'cardk', d: 0.6, t: 27.6, f: 'both', e: 'cubic-bezier(.2,1.6,.4,1)' })}"><g transform="translate(330 72) scale(.76)">
     <rect x="-279" y="-76" width="570" height="168" rx="30" fill="#000" opacity=".22" transform="rotate(-1.5)"/><rect x="-285" y="-84" width="570" height="168" rx="30" fill="#fff" stroke="${INK}" stroke-width="7" transform="rotate(-1.5)"/>
-    <text y="4" class="sfx" style="font-size:68px;fill:#e8434e;stroke:#fff;stroke-width:0">Renard &amp; Lapin</text>
+    <text y="4" class="sfx" style="font-size:68px;fill:#e8434e;stroke:#fff;stroke-width:0">Roussin &amp; Lino</text>
     <text y="58" class="bt" style="font-size:38px;fill:#2b5ba8">vont à l'école !</text></g></g>`;
 
 const style = `

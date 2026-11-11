@@ -34,3 +34,12 @@ examples/manga-combat*/*
 examples/au-pied-de-la-lettre-*/*
 !examples/au-pied-de-la-lettre-*/make.mjs
 !examples/au-pied-de-la-lettre-*/audio.py
+examples/les-anomalies-*/*
+!examples/les-anomalies-*/make.mjs
+!examples/les-anomalies-*/audio.py
+examples/les-anomalies/les-anomalies-saison1.mp4
+# Roussin & Lino (renard-lapin) : seuls make.mjs, lib/, logo/ et les scripts sont versionnés
+examples/renard-lapin/ep*/*
+!examples/renard-lapin/ep*/make.mjs
+examples/renard-lapin/reels/*.mp4
+examples/renard-lapin/logo/.svgmaker.json

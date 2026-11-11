@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Roussin &amp; Lino — la saison</title>
+<style>
+  :root { --bg: #fff4dc; --ink: #3a2418; --red: #e8434e; --blue: #2b5ba8; --card: #ffffff; --muted: #7a6a5a; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 1000px; margin: 0 auto; padding: 20px 16px 40px; }
+  header { display: flex; align-items: center; gap: 14px; margin-bottom: 12px; }
+  header img { width: 96px; height: 96px; flex: none; }
+  h1 { margin: 0 0 4px; font-size: clamp(26px, 5vw, 40px); color: var(--red); }
+  .sub { margin: 0; color: var(--muted); }
+  .player { background: #000; border: 5px solid var(--ink); border-radius: 18px; overflow: hidden; aspect-ratio: 16 / 9; }
+  video { width: 100%; height: 100%; display: block; background: #000; }
+  .now { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin: 12px 0 18px; flex-wrap: wrap; }
+  .now h2 { margin: 0; font-size: 20px; }
+  .now h2 span { color: var(--blue); }
+  .btns { display: flex; gap: 8px; }
+  button { font: inherit; font-weight: 700; border: 3px solid var(--ink); background: var(--card); color: var(--ink); border-radius: 12px; padding: 8px 14px; cursor: pointer; }
+  button:hover { background: #ffe9a8; }
+  ol { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 10px; }
+  li button { width: 100%; text-align: left; padding: 10px 12px; font-weight: 600; }
+  li button b { display: block; color: var(--red); font-size: 13px; }
+  li button[aria-current="true"] { background: var(--ink); color: #fff; }
+  li button[aria-current="true"] b { color: #ffd23f; }
+  label { display: inline-flex; gap: 6px; align-items: center; color: var(--muted); font-size: 14px; margin-top: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <header><img src="/videos/roussin-lino-logo.png" alt="" width="96" height="96">
+  <div><h1>Roussin &amp; Lino</h1>
+  <p class="sub">Une journée à l'école, du réveil au dodo — 15 épisodes enchaînés.</p></div></header>
+  <div class="player"><video id="v" controls playsinline preload="metadata"></video></div>
+  <div class="now">
+    <h2 id="title"></h2>
+    <div class="btns"><button id="prev" type="button">◀ Précédent</button><button id="next" type="button">Suivant ▶</button></div>
+  </div>
+  <ol id="list"></ol>
+  <label><input type="checkbox" id="auto" checked> Enchaîner automatiquement</label>
+</main>
+<script>
+const EP = [
+  ['cartoon-ecole', "Le réveil et l'école"], ['en-classe', 'En classe'], ['la-recre', 'La récré'],
+  ['atelier-peinture', "L'atelier peinture"], ['vers-la-cantine', 'En route pour la cantine'], ['a-la-cantine', 'À la cantine'],
+  ['pause-de-midi', 'La pause de midi'], ['les-lettres', 'Les lettres'], ['la-graine', 'La graine'],
+  ['club-de-musique', 'Le club de musique'], ['le-retour', 'Le retour'], ['le-souper', 'Le souper'],
+  ['les-devoirs', 'Les devoirs'], ['preparer-le-dodo', 'Préparer le dodo'], ['dodo', 'Dodo'],
+];
+const v = document.getElementById('v'), list = document.getElementById('list'), title = document.getElementById('title'), auto = document.getElementById('auto');
+let cur = 0, started = false;
+EP.forEach(([, t], i) => {
+  const li = document.createElement('li'), b = document.createElement('button');
+  b.type = 'button'; b.innerHTML = `<b>Épisode ${i + 1}</b>${t}`;
+  b.onclick = () => load(i, true);
+  li.appendChild(b); list.appendChild(li);
+});
+function load(i, play) {
+  cur = (i + EP.length) % EP.length;
+  v.src = '/videos/' + EP[cur][0] + '.mp4';
+  title.innerHTML = `Épisode ${cur + 1} · <span>${EP[cur][1]}</span>`;
+  list.querySelectorAll('button').forEach((b, k) => b.setAttribute('aria-current', k === cur ? 'true' : 'false'));
+  try { history.replaceState(null, '', '#' + (cur + 1)); } catch (e) {}
+  if (play) v.play().catch(() => {});
+}
+v.addEventListener('ended', () => { if (auto.checked && cur < EP.length - 1) load(cur + 1, true); });
+document.getElementById('prev').onclick = () => load(cur - 1, true);
+document.getElementById('next').onclick = () => load(cur + 1, true);
+const h = parseInt(location.hash.slice(1), 10);
+load(h >= 1 && h <= EP.length ? h - 1 : 0, false);
+</script>
+</body>
+</html>

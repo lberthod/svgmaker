@@ -1,4 +1,4 @@
-"""Bande son du cartoon : voix macOS (Thomas, Flo, Grandpa) calées sur timeline.json,
+"""Bande son du cartoon : voix Kokoro calées sur timeline.json,
 musique de marimba, bruitages synthétisés. Usage : python3 audio.py  → audio.wav"""
 import json, os, subprocess, tempfile, wave
 import numpy as np
@@ -68,23 +68,13 @@ for k in range(int((21.2 - 12.6) / 0.16)):
     add(sweep(120, 70, 0.05, 0.25), 12.6 + k * 0.32)
 add(sweep(900, 500, 0.25, 0.4), 10.3)   # oiseau
 add(sweep(200, 900, 0.3, 0.5), 2.35)     # sursaut
-# ── voix ──────────────────────────────────────────────────────────────────────
-voices = {'fox': ('Thomas', 190, 1.0), 'rab': ('Flo (Français (France))', 200, 1.22), 'owl': ('Grandpa (Français (France))', 170, 0.92), 'snail': ('Grandma (Français (France))', 105, 1.0)}
-def rd(p):
-    with wave.open(p) as f: return np.frombuffer(f.readframes(f.getnframes()), dtype=np.int16).astype(float) / 32768
-def ff(i, o, af):
-    subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', i, '-af', af, '-ar', str(SR), '-ac', '1', o], check=True)
-sil = 'silenceremove=start_periods=1:start_threshold=-45dB,areverse,silenceremove=start_periods=1:start_threshold=-45dB,areverse'
+# ── voix (Kokoro, voir ../renard-lapin/lib/voix.py) ─────────────────────────
+import sys
+sys.path.insert(0, os.path.join(here, '..', 'renard-lapin', 'lib'))
+import voix
+voix.prepare([(ln['who'], ln['text']) for ln in tl['lines']])
 for ln in tl['lines']:
-    v, rate, pitch = voices[ln['who']]
-    with tempfile.TemporaryDirectory() as d:
-        a, w, w2 = (os.path.join(d, n) for n in ('v.aiff', 'v.wav', 'v2.wav'))
-        subprocess.run(['say', '-v', v, '-r', str(rate), '-o', a, ln['text'].replace('!', ' ')], check=True)
-        ff(a, w, f'{sil},asetrate={int(22050 * pitch)},aresample={SR},atempo={1 / pitch:.3f},acompressor=threshold=-18dB:ratio=3,volume=1.5')
-        x = rd(w); win = ln['t1'] - ln['t0'] - 0.08
-        if len(x) / SR > win:
-            ff(w, w2, f'atempo={min(len(x) / SR / win, 2.0):.3f}'); x = rd(w2)
-    add(x, ln['t0'] + 0.04, 1.0)
+    add(voix.line(ln['who'], ln['text'], ln['t1'] - ln['t0'] - 0.08, SR), ln['t0'] + 0.04, 1.0)
 mix = np.tanh(mix * 0.9) * 0.95
 out = (mix * 32767).astype(np.int16)
 with wave.open(os.path.join(here, 'audio.wav'), 'wb') as f:
