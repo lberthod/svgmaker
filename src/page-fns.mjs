@@ -209,3 +209,16 @@ export function visibleActors() {
   }
   return out
 }
+
+/** État des poses de chaque acteur visible : { nom: { hasTalk, talk } } (talk = opacité de la pose « talk »). */
+export function poseStates() {
+  const out = {}
+  for (const a of document.querySelectorAll('[data-actor]')) {
+    let op = 1
+    for (let e = a; e && e.nodeType === 1; e = e.parentElement) op *= parseFloat(getComputedStyle(e).opacity)
+    if (op < 0.6) continue
+    const talk = a.querySelector('[data-pose="talk"]')
+    out[a.getAttribute('data-actor')] = { hasTalk: !!talk, talk: talk ? parseFloat(getComputedStyle(talk).opacity) : 0 }
+  }
+  return out
+}

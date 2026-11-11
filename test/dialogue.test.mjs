@@ -88,3 +88,26 @@ test('audit : un acteur immobile à moitié hors cadre est signalé, un acteur "
   const bleed = { ...box(800), bleed: true }
   assert.ok(!analyse(samples(bleed, bleed, bleed), opt).issues.some((i) => /acteur coupé/.test(i)))
 })
+
+test('lipsync : le contrôle lit la pose affichée (conforme avec la bonne enveloppe, non conforme sinon)', async () => {
+  const { checkLipsync, formatReport, sampleLine } = await import('../src/lipcheck.mjs')
+  const dir = mkdtempSync(path.join(os.tmpdir(), 'lip-'))
+  const b = demo()
+  b.voices = 'voice.json'
+  writeFileSync(path.join(dir, 'brief.json'), JSON.stringify(b))
+  const env = Array.from({ length: 31 }, (_, i) => (Math.floor(i / 3) % 2 ? 0 : 1))
+  const key = 'atlas|Un livre coûtait une fortune.'
+  writeFileSync(path.join(dir, 'voice.json'), JSON.stringify({ [key]: { dur: 1.5, env } }))
+  const r = writeBrief(path.join(dir, 'brief.json'))
+  assert.ok(sampleLine({ t: 0.4 }, { dur: 1.5, env }).some((p) => p.want === 'open') && sampleLine({ t: 0.4 }, { dur: 1.5, env }).some((p) => p.want === 'closed'))
+  const good = await checkLipsync(r.svgFile, { lines: r.script.lines, voice: r.info.voice })
+  const row = good.lines.find((x) => x.who === 'atlas' && x.text.startsWith('Un livre'))
+  assert.equal(row.pct, 100, formatReport(good))
+  assert.equal(good.silence.bad.length, 0)
+  assert.equal(good.others.bad.length, 0)
+  // enveloppe inversée : la bouche ne suit plus la voix
+  const bad = await checkLipsync(r.svgFile, { lines: r.script.lines, voice: { [key]: { dur: 1.5, env: env.map((e) => 1 - e) } } })
+  assert.ok(bad.lines.find((x) => x.text.startsWith('Un livre')).pct < 30)
+  assert.equal(bad.ok, false)
+  assert.match(formatReport(bad), /NON conforme/)
+})

@@ -415,5 +415,5 @@ export function build(b, voiceIn = {}, ctx = {}) {
   })
   const script = s.script(b.id, D)
   script.lines = script.lines.map((l) => ({ ...l, who: l.role }))
-  return { svg, script, duration: f(D), keyTimes: keyTimes.sort((a, c) => a - c), info: { lines: s.lines.length, sfx: s.sfx.length, camera: cameraMoves(s) + cams.length, warnings, timeline: !!timeline } }
+  return { svg, script, duration: f(D), keyTimes: keyTimes.sort((a, c) => a - c), info: { lines: s.lines.length, sfx: s.sfx.length, camera: cameraMoves(s) + cams.length, warnings, timeline: !!timeline, voice, voiced: s.lines.some((l) => s.voiceOf(l)?.env?.length > 1) } }
 }

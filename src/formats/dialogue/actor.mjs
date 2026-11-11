@@ -58,14 +58,14 @@ export function drawActor(E, a, t0, lines) {
   if (lines.length && !A.has(def.talk) && !def.mouth)
     E.warnings.push(`acteur « ${a.who} » : pose talk (${def.talk ?? 'non déclarée'}) absente et pas de cast.${a.who}.mouth : seul un léger rebond marque la parole`)
 
-  const lay = (id, style, extra = '') => `<g style="${style}"><g transform="scale(${f(k)})">${A.svg(id, { color, where: `acteur ${a.who}` })}${extra}</g></g>`
+  const lay = (id, style, extra = '', pose = 'pose') => `<g data-pose="${pose}" style="${style}"><g transform="scale(${f(k)})">${A.svg(id, { color, where: `acteur ${a.who}` })}${extra}</g></g>`
   const off = wins.map((w) => an('dgOff', w.d, w.T, { ease: 'linear', fill: 'none' }))
   const mouthAnims = !hasTalk && def.mouth && lines.length ? lipAnimations({ ...s, keyframe: (c) => s.keyframe(c.replace(/@keyframes ls(\d+)/, `@keyframes ls${uid}_$1`)) }, lines).map((x) => x.replace(/^ls(\d+) /, `ls${uid}_$1 `)) : []
   const mouth = mouthAnims.length ? `<g transform="translate(${def.mouth.x} ${def.mouth.y})"><ellipse rx="${def.mouth.w / 2}" ry="${def.mouth.w * 0.4}" fill="#7A1F2B" stroke="#3B2A20" stroke-width="5" class="fx" style="opacity:0;animation:${mouthAnims.join(',')}"/></g>` : ''
-  const layers = [lay(def.art, `opacity:1;animation:${off.join(',') || 'none'}`, blinkSvg(def.blink, blinkDelay) + mouth)]
-  if (hasTalk) layers.push(lay(def.talk, `opacity:0;animation:${[...lines.map((l, i) => talkOpacity(E, uid, i, l)), ...off].join(',')}`, blinkSvg(def.blink, blinkDelay)))
+  const layers = [lay(def.art, `opacity:1;animation:${off.join(',') || 'none'}`, blinkSvg(def.blink, blinkDelay) + mouth, 'neutral')]
+  if (hasTalk) layers.push(lay(def.talk, `opacity:0;animation:${[...lines.map((l, i) => talkOpacity(E, uid, i, l)), ...off].join(',')}`, blinkSvg(def.blink, blinkDelay), 'talk'))
   for (const pose of [...new Set(wins.map((w) => w.pose))])
-    layers.push(lay(def[pose], `opacity:0;animation:${wins.filter((w) => w.pose === pose).map((w) => an('dgOn', w.d, w.T, { ease: 'linear', fill: 'none' })).join(',')}`))
+    layers.push(lay(def[pose], `opacity:0;animation:${wins.filter((w) => w.pose === pose).map((w) => an('dgOn', w.d, w.T, { ease: 'linear', fill: 'none' })).join(',')}`, '', pose))
 
   const beats = lines.map((l, i) => bodyBeat(E, uid, i, l)).filter(Boolean)
   const badges = (a.badges ?? []).map((b) => {
