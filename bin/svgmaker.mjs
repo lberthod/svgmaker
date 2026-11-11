@@ -12,7 +12,7 @@ Usage
   svgmaker audit  <fichiers | dossiers>…                  contrôle Reels (zones sûres, corps, accroche, final)
   svgmaker studio [--port 4321]                           interface web locale (projets, vidéos, rendus)
   svgmaker art    list|check|add …                        bibliothèque de dessins (library/), voir « svgmaker art »
-  svgmaker formats                                        formats disponibles (carton, quiz, minifilm)
+  svgmaker formats                                        formats disponibles (carton, quiz, minifilm, dialogue)
   svgmaker new     <brief.json>… [-o dossier]             brief → out/<id>/<id>.svg (+ script.json)
   svgmaker preview <brief.json>…                          idem + planche <id>-preview.jpg + audit, sans vidéo
 
@@ -80,7 +80,8 @@ async function briefCommand(which, files) {
     try {
       const r = writeBrief(file, { outDir: files.length === 1 ? o.out : undefined })
       built.push(r)
-      const voice = r.script.lines.length ? ` · ${r.script.lines.length} répliques (${r.voiced ? 'voix réelles' : 'voix estimées : lancer audio.py puis refaire new'})` : ''
+      for (const w of r.info?.warnings ?? []) console.warn(`    ⚠ ${w}`)
+      const voice = r.script.lines.length ? ` · ${r.script.lines.length} répliques (${r.voiced ? 'voix réelles' : 'voix estimées' + (r.brief.format === 'dialogue' ? ' : renseigner voices/timeline dans le brief' : ' : lancer audio.py puis refaire new')})` : ''
       console.log(`✓ ${r.brief.format} · ${path.relative(process.cwd(), r.svgFile)} · ${r.duration} s${voice}`)
     } catch (e) { bad++; console.error(`✗ ${file} : ${e.message}`) }
   }

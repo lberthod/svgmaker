@@ -257,6 +257,85 @@
   ],
   "bytes": 4421
  },
+ "atlas": {
+  "file": "history/atlas.svg",
+  "cat": "history",
+  "tags": [
+   "atlas",
+   "histoire-geo"
+  ],
+  "source": "../../../../../private/tmp/claude-501/-Users-loicberthod--claude-spares-spare-KKEDQn/a5e8b209-481a-4922-b2f3-98cef18e47a8/scratchpad/a/atlas.svg",
+  "colors": [
+   "#F4E9D8",
+   "#B5C98A",
+   "#3B2A20",
+   "#8FAE86",
+   "#D9A441",
+   "#F3E6C4",
+   "#FF8FA3",
+   "#1A1A1A"
+  ],
+  "bytes": 4429
+ },
+ "atlas-shell": {
+  "file": "history/atlas-shell.svg",
+  "cat": "history",
+  "tags": [
+   "atlas",
+   "histoire-geo"
+  ],
+  "source": "../../../../../private/tmp/claude-501/-Users-loicberthod--claude-spares-spare-KKEDQn/a5e8b209-481a-4922-b2f3-98cef18e47a8/scratchpad/a/atlas-shell.svg",
+  "colors": [
+   "#F4E9D8",
+   "#B5C98A",
+   "#3B2A20",
+   "#8FAE86",
+   "#D9A441",
+   "#F3E6C4",
+   "#1A1A1A",
+   "#FF8FA3"
+  ],
+  "bytes": 4194
+ },
+ "atlas-surprised": {
+  "file": "history/atlas-surprised.svg",
+  "cat": "history",
+  "tags": [],
+  "source": "../../../../../private/tmp/claude-501/-Users-loicberthod--claude-spares-spare-KKEDQn/a5e8b209-481a-4922-b2f3-98cef18e47a8/scratchpad/new/atlas-surprised.svg",
+  "colors": [
+   "#F4E9D8",
+   "#B5C98A",
+   "#3B2A20",
+   "#8FAE86",
+   "#D9A441",
+   "#F3E6C4",
+   "#FF8FA3",
+   "#1A1A1A",
+   "#8E3B3B"
+  ],
+  "bytes": 4103
+ },
+ "atlas-talk": {
+  "file": "history/atlas-talk.svg",
+  "cat": "history",
+  "tags": [
+   "atlas",
+   "histoire-geo"
+  ],
+  "source": "../../../../../private/tmp/claude-501/-Users-loicberthod--claude-spares-spare-KKEDQn/a5e8b209-481a-4922-b2f3-98cef18e47a8/scratchpad/a/atlas-talk.svg",
+  "colors": [
+   "#F4E9D8",
+   "#B5C98A",
+   "#3B2A20",
+   "#8FAE86",
+   "#D9A441",
+   "#F3E6C4",
+   "#FF8FA3",
+   "#1A1A1A",
+   "#8E3B3B"
+  ],
+  "bytes": 4251
+ },
  "autumn": {
   "file": "seasons/autumn.svg",
   "cat": "seasons",
@@ -934,6 +1013,28 @@
    "#E8453C"
   ],
   "bytes": 1231
+ },
+ "bookshelf": {
+  "file": "history/bookshelf.svg",
+  "cat": "history",
+  "tags": [
+   "gutenberg",
+   "histoire"
+  ],
+  "source": "../../../../../private/tmp/claude-501/-Users-loicberthod--claude-spares-spare-KKEDQn/a5e8b209-481a-4922-b2f3-98cef18e47a8/scratchpad/new/bookshelf.svg",
+  "colors": [
+   "#F4E9D8",
+   "#8A5A35",
+   "#3B2A20",
+   "#C98B55",
+   "#E8453C",
+   "#FFF6E9",
+   "#1E9BE0",
+   "#8E5BD9",
+   "#2FB36D",
+   "#FFC93C"
+  ],
+  "bytes": 4889
  },
  "boots": {
   "file": "accessories/boots.svg",
@@ -4041,6 +4142,27 @@
   ],
   "bytes": 2089
  },
+ "gutenberg": {
+  "file": "history/gutenberg.svg",
+  "cat": "history",
+  "tags": [
+   "gutenberg"
+  ],
+  "source": "../../../../../private/tmp/claude-501/-Users-loicberthod--claude-spares-spare-KKEDQn/a5e8b209-481a-4922-b2f3-98cef18e47a8/scratchpad/gutenberg.svg",
+  "colors": [
+   "#8E3B8E",
+   "#3B2A20",
+   "#F3D9A8",
+   "#7A4A2B",
+   "#F3C9A0",
+   "#9A9A9A",
+   "#E8453C",
+   "#B3261E",
+   "#1A1A1A",
+   "#FF8FA3"
+  ],
+  "bytes": 2109
+ },
  "hair": {
   "file": "face/hair.svg",
   "cat": "face",
@@ -4401,6 +4523,24 @@
   ],
   "bytes": 1985
  },
+ "hourglass": {
+  "file": "history/hourglass.svg",
+  "cat": "history",
+  "tags": [
+   "gutenberg",
+   "histoire"
+  ],
+  "source": "../../../../../private/tmp/claude-501/-Users-loicberthod--claude-spares-spare-KKEDQn/a5e8b209-481a-4922-b2f3-98cef18e47a8/scratchpad/new/hourglass.svg",
+  "colors": [
+   "#F4E9D8",
+   "#C98B55",
+   "#3B2A20",
+   "#DDF1FB",
+   "#FFC93C",
+   "#E0A65A"
+  ],
+  "bytes": 2627
+ },
  "hug": {
   "file": "kind-actions/hug.svg",
   "cat": "kind-actions",
@@ -4710,6 +4850,31 @@
    "#FFD93B"
   ],
   "bytes": 4393
+ },
+ "knight": {
+  "file": "history/knight.svg",
+  "cat": "history",
+  "tags": [
+   "gutenberg",
+   "histoire"
+  ],
+  "source": "../../../../../private/tmp/claude-501/-Users-loicberthod--claude-spares-spare-KKEDQn/a5e8b209-481a-4922-b2f3-98cef18e47a8/scratchpad/new/knight.svg",
+  "colors": [
+   "#F4E9D8",
+   "#E8453C",
+   "#3B2A20",
+   "#8E9BB3",
+   "#B8C4D6",
+   "#D9A441",
+   "#E6EEF7",
+   "#7A4A2B",
+   "#F3C9A0",
+   "#FF8FA3",
+   "#1A1A1A",
+   "#8E3B3B",
+   "#E8A98A"
+  ],
+  "bytes": 4769
  },
  "ladder": {
   "file": "tools/ladder.svg",
@@ -5065,6 +5230,25 @@
   ],
   "bytes": 1490
  },
+ "mainz-map": {
+  "file": "history/mainz-map.svg",
+  "cat": "history",
+  "tags": [
+   "gutenberg",
+   "histoire"
+  ],
+  "source": "../../../../../private/tmp/claude-501/-Users-loicberthod--claude-spares-spare-KKEDQn/a5e8b209-481a-4922-b2f3-98cef18e47a8/scratchpad/new/mainz-map.svg",
+  "colors": [
+   "#F4E9D8",
+   "#7CC4E8",
+   "#3B2A20",
+   "#B5C98A",
+   "#C9A27A",
+   "#4FA3D1",
+   "#E8453C"
+  ],
+  "bytes": 3064
+ },
  "mango": {
   "file": "tropical-fruits/mango.svg",
   "cat": "tropical-fruits",
@@ -5142,6 +5326,62 @@
   ],
   "bytes": 3942
  },
+ "marmot": {
+  "file": "history/marmot.svg",
+  "cat": "history",
+  "tags": [
+   "gutenberg"
+  ],
+  "source": "../../../../../private/tmp/claude-501/-Users-loicberthod--claude-spares-spare-KKEDQn/a5e8b209-481a-4922-b2f3-98cef18e47a8/scratchpad/marmot.svg",
+  "colors": [
+   "#B97A45",
+   "#3B2A20",
+   "#F3D9A8",
+   "#FF8FA3",
+   "#C98B55",
+   "#1A1A1A",
+   "#1E9BE0"
+  ],
+  "bytes": 2847
+ },
+ "marmot-surprised": {
+  "file": "history/marmot-surprised.svg",
+  "cat": "history",
+  "tags": [
+   "gutenberg",
+   "histoire"
+  ],
+  "source": "../../../../../private/tmp/claude-501/-Users-loicberthod--claude-spares-spare-KKEDQn/a5e8b209-481a-4922-b2f3-98cef18e47a8/scratchpad/new/marmot-surprised.svg",
+  "colors": [
+   "#B97A45",
+   "#3B2A20",
+   "#F3D9A8",
+   "#FF8FA3",
+   "#C98B55",
+   "#1A1A1A",
+   "#8E3B3B"
+  ],
+  "bytes": 3089
+ },
+ "marmot-talk": {
+  "file": "history/marmot-talk.svg",
+  "cat": "history",
+  "tags": [
+   "gutenberg",
+   "histoire"
+  ],
+  "source": "../../../../../private/tmp/claude-501/-Users-loicberthod--claude-spares-spare-KKEDQn/a5e8b209-481a-4922-b2f3-98cef18e47a8/scratchpad/new/marmot-talk.svg",
+  "colors": [
+   "#B97A45",
+   "#3B2A20",
+   "#F3D9A8",
+   "#FF8FA3",
+   "#C98B55",
+   "#1A1A1A",
+   "#8E3B3B"
+  ],
+  "bytes": 2489
+ },
  "mask": {
   "file": "health/mask.svg",
   "cat": "health",
@@ -5199,6 +5439,21 @@
    "#FFF0C8"
   ],
   "bytes": 1734
+ },
+ "metal-type": {
+  "file": "history/metal-type.svg",
+  "cat": "history",
+  "tags": [
+   "gutenberg"
+  ],
+  "source": "../../../../../private/tmp/claude-501/-Users-loicberthod--claude-spares-spare-KKEDQn/a5e8b209-481a-4922-b2f3-98cef18e47a8/scratchpad/metal-type.svg",
+  "colors": [
+   "#8FA3B8",
+   "#3B2A20",
+   "#5E7186",
+   "#C9D6E2"
+  ],
+  "bytes": 2219
  },
  "milk": {
   "file": "breakfast/milk.svg",
@@ -5677,6 +5932,22 @@
    "#FF8FA3"
   ],
   "bytes": 1439
+ },
+ "open-book": {
+  "file": "history/open-book.svg",
+  "cat": "history",
+  "tags": [
+   "gutenberg"
+  ],
+  "source": "../../../../../private/tmp/claude-501/-Users-loicberthod--claude-spares-spare-KKEDQn/a5e8b209-481a-4922-b2f3-98cef18e47a8/scratchpad/open-book.svg",
+  "colors": [
+   "#E8453C",
+   "#3B2A20",
+   "#FFF6DC",
+   "#FFD93B",
+   "#6B7A99"
+  ],
+  "bytes": 1658
  },
  "orange": {
   "file": "fruits/orange.svg",
@@ -6548,6 +6819,42 @@
   ],
   "bytes": 1141
  },
+ "price-tag": {
+  "file": "history/price-tag.svg",
+  "cat": "history",
+  "tags": [
+   "gutenberg",
+   "histoire"
+  ],
+  "source": "../../../../../private/tmp/claude-501/-Users-loicberthod--claude-spares-spare-KKEDQn/a5e8b209-481a-4922-b2f3-98cef18e47a8/scratchpad/new/price-tag.svg",
+  "colors": [
+   "#F4E9D8",
+   "#3B2A20",
+   "#F3E6C4",
+   "#FFC93C",
+   "#FFF6D6"
+  ],
+  "bytes": 1369
+ },
+ "printing-press": {
+  "file": "history/printing-press.svg",
+  "cat": "history",
+  "tags": [
+   "gutenberg"
+  ],
+  "source": "../../../../../private/tmp/claude-501/-Users-loicberthod--claude-spares-spare-KKEDQn/a5e8b209-481a-4922-b2f3-98cef18e47a8/scratchpad/printing-press.svg",
+  "colors": [
+   "#8A5A2B",
+   "#3B2A20",
+   "#B97A45",
+   "#8FA3B8",
+   "#FFD93B",
+   "#E8453C",
+   "#6B4423",
+   "#9BB7D4"
+  ],
+  "bytes": 2156
+ },
  "proud": {
   "file": "more-feelings/proud.svg",
   "cat": "more-feelings",
@@ -6644,6 +6951,43 @@
    "#8E4FD9"
   ],
   "bytes": 2575
+ },
+ "quill": {
+  "file": "history/quill.svg",
+  "cat": "history",
+  "tags": [
+   "gutenberg",
+   "histoire"
+  ],
+  "source": "../../../../../private/tmp/claude-501/-Users-loicberthod--claude-spares-spare-KKEDQn/a5e8b209-481a-4922-b2f3-98cef18e47a8/scratchpad/new/quill.svg",
+  "colors": [
+   "#F4E9D8",
+   "#1E9BE0",
+   "#3B2A20",
+   "#8E5BD9",
+   "#F3E6C4",
+   "#2C3E6B"
+  ],
+  "bytes": 1690
+ },
+ "quiz-card": {
+  "file": "history/quiz-card.svg",
+  "cat": "history",
+  "tags": [
+   "gutenberg",
+   "histoire"
+  ],
+  "source": "../../../../../private/tmp/claude-501/-Users-loicberthod--claude-spares-spare-KKEDQn/a5e8b209-481a-4922-b2f3-98cef18e47a8/scratchpad/new/quiz-card.svg",
+  "colors": [
+   "#F4E9D8",
+   "#FFF6E9",
+   "#3B2A20",
+   "#DCE9F8",
+   "#8E5BD9",
+   "#D5DAEA",
+   "#FFC93C"
+  ],
+  "bytes": 1388
  },
  "rabbit": {
   "file": "pets/rabbit.svg",
@@ -7416,6 +7760,57 @@
    "#FFD93B"
   ],
   "bytes": 1550
+ },
+ "scribe": {
+  "file": "history/scribe.svg",
+  "cat": "history",
+  "tags": [
+   "gutenberg",
+   "histoire"
+  ],
+  "source": "../../../../../private/tmp/claude-501/-Users-loicberthod--claude-spares-spare-KKEDQn/a5e8b209-481a-4922-b2f3-98cef18e47a8/scratchpad/new/scribe.svg",
+  "colors": [
+   "#F4E9D8",
+   "#A0724F",
+   "#3B2A20",
+   "#D9A441",
+   "#E0A65A",
+   "#C98B55",
+   "#F3E6C4",
+   "#8B5E3C",
+   "#F3C9A0",
+   "#FF8FA3",
+   "#1A1A1A",
+   "#B58BC4",
+   "#E8A98A"
+  ],
+  "bytes": 5474
+ },
+ "scriptorium-bg": {
+  "file": "history/scriptorium-bg.svg",
+  "cat": "history",
+  "tags": [
+   "gutenberg",
+   "histoire"
+  ],
+  "source": "../../../../../private/tmp/claude-501/-Users-loicberthod--claude-spares-spare-KKEDQn/a5e8b209-481a-4922-b2f3-98cef18e47a8/scratchpad/new/scriptorium-bg.svg",
+  "colors": [
+   "#F4E9D8",
+   "#E3D2B5",
+   "#3B2A20",
+   "#8E5BD9",
+   "#B08968",
+   "#BFE3F2",
+   "#C98B55",
+   "#FFF6E9",
+   "#F3E6C4",
+   "#E0A65A",
+   "#D9A441",
+   "#FFC93C",
+   "#FFB02E",
+   "#FFE27A"
+  ],
+  "bytes": 4398
  },
  "sea": {
   "file": "nature/sea.svg",
@@ -10030,6 +10425,28 @@
    "#FF8FA3"
   ],
   "bytes": 1771
+ },
+ "workshop-bg": {
+  "file": "history/workshop-bg.svg",
+  "cat": "history",
+  "tags": [
+   "gutenberg",
+   "histoire"
+  ],
+  "source": "../../../../../private/tmp/claude-501/-Users-loicberthod--claude-spares-spare-KKEDQn/a5e8b209-481a-4922-b2f3-98cef18e47a8/scratchpad/new/workshop-bg.svg",
+  "colors": [
+   "#F4E9D8",
+   "#F3D9A8",
+   "#3B2A20",
+   "#C98B55",
+   "#BFE3F2",
+   "#B8C4D6",
+   "#8E9BB3",
+   "#C9D3E3",
+   "#A8693A",
+   "#2C3E6B"
+  ],
+  "bytes": 6683
  },
  "worm": {
   "file": "garden-bugs/worm.svg",

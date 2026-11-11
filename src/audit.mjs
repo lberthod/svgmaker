@@ -63,6 +63,19 @@ export function analyse(samples, { width, height, duration, minFont = 26, minFin
       }
   })
 
+  // acteurs (formats avec personnages) : un acteur immobile à moitié hors cadre est « coupé »
+  const sameBox = (a, b) => Math.abs(a.x0 - b.x0) < 6 && Math.abs(a.y0 - b.y0) < 6 && Math.abs(a.x1 - b.x1) < 6 && Math.abs(a.y1 - b.y1) < 6
+  samples.forEach(({ t, actors }, k) => {
+    for (const a of actors ?? []) {
+      if (a.bleed) continue
+      const stable = [samples[k - 1], samples[k + 1]].some((n) => n?.actors?.some((y) => y.name === a.name && sameBox(a, y)))
+      if (!stable) continue
+      const inside = Math.max(0, Math.min(a.x1, width) - Math.max(a.x0, 0)) * Math.max(0, Math.min(a.y1, height) - Math.max(a.y0, 0))
+      const area = (a.x1 - a.x0) * (a.y1 - a.y0)
+      if (inside > 0 && inside < area - 24 * Math.max(a.x1 - a.x0, a.y1 - a.y0)) add('a' + a.name, `acteur coupé par le bord de l'image à ${t.toFixed(2)} s : ${a.name}`)
+    }
+  })
+
   if (vertical) {
     if (hookAt == null) add('hook', 'aucun texte lisible : pas d\'accroche écrite')
     else if (hookAt > hookBy) add('hook', `accroche lisible trop tard (${hookAt.toFixed(2)} s > ${hookBy} s) : ${'on perd le scroll'}`)

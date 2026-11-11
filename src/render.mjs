@@ -6,7 +6,7 @@ import path from 'node:path'
 import { chromium } from 'playwright'
 import { analyse } from './audit.mjs'
 import * as ff from './ffmpeg.mjs'
-import { fitViewport, seek, setupPage, visibleTexts } from './page-fns.mjs'
+import { fitViewport, seek, setupPage, visibleActors, visibleTexts } from './page-fns.mjs'
 
 export const VERSION = JSON.parse(readFileSync(new URL('../package.json', import.meta.url), 'utf8')).version
 export const DEFAULT_JOBS = Math.max(1, Math.min(6, Math.floor(os.cpus().length / 3)))
@@ -228,7 +228,7 @@ async function extras(w, page, t, opts) {
     const samples = []
     for (let s = 0; s < t.duration; s += 0.25) {
       await page.page.evaluate(seek, s)
-      samples.push({ t: s, texts: await page.page.evaluate(visibleTexts) })
+      samples.push({ t: s, texts: await page.page.evaluate(visibleTexts), actors: await page.page.evaluate(visibleActors) })
     }
     t.audit = analyse(samples, { width: t.width, height: t.height, duration: t.duration, minFinal: opts.minFinal ?? 2.8 })
   }

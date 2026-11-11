@@ -191,3 +191,21 @@ export function visibleTexts() {
   }
   return out
 }
+
+/** Acteurs visibles (éléments [data-actor], opacité effective ≥ 0,6) avec leur boîte à l'écran. */
+export function visibleActors() {
+  const out = []
+  for (const a of document.querySelectorAll('[data-actor]')) {
+    let op = 1, hidden = false
+    for (let e = a; e && e.nodeType === 1; e = e.parentElement) {
+      const cs = getComputedStyle(e)
+      op *= parseFloat(cs.opacity)
+      if (cs.display === 'none' || cs.visibility === 'hidden') hidden = true
+    }
+    if (hidden || op < 0.6) continue
+    const r = a.getBoundingClientRect()
+    if (!r.width || !r.height) continue
+    out.push({ name: a.getAttribute('data-actor'), x0: r.left, x1: r.right, y0: r.top, y1: r.bottom, bleed: a.hasAttribute('data-bleed') })
+  }
+  return out
+}

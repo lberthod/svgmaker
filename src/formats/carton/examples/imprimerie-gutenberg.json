@@ -1,0 +1,16 @@
+{
+  "format": "carton",
+  "id": "imprimerie-gutenberg",
+  "theme": "night",
+  "brand": { "name": "Marmotoons", "color": "#F5B84B" },
+  "cards": [
+    { "type": "hook", "text": "Avant 1450, un livre valait une fortune.", "art": "open-book" },
+    { "type": "stat", "value": "des mois", "text": "pour recopier un seul livre à la main" },
+    { "type": "text", "text": "Vers 1450, à Mayence, Gutenberg a une idée.", "art": "gutenberg" },
+    { "type": "text", "text": "Des lettres en métal que l’on réutilise.", "art": "metal-type" },
+    { "type": "text", "text": "Encre grasse, feuille, et une grande presse.", "art": "printing-press" },
+    { "type": "stat", "value": "~1455", "text": "la Bible de Gutenberg" },
+    { "type": "text", "text": "Livres moins chers. Idées plus rapides.", "art": "book" },
+    { "type": "final", "text": "Suis la marmotte !", "art": "marmot" }
+  ]
+}

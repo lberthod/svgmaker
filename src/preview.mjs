@@ -4,7 +4,7 @@ import { rmSync } from 'node:fs'
 import path from 'node:path'
 import { chromium } from 'playwright'
 import { analyse } from './audit.mjs'
-import { fitViewport, seek, setupPage, visibleTexts } from './page-fns.mjs'
+import { fitViewport, seek, setupPage, visibleActors, visibleTexts } from './page-fns.mjs'
 
 /**
  * items : [{ svgFile, duration, keyTimes, sheet }] ; sheet = chemin du JPG de planche.
@@ -37,7 +37,7 @@ export async function previewSvgs(items) {
       const samples = []
       for (let t = 0; t < it.duration; t += 0.25) {
         await page.evaluate(seek, t)
-        samples.push({ t, texts: await page.evaluate(visibleTexts) })
+        samples.push({ t, texts: await page.evaluate(visibleTexts), actors: await page.evaluate(visibleActors) })
       }
       const a = analyse(samples, { width: 1080, height: 1920, duration: it.duration })
       await page.close()

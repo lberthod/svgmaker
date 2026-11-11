@@ -7,11 +7,12 @@
 // et documente son brief dans src/formats/<nom>/STYLE.md, avec des exemples dans src/formats/<nom>/examples/.
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs'
 import path from 'node:path'
+import * as dialogue from './dialogue/format.mjs'
 import * as carton from './carton/format.mjs'
 import * as minifilm from './minifilm/format.mjs'
 import * as quiz from './quiz/format.mjs'
 
-export const FORMATS = { carton, quiz, minifilm }
+export const FORMATS = { carton, quiz, minifilm, dialogue }
 
 export function formatOf(brief) {
   const fm = FORMATS[brief?.format]
@@ -23,11 +24,11 @@ export const readBrief = (file) => {
   try { return JSON.parse(readFileSync(file, 'utf8')) } catch (e) { throw new Error(`${file} : JSON illisible (${e.message})`) }
 }
 
-/** Valide puis construit un brief. voice = contenu de voice.json (durées et enveloppes réelles des voix). */
-export function buildBrief(brief, voice = {}) {
+/** Valide puis construit un brief. voice = contenu de voice.json (durées et enveloppes réelles des voix) ; ctx = { baseDir, outDir } (fichiers référencés par le brief : voices, timeline, audio). */
+export function buildBrief(brief, voice = {}, ctx = {}) {
   const fm = formatOf(brief)
   fm.validate(brief)
-  return fm.build(brief, voice)
+  return fm.build(brief, voice, ctx)
 }
 
 /**
@@ -40,7 +41,7 @@ export function writeBrief(file, { outDir } = {}) {
   const dir = path.resolve(outDir ?? path.join(path.dirname(file), 'out', brief.id ?? 'sans-id'))
   const vf = path.join(dir, 'voice.json')
   const voice = existsSync(vf) ? JSON.parse(readFileSync(vf, 'utf8')) : {}
-  const r = buildBrief(brief, voice)
+  const r = buildBrief(brief, voice, { baseDir: path.dirname(path.resolve(file)), outDir: dir })
   mkdirSync(dir, { recursive: true })
   const svgFile = path.join(dir, `${brief.id}.svg`)
   writeFileSync(svgFile, r.svg)

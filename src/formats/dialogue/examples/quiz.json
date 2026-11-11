@@ -1,0 +1,18 @@
+{
+  "format": "dialogue",
+  "id": "demo-quiz",
+  "theme": "night",
+  "cast": { "atlas": { "art": "atlas", "talk": "atlas-talk", "surprised": "atlas-surprised", "feet": 160, "top": -170 } },
+  "shots": [
+    { "duration": 8, "bg": "#141B2D",
+      "texts": [{ "kind": "title", "text": "Quiz : qui a inventé l'imprimerie ?", "at": 0.1 }],
+      "quiz": { "at": 0.4, "countdown": 3, "correct": 1, "zoom": 1.25, "cards": [{ "art": "scribe" }, { "art": "printing-press" }, { "art": "knight" }] },
+      "actors": [{ "who": "atlas", "x": 540, "y": 1150, "size": 380 }],
+      "lines": [{ "at": 0.3, "who": "narrator", "text": "Qui baisse le prix des livres ?" }, { "at": 5.4, "who": "atlas", "text": "La presse de Gutenberg !" }] },
+    { "duration": 4,
+      "texts": [{ "kind": "countdown", "at": 0.2, "from": 3 }],
+      "actors": [{ "who": "atlas", "x": 540, "y": 1000, "size": 480 }],
+      "lines": [{ "at": 0.4, "who": "atlas", "text": "Trois, deux, un." }] }
+  ],
+  "end": { "text": "Suis-nous !", "sub": "La prochaine époque t'attend" }
+}

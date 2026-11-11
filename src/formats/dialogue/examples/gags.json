@@ -1,0 +1,35 @@
+{
+  "format": "dialogue",
+  "id": "demo-gags",
+  "theme": "night",
+  "captions": "bubble",
+  "cast": {
+    "atlas": { "art": "atlas", "talk": "atlas-talk", "surprised": "atlas-surprised", "color": "#3E8E5A", "feet": 160, "top": -170, "badge": { "x": 0, "y": -50 },
+      "blink": { "eyes": [[-38, 45], [38, 45]], "r": 27, "color": "#B5C98A" } },
+    "marmot": { "art": "marmot", "talk": "marmot-talk", "surprised": "marmot-surprised", "color": "#C9772E", "feet": 190, "top": -230,
+      "blink": { "eyes": [[-42, -135], [42, -135]], "r": 17, "color": "#C98B55" } }
+  },
+  "shots": [
+    { "duration": 5, "bg": { "from": "#141B2D", "to": "#4B4F9A" },
+      "texts": [{ "kind": "title", "text": "Le sablier se vide", "at": 0.1 }],
+      "actors": [{ "who": "marmot", "x": 790, "y": 1000, "size": 520, "flip": true, "enter": "slide-right" }, { "who": "atlas", "x": 290, "y": 1060, "size": 500, "enter": "drop", "at": 0.2 }],
+      "props": [
+        { "art": "hourglass", "x": 540, "y": 640, "size": 330, "enter": "rise", "at": 0.3, "parts": [{ "part": "sand-top", "do": "drain", "at": 1, "dur": 3, "origin": "bottom" }, { "part": "sand-bottom", "do": "fill", "at": 1, "dur": 3, "origin": "bottom" }] },
+        { "art": "quill", "x": 880, "y": 560, "size": 200, "at": 0.6, "enter": "fly", "idle": "wiggle", "anims": [{ "do": "shrink", "at": 2, "dur": 2, "k": 0.5 }] }
+      ],
+      "lines": [{ "at": 0.9, "who": "atlas", "text": "Copié à la main. Des mois." }, { "at": 3.2, "who": "marmot", "text": "Des mois ?!" }],
+      "gags": [{ "type": "shock", "who": "marmot", "at": 3.2 }],
+      "camera": [{ "at": 1, "dur": 3.5, "to": { "zoom": 1.15, "x": 540, "y": 800 }, "ease": "linear" }] },
+    { "duration": 5.5, "bg": "#1B2440",
+      "texts": [{ "kind": "label", "text": "Les livres se multiplient", "at": 0.2 }],
+      "actors": [{ "who": "marmot", "x": 280, "y": 1050, "size": 480, "poses": [{ "at": 3, "dur": 1.4, "pose": "surprised" }] }, { "who": "atlas", "x": 800, "y": 1100, "size": 440, "flip": true, "do": [{ "at": 2, "do": "nod" }, { "at": 4, "do": "tilt" }] }],
+      "props": [{ "art": "bookshelf", "x": 540, "y": 560, "size": 520, "parts": [{ "part": "book-*", "do": "pop", "at": 0.6, "every": 0.35 }] }],
+      "gags": [{ "type": "stamp", "who": "atlas", "text": "B", "at": 2.4 }, { "type": "bonk", "who": "marmot", "art": "open-book", "at": 3.6 }, { "type": "burst", "x": 540, "y": 560, "at": 0.5 }],
+      "lines": [{ "at": 0.7, "who": "narrator", "text": "Un livre, puis cent livres." }, { "at": 2.8, "who": "atlas", "text": "J'y étais." }],
+      "camera": [{ "at": 3.6, "dur": 1.2, "zoom": 1.1, "x": 300, "y": 1000 }] },
+    { "duration": 4.5,
+      "actors": [{ "who": "atlas", "x": 300, "y": 1000, "size": 460 }, { "who": "marmot", "x": 780, "y": 1000, "size": 440, "flip": true }],
+      "lines": [{ "at": 0.6, "who": "narrator", "text": "Suis-nous pour la suite." }] }
+  ],
+  "end": { "text": "À suivre !" }
+}
