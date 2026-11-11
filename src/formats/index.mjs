@@ -8,11 +8,12 @@
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs'
 import path from 'node:path'
 import * as dialogue from './dialogue/format.mjs'
+import * as carte from './carte/format.mjs'
 import * as carton from './carton/format.mjs'
 import * as minifilm from './minifilm/format.mjs'
 import * as quiz from './quiz/format.mjs'
 
-export const FORMATS = { carton, quiz, minifilm, dialogue }
+export const FORMATS = { carton, quiz, minifilm, dialogue, carte }
 
 export function formatOf(brief) {
   const fm = FORMATS[brief?.format]

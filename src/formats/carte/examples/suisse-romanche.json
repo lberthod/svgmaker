@@ -1,0 +1,14 @@
+{
+  "format": "carte",
+  "id": "suisse-romanche",
+  "theme": "paper",
+  "brand": { "name": "La Suisse en cartes", "color": "#E4572E" },
+  "scenes": [
+    { "type": "hook", "text": "Une langue suisse que presque personne ne connaît.", "sub": "Le romanche." },
+    { "type": "map", "text": "Elle se parle dans les Grisons, au centre des Alpes.", "focus": { "cantons": ["GR"] }, "highlight": { "cantons": ["GR"], "color": "#F5B84B", "keep": false }, "pins": [{ "city": "Coire", "side": "t" }] },
+    { "type": "map", "text": "Trois régions la gardent vivante.", "highlight": { "langs": ["rm"] }, "pins": [{ "city": "Disentis", "side": "t" }, { "city": "Scuol", "side": "b" }] },
+    { "type": "map", "text": "Une langue née du latin, comme le français.", "sub": "Bonjour se dit « Allegra ».", "highlight": { "langs": ["rm"] }, "word": { "text": "Allegra", "lang": "rm" } },
+    { "type": "map", "text": "Elle compte environ 0,5 % des habitants.", "focus": "all", "highlight": { "langs": ["de", "fr", "it"] }, "stat": { "value": "0,5 %", "label": "des habitants", "lang": "rm" } },
+    { "type": "final", "text": "Quatre langues nationales. Une seule minuscule.", "sub": "Abonne-toi pour la suite" }
+  ]
+}

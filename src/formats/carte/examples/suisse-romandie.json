@@ -1,0 +1,14 @@
+{
+  "format": "carte",
+  "id": "suisse-romandie",
+  "theme": "night",
+  "brand": { "name": "La Suisse en cartes", "color": "#3B82F6" },
+  "scenes": [
+    { "type": "hook", "text": "Où parle-t-on français en Suisse ?", "sub": "La Romandie, en 4 cantons." },
+    { "type": "map", "text": "Genève, la porte ouverte sur le monde.", "focus": { "cantons": ["GE"] }, "pad": 1.6, "highlight": { "cantons": ["GE"], "color": "#3B82F6" }, "pins": [{ "city": "Genève", "side": "r" }] },
+    { "type": "map", "text": "Vaud, entre lac et vignes.", "focus": { "cantons": ["GE", "VD"] }, "highlight": { "cantons": ["VD"], "color": "#3B82F6" }, "pins": [{ "city": "Lausanne", "side": "l" }] },
+    { "type": "map", "text": "Neuchâtel et le Jura complètent la Romandie.", "focus": { "cantons": ["GE", "VD", "NE", "JU"] }, "highlight": { "cantons": ["NE", "JU"], "color": "#3B82F6" }, "pins": [{ "city": "Neuchâtel", "side": "l" }, { "city": "Delémont", "side": "t" }] },
+    { "type": "map", "text": "Fribourg et le Valais parlent aussi allemand.", "highlight": { "langs": ["fr"] }, "stat": { "value": "23 %", "label": "des habitants", "lang": "fr" }, "word": { "text": "Bonjour", "lang": "fr" } },
+    { "type": "final", "text": "Et chez toi, on dit quoi ?", "sub": "Écris-le en commentaire" }
+  ]
+}

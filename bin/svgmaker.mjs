@@ -12,8 +12,9 @@ Usage
   svgmaker audit  <fichiers | dossiers>…                  contrôle Reels (zones sûres, corps, accroche, final)
   svgmaker studio [--port 4321]                           interface web locale (projets, vidéos, rendus)
   svgmaker art    list|check|add …                        bibliothèque de dessins (library/), voir « svgmaker art »
-  svgmaker formats                                        formats disponibles (carton, quiz, minifilm, dialogue)
+  svgmaker formats                                        formats disponibles (carton, quiz, minifilm, dialogue, carte)
   svgmaker new     <brief.json>… [-o dossier]             brief → out/<id>/<id>.svg (+ script.json)
+  svgmaker lipsync <brief.json> [--min 85] [--frames dossier]  contrôle la bouche des dialogues (pose talk ↔ enveloppe de voice.json)
   svgmaker preview <brief.json>…                          idem + planche <id>-preview.jpg + audit, sans vidéo
 
 Options de rendu
@@ -66,6 +67,8 @@ const { values: o, positionals } = parseArgs({
     help: { type: 'boolean', short: 'h' },
     port: { type: 'string' },
     cat: { type: 'string' },
+    min: { type: 'string' },
+    frames: { type: 'string' },
     tags: { type: 'string' },
   },
 })
@@ -81,7 +84,7 @@ async function briefCommand(which, files) {
       const r = writeBrief(file, { outDir: files.length === 1 ? o.out : undefined })
       built.push(r)
       for (const w of r.info?.warnings ?? []) console.warn(`    ⚠ ${w}`)
-      const voice = r.script.lines.length ? ` · ${r.script.lines.length} répliques (${r.voiced ? 'voix réelles' : 'voix estimées' + (r.brief.format === 'dialogue' ? ' : renseigner voices/timeline dans le brief' : ' : lancer audio.py puis refaire new')})` : ''
+      const voice = r.script.lines.length ? ` · ${r.script.lines.length} répliques (${(r.info?.voiced ?? r.voiced) ? 'voix réelles' : 'voix estimées' + (r.brief.format === 'dialogue' ? ' : renseigner voices/timeline dans le brief' : ' : lancer audio.py puis refaire new')})` : ''
       console.log(`✓ ${r.brief.format} · ${path.relative(process.cwd(), r.svgFile)} · ${r.duration} s${voice}`)
     } catch (e) { bad++; console.error(`✗ ${file} : ${e.message}`) }
   }
@@ -94,6 +97,19 @@ async function briefCommand(which, files) {
     }
   }
   return bad ? 1 : 0
+}
+
+/** svgmaker lipsync <brief.json> : la pose talk suit-elle l'enveloppe de la voix ? Retourne le code de sortie. */
+async function lipsyncCommand([file]) {
+  if (!file) { console.error('usage : svgmaker lipsync <brief.json> [--min 85] [--frames dossier]'); return 1 }
+  const { writeBrief } = await import('../src/formats/index.mjs')
+  const { checkLipsync, formatReport } = await import('../src/lipcheck.mjs')
+  try {
+    const r = writeBrief(file)
+    const rep = await checkLipsync(r.svgFile, { lines: r.script.lines, voice: r.info?.voice ?? {}, min: Number(o.min ?? 85), framesDir: o.frames })
+    console.log(formatReport(rep))
+    return rep.ok ? 0 : 1
+  } catch (e) { console.error(`✗ ${e.message}`); return 1 }
 }
 
 /** svgmaker art list|check|add : bibliothèque de dessins (library/). Retourne le code de sortie. */
@@ -159,6 +175,8 @@ if (cmd === 'studio') {
   await new Promise(() => {}) // le serveur tourne jusqu'à Ctrl+C
 } else if (cmd === 'art') {
   process.exit(await artCommand(inputs))
+} else if (cmd === 'lipsync') {
+  process.exit(await lipsyncCommand(inputs))
 } else if (cmd === 'new' || cmd === 'preview') {
   process.exit(await briefCommand(cmd, inputs))
 } else if (cmd === 'formats') {

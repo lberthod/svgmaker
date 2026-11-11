@@ -74,3 +74,16 @@ test('texte : lignes équilibrées et mots insécables', () => {
   const fb = fitBlock('Même mur. Deux résultats.', { max: 132, width: 860, maxLines: 3 })
   assert.ok(fb.lines.length <= 3 && fb.width <= 860)
 })
+
+test('carte : erreurs de brief explicites et carte cohérente', () => {
+  const carte = load(examples.find((f) => f.includes('suisse-4-langues')))
+  const sc = carte.scenes
+  assert.throws(() => buildBrief({ ...carte, scenes: sc.slice(1) }), /première scène est une accroche/)
+  assert.throws(() => buildBrief({ ...carte, scenes: [sc[0], { type: 'map', text: 'x', highlight: { cantons: ['XX'] } }, sc.at(-1)] }), /code de canton inconnu/)
+  assert.throws(() => buildBrief({ ...carte, scenes: [sc[0], { type: 'map', text: 'x', highlight: { langs: ['en'] } }, sc.at(-1)] }), /langs/)
+  assert.throws(() => buildBrief({ ...carte, scenes: [sc[0], { type: 'map', text: 'x', pins: ['Atlantide'] }, sc.at(-1)] }), /ville connue/)
+  const r = buildBrief(carte)
+  assert.match(r.svg, /@keyframes mapcam\{/)
+  assert.equal((r.svg.match(/id="m-c\d+"/g) ?? []).length, 26, '26 cantons')
+  assert.equal((r.svg.match(/id="m-d\d+"/g) ?? []).length, 143, '143 districts')
+})

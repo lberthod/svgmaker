@@ -1,0 +1,24 @@
+{
+  "format": "carte",
+  "id": "suisse-4-langues",
+  "theme": "night",
+  "brand": { "name": "La Suisse en cartes", "color": "#E5322D" },
+  "scenes": [
+    { "type": "hook", "text": "La Suisse parle 4 langues.", "sub": "26 cantons. Et pas une seule langue « suisse ».", "flag": "ch" },
+    { "type": "map", "text": "L’allemand domine : la Suisse alémanique.", "sub": "À l’oral, on parle le suisse-allemand.",
+      "highlight": { "langs": ["de"] }, "pins": ["Zurich", "Bâle"], "word": { "text": "Grüezi", "lang": "de" }, "stat": { "value": "62 %", "label": "des habitants", "lang": "de" } },
+    { "type": "map", "text": "Le français : la Romandie.", "sub": "Genève, Vaud, Neuchâtel, Jura…",
+      "highlight": { "langs": ["fr"] }, "pins": ["Genève", "Lausanne"], "word": { "text": "Bonjour", "lang": "fr" }, "stat": { "value": "23 %", "label": "des habitants", "lang": "fr" } },
+    { "type": "map", "text": "L’italien : le Tessin et quelques vallées.",
+      "highlight": { "langs": ["it"] }, "pins": [{ "city": "Lugano", "side": "l" }, { "city": "Poschiavo", "side": "t" }], "word": { "text": "Buongiorno", "lang": "it" }, "stat": { "value": "8 %", "label": "des habitants", "lang": "it" } },
+    { "type": "map", "text": "Le romanche : une langue latine des Grisons.", "sub": "Langue nationale depuis 1938.",
+      "highlight": { "langs": ["rm"] }, "pins": [{ "city": "Disentis", "side": "t" }, { "city": "Scuol", "side": "b" }], "word": { "text": "Allegra", "lang": "rm" }, "stat": { "value": "0,5 %", "label": "des habitants", "lang": "rm" } },
+    { "type": "map", "text": "Berne, Fribourg et le Valais sont bilingues.", "sub": "Allemand et français.",
+      "focus": { "cantons": ["BE", "FR", "VS"] }, "highlight": { "cantons": ["BE", "FR", "VS"], "color": "#9B6BE0", "keep": false }, "pins": [{ "city": "Bienne", "side": "t" }, { "city": "Morat", "side": "r" }] },
+    { "type": "map", "text": "Les Grisons en parlent même trois.", "sub": "Allemand, italien et romanche.",
+      "focus": { "cantons": ["GR"] }, "highlight": { "cantons": ["GR"], "color": "#FFC93C", "keep": false }, "pins": [{ "city": "Coire", "side": "t" }] },
+    { "type": "map", "text": "Quatre langues, un seul pays.", "focus": "all", "legend": true },
+    { "type": "map", "text": "Alors comment le nommer sans fâcher personne ?", "sub": "En latin : Confoederatio Helvetica.", "focus": "all", "stat": { "value": "CH", "label": "Confoederatio Helvetica" } },
+    { "type": "final", "text": "Suis-moi pour découvrir la Suisse !", "sub": "Une carte à chaque reel" }
+  ]
+}

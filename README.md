@@ -118,6 +118,7 @@ svgmaker art check                                        # contrôler toute la 
 |---|---|---|
 | `carton` | astuces, chiffres clés, listes, citations, offres (thèmes `warm`, `night`, `kids`, couleur de marque) | [STYLE.md](src/formats/carton/STYLE.md) |
 | `quiz` | questions à 2 à 4 choix illustrés, compte à rebours, révélation, explication | [STYLE.md](src/formats/quiz/STYLE.md) |
+| `carte` | reel géographique « maps » : carte de la Suisse qui zoome, régions colorées par langue, villes, chiffres | [STYLE.md](src/formats/carte/STYLE.md) |
 | `minifilm` | petite histoire en plans avec Mali : décors, accessoires, gags, caméra, voix et sous-titres | [STYLE.md](src/formats/minifilm/STYLE.md) |
 
 ```bash
