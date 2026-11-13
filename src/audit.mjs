@@ -29,14 +29,17 @@ export function analyse(samples, { width, height, duration, minFont = 26, minFin
   const add = (k, m) => { if (!issues.has(k)) issues.set(k, m) }
   const onScreen = (x) => x.x1 > 0 && x.x0 < width && x.y1 > 0 && x.y0 < height
   const hasRoles = samples.some((s) => s.texts.some((x) => x.role))
-  let hookAt = null, finalFrom = null
+  let hookAt = null, finalFrom = null, finalTo = null
+  // Le carton final peut s'effacer dans les toutes dernières secondes (fondu, retour à la première image pour la
+  // lecture en boucle) : on le mesure de sa première à sa dernière apparition, s'il reste au plus END_FADE s après.
+  const END_FADE = 2
 
   samples.forEach(({ t, texts }, k) => {
     const neighbours = [samples[k - 1], samples[k + 1]].filter(Boolean)
     const stable = texts.filter((x) => onScreen(x) && neighbours.some((n) => n.texts.some((y) => y.s === x.s && near(x, y))))
     if (hookAt == null && stable.length && (!hasRoles || stable.some((x) => x.role === 'hook'))) hookAt = t
-    if (stable.some((x) => x.role === 'final')) finalFrom ??= t
-    else if (t < duration - step - 0.05) finalFrom = null
+    if (stable.some((x) => x.role === 'final')) { finalFrom ??= t; finalTo = t }
+    else if (duration - t > END_FADE) finalFrom = null
 
     for (const x of stable) {
       const q = `« ${x.s} »`
@@ -80,7 +83,7 @@ export function analyse(samples, { width, height, duration, minFont = 26, minFin
     if (hookAt == null) add('hook', 'aucun texte lisible : pas d\'accroche écrite')
     else if (hookAt > hookBy) add('hook', `accroche lisible trop tard (${hookAt.toFixed(2)} s > ${hookBy} s) : ${'on perd le scroll'}`)
     if (hasRoles && samples.some((s) => s.texts.some((x) => x.role === 'final'))) {
-      const len = finalFrom == null ? 0 : duration - finalFrom
+      const len = finalFrom == null ? 0 : Math.min(duration, finalTo + step) - finalFrom
       if (len + step < minFinal) add('final', `carton final trop court (${len.toFixed(2)} s < ${minFinal} s)`)
     }
   }

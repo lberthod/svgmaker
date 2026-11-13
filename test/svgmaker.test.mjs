@@ -33,6 +33,16 @@ test('audit : accroche tardive et carton final trop court', () => {
   assert.ok(r.issues.some((i) => i.includes('carton final trop court')))
 })
 
+test('audit : un carton final qui s\'efface juste avant la fin (boucle) compte quand même', () => {
+  const tirage = (de, a, duree) => {
+    const samples = []
+    for (let t = 0; t < duree; t += 0.25) samples.push({ t, texts: [box('ACCROCHE', 200, 500, 880, 580, { role: 'hook' }), ...(t >= de && t <= a ? [box('FIN', 300, 1000, 780, 1080, { role: 'final' })] : [])] })
+    return analyse(samples, { width: 1080, height: 1920, duration: duree }).issues.filter((i) => i.includes('carton final'))
+  }
+  assert.equal(tirage(1, 4, 5).length, 0, 'visible 3,25 s puis 0,75 s de retour en boucle : bon')
+  assert.equal(tirage(1, 2, 5).length, 1, 'effacé 2,75 s avant la fin : ce n\'est plus un carton final')
+})
+
 test('audit : deux lignes d\'un même titre qui se touchent ne sont pas une superposition', () => {
   const a = box('Le piano par', 30, 160, 500, 240), b = box('numéros', 30, 228, 400, 300)
   const samples = [0, 0.25].map((t) => ({ t, texts: [a, b] }))
