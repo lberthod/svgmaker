@@ -32,14 +32,15 @@ Options de rendu
       --music-volume <v>   volume au lieu de loudnorm, ex. 0.55 (désactive loudnorm)
       --gif                produit aussi un GIF (12 i/s, 360 px)
       --no-cover           pas de couverture JPG
-      --cover-at <s>       instant de la couverture (défaut 0)
+      --cover-at <s>       instant de la couverture (défaut : data-cover-at du SVG, sinon l'instant du début
+                           où les textes lisibles couvrent le plus de surface, 10 s au plus)
       --audit              audit Reels pendant le rendu
       --sheet              planche de 6 images (<nom>-planche.jpg)
       --no-dedup           capture toutes les images (même les images fixes identiques)
   -f, --force              ignore l'empreinte et refait tout
   -h, --help               cette aide
 
-Dans le SVG (facultatif) : <svg data-duration="14.5" data-fps="30" data-music="audio.wav">, et data-role="hook" / "final"
+Dans le SVG (facultatif) : <svg data-duration="14.5" data-fps="30" data-music="audio.wav" data-cover-at="7">, et data-role="hook" / "final"
 sur les textes d'accroche et de carton final pour un audit plus précis.`
 
 const { values: o, positionals } = parseArgs({
@@ -136,7 +137,11 @@ async function artCommand([sub, ...args]) {
       try {
         const text = readFileSync(f, 'utf8')
         const { validateArt } = await import('../src/kit/core.mjs')
-        validateArt(text.includes('<!-- art -->') ? L.parseArtFile(text, f) : text, f)
+        const V2 = await import('../src/kit/v2art.mjs')
+        const ra = V2.rootAttrs(text)
+        if (ra['data-kind'] === 'scene') V2.validateScene(text, f)
+        else if (ra['data-kind'] === 'pose') V2.validatePose(text, f)
+        else validateArt(text.includes('<!-- art -->') ? L.parseArtFile(text, f) : text, f)
       } catch (e) { issues.push(e.message) }
     }
     for (const i of issues) console.log(`✗ ${i}`)
@@ -148,10 +153,17 @@ async function artCommand([sub, ...args]) {
     if (!id || !file || !o.cat) { console.error('usage : svgmaker art add <id> <dessin.svg> --cat <catégorie> [--tags a,b]'); return 1 }
     try {
       const text = readFileSync(file, 'utf8')
-      const svg = text.includes('<!-- art -->') ? L.parseArtFile(text, file) : text.trim()
-      const e = L.addArt(id, svg, { cat: o.cat, tags: o.tags ? o.tags.split(',') : [], source: path.relative(process.cwd(), file) })
+      const V2 = await import('../src/kit/v2art.mjs')
+      const ra = V2.rootAttrs(text)
+      // V2 : décor plein cadre (catégorie scenes ou data-kind="scene") ou pose (id « perso--pose » ou data-kind="pose")
+      const kind = ra['data-kind'] ?? (o.cat === 'scenes' ? 'scene' : id.includes('--') ? 'pose' : undefined)
+      const svg = text.includes('<!-- art -->') ? L.parseArtFile(text, file) : kind ? V2.innerOf(text) : text.trim()
+      const e = L.addArt(id, svg, { cat: o.cat, tags: o.tags ? o.tags.split(',') : [], source: path.relative(process.cwd(), file),
+        ...(kind ? { kind, viewBox: ra.viewBox, height: ra['data-height'] ? Number(ra['data-height']) : undefined } : {}) })
       L.saveIndex()
-      console.log(`✓ ${id} → library/${e.file} (${e.bytes} o, ${e.colors.length} couleurs)`)
+      console.log(`✓ ${id} → library/${e.file} (${e.bytes} o, ${e.colors.length} couleurs${kind ? `, ${kind}` : ''})`)
+      const n = kind ? L.strokeLint(svg) : 0
+      if (n) console.log(`  ⚠ ${n} élément(s) tracé(s) sans vector-effect="non-scaling-stroke" : leur trait grossira avec le zoom`)
       return 0
     } catch (e) { console.error(`✗ ${e.message}`); return 1 }
   }

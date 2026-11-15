@@ -3,12 +3,13 @@
 // Découpage :
 //  0.0– 3.5  plan large      les deux amis au lit, au clair de lune ; Lino : « Roussin ? Tu dors ? »
 //  3.5– 6.5  Roussin          « Pas encore... Je pense à notre journée. »
-//  6.5–15.0  la bulle de rêve  la journée rejoue : le croissant (et Rouge-Gorge), la flaque (SPLASH), la cloche (DRING) ; « Hi hi ! »
+//  6.5–15.0  la bulle de rêve  la journée rejoue : le croissant (et Rouge-Gorge), la flaque (SPLASH), la cloche (DRING) ; « C'est drôle ! »
 // 15.0–18.0  la fenêtre      Rouge-Gorge dort sur le rebord, la tête sous l'aile
 // 18.0–21.0  Lino           « Bonne nuit, Roussin. »
 // 21.0–24.0  Roussin          « Bonne nuit, Lino. »
 // 24.0–30.0  plan large      ils dorment, Zzz ; la caméra recule ; carton « Fin »
 import { writeFileSync } from 'node:fs';
+import { timeBadge } from '../lib/badge.mjs';
 import { W, H, INK, lines, sfxEv, an, vis, sfx, fox, rabbit, put, style, addKF, track, ss } from '../lib/kit.mjs';
 import { makeCam, say, bird, croissant } from '../lib/props.mjs';
 import { wallClock } from '../lib/classroom.mjs';
@@ -96,9 +97,9 @@ const FM = [435, 528], RM = [785, 510];
 const tipAt = (who, t, dx, dy) => { const m = scr(...(who === 'fox' ? FM : RM), t); return { bx: m[0] + dx, by: m[1] + dy, tips: [[m[0], m[1] - 20]] }; };
 const fx =
   say('rab', 'Roussin ? Tu dors ?', 0.6, 1.7, { bx: 560, by: 300, fs: 28, tips: [[790, 480]] }) +
-  say('fox', 'Pas encore... Je pense à notre journée.', 3.8, 2.5, { bx: 930, by: 220, fs: 26, tips: [[785, 505]] }) +
+  say('fox', 'Pas encore. Quelle belle journée !', 3.8, 2.5, { bx: 930, by: 220, fs: 26, tips: [[785, 505]] }) +
   sfx('SPLASH !', 650, 230, 9.8, 0.9, -8, '#4fb3ff', 34, 'splash') +
-  say('rab', 'Hi hi !', 12.4, 1.8, { bx: 1035, by: 445, fs: 34, tips: [[905, 540]] }) +
+  say('rab', 'Et la flaque !', 12.4, 1.8, { bx: 1035, by: 445, fs: 34, tips: [[905, 540]] }) +
   say('rab', 'Bonne nuit, Roussin.', 18.3, 1.0, { bx: 880, by: 196, tips: [[650, 420]] }) +
   say('fox', 'Bonne nuit, Lino.', 21.3, 1.6, { bx: 1100, by: 220, tips: [[775, 505]] }) +
   fin;
@@ -107,6 +108,7 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" wid
 <style>${style()}</style>
 <rect width="${W}" height="${H}" fill="#3c4886"/>
 <g style="${camStyle}">${world}</g>
+${timeBadge(20, 30)}
 ${fx}
 </svg>`;
 sfxEv.push({ name: 'chirp', t: 7.3 }, { name: 'handbell', t: 11.9 }, { name: 'chime', t: 27.2 });

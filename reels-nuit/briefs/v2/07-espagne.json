@@ -1,0 +1,700 @@
+{
+ "format": "atlas",
+ "id": "atlas-espagne-langues",
+ "scenes": [
+  {
+   "type": "hook",
+   "text": "L’Espagne parle plusieurs langues : pourquoi ?",
+   "focus": {
+    "box": [
+     -10.5,
+     35.5,
+     4.5,
+     44.5
+    ]
+   },
+   "highlight": {
+    "countries": [
+     "Spain"
+    ],
+    "color": "#E8A33C",
+    "keep": false,
+    "at": {
+     "line": 0,
+     "word": "Espagne",
+     "d": 0.1
+    }
+   },
+   "say": [
+    "L’Espagne parle plusieurs langues : pourquoi ?",
+    "Remontons le temps."
+   ],
+   "people": [
+    {
+     "who": "paysan",
+     "at": "Madrid",
+     "size": 240,
+     "say": "Hola !",
+     "when": {
+      "line": 0,
+      "word": "Espagne",
+      "d": 0.3
+     },
+     "mood": "happy",
+     "wave": true
+    }
+   ],
+   "pills": [
+    {
+     "at": "Madrid",
+     "title": "Madrid",
+     "side": "b",
+     "sub": "castillan",
+     "when": {
+      "line": 0,
+      "word": "plusieurs"
+     }
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "218 av. J.-C.",
+   "text": "Rome apporte le latin",
+   "focus": {
+    "box": [
+     -10.5,
+     35.5,
+     4.5,
+     44.5
+    ]
+   },
+   "moves": [
+    {
+     "from": "Rome",
+     "to": "Barcelone",
+     "n": 5,
+     "color": "#FFFFFF",
+     "label": "Les Romains",
+     "at": {
+      "line": 0,
+      "word": "Romains",
+      "d": -0.3
+     },
+     "dur": 2.0
+    }
+   ],
+   "say": [
+    "Il y a 2200 ans, les Romains débarquent dans la péninsule. Ils l’appellent Hispania.",
+    "Le latin va devenir la langue de presque tous."
+   ],
+   "people": [
+    {
+     "who": "romain",
+     "at": "Barcelone",
+     "size": 240,
+     "say": "Hispania !",
+     "when": {
+      "line": 0,
+      "word": "Hispania",
+      "d": 0.1
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": "Rome",
+     "title": "Rome",
+     "side": "t",
+     "when": {
+      "line": 0,
+      "word": "Il"
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Hispania",
+     "at": [
+      -4.2,
+      39.8
+     ],
+     "size": 50,
+     "when": {
+      "line": 0,
+      "word": "Hispania",
+      "d": 0.2
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": "Madrid",
+     "when": 0.4
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "text": "Sauf le basque",
+   "focus": {
+    "box": [
+     -7.0,
+     40.0,
+     3.0,
+     44.8
+    ]
+   },
+   "labels": [
+    {
+     "text": "Pays basque",
+     "at": [
+      -2.4,
+      43.0
+     ],
+     "size": 52,
+     "when": {
+      "line": 0,
+      "word": "basque",
+      "d": 0
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": "Bilbao",
+     "title": "Bilbao",
+     "sub": "euskara",
+     "side": "b",
+     "when": {
+      "line": 1,
+      "word": "mystère",
+      "d": -0.3
+     }
+    }
+   ],
+   "say": [
+    "Une langue résiste : le basque, plus ancien que l’arrivée des Romains.",
+    "Il ne ressemble à aucune autre langue d’Europe : c’est un mystère."
+   ],
+   "people": [
+    {
+     "who": "paysan",
+     "at": [
+      -2.4,
+      42.2
+     ],
+     "size": 240,
+     "say": "Euskara !",
+     "when": {
+      "line": 1,
+      "word": "mystère",
+      "d": 0.3
+     },
+     "label": {
+      "title": "Un Basque",
+      "sub": "langue d’avant Rome"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": "Madrid",
+     "when": 0.4
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "711",
+   "text": "Les armées musulmanes arrivent du sud",
+   "focus": {
+    "box": [
+     -10.5,
+     35.0,
+     4.5,
+     44.5
+    ]
+   },
+   "moves": [
+    {
+     "from": [
+      -5.6,
+      35.8
+     ],
+     "to": "Séville",
+     "n": 5,
+     "color": "#2F9E6B",
+     "label": "711",
+     "at": {
+      "line": 0,
+      "word": "711",
+      "d": -0.4
+     },
+     "dur": 2.4
+    }
+   ],
+   "say": [
+    "En 711, des armées venues d’Afrique du Nord traversent le détroit de Gibraltar.",
+    "L’arabe s’installe, d’abord dans une grande partie du pays, puis surtout dans le sud, jusqu’en 1492."
+   ],
+   "people": [
+    {
+     "who": "soldat",
+     "at": [
+      -5.9,
+      36.7
+     ],
+     "size": 240,
+     "when": {
+      "line": 0,
+      "word": "Gibraltar",
+      "d": 0.1
+     },
+     "label": {
+      "title": "Armée venue du sud",
+      "sub": "711"
+     }
+    },
+    {
+     "who": "marin",
+     "at": "Séville",
+     "size": 240,
+     "say": "Al-Andalus",
+     "when": {
+      "line": 1,
+      "word": "arabe",
+      "d": 0.2
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": "Séville",
+     "title": "Séville",
+     "side": "l",
+     "sub": "Al-Andalus",
+     "when": {
+      "line": 1,
+      "word": "arabe",
+      "d": 0.4
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": "Madrid",
+     "when": 0.4
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "vers 722 – 1492",
+   "text": "La Reconquête",
+   "focus": {
+    "box": [
+     -10.5,
+     36.0,
+     4.5,
+     44.5
+    ]
+   },
+   "moves": [
+    {
+     "from": "Covadonga",
+     "to": "Tolède",
+     "n": 5,
+     "color": "#FFFFFF",
+     "label": "León-Castille",
+     "at": {
+      "line": 0,
+      "word": "nord",
+      "d": -0.3
+     },
+     "dur": 2.6
+    },
+    {
+     "from": "Tolède",
+     "to": "Grenade",
+     "n": 5,
+     "color": "#FFFFFF",
+     "label": "1492",
+     "at": {
+      "line": 1,
+      "word": "Grenade",
+      "d": -1.8
+     },
+     "dur": 2.8
+    }
+   ],
+   "say": [
+    "Du nord descendent peu à peu des royaumes chrétiens : la Reconquête commence.",
+    "En 1492, la chute de Grenade y met fin."
+   ],
+   "people": [
+    {
+     "who": "soldat",
+     "at": "Covadonga",
+     "size": 220,
+     "say": "Reconquête !",
+     "when": {
+      "line": 0,
+      "word": "Reconquête",
+      "d": 0.1
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": "Covadonga",
+     "title": "Covadonga",
+     "side": "t",
+     "sub": "vers 722",
+     "when": {
+      "line": 0,
+      "word": "descendent"
+     }
+    },
+    {
+     "at": "Grenade",
+     "title": "Grenade",
+     "side": "b",
+     "sub": "1492",
+     "when": {
+      "line": 1,
+      "word": "Grenade",
+      "d": 0.1
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": "Madrid",
+     "when": 0.4
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "text": "Quatre grandes langues, quatre histoires",
+   "focus": {
+    "box": [
+     -10.5,
+     36.0,
+     4.5,
+     44.5
+    ]
+   },
+   "labels": [
+    {
+     "text": "Galicien",
+     "at": [
+      -8.0,
+      42.7
+     ],
+     "size": 46,
+     "when": {
+      "line": 0,
+      "word": "galicien"
+     }
+    },
+    {
+     "text": "Basque",
+     "at": [
+      -2.4,
+      43.0
+     ],
+     "size": 46,
+     "when": {
+      "line": 0,
+      "word": "basque",
+      "d": 0
+     }
+    },
+    {
+     "text": "Catalan",
+     "at": [
+      1.2,
+      41.9
+     ],
+     "size": 46,
+     "when": {
+      "line": 0,
+      "word": "catalan"
+     }
+    },
+    {
+     "text": "Castillan",
+     "at": [
+      -3.7,
+      40.2
+     ],
+     "size": 56,
+     "when": {
+      "line": 0,
+      "word": "castillan",
+      "d": -0.2
+     }
+    }
+   ],
+   "say": [
+    "Le latin donne naissance au castillan, au catalan et au galicien, pendant que le basque survit.",
+    "Chaque région garde sa voix."
+   ],
+   "people": [
+    {
+     "who": "paysan",
+     "at": [
+      -8.0,
+      41.6
+     ],
+     "size": 190,
+     "say": "Bos días !",
+     "when": {
+      "line": 0,
+      "word": "galicien",
+      "d": 0.2
+     }
+    },
+    {
+     "who": "paysan",
+     "at": [
+      1.2,
+      40.6
+     ],
+     "size": 190,
+     "say": "Bon dia !",
+     "when": {
+      "line": 0,
+      "word": "catalan",
+      "d": 0.2
+     },
+     "hat": true
+    },
+    {
+     "who": "paysan",
+     "at": [
+      -2.4,
+      42.0
+     ],
+     "size": 190,
+     "say": "Kaixo !",
+     "when": {
+      "line": 0,
+      "word": "basque",
+      "d": 0.5
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": "Madrid",
+     "when": 0.4
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1939 – 1975",
+   "text": "Les langues interdites",
+   "focus": {
+    "box": [
+     -10.5,
+     36.0,
+     4.5,
+     44.5
+    ]
+   },
+   "big": {
+    "value": "36 ans",
+    "sub": "de dictature",
+    "at": {
+     "line": 0,
+     "word": "dictature",
+     "d": -0.6
+    },
+    "dur": 2.4
+   },
+   "say": [
+    "Sous la dictature de Franco, de 1939 à 1975, l’usage des langues régionales est fortement réprimé.",
+    "Le castillan est la seule langue officielle."
+   ],
+   "people": [
+    {
+     "who": "soldat",
+     "at": "Madrid",
+     "size": 240,
+     "when": {
+      "line": 0,
+      "word": "Franco",
+      "d": 0.2
+     },
+     "mood": "sad",
+     "label": {
+      "title": "Dictature",
+      "sub": "1939 – 1975"
+     }
+    },
+    {
+     "who": "paysan",
+     "at": "Barcelone",
+     "size": 210,
+     "say": "Interdit !",
+     "when": {
+      "line": 1,
+      "word": "seule"
+     },
+     "mood": "sad"
+    }
+   ],
+   "pills": [
+    {
+     "at": "Madrid",
+     "title": "Madrid",
+     "side": "t",
+     "sub": "castillan seul",
+     "when": {
+      "line": 1,
+      "word": "castillan"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": "Madrid",
+     "when": 0.4
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1978",
+   "text": "Plusieurs langues officielles",
+   "focus": {
+    "box": [
+     -10.5,
+     35.5,
+     4.5,
+     44.5
+    ]
+   },
+   "highlight": {
+    "countries": [
+     "Spain"
+    ],
+    "color": "#E8A33C"
+   },
+   "say": [
+    "En 1978, la nouvelle constitution fait du castillan la langue officielle de l’État.",
+    "Elle permet aussi aux régions d’officialiser leurs langues : le basque, le catalan, le galicien…"
+   ],
+   "people": [
+    {
+     "who": "paysan",
+     "at": "Barcelone",
+     "size": 200,
+     "say": "Oficial !",
+     "when": {
+      "line": 1,
+      "word": "catalan",
+      "d": 0.2
+     },
+     "mood": "happy",
+     "wave": true
+    },
+    {
+     "who": "paysan",
+     "at": "Madrid",
+     "size": 210,
+     "when": {
+      "line": 0,
+      "word": "constitution",
+      "d": 0.2
+     },
+     "mood": "happy"
+    }
+   ],
+   "pills": [
+    {
+     "at": "Madrid",
+     "title": "Madrid",
+     "side": "t",
+     "sub": "1978",
+     "when": {
+      "line": 0,
+      "word": "1978"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": "Madrid",
+     "when": 0.4
+    }
+   ]
+  },
+  {
+   "type": "final",
+   "text": "Un pays, plusieurs langues",
+   "sub": "L’Espagne",
+   "focus": {
+    "box": [
+     -10.5,
+     35.5,
+     4.5,
+     44.5
+    ]
+   },
+   "say": [
+    "Voilà pourquoi l’Espagne parle plusieurs langues !"
+   ],
+   "people": [
+    {
+     "who": "paysan",
+     "at": "Madrid",
+     "size": 240,
+     "say": "À bientôt !",
+     "when": 3.0,
+     "wave": true,
+     "mood": "happy"
+    }
+   ],
+   "pills": [
+    {
+     "at": "Madrid",
+     "title": "Madrid",
+     "side": "b",
+     "when": 2.0
+    }
+   ]
+  }
+ ],
+ "base": {
+  "countries": [
+   "Spain"
+  ]
+ },
+ "terrain": [
+  {
+   "box": [
+    -13.5,
+    32.0,
+    34,
+    66
+   ],
+   "px": 2800,
+   "z": 6
+  },
+  {
+   "box": [
+    -10.9,
+    34.6,
+    4.9,
+    45.2
+   ],
+   "px": 2800,
+   "z": 8
+  }
+ ]
+}

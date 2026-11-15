@@ -43,3 +43,21 @@ examples/renard-lapin/ep*/*
 !examples/renard-lapin/ep*/make.mjs
 examples/renard-lapin/reels/*.mp4
 examples/renard-lapin/logo/.svgmaker.json
+
+# Roussin & Lino, saisons 2+ : seuls make.mjs et les scripts sont versionnés
+examples/renard-lapin/s[0-9]*/*/*
+!examples/renard-lapin/s[0-9]*/*/make.mjs
+examples/renard-lapin/sortie/
+# Voix de référence : on garde la voix retenue, pas les candidates -1…-6
+examples/renard-lapin/lib/voix-ref/*-[0-9].wav
+
+# reels-nuit : rendus, audits, études et journaux régénérables
+reels-nuit/**/audit/
+reels-nuit/**/etude/
+reels-nuit/**/briefs/out/
+reels-nuit/logs/
+reels-nuit/final/
+reels-nuit/essais/
+reels-nuit/**/*.mp4
+reels-nuit/**/*.wav
+*.log

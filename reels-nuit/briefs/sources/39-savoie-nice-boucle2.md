@@ -1,0 +1,5 @@
+# 39-savoie-nice, boucle 2 (corrections issues des 5 audits)
+- Faits : Magenta [8.88,45.47] ; « armées française et piémontaise » ; ajout du pourquoi (frontières naturelles / unité italienne) ; 1388 « Nice se donne au comte de Savoie » ; « deux votes » ; italien « avant 1860 » ; 1861 sans Vénétie, Trentin, Frioul, Latium, Mantoue ; timeline 4 items (vers 1000, 1388, 1860, 1946). Pas de recherche web (connaissances).
+- Lisibilité/carto : focus lat min 42.2 (hook, 5, 6, 7, final), scène 3 [5.0,38.8,10.4,47.4], scène 4 [2.0,43.2,10.8,49.4] ; pastilles Italie/Autriche/Magenta hors zone icônes ; personnages 170-190 déplacés ; Napoléon III en « soldat » ; Plombières et Paris en pastilles ; label Sardaigne ; pastille 1416, pastille 1946, pastille Savoie finale.
+- Caméra/compo : surlignages à 0.3 (6) ou sur « Turin » (5), flèche Nice en plus ; arts split/stats/languages/timeline calés plus tôt ; stats en 2 tuiles (99 %, 156 276) sans décompte ; split avec sub-légende « Savoie · Nice · Piémont » et badge « Perdus ».
+- Terrain recalculé ; durée réduite par quelques phrases raccourcies.

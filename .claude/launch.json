@@ -1,6 +1,28 @@
 {
   "version": "0.0.1",
   "configurations": [
-    { "name": "svgmaker-studio", "runtimeExecutable": "node", "runtimeArgs": ["bin/svgmaker.mjs", "studio", "--port", "4321"], "port": 4321 }
+    {
+      "name": "svgmaker-studio",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [
+        "bin/svgmaker.mjs",
+        "studio",
+        "--port",
+        "4321"
+      ],
+      "port": 4321
+    },
+    {
+      "name": "roussin-videos",
+      "runtimeExecutable": "/usr/bin/python3",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "8765",
+        "--directory",
+        "/Users/loicberthod/Desktop/Coding/svgMaker/examples/renard-lapin/sortie"
+      ],
+      "port": 8765
+    }
   ]
 }

@@ -1,0 +1,963 @@
+{
+ "format": "atlas",
+ "id": "traites-03-normandie",
+ "base": {
+  "countries": [
+   "France"
+  ]
+ },
+ "open": {
+  "box": [
+   -2.4,
+   47.8,
+   3.4,
+   50.6
+  ]
+ },
+ "terrain": [
+  {
+   "box": [
+    -14,
+    27,
+    40,
+    76
+   ],
+   "px": 3000,
+   "z": 6
+  },
+  {
+   "box": [
+    -3.4,
+    47.4,
+    3.8,
+    51.0
+   ],
+   "px": 2800,
+   "z": 9
+  }
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "year": "911",
+   "text": "Comment des Vikings ont-ils reçu la Normandie ?",
+   "sub": "Traité de Saint-Clair-sur-Epte",
+   "focus": {
+    "box": [
+     -2.4,
+     47.8,
+     3.4,
+     50.6
+    ]
+   },
+   "highlight": {
+    "regions": [
+     {
+      "c": "France",
+      "n": "Seine-Maritime"
+     },
+     {
+      "c": "France",
+      "n": "Eure"
+     }
+    ],
+    "color": "#FF2E88",
+    "at": 0,
+    "keep": false
+   },
+   "beacon": [
+    {
+     "at": [
+      1.686,
+      49.204
+     ],
+     "when": 0
+    }
+   ],
+   "people": [
+    {
+     "who": "alaman",
+     "at": [
+      0.75,
+      49.05
+     ],
+     "size": 170,
+     "outfit": "#B5523B",
+     "say": "Une terre à nous ?",
+     "when": {
+      "line": 1,
+      "word": "roi"
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      1.4,
+      48.85
+     ],
+     "title": "Contours actuels",
+     "side": "b",
+     "when": {
+      "line": 1,
+      "d": 0.2
+     }
+    }
+   ],
+   "say": [
+    "Comment des Vikings ont-ils reçu la Normandie ?",
+    "Un roi leur a cédé la terre, celle-là même qu’ils pillaient."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "841",
+   "text": "Les Vikings remontent la Seine",
+   "focus": {
+    "box": [
+     -1.2,
+     48.4,
+     3.2,
+     50.3
+    ]
+   },
+   "highlight": {
+    "regions": [
+     {
+      "c": "France",
+      "n": "Seine-Maritime"
+     },
+     {
+      "c": "France",
+      "n": "Eure"
+     }
+    ],
+    "color": "#4FA3E0",
+    "at": 0.3,
+    "keep": true
+   },
+   "moves": [
+    {
+     "from": [
+      -0.1,
+      49.47
+     ],
+     "to": [
+      0.95,
+      49.48
+     ],
+     "n": 3,
+     "color": "#B5523B",
+     "label": "Vikings",
+     "at": {
+      "line": 0,
+      "word": "remontent",
+      "d": -0.2
+     },
+     "dur": 2.4
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      1.099,
+      49.443
+     ],
+     "title": "Rouen",
+     "sub": "brûlée en 841",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "brûle"
+     }
+    },
+    {
+     "at": [
+      2.6,
+      48.75
+     ],
+     "title": "Francie occidentale",
+     "sub": "la future France",
+     "side": "t",
+     "when": {
+      "line": 1,
+      "word": "Francs"
+     }
+    }
+   ],
+   "say": [
+    "Dès 841, des flottes vikings remontent la Seine, et Rouen brûle.",
+    "Le royaume des Francs de l’Ouest, lui, ne parvient pas à les arrêter."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "Vers 900",
+   "text": "Un chef viking sur la Seine",
+   "focus": {
+    "box": [
+     -1.6,
+     48.3,
+     3.0,
+     50.6
+    ]
+   },
+   "beacon": [
+    {
+     "at": [
+      1.099,
+      49.443
+     ],
+     "when": {
+      "line": 1,
+      "d": 0.2
+     }
+    }
+   ],
+   "people": [
+    {
+     "who": "alaman",
+     "at": [
+      0.45,
+      49.78
+     ],
+     "size": 190,
+     "outfit": "#B5523B",
+     "say": "On reste ici !",
+     "label": {
+      "title": "Rollon",
+      "sub": "chef viking"
+     },
+     "when": {
+      "line": 0,
+      "word": "Rollon",
+      "d": -0.3
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      1.099,
+      49.443
+     ],
+     "title": "Rouen",
+     "side": "r",
+     "when": {
+      "line": 1,
+      "word": "fleuve"
+     }
+    }
+   ],
+   "say": [
+    "Vers 900, le chef viking Rollon s’impose sur la basse Seine.",
+    "Ses hommes s’installent le long du fleuve, et ne repartent plus vers le Nord."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "Juillet 911",
+   "text": "Rollon échoue devant Chartres",
+   "focus": {
+    "box": [
+     -0.2,
+     48.0,
+     3.0,
+     49.9
+    ]
+   },
+   "beacon": [
+    {
+     "at": [
+      1.489,
+      48.447
+     ],
+     "when": {
+      "line": 0,
+      "word": "Chartres"
+     }
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      1.0,
+      49.443
+     ],
+     "to": [
+      1.489,
+      48.52
+     ],
+     "n": 0,
+     "color": "#B5523B",
+     "label": "Rollon",
+     "at": {
+      "line": 0,
+      "word": "assiège",
+      "d": -0.3
+     },
+     "dur": 2.0
+    },
+    {
+     "from": [
+      2.6,
+      48.7
+     ],
+     "to": [
+      1.6,
+      48.45
+     ],
+     "n": 3,
+     "color": "#4FA3E0",
+     "label": "Armée franque",
+     "at": {
+      "line": 0,
+      "word": "armée",
+      "d": -0.6
+     },
+     "dur": 1.2
+    },
+    {
+     "from": [
+      1.35,
+      48.52
+     ],
+     "to": [
+      0.95,
+      49.35
+     ],
+     "n": 2,
+     "color": "#B5523B",
+     "at": {
+      "line": 0,
+      "word": "repousse",
+      "d": -0.3
+     },
+     "dur": 1.2
+    }
+   ],
+   "labels": [
+    {
+     "text": "Chartres",
+     "at": [
+      1.489,
+      48.3
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "word": "Chartres"
+     }
+    },
+    {
+     "text": "Paris",
+     "at": [
+      2.35,
+      49.05
+     ],
+     "size": 34,
+     "when": {
+      "line": 0,
+      "word": "armée"
+     }
+    }
+   ],
+   "art": [
+    {
+     "kind": "timeline",
+     "at": {
+      "line": 1,
+      "d": 0
+     },
+     "dur": 4.0,
+     "spread": true,
+     "title": "De 841 à 911",
+     "items": [
+      {
+       "year": "841",
+       "text": "Rouen brûlée",
+       "color": "#B5523B"
+      },
+      {
+       "year": "885",
+       "text": "Siège de Paris",
+       "color": "#B5523B"
+      },
+      {
+       "year": "911",
+       "text": "Échec à Chartres",
+       "color": "#4FA3E0"
+      }
+     ]
+    }
+   ],
+   "say": [
+    "En juillet 911, Rollon assiège Chartres, mais une armée franque le repousse.",
+    "Après des décennies de raids, aucun camp ne parvient à chasser l’autre."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "911",
+   "text": "Le roi choisit de négocier",
+   "focus": {
+    "box": [
+     -0.4,
+     48.4,
+     3.6,
+     50.0
+    ]
+   },
+   "people": [
+    {
+     "who": "roi",
+     "at": [
+      2.8,
+      49.4
+     ],
+     "size": 250,
+     "outfit": "#4FA3E0",
+     "say": "Une terre contre la paix",
+     "label": {
+      "title": "Charles le Simple",
+      "sub": "roi des Francs"
+     },
+     "when": {
+      "line": 0,
+      "word": "Charles",
+      "d": -0.3
+     }
+    },
+    {
+     "who": "alaman",
+     "at": [
+      0.55,
+      49.75
+     ],
+     "size": 230,
+     "outfit": "#B5523B",
+     "say": "Le baptême ?",
+     "when": {
+      "line": 0,
+      "word": "Rollon",
+      "d": -0.3
+     }
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      2.8,
+      49.4
+     ],
+     "to": [
+      0.9,
+      49.3
+     ],
+     "n": 0,
+     "color": "#4FA3E0",
+     "at": {
+      "line": 1,
+      "word": "terre"
+     },
+     "dur": 1.4
+    }
+   ],
+   "say": [
+    "Le roi Charles le Simple change de méthode : il traite désormais avec Rollon.",
+    "En échange d’une terre, Rollon promet le baptême, et doit défendre la Seine."
+   ],
+   "pills": [
+    {
+     "at": [
+      0.9,
+      49.3
+     ],
+     "title": "une terre",
+     "side": "b",
+     "when": {
+      "line": 1,
+      "word": "terre",
+      "d": 0.6
+     }
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "911",
+   "text": "Le roi et Rollon s’accordent",
+   "focus": {
+    "box": [
+     -0.4,
+     48.6,
+     2.6,
+     50.0
+    ]
+   },
+   "highlight": [
+    {
+     "regions": [
+      {
+       "c": "France",
+       "n": "Seine-Maritime"
+      },
+      {
+       "c": "France",
+       "n": "Eure"
+      }
+     ],
+     "color": "#FF2E88",
+     "at": 0,
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "France",
+       "n": "Seine-Maritime"
+      },
+      {
+       "c": "France",
+       "n": "Eure"
+      }
+     ],
+     "color": "#B5523B",
+     "at": {
+      "line": 1,
+      "word": "perd"
+     },
+     "keep": true
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      1.686,
+      49.204
+     ],
+     "when": 0
+    }
+   ],
+   "art": [
+    {
+     "kind": "treaty",
+     "at": {
+      "line": 0,
+      "word": "concluent",
+      "d": -0.3
+     },
+     "dur": 3.6,
+     "title": "Saint-Clair-sur-Epte",
+     "sub": "automne 911, selon la tradition",
+     "signers": [
+      "Charles le Simple",
+      "Rollon"
+     ],
+     "year": "911"
+    },
+    {
+     "kind": "split",
+     "at": {
+      "line": 1,
+      "d": -0.4
+     },
+     "dur": 4,
+     "title": "De l’Epte à la mer",
+     "sub": "contours actuels",
+     "before": "Avant 911",
+     "after": "Après 911",
+     "legend": [
+      {
+       "color": "#FF2E88",
+       "text": "cédé"
+      },
+      {
+       "color": "#B5523B",
+       "text": "Rollon"
+      },
+      {
+       "color": "#4FA3E0",
+       "text": "le roi"
+      }
+     ],
+     "parts": [
+      {
+       "region": {
+        "c": "France",
+        "n": "Seine-Maritime"
+       },
+       "color": "#FF2E88",
+       "to": "#B5523B"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Eure"
+       },
+       "color": "#FF2E88",
+       "to": "#B5523B"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Somme"
+       },
+       "color": "#4FA3E0"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Oise"
+       },
+       "color": "#4FA3E0"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Val-d'Oise"
+       },
+       "color": "#4FA3E0"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Yvelines"
+       },
+       "color": "#4FA3E0"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Paris"
+       },
+       "color": "#4FA3E0"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Eure-et-Loir"
+       },
+       "color": "#4FA3E0"
+      }
+     ]
+    }
+   ],
+   "say": [
+    "Selon la tradition, ils concluent l’accord à Saint-Clair-sur-Epte, à l’automne 911.",
+    "Rollon gagne la Seine, de l’Epte à la mer ; le roi la perd."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "924 – 933",
+   "text": "La terre des Normands s’agrandit",
+   "focus": {
+    "box": [
+     -2.4,
+     48.1,
+     2.2,
+     50.0
+    ]
+   },
+   "highlight": [
+    {
+     "regions": [
+      {
+       "c": "France",
+       "n": "Seine-Maritime"
+      },
+      {
+       "c": "France",
+       "n": "Eure"
+      }
+     ],
+     "color": "#B5523B",
+     "at": 0,
+     "keep": true
+    },
+    {
+     "regions": [
+      {
+       "c": "France",
+       "n": "Calvados"
+      },
+      {
+       "c": "France",
+       "n": "Orne"
+      }
+     ],
+     "color": "#B5523B",
+     "at": {
+      "line": 0,
+      "word": "Bayeux",
+      "d": -0.2
+     },
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "France",
+       "n": "Manche"
+      }
+     ],
+     "color": "#B5523B",
+     "at": {
+      "line": 1,
+      "word": "obtient"
+     },
+     "keep": false
+    }
+   ],
+   "labels": [
+    {
+     "text": "Terre de Rollon",
+     "at": [
+      1.1,
+      49.38
+     ],
+     "size": 38,
+     "when": 0.6
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      -0.7,
+      49.28
+     ],
+     "title": "Bayeux",
+     "sub": "924",
+     "side": "t",
+     "when": {
+      "line": 0,
+      "word": "Bayeux"
+     }
+    },
+    {
+     "at": [
+      -1.45,
+      49.45
+     ],
+     "title": "Cotentin",
+     "sub": "933",
+     "side": "l",
+     "when": {
+      "line": 1,
+      "word": "ouest"
+     }
+    },
+    {
+     "at": [
+      -1.25,
+      48.68
+     ],
+     "title": "Avranchin",
+     "sub": "933",
+     "side": "b",
+     "when": {
+      "line": 1,
+      "word": "Cotentin",
+      "d": 0.3
+     }
+    },
+    {
+     "at": [
+      0.4,
+      48.55
+     ],
+     "title": "Frontières approximatives",
+     "side": "b",
+     "when": 0.8
+    }
+   ],
+   "say": [
+    "En 924, le nouveau roi Raoul cède à Rollon la région de Bayeux.",
+    "En 933, son fils obtient encore, plus à l’ouest, le Cotentin et l’Avranchin."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "Aujourd’hui",
+   "text": "L’Epte borde toujours la Normandie",
+   "focus": {
+    "box": [
+     -0.4,
+     48.2,
+     3.8,
+     50.4
+    ]
+   },
+   "highlight": [
+    {
+     "regions": [
+      {
+       "c": "France",
+       "n": "Seine-Maritime"
+      },
+      {
+       "c": "France",
+       "n": "Eure"
+      }
+     ],
+     "color": "#FF2E88",
+     "at": 0,
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "France",
+       "n": "Oise"
+      },
+      {
+       "c": "France",
+       "n": "Val-d'Oise"
+      }
+     ],
+     "color": "#E8E2D0",
+     "at": 0.6,
+     "keep": false
+    }
+   ],
+   "line": {
+    "points": [
+     [
+      1.72,
+      49.48
+     ],
+     [
+      1.78,
+      49.28
+     ],
+     [
+      1.686,
+      49.204
+     ],
+     [
+      1.55,
+      49.07
+     ]
+    ],
+    "color": "#FFFFFF",
+    "width": 14,
+    "draw": 2.2,
+    "at": {
+     "line": 0,
+     "word": "Epte",
+     "d": -0.3
+    }
+   },
+   "beacon": [
+    {
+     "at": [
+      1.686,
+      49.204
+     ],
+     "when": {
+      "line": 0,
+      "word": "Epte",
+      "d": 0.8
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Hauts-de-France",
+     "at": [
+      2.5,
+      49.7
+     ],
+     "size": 34,
+     "when": 0.7
+    },
+    {
+     "text": "Île-de-France",
+     "at": [
+      2.4,
+      48.8
+     ],
+     "size": 34,
+     "when": 0.9
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      1.78,
+      49.28
+     ],
+     "title": "L’Epte, 911",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "Epte",
+      "d": 1.2
+     }
+    },
+    {
+     "at": [
+      1.0,
+      49.45
+     ],
+     "title": "Normandie",
+     "sub": "toujours là",
+     "side": "b",
+     "when": {
+      "line": 1,
+      "word": "rose"
+     }
+    }
+   ],
+   "say": [
+    "Aujourd’hui encore, la rivière Epte trace une partie de la limite normande.",
+    "En rose, la terre cédée en 911 : elle reste le noyau de la Normandie."
+   ]
+  },
+  {
+   "type": "final",
+   "text": "Des Vikings devenus Normands",
+   "sub": "Saint-Clair-sur-Epte, 911",
+   "focus": {
+    "box": [
+     -2.4,
+     47.8,
+     3.4,
+     50.6
+    ]
+   },
+   "highlight": {
+    "regions": [
+     {
+      "c": "France",
+      "n": "Seine-Maritime"
+     },
+     {
+      "c": "France",
+      "n": "Eure"
+     }
+    ],
+    "color": "#FF2E88",
+    "at": 0,
+    "keep": false
+   },
+   "beacon": [
+    {
+     "at": [
+      1.686,
+      49.204
+     ],
+     "when": {
+      "line": 0,
+      "word": "Normands"
+     }
+    }
+   ],
+   "say": [
+    "Voilà pourquoi des Vikings sont devenus des Normands, et leur terre la Normandie.",
+    "Et tout part de cette question :"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,688 @@
+{
+ "format": "atlas",
+ "id": "atlas-france-langue",
+ "scenes": [
+  {
+   "type": "hook",
+   "text": "Pourquoi la France parle-t-elle français ?",
+   "focus": {
+    "box": [
+     -5.5,
+     41.0,
+     10.0,
+     51.5
+    ]
+   },
+   "highlight": {
+    "countries": [
+     "France"
+    ],
+    "color": "#3B82F6",
+    "keep": false,
+    "at": {
+     "line": 0,
+     "word": "France",
+     "d": 0.1
+    }
+   },
+   "say": [
+    "Pourquoi la France parle-t-elle français ?",
+    "La réponse a 2000 ans."
+   ],
+   "people": [
+    {
+     "who": "paysan",
+     "at": "Paris",
+     "size": 240,
+     "say": "Bonjour !",
+     "when": {
+      "line": 0,
+      "word": "France",
+      "d": 0.3
+     },
+     "wave": true,
+     "mood": "happy"
+    }
+   ],
+   "pills": [
+    {
+     "at": "Paris",
+     "title": "Paris",
+     "side": "t",
+     "when": {
+      "line": 1,
+      "word": "2000",
+      "d": -0.3
+     }
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "Ier s. av. J.-C. – 5e s.",
+   "text": "Le latin remplace le gaulois",
+   "focus": {
+    "box": [
+     -5.5,
+     41.0,
+     10.0,
+     51.5
+    ]
+   },
+   "moves": [
+    {
+     "from": "Rome",
+     "to": "Lyon",
+     "n": 5,
+     "color": "#FFFFFF",
+     "label": "Les Romains",
+     "at": {
+      "line": 0,
+      "word": "Romains",
+      "d": -0.3
+     },
+     "dur": 3.0
+    }
+   ],
+   "say": [
+    "Les Gaulois parlent une langue celtique. Puis les Romains conquièrent le pays, vers 50 av. J.-C.",
+    "Peu à peu, pendant des siècles, on y parle latin."
+   ],
+   "people": [
+    {
+     "who": "celte",
+     "at": [
+      2.4,
+      47.0
+     ],
+     "size": 220,
+     "when": {
+      "line": 0,
+      "word": "Gaulois"
+     },
+     "label": {
+      "title": "Un Gaulois",
+      "sub": "langue celtique"
+     }
+    },
+    {
+     "who": "romain",
+     "at": "Lyon",
+     "size": 220,
+     "say": "Latin !",
+     "when": {
+      "line": 1,
+      "word": "latin",
+      "d": -0.3
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": "Lyon",
+     "title": "Lyon",
+     "side": "l",
+     "sub": "Lugdunum",
+     "when": {
+      "line": 0,
+      "word": "conquièrent",
+      "d": 0.2
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": "Paris",
+     "when": 0.4
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "5e siècle",
+   "text": "Les Francs donnent leur nom",
+   "focus": {
+    "box": [
+     -5.5,
+     41.0,
+     10.0,
+     51.5
+    ]
+   },
+   "moves": [
+    {
+     "from": [
+      7.0,
+      51.0
+     ],
+     "to": "Paris",
+     "n": 5,
+     "color": "#E8A33C",
+     "label": "Les Francs",
+     "at": {
+      "line": 0,
+      "word": "Francs",
+      "d": -0.2
+     },
+     "dur": 2.6
+    }
+   ],
+   "say": [
+    "Au Ve siècle, les Francs, un peuple germanique, s’installent dans le nord de la Gaule.",
+    "Ils adoptent la langue romane du pays, mais leur nom donnera celui de la France."
+   ],
+   "people": [
+    {
+     "who": "roi",
+     "at": "Paris",
+     "size": 230,
+     "when": {
+      "line": 0,
+      "word": "Francs",
+      "d": 0.6
+     },
+     "crown": true,
+     "label": {
+      "title": "Clovis",
+      "sub": "roi des Francs, vers 500"
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Gaule",
+     "at": [
+      2.2,
+      46.0
+     ],
+     "size": 50,
+     "when": {
+      "line": 0,
+      "word": "Gaule"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": "Paris",
+     "when": 0.4
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "842",
+   "text": "Les premiers mots de français",
+   "focus": {
+    "box": [
+     -2.0,
+     45.5,
+     12.0,
+     51.5
+    ]
+   },
+   "pills": [
+    {
+     "at": "Strasbourg",
+     "title": "Strasbourg",
+     "sub": "serments de 842",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "Strasbourg",
+      "d": 0.1
+     }
+    }
+   ],
+   "say": [
+    "En 842, les serments de Strasbourg sont le plus ancien texte écrit dans une langue proche du français.",
+    "Le français est né du latin parlé, qui a changé au fil des siècles."
+   ],
+   "people": [
+    {
+     "who": "roi",
+     "at": [
+      2.8,
+      47.9
+     ],
+     "size": 200,
+     "when": {
+      "line": 0,
+      "word": "842",
+      "d": 0.3
+     },
+     "label": {
+      "title": "Charles le Chauve",
+      "sub": "serment en tudesque"
+     }
+    },
+    {
+     "who": "roi",
+     "at": [
+      7.8,
+      46.9
+     ],
+     "size": 200,
+     "when": {
+      "line": 0,
+      "word": "842",
+      "d": 0.8
+     },
+     "label": {
+      "title": "Louis le Germanique",
+      "sub": "serment en roman"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": "Paris",
+     "when": 0.4
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1539",
+   "text": "Le français remplace le latin dans la justice",
+   "focus": {
+    "box": [
+     -2.0,
+     46.0,
+     7.0,
+     51.5
+    ]
+   },
+   "pills": [
+    {
+     "at": "Villers-Cotterêts",
+     "title": "Villers-Cotterêts",
+     "sub": "ordonnance de 1539",
+     "side": "r",
+     "when": {
+      "line": 1,
+      "word": "Villers-Cotterêts",
+      "d": -0.4
+     }
+    },
+    {
+     "at": "Paris",
+     "title": "Paris",
+     "side": "l",
+     "when": {
+      "line": 0,
+      "word": "François"
+     }
+    }
+   ],
+   "people": [
+    {
+     "who": "roi",
+     "at": [
+      1.0,
+      48.4
+     ],
+     "size": 230,
+     "say": "En français !",
+     "when": {
+      "line": 0,
+      "word": "François",
+      "d": 0.4
+     }
+    },
+    {
+     "who": "savant",
+     "at": [
+      -0.4,
+      47.3
+     ],
+     "size": 210,
+     "when": {
+      "line": 0,
+      "word": "justice"
+     },
+     "label": {
+      "title": "Un greffier",
+      "sub": "écrit en français"
+     }
+    }
+   ],
+   "say": [
+    "En 1539, le roi François Ier ordonne d’écrire les actes de justice en français, et non plus en latin.",
+    "C’est l’ordonnance de Villers-Cotterêts."
+   ],
+   "beacon": [
+    {
+     "at": "Paris",
+     "when": 0.4
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1794",
+   "text": "Des millions de Français ne le parlent pas",
+   "focus": {
+    "box": [
+     -5.5,
+     41.0,
+     10.0,
+     51.5
+    ]
+   },
+   "big": {
+    "value": "6 000 000",
+    "sub": "de Français ignorent le français (estimation)",
+    "at": {
+     "line": 0,
+     "word": "millions",
+     "d": -0.4
+    },
+    "dur": 2.8
+   },
+   "say": [
+    "En 1794, Grégoire, député à la Convention, estime qu’au moins six millions de Français ignorent la langue nationale.",
+    "Ils parlent breton, occitan, alsacien, basque… Il veut anéantir les patois."
+   ],
+   "people": [
+    {
+     "who": "paysan",
+     "at": "Brest",
+     "size": 210,
+     "say": "Demat !",
+     "when": {
+      "line": 1,
+      "word": "breton"
+     }
+    },
+    {
+     "who": "paysan",
+     "at": "Toulouse",
+     "size": 210,
+     "say": "Adiu !",
+     "when": {
+      "line": 1,
+      "word": "occitan"
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": "Paris",
+     "title": "Paris",
+     "side": "t",
+     "sub": "Grégoire",
+     "when": {
+      "line": 0,
+      "word": "Grégoire"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": "Paris",
+     "when": 0.4
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1881 – 1882",
+   "text": "L’école pour tous",
+   "focus": {
+    "box": [
+     -5.5,
+     41.0,
+     10.0,
+     51.5
+    ]
+   },
+   "people": [
+    {
+     "who": "savant",
+     "at": "Paris",
+     "size": 230,
+     "label": {
+      "title": "Jules Ferry",
+      "sub": "école gratuite et obligatoire"
+     },
+     "when": {
+      "line": 0,
+      "word": "Ferry",
+      "d": 0.2
+     }
+    },
+    {
+     "who": "paysan",
+     "at": "Brest",
+     "size": 210,
+     "say": "Bonjour !",
+     "when": {
+      "line": 1,
+      "word": "français",
+      "d": 0.3
+     },
+     "wave": true,
+     "mood": "happy"
+    }
+   ],
+   "say": [
+    "En 1881 et 1882, les lois de Jules Ferry rendent l’école primaire gratuite, puis obligatoire.",
+    "On y enseigne en français : en quelques générations, il devient la langue de tous."
+   ],
+   "pills": [
+    {
+     "at": "Bordeaux",
+     "title": "1881",
+     "side": "l",
+     "sub": "école gratuite",
+     "when": {
+      "line": 0,
+      "word": "gratuite"
+     }
+    },
+    {
+     "at": "Marseille",
+     "title": "1882",
+     "side": "b",
+     "sub": "école obligatoire",
+     "when": {
+      "line": 0,
+      "word": "obligatoire"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": "Paris",
+     "when": 0.4
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "Aujourd’hui",
+   "text": "Les langues de France",
+   "focus": {
+    "box": [
+     -5.5,
+     41.0,
+     10.0,
+     51.5
+    ]
+   },
+   "labels": [
+    {
+     "text": "Breton",
+     "at": [
+      -3.0,
+      48.2
+     ],
+     "size": 42,
+     "when": {
+      "line": 0,
+      "word": "breton"
+     }
+    },
+    {
+     "text": "Alsacien",
+     "at": [
+      7.4,
+      48.3
+     ],
+     "size": 42,
+     "when": {
+      "line": 0,
+      "word": "alsacien"
+     }
+    },
+    {
+     "text": "Occitan",
+     "at": [
+      1.5,
+      43.9
+     ],
+     "size": 46,
+     "when": {
+      "line": 0,
+      "word": "occitan"
+     }
+    },
+    {
+     "text": "Basque",
+     "at": [
+      -1.3,
+      43.2
+     ],
+     "size": 38,
+     "when": {
+      "line": 1,
+      "word": "basque"
+     }
+    },
+    {
+     "text": "Corse",
+     "at": [
+      9.1,
+      42.2
+     ],
+     "size": 40,
+     "when": {
+      "line": 1,
+      "word": "corse"
+     }
+    }
+   ],
+   "say": [
+    "Plusieurs langues régionales survivent, certaines menacées : le breton, l’alsacien, l’occitan…",
+    "le basque, le corse. Depuis 2008, la Constitution dit qu’elles appartiennent au patrimoine de la France."
+   ],
+   "people": [
+    {
+     "who": "paysan",
+     "at": [
+      -3.0,
+      47.9
+     ],
+     "size": 190,
+     "say": "Demat !",
+     "when": {
+      "line": 0,
+      "word": "breton",
+      "d": 0.4
+     }
+    },
+    {
+     "who": "paysan",
+     "at": "Strasbourg",
+     "size": 190,
+     "when": {
+      "line": 0,
+      "word": "alsacien",
+      "d": 0.4
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": "Toulouse",
+     "title": "Toulouse",
+     "side": "b",
+     "sub": "occitan",
+     "when": {
+      "line": 0,
+      "word": "occitan",
+      "d": 0.3
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": "Paris",
+     "when": 0.4
+    }
+   ]
+  },
+  {
+   "type": "final",
+   "text": "Une langue venue de loin",
+   "sub": "La France",
+   "focus": {
+    "box": [
+     -5.5,
+     41.0,
+     10.0,
+     51.5
+    ]
+   },
+   "say": [
+    "Voilà pourquoi la France parle français !"
+   ],
+   "people": [
+    {
+     "who": "paysan",
+     "at": "Paris",
+     "size": 220,
+     "say": "À bientôt !",
+     "when": 3.0,
+     "wave": true
+    }
+   ],
+   "pills": [
+    {
+     "at": "Paris",
+     "title": "Paris",
+     "side": "t",
+     "when": 2.0
+    }
+   ]
+  }
+ ],
+ "base": {
+  "countries": [
+   "France"
+  ]
+ },
+ "terrain": [
+  {
+   "box": [
+    -12,
+    34,
+    34,
+    66
+   ],
+   "px": 2800,
+   "z": 6
+  },
+  {
+   "box": [
+    -5.9,
+    40.6,
+    12.4,
+    51.9
+   ],
+   "px": 2800,
+   "z": 8
+  }
+ ]
+}

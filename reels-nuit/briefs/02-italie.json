@@ -1,0 +1,2056 @@
+{
+ "format": "atlas",
+ "id": "atlas-italie-1861",
+ "scenes": [
+  {
+   "type": "hook",
+   "text": "Avant 1861, l’Italie n’était pas un pays : comment est-elle née ?",
+   "focus": {
+    "box": [
+     5.5,
+     36.2,
+     19,
+     47.4
+    ]
+   },
+   "highlight": {
+    "countries": [
+     "Italy"
+    ],
+    "color": "#2F9E6B",
+    "keep": false,
+    "at": {
+     "line": 0,
+     "word": "née",
+     "d": -0.3
+    }
+   },
+   "say": [
+    "Avant 1861, l’Italie n’était pas un pays : comment est-elle née ?"
+   ],
+   "people": [
+    {
+     "who": "paysan",
+     "at": "Rome",
+     "size": 240,
+     "say": "Ciao !",
+     "when": {
+      "line": 0,
+      "word": "Avant",
+      "d": 0.2
+     },
+     "wave": true,
+     "mood": "happy"
+    }
+   ],
+   "pills": [
+    {
+     "at": "Turin",
+     "title": "1861",
+     "side": "t",
+     "when": {
+      "line": 0,
+      "word": "née",
+      "d": -0.3
+     }
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "Vers 1850",
+   "text": "Une mosaïque d’États",
+   "focus": {
+    "box": [
+     5.5,
+     36.2,
+     19,
+     47.4
+    ]
+   },
+   "pills": [
+    {
+     "at": "Turin",
+     "title": "Piémont-Sardaigne",
+     "side": "t",
+     "when": {
+      "line": 0,
+      "word": "Piémont",
+      "d": 0.1
+     }
+    },
+    {
+     "at": "Milan",
+     "title": "Lombardie",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "Lombardie",
+      "d": 0.1
+     }
+    },
+    {
+     "at": "Rome",
+     "title": "États du pape",
+     "side": "l",
+     "when": {
+      "line": 1,
+      "word": "pape",
+      "d": 0.1
+     }
+    },
+    {
+     "at": "Naples",
+     "title": "Deux-Siciles",
+     "side": "b",
+     "when": {
+      "line": 1,
+      "word": "Deux-Siciles",
+      "d": 0.1
+     }
+    }
+   ],
+   "say": [
+    "Vers 1850, l’Italie est un puzzle : le Piémont, la Lombardie et la Vénétie autrichiennes…",
+    "les États du pape, le royaume des Deux-Siciles, et plusieurs duchés."
+   ],
+   "people": [
+    {
+     "who": "soldat",
+     "at": [
+      11.8,
+      45.6
+     ],
+     "size": 200,
+     "say": "Autrichiens",
+     "when": {
+      "line": 0,
+      "word": "Vénétie",
+      "d": 0.1
+     }
+    },
+    {
+     "who": "roi",
+     "at": [
+      15.8,
+      41.2
+     ],
+     "size": 200,
+     "say": "Mon royaume",
+     "when": {
+      "line": 1,
+      "word": "Deux-Siciles",
+      "d": 0.4
+     },
+     "crown": true
+    }
+   ],
+   "labels": [
+    {
+     "text": "Toscane",
+     "at": [
+      11.1,
+      43.5
+     ],
+     "size": 44,
+     "when": {
+      "line": 1,
+      "word": "duchés",
+      "d": 0
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": "Turin",
+     "when": 0.4
+    }
+   ],
+   "highlight": [
+    {
+     "regions": [
+      {
+       "c": "Italy",
+       "n": "Aoste"
+      },
+      {
+       "c": "Italy",
+       "n": "Verbano-Cusio-Ossola"
+      },
+      {
+       "c": "Italy",
+       "n": "Imperia"
+      },
+      {
+       "c": "Italy",
+       "n": "Cuneo"
+      },
+      {
+       "c": "Italy",
+       "n": "Turin"
+      },
+      {
+       "c": "Italy",
+       "n": "Asti"
+      },
+      {
+       "c": "Italy",
+       "n": "Vercelli"
+      },
+      {
+       "c": "Italy",
+       "n": "Novara"
+      },
+      {
+       "c": "Italy",
+       "n": "Alessandria"
+      },
+      {
+       "c": "Italy",
+       "n": "Biella"
+      },
+      {
+       "c": "Italy",
+       "n": "La Spezia"
+      },
+      {
+       "c": "Italy",
+       "n": "Genova"
+      },
+      {
+       "c": "Italy",
+       "n": "Savona"
+      },
+      {
+       "c": "Italy",
+       "n": "Carbonia-Iglesias"
+      },
+      {
+       "c": "Italy",
+       "n": "Sassari"
+      },
+      {
+       "c": "Italy",
+       "n": "Nuoro"
+      },
+      {
+       "c": "Italy",
+       "n": "Olbia-Tempio"
+      },
+      {
+       "c": "Italy",
+       "n": "Oristrano"
+      },
+      {
+       "c": "Italy",
+       "n": "Medio Campidano"
+      },
+      {
+       "c": "Italy",
+       "n": "Cagliari"
+      },
+      {
+       "c": "Italy",
+       "n": "Ogliastra"
+      }
+     ],
+     "color": "#4FA3E0",
+     "at": {
+      "line": 0,
+      "word": "Piémont",
+      "d": 0.1
+     },
+     "keep": true
+    },
+    {
+     "regions": [
+      {
+       "c": "Italy",
+       "n": "Varese"
+      },
+      {
+       "c": "Italy",
+       "n": "Como"
+      },
+      {
+       "c": "Italy",
+       "n": "Lecco"
+      },
+      {
+       "c": "Italy",
+       "n": "Sondrio"
+      },
+      {
+       "c": "Italy",
+       "n": "Milano"
+      },
+      {
+       "c": "Italy",
+       "n": "Monza e Brianza"
+      },
+      {
+       "c": "Italy",
+       "n": "Lodi"
+      },
+      {
+       "c": "Italy",
+       "n": "Pavia"
+      },
+      {
+       "c": "Italy",
+       "n": "Bergamo"
+      },
+      {
+       "c": "Italy",
+       "n": "Brescia"
+      },
+      {
+       "c": "Italy",
+       "n": "Cremona"
+      },
+      {
+       "c": "Italy",
+       "n": "Mantova"
+      },
+      {
+       "c": "Italy",
+       "n": "Venezia"
+      },
+      {
+       "c": "Italy",
+       "n": "Padova"
+      },
+      {
+       "c": "Italy",
+       "n": "Rovigo"
+      },
+      {
+       "c": "Italy",
+       "n": "Treviso"
+      },
+      {
+       "c": "Italy",
+       "n": "Vicenza"
+      },
+      {
+       "c": "Italy",
+       "n": "Verona"
+      },
+      {
+       "c": "Italy",
+       "n": "Belluno"
+      },
+      {
+       "c": "Italy",
+       "n": "Udine"
+      },
+      {
+       "c": "Italy",
+       "n": "Pordenone"
+      }
+     ],
+     "color": "#E8503A",
+     "at": {
+      "line": 0,
+      "word": "Lombardie",
+      "d": 0.1
+     },
+     "keep": true
+    },
+    {
+     "regions": [
+      {
+       "c": "Italy",
+       "n": "Roma"
+      },
+      {
+       "c": "Italy",
+       "n": "Viterbo"
+      },
+      {
+       "c": "Italy",
+       "n": "Latina"
+      },
+      {
+       "c": "Italy",
+       "n": "Frosinone"
+      },
+      {
+       "c": "Italy",
+       "n": "Rieti"
+      },
+      {
+       "c": "Italy",
+       "n": "Pesaro e Urbino"
+      },
+      {
+       "c": "Italy",
+       "n": "Ancona"
+      },
+      {
+       "c": "Italy",
+       "n": "Macerata"
+      },
+      {
+       "c": "Italy",
+       "n": "Fermo"
+      },
+      {
+       "c": "Italy",
+       "n": "Ascoli Piceno"
+      },
+      {
+       "c": "Italy",
+       "n": "Perugia"
+      },
+      {
+       "c": "Italy",
+       "n": "Terni"
+      },
+      {
+       "c": "Italy",
+       "n": "Bologna"
+      },
+      {
+       "c": "Italy",
+       "n": "Ferrara"
+      },
+      {
+       "c": "Italy",
+       "n": "Ravenna"
+      },
+      {
+       "c": "Italy",
+       "n": "Forlì-Cesena"
+      },
+      {
+       "c": "Italy",
+       "n": "Rimini"
+      }
+     ],
+     "color": "#FFD83C",
+     "at": {
+      "line": 1,
+      "word": "pape",
+      "d": 0.1
+     },
+     "keep": true
+    },
+    {
+     "regions": [
+      {
+       "c": "Italy",
+       "n": "Teramo"
+      },
+      {
+       "c": "Italy",
+       "n": "Pescara"
+      },
+      {
+       "c": "Italy",
+       "n": "Chieti"
+      },
+      {
+       "c": "Italy",
+       "n": "L'Aquila"
+      },
+      {
+       "c": "Italy",
+       "n": "Campobasso"
+      },
+      {
+       "c": "Italy",
+       "n": "Isernia"
+      },
+      {
+       "c": "Italy",
+       "n": "Salerno"
+      },
+      {
+       "c": "Italy",
+       "n": "Napoli"
+      },
+      {
+       "c": "Italy",
+       "n": "Caserta"
+      },
+      {
+       "c": "Italy",
+       "n": "Benevento"
+      },
+      {
+       "c": "Italy",
+       "n": "Avellino"
+      },
+      {
+       "c": "Italy",
+       "n": "Foggia"
+      },
+      {
+       "c": "Italy",
+       "n": "Barletta-Andria Trani"
+      },
+      {
+       "c": "Italy",
+       "n": "Bari"
+      },
+      {
+       "c": "Italy",
+       "n": "Brindisi"
+      },
+      {
+       "c": "Italy",
+       "n": "Lecce"
+      },
+      {
+       "c": "Italy",
+       "n": "Taranto"
+      },
+      {
+       "c": "Italy",
+       "n": "Matera"
+      },
+      {
+       "c": "Italy",
+       "n": "Potenza"
+      },
+      {
+       "c": "Italy",
+       "n": "Cosenza"
+      },
+      {
+       "c": "Italy",
+       "n": "Crotene"
+      },
+      {
+       "c": "Italy",
+       "n": "Catanzaro"
+      },
+      {
+       "c": "Italy",
+       "n": "Reggio Calabria"
+      },
+      {
+       "c": "Italy",
+       "n": "Vibo Valentia"
+      },
+      {
+       "c": "Italy",
+       "n": "Trapani"
+      },
+      {
+       "c": "Italy",
+       "n": "Messina"
+      },
+      {
+       "c": "Italy",
+       "n": "Palermo"
+      },
+      {
+       "c": "Italy",
+       "n": "Agrigento"
+      },
+      {
+       "c": "Italy",
+       "n": "Caltanissetta"
+      },
+      {
+       "c": "Italy",
+       "n": "Ragusa"
+      },
+      {
+       "c": "Italy",
+       "n": "Siracusa"
+      },
+      {
+       "c": "Italy",
+       "n": "Catania"
+      },
+      {
+       "c": "Italy",
+       "n": "Enna"
+      }
+     ],
+     "color": "#FF9F43",
+     "at": {
+      "line": 1,
+      "word": "Deux-Siciles",
+      "d": 0.1
+     },
+     "keep": true
+    },
+    {
+     "regions": [
+      {
+       "c": "Italy",
+       "n": "Grosseto"
+      },
+      {
+       "c": "Italy",
+       "n": "Livorno"
+      },
+      {
+       "c": "Italy",
+       "n": "Pisa"
+      },
+      {
+       "c": "Italy",
+       "n": "Lucca"
+      },
+      {
+       "c": "Italy",
+       "n": "Siena"
+      },
+      {
+       "c": "Italy",
+       "n": "Arezzo"
+      },
+      {
+       "c": "Italy",
+       "n": "Firenze"
+      },
+      {
+       "c": "Italy",
+       "n": "Pistoia"
+      },
+      {
+       "c": "Italy",
+       "n": "Prato"
+      }
+     ],
+     "color": "#B07CE0",
+     "at": {
+      "line": 1,
+      "word": "duchés",
+      "d": -0.3
+     },
+     "keep": true
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1859",
+   "text": "Le Piémont bat l’Autriche",
+   "focus": {
+    "box": [
+     5.5,
+     43,
+     14.5,
+     47.4
+    ]
+   },
+   "moves": [
+    {
+     "from": "Turin",
+     "to": "Milan",
+     "n": 6,
+     "color": "#3B82F6",
+     "label": "Alliance",
+     "at": {
+      "line": 0,
+      "word": "France",
+      "d": -0.2
+     },
+     "dur": 2.4
+    }
+   ],
+   "say": [
+    "En 1859, le Piémont et la France de Napoléon III battent l’Autriche.",
+    "Il gagne la Lombardie, et Milan devient piémontaise."
+   ],
+   "people": [
+    {
+     "who": "soldat",
+     "at": [
+      9.5,
+      45.4
+     ],
+     "size": 170,
+     "say": "Victoire !",
+     "when": {
+      "line": 1,
+      "word": "Lombardie",
+      "d": 0.3
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": "Turin",
+     "title": "Piémont",
+     "side": "l",
+     "when": {
+      "line": 0,
+      "word": "Piémont",
+      "d": 0
+     }
+    },
+    {
+     "at": "Milan",
+     "title": "Milan 1859",
+     "side": "t",
+     "when": {
+      "line": 1,
+      "word": "Milan",
+      "d": 0.1
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": "Milan",
+     "when": 0.4
+    }
+   ],
+   "highlight": {
+    "regions": [
+     {
+      "c": "Italy",
+      "n": "Varese"
+     },
+     {
+      "c": "Italy",
+      "n": "Como"
+     },
+     {
+      "c": "Italy",
+      "n": "Lecco"
+     },
+     {
+      "c": "Italy",
+      "n": "Sondrio"
+     },
+     {
+      "c": "Italy",
+      "n": "Milano"
+     },
+     {
+      "c": "Italy",
+      "n": "Monza e Brianza"
+     },
+     {
+      "c": "Italy",
+      "n": "Lodi"
+     },
+     {
+      "c": "Italy",
+      "n": "Pavia"
+     },
+     {
+      "c": "Italy",
+      "n": "Bergamo"
+     },
+     {
+      "c": "Italy",
+      "n": "Brescia"
+     },
+     {
+      "c": "Italy",
+      "n": "Cremona"
+     }
+    ],
+    "color": "#4FA3E0",
+    "keep": true,
+    "at": {
+     "line": 1,
+     "word": "Lombardie",
+     "d": -0.2
+    }
+   },
+   "labels": [
+    {
+     "text": "France",
+     "at": [
+      6,
+      45.2
+     ],
+     "size": 40,
+     "when": {
+      "line": 0,
+      "word": "France",
+      "d": 0
+     }
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1860",
+   "text": "Garibaldi et ses Mille",
+   "focus": {
+    "box": [
+     7,
+     35.5,
+     18,
+     45.5
+    ]
+   },
+   "moves": [
+    {
+     "from": "Gênes",
+     "to": "Marsala",
+     "n": 6,
+     "color": "#C62828",
+     "at": {
+      "line": 0,
+      "word": "embarque",
+      "d": -0.2
+     },
+     "dur": 3
+    },
+    {
+     "from": "Marsala",
+     "to": "Naples",
+     "n": 6,
+     "color": "#C62828",
+     "at": {
+      "line": 1,
+      "word": "remontent",
+      "d": -0.1
+     },
+     "dur": 2.6
+    }
+   ],
+   "people": [
+    {
+     "who": "rebelle",
+     "at": "Marsala",
+     "size": 170,
+     "label": {
+      "title": "Garibaldi",
+      "sub": "chemise rouge"
+     },
+     "say": "Vers Naples !",
+     "when": {
+      "line": 1,
+      "word": "Sicile",
+      "d": 0.2
+     }
+    }
+   ],
+   "say": [
+    "En 1860, Garibaldi quitte Gênes avec plus de mille volontaires en chemise rouge.",
+    "Ils débarquent en Sicile, remontent à Naples, et le Piémont annexe le centre."
+   ],
+   "pills": [
+    {
+     "at": "Gênes",
+     "title": "Gênes, mai 1860",
+     "side": "t",
+     "when": {
+      "line": 0,
+      "word": "Gênes",
+      "d": 0
+     }
+    },
+    {
+     "at": "Naples",
+     "title": "Naples, sept. 1860",
+     "side": "b",
+     "when": {
+      "line": 1,
+      "word": "Naples",
+      "d": 0
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Sicile",
+     "at": [
+      14.2,
+      37.6
+     ],
+     "size": 42,
+     "when": {
+      "line": 1,
+      "word": "Sicile",
+      "d": 0
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": "Marsala",
+     "when": 0.4
+    }
+   ],
+   "art": [
+    {
+     "kind": "stats",
+     "at": {
+      "line": 0,
+      "word": "mille",
+      "d": -0.3
+     },
+     "dur": 2.5,
+     "title": "L’expédition des Mille",
+     "sub": "mai – septembre 1860",
+     "items": [
+      {
+       "value": 1089,
+       "label": "volontaires",
+       "color": "#FF6B5A"
+      }
+     ]
+    }
+   ],
+   "highlight": [
+    {
+     "regions": [
+      {
+       "c": "Italy",
+       "n": "Teramo"
+      },
+      {
+       "c": "Italy",
+       "n": "Pescara"
+      },
+      {
+       "c": "Italy",
+       "n": "Chieti"
+      },
+      {
+       "c": "Italy",
+       "n": "L'Aquila"
+      },
+      {
+       "c": "Italy",
+       "n": "Campobasso"
+      },
+      {
+       "c": "Italy",
+       "n": "Isernia"
+      },
+      {
+       "c": "Italy",
+       "n": "Salerno"
+      },
+      {
+       "c": "Italy",
+       "n": "Napoli"
+      },
+      {
+       "c": "Italy",
+       "n": "Caserta"
+      },
+      {
+       "c": "Italy",
+       "n": "Benevento"
+      },
+      {
+       "c": "Italy",
+       "n": "Avellino"
+      },
+      {
+       "c": "Italy",
+       "n": "Foggia"
+      },
+      {
+       "c": "Italy",
+       "n": "Barletta-Andria Trani"
+      },
+      {
+       "c": "Italy",
+       "n": "Bari"
+      },
+      {
+       "c": "Italy",
+       "n": "Brindisi"
+      },
+      {
+       "c": "Italy",
+       "n": "Lecce"
+      },
+      {
+       "c": "Italy",
+       "n": "Taranto"
+      },
+      {
+       "c": "Italy",
+       "n": "Matera"
+      },
+      {
+       "c": "Italy",
+       "n": "Potenza"
+      },
+      {
+       "c": "Italy",
+       "n": "Cosenza"
+      },
+      {
+       "c": "Italy",
+       "n": "Crotene"
+      },
+      {
+       "c": "Italy",
+       "n": "Catanzaro"
+      },
+      {
+       "c": "Italy",
+       "n": "Reggio Calabria"
+      },
+      {
+       "c": "Italy",
+       "n": "Vibo Valentia"
+      },
+      {
+       "c": "Italy",
+       "n": "Trapani"
+      },
+      {
+       "c": "Italy",
+       "n": "Messina"
+      },
+      {
+       "c": "Italy",
+       "n": "Palermo"
+      },
+      {
+       "c": "Italy",
+       "n": "Agrigento"
+      },
+      {
+       "c": "Italy",
+       "n": "Caltanissetta"
+      },
+      {
+       "c": "Italy",
+       "n": "Ragusa"
+      },
+      {
+       "c": "Italy",
+       "n": "Siracusa"
+      },
+      {
+       "c": "Italy",
+       "n": "Catania"
+      },
+      {
+       "c": "Italy",
+       "n": "Enna"
+      }
+     ],
+     "color": "#4FA3E0",
+     "at": {
+      "line": 1,
+      "word": "Naples",
+      "d": 0.3
+     },
+     "keep": true
+    },
+    {
+     "regions": [
+      {
+       "c": "Italy",
+       "n": "Pesaro e Urbino"
+      },
+      {
+       "c": "Italy",
+       "n": "Ancona"
+      },
+      {
+       "c": "Italy",
+       "n": "Macerata"
+      },
+      {
+       "c": "Italy",
+       "n": "Fermo"
+      },
+      {
+       "c": "Italy",
+       "n": "Ascoli Piceno"
+      },
+      {
+       "c": "Italy",
+       "n": "Perugia"
+      },
+      {
+       "c": "Italy",
+       "n": "Terni"
+      },
+      {
+       "c": "Italy",
+       "n": "Bologna"
+      },
+      {
+       "c": "Italy",
+       "n": "Ferrara"
+      },
+      {
+       "c": "Italy",
+       "n": "Ravenna"
+      },
+      {
+       "c": "Italy",
+       "n": "Forlì-Cesena"
+      },
+      {
+       "c": "Italy",
+       "n": "Rimini"
+      },
+      {
+       "c": "Italy",
+       "n": "Piacenza"
+      },
+      {
+       "c": "Italy",
+       "n": "Parma"
+      },
+      {
+       "c": "Italy",
+       "n": "Reggio Emilia"
+      },
+      {
+       "c": "Italy",
+       "n": "Modena"
+      },
+      {
+       "c": "Italy",
+       "n": "Massa-Carrara"
+      },
+      {
+       "c": "Italy",
+       "n": "Grosseto"
+      },
+      {
+       "c": "Italy",
+       "n": "Livorno"
+      },
+      {
+       "c": "Italy",
+       "n": "Pisa"
+      },
+      {
+       "c": "Italy",
+       "n": "Lucca"
+      },
+      {
+       "c": "Italy",
+       "n": "Siena"
+      },
+      {
+       "c": "Italy",
+       "n": "Arezzo"
+      },
+      {
+       "c": "Italy",
+       "n": "Firenze"
+      },
+      {
+       "c": "Italy",
+       "n": "Pistoia"
+      },
+      {
+       "c": "Italy",
+       "n": "Prato"
+      }
+     ],
+     "color": "#4FA3E0",
+     "at": {
+      "line": 1,
+      "word": "centre",
+      "d": -0.2
+     },
+     "keep": true
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1861",
+   "text": "Le royaume d’Italie",
+   "focus": {
+    "box": [
+     5.5,
+     36.2,
+     19,
+     47.4
+    ]
+   },
+   "people": [
+    {
+     "who": "roi",
+     "at": [
+      8.2,
+      45.2
+     ],
+     "size": 240,
+     "say": "Roi d’Italie !",
+     "when": {
+      "line": 0,
+      "word": "Victor",
+      "d": 0.2
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": "Venise",
+     "title": "Venise, pas encore",
+     "side": "r",
+     "when": {
+      "line": 1,
+      "word": "Venise",
+      "d": 0.1
+     }
+    },
+    {
+     "at": "Rome",
+     "title": "Rome, pas encore",
+     "side": "r",
+     "when": {
+      "line": 1,
+      "word": "Rome",
+      "d": 0.1
+     }
+    }
+   ],
+   "say": [
+    "Le 17 mars 1861, Victor-Emmanuel II est proclamé roi d’Italie.",
+    "Mais il manque encore Venise et Rome !"
+   ],
+   "labels": [
+    {
+     "text": "Royaume d’Italie",
+     "at": [
+      11.2,
+      43.9
+     ],
+     "size": 46,
+     "when": {
+      "line": 0,
+      "word": "proclamé",
+      "d": 0
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": "Turin",
+     "when": 0.4
+    }
+   ],
+   "highlight": {
+    "regions": [
+     {
+      "c": "Italy",
+      "n": "Aoste"
+     },
+     {
+      "c": "Italy",
+      "n": "Verbano-Cusio-Ossola"
+     },
+     {
+      "c": "Italy",
+      "n": "Imperia"
+     },
+     {
+      "c": "Italy",
+      "n": "Cuneo"
+     },
+     {
+      "c": "Italy",
+      "n": "Turin"
+     },
+     {
+      "c": "Italy",
+      "n": "Asti"
+     },
+     {
+      "c": "Italy",
+      "n": "Vercelli"
+     },
+     {
+      "c": "Italy",
+      "n": "Novara"
+     },
+     {
+      "c": "Italy",
+      "n": "Alessandria"
+     },
+     {
+      "c": "Italy",
+      "n": "Biella"
+     },
+     {
+      "c": "Italy",
+      "n": "La Spezia"
+     },
+     {
+      "c": "Italy",
+      "n": "Genova"
+     },
+     {
+      "c": "Italy",
+      "n": "Savona"
+     },
+     {
+      "c": "Italy",
+      "n": "Carbonia-Iglesias"
+     },
+     {
+      "c": "Italy",
+      "n": "Sassari"
+     },
+     {
+      "c": "Italy",
+      "n": "Nuoro"
+     },
+     {
+      "c": "Italy",
+      "n": "Olbia-Tempio"
+     },
+     {
+      "c": "Italy",
+      "n": "Oristrano"
+     },
+     {
+      "c": "Italy",
+      "n": "Medio Campidano"
+     },
+     {
+      "c": "Italy",
+      "n": "Cagliari"
+     },
+     {
+      "c": "Italy",
+      "n": "Ogliastra"
+     },
+     {
+      "c": "Italy",
+      "n": "Varese"
+     },
+     {
+      "c": "Italy",
+      "n": "Como"
+     },
+     {
+      "c": "Italy",
+      "n": "Lecco"
+     },
+     {
+      "c": "Italy",
+      "n": "Sondrio"
+     },
+     {
+      "c": "Italy",
+      "n": "Milano"
+     },
+     {
+      "c": "Italy",
+      "n": "Monza e Brianza"
+     },
+     {
+      "c": "Italy",
+      "n": "Lodi"
+     },
+     {
+      "c": "Italy",
+      "n": "Pavia"
+     },
+     {
+      "c": "Italy",
+      "n": "Bergamo"
+     },
+     {
+      "c": "Italy",
+      "n": "Brescia"
+     },
+     {
+      "c": "Italy",
+      "n": "Cremona"
+     },
+     {
+      "c": "Italy",
+      "n": "Mantova"
+     },
+     {
+      "c": "Italy",
+      "n": "Pesaro e Urbino"
+     },
+     {
+      "c": "Italy",
+      "n": "Ancona"
+     },
+     {
+      "c": "Italy",
+      "n": "Macerata"
+     },
+     {
+      "c": "Italy",
+      "n": "Fermo"
+     },
+     {
+      "c": "Italy",
+      "n": "Ascoli Piceno"
+     },
+     {
+      "c": "Italy",
+      "n": "Perugia"
+     },
+     {
+      "c": "Italy",
+      "n": "Terni"
+     },
+     {
+      "c": "Italy",
+      "n": "Bologna"
+     },
+     {
+      "c": "Italy",
+      "n": "Ferrara"
+     },
+     {
+      "c": "Italy",
+      "n": "Ravenna"
+     },
+     {
+      "c": "Italy",
+      "n": "Forlì-Cesena"
+     },
+     {
+      "c": "Italy",
+      "n": "Rimini"
+     },
+     {
+      "c": "Italy",
+      "n": "Piacenza"
+     },
+     {
+      "c": "Italy",
+      "n": "Parma"
+     },
+     {
+      "c": "Italy",
+      "n": "Reggio Emilia"
+     },
+     {
+      "c": "Italy",
+      "n": "Modena"
+     },
+     {
+      "c": "Italy",
+      "n": "Massa-Carrara"
+     },
+     {
+      "c": "Italy",
+      "n": "Grosseto"
+     },
+     {
+      "c": "Italy",
+      "n": "Livorno"
+     },
+     {
+      "c": "Italy",
+      "n": "Pisa"
+     },
+     {
+      "c": "Italy",
+      "n": "Lucca"
+     },
+     {
+      "c": "Italy",
+      "n": "Siena"
+     },
+     {
+      "c": "Italy",
+      "n": "Arezzo"
+     },
+     {
+      "c": "Italy",
+      "n": "Firenze"
+     },
+     {
+      "c": "Italy",
+      "n": "Pistoia"
+     },
+     {
+      "c": "Italy",
+      "n": "Prato"
+     },
+     {
+      "c": "Italy",
+      "n": "Teramo"
+     },
+     {
+      "c": "Italy",
+      "n": "Pescara"
+     },
+     {
+      "c": "Italy",
+      "n": "Chieti"
+     },
+     {
+      "c": "Italy",
+      "n": "L'Aquila"
+     },
+     {
+      "c": "Italy",
+      "n": "Campobasso"
+     },
+     {
+      "c": "Italy",
+      "n": "Isernia"
+     },
+     {
+      "c": "Italy",
+      "n": "Salerno"
+     },
+     {
+      "c": "Italy",
+      "n": "Napoli"
+     },
+     {
+      "c": "Italy",
+      "n": "Caserta"
+     },
+     {
+      "c": "Italy",
+      "n": "Benevento"
+     },
+     {
+      "c": "Italy",
+      "n": "Avellino"
+     },
+     {
+      "c": "Italy",
+      "n": "Foggia"
+     },
+     {
+      "c": "Italy",
+      "n": "Barletta-Andria Trani"
+     },
+     {
+      "c": "Italy",
+      "n": "Bari"
+     },
+     {
+      "c": "Italy",
+      "n": "Brindisi"
+     },
+     {
+      "c": "Italy",
+      "n": "Lecce"
+     },
+     {
+      "c": "Italy",
+      "n": "Taranto"
+     },
+     {
+      "c": "Italy",
+      "n": "Matera"
+     },
+     {
+      "c": "Italy",
+      "n": "Potenza"
+     },
+     {
+      "c": "Italy",
+      "n": "Cosenza"
+     },
+     {
+      "c": "Italy",
+      "n": "Crotene"
+     },
+     {
+      "c": "Italy",
+      "n": "Catanzaro"
+     },
+     {
+      "c": "Italy",
+      "n": "Reggio Calabria"
+     },
+     {
+      "c": "Italy",
+      "n": "Vibo Valentia"
+     },
+     {
+      "c": "Italy",
+      "n": "Trapani"
+     },
+     {
+      "c": "Italy",
+      "n": "Messina"
+     },
+     {
+      "c": "Italy",
+      "n": "Palermo"
+     },
+     {
+      "c": "Italy",
+      "n": "Agrigento"
+     },
+     {
+      "c": "Italy",
+      "n": "Caltanissetta"
+     },
+     {
+      "c": "Italy",
+      "n": "Ragusa"
+     },
+     {
+      "c": "Italy",
+      "n": "Siracusa"
+     },
+     {
+      "c": "Italy",
+      "n": "Catania"
+     },
+     {
+      "c": "Italy",
+      "n": "Enna"
+     }
+    ],
+    "color": "#2F9E6B",
+    "at": {
+     "line": 0,
+     "word": "proclamé",
+     "d": -0.2
+    },
+    "keep": true
+   }
+  },
+  {
+   "type": "map",
+   "year": "1866",
+   "text": "Venise rejoint l’Italie",
+   "focus": {
+    "box": [
+     8,
+     43,
+     16,
+     47
+    ]
+   },
+   "pills": [
+    {
+     "at": "Venise",
+     "title": "Venise",
+     "sub": "1866",
+     "side": "t",
+     "when": {
+      "line": 1,
+      "word": "Venise",
+      "d": 0.1
+     }
+    }
+   ],
+   "say": [
+    "En 1866, l’Italie s’allie à la Prusse contre l’Autriche.",
+    "L’Autriche perd la guerre et cède la Vénétie, avec Venise, qui devient italienne."
+   ],
+   "people": [
+    {
+     "who": "soldat",
+     "at": [
+      11.6,
+      44.6
+     ],
+     "size": 220,
+     "say": "Venise !",
+     "when": {
+      "line": 1,
+      "word": "devient",
+      "d": 0
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Autriche",
+     "at": [
+      14.2,
+      46.7
+     ],
+     "size": 44,
+     "when": {
+      "line": 0,
+      "word": "Autriche",
+      "d": 0
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": "Venise",
+     "when": 0.4
+    }
+   ],
+   "highlight": {
+    "regions": [
+     {
+      "c": "Italy",
+      "n": "Venezia"
+     },
+     {
+      "c": "Italy",
+      "n": "Padova"
+     },
+     {
+      "c": "Italy",
+      "n": "Rovigo"
+     },
+     {
+      "c": "Italy",
+      "n": "Treviso"
+     },
+     {
+      "c": "Italy",
+      "n": "Vicenza"
+     },
+     {
+      "c": "Italy",
+      "n": "Verona"
+     },
+     {
+      "c": "Italy",
+      "n": "Belluno"
+     },
+     {
+      "c": "Italy",
+      "n": "Udine"
+     },
+     {
+      "c": "Italy",
+      "n": "Pordenone"
+     },
+     {
+      "c": "Italy",
+      "n": "Mantova"
+     }
+    ],
+    "color": "#2F9E6B",
+    "keep": true,
+    "at": {
+     "line": 1,
+     "word": "devient",
+     "d": -0.3
+    }
+   }
+  },
+  {
+   "type": "map",
+   "year": "1870",
+   "text": "Rome devient italienne",
+   "focus": {
+    "box": [
+     8,
+     39,
+     16,
+     45
+    ]
+   },
+   "people": [
+    {
+     "who": "soldat",
+     "at": "Rome",
+     "size": 250,
+     "say": "Rome !",
+     "when": {
+      "line": 0,
+      "word": "Rome",
+      "d": 0.3
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": "Rome",
+     "title": "20 sept. 1870",
+     "sub": "armée italienne à Rome",
+     "side": "b",
+     "when": {
+      "line": 1,
+      "word": "capitale",
+      "d": -0.3
+     }
+    },
+    {
+     "at": "Florence",
+     "title": "Florence",
+     "sub": "capitale 1865–1871",
+     "side": "l",
+     "when": {
+      "line": 1,
+      "word": "capitale",
+      "d": 0
+     }
+    }
+   ],
+   "say": [
+    "En 1870, la France, en guerre contre la Prusse, retire ses troupes. L’armée italienne entre dans Rome.",
+    "Rome devient capitale en 1871 : onze ans ont suffi."
+   ],
+   "moves": [
+    {
+     "from": "Florence",
+     "to": "Rome",
+     "n": 5,
+     "color": "#2F9E6B",
+     "at": {
+      "line": 0,
+      "word": "armée",
+      "d": -0.2
+     },
+     "dur": 2.4
+    }
+   ],
+   "beacon": [
+    {
+     "at": "Rome",
+     "when": 0.4
+    }
+   ],
+   "highlight": {
+    "regions": [
+     {
+      "c": "Italy",
+      "n": "Roma"
+     },
+     {
+      "c": "Italy",
+      "n": "Viterbo"
+     },
+     {
+      "c": "Italy",
+      "n": "Latina"
+     },
+     {
+      "c": "Italy",
+      "n": "Frosinone"
+     },
+     {
+      "c": "Italy",
+      "n": "Rieti"
+     }
+    ],
+    "color": "#2F9E6B",
+    "keep": true,
+    "at": {
+     "line": 0,
+     "word": "armée",
+     "d": 0.6
+    }
+   },
+   "art": [
+    {
+     "kind": "timeline",
+     "at": {
+      "line": 1,
+      "d": -0.2
+     },
+     "dur": 5,
+     "title": "Onze ans pour faire l’Italie",
+     "items": [
+      {
+       "year": "1859",
+       "text": "Lombardie"
+      },
+      {
+       "year": "1860",
+       "text": "Les Mille"
+      },
+      {
+       "year": "1866",
+       "text": "Vénétie"
+      },
+      {
+       "year": "1870",
+       "text": "Rome"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "text": "Mais les Italiens ?",
+   "focus": {
+    "box": [
+     5.5,
+     35,
+     19,
+     46.5
+    ]
+   },
+   "say": [
+    "En 1861, sur 22 millions d’habitants, très peu parlent italien : entre 2,5 et 10 %.",
+    "Les autres parlent leur dialecte : il faut unir le peuple."
+   ],
+   "people": [
+    {
+     "who": "paysan",
+     "at": [
+      13.6,
+      37.9
+     ],
+     "size": 200,
+     "say": "Dialecte sicilien",
+     "when": {
+      "line": 1,
+      "word": "autres",
+      "d": 0
+     }
+    },
+    {
+     "who": "paysan",
+     "at": [
+      11.6,
+      44.7
+     ],
+     "size": 200,
+     "say": "Dialecte émilien",
+     "when": {
+      "line": 1,
+      "word": "peuple",
+      "d": -0.5
+     }
+    }
+   ],
+   "art": [
+    {
+     "kind": "stats",
+     "at": {
+      "line": 0,
+      "d": 0.3
+     },
+     "dur": 3.8,
+     "title": "Parlent italien en 1861",
+     "items": [
+      {
+       "value": 2.5,
+       "decimals": 1,
+       "suffix": " %",
+       "label": "estimation basse",
+       "color": "#7BD88F",
+       "ring": 2.5,
+       "size": 60
+      },
+      {
+       "value": 10,
+       "suffix": " %",
+       "label": "estimation haute",
+       "color": "#4FA3E0",
+       "ring": 10,
+       "size": 60
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "Après 1861",
+   "text": "L’école, l’armée, la télé",
+   "focus": {
+    "box": [
+     5.5,
+     35,
+     19,
+     46.5
+    ]
+   },
+   "say": [
+    "Pour unir la langue, il faudra l’école, l’armée, puis plus tard la télévision.",
+    "Peu à peu, une mosaïque devient un pays."
+   ],
+   "people": [
+    {
+     "who": "savant",
+     "at": "Florence",
+     "size": 210,
+     "say": "L’école",
+     "when": {
+      "line": 0,
+      "word": "école",
+      "d": 0
+     }
+    },
+    {
+     "who": "soldat",
+     "at": [
+      14.9,
+      40.7
+     ],
+     "size": 210,
+     "say": "L’armée",
+     "when": {
+      "line": 0,
+      "word": "armée",
+      "d": 0
+     }
+    },
+    {
+     "who": "it",
+     "at": [
+      13.6,
+      37.9
+     ],
+     "size": 210,
+     "say": "La télé",
+     "when": {
+      "line": 0,
+      "word": "télévision",
+      "d": 0
+     }
+    }
+   ]
+  },
+  {
+   "type": "final",
+   "text": "Une Italie, mille dialectes",
+   "focus": {
+    "box": [
+     5.5,
+     35,
+     19,
+     46.5
+    ]
+   },
+   "say": [
+    "Voilà comment l’Italie est née, et pourquoi elle garde autant de dialectes !",
+    "Et voici la question du début :"
+   ],
+   "people": [
+    {
+     "who": "paysan",
+     "at": "Rome",
+     "size": 250,
+     "say": "Ciao !",
+     "when": 3,
+     "wave": true,
+     "mood": "happy"
+    }
+   ]
+  }
+ ],
+ "base": {
+  "countries": [
+   "Italy"
+  ]
+ },
+ "terrain": [
+  {
+   "box": [
+    -14,
+    27,
+    40,
+    76
+   ],
+   "px": 3000,
+   "z": 6
+  },
+  {
+   "box": [
+    5.1,
+    35.6,
+    19.4,
+    47.8
+   ],
+   "px": 2800,
+   "z": 8
+  }
+ ]
+}

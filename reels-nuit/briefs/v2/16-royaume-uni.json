@@ -1,0 +1,1773 @@
+{
+ "format": "atlas",
+ "id": "atlas-royaume-uni",
+ "base": {
+  "countries": [
+   "United Kingdom",
+   "Ireland",
+   "France"
+  ]
+ },
+ "terrain": [
+  {
+   "box": [
+    -14,
+    27,
+    40,
+    71
+   ],
+   "px": 3000,
+   "z": 6
+  },
+  {
+   "box": [
+    -11.4,
+    49.4,
+    3.4,
+    59.6
+   ],
+   "px": 2800,
+   "z": 8
+  }
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "text": "Quatre nations, un seul pays",
+   "sub": "Le Royaume-Uni",
+   "focus": {
+    "box": [
+     -9.5,
+     49.8,
+     4.5,
+     59.2
+    ]
+   },
+   "highlight": {
+    "countries": [
+     "United Kingdom"
+    ],
+    "color": "#FFD83C",
+    "keep": false,
+    "at": 0.7
+   },
+   "pills": [
+    {
+     "at": [
+      -3.19,
+      55.95
+     ],
+     "title": "Édimbourg",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "Écosse"
+     }
+    },
+    {
+     "at": [
+      -3.18,
+      51.48
+     ],
+     "title": "Cardiff",
+     "side": "l",
+     "when": {
+      "line": 0,
+      "word": "Galles"
+     }
+    },
+    {
+     "at": [
+      -5.93,
+      54.6
+     ],
+     "title": "Belfast",
+     "side": "l",
+     "when": {
+      "line": 0,
+      "word": "Nord"
+     }
+    },
+    {
+     "at": [
+      -0.13,
+      51.51
+     ],
+     "title": "Londres",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "Angleterre"
+     }
+    }
+   ],
+   "say": [
+    "Quatre nations forment un seul pays : l’Angleterre, l’Écosse, le pays de Galles et l’Irlande du Nord.",
+    "Le Royaume-Uni couvre environ 244 000 kilomètres carrés, un peu plus de deux fois moins que la France."
+   ],
+   "art": [
+    {
+     "kind": "compare",
+     "at": {
+      "line": 1,
+      "word": "couvre",
+      "d": -0.2
+     },
+     "dur": 4.2,
+     "title": "La taille du pays",
+     "sub": "même échelle",
+     "ratio": "2,2×",
+     "items": [
+      {
+       "country": "France",
+       "label": "France",
+       "value": "544 000 km²",
+       "color": "#E8503A"
+      },
+      {
+       "country": "United Kingdom",
+       "label": "Royaume-Uni",
+       "value": "244 000 km²",
+       "color": "#FFD83C"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1536",
+   "text": "Le pays de Galles rejoint l’Angleterre",
+   "focus": {
+    "box": [
+     -6.4,
+     50.6,
+     1,
+     54
+    ]
+   },
+   "highlight": [
+    {
+     "regions": [
+      {
+       "c": "United Kingdom",
+       "n": "Flintshire"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Wrexham"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Powys"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Monmouthshire"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Newport"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Cardiff"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Vale of Glamorgan"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Bridgend"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Neath Port Talbot"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Swansea"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Carmarthenshire"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Pembrokeshire"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Ceredigion"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Gwynedd"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Conwy"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Denbighshire"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Anglesey"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Caerphilly"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Rhondda, Cynon, Taff"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Blaenau Gwent"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Torfaen"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Merthyr Tydfil"
+      }
+     ],
+     "color": "#E8503A",
+     "keep": true,
+     "at": 0.4
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      -0.13,
+      51.51
+     ],
+     "to": [
+      -3.18,
+      51.48
+     ],
+     "n": 3,
+     "color": "#FFFFFF",
+     "at": {
+      "line": 1,
+      "word": "loi",
+      "d": 0
+     },
+     "dur": 2.4,
+     "label": "Lois anglaises"
+    }
+   ],
+   "people": [
+    {
+     "who": "roi",
+     "at": [
+      -0.9,
+      52.6
+     ],
+     "size": 180,
+     "say": "Une seule loi !",
+     "label": {
+      "title": "Henri VIII",
+      "sub": "1536"
+     },
+     "when": {
+      "line": 1,
+      "word": "Henri"
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Pays de Galles",
+     "at": [
+      -3.9,
+      52.4
+     ],
+     "size": 40,
+     "when": {
+      "line": 0,
+      "word": "Galles",
+      "d": 0.2
+     }
+    },
+    {
+     "text": "Angleterre",
+     "at": [
+      -0.3,
+      52.8
+     ],
+     "size": 40,
+     "when": {
+      "line": 0,
+      "word": "Angleterre",
+      "d": 0.9
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      -3.18,
+      51.48
+     ],
+     "when": 0.4
+    }
+   ],
+   "say": [
+    "Entre 1282 et 1284, le roi d’Angleterre Édouard premier conquiert le pays de Galles.",
+    "En 1536, une loi du roi Henri VIII l’unit à l’Angleterre."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1603",
+   "text": "Un seul roi pour deux royaumes",
+   "focus": {
+    "box": [
+     -7.5,
+     51,
+     2,
+     58.8
+    ]
+   },
+   "highlight": [
+    {
+     "regions": [
+      {
+       "c": "United Kingdom",
+       "n": "Scottish Borders"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Dumfries and Galloway"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Clackmannanshire"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Stirling"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Falkirk"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "West Lothian"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Edinburgh"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Midlothian"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "East Lothian"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "South Ayrshire"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "North Ayshire"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Inverclyde"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Renfrewshire"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "West Dunbartonshire"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Argyll and Bute"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Highland"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Moray"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Aberdeenshire"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Aberdeen"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Angus"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Dundee"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Perthshire and Kinross"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Fife"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Eilean Siar"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Orkney"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Shetland Islands"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "North Lanarkshire"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "East Dunbartonshire"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Glasgow"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "East Renfrewshire"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "East Ayrshire"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "South Lanarkshire"
+      }
+     ],
+     "color": "#4FA3E0",
+     "keep": true,
+     "at": {
+      "line": 0,
+      "word": "Écosse",
+      "d": -0.2
+     }
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      -3.19,
+      55.95
+     ],
+     "to": [
+      -0.13,
+      51.51
+     ],
+     "n": 2,
+     "color": "#4FA3E0",
+     "at": {
+      "line": 1,
+      "word": "devient",
+      "d": 0
+     },
+     "dur": 2,
+     "label": "Jacques VI part pour Londres"
+    }
+   ],
+   "people": [
+    {
+     "who": "roi",
+     "at": [
+      -3.6,
+      56.6
+     ],
+     "size": 160,
+     "say": "Je suis roi des deux !",
+     "label": {
+      "title": "Jacques VI",
+      "sub": "puis roi d’Angleterre"
+     },
+     "when": {
+      "line": 1,
+      "word": "Écosse"
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      -0.13,
+      51.51
+     ],
+     "title": "Londres",
+     "side": "r",
+     "when": {
+      "line": 1,
+      "word": "s’installe",
+      "d": 0.5
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Écosse",
+     "at": [
+      -4.8,
+      57
+     ],
+     "size": 44,
+     "when": {
+      "line": 0,
+      "word": "Élisabeth",
+      "d": 0.4
+     }
+    },
+    {
+     "text": "Angleterre",
+     "at": [
+      -1.6,
+      52.6
+     ],
+     "size": 40,
+     "when": {
+      "line": 0,
+      "word": "Élisabeth",
+      "d": 0.9
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      -3.19,
+      55.95
+     ],
+     "when": 0.4
+    }
+   ],
+   "say": [
+    "En 1603, la reine Élisabeth première meurt sans enfant.",
+    "Le roi d’Écosse, Jacques VI, devient aussi roi d’Angleterre et s’installe à Londres."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1707",
+   "text": "Naissance de la Grande-Bretagne",
+   "focus": {
+    "box": [
+     -7.5,
+     51,
+     2,
+     58.8
+    ]
+   },
+   "highlight": [
+    {
+     "regions": [
+      {
+       "c": "United Kingdom",
+       "n": "Scottish Borders"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Dumfries and Galloway"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Clackmannanshire"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Stirling"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Falkirk"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "West Lothian"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Edinburgh"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Midlothian"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "East Lothian"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "South Ayrshire"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "North Ayshire"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Inverclyde"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Renfrewshire"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "West Dunbartonshire"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Argyll and Bute"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Highland"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Moray"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Aberdeenshire"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Aberdeen"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Angus"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Dundee"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Perthshire and Kinross"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Fife"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Eilean Siar"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Orkney"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Shetland Islands"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "North Lanarkshire"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "East Dunbartonshire"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Glasgow"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "East Renfrewshire"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "East Ayrshire"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "South Lanarkshire"
+      }
+     ],
+     "color": "#4FA3E0",
+     "keep": true,
+     "at": 0.3
+    },
+    {
+     "regions": [
+      {
+       "c": "United Kingdom",
+       "n": "Flintshire"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Wrexham"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Powys"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Monmouthshire"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Newport"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Cardiff"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Vale of Glamorgan"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Bridgend"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Neath Port Talbot"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Swansea"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Carmarthenshire"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Pembrokeshire"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Ceredigion"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Gwynedd"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Conwy"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Denbighshire"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Anglesey"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Caerphilly"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Rhondda, Cynon, Taff"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Blaenau Gwent"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Torfaen"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Merthyr Tydfil"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Scottish Borders"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Dumfries and Galloway"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Clackmannanshire"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Stirling"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Falkirk"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "West Lothian"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Edinburgh"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Midlothian"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "East Lothian"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "South Ayrshire"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "North Ayshire"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Inverclyde"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Renfrewshire"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "West Dunbartonshire"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Argyll and Bute"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Highland"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Moray"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Aberdeenshire"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Aberdeen"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Angus"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Dundee"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Perthshire and Kinross"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Fife"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Eilean Siar"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Orkney"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Shetland Islands"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "North Lanarkshire"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "East Dunbartonshire"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Glasgow"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "East Renfrewshire"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "East Ayrshire"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "South Lanarkshire"
+      }
+     ],
+     "color": "#FFD83C",
+     "keep": false,
+     "at": {
+      "line": 0,
+      "word": "créent",
+      "d": -0.2
+     }
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      -3.19,
+      55.95
+     ],
+     "to": [
+      -0.13,
+      51.51
+     ],
+     "n": 2,
+     "color": "#FFD83C",
+     "at": {
+      "line": 0,
+      "word": "parlements",
+      "d": 0.3
+     },
+     "dur": 2,
+     "label": "Un seul parlement"
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      -3.19,
+      55.95
+     ],
+     "title": "Édimbourg",
+     "side": "r",
+     "when": {
+      "line": 1,
+      "word": "Écosse",
+      "d": 0.1
+     }
+    },
+    {
+     "at": [
+      -0.13,
+      51.51
+     ],
+     "title": "Londres",
+     "side": "l",
+     "when": {
+      "line": 0,
+      "word": "Londres",
+      "d": 0.2
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Écosse",
+     "at": [
+      -4.8,
+      56.9
+     ],
+     "size": 44,
+     "when": {
+      "line": 1,
+      "word": "Écosse",
+      "d": 0.1
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      -0.13,
+      51.51
+     ],
+     "when": 0.4
+    }
+   ],
+   "say": [
+    "En 1707, les parlements d’Angleterre et d’Écosse s’unissent et créent la Grande-Bretagne, à Londres.",
+    "L’Écosse garde pourtant ses propres lois et son Église."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1801",
+   "text": "L’Irlande entre dans le royaume",
+   "focus": {
+    "box": [
+     -11,
+     50.6,
+     2.4,
+     56.6
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Ireland"
+     ],
+     "color": "#3E9A63",
+     "keep": true,
+     "at": {
+      "line": 0,
+      "word": "Irlande",
+      "d": -0.2
+     }
+    },
+    {
+     "countries": [
+      "United Kingdom"
+     ],
+     "color": "#FFD83C",
+     "keep": false,
+     "at": {
+      "line": 0,
+      "word": "royaume",
+      "d": -0.3
+     }
+    },
+    {
+     "color": "#3E9A63",
+     "keep": true,
+     "at": {
+      "line": 0,
+      "word": "royaume",
+      "d": -0.3
+     },
+     "regions": [
+      {
+       "c": "United Kingdom",
+       "n": "Derry"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Strabane"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Fermanagh"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Dungannon"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Armagh"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Newry and Mourne"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Limavady"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Coleraine"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Moyle"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Larne"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Carrickfergus"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Newtownabbey"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Belfast"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "North Down"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Ards"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Down"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Magherafelt"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Omagh"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Mid Ulster"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Craigavon"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Banbridge"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Antrim"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Lisburn"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Ballymoney"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Ballymena"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Castlereagh"
+      }
+     ]
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      -6.26,
+      53.35
+     ],
+     "to": [
+      -0.13,
+      51.51
+     ],
+     "n": 2,
+     "color": "#3E9A63",
+     "at": {
+      "line": 1,
+      "word": "députés",
+      "d": -0.8
+     },
+     "dur": 2,
+     "label": "Députés irlandais"
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      -6.26,
+      53.35
+     ],
+     "title": "Dublin",
+     "side": "l",
+     "when": {
+      "line": 1,
+      "word": "Dublin",
+      "d": 0
+     }
+    },
+    {
+     "at": [
+      -0.13,
+      51.51
+     ],
+     "title": "Londres",
+     "side": "r",
+     "when": {
+      "line": 1,
+      "word": "Londres",
+      "d": 0
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Irlande",
+     "at": [
+      -8.2,
+      53
+     ],
+     "size": 44,
+     "when": {
+      "line": 0,
+      "word": "Irlande",
+      "d": 0.5
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      -6.26,
+      53.35
+     ],
+     "when": 0.4
+    }
+   ],
+   "say": [
+    "En 1801, l’Irlande rejoint la Grande-Bretagne et forme avec elle un seul royaume.",
+    "Le parlement de Dublin disparaît, et les députés irlandais siègent à Londres."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1921 – 1922",
+   "text": "L’Irlande est coupée en deux",
+   "focus": {
+    "box": [
+     -10.8,
+     51.2,
+     -4.2,
+     55.8
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Ireland"
+     ],
+     "color": "#3E9A63",
+     "keep": true,
+     "at": 0.3
+    },
+    {
+     "regions": [
+      {
+       "c": "United Kingdom",
+       "n": "Derry"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Strabane"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Fermanagh"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Dungannon"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Armagh"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Newry and Mourne"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Limavady"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Coleraine"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Moyle"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Larne"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Carrickfergus"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Newtownabbey"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Belfast"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "North Down"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Ards"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Down"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Magherafelt"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Omagh"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Mid Ulster"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Craigavon"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Banbridge"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Antrim"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Lisburn"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Ballymoney"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Ballymena"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Castlereagh"
+      }
+     ],
+     "color": "#B06AE0",
+     "keep": true,
+     "at": {
+      "line": 0,
+      "word": "nord-est",
+      "d": -0.6
+     }
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      -7.6,
+      54.2
+     ],
+     "to": [
+      -5.93,
+      54.6
+     ],
+     "n": 2,
+     "color": "#B06AE0",
+     "at": {
+      "line": 0,
+      "word": "restent",
+      "d": 0
+     },
+     "dur": 2.4,
+     "label": "Reste britannique"
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      -5.93,
+      54.6
+     ],
+     "title": "Belfast",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "nord-est",
+      "d": 0.3
+     }
+    },
+    {
+     "at": [
+      -6.26,
+      53.35
+     ],
+     "title": "Dublin",
+     "side": "l",
+     "when": {
+      "line": 1,
+      "word": "Dublin",
+      "d": 0
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "État libre d’Irlande",
+     "at": [
+      -8.4,
+      52.8
+     ],
+     "size": 34,
+     "when": {
+      "line": 1,
+      "word": "île",
+      "d": 0.3
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      -5.93,
+      54.6
+     ],
+     "when": 0.4
+    }
+   ],
+   "say": [
+    "En 1921, six comtés du nord-est, où les protestants sont plus nombreux, restent dans le Royaume-Uni.",
+    "En 1922, le reste de l’île devient l’État libre d’Irlande."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "Aujourd’hui",
+   "text": "Des langues pour chaque nation",
+   "focus": {
+    "box": [
+     -8.2,
+     51,
+     -1.5,
+     58.2
+    ]
+   },
+   "art": [
+    {
+     "kind": "languages",
+     "at": {
+      "line": 0,
+      "d": 0.2
+     },
+     "dur": 8,
+     "title": "Chaque nation, sa langue",
+     "items": [
+      {
+       "icon": "school",
+       "where": "Pays de Galles",
+       "lang": "Gallois",
+       "note": "538 000 locuteurs en 2021",
+       "color": "#E8503A"
+      },
+      {
+       "icon": "house",
+       "where": "Écosse",
+       "lang": "Gaélique",
+       "note": "environ 70 000 en 2022",
+       "color": "#4FA3E0"
+      },
+      {
+       "icon": "court",
+       "where": "Irlande du Nord",
+       "lang": "Irlandais",
+       "note": "statut officiel depuis 2022",
+       "color": "#B06AE0"
+      }
+     ]
+    }
+   ],
+   "say": [
+    "Environ 538 000 personnes parlent gallois, et environ 70 000 parlent gaélique.",
+    "En Irlande du Nord, l’irlandais est une langue officielle depuis 2022."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "2021",
+   "text": "Une nation domine en nombre",
+   "focus": {
+    "box": [
+     -8.2,
+     49.9,
+     2.2,
+     59
+    ]
+   },
+   "art": [
+    {
+     "kind": "stats",
+     "at": {
+      "line": 0,
+      "d": 0.2
+     },
+     "dur": 8,
+     "title": "Population en 2021",
+     "sub": "67 millions au total",
+     "items": [
+      {
+       "value": 84,
+       "suffix": " %",
+       "label": "Angleterre",
+       "color": "#FFD83C"
+      },
+      {
+       "value": 8,
+       "suffix": " %",
+       "label": "Écosse",
+       "color": "#4FA3E0"
+      },
+      {
+       "value": 5,
+       "suffix": " %",
+       "label": "Pays de Galles",
+       "color": "#E8503A"
+      },
+      {
+       "value": 3,
+       "suffix": " %",
+       "label": "Irlande du Nord",
+       "color": "#B06AE0"
+      }
+     ]
+    }
+   ],
+   "say": [
+    "Environ 67 millions de personnes vivent au Royaume-Uni, dont 84 % en Angleterre.",
+    "L’Écosse en compte 8 %, le pays de Galles 5 % et l’Irlande du Nord 3 %."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1536 – 1921",
+   "text": "5 étapes, un royaume",
+   "focus": {
+    "box": [
+     -9,
+     49.8,
+     3,
+     59.2
+    ]
+   },
+   "art": [
+    {
+     "kind": "timeline",
+     "at": {
+      "line": 0,
+      "d": 0.2
+     },
+     "dur": 5,
+     "title": "Un royaume en 5 étapes",
+     "items": [
+      {
+       "year": "1536",
+       "text": "Pays de Galles"
+      },
+      {
+       "year": "1603",
+       "text": "Un seul roi"
+      },
+      {
+       "year": "1707",
+       "text": "Grande-Bretagne"
+      },
+      {
+       "year": "1801",
+       "text": "Avec l’Irlande"
+      },
+      {
+       "year": "1921",
+       "text": "Irlande du Nord"
+      }
+     ]
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      -3.19,
+      55.95
+     ],
+     "to": [
+      -0.13,
+      51.51
+     ],
+     "n": 2,
+     "color": "#8FD0EE",
+     "at": {
+      "line": 1,
+      "word": "identité",
+      "d": -0.8
+     },
+     "dur": 2
+    },
+    {
+     "from": [
+      -5.93,
+      54.6
+     ],
+     "to": [
+      -0.13,
+      51.51
+     ],
+     "n": 2,
+     "color": "#8FD0EE",
+     "at": {
+      "line": 1,
+      "word": "identité",
+      "d": -0.6000000000000001
+     },
+     "dur": 2
+    },
+    {
+     "from": [
+      -3.18,
+      51.48
+     ],
+     "to": [
+      -0.13,
+      51.51
+     ],
+     "n": 2,
+     "color": "#8FD0EE",
+     "at": {
+      "line": 1,
+      "word": "identité",
+      "d": -0.4
+     },
+     "dur": 2
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      -0.13,
+      51.51
+     ],
+     "title": "Londres",
+     "side": "r",
+     "when": {
+      "line": 1,
+      "word": "identité",
+      "d": 0.6
+     }
+    },
+    {
+     "at": [
+      -3.19,
+      55.95
+     ],
+     "title": "Édimbourg",
+     "side": "r",
+     "when": {
+      "line": 1,
+      "word": "identité",
+      "d": 0.2
+     }
+    },
+    {
+     "at": [
+      -5.93,
+      54.6
+     ],
+     "title": "Belfast",
+     "side": "l",
+     "when": {
+      "line": 1,
+      "word": "identité",
+      "d": 0.4
+     }
+    }
+   ],
+   "say": [
+    "De 1536 à 1921, cinq étapes ont construit le royaume.",
+    "Chaque nation a pourtant gardé son identité."
+   ]
+  },
+  {
+   "type": "final",
+   "text": "Quatre nations, un seul royaume",
+   "sub": "Le Royaume-Uni",
+   "focus": {
+    "box": [
+     -9,
+     49.8,
+     3,
+     59.2
+    ]
+   },
+   "people": [
+    {
+     "who": "roi",
+     "at": [
+      -0.13,
+      51.51
+     ],
+     "size": 200,
+     "say": "Un seul royaume !",
+     "wave": true,
+     "when": 1.5
+    }
+   ],
+   "say": [
+    "Voilà pourquoi quatre nations, chacune avec sa langue, forment aujourd’hui un seul royaume."
+   ],
+   "pills": [
+    {
+     "at": [
+      -0.13,
+      51.51
+     ],
+     "title": "Londres",
+     "side": "l",
+     "when": 2,
+     "sub": "la capitale"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1353 @@
+{
+ "format": "atlas",
+ "id": "atlas-balkans-yougoslavie",
+ "base": {
+  "countries": [
+   "Serbia",
+   "Croatia",
+   "Bosnia and Herz.",
+   "Slovenia",
+   "Montenegro",
+   "Kosovo",
+   "North Macedonia"
+  ]
+ },
+ "scenes": [
+  {
+   "type": "hook",
+   "text": "Six républiques, un seul pays",
+   "sub": "La Yougoslavie",
+   "focus": {
+    "box": [
+     12.8,
+     40.6,
+     24.0,
+     47.4
+    ]
+   },
+   "highlight": {
+    "countries": [
+     "Serbia",
+     "Croatia",
+     "Bosnia and Herz.",
+     "Slovenia",
+     "Montenegro",
+     "Kosovo",
+     "North Macedonia"
+    ],
+    "color": "#FFD83C",
+    "at": 0.7,
+    "keep": false
+   },
+   "pills": [
+    {
+     "at": [
+      20.46,
+      44.82
+     ],
+     "title": "Belgrade",
+     "sub": "la capitale",
+     "side": "l",
+     "when": {
+      "line": 1,
+      "word": "Balkans"
+     }
+    }
+   ],
+   "say": [
+    "La Yougoslavie : six républiques, cinq nations, trois langues, trois religions, deux alphabets.",
+    "Un seul État des Balkans, qui a éclaté au début des années 1990."
+   ],
+   "art": [
+    {
+     "kind": "stats",
+     "at": {
+      "line": 0,
+      "word": "six",
+      "d": -0.2
+     },
+     "dur": 5,
+     "title": "Un pays, beaucoup de nombres",
+     "items": [
+      {
+       "value": 6,
+       "label": "républiques",
+       "color": "#FFD83C"
+      },
+      {
+       "value": 5,
+       "label": "nations",
+       "color": "#FF7A3C"
+      },
+      {
+       "value": 3,
+       "label": "langues",
+       "color": "#4FA3E0"
+      },
+      {
+       "value": 3,
+       "label": "religions",
+       "color": "#3E9A63"
+      },
+      {
+       "value": 2,
+       "label": "alphabets",
+       "color": "#C77DFF"
+      },
+      {
+       "value": 1,
+       "label": "seul pays",
+       "color": "#FFFFFF"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1918",
+   "text": "Les Slaves du Sud s’unissent",
+   "focus": {
+    "box": [
+     13.0,
+     41.4,
+     23.8,
+     47.2
+    ]
+   },
+   "highlight": {
+    "countries": [
+     "Serbia",
+     "Croatia",
+     "Bosnia and Herz.",
+     "Slovenia",
+     "Montenegro",
+     "Kosovo",
+     "North Macedonia"
+    ],
+    "color": "#FFD83C",
+    "at": {
+     "line": 0,
+     "word": "naît",
+     "d": -0.3
+    },
+    "keep": false
+   },
+   "moves": [
+    {
+     "from": [
+      14.51,
+      46.06
+     ],
+     "to": [
+      20.46,
+      44.82
+     ],
+     "n": 3,
+     "color": "#E8503A",
+     "at": {
+      "line": 0,
+      "word": "naît",
+      "d": 0.2
+     },
+     "dur": 2.4
+    }
+   ],
+   "people": [
+    {
+     "who": "roi",
+     "at": [
+      19.7,
+      44.5
+     ],
+     "size": 230,
+     "say": "Un royaume !",
+     "when": {
+      "line": 0,
+      "word": "royaume"
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      20.46,
+      44.82
+     ],
+     "title": "Belgrade",
+     "sub": "capitale",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "Belgrade"
+     }
+    },
+    {
+     "at": [
+      15.98,
+      45.81
+     ],
+     "title": "Zagreb",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "Croates",
+      "d": 0.2
+     }
+    },
+    {
+     "at": [
+      14.51,
+      46.06
+     ],
+     "title": "Ljubljana",
+     "side": "t",
+     "when": {
+      "line": 0,
+      "word": "Slovènes",
+      "d": 0.2
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      20.46,
+      44.82
+     ],
+     "when": 0.4
+    }
+   ],
+   "labels": [
+    {
+     "text": "Italie",
+     "at": [
+      13.4,
+      43.6
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "d": 0.6
+     }
+    },
+    {
+     "text": "Hongrie",
+     "at": [
+      19.6,
+      47.1
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "d": 0.9
+     }
+    }
+   ],
+   "say": [
+    "Le 1er décembre 1918, naît le royaume des Serbes, Croates et Slovènes, capitale Belgrade.",
+    "En 1929, il devient la Yougoslavie, le pays des Slaves du Sud."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1945",
+   "text": "La Yougoslavie de Tito",
+   "focus": {
+    "box": [
+     14.0,
+     40.4,
+     23.6,
+     46.9
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Serbia",
+      "Croatia",
+      "Bosnia and Herz.",
+      "Slovenia",
+      "Montenegro",
+      "Kosovo",
+      "North Macedonia"
+     ],
+     "color": "#FFD83C",
+     "at": {
+      "line": 0,
+      "word": "1945"
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Serbia",
+      "Kosovo"
+     ],
+     "color": "#E8503A",
+     "at": {
+      "line": 1,
+      "word": "Serbie",
+      "d": -0.1
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Croatia"
+     ],
+     "color": "#4FA3E0",
+     "at": {
+      "line": 1,
+      "word": "Croatie",
+      "d": -0.1
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Slovenia"
+     ],
+     "color": "#3E9A63",
+     "at": {
+      "line": 1,
+      "word": "Slovénie",
+      "d": -0.1
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Bosnia and Herz."
+     ],
+     "color": "#C77DFF",
+     "at": {
+      "line": 1,
+      "word": "Bosnie-Herzégovine",
+      "d": -0.1
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Montenegro"
+     ],
+     "color": "#FF7A3C",
+     "at": {
+      "line": 1,
+      "word": "Monténégro",
+      "d": -0.1
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "North Macedonia"
+     ],
+     "color": "#FFD83C",
+     "at": {
+      "line": 1,
+      "word": "Macédoine",
+      "d": -0.1
+     },
+     "keep": false
+    }
+   ],
+   "people": [
+    {
+     "who": "soldat",
+     "at": [
+      19.2,
+      45.7
+     ],
+     "size": 230,
+     "say": "Une fédération !",
+     "label": {
+      "title": "Josip Broz Tito",
+      "sub": "1945"
+     },
+     "when": {
+      "line": 0,
+      "word": "dirigée",
+      "d": -0.3
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      20.46,
+      44.82
+     ],
+     "title": "Belgrade",
+     "side": "r",
+     "when": {
+      "line": 1,
+      "word": "Serbie",
+      "d": 0.2
+     }
+    },
+    {
+     "at": [
+      15.98,
+      45.81
+     ],
+     "title": "Zagreb",
+     "side": "l",
+     "when": {
+      "line": 1,
+      "word": "Croatie",
+      "d": 0.2
+     }
+    },
+    {
+     "at": [
+      18.41,
+      43.86
+     ],
+     "title": "Sarajevo",
+     "side": "b",
+     "when": {
+      "line": 1,
+      "word": "Bosnie-Herzégovine",
+      "d": 0.2
+     }
+    },
+    {
+     "at": [
+      21.43,
+      42.0
+     ],
+     "title": "Skopje",
+     "side": "b",
+     "when": {
+      "line": 1,
+      "word": "Macédoine",
+      "d": 0.2
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      20.46,
+      44.82
+     ],
+     "when": 0.4
+    }
+   ],
+   "labels": [
+    {
+     "text": "Italie",
+     "at": [
+      13.2,
+      43.4
+     ],
+     "size": 36,
+     "when": {
+      "line": 0,
+      "d": 0.8
+     }
+    },
+    {
+     "text": "Albanie",
+     "at": [
+      20.2,
+      40.7
+     ],
+     "size": 34,
+     "when": {
+      "line": 1,
+      "d": 1.0
+     }
+    }
+   ],
+   "say": [
+    "En 1945, la Yougoslavie devient une république fédérale, dirigée par Josip Broz Tito.",
+    "Six républiques : Serbie, Croatie, Slovénie, Bosnie-Herzégovine, Monténégro et Macédoine."
+   ]
+  },
+  {
+   "type": "map",
+   "text": "Trois langues, une très répandue",
+   "focus": {
+    "box": [
+     13.4,
+     40.6,
+     23.6,
+     47.2
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Serbia",
+      "Croatia",
+      "Bosnia and Herz.",
+      "Montenegro"
+     ],
+     "color": "#4FA3E0",
+     "at": {
+      "line": 0,
+      "word": "serbo-croate",
+      "d": -0.1
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Slovenia"
+     ],
+     "color": "#3E9A63",
+     "at": {
+      "line": 0,
+      "word": "slovène",
+      "d": -0.1
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "North Macedonia"
+     ],
+     "color": "#FFD83C",
+     "at": {
+      "line": 0,
+      "word": "macédonien",
+      "d": -0.1
+     },
+     "keep": false
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      19.0,
+      44.4
+     ],
+     "stack": [
+      {
+       "text": "Serbo-croate",
+       "color": "#4FA3E0"
+      }
+     ],
+     "when": {
+      "line": 0,
+      "word": "serbo-croate"
+     }
+    },
+    {
+     "at": [
+      14.6,
+      46.1
+     ],
+     "stack": [
+      {
+       "text": "Slovène",
+       "color": "#3E9A63"
+      }
+     ],
+     "when": {
+      "line": 0,
+      "word": "slovène"
+     }
+    },
+    {
+     "at": [
+      21.7,
+      41.6
+     ],
+     "stack": [
+      {
+       "text": "Macédonien",
+       "color": "#FFD83C"
+      }
+     ],
+     "when": {
+      "line": 0,
+      "word": "macédonien"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      20.46,
+      44.82
+     ],
+     "when": 0.4
+    }
+   ],
+   "say": [
+    "On y parle surtout le serbo-croate, mais aussi le slovène et le macédonien.",
+    "Le serbo-croate se parle en Serbie, en Croatie, en Bosnie et au Monténégro."
+   ]
+  },
+  {
+   "type": "map",
+   "text": "Deux alphabets, latin et cyrillique",
+   "focus": {
+    "box": [
+     13.4,
+     41.0,
+     23.4,
+     47.2
+    ]
+   },
+   "art": [
+    {
+     "kind": "languages",
+     "at": {
+      "line": 0,
+      "d": 0.2
+     },
+     "dur": 4.5,
+     "title": "Deux alphabets",
+     "sub": "latin et cyrillique",
+     "items": [
+      {
+       "icon": "court",
+       "where": "Serbie",
+       "lang": "Cyrillique",
+       "color": "#E8503A"
+      },
+      {
+       "icon": "house",
+       "where": "Croatie",
+       "lang": "Latin",
+       "color": "#4FA3E0"
+      },
+      {
+       "icon": "school",
+       "where": "Macédoine",
+       "lang": "Cyrillique",
+       "color": "#E8503A"
+      },
+      {
+       "icon": "house",
+       "where": "Slovénie",
+       "lang": "Latin",
+       "color": "#4FA3E0"
+      }
+     ]
+    }
+   ],
+   "say": [
+    "Le serbe s’écrit en cyrillique et en latin, le croate en latin.",
+    "Le macédonien s’écrit en cyrillique, et le slovène en latin."
+   ],
+   "highlight": [
+    {
+     "countries": [
+      "Serbia"
+     ],
+     "color": "#E8503A",
+     "at": {
+      "line": 0,
+      "word": "serbe"
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Croatia"
+     ],
+     "color": "#4FA3E0",
+     "at": {
+      "line": 0,
+      "word": "croate"
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "North Macedonia"
+     ],
+     "color": "#E8503A",
+     "at": {
+      "line": 1,
+      "word": "macédonien"
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Slovenia"
+     ],
+     "color": "#4FA3E0",
+     "at": {
+      "line": 1,
+      "word": "slovène"
+     },
+     "keep": false
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1991 · 1992",
+   "text": "Les républiques partent une à une",
+   "focus": {
+    "box": [
+     12.0,
+     40.4,
+     24.4,
+     47.6
+    ]
+   },
+   "moves": [
+    {
+     "from": [
+      20.46,
+      44.82
+     ],
+     "to": [
+      14.51,
+      46.06
+     ],
+     "n": 0,
+     "color": "#FF5A36",
+     "at": {
+      "line": 0,
+      "word": "Slovénie",
+      "d": -0.4
+     },
+     "dur": 1.4
+    },
+    {
+     "from": [
+      20.46,
+      44.82
+     ],
+     "to": [
+      15.98,
+      45.81
+     ],
+     "n": 0,
+     "color": "#FF5A36",
+     "at": {
+      "line": 0,
+      "word": "Croatie",
+      "d": -0.4
+     },
+     "dur": 1.4
+    },
+    {
+     "from": [
+      20.46,
+      44.82
+     ],
+     "to": [
+      21.43,
+      42.0
+     ],
+     "n": 0,
+     "color": "#FF5A36",
+     "at": {
+      "line": 0,
+      "word": "Macédoine",
+      "d": -0.4
+     },
+     "dur": 1.4
+    },
+    {
+     "from": [
+      20.46,
+      44.82
+     ],
+     "to": [
+      18.41,
+      43.86
+     ],
+     "n": 0,
+     "color": "#FF5A36",
+     "at": {
+      "line": 0,
+      "word": "Bosnie",
+      "d": -0.4
+     },
+     "dur": 1.4
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      14.51,
+      46.06
+     ],
+     "title": "Ljubljana",
+     "side": "t",
+     "when": {
+      "line": 0,
+      "word": "Slovénie",
+      "d": 0.4
+     }
+    },
+    {
+     "at": [
+      15.98,
+      45.81
+     ],
+     "title": "Zagreb",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "Croatie",
+      "d": 0.4
+     }
+    },
+    {
+     "at": [
+      21.43,
+      42.0
+     ],
+     "title": "Skopje",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "Macédoine",
+      "d": 0.4
+     }
+    },
+    {
+     "at": [
+      18.41,
+      43.86
+     ],
+     "title": "Sarajevo",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "Bosnie",
+      "d": 0.4
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      20.46,
+      44.82
+     ],
+     "when": 0.4
+    }
+   ],
+   "labels": [
+    {
+     "text": "Hongrie",
+     "at": [
+      19.6,
+      47.0
+     ],
+     "size": 38,
+     "when": {
+      "line": 1,
+      "d": 0.6
+     }
+    }
+   ],
+   "art": [
+    {
+     "kind": "split",
+     "at": {
+      "line": 1,
+      "word": "avril",
+      "d": 0.4
+     },
+     "dur": 5,
+     "title": "Une fédération réduite",
+     "sub": "même échelle",
+     "before": "Avant 1991",
+     "after": "Après 1992",
+     "badge": "4 républiques partent",
+     "parts": [
+      {
+       "country": "Slovenia",
+       "color": "#3E9A63",
+       "lost": true
+      },
+      {
+       "country": "Croatia",
+       "color": "#4FA3E0",
+       "lost": true
+      },
+      {
+       "country": "Bosnia and Herz.",
+       "color": "#C77DFF",
+       "lost": true
+      },
+      {
+       "country": "North Macedonia",
+       "color": "#FFD83C",
+       "lost": true
+      },
+      {
+       "country": "Serbia",
+       "color": "#E8503A"
+      },
+      {
+       "country": "Kosovo",
+       "color": "#E8503A"
+      },
+      {
+       "country": "Montenegro",
+       "color": "#FF7A3C"
+      }
+     ]
+    }
+   ],
+   "say": [
+    "En 1991, la Slovénie, la Croatie et la Macédoine proclament leur indépendance, puis la Bosnie en 1992.",
+    "En avril 1992, la Serbie et le Monténégro forment une nouvelle Yougoslavie."
+   ],
+   "highlight": [
+    {
+     "countries": [
+      "Slovenia"
+     ],
+     "color": "#3E9A63",
+     "at": {
+      "line": 0,
+      "word": "Slovénie",
+      "d": 0.2
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Croatia"
+     ],
+     "color": "#4FA3E0",
+     "at": {
+      "line": 0,
+      "word": "Croatie",
+      "d": 0.2
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "North Macedonia"
+     ],
+     "color": "#FFD83C",
+     "at": {
+      "line": 0,
+      "word": "Macédoine",
+      "d": 0.2
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Bosnia and Herz."
+     ],
+     "color": "#C77DFF",
+     "at": {
+      "line": 0,
+      "word": "Bosnie",
+      "d": 0.2
+     },
+     "keep": false
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "2006 · 2008",
+   "text": "Le Monténégro, puis le Kosovo",
+   "focus": {
+    "box": [
+     15.5,
+     40.6,
+     24.0,
+     46.8
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Montenegro"
+     ],
+     "color": "#FF7A3C",
+     "at": {
+      "line": 0,
+      "word": "Monténégro",
+      "d": 0.0
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Serbia"
+     ],
+     "color": "#E8503A",
+     "at": {
+      "line": 0,
+      "word": "Serbie",
+      "d": 0.0
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Kosovo"
+     ],
+     "color": "#FF8FB8",
+     "at": {
+      "line": 1,
+      "word": "Kosovo",
+      "d": -0.1
+     },
+     "keep": false
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      19.26,
+      42.44
+     ],
+     "title": "Podgorica",
+     "side": "l",
+     "when": {
+      "line": 0,
+      "word": "Monténégro",
+      "d": 0.3
+     }
+    },
+    {
+     "at": [
+      21.17,
+      42.67
+     ],
+     "title": "Pristina",
+     "side": "b",
+     "when": {
+      "line": 1,
+      "word": "Kosovo",
+      "d": 0.3
+     }
+    },
+    {
+     "at": [
+      20.46,
+      44.82
+     ],
+     "title": "Belgrade",
+     "side": "t",
+     "when": {
+      "line": 0,
+      "word": "Serbie",
+      "d": 0.3
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      19.26,
+      42.44
+     ],
+     "when": 0.4
+    },
+    {
+     "at": [
+      21.17,
+      42.67
+     ],
+     "when": {
+      "line": 1,
+      "word": "Kosovo"
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Albanie",
+     "at": [
+      20.0,
+      40.6
+     ],
+     "size": 36,
+     "when": {
+      "line": 1,
+      "d": 0.9
+     }
+    }
+   ],
+   "say": [
+    "En 2006, le Monténégro devient indépendant le 3 juin, puis la Serbie le 5 juin.",
+    "Le 17 février 2008, le Kosovo proclame son indépendance, reconnue par une partie des pays seulement."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "Aujourd’hui",
+   "text": "Sept pays, des langues proches",
+   "focus": {
+    "box": [
+     12.8,
+     40.8,
+     24.0,
+     47.4
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Serbia"
+     ],
+     "color": "#E8503A",
+     "at": 0.3,
+     "keep": false
+    },
+    {
+     "countries": [
+      "Croatia"
+     ],
+     "color": "#4FA3E0",
+     "at": 0.65,
+     "keep": false
+    },
+    {
+     "countries": [
+      "Bosnia and Herz."
+     ],
+     "color": "#C77DFF",
+     "at": 1.0,
+     "keep": false
+    },
+    {
+     "countries": [
+      "Slovenia"
+     ],
+     "color": "#3E9A63",
+     "at": 1.35,
+     "keep": false
+    },
+    {
+     "countries": [
+      "Montenegro"
+     ],
+     "color": "#FF7A3C",
+     "at": 1.7,
+     "keep": false
+    },
+    {
+     "countries": [
+      "Kosovo"
+     ],
+     "color": "#FF8FB8",
+     "at": 2.05,
+     "keep": false
+    },
+    {
+     "countries": [
+      "North Macedonia"
+     ],
+     "color": "#FFD83C",
+     "at": 2.4,
+     "keep": false
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      20.46,
+      44.82
+     ],
+     "when": 0.4
+    }
+   ],
+   "art": [
+    {
+     "kind": "stats",
+     "at": {
+      "line": 1,
+      "d": -0.2
+     },
+     "dur": 6,
+     "title": "Après la Yougoslavie",
+     "sub": "aujourd’hui",
+     "items": [
+      {
+       "value": 7,
+       "label": "pays",
+       "color": "#FFD83C"
+      },
+      {
+       "value": 4,
+       "label": "variantes",
+       "color": "#4FA3E0"
+      },
+      {
+       "value": 17,
+       "suffix": " millions",
+       "label": "de locuteurs",
+       "color": "#3E9A63",
+       "size": 58
+      },
+      {
+       "value": 2,
+       "label": "alphabets",
+       "color": "#C77DFF"
+      }
+     ]
+    }
+   ],
+   "say": [
+    "Aujourd’hui, l’ancien pays forme sept États, dont le Kosovo.",
+    "Serbe, croate, bosniaque et monténégrin restent proches : environ 17 millions de personnes les parlent."
+   ]
+  },
+  {
+   "type": "final",
+   "text": "Un pays disparu, des liens qui restent",
+   "sub": "La Yougoslavie",
+   "focus": {
+    "box": [
+     13.2,
+     41.5,
+     23.6,
+     47.0
+    ]
+   },
+   "people": [
+    {
+     "who": "paysan",
+     "at": [
+      16.0,
+      44.2
+     ],
+     "size": 250,
+     "say": "Ex-Yougoslavie",
+     "wave": true,
+     "when": 2.5
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      20.46,
+      44.82
+     ],
+     "title": "Belgrade",
+     "sub": "ex-capitale",
+     "side": "l",
+     "when": 2.0
+    }
+   ],
+   "say": [
+    "Voilà pourquoi l’ex-Yougoslavie compte sept pays, des langues proches et deux alphabets, héritage d’un même État."
+   ],
+   "highlight": [
+    {
+     "countries": [
+      "Serbia"
+     ],
+     "color": "#E8503A",
+     "at": {
+      "line": 0,
+      "word": "sept",
+      "d": 0.2
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Croatia"
+     ],
+     "color": "#4FA3E0",
+     "at": {
+      "line": 0,
+      "word": "sept",
+      "d": 0.45
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Bosnia and Herz."
+     ],
+     "color": "#C77DFF",
+     "at": {
+      "line": 0,
+      "word": "sept",
+      "d": 0.7
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Slovenia"
+     ],
+     "color": "#3E9A63",
+     "at": {
+      "line": 0,
+      "word": "sept",
+      "d": 0.95
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Montenegro"
+     ],
+     "color": "#FF7A3C",
+     "at": {
+      "line": 0,
+      "word": "sept",
+      "d": 1.2
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Kosovo"
+     ],
+     "color": "#FF8FB8",
+     "at": {
+      "line": 0,
+      "word": "sept",
+      "d": 1.45
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "North Macedonia"
+     ],
+     "color": "#FFD83C",
+     "at": {
+      "line": 0,
+      "word": "sept",
+      "d": 1.7
+     },
+     "keep": false
+    }
+   ]
+  }
+ ],
+ "terrain": [
+  {
+   "box": [
+    -14,
+    27,
+    40,
+    76
+   ],
+   "px": 3000,
+   "z": 6
+  },
+  {
+   "box": [
+    11.6,
+    40.0,
+    24.8,
+    48.0
+   ],
+   "px": 2800,
+   "z": 8
+  }
+ ]
+}

@@ -20,7 +20,15 @@ if [ "$fmt" = "dialogue" ]; then
   node "$ROOT/bin/svgmaker.mjs" render "$out/$id.svg" --audit --sheet -j "${JOBS:-4}" "$@"
   exit $?
 fi
-if node -e "const s=require(process.argv[1]);process.exit(s.lines.length||s.sfx.length?0:1)" "$(cd "$out" && pwd)/script.json"; then
+if [ "$fmt" = "atlas" ]; then node "$ROOT/scripts/make-relief.mjs" "$brief"; fi
+if [ "$fmt" = "carte" ] || [ "$fmt" = "atlas" ]; then
+  # carte : la durée des scènes dépend de la voix réelle → mixage, SVG recalé sur voice.json, puis remixage sur le script recalé
+  python3 "$ROOT/src/formats/carte/audio.py" "$out"
+  node "$ROOT/bin/svgmaker.mjs" new "$brief"
+  python3 "$ROOT/src/formats/carte/audio.py" "$out"
+  node "$ROOT/bin/svgmaker.mjs" new "$brief"
+  set -- --music "$out/audio.wav" "$@"
+elif node -e "const s=require(process.argv[1]);process.exit(s.lines.length||s.sfx.length?0:1)" "$(cd "$out" && pwd)/script.json"; then
   python3 "$ROOT/examples/mali-english-th/audio.py" "$out"
   node "$ROOT/bin/svgmaker.mjs" new "$brief"
   set -- --music "$out/audio.wav" "$@"

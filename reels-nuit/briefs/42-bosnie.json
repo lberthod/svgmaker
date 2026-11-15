@@ -1,0 +1,1188 @@
+{
+ "format": "atlas",
+ "id": "atlas-bosnie",
+ "base": {
+  "countries": [
+   "Bosnia and Herz.",
+   "Croatia",
+   "Serbia",
+   "Montenegro",
+   "Hungary",
+   "Austria",
+   "Bulgaria",
+   "Kosovo",
+   "Albania",
+   "Romania",
+   "Slovenia"
+  ]
+ },
+ "scenes": [
+  {
+   "type": "hook",
+   "text": "Un pays, deux entités",
+   "sub": "La Bosnie-Herzégovine",
+   "focus": {
+    "box": [
+     14.0,
+     41.8,
+     21.8,
+     46.6
+    ]
+   },
+   "highlight": {
+    "countries": [
+     "Bosnia and Herz."
+    ],
+    "color": "#C77DFF",
+    "at": 0.3,
+    "keep": true
+   },
+   "pills": [
+    {
+     "at": [
+      18.41,
+      43.86
+     ],
+     "title": "Sarajevo",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "Bosnie-Herzégovine",
+      "d": 0.3
+     },
+     "sub": "la capitale"
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      18.41,
+      43.86
+     ],
+     "when": 0.4
+    }
+   ],
+   "labels": [
+    {
+     "text": "Croatie",
+     "at": [
+      16.4,
+      45.6
+     ],
+     "size": 36,
+     "when": {
+      "line": 0,
+      "d": 2.0
+     }
+    },
+    {
+     "text": "Serbie",
+     "at": [
+      20.4,
+      44.2
+     ],
+     "size": 36,
+     "when": {
+      "line": 1,
+      "d": 0.6
+     }
+    }
+   ],
+   "say": [
+    "Pourquoi la Bosnie-Herzégovine est-elle un seul pays, avec deux entités ?",
+    "La réponse tient en six siècles d’histoire."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "14e siècle",
+   "text": "Le royaume de Bosnie",
+   "focus": {
+    "box": [
+     14.6,
+     42.2,
+     21.2,
+     46.4
+    ]
+   },
+   "highlight": {
+    "countries": [
+     "Bosnia and Herz."
+    ],
+    "color": "#C77DFF",
+    "at": 0.3,
+    "keep": true
+   },
+   "people": [
+    {
+     "who": "roi",
+     "at": [
+      17.7,
+      44.3
+     ],
+     "size": 230,
+     "say": "Un royaume !",
+     "when": {
+      "line": 1,
+      "word": "roi"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      17.9,
+      44.1
+     ],
+     "when": 0.8
+    }
+   ],
+   "labels": [
+    {
+     "text": "Hongrie",
+     "at": [
+      18.6,
+      46.0
+     ],
+     "size": 36,
+     "when": {
+      "line": 1,
+      "d": 0.8
+     }
+    },
+    {
+     "text": "Serbie",
+     "at": [
+      20.3,
+      44.0
+     ],
+     "size": 36,
+     "when": {
+      "line": 1,
+      "d": 1.6
+     }
+    }
+   ],
+   "say": [
+    "Au 14e siècle, la Bosnie est un royaume au centre des Balkans.",
+    "Son roi est couronné en 1377."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1463",
+   "text": "Les Ottomans conquièrent la Bosnie",
+   "focus": {
+    "box": [
+     14.0,
+     41.6,
+     24.2,
+     46.0
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Bosnia and Herz."
+     ],
+     "color": "#C77DFF",
+     "at": 0.3,
+     "keep": true
+    },
+    {
+     "regions": [
+      {
+       "c": "Bosnia and Herz.",
+       "n": "Herzegovina-Neretva"
+      }
+     ],
+     "color": "#FF7A3C",
+     "at": {
+      "line": 0,
+      "word": "Herzégovine",
+      "d": -0.2
+     },
+     "keep": false
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      23.3,
+      42.7
+     ],
+     "to": [
+      18.2,
+      44.0
+     ],
+     "n": 4,
+     "color": "#FF7A3C",
+     "label": "Ottomans",
+     "at": {
+      "line": 0,
+      "word": "Ottomans",
+      "d": -0.6
+     },
+     "dur": 2.4
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      18.41,
+      43.86
+     ],
+     "title": "Sarajevo",
+     "side": "t",
+     "when": {
+      "line": 1,
+      "word": "quatre",
+      "d": 0.5
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      18.41,
+      43.86
+     ],
+     "when": {
+      "line": 1,
+      "word": "quatre"
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Empire ottoman",
+     "at": [
+      22.0,
+      42.4
+     ],
+     "size": 36,
+     "when": {
+      "line": 1,
+      "d": 0.4
+     }
+    }
+   ],
+   "say": [
+    "En 1463, les Ottomans conquièrent la Bosnie, puis l’Herzégovine en 1482.",
+    "Elle reste ottomane pendant plus de quatre siècles."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1878 · 1908",
+   "text": "L’Autriche-Hongrie arrive",
+   "focus": {
+    "box": [
+     14.2,
+     42.4,
+     20.8,
+     49.8
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Austria",
+      "Hungary"
+     ],
+     "color": "#E8A33C",
+     "at": 0.3,
+     "keep": false
+    },
+    {
+     "countries": [
+      "Bosnia and Herz."
+     ],
+     "color": "#C77DFF",
+     "at": 0.3,
+     "keep": true
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      16.37,
+      48.21
+     ],
+     "to": [
+      18.2,
+      44.2
+     ],
+     "n": 3,
+     "color": "#E8A33C",
+     "label": "Autriche-Hongrie",
+     "at": {
+      "line": 0,
+      "word": "occupe",
+      "d": -0.8
+     },
+     "dur": 2.2
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      16.37,
+      48.21
+     ],
+     "title": "Vienne",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "Autriche-Hongrie",
+      "d": 0.0
+     }
+    },
+    {
+     "at": [
+      18.41,
+      43.86
+     ],
+     "title": "Sarajevo",
+     "side": "b",
+     "when": {
+      "line": 1,
+      "word": "garde",
+      "d": -0.3
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      18.41,
+      43.86
+     ],
+     "when": {
+      "line": 1,
+      "word": "garde"
+     }
+    }
+   ],
+   "say": [
+    "En 1878, l’Autriche-Hongrie occupe la Bosnie, puis l’annexe en 1908.",
+    "Elle la garde jusqu’en 1918. Après 1918 elle entre dans la Yougoslavie."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "28 juin 1914",
+   "text": "L’attentat de Sarajevo",
+   "focus": {
+    "box": [
+     14.0,
+     42.0,
+     21.6,
+     49.0
+    ]
+   },
+   "highlight": {
+    "countries": [
+     "Bosnia and Herz."
+    ],
+    "color": "#C77DFF",
+    "at": 0.3,
+    "keep": true
+   },
+   "pills": [
+    {
+     "at": [
+      18.41,
+      43.86
+     ],
+     "title": "Sarajevo",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "Sarajevo",
+      "d": -0.2
+     },
+     "sub": "28 juin 1914"
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      18.41,
+      43.86
+     ],
+     "when": {
+      "line": 0,
+      "word": "héritier"
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Serbie",
+     "at": [
+      20.4,
+      44.2
+     ],
+     "size": 36,
+     "when": {
+      "line": 1,
+      "d": 0.3
+     }
+    },
+    {
+     "text": "Croatie",
+     "at": [
+      16.4,
+      45.3
+     ],
+     "size": 36,
+     "when": {
+      "line": 1,
+      "d": 1.2
+     }
+    }
+   ],
+   "say": [
+    "Le 28 juin 1914, l’archiduc François-Ferdinand, héritier du trône d’Autriche-Hongrie, est assassiné à Sarajevo.",
+    "Cet attentat mène à la Première Guerre mondiale."
+   ],
+   "moves": [
+    {
+     "from": [
+      16.37,
+      48.21
+     ],
+     "to": [
+      18.41,
+      43.86
+     ],
+     "n": 1,
+     "color": "#E8A33C",
+     "label": "Vienne",
+     "at": {
+      "line": 0,
+      "word": "archiduc",
+      "d": 0.0
+     },
+     "dur": 2.4
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1995",
+   "text": "Les accords de Dayton",
+   "focus": {
+    "box": [
+     14.6,
+     42.0,
+     21.4,
+     46.2
+    ]
+   },
+   "highlight": {
+    "countries": [
+     "Bosnia and Herz."
+    ],
+    "color": "#C77DFF",
+    "at": 0.3,
+    "keep": true
+   },
+   "pills": [
+    {
+     "at": [
+      18.41,
+      43.86
+     ],
+     "title": "Sarajevo",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "conflit",
+      "d": 0.0
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      18.41,
+      43.86
+     ],
+     "when": 0.4
+    }
+   ],
+   "labels": [
+    {
+     "text": "Croatie",
+     "at": [
+      16.4,
+      45.6
+     ],
+     "size": 36,
+     "when": {
+      "line": 0,
+      "d": 1.2
+     }
+    },
+    {
+     "text": "Serbie",
+     "at": [
+      20.4,
+      44.2
+     ],
+     "size": 36,
+     "when": {
+      "line": 0,
+      "d": 1.8
+     }
+    }
+   ],
+   "art": [
+    {
+     "kind": "timeline",
+     "at": {
+      "line": 0,
+      "d": 1.0
+     },
+     "dur": 4.0,
+     "title": "Six siècles d’histoire",
+     "items": [
+      {
+       "year": "1377",
+       "text": "Le royaume"
+      },
+      {
+       "year": "1463",
+       "text": "Les Ottomans"
+      },
+      {
+       "year": "1878",
+       "text": "Autriche-Hongrie"
+      },
+      {
+       "year": "1914",
+       "text": "Sarajevo"
+      },
+      {
+       "year": "1992-95",
+       "text": "Guerre"
+      },
+      {
+       "year": "1995",
+       "text": "Dayton"
+      }
+     ]
+    }
+   ],
+   "say": [
+    "Indépendant en 1992, le pays sombre dans une guerre entre Bosniaques, Serbes et Croates, qui s’achève avec les accords de Dayton.",
+    "Signés à Paris en décembre 1995, ils fixent la structure actuelle."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1995",
+   "text": "Deux entités, un seul État",
+   "focus": {
+    "box": [
+     14.2,
+     42.2,
+     21.4,
+     45.6
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Bosnia and Herz."
+     ],
+     "color": "#C77DFF",
+     "at": 0.0,
+     "keep": true
+    },
+    {
+     "regions": [
+      {
+       "c": "Bosnia and Herz.",
+       "n": "Herzegovina-Neretva"
+      },
+      {
+       "c": "Bosnia and Herz.",
+       "n": "Una-Sana"
+      },
+      {
+       "c": "Bosnia and Herz.",
+       "n": "Posavina"
+      },
+      {
+       "c": "Bosnia and Herz.",
+       "n": "Tuzla"
+      },
+      {
+       "c": "Bosnia and Herz.",
+       "n": "Zenica-Doboj"
+      },
+      {
+       "c": "Bosnia and Herz.",
+       "n": "Bosnian Podrinje"
+      },
+      {
+       "c": "Bosnia and Herz.",
+       "n": "Central Bosnia"
+      },
+      {
+       "c": "Bosnia and Herz.",
+       "n": "West Herzegovina"
+      },
+      {
+       "c": "Bosnia and Herz.",
+       "n": "Sarajevo"
+      },
+      {
+       "c": "Bosnia and Herz.",
+       "n": "West Bosnia"
+      }
+     ],
+     "color": "#4FA3E0",
+     "at": {
+      "line": 0,
+      "word": "Fédération",
+      "d": -0.1
+     },
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "Bosnia and Herz.",
+       "n": "Banja Luka"
+      },
+      {
+       "c": "Bosnia and Herz.",
+       "n": "Bijeljina"
+      },
+      {
+       "c": "Bosnia and Herz.",
+       "n": "Doboj"
+      },
+      {
+       "c": "Bosnia and Herz.",
+       "n": "Sarajevo-romanija"
+      },
+      {
+       "c": "Bosnia and Herz.",
+       "n": "Foča"
+      },
+      {
+       "c": "Bosnia and Herz.",
+       "n": "Trebinje"
+      },
+      {
+       "c": "Bosnia and Herz.",
+       "n": "Vlasenica"
+      }
+     ],
+     "color": "#E8503A",
+     "at": {
+      "line": 0,
+      "word": "République",
+      "d": -0.1
+     },
+     "keep": false
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      17.8,
+      43.34
+     ],
+     "title": "Fédération",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "Fédération",
+      "d": 0.3
+     },
+     "sub": "Bosniaques et Croates"
+    },
+    {
+     "at": [
+      17.19,
+      44.77
+     ],
+     "title": "République serbe",
+     "side": "t",
+     "when": {
+      "line": 0,
+      "word": "République",
+      "d": 0.5
+     },
+     "sub": "Serbes"
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      18.41,
+      43.86
+     ],
+     "when": 0.4
+    }
+   ],
+   "labels": [
+    {
+     "text": "Croatie",
+     "at": [
+      16.4,
+      45.6
+     ],
+     "size": 36,
+     "when": {
+      "line": 0,
+      "d": 2.8
+     }
+    },
+    {
+     "text": "Serbie",
+     "at": [
+      19.9,
+      44.1
+     ],
+     "size": 36,
+     "when": {
+      "line": 0,
+      "d": 3.4
+     }
+    }
+   ],
+   "art": [
+    {
+     "kind": "bars",
+     "at": {
+      "line": 1,
+      "d": 0.0
+     },
+     "dur": 3.0,
+     "title": "Le territoire partagé",
+     "sub": "du territoire, Brčko à part",
+     "items": [
+      {
+       "label": "Fédération",
+       "value": "51 %",
+       "h": 0.51,
+       "color": "#4FA3E0"
+      },
+      {
+       "label": "Rép. serbe",
+       "value": "49 %",
+       "h": 0.49,
+       "color": "#E8503A"
+      }
+     ]
+    }
+   ],
+   "say": [
+    "Dayton consacre deux entités : la Fédération de Bosnie-et-Herzégovine, née en 1994, et la République serbe, née en 1992.",
+    "Elles se partagent le territoire : environ 51 % et 49 %."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "Aujourd’hui",
+   "text": "Un État, deux entités, trois peuples",
+   "focus": {
+    "box": [
+     14.2,
+     42.2,
+     21.4,
+     45.6
+    ]
+   },
+   "highlight": [
+    {
+     "regions": [
+      {
+       "c": "Bosnia and Herz.",
+       "n": "Herzegovina-Neretva"
+      },
+      {
+       "c": "Bosnia and Herz.",
+       "n": "Una-Sana"
+      },
+      {
+       "c": "Bosnia and Herz.",
+       "n": "Posavina"
+      },
+      {
+       "c": "Bosnia and Herz.",
+       "n": "Tuzla"
+      },
+      {
+       "c": "Bosnia and Herz.",
+       "n": "Zenica-Doboj"
+      },
+      {
+       "c": "Bosnia and Herz.",
+       "n": "Bosnian Podrinje"
+      },
+      {
+       "c": "Bosnia and Herz.",
+       "n": "Central Bosnia"
+      },
+      {
+       "c": "Bosnia and Herz.",
+       "n": "West Herzegovina"
+      },
+      {
+       "c": "Bosnia and Herz.",
+       "n": "Sarajevo"
+      },
+      {
+       "c": "Bosnia and Herz.",
+       "n": "West Bosnia"
+      }
+     ],
+     "color": "#4FA3E0",
+     "at": 0.3,
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "Bosnia and Herz.",
+       "n": "Banja Luka"
+      },
+      {
+       "c": "Bosnia and Herz.",
+       "n": "Bijeljina"
+      },
+      {
+       "c": "Bosnia and Herz.",
+       "n": "Doboj"
+      },
+      {
+       "c": "Bosnia and Herz.",
+       "n": "Sarajevo-romanija"
+      },
+      {
+       "c": "Bosnia and Herz.",
+       "n": "Foča"
+      },
+      {
+       "c": "Bosnia and Herz.",
+       "n": "Trebinje"
+      },
+      {
+       "c": "Bosnia and Herz.",
+       "n": "Vlasenica"
+      }
+     ],
+     "color": "#E8503A",
+     "at": 0.7,
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "Bosnia and Herz.",
+       "n": "Brčko Distrikt"
+      }
+     ],
+     "color": "#FFD83C",
+     "at": 1.1,
+     "keep": false
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      18.41,
+      43.86
+     ],
+     "title": "Sarajevo",
+     "side": "b",
+     "when": 1.6,
+     "sub": "capitale"
+    },
+    {
+     "at": [
+      17.19,
+      44.77
+     ],
+     "title": "Banja Luka",
+     "side": "t",
+     "when": 2.2,
+     "sub": "République serbe"
+    },
+    {
+     "at": [
+      18.81,
+      44.87
+     ],
+     "title": "Brcko",
+     "side": "t",
+     "when": {
+      "line": 0,
+      "word": "district",
+      "d": -0.2
+     },
+     "sub": "district autonome"
+    },
+    {
+     "at": [
+      17.8,
+      43.34
+     ],
+     "title": "Fédération",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "deux",
+      "d": 0.2
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      18.41,
+      43.86
+     ],
+     "when": 0.4
+    },
+    {
+     "at": [
+      18.81,
+      44.87
+     ],
+     "color": "#FFD83C",
+     "when": {
+      "line": 0,
+      "word": "district",
+      "d": 0.0
+     }
+    }
+   ],
+   "art": [
+    {
+     "kind": "stats",
+     "at": {
+      "line": 1,
+      "d": 0.0
+     },
+     "dur": 3.0,
+     "title": "Le pays aujourd’hui",
+     "items": [
+      {
+       "value": 2,
+       "label": "entités",
+       "color": "#4FA3E0"
+      },
+      {
+       "value": 1,
+       "label": "district autonome",
+       "color": "#FFD83C"
+      },
+      {
+       "value": 3,
+       "label": "peuples constitutifs",
+       "color": "#3E9A63"
+      }
+     ]
+    }
+   ],
+   "say": [
+    {
+     "say": "Aujourd’hui, l’État compte deux entités, le district autonome de Brtchko et trois peuples constitutifs.",
+     "show": "Aujourd’hui, l’État compte deux entités, le district autonome de Brcko et trois peuples constitutifs."
+    },
+    "Sa présidence a trois membres : un Bosniaque, un Serbe et un Croate."
+   ]
+  },
+  {
+   "type": "final",
+   "text": "Un pays, deux entités",
+   "sub": "La Bosnie-Herzégovine",
+   "focus": {
+    "box": [
+     14.0,
+     41.8,
+     21.8,
+     46.6
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Bosnia and Herz."
+     ],
+     "color": "#C77DFF",
+     "at": 0.3,
+     "keep": true
+    },
+    {
+     "regions": [
+      {
+       "c": "Bosnia and Herz.",
+       "n": "Herzegovina-Neretva"
+      },
+      {
+       "c": "Bosnia and Herz.",
+       "n": "Una-Sana"
+      },
+      {
+       "c": "Bosnia and Herz.",
+       "n": "Posavina"
+      },
+      {
+       "c": "Bosnia and Herz.",
+       "n": "Tuzla"
+      },
+      {
+       "c": "Bosnia and Herz.",
+       "n": "Zenica-Doboj"
+      },
+      {
+       "c": "Bosnia and Herz.",
+       "n": "Bosnian Podrinje"
+      },
+      {
+       "c": "Bosnia and Herz.",
+       "n": "Central Bosnia"
+      },
+      {
+       "c": "Bosnia and Herz.",
+       "n": "West Herzegovina"
+      },
+      {
+       "c": "Bosnia and Herz.",
+       "n": "Sarajevo"
+      },
+      {
+       "c": "Bosnia and Herz.",
+       "n": "West Bosnia"
+      }
+     ],
+     "color": "#4FA3E0",
+     "at": {
+      "line": 0,
+      "word": "deux",
+      "d": 0.0
+     },
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "Bosnia and Herz.",
+       "n": "Banja Luka"
+      },
+      {
+       "c": "Bosnia and Herz.",
+       "n": "Bijeljina"
+      },
+      {
+       "c": "Bosnia and Herz.",
+       "n": "Doboj"
+      },
+      {
+       "c": "Bosnia and Herz.",
+       "n": "Sarajevo-romanija"
+      },
+      {
+       "c": "Bosnia and Herz.",
+       "n": "Foča"
+      },
+      {
+       "c": "Bosnia and Herz.",
+       "n": "Trebinje"
+      },
+      {
+       "c": "Bosnia and Herz.",
+       "n": "Vlasenica"
+      }
+     ],
+     "color": "#E8503A",
+     "at": {
+      "line": 0,
+      "word": "entités",
+      "d": -0.3
+     },
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "Bosnia and Herz.",
+       "n": "Brčko Distrikt"
+      }
+     ],
+     "color": "#FFD83C",
+     "at": {
+      "line": 0,
+      "word": "entités",
+      "d": 0.3
+     },
+     "keep": false
+    }
+   ],
+   "people": [
+    {
+     "who": "paysan",
+     "at": [
+      15.7,
+      43.2
+     ],
+     "size": 210,
+     "say": "Un pays !",
+     "wave": true,
+     "when": {
+      "line": 1,
+      "d": 0.0
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      18.41,
+      43.86
+     ],
+     "title": "Sarajevo",
+     "side": "b",
+     "when": 0.6,
+     "sub": "capitale"
+    }
+   ],
+   "say": [
+    "Voilà pourquoi la Bosnie-Herzégovine, née d’un royaume puis de la Yougoslavie, est un seul pays avec deux entités.",
+    "Voilà la réponse à la question posée au début :"
+   ]
+  }
+ ],
+ "terrain": [
+  {
+   "box": [
+    -14,
+    27,
+    40,
+    76
+   ],
+   "px": 3000,
+   "z": 6
+  },
+  {
+   "box": [
+    13.6,
+    41.2,
+    24.6,
+    50.2
+   ],
+   "px": 2800,
+   "z": 8
+  }
+ ]
+}

@@ -1,0 +1,6 @@
+# Refonte 08-irlande
+- Ex.1 : say sans chiffres problématiques (XVIIe, années, ordinaux gérés par le générateur) ; « Sláinte ! » remplacé par « Santé ! » (bulle dite).
+- Ex.2 : 3 arts conservés et recalés sur un mot dit : stats (Grande Famine, 8,2 M en 1841, ~1 M morts, ~1 M exilés, 6,6 M en 1851), split (avant/après 1920-1922, 26 + 6 comtés, durée 4,0 s, calé sur « partagée »), timeline (7 dates, calée sur « 1949 »). Aucun fait nouveau, donc pas de nouvelle source.
+- Ex.3 : pastille Belfast du hook passée en haut (side t) pour ne pas passer sous les icônes ; focus élargi à l'est (x1 -3.5) pour dégager la marge droite ; scène des six comtés x1 -4.2 (étiquettes < x 1000).
+- Ex.5 : final « Voilà pourquoi l’Irlande est une île divisée. » puis « Et voici la question qui nous a ouverts : » (hook : « Une île, deux pays : pourquoi l’Irlande est-elle divisée ? ») ; pas de question ni CTA.
+- Ex.6 : 1801 surligne Ireland + United Kingdom (même couleur : l’île entière dans le Royaume-Uni) ; flèche des exilés ramenée dans le cadre ; ligne de frontière calée sur la réplique 1 (le mot « frontière » est ajouté à la réplique 0 pour laisser l’art finir avant les pastilles) ; balise de la scène des six comtés déplacée de Dublin (hors cadre) vers Belfast ; terrain déjà conforme.

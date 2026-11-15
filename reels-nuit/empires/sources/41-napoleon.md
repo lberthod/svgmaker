@@ -1,0 +1,46 @@
+# Sources — 41 Napoléon (empires-41-napoleon)
+
+- Sacre de Napoléon Ier, 2 décembre 1804, Notre-Dame de Paris → https://fr.wikipedia.org/wiki/Sacre_de_Napoléon
+- Premier Empire : 130 départements en 1811 (apogée), ~44 millions d'habitants hors États vassaux, États vassaux (royaume d'Italie, Naples, Confédération du Rhin, duché de Varsovie, Espagne) → https://fr.wikipedia.org/wiki/Premier_Empire
+- Liste des 130 départements (Bouches-de-l'Elbe n° 128, chef-lieu Hambourg ; Rome chef-lieu) → https://fr.wikipedia.org/wiki/Liste_des_130_départements_de_1811 ; https://www.napoleon-empire.com/institutions/grand-empire-130-departments.php
+- Hambourg et Lübeck annexés par sénatus-consulte du 13 décembre 1810, effectif 1er janvier 1811 → https://en.wikipedia.org/wiki/Bouches-de-l%27Elbe
+- États pontificaux annexés (Rome, 1809), départements de Rome et du Trasimène → https://fr.wikipedia.org/wiki/Rome_(département)
+- Provinces illyriennes, rattachées à l'Empire sans être départementalisées → https://fr.wikipedia.org/wiki/Provinces_illyriennes
+- Piémont annexé 1802 (frontières de 1804) → https://fr.wikipedia.org/wiki/Annexion_du_Piémont_par_la_France
+- Austerlitz, 2 décembre 1805, contre l'Autriche et la Russie → https://fr.wikipedia.org/wiki/Bataille_d%27Austerlitz
+- Iéna, 14 octobre 1806, contre la Prusse → https://fr.wikipedia.org/wiki/Bataille_d%27Iéna
+- Campagne de Russie : passage du Niémen 24 juin 1812, armée multinationale, Moscou incendiée en septembre 1812, retraite, la plupart des soldats ne reviennent pas → https://fr.wikipedia.org/wiki/Campagne_de_Russie
+- Leipzig, 16-19 octobre 1813, sixième coalition → https://fr.wikipedia.org/wiki/Bataille_de_Leipzig
+- Prise de Paris 31 mars 1814, abdication avril 1814, exil à l'île d'Elbe → https://fr.wikipedia.org/wiki/Campagne_de_France_(1814)
+- Cent-Jours, Waterloo 18 juin 1815 (Belgique actuelle) → https://fr.wikipedia.org/wiki/Bataille_de_Waterloo
+- Exil à Sainte-Hélène, mort le 5 mai 1821 → https://fr.wikipedia.org/wiki/Napoléon_Ier
+- Congrès de Vienne, 1814-1815 (une phrase, traité par la série Traités) → https://fr.wikipedia.org/wiki/Congrès_de_Vienne
+- 83 départements créés en 1790 → https://fr.wikipedia.org/wiki/Département_français
+- 101 départements aujourd'hui, dont 96 en métropole → https://fr.wikipedia.org/wiki/Département_français
+- Code civil promulgué le 21 mars 1804 → https://fr.wikipedia.org/wiki/Code_civil_(France) ; https://en.wikipedia.org/wiki/Napoleonic_Code
+- Influence du Code civil (Belgique, Luxembourg, Pays-Bas, Italie, Espagne, Portugal…) → https://fr.wikipedia.org/wiki/Code_civil_(France)#Influence_à_l'étranger
+- Belgique : « ancien Code civil » du 21 mars 1804 remplacé livre par livre depuis 2020 → https://www.justice.belgium.be/fr/bwcc
+- Préfets créés par la loi du 28 pluviôse an VIII (17 février 1800) → https://fr.wikipedia.org/wiki/Préfet_en_France
+- Système métrique : créé par la Révolution (1795-1799), et non par Napoléon, qui l'assouplit en 1812 (« mesures usuelles ») → https://fr.wikipedia.org/wiki/Système_métrique ; https://en.wikipedia.org/wiki/Mesures_usuelles (retiré du reel)
+- Lycées créés par la loi du 11 floréal an X (1er mai 1802) → https://www.napoleon.org/histoire-des-2-empires/articles/la-creation-des-lycees-et-des-proviseurs-par-napoleon-bonaparte/
+- Code civil, influence : Pays-Bas (1838), Italie (1865), Espagne (1889), Portugal (1867) « inspirés » ; Belgique et Luxembourg l'appliquent directement depuis 1804 → https://fr.wikipedia.org/wiki/Code_civil_(France)
+- Grande Armée de 1812 : 450 000 hommes au passage du Niémen (24 juin), 600 000 à 685 000 sur toute la campagne, contingents de nombreux pays (Varsovie, Italie, Naples, Confédération du Rhin, Autriche, Prusse, Suisse…) ; Moscou incendiée à l'entrée française le 14 septembre 1812 → https://en.wikipedia.org/wiki/French_invasion_of_Russia
+- Leipzig : Russie, Prusse, Autriche et Suède contre Napoléon → https://fr.wikipedia.org/wiki/Bataille_de_Leipzig
+- Sainte-Hélène à environ 7 250 km de Paris (calcul orthodromique, Jamestown 15,92° S 5,72° O) → https://fr.wikipedia.org/wiki/Sainte-Hélène_(île)
+- Provinces illyriennes 1811 : Carinthie occidentale (Villach) et Tyrol oriental, Carniole, Gorizia, Istrie, Croatie au sud de la Save, Dalmatie, Raguse, Kotor → https://fr.wikipedia.org/wiki/Provinces_illyriennes ; Confédération du Rhin 1811 (Bavière avec Tyrol du Nord et Salzbourg, Saxe avec Haute-Lusace, Westphalie, Mecklembourg) → https://fr.wikipedia.org/wiki/Confédération_du_Rhin ; duché de Varsovie 1809-1812 → https://fr.wikipedia.org/wiki/Duché_de_Varsovie
+- Contours (1804, 1811, 1814, vassaux) : simplifiés d'après les cartes « Premier Empire » et « Grand Empire » de Wikipédia → https://commons.wikimedia.org/wiki/File:Europe_1812_map_en.png
+
+## Pré-audit (13/11/2026)
+- Durée estimée 122,5 s → 114,6 s : phrase du congrès de Vienne et sa pastille supprimées (scène frise), phrases raccourcies (sacre, final).
+- Final : « le mètre, répandu en Europe » retiré (le mètre vient de la Révolution, Napoléon l'assouplit en 1812) ; remplacé par les lycées (1802) dans la voix et l'art `languages` ; « copié en Europe » → « modèle en Europe ».
+- Boucle : « … contre l'Europe unie » (excessif) → « Voilà comment Napoléon a conquis, puis perdu l'Europe : par la guerre. »
+- Leipzig : « presque toute l'Europe se ligue » → « la Russie, la Prusse, l'Autriche et la Suède le battent à Leipzig » ; flèche calée sur « Russie ».
+- Russie : « armée venue de toute l'Europe » → « une armée de nombreux pays d'Europe » ; flèche d'invasion partant du Niémen (et non de Paris) ; cadrage resserré [16, 46, 42, 60] ; soldat déplacé hors des flèches (30, 51,2), « Russie » et pastille Moscou décalés.
+- Frise : « maître de l'Europe en 1811 » (glorifiant) → « au sommet en 1811 ».
+- Apogée : contour des Provinces illyriennes redessiné (Villach, Tyrol oriental, Croatie au sud de la Save, Dalmatie jusqu'à Kotor, sans la Bosnie ottomane) ; Illyrie et Corse ajoutées au contour violet (`line.parts`) au hook, à l'apogée et au final ; « Varsovie » → « Duché de Varsovie ».
+- Apogée : vassaux colorés dès « Rome » et étiquettes dès « entouré » (avant, masqués après 1 s par l'art `bars`) ; `bars` ouvert sur « contre ».
+- Hook : sous-titre du `big` « puis plus rien » → « tout perdu en 1815 ».
+- Waterloo : étiquette « Belgique d'aujourd'hui » liée à un mot jamais dit (et déplacée sur les Alpes) supprimée, info passée dans la pastille Waterloo ; sous-titre « Cent-Jours : son bref retour au pouvoir » ; pastille Sainte-Hélène « à plus de 7 000 km au sud » (posée en mer, hors cadre réel).
+- Sacre : « le général Bonaparte » → « Bonaparte » (il était Premier consul), `when` recalés sur « Bonaparte ».
+- Code civil : savant déplacé (0, 44,2) pour dégager les étiquettes Belgique / Pays-Bas.
+- Hook : pastilles Hambourg / Rome retirées (cachées sous le « big » 1811, texte superposé signalé par l'aperçu ; le sous-titre du big les nomme).

@@ -1,0 +1,1540 @@
+{
+ "format": "atlas",
+ "id": "atlas-corse",
+ "base": {
+  "countries": [
+   "France",
+   "Italy"
+  ]
+ },
+ "scenes": [
+  {
+   "type": "hook",
+   "text": "Pourquoi la Corse est-elle française ?",
+   "sub": "Sa langue ressemble à l’italien",
+   "focus": {
+    "box": [
+     5.0,
+     38.8,
+     12.6,
+     44.8
+    ]
+   },
+   "highlight": {
+    "regions": [
+     {
+      "c": "France",
+      "n": "Corse-du-Sud"
+     },
+     {
+      "c": "France",
+      "n": "Haute-Corse"
+     }
+    ],
+    "color": "#FFD83C",
+    "at": 0.7,
+    "keep": false
+   },
+   "labels": [
+    {
+     "text": "Toscane",
+     "at": [
+      10.9,
+      43.3
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "d": 2.2
+     }
+    },
+    {
+     "text": "Sardaigne",
+     "at": [
+      8.95,
+      40.1
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "d": 3.4
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      9.1,
+      42.2
+     ],
+     "when": 0.5
+    }
+   ],
+   "say": [
+    "Pourquoi la Corse est-elle française, alors que sa langue ressemble à l’italien ?",
+    "Cette île est bien plus proche de l’Italie que de Marseille."
+   ],
+   "art": [
+    {
+     "kind": "stats",
+     "at": {
+      "line": 1,
+      "word": "proche",
+      "d": 0.0
+     },
+     "dur": 4.5,
+     "title": "La Corse est à…",
+     "items": [
+      {
+       "value": 90,
+       "suffix": " km",
+       "label": "de la Toscane",
+       "color": "#3E9A63",
+       "size": 62
+      },
+      {
+       "value": 170,
+       "suffix": " km",
+       "label": "de Nice",
+       "color": "#4FA3E0",
+       "size": 62
+      },
+      {
+       "value": 400,
+       "suffix": " km",
+       "label": "de Marseille",
+       "color": "#FFD83C",
+       "size": 62
+      }
+     ]
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      5.37,
+      43.3
+     ],
+     "title": "Marseille",
+     "side": "b",
+     "when": {
+      "line": 1,
+      "word": "Marseille",
+      "d": -0.3
+     }
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "3e siècle av. J.-C.",
+   "text": "Rome conquiert l’île",
+   "focus": {
+    "box": [
+     7.8,
+     40.6,
+     13.6,
+     43.6
+    ]
+   },
+   "highlight": [
+    {
+     "regions": [
+      {
+       "c": "Italy",
+       "n": "Roma"
+      },
+      {
+       "c": "Italy",
+       "n": "Latina"
+      },
+      {
+       "c": "Italy",
+       "n": "Viterbo"
+      },
+      {
+       "c": "Italy",
+       "n": "Frosinone"
+      },
+      {
+       "c": "Italy",
+       "n": "Rieti"
+      }
+     ],
+     "color": "#C77DFF",
+     "at": {
+      "line": 0,
+      "word": "Rome",
+      "d": 0.0
+     },
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "France",
+       "n": "Corse-du-Sud"
+      },
+      {
+       "c": "France",
+       "n": "Haute-Corse"
+      }
+     ],
+     "color": "#FFD83C",
+     "at": 0.3,
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "Italy",
+       "n": "Sassari"
+      },
+      {
+       "c": "Italy",
+       "n": "Nuoro"
+      },
+      {
+       "c": "Italy",
+       "n": "Olbia-Tempio"
+      },
+      {
+       "c": "Italy",
+       "n": "Oristrano"
+      },
+      {
+       "c": "Italy",
+       "n": "Cagliari"
+      },
+      {
+       "c": "Italy",
+       "n": "Carbonia-Iglesias"
+      },
+      {
+       "c": "Italy",
+       "n": "Medio Campidano"
+      },
+      {
+       "c": "Italy",
+       "n": "Ogliastra"
+      }
+     ],
+     "color": "#FF7A3C",
+     "at": 0.3,
+     "keep": false
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      12.3,
+      41.9
+     ],
+     "to": [
+      9.35,
+      42.1
+     ],
+     "n": 3,
+     "color": "#C77DFF",
+     "at": {
+      "line": 0,
+      "word": "conquiert",
+      "d": 0.0
+     },
+     "dur": 2.2,
+     "label": "Légions romaines"
+    },
+    {
+     "from": [
+      12.3,
+      41.5
+     ],
+     "to": [
+      9.2,
+      40.5
+     ],
+     "n": 2,
+     "color": "#C77DFF",
+     "at": {
+      "line": 0,
+      "word": "Sardaigne",
+      "d": -0.4
+     },
+     "dur": 2.0
+    }
+   ],
+   "people": [
+    {
+     "who": "romain",
+     "at": [
+      8.55,
+      42.3
+     ],
+     "size": 230,
+     "say": "Latin !",
+     "when": {
+      "line": 1,
+      "word": "latin",
+      "d": 0.0
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      12.5,
+      41.9
+     ],
+     "title": "Rome",
+     "side": "l",
+     "when": {
+      "line": 0,
+      "word": "Rome",
+      "d": 0.1
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      9.1,
+      42.2
+     ],
+     "when": 0.6
+    }
+   ],
+   "labels": [
+    {
+     "text": "Latin",
+     "at": [
+      8.4,
+      41.9
+     ],
+     "size": 40,
+     "when": {
+      "line": 1,
+      "word": "origine",
+      "d": 0.0
+     }
+    }
+   ],
+   "say": [
+    "Au 3e siècle avant Jésus-Christ, Rome conquiert la Corse et la Sardaigne.",
+    "Son latin est à l’origine du corse."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "11e siècle",
+   "text": "Pise, la cité marchande",
+   "focus": {
+    "box": [
+     7.8,
+     41.2,
+     11.8,
+     44.0
+    ]
+   },
+   "highlight": [
+    {
+     "regions": [
+      {
+       "c": "Italy",
+       "n": "Pisa"
+      },
+      {
+       "c": "Italy",
+       "n": "Livorno"
+      },
+      {
+       "c": "Italy",
+       "n": "Lucca"
+      },
+      {
+       "c": "Italy",
+       "n": "Grosseto"
+      }
+     ],
+     "color": "#3E9A63",
+     "at": 0.3,
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "France",
+       "n": "Corse-du-Sud"
+      },
+      {
+       "c": "France",
+       "n": "Haute-Corse"
+      }
+     ],
+     "color": "#FFD83C",
+     "at": 0.3,
+     "keep": false
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      10.3,
+      43.6
+     ],
+     "to": [
+      9.4,
+      42.75
+     ],
+     "n": 3,
+     "color": "#3E9A63",
+     "at": {
+      "line": 0,
+      "word": "confie",
+      "d": 0.0
+     },
+     "dur": 2.4,
+     "label": "Les Pisans"
+    }
+   ],
+   "people": [
+    {
+     "who": "marin",
+     "at": [
+      9.4,
+      42.45
+     ],
+     "size": 230,
+     "say": "Pise !",
+     "when": {
+      "line": 1,
+      "word": "Pisans",
+      "d": 0.0
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      10.4,
+      43.72
+     ],
+     "title": "Pise",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "Pise",
+      "d": 0.2
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      9.1,
+      42.2
+     ],
+     "when": 0.2
+    }
+   ],
+   "labels": [
+    {
+     "text": "Le toscan",
+     "at": [
+      9.1,
+      42.5
+     ],
+     "size": 38,
+     "when": {
+      "line": 1,
+      "word": "toscan",
+      "d": 0.0
+     }
+    }
+   ],
+   "say": [
+    "Au 11e siècle, le pape confie l’île à l’évêque de Pise, une riche cité de Toscane.",
+    "Leur toscan marque la langue de l’île."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1284",
+   "text": "Gênes prend le pouvoir",
+   "focus": {
+    "box": [
+     7.4,
+     41.2,
+     10.8,
+     45.2
+    ]
+   },
+   "highlight": [
+    {
+     "regions": [
+      {
+       "c": "Italy",
+       "n": "Pisa"
+      },
+      {
+       "c": "Italy",
+       "n": "Livorno"
+      },
+      {
+       "c": "Italy",
+       "n": "Lucca"
+      },
+      {
+       "c": "Italy",
+       "n": "Grosseto"
+      }
+     ],
+     "color": "#3E9A63",
+     "at": 0.3,
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "Italy",
+       "n": "Genova"
+      },
+      {
+       "c": "Italy",
+       "n": "Savona"
+      },
+      {
+       "c": "Italy",
+       "n": "Imperia"
+      },
+      {
+       "c": "Italy",
+       "n": "La Spezia"
+      }
+     ],
+     "color": "#E8503A",
+     "at": 0.3,
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "France",
+       "n": "Corse-du-Sud"
+      },
+      {
+       "c": "France",
+       "n": "Haute-Corse"
+      }
+     ],
+     "color": "#FFD83C",
+     "at": {
+      "line": 1,
+      "word": "l’île",
+      "d": 0.0
+     },
+     "keep": false
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      9.1,
+      44.1
+     ],
+     "to": [
+      10.25,
+      43.65
+     ],
+     "n": 3,
+     "color": "#E8503A",
+     "at": {
+      "line": 0,
+      "word": "bat",
+      "d": -0.2
+     },
+     "dur": 2.2,
+     "label": "Flotte génoise"
+    },
+    {
+     "from": [
+      8.95,
+      44.1
+     ],
+     "to": [
+      9.4,
+      42.75
+     ],
+     "n": 3,
+     "color": "#E8503A",
+     "at": {
+      "line": 1,
+      "word": "domine",
+      "d": 0.0
+     },
+     "dur": 2.4
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      8.93,
+      44.3
+     ],
+     "title": "Gênes",
+     "side": "t",
+     "when": {
+      "line": 0,
+      "word": "Gênes",
+      "d": 0.1
+     }
+    },
+    {
+     "at": [
+      10.4,
+      43.72
+     ],
+     "title": "Pise",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "Pise",
+      "d": 0.2
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      9.1,
+      42.2
+     ],
+     "when": 0.2
+    }
+   ],
+   "say": [
+    "En 1284, Gênes bat Pise à la bataille de la Meloria.",
+    "Elle domine l’île pendant près de cinq siècles."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1755",
+   "text": "La république de Paoli",
+   "focus": {
+    "box": [
+     8.0,
+     41.3,
+     9.9,
+     43.1
+    ]
+   },
+   "highlight": {
+    "regions": [
+     {
+      "c": "France",
+      "n": "Corse-du-Sud"
+     },
+     {
+      "c": "France",
+      "n": "Haute-Corse"
+     }
+    ],
+    "color": "#FFD83C",
+    "at": 0.3,
+    "keep": false
+   },
+   "people": [
+    {
+     "who": "rebelle",
+     "at": [
+      8.85,
+      42.25
+     ],
+     "size": 230,
+     "say": "Liberté !",
+     "when": {
+      "line": 0,
+      "word": "Paoli",
+      "d": 0.0
+     },
+     "label": {
+      "title": "Pasquale Paoli",
+      "sub": "1755"
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      9.15,
+      42.31
+     ],
+     "title": "Corte",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "Corte",
+      "d": 0.0
+     },
+     "sub": "capitale"
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      9.15,
+      42.31
+     ],
+     "when": 0.5
+    }
+   ],
+   "labels": [
+    {
+     "text": "Corse indépendante",
+     "at": [
+      9.0,
+      42.95
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "word": "république",
+      "d": 2.2
+     }
+    }
+   ],
+   "say": [
+    "En 1755, Pasquale Paoli fonde une république corse, capitale Corte."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1755",
+   "text": "Une constitution moderne",
+   "focus": {
+    "box": [
+     8.6,
+     41.9,
+     9.8,
+     43.0
+    ]
+   },
+   "highlight": {
+    "regions": [
+     {
+      "c": "France",
+      "n": "Corse-du-Sud"
+     },
+     {
+      "c": "France",
+      "n": "Haute-Corse"
+     }
+    ],
+    "color": "#FFD83C",
+    "at": 0.3,
+    "keep": false
+   },
+   "pills": [
+    {
+     "at": [
+      9.15,
+      42.31
+     ],
+     "title": "Corte",
+     "side": "r",
+     "when": 0.2
+    },
+    {
+     "at": [
+      9.15,
+      42.31
+     ],
+     "title": "Constitution",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "constitution",
+      "d": 0.0
+     },
+     "sub": "1755"
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      9.15,
+      42.31
+     ],
+     "when": 0.3
+    }
+   ],
+   "say": [
+    "Sa constitution est souvent citée comme la première constitution démocratique moderne."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1768",
+   "text": "Gênes cède l’île à la France",
+   "focus": {
+    "box": [
+     4.8,
+     41.2,
+     10.8,
+     44.8
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "France"
+     ],
+     "color": "#4FA3E0",
+     "at": {
+      "line": 1,
+      "word": "Versailles",
+      "d": -0.2
+     },
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "Italy",
+       "n": "Genova"
+      },
+      {
+       "c": "Italy",
+       "n": "Savona"
+      },
+      {
+       "c": "Italy",
+       "n": "Imperia"
+      },
+      {
+       "c": "Italy",
+       "n": "La Spezia"
+      }
+     ],
+     "color": "#E8503A",
+     "at": {
+      "line": 0,
+      "word": "Gênes",
+      "d": -0.2
+     },
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "France",
+       "n": "Corse-du-Sud"
+      },
+      {
+       "c": "France",
+       "n": "Haute-Corse"
+      }
+     ],
+     "color": "#FFD83C",
+     "at": {
+      "line": 0,
+      "word": "l’île",
+      "d": 0.0
+     },
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "France",
+       "n": "Corse-du-Sud"
+      },
+      {
+       "c": "France",
+       "n": "Haute-Corse"
+      }
+     ],
+     "color": "#4FA3E0",
+     "at": {
+      "line": 1,
+      "word": "France",
+      "d": 0.2
+     },
+     "keep": false
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      8.8,
+      44.3
+     ],
+     "to": [
+      6.3,
+      43.6
+     ],
+     "n": 3,
+     "color": "#E8503A",
+     "at": {
+      "line": 1,
+      "word": "Versailles",
+      "d": -0.4
+     },
+     "dur": 1.8,
+     "label": "Droits cédés"
+    },
+    {
+     "from": [
+      5.93,
+      43.12
+     ],
+     "to": [
+      9.4,
+      42.72
+     ],
+     "n": 3,
+     "color": "#4FA3E0",
+     "at": {
+      "line": 1,
+      "word": "cède",
+      "d": -0.2
+     },
+     "dur": 1.8,
+     "label": "Armée française"
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      8.93,
+      44.3
+     ],
+     "title": "Gênes",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "Gênes",
+      "d": 0.1
+     },
+     "sub": "endettée"
+    }
+   ],
+   "labels": [
+    {
+     "text": "Royaume de France",
+     "at": [
+      5.3,
+      44.25
+     ],
+     "size": 40,
+     "when": {
+      "line": 1,
+      "word": "Versailles",
+      "d": 0.0
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      9.1,
+      42.2
+     ],
+     "when": 0.6
+    }
+   ],
+   "say": [
+    "Gênes, endettée, ne tient plus l’île.",
+    "En 1768, le traité de Versailles cède ses droits à la France."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1769",
+   "text": "Ponte-Novu : la défaite",
+   "focus": {
+    "box": [
+     8.2,
+     41.3,
+     9.8,
+     43.0
+    ]
+   },
+   "highlight": {
+    "regions": [
+     {
+      "c": "France",
+      "n": "Corse-du-Sud"
+     },
+     {
+      "c": "France",
+      "n": "Haute-Corse"
+     }
+    ],
+    "color": "#FFD83C",
+    "at": 0.2,
+    "keep": false
+   },
+   "moves": [
+    {
+     "from": [
+      9.6,
+      42.95
+     ],
+     "to": [
+      9.3,
+      42.45
+     ],
+     "n": 4,
+     "color": "#4FA3E0",
+     "at": {
+      "line": 0,
+      "word": "française",
+      "d": -0.4
+     },
+     "dur": 2.2,
+     "label": "Armée française"
+    },
+    {
+     "from": [
+      9.15,
+      42.31
+     ],
+     "to": [
+      9.65,
+      41.45
+     ],
+     "n": 1,
+     "color": "#FFFFFF",
+     "at": {
+      "line": 1,
+      "word": "Paoli",
+      "d": -0.3
+     },
+     "dur": 2.0,
+     "label": "Exil de Paoli"
+    }
+   ],
+   "people": [
+    {
+     "who": "rebelle",
+     "at": [
+      8.95,
+      42.45
+     ],
+     "size": 220,
+     "say": "On résiste !",
+     "when": {
+      "line": 0,
+      "word": "Corses",
+      "d": 0.0
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      9.32,
+      42.47
+     ],
+     "title": "Ponte-Novu",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "Ponte-Novu",
+      "d": 0.0
+     },
+     "sub": "mai 1769"
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      9.32,
+      42.47
+     ],
+     "when": 0.6
+    }
+   ],
+   "say": [
+    "En mai 1769, l’armée française bat les Corses à Ponte-Novu.",
+    "Paoli part en exil, et l’île devient française."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "15 août 1769",
+   "text": "Napoléon naît à Ajaccio",
+   "focus": {
+    "box": [
+     8.0,
+     41.3,
+     9.9,
+     43.1
+    ]
+   },
+   "highlight": {
+    "regions": [
+     {
+      "c": "France",
+      "n": "Corse-du-Sud"
+     },
+     {
+      "c": "France",
+      "n": "Haute-Corse"
+     }
+    ],
+    "color": "#FFD83C",
+    "at": 0.2,
+    "keep": false
+   },
+   "people": [
+    {
+     "who": "savant",
+     "at": [
+      9.2,
+      41.7
+     ],
+     "size": 230,
+     "say": "Un petit Corse !",
+     "when": {
+      "line": 0,
+      "word": "Napoléon",
+      "d": 0.0
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      8.74,
+      41.92
+     ],
+     "title": "Ajaccio",
+     "side": "t",
+     "when": {
+      "line": 0,
+      "word": "Ajaccio",
+      "d": 0.0
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      8.74,
+      41.92
+     ],
+     "when": 0.5
+    }
+   ],
+   "labels": [
+    {
+     "text": "Il parle corse",
+     "at": [
+      9.0,
+      42.8
+     ],
+     "size": 38,
+     "when": {
+      "line": 1,
+      "word": "corse",
+      "d": -0.2
+     }
+    }
+   ],
+   "say": [
+    "Le 15 août 1769, Napoléon naît à Ajaccio.",
+    "Il grandit en parlant corse."
+   ]
+  },
+  {
+   "type": "map",
+   "text": "Le corse, cousin du toscan",
+   "focus": {
+    "box": [
+     7.8,
+     40.8,
+     12.0,
+     44.2
+    ]
+   },
+   "highlight": [
+    {
+     "regions": [
+      {
+       "c": "Italy",
+       "n": "Pisa"
+      },
+      {
+       "c": "Italy",
+       "n": "Livorno"
+      },
+      {
+       "c": "Italy",
+       "n": "Lucca"
+      },
+      {
+       "c": "Italy",
+       "n": "Grosseto"
+      },
+      {
+       "c": "Italy",
+       "n": "Massa-Carrara"
+      },
+      {
+       "c": "Italy",
+       "n": "Firenze"
+      },
+      {
+       "c": "Italy",
+       "n": "Siena"
+      },
+      {
+       "c": "Italy",
+       "n": "Arezzo"
+      },
+      {
+       "c": "Italy",
+       "n": "Prato"
+      },
+      {
+       "c": "Italy",
+       "n": "Pistoia"
+      }
+     ],
+     "color": "#3E9A63",
+     "at": {
+      "line": 0,
+      "word": "toscan",
+      "d": -0.4
+     },
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "France",
+       "n": "Corse-du-Sud"
+      },
+      {
+       "c": "France",
+       "n": "Haute-Corse"
+      }
+     ],
+     "color": "#FFD83C",
+     "at": {
+      "line": 0,
+      "word": "corse",
+      "d": -0.2
+     },
+     "keep": false
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      10.5,
+      43.55
+     ],
+     "to": [
+      9.45,
+      42.6
+     ],
+     "n": 3,
+     "color": "#3E9A63",
+     "at": {
+      "line": 0,
+      "word": "toscan",
+      "d": -0.2
+     },
+     "dur": 1.5,
+     "label": "Le toscan"
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      11.25,
+      43.77
+     ],
+     "title": "Toscane",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "toscan",
+      "d": 0.0
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      9.1,
+      42.2
+     ],
+     "when": 0.6
+    }
+   ],
+   "art": [
+    {
+     "kind": "languages",
+     "at": {
+      "line": 1,
+      "d": 0.0
+     },
+     "dur": 5.0,
+     "title": "Corse et français",
+     "items": [
+      {
+       "icon": "house",
+       "where": "Chez soi",
+       "lang": "Corse",
+       "note": "langue romane",
+       "color": "#4FA3E0"
+      },
+      {
+       "icon": "court",
+       "where": "Lois",
+       "lang": "Français",
+       "note": "langue officielle",
+       "color": "#3E9A63"
+      },
+      {
+       "icon": "school",
+       "where": "École",
+       "lang": "Corse",
+       "note": "enseigné en option",
+       "color": "#FFD83C"
+      }
+     ]
+    }
+   ],
+   "say": [
+    "Le corse est une langue romane, issue du latin, très proche du toscan.",
+    "Le français est officiel, mais le corse est enseigné à l’école."
+   ],
+   "year": "Aujourd’hui"
+  },
+  {
+   "type": "map",
+   "year": "Depuis 2018",
+   "text": "Une collectivité à part",
+   "focus": {
+    "box": [
+     8.1,
+     41.2,
+     9.9,
+     43.1
+    ]
+   },
+   "highlight": [
+    {
+     "regions": [
+      {
+       "c": "France",
+       "n": "Corse-du-Sud"
+      },
+      {
+       "c": "France",
+       "n": "Haute-Corse"
+      }
+     ],
+     "color": "#FFD83C",
+     "at": {
+      "line": 0,
+      "word": "Corse",
+      "d": 0.0
+     },
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "France",
+       "n": "Corse-du-Sud"
+      }
+     ],
+     "color": "#FFD83C",
+     "at": {
+      "line": 0,
+      "word": "départements",
+      "d": -0.3
+     },
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "France",
+       "n": "Haute-Corse"
+      }
+     ],
+     "color": "#FF8FB8",
+     "at": {
+      "line": 0,
+      "word": "départements",
+      "d": -0.3
+     },
+     "keep": false
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      8.74,
+      41.92
+     ],
+     "title": "Ajaccio",
+     "side": "l",
+     "when": {
+      "line": 1,
+      "word": "Ajaccio",
+      "d": 0.0
+     },
+     "sub": "Corse-du-Sud"
+    },
+    {
+     "at": [
+      9.45,
+      42.7
+     ],
+     "title": "Bastia",
+     "side": "l",
+     "when": {
+      "line": 1,
+      "word": "Bastia",
+      "d": 0.0
+     },
+     "sub": "Haute-Corse"
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      8.74,
+      41.92
+     ],
+     "when": 0.5
+    }
+   ],
+   "say": [
+    "Depuis 2018, la Collectivité de Corse remplace la région et les conseils des deux départements.",
+    "Ajaccio et Bastia restent leurs préfectures."
+   ]
+  },
+  {
+   "type": "final",
+   "text": "Une île pisane puis génoise devenue française",
+   "sub": "La Corse",
+   "focus": {
+    "box": [
+     8.0,
+     41.3,
+     9.9,
+     43.1
+    ]
+   },
+   "highlight": {
+    "regions": [
+     {
+      "c": "France",
+      "n": "Corse-du-Sud"
+     },
+     {
+      "c": "France",
+      "n": "Haute-Corse"
+     }
+    ],
+    "color": "#FFD83C",
+    "at": 0.3,
+    "keep": false
+   },
+   "people": [
+    {
+     "who": "paysan",
+     "at": [
+      8.95,
+      42.2
+     ],
+     "size": 250,
+     "say": "Corsica !",
+     "when": 6.0,
+     "wave": true
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      9.15,
+      42.31
+     ],
+     "when": 6.0
+    }
+   ],
+   "art": [
+    {
+     "kind": "timeline",
+     "at": {
+      "line": 0,
+      "d": 0.2
+     },
+     "dur": 5.0,
+     "title": "Une île, plusieurs maîtres",
+     "items": [
+      {
+       "year": "3e s. av. J.-C.",
+       "text": "Rome"
+      },
+      {
+       "year": "11e siècle",
+       "text": "Pise"
+      },
+      {
+       "year": "1284",
+       "text": "Gênes"
+      },
+      {
+       "year": "1755",
+       "text": "République corse"
+      },
+      {
+       "year": "1768",
+       "text": "Traité de Versailles"
+      },
+      {
+       "year": "1769",
+       "text": "Ponte-Novu, Napoléon"
+      }
+     ]
+    }
+   ],
+   "say": [
+    "Voilà pourquoi la Corse, romaine, pisane, génoise puis française, garde une langue proche du toscan.",
+    "Et voilà ce qui nous ramène à la question du début :"
+   ]
+  }
+ ],
+ "terrain": [
+  {
+   "box": [
+    -14,
+    27,
+    40,
+    76
+   ],
+   "px": 3000,
+   "z": 6
+  },
+  {
+   "box": [
+    4.4,
+    38.4,
+    14.0,
+    45.6
+   ],
+   "px": 2800,
+   "z": 8
+  }
+ ]
+}

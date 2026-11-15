@@ -1,0 +1,824 @@
+{
+ "format": "atlas",
+ "id": "atlas-belgique-3-langues",
+ "scenes": [
+  {
+   "type": "hook",
+   "text": "Trois langues, un si petit pays",
+   "focus": {
+    "box": [
+     2,
+     49.4,
+     6.8,
+     51.7
+    ]
+   },
+   "highlight": {
+    "countries": [
+     "Belgium"
+    ],
+    "color": "#F5C342",
+    "keep": false,
+    "at": {
+     "line": 0,
+     "word": "langues",
+     "d": 0.2
+    }
+   },
+   "say": [
+    "Trois langues dans un si petit pays : pourquoi ?",
+    "Bienvenue en Belgique, un pays 18 fois plus petit que la France !"
+   ],
+   "people": [
+    {
+     "who": "paysan",
+     "at": "Bruxelles",
+     "size": 240,
+     "say": "Bienvenue !",
+     "when": {
+      "line": 1,
+      "word": "Bienvenue",
+      "d": 0.1
+     },
+     "wave": true,
+     "mood": "happy"
+    }
+   ],
+   "pills": [
+    {
+     "at": "Bruxelles",
+     "title": "Bruxelles",
+     "side": "b",
+     "when": {
+      "line": 1,
+      "word": "Belgique",
+      "d": 0
+     }
+    }
+   ],
+   "art": [
+    {
+     "kind": "compare",
+     "at": {
+      "line": 1,
+      "word": "pays",
+      "d": 0
+     },
+     "dur": 3.8,
+     "title": "Petit, vraiment ?",
+     "sub": "même échelle",
+     "ratio": "18×",
+     "items": [
+      {
+       "country": "France",
+       "label": "France métropolitaine",
+       "value": "551 695 km²",
+       "color": "#E8503A"
+      },
+      {
+       "country": "Belgium",
+       "label": "Belgique",
+       "value": "30 688 km²",
+       "color": "#F5C342"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "57 av. J.-C.",
+   "text": "Les Belges, un peuple gaulois",
+   "focus": {
+    "box": [
+     2.8,
+     49.6,
+     7.0,
+     51.8
+    ]
+   },
+   "highlight": {
+    "countries": [
+     "Belgium"
+    ],
+    "color": "#F5C342",
+    "keep": false
+   },
+   "people": [
+    {
+     "who": "celte",
+     "at": "Bruxelles",
+     "size": 280,
+     "say": "Les Belges !",
+     "when": {
+      "line": 0,
+      "word": "région",
+      "d": 0
+     }
+    }
+   ],
+   "say": [
+    "Il y a plus de 2000 ans, la région est peuplée par les Belges, un peuple gaulois."
+   ],
+   "sub": "Sur la Belgique actuelle",
+   "labels": [
+    {
+     "text": "Territoire des Belges",
+     "at": [
+      5,
+      50.1
+     ],
+     "size": 46,
+     "when": {
+      "line": 0,
+      "word": "Belges",
+      "d": 0
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": "Bruxelles",
+     "when": 0.4
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "4e – 5e siècles",
+   "text": "Les Francs venus du nord",
+   "focus": {
+    "box": [
+     1.8,
+     50,
+     6.6,
+     52.2
+    ]
+   },
+   "moves": [
+    {
+     "from": [
+      6.2,
+      52
+     ],
+     "to": [
+      3.39,
+      50.61
+     ],
+     "n": 6,
+     "color": "#D9622B",
+     "label": "Les Francs",
+     "at": {
+      "line": 0,
+      "d": 0
+     },
+     "dur": 2.6
+    }
+   ],
+   "say": [
+    "Dès le 4e siècle, des Francs, un peuple germanique, s’installent dans le nord."
+   ],
+   "people": [
+    {
+     "who": "soldat",
+     "at": [
+      3.9,
+      51.05
+     ],
+     "size": 220,
+     "say": "Nous arrivons",
+     "when": {
+      "line": 0,
+      "word": "installent",
+      "d": 0
+     },
+     "label": {
+      "title": "Un Franc"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": "Bruxelles",
+     "when": 0.4
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "Depuis 1000 ans",
+   "text": "La frontière des langues",
+   "focus": {
+    "box": [
+     2.5,
+     49.9,
+     6.5,
+     51.5
+    ]
+   },
+   "line": {
+    "points": [
+     [
+      2.85,
+      50.76
+     ],
+     [
+      3.6,
+      50.74
+     ],
+     [
+      4.3,
+      50.72
+     ],
+     [
+      5,
+      50.75
+     ],
+     [
+      5.75,
+      50.76
+     ]
+    ],
+    "label": "Frontière linguistique (approx.)",
+    "color": "#FFD83C",
+    "at": {
+     "line": 0,
+     "word": "frontière",
+     "d": -0.2
+    }
+   },
+   "labels": [
+    {
+     "text": "Néerlandais",
+     "at": [
+      3.7,
+      51.35
+     ],
+     "size": 50,
+     "when": {
+      "line": 1,
+      "word": "nord"
+     }
+    },
+    {
+     "text": "Français",
+     "at": [
+      4.2,
+      50.2
+     ],
+     "size": 50,
+     "when": {
+      "line": 1,
+      "word": "sud"
+     }
+    }
+   ],
+   "say": [
+    "Cette frontière des langues, née au haut Moyen Âge, n’a presque pas bougé.",
+    "Néerlandais au nord, français au sud."
+   ],
+   "people": [
+    {
+     "who": "de",
+     "at": [
+      3.4,
+      51.2
+     ],
+     "size": 200,
+     "say": "Goeiedag !",
+     "when": {
+      "line": 1,
+      "word": "Néerlandais",
+      "d": 0.2
+     }
+    },
+    {
+     "who": "fr",
+     "at": [
+      5.2,
+      50.1
+     ],
+     "size": 200,
+     "say": "Bonjour !",
+     "when": {
+      "line": 1,
+      "word": "français",
+      "d": 0.2
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": "Bruxelles",
+     "when": 0.4
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1815",
+   "text": "Réunis aux Pays-Bas",
+   "focus": {
+    "box": [
+     1,
+     49,
+     7.8,
+     53.8
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Belgium"
+     ],
+     "color": "#F5C342",
+     "keep": false,
+     "at": {
+      "line": 0,
+      "d": 0
+     }
+    },
+    {
+     "countries": [
+      "Netherlands"
+     ],
+     "color": "#E8A33C",
+     "keep": false,
+     "at": {
+      "line": 0,
+      "word": "Pays-Bas",
+      "d": -0.3
+     }
+    }
+   ],
+   "say": [
+    "Longtemps convoitées, ces terres sont réunies aux Pays-Bas en 1815, sous un même roi.",
+    "Les Belges, surtout catholiques, supportent mal ce roi protestant."
+   ],
+   "people": [
+    {
+     "who": "roi",
+     "at": "Amsterdam",
+     "size": 220,
+     "say": "Un seul roi",
+     "when": {
+      "line": 0,
+      "word": "roi",
+      "d": 0
+     },
+     "crown": true
+    },
+    {
+     "who": "paysan",
+     "at": [
+      4.0,
+      50.6
+     ],
+     "size": 220,
+     "say": "Pas notre roi",
+     "when": {
+      "line": 1,
+      "word": "catholiques",
+      "d": 0
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Pays-Bas",
+     "at": [
+      5.6,
+      52.7
+     ],
+     "size": 50,
+     "when": {
+      "line": 0,
+      "word": "Pays-Bas",
+      "d": 0
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": "Bruxelles",
+     "when": 0.4
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1830 – 1898",
+   "text": "Indépendante, mais en français",
+   "focus": {
+    "box": [
+     2.2,
+     49.8,
+     6.2,
+     51.8
+    ]
+   },
+   "highlight": {
+    "countries": [
+     "Belgium"
+    ],
+    "color": "#F5C342"
+   },
+   "people": [
+    {
+     "who": "rebelle",
+     "at": "Bruxelles",
+     "size": 260,
+     "say": "Indépendance !",
+     "when": {
+      "line": 0,
+      "word": "éclate",
+      "d": 0
+     }
+    },
+    {
+     "who": "ouvrier",
+     "at": [
+      4.4,
+      51.2
+     ],
+     "size": 200,
+     "say": "Notre langue !",
+     "when": {
+      "line": 1,
+      "word": "Flamands",
+      "d": 0.2
+     }
+    }
+   ],
+   "say": [
+    "En 1830, la révolte éclate à Bruxelles : la Belgique se sépare des Pays-Bas.",
+    "Mais le français domine, même en Flandre. Les Flamands se battent, et en 1898 une loi met le néerlandais au même niveau."
+   ],
+   "beacon": [
+    {
+     "at": "Bruxelles",
+     "when": 0.4
+    }
+   ],
+   "art": [
+    {
+     "kind": "split",
+     "at": {
+      "line": 0,
+      "word": "révolte",
+      "d": 0.3
+     },
+     "dur": 3.2,
+     "title": "1830 : la séparation",
+     "sub": "Les Pays-Bas perdent la Belgique",
+     "before": "1815 : réunis",
+     "after": "1830 : séparés",
+     "badge": "Indépendante",
+     "parts": [
+      {
+       "country": "Belgium",
+       "color": "#F5C342"
+      },
+      {
+       "country": "Netherlands",
+       "color": "#E8A33C",
+       "lost": true
+      }
+     ]
+    }
+   ],
+   "labels": [
+    {
+     "text": "Flandre",
+     "at": [
+      3.3,
+      51.3
+     ],
+     "size": 46,
+     "when": {
+      "line": 1,
+      "word": "Flandre",
+      "d": 0
+     }
+    }
+   ],
+   "big": {
+    "value": "1898",
+    "sub": "néerlandais et français égaux dans les lois",
+    "at": {
+     "line": 1,
+     "word": "1898",
+     "d": -0.4
+    },
+    "dur": 2.2
+   }
+  },
+  {
+   "type": "map",
+   "year": "1920",
+   "text": "La troisième langue arrive",
+   "focus": {
+    "box": [
+     3.5,
+     49.6,
+     7.3,
+     51.2
+    ]
+   },
+   "pills": [
+    {
+     "at": "Eupen",
+     "title": "Eupen",
+     "sub": "germanophone",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "Eupen",
+      "d": 0.2
+     }
+    }
+   ],
+   "say": [
+    "Après la Première Guerre mondiale, l’Allemagne cède Eupen et Malmedy à la Belgique.",
+    "À Eupen, on parle allemand : voilà la troisième langue !"
+   ],
+   "people": [
+    {
+     "who": "de",
+     "at": [
+      6.1,
+      50.2
+     ],
+     "size": 220,
+     "say": "Guten Tag !",
+     "when": {
+      "line": 1,
+      "word": "allemand",
+      "d": 0
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Allemagne",
+     "at": [
+      6.6,
+      50.95
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "word": "Allemagne",
+      "d": 0
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": "Bruxelles",
+     "when": 0.4
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1970 – 1993",
+   "text": "Trois communautés, trois régions",
+   "focus": {
+    "box": [
+     2.4,
+     49.2,
+     6.4,
+     51.6
+    ]
+   },
+   "labels": [
+    {
+     "text": "Flandre",
+     "at": [
+      3.4,
+      51.3
+     ],
+     "size": 52,
+     "when": {
+      "line": 1,
+      "word": "Flandre"
+     }
+    },
+    {
+     "text": "Wallonie",
+     "at": [
+      4.8,
+      50.05
+     ],
+     "size": 52,
+     "when": {
+      "line": 1,
+      "word": "Wallonie"
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": "Bruxelles",
+     "title": "Bruxelles",
+     "side": "b",
+     "when": {
+      "line": 1,
+      "word": "Bruxelles"
+     }
+    }
+   ],
+   "say": [
+    "Dès 1970, des réformes créent trois communautés, puis trois régions, jusqu’à l’État fédéral.",
+    "La Flandre, la Wallonie et Bruxelles gèrent leurs propres affaires."
+   ],
+   "people": [
+    {
+     "who": "de",
+     "at": [
+      4.5,
+      51.2
+     ],
+     "size": 200,
+     "say": "Vlaanderen !",
+     "when": {
+      "line": 1,
+      "word": "Flandre",
+      "d": 0.3
+     }
+    },
+    {
+     "who": "fr",
+     "at": "Liège",
+     "size": 200,
+     "say": "Wallonie !",
+     "when": {
+      "line": 1,
+      "word": "Wallonie",
+      "d": 0.3
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": "Bruxelles",
+     "when": 0.4
+    }
+   ],
+   "art": [
+    {
+     "kind": "timeline",
+     "at": {
+      "line": 0,
+      "d": -0.3
+     },
+     "dur": 4,
+     "title": "Vers la Belgique fédérale",
+     "items": [
+      {
+       "year": "1830",
+       "text": "Indépendance"
+      },
+      {
+       "year": "1898",
+       "text": "Néerlandais égal"
+      },
+      {
+       "year": "1920",
+       "text": "Eupen et Malmedy"
+      },
+      {
+       "year": "1970",
+       "text": "Trois communautés"
+      },
+      {
+       "year": "1993",
+       "text": "État fédéral"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "text": "La Belgique en 100 personnes",
+   "sub": "Estimation · plusieurs langues possibles",
+   "focus": {
+    "box": [
+     2,
+     49.4,
+     6.8,
+     51.7
+    ]
+   },
+   "crowd": {
+    "at": 0.4,
+    "groups": [
+     {
+      "color": "#E8A33C",
+      "n": 59,
+      "label": "59 % néerlandais",
+      "at": {
+       "line": 0,
+       "word": "néerlandais",
+       "d": -0.9
+      }
+     },
+     {
+      "lang": "fr",
+      "n": 40,
+      "label": "40 % français",
+      "at": {
+       "line": 0,
+       "word": "français",
+       "d": -0.9
+      }
+     },
+     {
+      "lang": "de",
+      "n": 1,
+      "label": "1 % allemand",
+      "at": {
+       "line": 1,
+       "word": "allemand",
+       "d": -0.6
+      }
+     }
+    ]
+   },
+   "say": [
+    "Sur 100 Belges, environ 59 parlent néerlandais et 40 français…",
+    "et environ un sur cent parle allemand !"
+   ],
+   "beacon": [
+    {
+     "at": "Bruxelles",
+     "when": 0.4
+    }
+   ]
+  },
+  {
+   "type": "final",
+   "text": "Trois langues",
+   "focus": {
+    "box": [
+     2,
+     49.4,
+     6.8,
+     51.7
+    ]
+   },
+   "say": [
+    "Voilà pourquoi la Belgique parle trois langues !",
+    "Et voilà la réponse à la question qui nous a ouverts :"
+   ],
+   "people": [
+    {
+     "who": "paysan",
+     "at": "Bruxelles",
+     "size": 260,
+     "say": "Voilà !",
+     "when": 3,
+     "wave": true,
+     "mood": "happy"
+    }
+   ],
+   "pills": [
+    {
+     "at": "Bruxelles",
+     "title": "Belgique",
+     "side": "b",
+     "when": 2
+    }
+   ]
+  }
+ ],
+ "base": {
+  "countries": [
+   "Belgium"
+  ]
+ },
+ "terrain": [
+  {
+   "box": [
+    -14,
+    27,
+    40,
+    76
+   ],
+   "px": 3000,
+   "z": 6
+  },
+  {
+   "box": [
+    -0.4,
+    48.4,
+    8.9,
+    54.2
+   ],
+   "px": 2800,
+   "z": 9
+  }
+ ]
+}

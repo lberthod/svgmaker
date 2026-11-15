@@ -1,0 +1,11 @@
+- Fait 1/5 : explication du « sans violence » : accord entre dirigeants, pill Brno « accord du 26 août 1992 » (accord Klaus-Mečiar à Brno, Wikipédia FR « Divorce de velours »), final « deux peuples, un accord, aucun combat ».
+- Fait : occupation 1939 = Bohême et Moravie (la Slovaquie devient État satellite).
+- Fait : Montagne Blanche placée à Prague [14.0,50.0], mention « à Prague » dans la voix.
+- Fait : Hus brûlé 1415, guerres hussites 1419 (« quatre ans plus tard »), année « 1415 · 1419 ».
+- Fait : Allemagne sans « de l'Est » en 1948.
+- Carto : Sudètes en rouge #E8503A (9 régions), occupation #DDE3F0 sur toute la Tchéquie, Allemagne non grisée.
+- Carto : 1993, highlight Tchécoslovaquie unie dès 0,1 s puis jaune/bleu sur « sépare » ; flèches n=2.
+- Carto : labels Allemagne x≈10 ; Slovaquie/Hongrie ajoutés au hook ; Autriche (Habsbourg) étiquetée.
+- Camera : scène 1948-89 scindée en « 1948 · 1968 » (pills Coup de Prague/Printemps, chars depuis la Pologne, sans label) et « 1989 » (timeline + Havel).
+- Compo : stats du hook à 3 items sans size ; timeline 1198 réduite à 1198/1355 calée sur ligne 1 ; sprite Masaryk = confedere ; compare placé sur une ligne 2 après la phrase-réponse, sans ratio.
+- Terrain : box z8 recalculée [8.0,46.4,23.4,53.2].

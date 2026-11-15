@@ -1,0 +1,776 @@
+{
+ "format": "atlas",
+ "id": "atlas-pays-bas-sous-la-mer",
+ "scenes": [
+  {
+   "type": "hook",
+   "text": "Un pays sous le niveau de la mer : comment est-ce possible ?",
+   "focus": {
+    "box": [
+     2.5,
+     50.6,
+     7.6,
+     53.7
+    ]
+   },
+   "highlight": {
+    "countries": [
+     "Netherlands"
+    ],
+    "color": "#E8A33C",
+    "keep": false,
+    "at": {
+     "line": 0,
+     "word": "pays",
+     "d": 0.1
+    }
+   },
+   "say": [
+    "Un pays sous le niveau de la mer : comment est-ce possible ?",
+    "Bienvenue aux Pays-Bas !"
+   ],
+   "people": [
+    {
+     "who": "marin",
+     "at": "Amsterdam",
+     "size": 240,
+     "say": "Bienvenue !",
+     "when": {
+      "line": 1,
+      "word": "Bienvenue",
+      "d": 0.1
+     },
+     "wave": true,
+     "mood": "happy"
+    }
+   ],
+   "pills": [
+    {
+     "at": "Rotterdam",
+     "title": "Rotterdam",
+     "side": "b",
+     "when": {
+      "line": 1,
+      "word": "Pays-Bas",
+      "d": 0
+     }
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "text": "Nederland : les terres basses",
+   "focus": {
+    "box": [
+     2.5,
+     50.6,
+     7.6,
+     53.7
+    ]
+   },
+   "highlight": {
+    "countries": [
+     "Netherlands"
+    ],
+    "color": "#E8A33C"
+   },
+   "big": {
+    "value": "26 %",
+    "sub": "environ, sous le niveau de la mer",
+    "at": {
+     "line": 1,
+     "word": "pays",
+     "d": -0.9
+    },
+    "dur": 2.6
+   },
+   "say": [
+    "Pays-Bas veut dire terres basses : le nom dit tout.",
+    "Environ un quart du pays se trouve sous le niveau de la mer."
+   ],
+   "people": [
+    {
+     "who": "paysan",
+     "at": "Rotterdam",
+     "size": 220,
+     "say": "Terres basses",
+     "when": {
+      "line": 0,
+      "word": "basses",
+      "d": 0
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Mer du Nord",
+     "at": [
+      3.5,
+      52.8
+     ],
+     "size": 44,
+     "when": {
+      "line": 1,
+      "word": "mer",
+      "d": 0
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": "Amsterdam",
+     "when": 0.4
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "Vers 500 av. J.-C.",
+   "text": "Vivre sur des buttes",
+   "focus": {
+    "box": [
+     3,
+     51.8,
+     7.2,
+     53.7
+    ]
+   },
+   "people": [
+    {
+     "who": "paysan",
+     "at": "Leeuwarden",
+     "size": 270,
+     "say": "Ma butte !",
+     "when": {
+      "line": 0,
+      "word": "buttes",
+      "d": 0.3
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": "Leeuwarden",
+     "title": "Frise",
+     "sub": "terpen",
+     "side": "b",
+     "when": {
+      "line": 1,
+      "word": "terpen",
+      "d": -0.2
+     }
+    }
+   ],
+   "say": [
+    "Dès l’Antiquité, les habitants du nord construisent des buttes pour échapper à la mer.",
+    "On les appelle des terpen."
+   ],
+   "moves": [
+    {
+     "from": [
+      4,
+      53.5
+     ],
+     "to": [
+      5.3,
+      53.3
+     ],
+     "n": 0,
+     "color": "#58B0AE",
+     "label": "La mer",
+     "at": {
+      "line": 0,
+      "word": "mer",
+      "d": -0.2
+     },
+     "dur": 2
+    }
+   ],
+   "labels": [
+    {
+     "text": "Mer du Nord",
+     "at": [
+      4,
+      53.1
+     ],
+     "size": 42,
+     "when": {
+      "line": 0,
+      "word": "mer",
+      "d": 0.3
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": "Amsterdam",
+     "when": 0.4
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "Depuis le Moyen Âge",
+   "text": "Des digues et des moulins",
+   "focus": {
+    "box": [
+     3,
+     51.3,
+     6.8,
+     53
+    ]
+   },
+   "moves": [
+    {
+     "from": [
+      3.2,
+      52.2
+     ],
+     "to": [
+      4.5,
+      52.2
+     ],
+     "n": 0,
+     "color": "#58B0AE",
+     "label": "La mer du Nord",
+     "at": {
+      "line": 0,
+      "word": "mer",
+      "d": -0.3
+     },
+     "dur": 2.4
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      4.64,
+      51.88
+     ],
+     "title": "Kinderdijk",
+     "sub": "moulins vers 1738",
+     "side": "r",
+     "when": {
+      "line": 1,
+      "word": "moulins",
+      "d": -0.1
+     }
+    }
+   ],
+   "say": [
+    "Du Moyen Âge à aujourd’hui, on bâtit des digues contre la mer du Nord.",
+    "Les moulins à vent pompent l’eau des polders : ceux de Kinderdijk datent d’environ 1738."
+   ],
+   "people": [
+    {
+     "who": "ouvrier",
+     "at": [
+      4.5,
+      52.5
+     ],
+     "size": 220,
+     "say": "Une digue !",
+     "when": {
+      "line": 0,
+      "word": "digues",
+      "d": 0
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Polders",
+     "at": [
+      5.7,
+      52.2
+     ],
+     "size": 42,
+     "when": {
+      "line": 1,
+      "word": "polders",
+      "d": 0
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": "Amsterdam",
+     "when": 0.4
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1932",
+   "text": "L’Afsluitdijk ferme la mer",
+   "focus": {
+    "box": [
+     3.5,
+     51.8,
+     7.2,
+     53.7
+    ]
+   },
+   "pills": [
+    {
+     "at": [
+      5.12,
+      53
+     ],
+     "title": "Afsluitdijk",
+     "sub": "32 km",
+     "side": "t",
+     "when": {
+      "line": 0,
+      "word": "digue",
+      "d": -0.2
+     }
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      5.12,
+      53
+     ],
+     "to": [
+      5.35,
+      52.8
+     ],
+     "n": 0,
+     "color": "#58B0AE",
+     "label": "IJsselmeer",
+     "at": {
+      "line": 1,
+      "word": "lac",
+      "d": -0.4
+     },
+     "dur": 1.8
+    }
+   ],
+   "say": [
+    {
+     "say": "En 1932, une digue de 32 kilomètres ferme une grande baie de la mer du Nord.",
+     "show": "En 1932, une digue de 32 kilomètres, l’Afsluitdijk, ferme l’ancien golfe du Zuiderzee."
+    },
+    {
+     "say": "Elle devient un grand lac d’eau douce.",
+     "show": "Elle devient un lac d’eau douce, l’IJsselmeer."
+    }
+   ],
+   "people": [
+    {
+     "who": "ouvrier",
+     "at": [
+      4.4,
+      52.1
+     ],
+     "size": 220,
+     "say": "Une digue !",
+     "when": {
+      "line": 0,
+      "word": "digue",
+      "d": 0.2
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Zuiderzee",
+     "at": [
+      5.45,
+      52.65
+     ],
+     "size": 40,
+     "when": {
+      "line": 0,
+      "word": "baie",
+      "d": 0
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": "Amsterdam",
+     "when": 0.4
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1953",
+   "text": "La nuit où la mer est entrée",
+   "focus": {
+    "box": [
+     3,
+     51.1,
+     5.8,
+     52.4
+    ]
+   },
+   "pills": [
+    {
+     "at": "Middelbourg",
+     "title": "Zélande",
+     "sub": "1953",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "Zélande",
+      "d": 0.2
+     }
+    }
+   ],
+   "big": {
+    "value": "1 836",
+    "sub": "morts aux Pays-Bas",
+    "at": {
+     "line": 1,
+     "word": "morts",
+     "d": -1
+    },
+    "dur": 2.6
+   },
+   "say": [
+    "Dans la nuit du 31 janvier au 1er février 1953, une tempête brise les digues, surtout en Zélande.",
+    "L’inondation fait 1836 morts aux Pays-Bas."
+   ],
+   "people": [
+    {
+     "who": "paysan",
+     "at": [
+      4.1,
+      51.7
+     ],
+     "size": 220,
+     "say": "Au secours !",
+     "when": {
+      "line": 0,
+      "word": "tempête",
+      "d": 0
+     },
+     "mood": "wow"
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      3.05,
+      51.55
+     ],
+     "to": [
+      3.85,
+      51.62
+     ],
+     "n": 0,
+     "color": "#58B0AE",
+     "label": "La tempête",
+     "at": {
+      "line": 0,
+      "word": "tempête",
+      "d": -0.2
+     },
+     "dur": 2
+    }
+   ],
+   "beacon": [
+    {
+     "at": "Amsterdam",
+     "when": 0.4
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1958 – 1997",
+   "text": "Le plan Delta",
+   "focus": {
+    "box": [
+     3,
+     51.1,
+     5.8,
+     52.4
+    ]
+   },
+   "pills": [
+    {
+     "at": [
+      3.7,
+      51.63
+     ],
+     "title": "Oosterschelde",
+     "sub": "barrière de 1986",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "barrières",
+      "d": 0.1
+     }
+    },
+    {
+     "at": [
+      4.16,
+      51.95
+     ],
+     "title": "Maeslantkering",
+     "sub": "1997",
+     "side": "t",
+     "when": {
+      "line": 1,
+      "word": "Rotterdam",
+      "d": -0.4
+     }
+    }
+   ],
+   "say": [
+    "Les Néerlandais lancent le plan Delta : digues et barrières géantes contre les tempêtes.",
+    {
+     "say": "La dernière grande barrière protège Rotterdam depuis 1997. Elle ne se ferme qu’en cas de grosse tempête.",
+     "show": "La dernière, la Maeslantkering, protège Rotterdam depuis 1997. Elle ne se ferme qu’en cas de grosse tempête."
+    }
+   ],
+   "people": [
+    {
+     "who": "ouvrier",
+     "at": [
+      4.9,
+      51.75
+     ],
+     "size": 210,
+     "say": "Barrière !",
+     "when": {
+      "line": 1,
+      "word": "Rotterdam",
+      "d": 0
+     }
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      3.05,
+      52.3
+     ],
+     "to": [
+      3.45,
+      52.3
+     ],
+     "n": 0,
+     "color": "#58B0AE",
+     "label": "Mer du Nord",
+     "at": {
+      "line": 0,
+      "word": "tempêtes",
+      "d": -0.5
+     },
+     "dur": 2
+    }
+   ],
+   "beacon": [
+    {
+     "at": "Amsterdam",
+     "when": 0.4
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1942 – 1968",
+   "text": "De nouvelles terres",
+   "focus": {
+    "box": [
+     3.5,
+     51.8,
+     7.2,
+     53.4
+    ]
+   },
+   "labels": [
+    {
+     "text": "Flevoland",
+     "at": [
+      5.5,
+      52.5
+     ],
+     "size": 52,
+     "when": {
+      "line": 0,
+      "word": "Flevoland",
+      "d": 0
+     }
+    }
+   ],
+   "say": [
+    "Mieux encore : ils gagnent des terres sur l’eau. Le Flevoland est fait de polders, nés au fond de l’ancienne mer.",
+    "Des habitants vivent aujourd’hui là où il y avait des vagues !"
+   ],
+   "people": [
+    {
+     "who": "paysan",
+     "at": [
+      6.2,
+      52.1
+     ],
+     "size": 210,
+     "say": "Ma ferme !",
+     "when": {
+      "line": 1,
+      "word": "habitants",
+      "d": 0
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      5.22,
+      52.37
+     ],
+     "title": "Almere",
+     "sub": "ville des polders",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "polders",
+      "d": 0
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": "Amsterdam",
+     "when": 0.4
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "text": "Un pays fait de mains humaines",
+   "focus": {
+    "box": [
+     2.5,
+     50.6,
+     7.6,
+     53.7
+    ]
+   },
+   "highlight": {
+    "countries": [
+     "Netherlands"
+    ],
+    "color": "#E8A33C"
+   },
+   "say": [
+    "Les Néerlandais ont dû apprendre à vivre avec l’eau.",
+    "Voilà pourquoi on dit : Dieu a créé le monde, mais les Néerlandais ont créé les Pays-Bas !"
+   ],
+   "people": [
+    {
+     "who": "ouvrier",
+     "at": "Rotterdam",
+     "size": 210,
+     "say": "Fait main !",
+     "when": {
+      "line": 1,
+      "word": "créé",
+      "d": 0
+     }
+    },
+    {
+     "who": "marin",
+     "at": "Leeuwarden",
+     "size": 210,
+     "say": "Terres basses",
+     "when": {
+      "line": 0,
+      "word": "eau",
+      "d": 0
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Pays-Bas",
+     "at": [
+      5.6,
+      52.6
+     ],
+     "size": 50,
+     "when": {
+      "line": 1,
+      "word": "Pays-Bas",
+      "d": 0
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": "Amsterdam",
+     "when": 0.4
+    }
+   ]
+  },
+  {
+   "type": "final",
+   "text": "Un pays gagné sur la mer",
+   "sub": "Les Pays-Bas",
+   "focus": {
+    "box": [
+     2.5,
+     50.6,
+     7.6,
+     53.7
+    ]
+   },
+   "say": [
+    "Voilà pourquoi les Pays-Bas vivent sous le niveau de la mer !"
+   ],
+   "people": [
+    {
+     "who": "paysan",
+     "at": "Rotterdam",
+     "size": 250,
+     "say": "À bientôt !",
+     "when": 3.0,
+     "wave": true,
+     "mood": "happy"
+    }
+   ],
+   "pills": [
+    {
+     "at": "Amsterdam",
+     "title": "Pays-Bas",
+     "side": "t",
+     "when": 2.0
+    }
+   ]
+  }
+ ],
+ "base": {
+  "countries": [
+   "Netherlands"
+  ]
+ },
+ "terrain": [
+  {
+   "box": [
+    -12,
+    34,
+    34,
+    66
+   ],
+   "px": 2800,
+   "z": 6
+  },
+  {
+   "box": [
+    2.1,
+    50.2,
+    8.0,
+    54.1
+   ],
+   "px": 2800,
+   "z": 9
+  }
+ ]
+}

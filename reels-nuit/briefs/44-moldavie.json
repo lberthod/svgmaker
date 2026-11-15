@@ -1,0 +1,1253 @@
+{
+ "format": "atlas",
+ "id": "atlas-moldavie",
+ "base": {
+  "countries": [
+   "Moldova"
+  ]
+ },
+ "terrain": [
+  {
+   "box": [
+    -14,
+    27,
+    40,
+    76
+   ],
+   "px": 3000,
+   "z": 6
+  },
+  {
+   "box": [
+    23.2,
+    42.8,
+    32.0,
+    49.6
+   ],
+   "px": 2800,
+   "z": 8
+  }
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "text": "Roumain ou moldave ?",
+   "sub": "La Moldavie",
+   "focus": {
+    "box": [
+     23.6,
+     44.0,
+     31.2,
+     49.0
+    ]
+   },
+   "highlight": [
+    {
+     "color": "#B07CD8",
+     "at": {
+      "line": 0,
+      "d": 0.0,
+      "word": "Moldavie"
+     },
+     "countries": [
+      "Moldova"
+     ],
+     "keep": false
+    },
+    {
+     "color": "#FFD83C",
+     "at": {
+      "line": 1,
+      "d": 0.0,
+      "word": "Roumanie"
+     },
+     "countries": [
+      "Romania"
+     ],
+     "keep": false
+    },
+    {
+     "color": "#E8503A",
+     "at": {
+      "line": 1,
+      "d": 0.0,
+      "word": "Ukraine"
+     },
+     "countries": [
+      "Ukraine"
+     ],
+     "keep": false
+    }
+   ],
+   "labels": [
+    {
+     "text": "Moldova",
+     "at": [
+      28.2,
+      47.9
+     ],
+     "size": 34,
+     "when": {
+      "line": 0,
+      "d": 0.2,
+      "word": "Moldavie"
+     }
+    },
+    {
+     "text": "Roumanie",
+     "at": [
+      25.0,
+      46.2
+     ],
+     "size": 38,
+     "when": {
+      "line": 1,
+      "d": 0.1,
+      "word": "Roumanie"
+     }
+    },
+    {
+     "text": "Ukraine",
+     "at": [
+      29.0,
+      48.7
+     ],
+     "size": 38,
+     "when": {
+      "line": 1,
+      "d": 0.1,
+      "word": "Ukraine"
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      28.86,
+      47.01
+     ],
+     "title": "Chisinau",
+     "side": "b",
+     "when": {
+      "line": 1,
+      "d": 0.3,
+      "word": "pays"
+     }
+    }
+   ],
+   "say": [
+    "Pourquoi la Moldavie parle-t-elle roumain ?",
+    "Elle est coincée entre la Roumanie et l’Ukraine."
+   ],
+   "beacon": [
+    {
+     "at": [
+      28.86,
+      47.01
+     ],
+     "when": 0.6
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "14e siècle",
+   "text": "La principauté de Moldavie",
+   "focus": {
+    "box": [
+     23.6,
+     44.4,
+     31.0,
+     49.2
+    ]
+   },
+   "highlight": [
+    {
+     "color": "#B07CD8",
+     "at": {
+      "line": 0,
+      "d": 0.0
+     },
+     "regions": [
+      {
+       "c": "Romania",
+       "n": "Botosani"
+      },
+      {
+       "c": "Romania",
+       "n": "Iasi"
+      },
+      {
+       "c": "Romania",
+       "n": "Vaslui"
+      },
+      {
+       "c": "Romania",
+       "n": "Galati"
+      },
+      {
+       "c": "Romania",
+       "n": "Suceava"
+      },
+      {
+       "c": "Romania",
+       "n": "Neamt"
+      },
+      {
+       "c": "Romania",
+       "n": "Bacau"
+      },
+      {
+       "c": "Romania",
+       "n": "Vrancea"
+      },
+      {
+       "c": "Ukraine",
+       "n": "Chernivtsi"
+      }
+     ],
+     "keep": false
+    },
+    {
+     "color": "#B07CD8",
+     "at": {
+      "line": 0,
+      "d": 0.0
+     },
+     "countries": [
+      "Moldova"
+     ],
+     "keep": false
+    }
+   ],
+   "labels": [
+    {
+     "text": "Carpates",
+     "at": [
+      25.3,
+      46.6
+     ],
+     "size": 36,
+     "when": {
+      "line": 1,
+      "d": 0.0,
+      "word": "Carpates"
+     }
+    },
+    {
+     "text": "Dniestr",
+     "at": [
+      29.9,
+      48.0
+     ],
+     "size": 34,
+     "when": {
+      "line": 1,
+      "d": 0.0,
+      "word": "Dniestr"
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      26.26,
+      47.65
+     ],
+     "title": "Suceava",
+     "side": "l",
+     "when": {
+      "line": 0,
+      "d": 0.4,
+      "word": "Moldavie"
+     },
+     "sub": "ancienne capitale"
+    }
+   ],
+   "people": [
+    {
+     "who": "roi",
+     "at": [
+      27.0,
+      46.5
+     ],
+     "size": 210,
+     "say": "Une principauté !",
+     "when": {
+      "line": 1,
+      "d": 0.0,
+      "word": "Elle"
+     }
+    }
+   ],
+   "say": [
+    "Au 14e siècle naît la principauté de Moldavie.",
+    "Elle s’étend des Carpates au Dniestr.",
+    "Ses habitants parlent roumain."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1812",
+   "text": "La Bessarabie passe à la Russie",
+   "focus": {
+    "box": [
+     23.8,
+     44.6,
+     31.0,
+     49.0
+    ]
+   },
+   "highlight": [
+    {
+     "color": "#B07CD8",
+     "at": {
+      "line": 0,
+      "d": 0.0
+     },
+     "countries": [
+      "Moldova"
+     ],
+     "keep": false
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      30.6,
+      48.2
+     ],
+     "to": [
+      28.7,
+      47.2
+     ],
+     "n": 4,
+     "color": "#C62828",
+     "label": "Armée russe",
+     "at": {
+      "line": 0,
+      "d": 0.0
+     },
+     "dur": 2.4
+    }
+   ],
+   "people": [
+    {
+     "who": "soldat",
+     "at": [
+      30.3,
+      47.3
+     ],
+     "size": 210,
+     "say": "Terre russe !",
+     "when": {
+      "line": 0,
+      "d": 1.0,
+      "word": "annexe"
+     },
+     "label": {
+      "title": "Empire russe",
+      "sub": "Bessarabie"
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      27.59,
+      47.16
+     ],
+     "title": "Iasi",
+     "side": "t",
+     "when": {
+      "line": 0,
+      "d": 0.0,
+      "word": "principauté"
+     },
+     "sub": "reste dans la principauté"
+    }
+   ],
+   "labels": [
+    {
+     "text": "Bessarabie",
+     "at": [
+      28.0,
+      46.4
+     ],
+     "size": 36,
+     "when": {
+      "line": 1,
+      "d": 0.0,
+      "word": "Bessarabie"
+     }
+    }
+   ],
+   "say": [
+    "En 1812, l’Empire russe annexe l’est de la principauté.",
+    "Ce territoire prend le nom de Bessarabie."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1918",
+   "text": "L’union avec la Roumanie",
+   "focus": {
+    "box": [
+     24.0,
+     43.2,
+     31.0,
+     48.8
+    ]
+   },
+   "highlight": [
+    {
+     "color": "#B07CD8",
+     "at": {
+      "line": 0,
+      "d": 0.0
+     },
+     "countries": [
+      "Moldova"
+     ],
+     "keep": false
+    },
+    {
+     "color": "#FFD83C",
+     "at": {
+      "line": 0,
+      "d": 0.3
+     },
+     "countries": [
+      "Romania"
+     ],
+     "keep": false
+    },
+    {
+     "color": "#FFD83C",
+     "at": {
+      "line": 0,
+      "d": 0.2,
+      "word": "union"
+     },
+     "countries": [
+      "Moldova"
+     ],
+     "keep": false
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      28.86,
+      47.01
+     ],
+     "to": [
+      26.1,
+      44.43
+     ],
+     "n": 3,
+     "color": "#FFFFFF",
+     "label": "L’union",
+     "at": {
+      "line": 0,
+      "d": 0.0,
+      "word": "union"
+     },
+     "dur": 2.4
+    }
+   ],
+   "people": [
+    {
+     "who": "paysan",
+     "at": [
+      28.2,
+      46.6
+     ],
+     "size": 200,
+     "say": "Enfin unis !",
+     "when": {
+      "line": 1,
+      "d": 0.0,
+      "word": "roumaine"
+     },
+     "mood": "happy"
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      28.86,
+      47.01
+     ],
+     "title": "Chisinau",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "d": 0.4,
+      "word": "Bessarabie"
+     },
+     "sub": "9 avril 1918"
+    },
+    {
+     "at": [
+      26.1,
+      44.43
+     ],
+     "title": "Bucarest",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "d": 0.4,
+      "word": "Roumanie"
+     }
+    }
+   ],
+   "say": [
+    "Le 9 avril 1918, la Bessarabie vote son union avec la Roumanie.",
+    "Elle reste roumaine plus de vingt ans."
+   ],
+   "beacon": [
+    {
+     "at": [
+      26.1,
+      44.43
+     ],
+     "when": 0.8
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1940",
+   "text": "Pacte, annexion, RSS moldave",
+   "focus": {
+    "box": [
+     24.8,
+     45.0,
+     31.6,
+     48.9
+    ]
+   },
+   "highlight": [
+    {
+     "color": "#FFD83C",
+     "at": {
+      "line": 0,
+      "d": 0.0
+     },
+     "countries": [
+      "Romania"
+     ],
+     "keep": false
+    },
+    {
+     "color": "#B07CD8",
+     "at": {
+      "line": 0,
+      "d": 0.3
+     },
+     "countries": [
+      "Moldova"
+     ],
+     "keep": false
+    },
+    {
+     "color": "#E8503A",
+     "at": {
+      "line": 1,
+      "d": 0.0
+     },
+     "countries": [
+      "Ukraine"
+     ],
+     "keep": false
+    },
+    {
+     "color": "#E8A33C",
+     "at": {
+      "line": 2,
+      "d": 0.0
+     },
+     "countries": [
+      "Moldova"
+     ],
+     "keep": false
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      31.3,
+      47.8
+     ],
+     "to": [
+      28.4,
+      47.3
+     ],
+     "n": 5,
+     "color": "#C62828",
+     "label": "Armée rouge",
+     "at": {
+      "line": 2,
+      "d": 0.0,
+      "word": "occupe"
+     },
+     "dur": 2.2
+    }
+   ],
+   "people": [
+    {
+     "who": "ouvrier",
+     "at": [
+      28.0,
+      46.2
+     ],
+     "size": 200,
+     "say": "Alphabet imposé",
+     "when": {
+      "line": 3,
+      "d": 0.0,
+      "word": "cyrillique"
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      28.86,
+      47.01
+     ],
+     "title": "Chisinau",
+     "side": "b",
+     "when": {
+      "line": 3,
+      "d": 0.2,
+      "word": "naît"
+     },
+     "sub": "2 août 1940"
+    }
+   ],
+   "labels": [
+    {
+     "text": "URSS",
+     "at": [
+      30.7,
+      48.5
+     ],
+     "size": 38,
+     "when": {
+      "line": 1,
+      "d": 0.0,
+      "word": "URSS"
+     }
+    },
+    {
+     "text": "RSS moldave",
+     "at": [
+      27.6,
+      47.9
+     ],
+     "size": 36,
+     "when": {
+      "line": 3,
+      "d": 0.0,
+      "word": "République"
+     }
+    }
+   ],
+   "say": [
+    "Le 23 août 1939, un pacte germano-soviétique",
+    "place la Bessarabie dans la sphère de l’URSS.",
+    "En juin 1940, après un ultimatum, l’armée rouge l’occupe.",
+    "Le 2 août naît la République soviétique moldave, en cyrillique.",
+    "Moscou impose une langue dite moldave."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "27 août 1991",
+   "text": "L’indépendance",
+   "focus": {
+    "box": [
+     25.0,
+     45.0,
+     31.0,
+     48.8
+    ]
+   },
+   "highlight": [
+    {
+     "color": "#B07CD8",
+     "at": {
+      "line": 0,
+      "d": 0.0
+     },
+     "countries": [
+      "Moldova"
+     ],
+     "keep": false
+    }
+   ],
+   "people": [
+    {
+     "who": "rebelle",
+     "at": [
+      28.4,
+      46.5
+     ],
+     "size": 200,
+     "say": "Indépendance !",
+     "when": {
+      "line": 0,
+      "d": 0.0,
+      "word": "indépendance"
+     },
+     "mood": "happy"
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      28.86,
+      47.01
+     ],
+     "title": "Chisinau",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "d": 0.0,
+      "word": "Moldavie"
+     },
+     "sub": "capitale"
+    }
+   ],
+   "labels": [
+    {
+     "text": "Moldova",
+     "at": [
+      28.1,
+      47.8
+     ],
+     "size": 36,
+     "when": {
+      "line": 0,
+      "d": 0.3,
+      "word": "indépendance"
+     }
+    }
+   ],
+   "art": [
+    {
+     "kind": "timeline",
+     "at": {
+      "line": 1,
+      "d": -0.4
+     },
+     "dur": 4.4,
+     "title": "De 1812 à 1991",
+     "items": [
+      {
+       "year": "1812",
+       "text": "Empire russe",
+       "color": "#E8503A"
+      },
+      {
+       "year": "1918",
+       "text": "Roumanie",
+       "color": "#FFD83C"
+      },
+      {
+       "year": "1940",
+       "text": "URSS",
+       "color": "#E8503A"
+      },
+      {
+       "year": "1991",
+       "text": "Indépendance",
+       "color": "#B07CD8"
+      }
+     ]
+    }
+   ],
+   "say": [
+    "Le 27 août 1991, la Moldavie proclame son indépendance.",
+    "Après 1812, 1918 et 1940, c’est un nouveau changement de pouvoir."
+   ],
+   "beacon": [
+    {
+     "at": [
+      28.86,
+      47.01
+     ],
+     "when": 0.6
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1990 – 1992",
+   "text": "La Transnistrie se sépare",
+   "focus": {
+    "box": [
+     26.0,
+     45.4,
+     31.0,
+     48.6
+    ]
+   },
+   "highlight": [
+    {
+     "color": "#B07CD8",
+     "at": {
+      "line": 0,
+      "d": 0.0
+     },
+     "countries": [
+      "Moldova"
+     ],
+     "keep": false
+    },
+    {
+     "color": "#E8A33C",
+     "at": {
+      "line": 0,
+      "d": 0.0,
+      "word": "Transnistrie"
+     },
+     "regions": [
+      {
+       "c": "Moldova",
+       "n": "Camenca"
+      },
+      {
+       "c": "Moldova",
+       "n": "Stîngă Nistrului"
+      },
+      {
+       "c": "Moldova",
+       "n": "Grigoriopol"
+      },
+      {
+       "c": "Moldova",
+       "n": "Bender"
+      }
+     ],
+     "keep": false
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      28.3,
+      47.1
+     ],
+     "to": [
+      29.48,
+      46.83
+     ],
+     "n": 1,
+     "color": "#FFFFFF",
+     "label": "Guerre de 1992",
+     "at": {
+      "line": 1,
+      "d": 0.0,
+      "word": "guerre"
+     },
+     "dur": 2.4
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      29.64,
+      46.84
+     ],
+     "title": "Tiraspol",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "d": 0.5,
+      "word": "Transnistrie"
+     },
+     "sub": "région non reconnue"
+    }
+   ],
+   "labels": [
+    {
+     "text": "Dniestr",
+     "at": [
+      29.9,
+      47.6
+     ],
+     "size": 34,
+     "when": {
+      "line": 0,
+      "d": 0.0,
+      "word": "Dniestr"
+     }
+    }
+   ],
+   "say": [
+    "En 1990, la Transnistrie, à l’est du Dniestr, proclame sa république.",
+    "Une guerre éclate en 1992, puis un cessez-le-feu."
+   ],
+   "beacon": [
+    {
+     "at": [
+      29.64,
+      46.84
+     ],
+     "when": 0.8
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "2013 – 2024",
+   "text": "Une langue, deux noms",
+   "focus": {
+    "box": [
+     24.4,
+     45.0,
+     31.0,
+     48.8
+    ]
+   },
+   "highlight": [
+    {
+     "color": "#B07CD8",
+     "at": {
+      "line": 0,
+      "d": 0.0
+     },
+     "countries": [
+      "Moldova"
+     ],
+     "keep": false
+    },
+    {
+     "color": "#FFD83C",
+     "at": {
+      "line": 0,
+      "d": 0.0
+     },
+     "countries": [
+      "Romania"
+     ],
+     "keep": false
+    }
+   ],
+   "people": [
+    {
+     "who": "savant",
+     "at": [
+      27.4,
+      46.2
+     ],
+     "size": 200,
+     "say": "Le nom : roumain",
+     "when": {
+      "line": 0,
+      "d": 0.0,
+      "word": "Cour"
+     },
+     "label": {
+      "title": "Cour constitutionnelle",
+      "sub": "5 décembre 2013"
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      28.86,
+      47.01
+     ],
+     "title": "Chisinau",
+     "side": "r",
+     "when": {
+      "line": 1,
+      "d": 0.0,
+      "word": "2023"
+     },
+     "sub": "loi du 24 mars 2023"
+    }
+   ],
+   "labels": [
+    {
+     "text": "Roumanie",
+     "at": [
+      25.4,
+      46.0
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "d": 0.1,
+      "word": "roumain"
+     }
+    }
+   ],
+   "art": [
+    {
+     "kind": "bars",
+     "at": {
+      "line": 2,
+      "d": 0.0
+     },
+     "dur": 4.0,
+     "title": "Langue maternelle déclarée",
+     "sub": "parmi ceux qui ont déclaré une langue maternelle, recensement 2024",
+     "items": [
+      {
+       "label": "Moldave",
+       "value": "49 %",
+       "h": 1.0,
+       "color": "#B07CD8"
+      },
+      {
+       "label": "Roumain",
+       "value": "31 %",
+       "h": 0.64,
+       "color": "#FFD83C"
+      }
+     ]
+    },
+    {
+     "kind": "languages",
+     "at": {
+      "line": 3,
+      "d": 0.0
+     },
+     "dur": 4.2,
+     "title": "Une langue, trois regards",
+     "items": [
+      {
+       "where": "Principauté",
+       "lang": "Roumain",
+       "color": "#FFD83C",
+       "icon": "house",
+       "note": "parlé par les habitants"
+      },
+      {
+       "where": "URSS, 1940",
+       "lang": "« Moldave »",
+       "color": "#E8503A",
+       "icon": "school",
+       "note": "imposé par Moscou"
+      },
+      {
+       "where": "Linguistes",
+       "lang": "Une seule langue",
+       "color": "#B07CD8",
+       "icon": "hall",
+       "note": "le roumain"
+      }
+     ]
+    }
+   ],
+   "say": [
+    "En 2013, la Cour constitutionnelle nomme roumain la langue de l’État.",
+    "Une loi de 2023 remplace moldave par roumain.",
+    "En 2024, environ 49 % déclarent le moldave, et 31 % le roumain.",
+    "Pour les linguistes, c’est la même langue."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "2022",
+   "text": "Candidate à l’Union européenne",
+   "focus": {
+    "box": [
+     24.0,
+     44.8,
+     31.0,
+     48.8
+    ]
+   },
+   "highlight": [
+    {
+     "color": "#FFD83C",
+     "at": {
+      "line": 0,
+      "d": 0.0
+     },
+     "countries": [
+      "Romania"
+     ],
+     "keep": false
+    },
+    {
+     "color": "#B07CD8",
+     "at": {
+      "line": 0,
+      "d": 0.0
+     },
+     "countries": [
+      "Moldova"
+     ],
+     "keep": false
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      28.5,
+      46.9
+     ],
+     "to": [
+      25.2,
+      46.5
+     ],
+     "n": 1,
+     "color": "#FFFFFF",
+     "label": "Vers l’UE",
+     "at": {
+      "line": 0,
+      "d": 1.0,
+      "word": "candidate"
+     },
+     "dur": 2.2
+    }
+   ],
+   "labels": [
+    {
+     "text": "Roumanie (UE)",
+     "at": [
+      24.9,
+      46.0
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "d": 0.2,
+      "word": "Union"
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      28.86,
+      47.01
+     ],
+     "title": "Chisinau",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "d": 1.0,
+      "word": "candidate"
+     },
+     "sub": "candidate, juin 2022"
+    }
+   ],
+   "say": [
+    "En juin 2022, la Moldavie devient candidate à l’Union européenne."
+   ],
+   "beacon": [
+    {
+     "at": [
+      28.86,
+      47.01
+     ],
+     "when": 0.8
+    }
+   ]
+  },
+  {
+   "type": "final",
+   "text": "Une langue, plusieurs pouvoirs",
+   "sub": "La Moldavie",
+   "focus": {
+    "box": [
+     23.6,
+     44.0,
+     31.2,
+     49.0
+    ]
+   },
+   "people": [
+    {
+     "who": "paysan",
+     "at": [
+      28.3,
+      46.2
+     ],
+     "size": 240,
+     "say": "Moldova !",
+     "when": 3.0,
+     "wave": true
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      28.86,
+      47.01
+     ],
+     "title": "Chisinau",
+     "side": "b",
+     "when": 2.0,
+     "sub": "capitale"
+    }
+   ],
+   "labels": [
+    {
+     "text": "Roumanie",
+     "at": [
+      25.0,
+      46.2
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "d": 0.0,
+      "word": "roumain"
+     }
+    },
+    {
+     "text": "Ukraine",
+     "at": [
+      30.0,
+      48.8
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "d": 0.0,
+      "word": "pouvoirs"
+     }
+    }
+   ],
+   "say": [
+    "Voilà pourquoi la Moldavie parle roumain : une même langue, plusieurs pouvoirs.",
+    "Pourquoi la Moldavie parle-t-elle roumain ?"
+   ],
+   "highlight": [
+    {
+     "color": "#B07CD8",
+     "at": {
+      "line": 0,
+      "d": 0.0
+     },
+     "countries": [
+      "Moldova"
+     ],
+     "keep": false
+    },
+    {
+     "color": "#FFD83C",
+     "at": {
+      "line": 0,
+      "d": 0.0,
+      "word": "roumain"
+     },
+     "countries": [
+      "Romania"
+     ],
+     "keep": false
+    }
+   ]
+  }
+ ]
+}

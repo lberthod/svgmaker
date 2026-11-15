@@ -70,7 +70,7 @@ export function build(theme, VOICE = {}) {
 const INTRO = 8.0, SCENE = 9.0
 const Q = INTRO + WORDS.length * SCENE
 const O = Q + 10
-const D = O + 5
+const D = O + 6.5  // la réplique thaïe de fin (~2,9 s) doit finir avant le fondu de rendu (1,2 s)
 const MALI_X = 290, GROUND = 1365, MALI_K = 1.3
 const OBJ = { x: 825, y: 1110 }
 const SLOT = (i) => ({ x: 540 + (i - 2.5) * 84, y: 1565 })
@@ -326,7 +326,7 @@ function outro() {
   win('trunk', 'wave', O + 0.3, 2.0)
   hop(O + 0.2)
   expr(O + 0.2, 2.6, 'happy', 'laugh')
-  walk(O + 2.6, 2.4)
+  walk(O + 3.4, 2.4)  // Mali sort après « บ๊ายบาย… », pas pendant
   const mini = WORDS.map((w, i) => {
     const x = 150 + i * 195
     return `<g class="pop" style="${anim('pop', 0.45, O + 0.6 + i * 0.15)}"><rect x="${x - 82}" y="590" width="164" height="164" rx="30" fill="#fff" stroke="${w.color}" stroke-width="8"/><g transform="translate(${x} 672)">${art(w.art, 0.3)}</g>
@@ -350,7 +350,7 @@ const parts = [
 ]
 const wrap = (p, which) => `<g class="sc" style="animation:${which === 'ui' && p.k === 'scene' ? 'sceneUI' : p.k} ${f(p.d)}s ${which === 'ui' ? 'cubic-bezier(.2,.8,.2,1)' : 'linear'} ${f(p.s)}s both">${p[which]}</g>`
 const pct = (t) => f((t / D) * 100)
-custom.push(`@keyframes maliPath{0%{transform:translate(-280px,${GROUND}px)}${pct(2.2)}%{transform:translate(${MALI_X}px,${GROUND}px)}${pct(O + 2.6)}%{transform:translate(${MALI_X}px,${GROUND}px)}${pct(O + 5)}%{transform:translate(1350px,${GROUND}px)}100%{transform:translate(1350px,${GROUND}px)}}`)
+custom.push(`@keyframes maliPath{0%{transform:translate(-280px,${GROUND}px)}${pct(2.2)}%{transform:translate(${MALI_X}px,${GROUND}px)}${pct(O + 3.4)}%{transform:translate(${MALI_X}px,${GROUND}px)}${pct(O + 5.8)}%{transform:translate(1350px,${GROUND}px)}100%{transform:translate(1350px,${GROUND}px)}}`)
 const stage = parts.map((p) => wrap(p, 'stage')).join('')
 const ui = parts.map((p) => wrap(p, 'ui')).join('')
 const maliSvg = actor.draw()

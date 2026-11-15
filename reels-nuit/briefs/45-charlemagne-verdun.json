@@ -1,0 +1,4085 @@
+{
+ "format": "atlas",
+ "id": "atlas-charlemagne-verdun",
+ "base": {
+  "countries": [
+   "France",
+   "Germany",
+   "Belgium",
+   "Netherlands",
+   "Luxembourg",
+   "Switzerland",
+   "Italy",
+   "Austria",
+   "Spain"
+  ]
+ },
+ "terrain": [
+  {
+   "box": [
+    -14,
+    27,
+    40,
+    76
+   ],
+   "px": 3000,
+   "z": 6
+  },
+  {
+   "box": [
+    -3.4,
+    39.1,
+    16.4,
+    55.4
+   ],
+   "px": 2800,
+   "z": 8
+  }
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "text": "France et Allemagne : même origine",
+   "sub": "Charlemagne et Verdun",
+   "focus": {
+    "box": [
+     -2,
+     42,
+     16,
+     54
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "France"
+     ],
+     "color": "#4FA3E0",
+     "at": {
+      "line": 0,
+      "word": "France"
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Germany"
+     ],
+     "color": "#E8503A",
+     "at": {
+      "line": 0,
+      "word": "Allemagne"
+     },
+     "keep": false
+    }
+   ],
+   "people": [
+    {
+     "who": "roi",
+     "at": [
+      6.08,
+      50.78
+     ],
+     "size": 240,
+     "say": "Les Francs !",
+     "label": {
+      "title": "Charlemagne",
+      "sub": "roi des Francs"
+     },
+     "when": {
+      "line": 1,
+      "word": "Charlemagne"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      6.08,
+      50.78
+     ],
+     "when": {
+      "line": 1,
+      "word": "Francs"
+     }
+    }
+   ],
+   "say": [
+    "Pourquoi la France et l’Allemagne sont-elles nées d’un même empire ?",
+    "Tout commence avec les Francs, et leur roi Charlemagne."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "800",
+   "text": "Charlemagne est couronné empereur",
+   "focus": {
+    "box": [
+     3,
+     39,
+     16,
+     56
+    ]
+   },
+   "moves": [
+    {
+     "from": [
+      6.08,
+      50.78
+     ],
+     "to": [
+      12.5,
+      41.9
+     ],
+     "n": 2,
+     "color": "#FFFFFF",
+     "label": "Vers Rome",
+     "at": {
+      "line": 0,
+      "word": "Rome",
+      "d": -1.2
+     },
+     "dur": 2.4
+    }
+   ],
+   "people": [
+    {
+     "who": "savant",
+     "at": [
+      11.9,
+      42.5
+     ],
+     "size": 200,
+     "say": "Le pape Léon III",
+     "when": {
+      "line": 0,
+      "word": "pape"
+     }
+    },
+    {
+     "who": "cesar",
+     "at": [
+      12.9,
+      42.2
+     ],
+     "size": 200,
+     "say": "Empereur !",
+     "label": {
+      "title": "Charlemagne",
+      "sub": "800"
+     },
+     "when": {
+      "line": 0,
+      "word": "couronne"
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      12.5,
+      41.9
+     ],
+     "title": "Rome",
+     "side": "l",
+     "when": {
+      "line": 0,
+      "word": "Rome"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      12.5,
+      41.9
+     ],
+     "when": {
+      "line": 0,
+      "word": "Rome"
+     }
+    }
+   ],
+   "highlight": [
+    {
+     "regions": [
+      {
+       "c": "France",
+       "n": "Nord"
+      },
+      {
+       "c": "France",
+       "n": "Ardennes"
+      },
+      {
+       "c": "France",
+       "n": "Aisne"
+      },
+      {
+       "c": "France",
+       "n": "Meuse"
+      },
+      {
+       "c": "France",
+       "n": "Meurthe-et-Moselle"
+      },
+      {
+       "c": "France",
+       "n": "Moselle"
+      },
+      {
+       "c": "France",
+       "n": "Alpes-Maritimes"
+      },
+      {
+       "c": "France",
+       "n": "Alpes-de-Haute-Provence"
+      },
+      {
+       "c": "France",
+       "n": "Hautes-Alpes"
+      },
+      {
+       "c": "France",
+       "n": "Savoie"
+      },
+      {
+       "c": "France",
+       "n": "Haute-Savoie"
+      },
+      {
+       "c": "France",
+       "n": "Pyrénées-Atlantiques"
+      },
+      {
+       "c": "France",
+       "n": "Haute-Garonne"
+      },
+      {
+       "c": "France",
+       "n": "Hautes-Pyrénées"
+      },
+      {
+       "c": "France",
+       "n": "Ariège"
+      },
+      {
+       "c": "France",
+       "n": "Pyrénées-Orientales"
+      },
+      {
+       "c": "France",
+       "n": "Bas-Rhin"
+      },
+      {
+       "c": "France",
+       "n": "Haute-Rhin"
+      },
+      {
+       "c": "France",
+       "n": "Territoire de Belfort"
+      },
+      {
+       "c": "France",
+       "n": "Doubs"
+      },
+      {
+       "c": "France",
+       "n": "Ain"
+      },
+      {
+       "c": "France",
+       "n": "Jura"
+      },
+      {
+       "c": "France",
+       "n": "Var"
+      },
+      {
+       "c": "France",
+       "n": "Bouches-du-Rhône"
+      },
+      {
+       "c": "France",
+       "n": "Gard"
+      },
+      {
+       "c": "France",
+       "n": "Hérault"
+      },
+      {
+       "c": "France",
+       "n": "Aude"
+      },
+      {
+       "c": "France",
+       "n": "Landes"
+      },
+      {
+       "c": "France",
+       "n": "Gironde"
+      },
+      {
+       "c": "France",
+       "n": "Charente-Maritime"
+      },
+      {
+       "c": "France",
+       "n": "Vendée"
+      },
+      {
+       "c": "France",
+       "n": "Loire-Atlantique"
+      },
+      {
+       "c": "France",
+       "n": "Morbihan"
+      },
+      {
+       "c": "France",
+       "n": "Finistère"
+      },
+      {
+       "c": "France",
+       "n": "Côtes-d'Armor"
+      },
+      {
+       "c": "France",
+       "n": "Ille-et-Vilaine"
+      },
+      {
+       "c": "France",
+       "n": "Manche"
+      },
+      {
+       "c": "France",
+       "n": "Calvados"
+      },
+      {
+       "c": "France",
+       "n": "Eure"
+      },
+      {
+       "c": "France",
+       "n": "Seine-Maritime"
+      },
+      {
+       "c": "France",
+       "n": "Somme"
+      },
+      {
+       "c": "France",
+       "n": "Pas-de-Calais"
+      },
+      {
+       "c": "France",
+       "n": "Haute-Corse"
+      },
+      {
+       "c": "France",
+       "n": "Corse-du-Sud"
+      },
+      {
+       "c": "France",
+       "n": "Gers"
+      },
+      {
+       "c": "France",
+       "n": "Haute-Vienne"
+      },
+      {
+       "c": "France",
+       "n": "Corrèze"
+      },
+      {
+       "c": "France",
+       "n": "Tarn-et-Garonne"
+      },
+      {
+       "c": "France",
+       "n": "Tarn"
+      },
+      {
+       "c": "France",
+       "n": "Isère"
+      },
+      {
+       "c": "France",
+       "n": "Drôme"
+      },
+      {
+       "c": "France",
+       "n": "Aveyron"
+      },
+      {
+       "c": "France",
+       "n": "Lot"
+      },
+      {
+       "c": "France",
+       "n": "Indre-et-Loire"
+      },
+      {
+       "c": "France",
+       "n": "Indre"
+      },
+      {
+       "c": "France",
+       "n": "Loir-et-Cher"
+      },
+      {
+       "c": "France",
+       "n": "Creuse"
+      },
+      {
+       "c": "France",
+       "n": "Mayenne"
+      },
+      {
+       "c": "France",
+       "n": "Sarthe"
+      },
+      {
+       "c": "France",
+       "n": "Vaucluse"
+      },
+      {
+       "c": "France",
+       "n": "Haute-Marne"
+      },
+      {
+       "c": "France",
+       "n": "Marne"
+      },
+      {
+       "c": "France",
+       "n": "Dordogne"
+      },
+      {
+       "c": "France",
+       "n": "Rhône"
+      },
+      {
+       "c": "France",
+       "n": "Vosges"
+      },
+      {
+       "c": "France",
+       "n": "Ardèche"
+      },
+      {
+       "c": "France",
+       "n": "Loire"
+      },
+      {
+       "c": "France",
+       "n": "Puy-de-Dôme"
+      },
+      {
+       "c": "France",
+       "n": "Allier"
+      },
+      {
+       "c": "France",
+       "n": "Loiret"
+      },
+      {
+       "c": "France",
+       "n": "Maine-et-Loire"
+      },
+      {
+       "c": "France",
+       "n": "Aube"
+      },
+      {
+       "c": "France",
+       "n": "Paris"
+      },
+      {
+       "c": "France",
+       "n": "Hauts-de-Seine"
+      },
+      {
+       "c": "France",
+       "n": "Seine-Saint-Denis"
+      },
+      {
+       "c": "France",
+       "n": "Val-d'Oise"
+      },
+      {
+       "c": "France",
+       "n": "Yvelines"
+      },
+      {
+       "c": "France",
+       "n": "Charente"
+      },
+      {
+       "c": "France",
+       "n": "Cher"
+      },
+      {
+       "c": "France",
+       "n": "Eure-et-Loir"
+      },
+      {
+       "c": "France",
+       "n": "Haute-Loire"
+      },
+      {
+       "c": "France",
+       "n": "Cantal"
+      },
+      {
+       "c": "France",
+       "n": "Lot-et-Garonne"
+      },
+      {
+       "c": "France",
+       "n": "Lozère"
+      },
+      {
+       "c": "France",
+       "n": "Nièvre"
+      },
+      {
+       "c": "France",
+       "n": "Côte-d'Or"
+      },
+      {
+       "c": "France",
+       "n": "Oise"
+      },
+      {
+       "c": "France",
+       "n": "Orne"
+      },
+      {
+       "c": "France",
+       "n": "Haute-Saône"
+      },
+      {
+       "c": "France",
+       "n": "Saône-et-Loire"
+      },
+      {
+       "c": "France",
+       "n": "Deux-Sèvres"
+      },
+      {
+       "c": "France",
+       "n": "Vienne"
+      },
+      {
+       "c": "France",
+       "n": "Yonne"
+      },
+      {
+       "c": "France",
+       "n": "Essonne"
+      },
+      {
+       "c": "France",
+       "n": "Seien-et-Marne"
+      },
+      {
+       "c": "France",
+       "n": "Val-de-Marne"
+      },
+      {
+       "c": "Belgium",
+       "n": "West Flanders"
+      },
+      {
+       "c": "Belgium",
+       "n": "Hainaut"
+      },
+      {
+       "c": "Belgium",
+       "n": "Namur"
+      },
+      {
+       "c": "Belgium",
+       "n": "Luxembourg"
+      },
+      {
+       "c": "Belgium",
+       "n": "Liege"
+      },
+      {
+       "c": "Belgium",
+       "n": "East Flanders"
+      },
+      {
+       "c": "Belgium",
+       "n": "Antwerp"
+      },
+      {
+       "c": "Belgium",
+       "n": "Limburg"
+      },
+      {
+       "c": "Belgium",
+       "n": "Brussels"
+      },
+      {
+       "c": "Belgium",
+       "n": "Flemish Brabant"
+      },
+      {
+       "c": "Belgium",
+       "n": "Walloon Brabant"
+      },
+      {
+       "c": "Netherlands",
+       "n": "Groningen"
+      },
+      {
+       "c": "Netherlands",
+       "n": "Drenthe"
+      },
+      {
+       "c": "Netherlands",
+       "n": "Overijssel"
+      },
+      {
+       "c": "Netherlands",
+       "n": "Gelderland"
+      },
+      {
+       "c": "Netherlands",
+       "n": "Limburg"
+      },
+      {
+       "c": "Netherlands",
+       "n": "Zeeland"
+      },
+      {
+       "c": "Netherlands",
+       "n": "Noord-Brabant"
+      },
+      {
+       "c": "Netherlands",
+       "n": "Zuid-Holland"
+      },
+      {
+       "c": "Netherlands",
+       "n": "Noord-Holland"
+      },
+      {
+       "c": "Netherlands",
+       "n": "Friesland"
+      },
+      {
+       "c": "Netherlands",
+       "n": "Flevoland"
+      },
+      {
+       "c": "Netherlands",
+       "n": "Utrecht"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Valais"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Ticino"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Graubünden"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Schaffhausen"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Thurgau"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Zürich"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Aargau"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Basel-Stadt"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Basel-Landschaft"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Sankt Gallen"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Solothurn"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Jura"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Genève"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Vaud"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Neuchâtel"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Bern"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Lucerne"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Zug"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Uri"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Schwyz"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Glarus"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Nidwalden"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Fribourg"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Obwalden"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Appenzell Ausserrhoden"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Appenzell Innerrhoden"
+      },
+      {
+       "c": "Italy",
+       "n": "Aoste"
+      },
+      {
+       "c": "Italy",
+       "n": "Verbano-Cusio-Ossola"
+      },
+      {
+       "c": "Italy",
+       "n": "Varese"
+      },
+      {
+       "c": "Italy",
+       "n": "Como"
+      },
+      {
+       "c": "Italy",
+       "n": "Sondrio"
+      },
+      {
+       "c": "Italy",
+       "n": "Bozen"
+      },
+      {
+       "c": "Italy",
+       "n": "Cuneo"
+      },
+      {
+       "c": "Italy",
+       "n": "Turin"
+      },
+      {
+       "c": "Italy",
+       "n": "Asti"
+      },
+      {
+       "c": "Italy",
+       "n": "Alessandria"
+      },
+      {
+       "c": "Italy",
+       "n": "Vercelli"
+      },
+      {
+       "c": "Italy",
+       "n": "Novara"
+      },
+      {
+       "c": "Italy",
+       "n": "Biella"
+      },
+      {
+       "c": "Italy",
+       "n": "Bergamo"
+      },
+      {
+       "c": "Italy",
+       "n": "Brescia"
+      },
+      {
+       "c": "Italy",
+       "n": "Cremona"
+      },
+      {
+       "c": "Italy",
+       "n": "Mantova"
+      },
+      {
+       "c": "Italy",
+       "n": "Milano"
+      },
+      {
+       "c": "Italy",
+       "n": "Lecco"
+      },
+      {
+       "c": "Italy",
+       "n": "Monza e Brianza"
+      },
+      {
+       "c": "Italy",
+       "n": "Lodi"
+      },
+      {
+       "c": "Italy",
+       "n": "Pavia"
+      },
+      {
+       "c": "Italy",
+       "n": "Trento"
+      },
+      {
+       "c": "Italy",
+       "n": "Vicenza"
+      },
+      {
+       "c": "Italy",
+       "n": "Verona"
+      },
+      {
+       "c": "Italy",
+       "n": "Treviso"
+      },
+      {
+       "c": "Italy",
+       "n": "Belluno"
+      },
+      {
+       "c": "Italy",
+       "n": "Udine"
+      },
+      {
+       "c": "Italy",
+       "n": "Gorizia"
+      },
+      {
+       "c": "Italy",
+       "n": "Trieste"
+      },
+      {
+       "c": "Italy",
+       "n": "Venezia"
+      },
+      {
+       "c": "Italy",
+       "n": "Padova"
+      },
+      {
+       "c": "Italy",
+       "n": "Rovigo"
+      },
+      {
+       "c": "Italy",
+       "n": "Pordenone"
+      },
+      {
+       "c": "Italy",
+       "n": "Ferrara"
+      },
+      {
+       "c": "Italy",
+       "n": "Ravenna"
+      },
+      {
+       "c": "Italy",
+       "n": "Forlì-Cesena"
+      },
+      {
+       "c": "Italy",
+       "n": "Rimini"
+      },
+      {
+       "c": "Italy",
+       "n": "Piacenza"
+      },
+      {
+       "c": "Italy",
+       "n": "Parma"
+      },
+      {
+       "c": "Italy",
+       "n": "Reggio Emilia"
+      },
+      {
+       "c": "Italy",
+       "n": "Modena"
+      },
+      {
+       "c": "Italy",
+       "n": "Bologna"
+      },
+      {
+       "c": "Italy",
+       "n": "Imperia"
+      },
+      {
+       "c": "Italy",
+       "n": "Savona"
+      },
+      {
+       "c": "Italy",
+       "n": "Genova"
+      },
+      {
+       "c": "Italy",
+       "n": "La Spezia"
+      },
+      {
+       "c": "Italy",
+       "n": "Massa-Carrara"
+      },
+      {
+       "c": "Italy",
+       "n": "Lucca"
+      },
+      {
+       "c": "Italy",
+       "n": "Pisa"
+      },
+      {
+       "c": "Italy",
+       "n": "Livorno"
+      },
+      {
+       "c": "Italy",
+       "n": "Pistoia"
+      },
+      {
+       "c": "Italy",
+       "n": "Prato"
+      },
+      {
+       "c": "Italy",
+       "n": "Firenze"
+      },
+      {
+       "c": "Italy",
+       "n": "Arezzo"
+      },
+      {
+       "c": "Italy",
+       "n": "Siena"
+      },
+      {
+       "c": "Italy",
+       "n": "Grosseto"
+      },
+      {
+       "c": "Italy",
+       "n": "Roma"
+      },
+      {
+       "c": "Italy",
+       "n": "Viterbo"
+      },
+      {
+       "c": "Italy",
+       "n": "Rieti"
+      },
+      {
+       "c": "Italy",
+       "n": "Perugia"
+      },
+      {
+       "c": "Italy",
+       "n": "Terni"
+      },
+      {
+       "c": "Italy",
+       "n": "Pesaro e Urbino"
+      },
+      {
+       "c": "Italy",
+       "n": "Ancona"
+      },
+      {
+       "c": "Italy",
+       "n": "Macerata"
+      },
+      {
+       "c": "Germany",
+       "n": "Nordrhein-Westfalen"
+      },
+      {
+       "c": "Germany",
+       "n": "Saarland"
+      },
+      {
+       "c": "Germany",
+       "n": "Niedersachsen"
+      },
+      {
+       "c": "Germany",
+       "n": "Hessen"
+      },
+      {
+       "c": "Germany",
+       "n": "Rheinland-Pfalz"
+      },
+      {
+       "c": "Germany",
+       "n": "Baden-Württemberg"
+      },
+      {
+       "c": "Germany",
+       "n": "Bayern"
+      },
+      {
+       "c": "Germany",
+       "n": "Thüringen"
+      },
+      {
+       "c": "Germany",
+       "n": "Sachsen-Anhalt"
+      },
+      {
+       "c": "Germany",
+       "n": "Bremen"
+      },
+      {
+       "c": "Germany",
+       "n": "Hamburg"
+      },
+      {
+       "c": "Austria",
+       "n": "Niederösterreich"
+      },
+      {
+       "c": "Austria",
+       "n": "Oberösterreich"
+      },
+      {
+       "c": "Austria",
+       "n": "Burgenland"
+      },
+      {
+       "c": "Austria",
+       "n": "Vorarlberg"
+      },
+      {
+       "c": "Austria",
+       "n": "Tirol"
+      },
+      {
+       "c": "Austria",
+       "n": "Salzburg"
+      },
+      {
+       "c": "Austria",
+       "n": "Kärnten"
+      },
+      {
+       "c": "Austria",
+       "n": "Steiermark"
+      },
+      {
+       "c": "Austria",
+       "n": "Wien"
+      }
+     ],
+     "color": "#C77DFF",
+     "at": {
+      "line": 1,
+      "word": "empire"
+     },
+     "keep": false
+    }
+   ],
+   "say": [
+    "Le 25 décembre 800, à Rome, le pape Léon III couronne Charlemagne empereur.",
+    "Le royaume des Francs devient un empire, héritier de Rome."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "814",
+   "text": "Un empire de la Catalogne à l’Elbe",
+   "focus": {
+    "box": [
+     -3,
+     39.5,
+     16,
+     56.5
+    ]
+   },
+   "highlight": [
+    {
+     "regions": [
+      {
+       "c": "France",
+       "n": "Nord"
+      },
+      {
+       "c": "France",
+       "n": "Ardennes"
+      },
+      {
+       "c": "France",
+       "n": "Aisne"
+      },
+      {
+       "c": "France",
+       "n": "Meuse"
+      },
+      {
+       "c": "France",
+       "n": "Meurthe-et-Moselle"
+      },
+      {
+       "c": "France",
+       "n": "Moselle"
+      },
+      {
+       "c": "France",
+       "n": "Alpes-Maritimes"
+      },
+      {
+       "c": "France",
+       "n": "Alpes-de-Haute-Provence"
+      },
+      {
+       "c": "France",
+       "n": "Hautes-Alpes"
+      },
+      {
+       "c": "France",
+       "n": "Savoie"
+      },
+      {
+       "c": "France",
+       "n": "Haute-Savoie"
+      },
+      {
+       "c": "France",
+       "n": "Pyrénées-Atlantiques"
+      },
+      {
+       "c": "France",
+       "n": "Haute-Garonne"
+      },
+      {
+       "c": "France",
+       "n": "Hautes-Pyrénées"
+      },
+      {
+       "c": "France",
+       "n": "Ariège"
+      },
+      {
+       "c": "France",
+       "n": "Pyrénées-Orientales"
+      },
+      {
+       "c": "France",
+       "n": "Bas-Rhin"
+      },
+      {
+       "c": "France",
+       "n": "Haute-Rhin"
+      },
+      {
+       "c": "France",
+       "n": "Territoire de Belfort"
+      },
+      {
+       "c": "France",
+       "n": "Doubs"
+      },
+      {
+       "c": "France",
+       "n": "Ain"
+      },
+      {
+       "c": "France",
+       "n": "Jura"
+      },
+      {
+       "c": "France",
+       "n": "Var"
+      },
+      {
+       "c": "France",
+       "n": "Bouches-du-Rhône"
+      },
+      {
+       "c": "France",
+       "n": "Gard"
+      },
+      {
+       "c": "France",
+       "n": "Hérault"
+      },
+      {
+       "c": "France",
+       "n": "Aude"
+      },
+      {
+       "c": "France",
+       "n": "Landes"
+      },
+      {
+       "c": "France",
+       "n": "Gironde"
+      },
+      {
+       "c": "France",
+       "n": "Charente-Maritime"
+      },
+      {
+       "c": "France",
+       "n": "Vendée"
+      },
+      {
+       "c": "France",
+       "n": "Loire-Atlantique"
+      },
+      {
+       "c": "France",
+       "n": "Morbihan"
+      },
+      {
+       "c": "France",
+       "n": "Finistère"
+      },
+      {
+       "c": "France",
+       "n": "Côtes-d'Armor"
+      },
+      {
+       "c": "France",
+       "n": "Ille-et-Vilaine"
+      },
+      {
+       "c": "France",
+       "n": "Manche"
+      },
+      {
+       "c": "France",
+       "n": "Calvados"
+      },
+      {
+       "c": "France",
+       "n": "Eure"
+      },
+      {
+       "c": "France",
+       "n": "Seine-Maritime"
+      },
+      {
+       "c": "France",
+       "n": "Somme"
+      },
+      {
+       "c": "France",
+       "n": "Pas-de-Calais"
+      },
+      {
+       "c": "France",
+       "n": "Haute-Corse"
+      },
+      {
+       "c": "France",
+       "n": "Corse-du-Sud"
+      },
+      {
+       "c": "France",
+       "n": "Gers"
+      },
+      {
+       "c": "France",
+       "n": "Haute-Vienne"
+      },
+      {
+       "c": "France",
+       "n": "Corrèze"
+      },
+      {
+       "c": "France",
+       "n": "Tarn-et-Garonne"
+      },
+      {
+       "c": "France",
+       "n": "Tarn"
+      },
+      {
+       "c": "France",
+       "n": "Isère"
+      },
+      {
+       "c": "France",
+       "n": "Drôme"
+      },
+      {
+       "c": "France",
+       "n": "Aveyron"
+      },
+      {
+       "c": "France",
+       "n": "Lot"
+      },
+      {
+       "c": "France",
+       "n": "Indre-et-Loire"
+      },
+      {
+       "c": "France",
+       "n": "Indre"
+      },
+      {
+       "c": "France",
+       "n": "Loir-et-Cher"
+      },
+      {
+       "c": "France",
+       "n": "Creuse"
+      },
+      {
+       "c": "France",
+       "n": "Mayenne"
+      },
+      {
+       "c": "France",
+       "n": "Sarthe"
+      },
+      {
+       "c": "France",
+       "n": "Vaucluse"
+      },
+      {
+       "c": "France",
+       "n": "Haute-Marne"
+      },
+      {
+       "c": "France",
+       "n": "Marne"
+      },
+      {
+       "c": "France",
+       "n": "Dordogne"
+      },
+      {
+       "c": "France",
+       "n": "Rhône"
+      },
+      {
+       "c": "France",
+       "n": "Vosges"
+      },
+      {
+       "c": "France",
+       "n": "Ardèche"
+      },
+      {
+       "c": "France",
+       "n": "Loire"
+      },
+      {
+       "c": "France",
+       "n": "Puy-de-Dôme"
+      },
+      {
+       "c": "France",
+       "n": "Allier"
+      },
+      {
+       "c": "France",
+       "n": "Loiret"
+      },
+      {
+       "c": "France",
+       "n": "Maine-et-Loire"
+      },
+      {
+       "c": "France",
+       "n": "Aube"
+      },
+      {
+       "c": "France",
+       "n": "Paris"
+      },
+      {
+       "c": "France",
+       "n": "Hauts-de-Seine"
+      },
+      {
+       "c": "France",
+       "n": "Seine-Saint-Denis"
+      },
+      {
+       "c": "France",
+       "n": "Val-d'Oise"
+      },
+      {
+       "c": "France",
+       "n": "Yvelines"
+      },
+      {
+       "c": "France",
+       "n": "Charente"
+      },
+      {
+       "c": "France",
+       "n": "Cher"
+      },
+      {
+       "c": "France",
+       "n": "Eure-et-Loir"
+      },
+      {
+       "c": "France",
+       "n": "Haute-Loire"
+      },
+      {
+       "c": "France",
+       "n": "Cantal"
+      },
+      {
+       "c": "France",
+       "n": "Lot-et-Garonne"
+      },
+      {
+       "c": "France",
+       "n": "Lozère"
+      },
+      {
+       "c": "France",
+       "n": "Nièvre"
+      },
+      {
+       "c": "France",
+       "n": "Côte-d'Or"
+      },
+      {
+       "c": "France",
+       "n": "Oise"
+      },
+      {
+       "c": "France",
+       "n": "Orne"
+      },
+      {
+       "c": "France",
+       "n": "Haute-Saône"
+      },
+      {
+       "c": "France",
+       "n": "Saône-et-Loire"
+      },
+      {
+       "c": "France",
+       "n": "Deux-Sèvres"
+      },
+      {
+       "c": "France",
+       "n": "Vienne"
+      },
+      {
+       "c": "France",
+       "n": "Yonne"
+      },
+      {
+       "c": "France",
+       "n": "Essonne"
+      },
+      {
+       "c": "France",
+       "n": "Seien-et-Marne"
+      },
+      {
+       "c": "France",
+       "n": "Val-de-Marne"
+      },
+      {
+       "c": "Belgium",
+       "n": "West Flanders"
+      },
+      {
+       "c": "Belgium",
+       "n": "Hainaut"
+      },
+      {
+       "c": "Belgium",
+       "n": "Namur"
+      },
+      {
+       "c": "Belgium",
+       "n": "Luxembourg"
+      },
+      {
+       "c": "Belgium",
+       "n": "Liege"
+      },
+      {
+       "c": "Belgium",
+       "n": "East Flanders"
+      },
+      {
+       "c": "Belgium",
+       "n": "Antwerp"
+      },
+      {
+       "c": "Belgium",
+       "n": "Limburg"
+      },
+      {
+       "c": "Belgium",
+       "n": "Brussels"
+      },
+      {
+       "c": "Belgium",
+       "n": "Flemish Brabant"
+      },
+      {
+       "c": "Belgium",
+       "n": "Walloon Brabant"
+      },
+      {
+       "c": "Netherlands",
+       "n": "Groningen"
+      },
+      {
+       "c": "Netherlands",
+       "n": "Drenthe"
+      },
+      {
+       "c": "Netherlands",
+       "n": "Overijssel"
+      },
+      {
+       "c": "Netherlands",
+       "n": "Gelderland"
+      },
+      {
+       "c": "Netherlands",
+       "n": "Limburg"
+      },
+      {
+       "c": "Netherlands",
+       "n": "Zeeland"
+      },
+      {
+       "c": "Netherlands",
+       "n": "Noord-Brabant"
+      },
+      {
+       "c": "Netherlands",
+       "n": "Zuid-Holland"
+      },
+      {
+       "c": "Netherlands",
+       "n": "Noord-Holland"
+      },
+      {
+       "c": "Netherlands",
+       "n": "Friesland"
+      },
+      {
+       "c": "Netherlands",
+       "n": "Flevoland"
+      },
+      {
+       "c": "Netherlands",
+       "n": "Utrecht"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Valais"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Ticino"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Graubünden"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Schaffhausen"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Thurgau"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Zürich"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Aargau"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Basel-Stadt"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Basel-Landschaft"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Sankt Gallen"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Solothurn"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Jura"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Genève"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Vaud"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Neuchâtel"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Bern"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Lucerne"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Zug"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Uri"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Schwyz"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Glarus"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Nidwalden"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Fribourg"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Obwalden"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Appenzell Ausserrhoden"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Appenzell Innerrhoden"
+      },
+      {
+       "c": "Italy",
+       "n": "Aoste"
+      },
+      {
+       "c": "Italy",
+       "n": "Verbano-Cusio-Ossola"
+      },
+      {
+       "c": "Italy",
+       "n": "Varese"
+      },
+      {
+       "c": "Italy",
+       "n": "Como"
+      },
+      {
+       "c": "Italy",
+       "n": "Sondrio"
+      },
+      {
+       "c": "Italy",
+       "n": "Bozen"
+      },
+      {
+       "c": "Italy",
+       "n": "Cuneo"
+      },
+      {
+       "c": "Italy",
+       "n": "Turin"
+      },
+      {
+       "c": "Italy",
+       "n": "Asti"
+      },
+      {
+       "c": "Italy",
+       "n": "Alessandria"
+      },
+      {
+       "c": "Italy",
+       "n": "Vercelli"
+      },
+      {
+       "c": "Italy",
+       "n": "Novara"
+      },
+      {
+       "c": "Italy",
+       "n": "Biella"
+      },
+      {
+       "c": "Italy",
+       "n": "Bergamo"
+      },
+      {
+       "c": "Italy",
+       "n": "Brescia"
+      },
+      {
+       "c": "Italy",
+       "n": "Cremona"
+      },
+      {
+       "c": "Italy",
+       "n": "Mantova"
+      },
+      {
+       "c": "Italy",
+       "n": "Milano"
+      },
+      {
+       "c": "Italy",
+       "n": "Lecco"
+      },
+      {
+       "c": "Italy",
+       "n": "Monza e Brianza"
+      },
+      {
+       "c": "Italy",
+       "n": "Lodi"
+      },
+      {
+       "c": "Italy",
+       "n": "Pavia"
+      },
+      {
+       "c": "Italy",
+       "n": "Trento"
+      },
+      {
+       "c": "Italy",
+       "n": "Vicenza"
+      },
+      {
+       "c": "Italy",
+       "n": "Verona"
+      },
+      {
+       "c": "Italy",
+       "n": "Treviso"
+      },
+      {
+       "c": "Italy",
+       "n": "Belluno"
+      },
+      {
+       "c": "Italy",
+       "n": "Udine"
+      },
+      {
+       "c": "Italy",
+       "n": "Gorizia"
+      },
+      {
+       "c": "Italy",
+       "n": "Trieste"
+      },
+      {
+       "c": "Italy",
+       "n": "Venezia"
+      },
+      {
+       "c": "Italy",
+       "n": "Padova"
+      },
+      {
+       "c": "Italy",
+       "n": "Rovigo"
+      },
+      {
+       "c": "Italy",
+       "n": "Pordenone"
+      },
+      {
+       "c": "Italy",
+       "n": "Ferrara"
+      },
+      {
+       "c": "Italy",
+       "n": "Ravenna"
+      },
+      {
+       "c": "Italy",
+       "n": "Forlì-Cesena"
+      },
+      {
+       "c": "Italy",
+       "n": "Rimini"
+      },
+      {
+       "c": "Italy",
+       "n": "Piacenza"
+      },
+      {
+       "c": "Italy",
+       "n": "Parma"
+      },
+      {
+       "c": "Italy",
+       "n": "Reggio Emilia"
+      },
+      {
+       "c": "Italy",
+       "n": "Modena"
+      },
+      {
+       "c": "Italy",
+       "n": "Bologna"
+      },
+      {
+       "c": "Italy",
+       "n": "Imperia"
+      },
+      {
+       "c": "Italy",
+       "n": "Savona"
+      },
+      {
+       "c": "Italy",
+       "n": "Genova"
+      },
+      {
+       "c": "Italy",
+       "n": "La Spezia"
+      },
+      {
+       "c": "Italy",
+       "n": "Massa-Carrara"
+      },
+      {
+       "c": "Italy",
+       "n": "Lucca"
+      },
+      {
+       "c": "Italy",
+       "n": "Pisa"
+      },
+      {
+       "c": "Italy",
+       "n": "Livorno"
+      },
+      {
+       "c": "Italy",
+       "n": "Pistoia"
+      },
+      {
+       "c": "Italy",
+       "n": "Prato"
+      },
+      {
+       "c": "Italy",
+       "n": "Firenze"
+      },
+      {
+       "c": "Italy",
+       "n": "Arezzo"
+      },
+      {
+       "c": "Italy",
+       "n": "Siena"
+      },
+      {
+       "c": "Italy",
+       "n": "Grosseto"
+      },
+      {
+       "c": "Italy",
+       "n": "Roma"
+      },
+      {
+       "c": "Italy",
+       "n": "Viterbo"
+      },
+      {
+       "c": "Italy",
+       "n": "Rieti"
+      },
+      {
+       "c": "Italy",
+       "n": "Perugia"
+      },
+      {
+       "c": "Italy",
+       "n": "Terni"
+      },
+      {
+       "c": "Italy",
+       "n": "Pesaro e Urbino"
+      },
+      {
+       "c": "Italy",
+       "n": "Ancona"
+      },
+      {
+       "c": "Italy",
+       "n": "Macerata"
+      },
+      {
+       "c": "Germany",
+       "n": "Nordrhein-Westfalen"
+      },
+      {
+       "c": "Germany",
+       "n": "Saarland"
+      },
+      {
+       "c": "Germany",
+       "n": "Niedersachsen"
+      },
+      {
+       "c": "Germany",
+       "n": "Hessen"
+      },
+      {
+       "c": "Germany",
+       "n": "Rheinland-Pfalz"
+      },
+      {
+       "c": "Germany",
+       "n": "Baden-Württemberg"
+      },
+      {
+       "c": "Germany",
+       "n": "Bayern"
+      },
+      {
+       "c": "Germany",
+       "n": "Thüringen"
+      },
+      {
+       "c": "Germany",
+       "n": "Sachsen-Anhalt"
+      },
+      {
+       "c": "Germany",
+       "n": "Bremen"
+      },
+      {
+       "c": "Germany",
+       "n": "Hamburg"
+      },
+      {
+       "c": "Austria",
+       "n": "Niederösterreich"
+      },
+      {
+       "c": "Austria",
+       "n": "Oberösterreich"
+      },
+      {
+       "c": "Austria",
+       "n": "Burgenland"
+      },
+      {
+       "c": "Austria",
+       "n": "Vorarlberg"
+      },
+      {
+       "c": "Austria",
+       "n": "Tirol"
+      },
+      {
+       "c": "Austria",
+       "n": "Salzburg"
+      },
+      {
+       "c": "Austria",
+       "n": "Kärnten"
+      },
+      {
+       "c": "Austria",
+       "n": "Steiermark"
+      },
+      {
+       "c": "Austria",
+       "n": "Wien"
+      },
+      {
+       "c": "Spain",
+       "n": "Barcelona"
+      },
+      {
+       "c": "Spain",
+       "n": "Gerona"
+      },
+      {
+       "c": "Spain",
+       "n": "Lérida"
+      },
+      {
+       "c": "Spain",
+       "n": "Tarragona"
+      },
+      {
+       "c": "Spain",
+       "n": "Huesca"
+      }
+     ],
+     "color": "#C77DFF",
+     "at": {
+      "line": 0,
+      "word": "empire",
+      "d": -0.3
+     },
+     "keep": false
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      6.08,
+      50.78
+     ],
+     "to": [
+      1.6,
+      41.7
+     ],
+     "n": 2,
+     "color": "#FFFFFF",
+     "at": {
+      "line": 0,
+      "word": "Catalogne",
+      "d": -0.6
+     },
+     "dur": 2.2
+    },
+    {
+     "from": [
+      6.08,
+      50.78
+     ],
+     "to": [
+      11.4,
+      52.6
+     ],
+     "n": 2,
+     "color": "#FFFFFF",
+     "at": {
+      "line": 0,
+      "word": "Elbe",
+      "d": -0.9
+     },
+     "dur": 2
+    }
+   ],
+   "labels": [
+    {
+     "text": "Catalogne",
+     "at": [
+      1.4,
+      41.5
+     ],
+     "size": 34,
+     "when": {
+      "line": 0,
+      "word": "Catalogne"
+     }
+    },
+    {
+     "text": "Elbe",
+     "at": [
+      11.8,
+      53
+     ],
+     "size": 36,
+     "when": {
+      "line": 0,
+      "word": "Elbe"
+     }
+    },
+    {
+     "text": "Frontières approximatives",
+     "at": [
+      6.2,
+      41
+     ],
+     "size": 34,
+     "when": {
+      "line": 0,
+      "word": "Rome"
+     }
+    }
+   ],
+   "people": [
+    {
+     "who": "burgonde",
+     "at": [
+      4.6,
+      50.0
+     ],
+     "size": 230,
+     "say": "À moi l’empire !",
+     "label": {
+      "title": "Louis",
+      "sub": "814"
+     },
+     "when": {
+      "line": 1,
+      "word": "Louis"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      6.08,
+      50.78
+     ],
+     "when": 0.4
+    }
+   ],
+   "say": [
+    "Son empire va de la Catalogne à l’Elbe, et de la mer du Nord à Rome.",
+    "Charlemagne meurt en 814, et son fils Louis le Pieux lui succède."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "840 · 841",
+   "text": "Trois frères, une seule couronne",
+   "focus": {
+    "box": [
+     -2,
+     45,
+     15,
+     53.5
+    ]
+   },
+   "art": [
+    {
+     "kind": "split",
+     "at": {
+      "line": 0,
+      "d": 1.0
+     },
+     "dur": 3.2,
+     "title": "Trois fils, une couronne",
+     "sub": "Lothaire · Louis · Charles",
+     "before": "840",
+     "after": "Trois frères",
+     "badge": "Lothaire, l’aîné",
+     "parts": [
+      {
+       "country": "Italy",
+       "color": "#FFD83C"
+      },
+      {
+       "country": "Germany",
+       "color": "#E8503A"
+      },
+      {
+       "country": "France",
+       "color": "#4FA3E0"
+      }
+     ]
+    }
+   ],
+   "people": [
+    {
+     "who": "fr",
+     "at": [
+      2.35,
+      48.86
+     ],
+     "size": 220,
+     "say": "Charles",
+     "label": {
+      "title": "Charles"
+     },
+     "when": {
+      "line": 1,
+      "word": "Charles"
+     }
+    },
+    {
+     "who": "alaman",
+     "at": [
+      10.4,
+      50.0
+     ],
+     "size": 220,
+     "say": "Louis",
+     "label": {
+      "title": "Louis"
+     },
+     "when": {
+      "line": 1,
+      "word": "Louis"
+     }
+    },
+    {
+     "who": "roi",
+     "at": [
+      6.5,
+      51.2
+     ],
+     "size": 220,
+     "say": "Lothaire",
+     "label": {
+      "title": "Lothaire"
+     },
+     "when": {
+      "line": 1,
+      "word": "Lothaire"
+     }
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      2.9,
+      48.2
+     ],
+     "to": [
+      3.3,
+      47.6
+     ],
+     "n": 2,
+     "color": "#4FA3E0",
+     "at": {
+      "line": 1,
+      "word": "Fontenoy",
+      "d": -0.6
+     },
+     "dur": 1.8
+    },
+    {
+     "from": [
+      10.5,
+      49.4
+     ],
+     "to": [
+      4,
+      47.8
+     ],
+     "n": 2,
+     "color": "#E8503A",
+     "at": {
+      "line": 1,
+      "word": "Fontenoy",
+      "d": -0.4
+     },
+     "dur": 2.4
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      3.3,
+      47.4
+     ],
+     "title": "Fontenoy",
+     "side": "b",
+     "when": {
+      "line": 1,
+      "word": "Fontenoy",
+      "d": -0.6
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      3.3,
+      47.6
+     ],
+     "when": {
+      "line": 1,
+      "word": "Fontenoy",
+      "d": -0.6
+     }
+    }
+   ],
+   "say": [
+    "À la mort de Louis le Pieux en 840, ses trois fils, Lothaire, Louis et Charles, se disputent l’empire.",
+    "En 841, à Fontenoy, Louis et Charles battent leur frère Lothaire."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "842",
+   "text": "Les serments de Strasbourg",
+   "focus": {
+    "box": [
+     3.5,
+     46,
+     12,
+     51
+    ]
+   },
+   "art": [
+    {
+     "kind": "languages",
+     "at": {
+      "line": 0,
+      "word": "alliés",
+      "d": -0.6
+     },
+     "dur": 3.6,
+     "title": "Deux langues, un serment",
+     "items": [
+      {
+       "icon": "house",
+       "where": "Louis",
+       "lang": "Roman",
+       "note": "« Pro Deo amur… »",
+       "color": "#4FA3E0"
+      },
+      {
+       "icon": "house",
+       "where": "Charles",
+       "lang": "Tudesque",
+       "note": "« In godes minna… »",
+       "color": "#E8503A"
+      }
+     ]
+    }
+   ],
+   "people": [
+    {
+     "who": "fr",
+     "at": [
+      6.3,
+      48.4
+     ],
+     "size": 220,
+     "say": "Je le jure !",
+     "label": {
+      "title": "Charles"
+     },
+     "when": {
+      "line": 0,
+      "word": "Charles"
+     }
+    },
+    {
+     "who": "alaman",
+     "at": [
+      9.3,
+      48.6
+     ],
+     "size": 220,
+     "say": "Je le jure !",
+     "label": {
+      "title": "Louis"
+     },
+     "when": {
+      "line": 0,
+      "word": "Louis",
+      "d": -0.2
+     }
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      9.8,
+      48.9
+     ],
+     "to": [
+      8.1,
+      48.6
+     ],
+     "n": 2,
+     "color": "#E8503A",
+     "at": {
+      "line": 0,
+      "word": "jurent",
+      "d": -0.2
+     },
+     "dur": 1.6
+    },
+    {
+     "from": [
+      5.2,
+      48.8
+     ],
+     "to": [
+      7.4,
+      48.6
+     ],
+     "n": 2,
+     "color": "#4FA3E0",
+     "at": {
+      "line": 0,
+      "word": "jurent",
+      "d": 0.1
+     },
+     "dur": 1.6
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      7.75,
+      48.58
+     ],
+     "title": "Strasbourg",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "Strasbourg"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      7.75,
+      48.58
+     ],
+     "when": {
+      "line": 0,
+      "word": "Strasbourg"
+     }
+    }
+   ],
+   "say": [
+    "En 842, à Strasbourg, Louis et Charles jurent de rester alliés contre Lothaire.",
+    "Pour être compris des armées, Louis jure en roman et Charles en tudesque."
+   ],
+   "labels": [
+    {
+     "text": "Rhin",
+     "at": [
+      8.4,
+      49.6
+     ],
+     "size": 34,
+     "when": {
+      "line": 0,
+      "word": "Strasbourg",
+      "d": 0.3
+     }
+    },
+    {
+     "text": "Royaume de Charles",
+     "at": [
+      4.6,
+      47.2
+     ],
+     "size": 34,
+     "when": {
+      "line": 0,
+      "word": "Strasbourg",
+      "d": 0.6
+     }
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "843",
+   "text": "Verdun : l’empire en trois royaumes",
+   "focus": {
+    "box": [
+     -3,
+     41,
+     15,
+     54
+    ]
+   },
+   "highlight": [
+    {
+     "regions": [
+      {
+       "c": "France",
+       "n": "Nord"
+      },
+      {
+       "c": "France",
+       "n": "Aisne"
+      },
+      {
+       "c": "France",
+       "n": "Pyrénées-Atlantiques"
+      },
+      {
+       "c": "France",
+       "n": "Haute-Garonne"
+      },
+      {
+       "c": "France",
+       "n": "Hautes-Pyrénées"
+      },
+      {
+       "c": "France",
+       "n": "Ariège"
+      },
+      {
+       "c": "France",
+       "n": "Pyrénées-Orientales"
+      },
+      {
+       "c": "France",
+       "n": "Gard"
+      },
+      {
+       "c": "France",
+       "n": "Hérault"
+      },
+      {
+       "c": "France",
+       "n": "Aude"
+      },
+      {
+       "c": "France",
+       "n": "Landes"
+      },
+      {
+       "c": "France",
+       "n": "Gironde"
+      },
+      {
+       "c": "France",
+       "n": "Charente-Maritime"
+      },
+      {
+       "c": "France",
+       "n": "Vendée"
+      },
+      {
+       "c": "France",
+       "n": "Loire-Atlantique"
+      },
+      {
+       "c": "France",
+       "n": "Morbihan"
+      },
+      {
+       "c": "France",
+       "n": "Finistère"
+      },
+      {
+       "c": "France",
+       "n": "Côtes-d'Armor"
+      },
+      {
+       "c": "France",
+       "n": "Ille-et-Vilaine"
+      },
+      {
+       "c": "France",
+       "n": "Manche"
+      },
+      {
+       "c": "France",
+       "n": "Calvados"
+      },
+      {
+       "c": "France",
+       "n": "Eure"
+      },
+      {
+       "c": "France",
+       "n": "Seine-Maritime"
+      },
+      {
+       "c": "France",
+       "n": "Somme"
+      },
+      {
+       "c": "France",
+       "n": "Pas-de-Calais"
+      },
+      {
+       "c": "France",
+       "n": "Gers"
+      },
+      {
+       "c": "France",
+       "n": "Haute-Vienne"
+      },
+      {
+       "c": "France",
+       "n": "Corrèze"
+      },
+      {
+       "c": "France",
+       "n": "Tarn-et-Garonne"
+      },
+      {
+       "c": "France",
+       "n": "Tarn"
+      },
+      {
+       "c": "France",
+       "n": "Aveyron"
+      },
+      {
+       "c": "France",
+       "n": "Lot"
+      },
+      {
+       "c": "France",
+       "n": "Indre-et-Loire"
+      },
+      {
+       "c": "France",
+       "n": "Indre"
+      },
+      {
+       "c": "France",
+       "n": "Loir-et-Cher"
+      },
+      {
+       "c": "France",
+       "n": "Creuse"
+      },
+      {
+       "c": "France",
+       "n": "Mayenne"
+      },
+      {
+       "c": "France",
+       "n": "Sarthe"
+      },
+      {
+       "c": "France",
+       "n": "Haute-Marne"
+      },
+      {
+       "c": "France",
+       "n": "Marne"
+      },
+      {
+       "c": "France",
+       "n": "Dordogne"
+      },
+      {
+       "c": "France",
+       "n": "Ardèche"
+      },
+      {
+       "c": "France",
+       "n": "Loire"
+      },
+      {
+       "c": "France",
+       "n": "Puy-de-Dôme"
+      },
+      {
+       "c": "France",
+       "n": "Allier"
+      },
+      {
+       "c": "France",
+       "n": "Loiret"
+      },
+      {
+       "c": "France",
+       "n": "Maine-et-Loire"
+      },
+      {
+       "c": "France",
+       "n": "Aube"
+      },
+      {
+       "c": "France",
+       "n": "Paris"
+      },
+      {
+       "c": "France",
+       "n": "Hauts-de-Seine"
+      },
+      {
+       "c": "France",
+       "n": "Seine-Saint-Denis"
+      },
+      {
+       "c": "France",
+       "n": "Val-d'Oise"
+      },
+      {
+       "c": "France",
+       "n": "Yvelines"
+      },
+      {
+       "c": "France",
+       "n": "Charente"
+      },
+      {
+       "c": "France",
+       "n": "Cher"
+      },
+      {
+       "c": "France",
+       "n": "Eure-et-Loir"
+      },
+      {
+       "c": "France",
+       "n": "Haute-Loire"
+      },
+      {
+       "c": "France",
+       "n": "Cantal"
+      },
+      {
+       "c": "France",
+       "n": "Lot-et-Garonne"
+      },
+      {
+       "c": "France",
+       "n": "Lozère"
+      },
+      {
+       "c": "France",
+       "n": "Nièvre"
+      },
+      {
+       "c": "France",
+       "n": "Côte-d'Or"
+      },
+      {
+       "c": "France",
+       "n": "Oise"
+      },
+      {
+       "c": "France",
+       "n": "Orne"
+      },
+      {
+       "c": "France",
+       "n": "Deux-Sèvres"
+      },
+      {
+       "c": "France",
+       "n": "Vienne"
+      },
+      {
+       "c": "France",
+       "n": "Yonne"
+      },
+      {
+       "c": "France",
+       "n": "Essonne"
+      },
+      {
+       "c": "France",
+       "n": "Seien-et-Marne"
+      },
+      {
+       "c": "France",
+       "n": "Val-de-Marne"
+      },
+      {
+       "c": "Belgium",
+       "n": "West Flanders"
+      }
+     ],
+     "color": "#4FA3E0",
+     "at": {
+      "line": 0,
+      "word": "partage"
+     },
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "Germany",
+       "n": "Niedersachsen"
+      },
+      {
+       "c": "Germany",
+       "n": "Hessen"
+      },
+      {
+       "c": "Germany",
+       "n": "Rheinland-Pfalz"
+      },
+      {
+       "c": "Germany",
+       "n": "Baden-Württemberg"
+      },
+      {
+       "c": "Germany",
+       "n": "Bayern"
+      },
+      {
+       "c": "Germany",
+       "n": "Thüringen"
+      },
+      {
+       "c": "Germany",
+       "n": "Sachsen-Anhalt"
+      },
+      {
+       "c": "Germany",
+       "n": "Bremen"
+      },
+      {
+       "c": "Germany",
+       "n": "Hamburg"
+      },
+      {
+       "c": "Austria",
+       "n": "Niederösterreich"
+      },
+      {
+       "c": "Austria",
+       "n": "Oberösterreich"
+      },
+      {
+       "c": "Austria",
+       "n": "Burgenland"
+      },
+      {
+       "c": "Austria",
+       "n": "Vorarlberg"
+      },
+      {
+       "c": "Austria",
+       "n": "Tirol"
+      },
+      {
+       "c": "Austria",
+       "n": "Salzburg"
+      },
+      {
+       "c": "Austria",
+       "n": "Kärnten"
+      },
+      {
+       "c": "Austria",
+       "n": "Steiermark"
+      },
+      {
+       "c": "Austria",
+       "n": "Wien"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Schaffhausen"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Thurgau"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Zürich"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Aargau"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Basel-Stadt"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Basel-Landschaft"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Sankt Gallen"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Solothurn"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Lucerne"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Zug"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Uri"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Schwyz"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Glarus"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Nidwalden"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Obwalden"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Appenzell Ausserrhoden"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Appenzell Innerrhoden"
+      }
+     ],
+     "color": "#E8503A",
+     "at": {
+      "line": 1,
+      "word": "est",
+      "d": 0
+     },
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "France",
+       "n": "Ardennes"
+      },
+      {
+       "c": "France",
+       "n": "Meuse"
+      },
+      {
+       "c": "France",
+       "n": "Meurthe-et-Moselle"
+      },
+      {
+       "c": "France",
+       "n": "Moselle"
+      },
+      {
+       "c": "France",
+       "n": "Vosges"
+      },
+      {
+       "c": "France",
+       "n": "Bas-Rhin"
+      },
+      {
+       "c": "France",
+       "n": "Haute-Rhin"
+      },
+      {
+       "c": "France",
+       "n": "Territoire de Belfort"
+      },
+      {
+       "c": "France",
+       "n": "Doubs"
+      },
+      {
+       "c": "France",
+       "n": "Jura"
+      },
+      {
+       "c": "France",
+       "n": "Haute-Saône"
+      },
+      {
+       "c": "France",
+       "n": "Ain"
+      },
+      {
+       "c": "France",
+       "n": "Savoie"
+      },
+      {
+       "c": "France",
+       "n": "Haute-Savoie"
+      },
+      {
+       "c": "France",
+       "n": "Isère"
+      },
+      {
+       "c": "France",
+       "n": "Drôme"
+      },
+      {
+       "c": "France",
+       "n": "Hautes-Alpes"
+      },
+      {
+       "c": "France",
+       "n": "Alpes-de-Haute-Provence"
+      },
+      {
+       "c": "France",
+       "n": "Alpes-Maritimes"
+      },
+      {
+       "c": "France",
+       "n": "Var"
+      },
+      {
+       "c": "France",
+       "n": "Bouches-du-Rhône"
+      },
+      {
+       "c": "France",
+       "n": "Vaucluse"
+      },
+      {
+       "c": "France",
+       "n": "Rhône"
+      },
+      {
+       "c": "France",
+       "n": "Saône-et-Loire"
+      },
+      {
+       "c": "Belgium",
+       "n": "Hainaut"
+      },
+      {
+       "c": "Belgium",
+       "n": "Namur"
+      },
+      {
+       "c": "Belgium",
+       "n": "Luxembourg"
+      },
+      {
+       "c": "Belgium",
+       "n": "Liege"
+      },
+      {
+       "c": "Belgium",
+       "n": "East Flanders"
+      },
+      {
+       "c": "Belgium",
+       "n": "Antwerp"
+      },
+      {
+       "c": "Belgium",
+       "n": "Limburg"
+      },
+      {
+       "c": "Belgium",
+       "n": "Brussels"
+      },
+      {
+       "c": "Belgium",
+       "n": "Flemish Brabant"
+      },
+      {
+       "c": "Belgium",
+       "n": "Walloon Brabant"
+      },
+      {
+       "c": "Netherlands",
+       "n": "Groningen"
+      },
+      {
+       "c": "Netherlands",
+       "n": "Drenthe"
+      },
+      {
+       "c": "Netherlands",
+       "n": "Overijssel"
+      },
+      {
+       "c": "Netherlands",
+       "n": "Gelderland"
+      },
+      {
+       "c": "Netherlands",
+       "n": "Limburg"
+      },
+      {
+       "c": "Netherlands",
+       "n": "Zeeland"
+      },
+      {
+       "c": "Netherlands",
+       "n": "Noord-Brabant"
+      },
+      {
+       "c": "Netherlands",
+       "n": "Zuid-Holland"
+      },
+      {
+       "c": "Netherlands",
+       "n": "Noord-Holland"
+      },
+      {
+       "c": "Netherlands",
+       "n": "Friesland"
+      },
+      {
+       "c": "Netherlands",
+       "n": "Flevoland"
+      },
+      {
+       "c": "Netherlands",
+       "n": "Utrecht"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Valais"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Vaud"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Genève"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Fribourg"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Neuchâtel"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Jura"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Bern"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Ticino"
+      },
+      {
+       "c": "Switzerland",
+       "n": "Graubünden"
+      },
+      {
+       "c": "Italy",
+       "n": "Aoste"
+      },
+      {
+       "c": "Italy",
+       "n": "Verbano-Cusio-Ossola"
+      },
+      {
+       "c": "Italy",
+       "n": "Varese"
+      },
+      {
+       "c": "Italy",
+       "n": "Como"
+      },
+      {
+       "c": "Italy",
+       "n": "Sondrio"
+      },
+      {
+       "c": "Italy",
+       "n": "Bozen"
+      },
+      {
+       "c": "Italy",
+       "n": "Cuneo"
+      },
+      {
+       "c": "Italy",
+       "n": "Turin"
+      },
+      {
+       "c": "Italy",
+       "n": "Asti"
+      },
+      {
+       "c": "Italy",
+       "n": "Alessandria"
+      },
+      {
+       "c": "Italy",
+       "n": "Vercelli"
+      },
+      {
+       "c": "Italy",
+       "n": "Novara"
+      },
+      {
+       "c": "Italy",
+       "n": "Biella"
+      },
+      {
+       "c": "Italy",
+       "n": "Bergamo"
+      },
+      {
+       "c": "Italy",
+       "n": "Brescia"
+      },
+      {
+       "c": "Italy",
+       "n": "Cremona"
+      },
+      {
+       "c": "Italy",
+       "n": "Mantova"
+      },
+      {
+       "c": "Italy",
+       "n": "Milano"
+      },
+      {
+       "c": "Italy",
+       "n": "Lecco"
+      },
+      {
+       "c": "Italy",
+       "n": "Monza e Brianza"
+      },
+      {
+       "c": "Italy",
+       "n": "Lodi"
+      },
+      {
+       "c": "Italy",
+       "n": "Pavia"
+      },
+      {
+       "c": "Italy",
+       "n": "Trento"
+      },
+      {
+       "c": "Italy",
+       "n": "Vicenza"
+      },
+      {
+       "c": "Italy",
+       "n": "Verona"
+      },
+      {
+       "c": "Italy",
+       "n": "Treviso"
+      },
+      {
+       "c": "Italy",
+       "n": "Belluno"
+      },
+      {
+       "c": "Italy",
+       "n": "Udine"
+      },
+      {
+       "c": "Italy",
+       "n": "Gorizia"
+      },
+      {
+       "c": "Italy",
+       "n": "Trieste"
+      },
+      {
+       "c": "Italy",
+       "n": "Venezia"
+      },
+      {
+       "c": "Italy",
+       "n": "Padova"
+      },
+      {
+       "c": "Italy",
+       "n": "Rovigo"
+      },
+      {
+       "c": "Italy",
+       "n": "Pordenone"
+      },
+      {
+       "c": "Italy",
+       "n": "Ferrara"
+      },
+      {
+       "c": "Italy",
+       "n": "Ravenna"
+      },
+      {
+       "c": "Italy",
+       "n": "Forlì-Cesena"
+      },
+      {
+       "c": "Italy",
+       "n": "Rimini"
+      },
+      {
+       "c": "Italy",
+       "n": "Piacenza"
+      },
+      {
+       "c": "Italy",
+       "n": "Parma"
+      },
+      {
+       "c": "Italy",
+       "n": "Reggio Emilia"
+      },
+      {
+       "c": "Italy",
+       "n": "Modena"
+      },
+      {
+       "c": "Italy",
+       "n": "Bologna"
+      },
+      {
+       "c": "Italy",
+       "n": "Imperia"
+      },
+      {
+       "c": "Italy",
+       "n": "Savona"
+      },
+      {
+       "c": "Italy",
+       "n": "Genova"
+      },
+      {
+       "c": "Italy",
+       "n": "La Spezia"
+      },
+      {
+       "c": "Italy",
+       "n": "Massa-Carrara"
+      },
+      {
+       "c": "Italy",
+       "n": "Lucca"
+      },
+      {
+       "c": "Italy",
+       "n": "Pisa"
+      },
+      {
+       "c": "Italy",
+       "n": "Livorno"
+      },
+      {
+       "c": "Italy",
+       "n": "Pistoia"
+      },
+      {
+       "c": "Italy",
+       "n": "Prato"
+      },
+      {
+       "c": "Italy",
+       "n": "Firenze"
+      },
+      {
+       "c": "Italy",
+       "n": "Arezzo"
+      },
+      {
+       "c": "Italy",
+       "n": "Siena"
+      },
+      {
+       "c": "Italy",
+       "n": "Grosseto"
+      },
+      {
+       "c": "Italy",
+       "n": "Roma"
+      },
+      {
+       "c": "Italy",
+       "n": "Viterbo"
+      },
+      {
+       "c": "Italy",
+       "n": "Rieti"
+      },
+      {
+       "c": "Italy",
+       "n": "Perugia"
+      },
+      {
+       "c": "Italy",
+       "n": "Terni"
+      },
+      {
+       "c": "Italy",
+       "n": "Pesaro e Urbino"
+      },
+      {
+       "c": "Italy",
+       "n": "Ancona"
+      },
+      {
+       "c": "Italy",
+       "n": "Macerata"
+      },
+      {
+       "c": "Germany",
+       "n": "Nordrhein-Westfalen"
+      },
+      {
+       "c": "Germany",
+       "n": "Saarland"
+      },
+      {
+       "c": "France",
+       "n": "Haute-Corse"
+      },
+      {
+       "c": "France",
+       "n": "Corse-du-Sud"
+      }
+     ],
+     "color": "#FFD83C",
+     "at": {
+      "line": 1,
+      "word": "centre"
+     },
+     "keep": false
+    }
+   ],
+   "labels": [
+    {
+     "text": "Francie occidentale",
+     "at": [
+      -0.5,
+      46.5
+     ],
+     "size": 36,
+     "when": {
+      "line": 1,
+      "word": "ouest",
+      "d": 0.3
+     }
+    },
+    {
+     "text": "Francie orientale",
+     "at": [
+      10.4,
+      50.4
+     ],
+     "size": 36,
+     "when": {
+      "line": 1,
+      "word": "est",
+      "d": 0.3
+     }
+    },
+    {
+     "text": "Francie médiane",
+     "at": [
+      3.6,
+      47.0
+     ],
+     "size": 32,
+     "when": {
+      "line": 1,
+      "word": "centre",
+      "d": 0.3
+     }
+    },
+    {
+     "text": "Frontières approximatives",
+     "at": [
+      5.5,
+      41.9
+     ],
+     "size": 34,
+     "when": {
+      "line": 0,
+      "word": "trois"
+     }
+    }
+   ],
+   "people": [
+    {
+     "who": "fr",
+     "at": [
+      2.35,
+      48.2
+     ],
+     "size": 210,
+     "say": "Charles",
+     "when": {
+      "line": 1,
+      "word": "Charles"
+     }
+    },
+    {
+     "who": "alaman",
+     "at": [
+      11.2,
+      49.2
+     ],
+     "size": 210,
+     "say": "Louis",
+     "when": {
+      "line": 1,
+      "word": "Louis"
+     }
+    },
+    {
+     "who": "roi",
+     "at": [
+      7.9,
+      45.4
+     ],
+     "size": 210,
+     "say": "Lothaire",
+     "when": {
+      "line": 1,
+      "word": "Lothaire"
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      5.38,
+      49.16
+     ],
+     "title": "Verdun",
+     "sub": "août 843",
+     "side": "t",
+     "when": {
+      "line": 0,
+      "word": "Verdun",
+      "d": -0.3
+     }
+    },
+    {
+     "at": [
+      6.08,
+      50.78
+     ],
+     "title": "Aix-la-Chapelle",
+     "side": "l",
+     "when": {
+      "line": 1,
+      "word": "Aix-la-Chapelle"
+     }
+    },
+    {
+     "at": [
+      12.5,
+      41.9
+     ],
+     "title": "Rome",
+     "side": "l",
+     "when": {
+      "line": 1,
+      "word": "Rome"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      5.38,
+      49.16
+     ],
+     "when": {
+      "line": 0,
+      "word": "Verdun",
+      "d": -0.3
+     }
+    }
+   ],
+   "say": [
+    "En août 843, le traité de Verdun partage l’empire en trois royaumes.",
+    "À l’ouest, Charles ; à l’est, Louis ; au centre, Lothaire, avec Aix-la-Chapelle et Rome."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "855 · 870",
+   "text": "La Lotharingie, terre disputée",
+   "focus": {
+    "box": [
+     0,
+     46.5,
+     10,
+     53.8
+    ]
+   },
+   "highlight": [
+    {
+     "regions": [
+      {
+       "c": "Belgium",
+       "n": "Hainaut"
+      },
+      {
+       "c": "Belgium",
+       "n": "Namur"
+      },
+      {
+       "c": "Belgium",
+       "n": "Luxembourg"
+      },
+      {
+       "c": "Belgium",
+       "n": "Liege"
+      },
+      {
+       "c": "Belgium",
+       "n": "Antwerp"
+      },
+      {
+       "c": "Belgium",
+       "n": "Limburg"
+      },
+      {
+       "c": "Belgium",
+       "n": "Brussels"
+      },
+      {
+       "c": "Belgium",
+       "n": "Flemish Brabant"
+      },
+      {
+       "c": "Belgium",
+       "n": "Walloon Brabant"
+      },
+      {
+       "c": "Netherlands",
+       "n": "Groningen"
+      },
+      {
+       "c": "Netherlands",
+       "n": "Drenthe"
+      },
+      {
+       "c": "Netherlands",
+       "n": "Overijssel"
+      },
+      {
+       "c": "Netherlands",
+       "n": "Gelderland"
+      },
+      {
+       "c": "Netherlands",
+       "n": "Limburg"
+      },
+      {
+       "c": "Netherlands",
+       "n": "Zeeland"
+      },
+      {
+       "c": "Netherlands",
+       "n": "Noord-Brabant"
+      },
+      {
+       "c": "Netherlands",
+       "n": "Zuid-Holland"
+      },
+      {
+       "c": "Netherlands",
+       "n": "Noord-Holland"
+      },
+      {
+       "c": "Netherlands",
+       "n": "Friesland"
+      },
+      {
+       "c": "Netherlands",
+       "n": "Flevoland"
+      },
+      {
+       "c": "Netherlands",
+       "n": "Utrecht"
+      },
+      {
+       "c": "France",
+       "n": "Ardennes"
+      },
+      {
+       "c": "France",
+       "n": "Meuse"
+      },
+      {
+       "c": "France",
+       "n": "Meurthe-et-Moselle"
+      },
+      {
+       "c": "France",
+       "n": "Moselle"
+      },
+      {
+       "c": "France",
+       "n": "Vosges"
+      },
+      {
+       "c": "France",
+       "n": "Bas-Rhin"
+      },
+      {
+       "c": "France",
+       "n": "Haute-Rhin"
+      },
+      {
+       "c": "Germany",
+       "n": "Saarland"
+      },
+      {
+       "c": "Germany",
+       "n": "Nordrhein-Westfalen"
+      },
+      {
+       "c": "Germany",
+       "n": "Rheinland-Pfalz"
+      }
+     ],
+     "color": "#FFD83C",
+     "at": {
+      "line": 0,
+      "d": 0
+     },
+     "keep": false
+    }
+   ],
+   "art": [
+    {
+     "kind": "timeline",
+     "at": {
+      "line": 1,
+      "d": 0
+     },
+     "dur": 3.4,
+     "title": "Une terre disputée",
+     "items": [
+      {
+       "year": "870",
+       "text": "Traité de Meerssen"
+      },
+      {
+       "year": "1871",
+       "text": "Alsace-Lorraine allemande"
+      },
+      {
+       "year": "1918",
+       "text": "Retour à la France"
+      },
+      {
+       "year": "1945",
+       "text": "Libération"
+      }
+     ]
+    }
+   ],
+   "labels": [
+    {
+     "text": "Pays-Bas",
+     "at": [
+      5.4,
+      52.4
+     ],
+     "size": 36,
+     "when": {
+      "line": 0,
+      "word": "Lotharingie",
+      "d": 0.5
+     }
+    },
+    {
+     "text": "Belgique",
+     "at": [
+      4.6,
+      50.5
+     ],
+     "size": 36,
+     "when": {
+      "line": 0,
+      "word": "Lotharingie",
+      "d": 0.8
+     }
+    },
+    {
+     "text": "Lorraine",
+     "at": [
+      6,
+      48.9
+     ],
+     "size": 36,
+     "when": {
+      "line": 0,
+      "word": "Lotharingie",
+      "d": 1.1
+     }
+    },
+    {
+     "text": "Frontières actuelles",
+     "at": [
+      5.0,
+      47.2
+     ],
+     "size": 34,
+     "when": {
+      "line": 0,
+      "word": "Lotharingie",
+      "d": 0.5
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      6.1,
+      49.2
+     ],
+     "when": {
+      "line": 0,
+      "d": 0.2
+     }
+    }
+   ],
+   "say": [
+    "La partie nord du royaume du milieu prend le nom de Lotharingie, d’après Lothaire II.",
+    "Coincé entre ses grands voisins, il sera disputé pendant plus de mille ans."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "AUJOURD’HUI",
+   "text": "Deux langues, deux pays",
+   "focus": {
+    "box": [
+     -3,
+     43,
+     16,
+     54
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "France"
+     ],
+     "color": "#4FA3E0",
+     "at": {
+      "line": 0,
+      "word": "roman"
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Germany"
+     ],
+     "color": "#E8503A",
+     "at": {
+      "line": 0,
+      "word": "tudesque"
+     },
+     "keep": false
+    }
+   ],
+   "people": [
+    {
+     "who": "fr",
+     "at": [
+      2.2,
+      47
+     ],
+     "size": 220,
+     "say": "Roman, puis français",
+     "when": {
+      "line": 0,
+      "word": "roman",
+      "d": 0.3
+     }
+    },
+    {
+     "who": "alaman",
+     "at": [
+      10.8,
+      49.8
+     ],
+     "size": 220,
+     "say": "Tudesque, puis allemand",
+     "when": {
+      "line": 0,
+      "word": "tudesque",
+      "d": 0.3
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      2.2,
+      45.6
+     ],
+     "stack": [
+      {
+       "text": "Français",
+       "color": "#4FA3E0"
+      }
+     ],
+     "when": {
+      "line": 1,
+      "word": "français"
+     }
+    },
+    {
+     "at": [
+      10.8,
+      48.3
+     ],
+     "stack": [
+      {
+       "text": "Allemand",
+       "color": "#E8503A"
+      }
+     ],
+     "when": {
+      "line": 1,
+      "word": "allemand"
+     }
+    }
+   ],
+   "say": [
+    "Deux langues déjà vivantes s’éloignent : le roman à l’ouest, le tudesque à l’est.",
+    "Le roman donnera le français, et le tudesque donnera l’allemand."
+   ]
+  },
+  {
+   "type": "final",
+   "text": "Un empire partagé à Verdun",
+   "sub": "Charlemagne et Verdun",
+   "focus": {
+    "box": [
+     -2,
+     42,
+     16,
+     54
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "France"
+     ],
+     "color": "#4FA3E0",
+     "at": {
+      "line": 0,
+      "word": "France"
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Germany"
+     ],
+     "color": "#E8503A",
+     "at": {
+      "line": 0,
+      "word": "Allemagne"
+     },
+     "keep": false
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      5.38,
+      49.16
+     ],
+     "title": "Verdun",
+     "sub": "843",
+     "side": "l",
+     "when": 2
+    }
+   ],
+   "people": [
+    {
+     "who": "roi",
+     "at": [
+      6.08,
+      50.78
+     ],
+     "size": 240,
+     "say": "Voilà !",
+     "wave": true,
+     "when": 2.8
+    }
+   ],
+   "say": [
+    "Voilà pourquoi la France et l’Allemagne ont la même origine : l’empire de Charlemagne, partagé à Verdun.",
+    "Voilà la réponse à la question du début :"
+   ]
+  }
+ ]
+}

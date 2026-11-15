@@ -1,0 +1,1086 @@
+{
+ "format": "atlas",
+ "id": "atlas-tyrol-du-sud",
+ "base": {
+  "countries": [
+   "Italy",
+   "Austria"
+  ]
+ },
+ "terrain": [
+  {
+   "box": [
+    -14,
+    27,
+    40,
+    76
+   ],
+   "px": 3000,
+   "z": 6
+  },
+  {
+   "box": [
+    9.4,
+    45.5,
+    13.4,
+    48.4
+   ],
+   "px": 2800,
+   "z": 9
+  }
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "text": "Une région italienne qui parle allemand",
+   "sub": "Le Tyrol du Sud · Alto Adige",
+   "focus": {
+    "box": [
+     9.8,
+     45.9,
+     12.8,
+     47.5
+    ]
+   },
+   "highlight": {
+    "regions": [
+     {
+      "c": "Italy",
+      "n": "Bozen"
+     }
+    ],
+    "color": "#FFD83C",
+    "at": 0.7,
+    "keep": false
+   },
+   "pills": [
+    {
+     "at": [
+      11.3,
+      46.62
+     ],
+     "stack": [
+      {
+       "text": "Deutsch",
+       "color": "#E8503A"
+      },
+      {
+       "text": "Italiano",
+       "color": "#3E9A63"
+      },
+      {
+       "text": "Ladin",
+       "color": "#C77DFF"
+      }
+     ],
+     "when": {
+      "line": 1,
+      "word": "Tyrol"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      11.355,
+      46.498
+     ],
+     "when": 0.4
+    }
+   ],
+   "labels": [
+    {
+     "text": "Autriche",
+     "at": [
+      11.6,
+      47.3
+     ],
+     "size": 38,
+     "when": {
+      "line": 1,
+      "word": "nord",
+      "d": 0.2
+     }
+    },
+    {
+     "text": "Suisse",
+     "at": [
+      9.7,
+      46.6
+     ],
+     "size": 38,
+     "when": {
+      "line": 1,
+      "word": "nord",
+      "d": 0.6
+     }
+    }
+   ],
+   "say": [
+    "Pourquoi parle-t-on allemand dans une région d’Italie ?",
+    "Bienvenue au Tyrol du Sud, tout au nord de l’Italie."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "Jusqu’en 1918",
+   "text": "Le Tyrol des Habsbourg",
+   "focus": {
+    "box": [
+     9.8,
+     45.7,
+     13.2,
+     47.8
+    ]
+   },
+   "highlight": [
+    {
+     "regions": [
+      {
+       "c": "Austria",
+       "n": "Tirol"
+      },
+      {
+       "c": "Italy",
+       "n": "Bozen"
+      }
+     ],
+     "color": "#E8A33C",
+     "at": {
+      "line": 0,
+      "d": 0.2
+     },
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "Italy",
+       "n": "Trento"
+      }
+     ],
+     "color": "#3E9A63",
+     "at": {
+      "line": 1,
+      "word": "Trente",
+      "d": -0.2
+     },
+     "keep": false
+    }
+   ],
+   "people": [
+    {
+     "who": "paysan",
+     "at": [
+      11.3,
+      46.65
+     ],
+     "size": 170,
+     "say": "Un seul Tyrol",
+     "when": {
+      "line": 1,
+      "word": "allemand"
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Suisse",
+     "at": [
+      9.95,
+      46.6
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "d": 0.8
+     }
+    },
+    {
+     "text": "Italie",
+     "at": [
+      12.3,
+      45.85
+     ],
+     "size": 38,
+     "when": {
+      "line": 1,
+      "word": "Trente",
+      "d": 0.2
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      11.12,
+      46.07
+     ],
+     "title": "Trente",
+     "side": "b",
+     "when": {
+      "line": 1,
+      "word": "Trente"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      11.355,
+      46.498
+     ],
+     "when": 0.4
+    }
+   ],
+   "say": [
+    "Jusqu’en 1918, le Tyrol est autrichien.",
+    "On y parle allemand, et italien autour de Trente."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1919",
+   "text": "Le Brenner devient la frontière",
+   "focus": {
+    "box": [
+     10.2,
+     46.2,
+     12.8,
+     47.6
+    ]
+   },
+   "highlight": [
+    {
+     "regions": [
+      {
+       "c": "Italy",
+       "n": "Bozen"
+      }
+     ],
+     "color": "#E8A33C",
+     "at": 0.3,
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "Italy",
+       "n": "Bozen"
+      }
+     ],
+     "color": "#FFD83C",
+     "at": {
+      "line": 0,
+      "word": "Trentin",
+      "d": -0.2
+     },
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "Italy",
+       "n": "Trento"
+      }
+     ],
+     "color": "#3E9A63",
+     "at": {
+      "line": 0,
+      "word": "Trentin",
+      "d": -0.2
+     },
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "Austria",
+       "n": "Tirol"
+      }
+     ],
+     "color": "#E8503A",
+     "at": {
+      "line": 1,
+      "word": "nord"
+     },
+     "keep": false
+    }
+   ],
+   "line": {
+    "points": [
+     [
+      10.47,
+      46.84
+     ],
+     [
+      11.0,
+      46.93
+     ],
+     [
+      11.505,
+      47.003
+     ],
+     [
+      12.1,
+      47.08
+     ]
+    ],
+    "label": "Frontière",
+    "color": "#FF4B3A",
+    "at": {
+     "line": 0,
+     "word": "traité"
+    }
+   },
+   "people": [
+    {
+     "who": "soldat",
+     "at": [
+      11.3,
+      47.22
+     ],
+     "size": 170,
+     "say": "Frontière",
+     "when": {
+      "line": 0,
+      "word": "Brenner",
+      "d": 0.3
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      11.505,
+      47.003
+     ],
+     "title": "Col du Brenner",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "Brenner",
+      "d": 0.2
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      11.505,
+      47.003
+     ],
+     "when": 0.4
+    }
+   ],
+   "art": [
+    {
+     "kind": "split",
+     "at": {
+      "line": 1,
+      "d": 0.0
+     },
+     "dur": 3.5,
+     "title": "Le Tyrol coupé en deux",
+     "sub": "avant / après",
+     "before": "Avant 1919",
+     "after": "Après 1919",
+     "badge": "",
+     "parts": [
+      {
+       "region": {
+        "c": "Austria",
+        "n": "Tirol"
+       },
+       "color": "#E8503A"
+      },
+      {
+       "region": {
+        "c": "Italy",
+        "n": "Bozen"
+       },
+       "color": "#FFD83C",
+       "lost": true
+      },
+      {
+       "region": {
+        "c": "Italy",
+        "n": "Trento"
+       },
+       "color": "#3E9A63",
+       "lost": true
+      }
+     ]
+    }
+   ],
+   "say": [
+    "Après sa défaite de 1918, l’Autriche cède à l’Italie le Tyrol du Sud et le Trentin : en 1919, le Brenner devient la frontière.",
+    "Le Tyrol est coupé en deux : le nord autrichien, le sud italien."
+   ],
+   "labels": [
+    {
+     "text": "Autriche",
+     "at": [
+      11.6,
+      47.45
+     ],
+     "size": 38,
+     "when": {
+      "line": 1,
+      "word": "nord"
+     }
+    },
+    {
+     "text": "Trentin",
+     "at": [
+      11.0,
+      46.2
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "word": "Trentin"
+     }
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1923",
+   "text": "Mussolini veut tout italianiser",
+   "focus": {
+    "box": [
+     10.2,
+     45.9,
+     12.7,
+     47.3
+    ]
+   },
+   "highlight": {
+    "regions": [
+     {
+      "c": "Italy",
+      "n": "Bozen"
+     }
+    ],
+    "color": "#FFD83C",
+    "at": 0.3,
+    "keep": false
+   },
+   "moves": [
+    {
+     "from": [
+      10.9,
+      45.9
+     ],
+     "to": [
+      11.3,
+      46.47
+     ],
+     "n": 4,
+     "color": "#3E9A63",
+     "label": "Arrivée d’Italiens",
+     "at": {
+      "line": 1,
+      "word": "lieux"
+     },
+     "dur": 1.6
+    }
+   ],
+   "people": [
+    {
+     "who": "soldat",
+     "at": [
+      11.0,
+      46.85
+     ],
+     "size": 170,
+     "say": "L’italien seulement",
+     "when": {
+      "line": 0,
+      "word": "Mussolini",
+      "d": 0.2
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      11.355,
+      46.498
+     ],
+     "title": "Bolzano",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "italien",
+      "d": 0.5
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      11.355,
+      46.498
+     ],
+     "when": 0.4
+    }
+   ],
+   "say": [
+    "Sous Mussolini, dès 1923, l’école passe peu à peu à l’italien seulement, mais l’allemand survit dans les familles.",
+    "Les noms de lieux deviennent italiens, et des Italiens s’installent."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1939",
+   "text": "Rester ou partir pour le Reich",
+   "focus": {
+    "box": [
+     9.8,
+     46.0,
+     13.0,
+     48.0
+    ]
+   },
+   "highlight": {
+    "regions": [
+     {
+      "c": "Italy",
+      "n": "Bozen"
+     }
+    ],
+    "color": "#FFD83C",
+    "at": 0.3,
+    "keep": false
+   },
+   "moves": [
+    {
+     "from": [
+      11.35,
+      46.6
+     ],
+     "to": [
+      11.4,
+      47.3
+     ],
+     "n": 4,
+     "color": "#FFFFFF",
+     "label": "Vers le Reich",
+     "at": {
+      "line": 1,
+      "word": "partent"
+     },
+     "dur": 1.6
+    }
+   ],
+   "people": [
+    {
+     "who": "paysan",
+     "at": [
+      11.2,
+      46.62
+     ],
+     "size": 160,
+     "say": "Partir ou rester",
+     "when": {
+      "line": 0,
+      "word": "choisir"
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Italie",
+     "at": [
+      12.4,
+      46.15
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "d": 0.6
+     }
+    },
+    {
+     "text": "Reich allemand",
+     "at": [
+      12.3,
+      47.85
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "word": "Reich",
+      "d": 0.6
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      11.355,
+      46.498
+     ],
+     "when": 0.4
+    }
+   ],
+   "art": [
+    {
+     "kind": "stats",
+     "at": {
+      "line": 1,
+      "word": "Environ",
+      "d": -0.1
+     },
+     "dur": 4.6,
+     "title": "Les options de 1939",
+     "items": [
+      {
+       "value": 86,
+       "suffix": " %",
+       "label": "des optants choisissent l’Allemagne (environ)",
+       "color": "#E8503A"
+      },
+      {
+       "value": 75,
+       "suffix": " 000",
+       "label": "partent vraiment, sur 250 000 (environ)",
+       "color": "#E8A33C"
+      }
+     ]
+    }
+   ],
+   "say": [
+    "En 1939, Hitler et Mussolini font choisir les germanophones : rester, ou partir pour le Reich allemand.",
+    "Environ 86 % choisissent l’Allemagne, et environ 75 000 partent vraiment."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1948",
+   "text": "Un premier statut d’autonomie",
+   "focus": {
+    "box": [
+     10.2,
+     45.8,
+     12.8,
+     47.3
+    ]
+   },
+   "highlight": [
+    {
+     "regions": [
+      {
+       "c": "Italy",
+       "n": "Bozen"
+      }
+     ],
+     "color": "#FFD83C",
+     "at": 0.3,
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "Italy",
+       "n": "Trento"
+      }
+     ],
+     "color": "#FFD83C",
+     "at": {
+      "line": 1,
+      "word": "Trente"
+     },
+     "keep": false
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      11.355,
+      46.498
+     ],
+     "title": "Bolzano",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "naît"
+     }
+    },
+    {
+     "at": [
+      11.12,
+      46.07
+     ],
+     "title": "Trente",
+     "side": "b",
+     "when": {
+      "line": 1,
+      "word": "Trente",
+      "d": 0.3
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Italie",
+     "at": [
+      12.2,
+      45.95
+     ],
+     "size": 38,
+     "when": {
+      "line": 1,
+      "word": "majorité"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      11.355,
+      46.498
+     ],
+     "when": 0.4
+    }
+   ],
+   "say": [
+    "Après la guerre, un premier statut d’autonomie naît en 1948.",
+    "Mais Bolzano et Trente forment une seule région, à majorité italienne."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1972",
+   "text": "Le deuxième statut change tout",
+   "focus": {
+    "box": [
+     10.4,
+     46.0,
+     12.6,
+     47.0
+    ]
+   },
+   "highlight": {
+    "regions": [
+     {
+      "c": "Italy",
+      "n": "Bozen"
+     }
+    ],
+    "color": "#FFD83C",
+    "at": 0.3,
+    "keep": false
+   },
+   "pills": [
+    {
+     "at": [
+      11.355,
+      46.498
+     ],
+     "title": "Bolzano",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "d": 0.5
+     }
+    },
+    {
+     "at": [
+      11.3,
+      46.85
+     ],
+     "stack": [
+      {
+       "text": "Deutsch",
+       "color": "#E8503A"
+      },
+      {
+       "text": "Italiano",
+       "color": "#3E9A63"
+      }
+     ],
+     "when": {
+      "line": 1,
+      "word": "allemand"
+     }
+    },
+    {
+     "at": [
+      11.12,
+      46.07
+     ],
+     "title": "Trente",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "d": 0.9
+     }
+    }
+   ],
+   "labels": [],
+   "beacon": [
+    {
+     "at": [
+      11.355,
+      46.498
+     ],
+     "when": 0.4
+    }
+   ],
+   "say": [
+    "Après les tensions des années 1960, un deuxième statut, en 1972, donne l’essentiel des pouvoirs à Bolzano.",
+    "L’allemand y est reconnu à égalité avec l’italien, et le ladin protégé."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "Aujourd’hui",
+   "text": "Trois langues, un seul territoire",
+   "focus": {
+    "box": [
+     10.4,
+     46.2,
+     12.6,
+     47.0
+    ]
+   },
+   "highlight": {
+    "regions": [
+     {
+      "c": "Italy",
+      "n": "Bozen"
+     }
+    ],
+    "color": "#FFD83C",
+    "at": 0.3,
+    "keep": false
+   },
+   "pills": [
+    {
+     "at": [
+      10.85,
+      46.78
+     ],
+     "stack": [
+      {
+       "text": "Deutsch",
+       "color": "#E8503A"
+      }
+     ],
+     "when": {
+      "line": 0,
+      "word": "allemand"
+     }
+    },
+    {
+     "at": [
+      11.35,
+      46.46
+     ],
+     "stack": [
+      {
+       "text": "Italiano",
+       "color": "#3E9A63"
+      }
+     ],
+     "when": {
+      "line": 0,
+      "word": "italien"
+     }
+    },
+    {
+     "at": [
+      11.95,
+      46.6
+     ],
+     "stack": [
+      {
+       "text": "Ladin",
+       "color": "#C77DFF"
+      }
+     ],
+     "when": {
+      "line": 0,
+      "word": "ladin"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      11.8,
+      46.57
+     ],
+     "when": {
+      "line": 1,
+      "word": "Dolomites"
+     }
+    }
+   ],
+   "say": [
+    "Aujourd’hui, on y parle allemand, italien et ladin.",
+    "Le ladin est une langue romane des Dolomites."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "2024",
+   "text": "Les trois groupes linguistiques",
+   "focus": {
+    "box": [
+     10.0,
+     46.0,
+     12.8,
+     47.2
+    ]
+   },
+   "highlight": {
+    "regions": [
+     {
+      "c": "Italy",
+      "n": "Bozen"
+     }
+    ],
+    "color": "#FFD83C",
+    "at": 0.3,
+    "keep": false
+   },
+   "art": [
+    {
+     "kind": "bars",
+     "at": {
+      "line": 0,
+      "d": 0.2
+     },
+     "dur": 6.0,
+     "title": "Groupes déclarés",
+     "sub": "recensement 2024",
+     "items": [
+      {
+       "label": "Groupe allemand",
+       "value": "69 %",
+       "h": 0.69,
+       "color": "#E8503A"
+      },
+      {
+       "label": "Groupe italien",
+       "value": "27 %",
+       "h": 0.27,
+       "color": "#3E9A63"
+      },
+      {
+       "label": "Groupe ladin",
+       "value": "4 %",
+       "h": 0.045,
+       "color": "#C77DFF"
+      }
+     ]
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      11.355,
+      46.498
+     ],
+     "title": "Bolzano",
+     "side": "r",
+     "when": {
+      "line": 1,
+      "word": "Bolzano"
+     }
+    },
+    {
+     "at": [
+      10.85,
+      46.78
+     ],
+     "stack": [
+      {
+       "text": "Deutsch",
+       "color": "#E8503A"
+      }
+     ],
+     "when": {
+      "line": 1,
+      "word": "communes"
+     }
+    },
+    {
+     "at": [
+      11.45,
+      46.3
+     ],
+     "stack": [
+      {
+       "text": "Italiano",
+       "color": "#3E9A63"
+      }
+     ],
+     "when": {
+      "line": 1,
+      "word": "communes",
+      "d": 0.3
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      11.355,
+      46.498
+     ],
+     "when": 0.4
+    }
+   ],
+   "say": [
+    "Au recensement de 2024, environ 69 % se déclarent du groupe allemand, 27 % du groupe italien, 4 % du groupe ladin.",
+    "Bolzano est à environ 75 % italophone, mais la plupart des communes sont germanophones."
+   ]
+  },
+  {
+   "type": "final",
+   "text": "Italienne, mais germanophone",
+   "sub": "Le Tyrol du Sud",
+   "focus": {
+    "box": [
+     10.0,
+     46.0,
+     12.8,
+     47.3
+    ]
+   },
+   "highlight": {
+    "regions": [
+     {
+      "c": "Italy",
+      "n": "Bozen"
+     }
+    ],
+    "color": "#FFD83C",
+    "at": 0.7,
+    "keep": false
+   },
+   "people": [
+    {
+     "who": "paysan",
+     "at": [
+      11.3,
+      46.65
+     ],
+     "size": 240,
+     "say": "Tyrol du Sud",
+     "wave": true,
+     "when": 2.0
+    }
+   ],
+   "say": [
+    "Voilà pourquoi le Tyrol du Sud est italien, mais parle allemand.",
+    "Voilà la réponse à la question qui nous a ouverts :"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,2183 @@
+{
+  "format": "atlas",
+  "suisse": false,
+  "id": "empires-05-carthage",
+  "world": true,
+  "base": {
+    "countries": [
+      "Tunisia",
+      "Algeria",
+      "Morocco",
+      "Libya",
+      "Spain",
+      "Italy",
+      "France",
+      "Lebanon"
+    ]
+  },
+  "open": {
+    "box": [
+      -7,
+      29.5,
+      20.5,
+      42.5
+    ]
+  },
+  "terrain": [
+    {
+      "box": [
+        -14,
+        13.5,
+        40,
+        76
+      ],
+      "px": 3000,
+      "z": 5
+    },
+    {
+      "box": [
+        -7.4,
+        28.6,
+        37.4,
+        47.9
+      ],
+      "px": 2800,
+      "z": 6
+    },
+    {
+      "box": [
+        -8.4,
+        29.1,
+        20.9,
+        47.9
+      ],
+      "px": 2800,
+      "z": 8
+    }
+  ],
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "Comment Carthage a-t-elle failli battre Rome ?",
+      "sub": "Carthage, dans l’actuelle Tunisie",
+      "focus": {
+        "box": [
+          -7,
+          29.5,
+          20.5,
+          42.5
+        ]
+      },
+      "line": {
+        "points": [
+          [
+            -6.7,
+            36.1
+          ],
+          [
+            -6.4,
+            37.5
+          ],
+          [
+            -4.5,
+            37.3
+          ],
+          [
+            -2.5,
+            37.5
+          ],
+          [
+            -0.6,
+            38.1
+          ],
+          [
+            1,
+            39.3
+          ],
+          [
+            1.9,
+            39.3
+          ],
+          [
+            7.8,
+            41.3
+          ],
+          [
+            9.6,
+            41.4
+          ],
+          [
+            10.2,
+            40.4
+          ],
+          [
+            10.1,
+            38.9
+          ],
+          [
+            12.1,
+            38.4
+          ],
+          [
+            13.9,
+            38.3
+          ],
+          [
+            13.9,
+            37.2
+          ],
+          [
+            11.6,
+            35.6
+          ],
+          [
+            11.6,
+            33.4
+          ],
+          [
+            15.5,
+            32.7
+          ],
+          [
+            19.4,
+            30.7
+          ],
+          [
+            19,
+            29.9
+          ],
+          [
+            16,
+            30.9
+          ],
+          [
+            13,
+            31.9
+          ],
+          [
+            10.5,
+            32.9
+          ],
+          [
+            8.3,
+            34.9
+          ],
+          [
+            5,
+            36.1
+          ],
+          [
+            2,
+            36.1
+          ],
+          [
+            -0.8,
+            35.3
+          ],
+          [
+            -3,
+            34.8
+          ],
+          [
+            -6.5,
+            34.8
+          ],
+          [
+            -6.7,
+            36.1
+          ]
+        ],
+        "color": "#A77BE0",
+        "width": 9,
+        "at": 0.3,
+        "draw": 2.4
+      },
+      "beacon": [
+        {
+          "at": [
+            10.32,
+            36.85
+          ],
+          "when": 0.2
+        }
+      ],
+      "pills": [
+        {
+          "at": [
+            10.32,
+            36.85
+          ],
+          "title": "Carthage",
+          "sub": "la capitale",
+          "side": "b",
+          "when": {
+            "line": 0,
+            "word": "Carthage",
+            "d": 0.2
+          }
+        }
+      ],
+      "labels": [
+        {
+          "text": "Rome",
+          "at": [
+            12.9,
+            42.4
+          ],
+          "size": 38,
+          "when": {
+            "line": 0,
+            "word": "Rome",
+            "d": 0
+          }
+        }
+      ],
+      "big": {
+        "value": "37 éléphants",
+        "sub": "selon Polybe, en 218 av. J.-C.",
+        "at": {
+          "line": 1,
+          "word": "éléphants",
+          "d": -0.8
+        },
+        "dur": 3
+      },
+      "say": [
+        "Comment Carthage a-t-elle failli battre Rome ?",
+        "Un port, 37 éléphants dans les Alpes, puis des ruines."
+      ]
+    },
+    {
+      "type": "map",
+      "year": "Vers 814 av. J.-C.",
+      "text": "Fondation, selon la tradition",
+      "note": "Contours approximatifs",
+      "focus": {
+        "box": [
+          7,
+          29,
+          37,
+          40.5
+        ]
+      },
+      "highlight": {
+        "area": [
+          [
+            9.8,
+            37
+          ],
+          [
+            10.6,
+            37.2
+          ],
+          [
+            11.2,
+            37.1
+          ],
+          [
+            10.9,
+            36.4
+          ],
+          [
+            10.2,
+            36.3
+          ],
+          [
+            9.8,
+            36.6
+          ]
+        ],
+        "color": "#D9487A",
+        "at": {
+          "line": 0,
+          "word": "fondent",
+          "d": 0.2
+        },
+        "keep": false
+      },
+      "moves": [
+        {
+          "from": [
+            35.2,
+            33.27
+          ],
+          "to": [
+            10.32,
+            36.85
+          ],
+          "n": 3,
+          "color": "#D9487A",
+          "label": "Phéniciens",
+          "at": {
+            "line": 0,
+            "word": "Phéniciens",
+            "d": -0.2
+          },
+          "dur": 2.4
+        }
+      ],
+      "beacon": [
+        {
+          "at": [
+            35.2,
+            33.27
+          ],
+          "when": {
+            "line": 0,
+            "word": "Tyr",
+            "d": -0.2
+          }
+        },
+        {
+          "at": [
+            10.32,
+            36.85
+          ],
+          "when": {
+            "line": 0,
+            "word": "fondent",
+            "d": 0
+          }
+        }
+      ],
+      "pills": [
+        {
+          "at": [
+            35.2,
+            33.27
+          ],
+          "title": "Tyr",
+          "sub": "dans l’actuel Liban",
+          "side": "b",
+          "when": {
+            "line": 0,
+            "word": "Tyr",
+            "d": 0
+          }
+        },
+        {
+          "at": [
+            10.32,
+            36.85
+          ],
+          "title": "Qart Hadasht",
+          "sub": "« ville nouvelle »",
+          "side": "b",
+          "when": {
+            "line": 0,
+            "word": "Carthage",
+            "d": 0.1
+          }
+        },
+        {
+          "at": [
+            24,
+            37.6
+          ],
+          "title": "Phéniciens",
+          "sub": "marins et marchands",
+          "side": "t",
+          "when": {
+            "line": 0,
+            "word": "Phéniciens",
+            "d": 0.2
+          }
+        }
+      ],
+      "say": [
+        "Selon la tradition, des Phéniciens de Tyr fondent Carthage, la « ville nouvelle »."
+      ]
+    },
+    {
+      "type": "map",
+      "year": "Vers 264 av. J.-C.",
+      "text": "À son apogée",
+      "note": "Contours approximatifs",
+      "focus": {
+        "box": [
+          -7,
+          29.5,
+          20.5,
+          42.5
+        ]
+      },
+      "highlight": [
+        {
+          "areas": [
+            [
+              [
+                7.9,
+                38.7
+              ],
+              [
+                10,
+                38.7
+              ],
+              [
+                10.1,
+                40.4
+              ],
+              [
+                9.6,
+                41.3
+              ],
+              [
+                8,
+                41.2
+              ]
+            ],
+            [
+              [
+                12.1,
+                37.5
+              ],
+              [
+                12.2,
+                38.3
+              ],
+              [
+                13.8,
+                38.2
+              ],
+              [
+                13.8,
+                37.6
+              ],
+              [
+                13.3,
+                37.2
+              ],
+              [
+                12.6,
+                37.4
+              ]
+            ],
+            [
+              [
+                1.1,
+                38.6
+              ],
+              [
+                1.8,
+                38.6
+              ],
+              [
+                1.8,
+                39.2
+              ],
+              [
+                1.1,
+                39.2
+              ]
+            ],
+            [
+              [
+                -6.6,
+                36.3
+              ],
+              [
+                -6.3,
+                37.3
+              ],
+              [
+                -4.5,
+                37.1
+              ],
+              [
+                -2.5,
+                37.3
+              ],
+              [
+                -0.8,
+                37.9
+              ],
+              [
+                -0.3,
+                37.5
+              ],
+              [
+                -2,
+                36.5
+              ],
+              [
+                -4.5,
+                36.3
+              ],
+              [
+                -5.6,
+                35.9
+              ]
+            ]
+          ],
+          "color": "#D9487A",
+          "at": {
+            "line": 0,
+            "word": "navires",
+            "d": 0.2
+          },
+          "keep": false
+        },
+        {
+          "areas": [
+            [
+              [
+                -6.4,
+                34.9
+              ],
+              [
+                -6,
+                36
+              ],
+              [
+                -5,
+                36.1
+              ],
+              [
+                -2,
+                35.4
+              ],
+              [
+                0,
+                36.1
+              ],
+              [
+                3,
+                37
+              ],
+              [
+                6,
+                37.3
+              ],
+              [
+                9.5,
+                37.6
+              ],
+              [
+                11.3,
+                37.3
+              ],
+              [
+                11.6,
+                35.6
+              ],
+              [
+                11.5,
+                33.4
+              ],
+              [
+                13.5,
+                33.2
+              ],
+              [
+                15.5,
+                32.6
+              ],
+              [
+                17.5,
+                31.3
+              ],
+              [
+                19.3,
+                30.6
+              ],
+              [
+                19,
+                30
+              ],
+              [
+                16,
+                31
+              ],
+              [
+                13,
+                32
+              ],
+              [
+                10.6,
+                33
+              ],
+              [
+                9.6,
+                33.8
+              ],
+              [
+                8.3,
+                35
+              ],
+              [
+                7.6,
+                35.9
+              ],
+              [
+                5,
+                36.2
+              ],
+              [
+                2,
+                36.2
+              ],
+              [
+                -0.8,
+                35.4
+              ],
+              [
+                -3,
+                34.9
+              ],
+              [
+                -5.3,
+                35
+              ]
+            ],
+            [
+              [
+                7.9,
+                38.7
+              ],
+              [
+                10,
+                38.7
+              ],
+              [
+                10.1,
+                40.4
+              ],
+              [
+                9.6,
+                41.3
+              ],
+              [
+                8,
+                41.2
+              ]
+            ],
+            [
+              [
+                12.1,
+                37.5
+              ],
+              [
+                12.2,
+                38.3
+              ],
+              [
+                13.8,
+                38.2
+              ],
+              [
+                13.8,
+                37.6
+              ],
+              [
+                13.3,
+                37.2
+              ],
+              [
+                12.6,
+                37.4
+              ]
+            ],
+            [
+              [
+                1.1,
+                38.6
+              ],
+              [
+                1.8,
+                38.6
+              ],
+              [
+                1.8,
+                39.2
+              ],
+              [
+                1.1,
+                39.2
+              ]
+            ],
+            [
+              [
+                -6.6,
+                36.3
+              ],
+              [
+                -6.3,
+                37.3
+              ],
+              [
+                -4.5,
+                37.1
+              ],
+              [
+                -2.5,
+                37.3
+              ],
+              [
+                -0.8,
+                37.9
+              ],
+              [
+                -0.3,
+                37.5
+              ],
+              [
+                -2,
+                36.5
+              ],
+              [
+                -4.5,
+                36.3
+              ],
+              [
+                -5.6,
+                35.9
+              ]
+            ]
+          ],
+          "color": "#A77BE0",
+          "at": {
+            "line": 1,
+            "word": "domine",
+            "d": -0.4
+          },
+          "keep": false
+        }
+      ],
+      "moves": [
+        {
+          "from": [
+            10.32,
+            36.85
+          ],
+          "to": [
+            9,
+            39.6
+          ],
+          "n": 2,
+          "color": "#D9487A",
+          "at": {
+            "line": 0,
+            "word": "Sardaigne",
+            "d": -0.6
+          },
+          "dur": 1.4
+        },
+        {
+          "from": [
+            10.32,
+            36.85
+          ],
+          "to": [
+            12.8,
+            37.9
+          ],
+          "n": 2,
+          "color": "#D9487A",
+          "at": {
+            "line": 0,
+            "word": "Sicile",
+            "d": -0.6
+          },
+          "dur": 1.2
+        },
+        {
+          "from": [
+            10.32,
+            36.85
+          ],
+          "to": [
+            -4.4,
+            36.7
+          ],
+          "n": 2,
+          "color": "#D9487A",
+          "at": {
+            "line": 0,
+            "word": "Espagne",
+            "d": -0.8
+          },
+          "dur": 1.6
+        }
+      ],
+      "beacon": [
+        {
+          "at": [
+            10.32,
+            36.85
+          ],
+          "when": 0.3
+        }
+      ],
+      "pills": [
+        {
+          "at": [
+            10.32,
+            36.85
+          ],
+          "title": "Carthage",
+          "sub": "vers 264 av. J.-C.",
+          "side": "b",
+          "when": {
+            "line": 1,
+            "word": "domine",
+            "d": 0.3
+          }
+        }
+      ],
+      "labels": [
+        {
+          "text": "Rome",
+          "at": [
+            12.9,
+            42.1
+          ],
+          "size": 38,
+          "when": {
+            "line": 1,
+            "word": "Ouest",
+            "d": 0
+          }
+        },
+        {
+          "text": "Grecs",
+          "at": [
+            15.3,
+            37.4
+          ],
+          "size": 34,
+          "when": {
+            "line": 1,
+            "word": "Ouest",
+            "d": 0.3
+          }
+        }
+      ],
+      "say": [
+        "Ses navires prennent la Sardaigne, l’ouest de la Sicile, des ports d’Espagne.",
+        "Vers 264, elle domine la Méditerranée de l’Ouest."
+      ]
+    },
+    {
+      "type": "map",
+      "year": "241 – 218 av. J.-C.",
+      "text": "Revanche en Espagne",
+      "note": "Contours approximatifs",
+      "focus": {
+        "box": [
+          -8,
+          34.5,
+          12,
+          42.5
+        ]
+      },
+      "art": [
+        {
+          "kind": "split",
+          "at": {
+            "line": 0,
+            "word": "Rome",
+            "d": -0.1
+          },
+          "dur": 4.4,
+          "title": "Rome lui prend ses îles",
+          "sub": "Punique : carthaginois, en latin",
+          "before": "264 av. J.-C.",
+          "after": "237 av. J.-C.",
+          "parts": [
+            {
+              "region": {
+                "c": "Tunisia",
+                "n": "Bizerte"
+              },
+              "color": "#D9487A"
+            },
+            {
+              "region": {
+                "c": "Tunisia",
+                "n": "Béja"
+              },
+              "color": "#D9487A"
+            },
+            {
+              "region": {
+                "c": "Tunisia",
+                "n": "Jendouba"
+              },
+              "color": "#D9487A"
+            },
+            {
+              "region": {
+                "c": "Tunisia",
+                "n": "Le Kef"
+              },
+              "color": "#D9487A"
+            },
+            {
+              "region": {
+                "c": "Tunisia",
+                "n": "Siliana"
+              },
+              "color": "#D9487A"
+            },
+            {
+              "region": {
+                "c": "Tunisia",
+                "n": "Zaghouan"
+              },
+              "color": "#D9487A"
+            },
+            {
+              "region": {
+                "c": "Tunisia",
+                "n": "Tunis"
+              },
+              "color": "#D9487A"
+            },
+            {
+              "region": {
+                "c": "Tunisia",
+                "n": "Manubah"
+              },
+              "color": "#D9487A"
+            },
+            {
+              "region": {
+                "c": "Tunisia",
+                "n": "Ben Arous (Tunis Sud)"
+              },
+              "color": "#D9487A"
+            },
+            {
+              "region": {
+                "c": "Tunisia",
+                "n": "Nabeul"
+              },
+              "color": "#D9487A"
+            },
+            {
+              "region": {
+                "c": "Tunisia",
+                "n": "Sousse"
+              },
+              "color": "#D9487A"
+            },
+            {
+              "region": {
+                "c": "Tunisia",
+                "n": "Monastir"
+              },
+              "color": "#D9487A"
+            },
+            {
+              "region": {
+                "c": "Tunisia",
+                "n": "Mahdia"
+              },
+              "color": "#D9487A"
+            },
+            {
+              "region": {
+                "c": "Tunisia",
+                "n": "Kairouan"
+              },
+              "color": "#D9487A"
+            },
+            {
+              "region": {
+                "c": "Tunisia",
+                "n": "Sfax"
+              },
+              "color": "#D9487A"
+            },
+            {
+              "region": {
+                "c": "Italy",
+                "n": "Trapani"
+              },
+              "color": "#D9487A",
+              "to": "#8A93A8"
+            },
+            {
+              "region": {
+                "c": "Italy",
+                "n": "Palermo"
+              },
+              "color": "#D9487A",
+              "to": "#8A93A8"
+            },
+            {
+              "region": {
+                "c": "Italy",
+                "n": "Agrigento"
+              },
+              "color": "#D9487A",
+              "to": "#8A93A8"
+            },
+            {
+              "region": {
+                "c": "Italy",
+                "n": "Sassari"
+              },
+              "color": "#D9487A",
+              "to": "#8A93A8"
+            },
+            {
+              "region": {
+                "c": "Italy",
+                "n": "Olbia-Tempio"
+              },
+              "color": "#D9487A",
+              "to": "#8A93A8"
+            },
+            {
+              "region": {
+                "c": "Italy",
+                "n": "Nuoro"
+              },
+              "color": "#D9487A",
+              "to": "#8A93A8"
+            },
+            {
+              "region": {
+                "c": "Italy",
+                "n": "Oristrano"
+              },
+              "color": "#D9487A",
+              "to": "#8A93A8"
+            },
+            {
+              "region": {
+                "c": "Italy",
+                "n": "Ogliastra"
+              },
+              "color": "#D9487A",
+              "to": "#8A93A8"
+            },
+            {
+              "region": {
+                "c": "Italy",
+                "n": "Medio Campidano"
+              },
+              "color": "#D9487A",
+              "to": "#8A93A8"
+            },
+            {
+              "region": {
+                "c": "Italy",
+                "n": "Carbonia-Iglesias"
+              },
+              "color": "#D9487A",
+              "to": "#8A93A8"
+            },
+            {
+              "region": {
+                "c": "Italy",
+                "n": "Cagliari"
+              },
+              "color": "#D9487A",
+              "to": "#8A93A8"
+            }
+          ]
+        }
+      ],
+      "highlight": [
+        {
+          "area": [
+            [
+              -7.4,
+              37.2
+            ],
+            [
+              -6.6,
+              38.6
+            ],
+            [
+              -5,
+              39.8
+            ],
+            [
+              -3,
+              40.4
+            ],
+            [
+              -1,
+              40.9
+            ],
+            [
+              0.9,
+              40.8
+            ],
+            [
+              0.3,
+              39.8
+            ],
+            [
+              -0.1,
+              39
+            ],
+            [
+              0.4,
+              38.6
+            ],
+            [
+              -0.7,
+              37.5
+            ],
+            [
+              -2,
+              36.6
+            ],
+            [
+              -4.4,
+              36.5
+            ],
+            [
+              -5.7,
+              35.9
+            ],
+            [
+              -6.5,
+              36.6
+            ]
+          ],
+          "color": "#D9487A",
+          "at": {
+            "line": 1,
+            "word": "Espagne",
+            "d": -0.3
+          },
+          "keep": false
+        },
+        {
+          "area": [
+            [
+              -6.4,
+              34.9
+            ],
+            [
+              -6,
+              36
+            ],
+            [
+              -5,
+              36.1
+            ],
+            [
+              -2,
+              35.4
+            ],
+            [
+              0,
+              36.1
+            ],
+            [
+              3,
+              37
+            ],
+            [
+              6,
+              37.3
+            ],
+            [
+              9.5,
+              37.6
+            ],
+            [
+              11.3,
+              37.3
+            ],
+            [
+              11.6,
+              35.6
+            ],
+            [
+              11.5,
+              33.4
+            ],
+            [
+              13.5,
+              33.2
+            ],
+            [
+              15.5,
+              32.6
+            ],
+            [
+              17.5,
+              31.3
+            ],
+            [
+              19.3,
+              30.6
+            ],
+            [
+              19,
+              30
+            ],
+            [
+              16,
+              31
+            ],
+            [
+              13,
+              32
+            ],
+            [
+              10.6,
+              33
+            ],
+            [
+              9.6,
+              33.8
+            ],
+            [
+              8.3,
+              35
+            ],
+            [
+              7.6,
+              35.9
+            ],
+            [
+              5,
+              36.2
+            ],
+            [
+              2,
+              36.2
+            ],
+            [
+              -0.8,
+              35.4
+            ],
+            [
+              -3,
+              34.9
+            ],
+            [
+              -5.3,
+              35
+            ]
+          ],
+          "color": "#D9487A",
+          "at": {
+            "line": 1,
+            "word": "Barca",
+            "d": 0
+          },
+          "keep": false
+        }
+      ],
+      "beacon": [
+        {
+          "at": [
+            -0.98,
+            37.6
+          ],
+          "when": {
+            "line": 1,
+            "word": "Carthagène",
+            "d": -0.2
+          }
+        }
+      ],
+      "pills": [
+        {
+          "at": [
+            -0.98,
+            37.6
+          ],
+          "title": "Carthagène",
+          "sub": "fondée vers 227 av. J.-C.",
+          "side": "b",
+          "when": {
+            "line": 1,
+            "word": "Carthagène",
+            "d": 0.1
+          }
+        },
+        {
+          "at": [
+            -3.4,
+            39.6
+          ],
+          "title": "Les Barca",
+          "sub": "la famille d’Hannibal",
+          "side": "t",
+          "when": {
+            "line": 1,
+            "word": "Barca",
+            "d": 0.1
+          }
+        },
+        {
+          "at": [
+            3,
+            35.6
+          ],
+          "title": "La moitié de la France",
+          "sub": "en surface, vers 220 av. J.-C.",
+          "side": "b",
+          "when": {
+            "line": 1,
+            "word": "conquiert",
+            "d": 0.3
+          }
+        }
+      ],
+      "say": [
+        "Mais Rome gagne la première guerre punique et lui prend ses îles.",
+        "Alors la famille Barca conquiert le sud de l’Espagne et fonde Carthagène."
+      ]
+    },
+    {
+      "type": "map",
+      "year": "218 av. J.-C.",
+      "text": "Hannibal franchit les Alpes",
+      "focus": {
+        "box": [
+          -4,
+          36,
+          17,
+          47.5
+        ]
+      },
+      "moves": [
+        {
+          "from": [
+            -0.98,
+            37.6
+          ],
+          "to": [
+            0.6,
+            40.8
+          ],
+          "n": 3,
+          "color": "#D9487A",
+          "at": {
+            "line": 0,
+            "word": "part",
+            "d": -0.2
+          },
+          "dur": 1.3
+        },
+        {
+          "from": [
+            0.6,
+            40.8
+          ],
+          "to": [
+            4.7,
+            43.9
+          ],
+          "n": 3,
+          "color": "#D9487A",
+          "at": {
+            "line": 0,
+            "word": "part",
+            "d": 1.1
+          },
+          "dur": 1.3
+        },
+        {
+          "from": [
+            4.7,
+            43.9
+          ],
+          "to": [
+            7.7,
+            45.1
+          ],
+          "n": 3,
+          "color": "#D9487A",
+          "label": "Les Alpes",
+          "at": {
+            "line": 0,
+            "word": "franchit",
+            "d": -0.3
+          },
+          "dur": 1.6
+        }
+      ],
+      "people": [
+        {
+          "who": "soldat",
+          "outfit": "#D9487A",
+          "at": [
+            -2.6,
+            39.2
+          ],
+          "size": 220,
+          "say": "En avant !",
+          "label": {
+            "title": "Hannibal",
+            "sub": "fils d’Hamilcar Barca"
+          },
+          "when": {
+            "line": 0,
+            "word": "Hannibal",
+            "d": -0.2
+          }
+        }
+      ],
+      "pills": [
+        {
+          "at": [
+            7.7,
+            45.1
+          ],
+          "title": "37 éléphants",
+          "sub": "selon Polybe, automne 218",
+          "side": "r",
+          "when": {
+            "line": 0,
+            "word": "Alpes",
+            "d": 0.2
+          }
+        }
+      ],
+      "labels": [
+        {
+          "text": "Rome",
+          "at": [
+            12.9,
+            42.3
+          ],
+          "size": 38,
+          "when": {
+            "line": 0,
+            "word": "Alpes",
+            "d": 0.4
+          }
+        },
+        {
+          "text": "Gaulois",
+          "at": [
+            3.2,
+            46.2
+          ],
+          "size": 36,
+          "when": {
+            "line": 0,
+            "word": "franchit",
+            "d": 0
+          }
+        }
+      ],
+      "beacon": [
+        {
+          "at": [
+            12.5,
+            41.9
+          ],
+          "when": {
+            "line": 0,
+            "word": "Alpes",
+            "d": 0.4
+          }
+        }
+      ],
+      "say": [
+        "En 218, Hannibal part d’Espagne avec 37 éléphants et franchit les Alpes."
+      ]
+    },
+    {
+      "type": "map",
+      "year": "216 av. J.-C.",
+      "text": "Cannes : Rome écrasée",
+      "focus": {
+        "box": [
+          6.5,
+          37.5,
+          19,
+          46.5
+        ]
+      },
+      "moves": [
+        {
+          "from": [
+            7.7,
+            45.1
+          ],
+          "to": [
+            16.13,
+            41.31
+          ],
+          "n": 4,
+          "color": "#D9487A",
+          "at": 0.2,
+          "dur": 1.8
+        }
+      ],
+      "art": [
+        {
+          "kind": "bars",
+          "at": {
+            "line": 0,
+            "word": "écrase",
+            "d": -0.2
+          },
+          "dur": 4.2,
+          "title": "Cannes, 2 août 216 av. J.-C.",
+          "sub": "soldats, environ (Polybe)",
+          "items": [
+            {
+              "value": "80 000",
+              "label": "Romains",
+              "h": 1,
+              "color": "#8A93A8"
+            },
+            {
+              "value": "50 000",
+              "label": "Hannibal",
+              "h": 0.625,
+              "color": "#D9487A"
+            }
+          ]
+        }
+      ],
+      "pills": [
+        {
+          "at": [
+            16.13,
+            41.31
+          ],
+          "title": "Cannes",
+          "sub": "dans le sud de l’Italie",
+          "side": "r",
+          "when": {
+            "line": 0,
+            "word": "Cannes",
+            "d": 0
+          }
+        }
+      ],
+      "people": [
+        {
+          "who": "romain",
+          "outfit": "#8A93A8",
+          "at": [
+            12.2,
+            42.6
+          ],
+          "size": 210,
+          "say": "Au secours !",
+          "mood": "oops",
+          "when": {
+            "line": 0,
+            "word": "tomber",
+            "d": -0.5
+          }
+        }
+      ],
+      "beacon": [
+        {
+          "at": [
+            12.5,
+            41.9
+          ],
+          "when": {
+            "line": 0,
+            "word": "tomber",
+            "d": -0.6
+          }
+        }
+      ],
+      "say": [
+        "En 216, à Cannes, il écrase une armée romaine plus nombreuse : Rome a failli tomber."
+      ]
+    },
+    {
+      "type": "map",
+      "year": "202 av. J.-C.",
+      "text": "La chute : Zama",
+      "note": "Contours approximatifs",
+      "focus": {
+        "box": [
+          6.5,
+          33.5,
+          17.5,
+          42
+        ]
+      },
+      "moves": [
+        {
+          "from": [
+            12.6,
+            38
+          ],
+          "to": [
+            10.1,
+            37
+          ],
+          "n": 4,
+          "color": "#8A93A8",
+          "label": "Scipion",
+          "at": {
+            "line": 0,
+            "word": "céder",
+            "d": -0.2
+          },
+          "dur": 1.6
+        },
+        {
+          "from": [
+            17.1,
+            39.05
+          ],
+          "to": [
+            10.6,
+            35.9
+          ],
+          "n": 3,
+          "color": "#D9487A",
+          "label": "Hannibal",
+          "at": {
+            "line": 0,
+            "word": "Scipion",
+            "d": 0
+          },
+          "dur": 1.8
+        }
+      ],
+      "highlight": {
+        "area": [
+          [
+            8.6,
+            37.3
+          ],
+          [
+            11.3,
+            37.3
+          ],
+          [
+            11.3,
+            34.9
+          ],
+          [
+            9,
+            35.2
+          ]
+        ],
+        "color": "#D9487A",
+        "at": {
+          "line": 1,
+          "word": "perd",
+          "d": 0
+        },
+        "keep": false
+      },
+      "beacon": [
+        {
+          "at": [
+            9.2,
+            36.05
+          ],
+          "when": {
+            "line": 0,
+            "word": "Zama",
+            "d": -0.2
+          }
+        }
+      ],
+      "pills": [
+        {
+          "at": [
+            9.2,
+            36.05
+          ],
+          "title": "Zama",
+          "sub": "Hannibal vaincu",
+          "side": "l",
+          "when": {
+            "line": 0,
+            "word": "Zama",
+            "d": 0.1
+          }
+        },
+        {
+          "at": [
+            13.4,
+            34.6
+          ],
+          "title": "Paix de 201 av. J.-C.",
+          "sub": "10 navires, plus d’éléphants",
+          "side": "b",
+          "when": {
+            "line": 1,
+            "word": "flotte",
+            "d": 0
+          }
+        }
+      ],
+      "say": [
+        "Mais Rome refuse de céder : en 202 av. J.-C., Scipion bat Hannibal à Zama.",
+        "Carthage perd son empire, sa flotte et ses éléphants."
+      ]
+    },
+    {
+      "type": "map",
+      "year": "146 av. J.-C.",
+      "text": "Carthage rasée",
+      "note": "Contours approximatifs",
+      "focus": {
+        "box": [
+          7.5,
+          34,
+          12.5,
+          38.2
+        ]
+      },
+      "highlight": {
+        "area": [
+          [
+            8.4,
+            37.3
+          ],
+          [
+            11.3,
+            37.3
+          ],
+          [
+            11.3,
+            34.6
+          ],
+          [
+            10.4,
+            34.3
+          ],
+          [
+            8.6,
+            35
+          ]
+        ],
+        "color": "#8A93A8",
+        "at": {
+          "line": 1,
+          "word": "province",
+          "d": -0.2
+        },
+        "keep": false
+      },
+      "people": [
+        {
+          "who": "romain",
+          "outfit": "#8A93A8",
+          "at": [
+            9.4,
+            36.3
+          ],
+          "size": 220,
+          "say": "Carthage doit être détruite !",
+          "when": {
+            "line": 0,
+            "word": "détruit",
+            "d": -0.6
+          }
+        }
+      ],
+      "beacon": [
+        {
+          "at": [
+            10.32,
+            36.85
+          ],
+          "when": 0.3
+        }
+      ],
+      "pills": [
+        {
+          "at": [
+            10.32,
+            36.85
+          ],
+          "title": "Carthage",
+          "sub": "siège de 149 à 146 av. J.-C.",
+          "side": "r",
+          "when": {
+            "line": 0,
+            "word": "siège",
+            "d": 0
+          }
+        },
+        {
+          "at": [
+            10,
+            34.9
+          ],
+          "title": "Province d’Afrique",
+          "sub": "une région de Rome",
+          "side": "b",
+          "when": {
+            "line": 1,
+            "word": "province",
+            "d": 0.2
+          }
+        }
+      ],
+      "say": [
+        "En 146 av. J.-C., après trois ans de siège, Rome détruit Carthage.",
+        "Ses terres deviennent une province romaine, nommée Afrique."
+      ]
+    },
+    {
+      "type": "map",
+      "text": "Près de sept siècles",
+      "focus": {
+        "box": [
+          7.5,
+          34,
+          12.5,
+          38.2
+        ]
+      },
+      "art": [
+        {
+          "kind": "timeline",
+          "at": {
+            "line": 0,
+            "d": 0.1
+          },
+          "dur": 4.8,
+          "title": "Carthage",
+          "items": [
+            {
+              "year": "814 av. J.-C.",
+              "text": "Naissance (tradition)",
+              "color": "#D9487A"
+            },
+            {
+              "year": "264 av. J.-C.",
+              "text": "Apogée, vers cette date",
+              "color": "#A77BE0"
+            },
+            {
+              "year": "146 av. J.-C.",
+              "text": "Chute : ville rasée",
+              "color": "#8A93A8"
+            },
+            {
+              "year": "Aujourd’hui",
+              "text": "Ruines près de Tunis",
+              "color": "#FFFFFF"
+            }
+          ]
+        }
+      ],
+      "beacon": [
+        {
+          "at": [
+            10.32,
+            36.85
+          ],
+          "when": 0.3
+        }
+      ],
+      "pills": [
+        {
+          "at": [
+            10.32,
+            36.85
+          ],
+          "title": "Carthage",
+          "sub": "des ruines",
+          "side": "r",
+          "when": {
+            "line": 0,
+            "word": "siècles",
+            "d": 0.3
+          }
+        }
+      ],
+      "say": [
+        "Fondée vers 814 selon la tradition, rasée en 146 : Carthage a vécu près de sept siècles."
+      ]
+    },
+    {
+      "type": "map",
+      "year": "Aujourd’hui",
+      "text": "Ce qu’il en reste",
+      "focus": {
+        "box": [
+          -3.5,
+          34.5,
+          13.5,
+          40.5
+        ]
+      },
+      "beacon": [
+        {
+          "at": [
+            10.32,
+            36.85
+          ],
+          "when": {
+            "line": 0,
+            "word": "ruines",
+            "d": 0
+          }
+        },
+        {
+          "at": [
+            -0.98,
+            37.6
+          ],
+          "when": {
+            "line": 1,
+            "word": "Carthagène",
+            "d": -0.2
+          }
+        }
+      ],
+      "pills": [
+        {
+          "at": [
+            10.32,
+            36.85
+          ],
+          "title": "Carthage",
+          "sub": "patrimoine mondial depuis 1979",
+          "side": "b",
+          "when": {
+            "line": 0,
+            "word": "Tunis",
+            "d": 0
+          }
+        },
+        {
+          "at": [
+            -0.98,
+            37.6
+          ],
+          "title": "Carthagène",
+          "sub": "Carthago Nova en latin",
+          "side": "t",
+          "when": {
+            "line": 1,
+            "word": "Carthagène",
+            "d": 0.1
+          }
+        }
+      ],
+      "labels": [
+        {
+          "text": "Tunisie",
+          "at": [
+            9.3,
+            34.2
+          ],
+          "size": 38,
+          "when": {
+            "line": 0,
+            "word": "Tunis",
+            "d": 0.3
+          }
+        },
+        {
+          "text": "Espagne",
+          "at": [
+            -3.2,
+            39.6
+          ],
+          "size": 38,
+          "when": {
+            "line": 1,
+            "word": "Espagne",
+            "d": 0
+          }
+        },
+        {
+          "text": "Algérie",
+          "at": [
+            3.5,
+            35.2
+          ],
+          "size": 36,
+          "when": {
+            "line": 1,
+            "word": "Espagne",
+            "d": 0.3
+          }
+        }
+      ],
+      "say": [
+        "Aujourd’hui, ses ruines se visitent près de Tunis, la capitale de la Tunisie.",
+        "En Espagne, Carthagène porte encore son nom : la « nouvelle Carthage »."
+      ]
+    },
+    {
+      "type": "final",
+      "text": "Comment Carthage a-t-elle failli battre Rome ?",
+      "sub": "Hannibal, les éléphants et les Alpes",
+      "note": "Contour approximatif, frontières d’aujourd’hui",
+      "focus": {
+        "box": [
+          -7,
+          29.5,
+          20.5,
+          42.5
+        ]
+      },
+      "line": {
+        "points": [
+          [
+            -6.7,
+            36.1
+          ],
+          [
+            -6.4,
+            37.5
+          ],
+          [
+            -4.5,
+            37.3
+          ],
+          [
+            -2.5,
+            37.5
+          ],
+          [
+            -0.6,
+            38.1
+          ],
+          [
+            1,
+            39.3
+          ],
+          [
+            1.9,
+            39.3
+          ],
+          [
+            7.8,
+            41.3
+          ],
+          [
+            9.6,
+            41.4
+          ],
+          [
+            10.2,
+            40.4
+          ],
+          [
+            10.1,
+            38.9
+          ],
+          [
+            12.1,
+            38.4
+          ],
+          [
+            13.9,
+            38.3
+          ],
+          [
+            13.9,
+            37.2
+          ],
+          [
+            11.6,
+            35.6
+          ],
+          [
+            11.6,
+            33.4
+          ],
+          [
+            15.5,
+            32.7
+          ],
+          [
+            19.4,
+            30.7
+          ],
+          [
+            19,
+            29.9
+          ],
+          [
+            16,
+            30.9
+          ],
+          [
+            13,
+            31.9
+          ],
+          [
+            10.5,
+            32.9
+          ],
+          [
+            8.3,
+            34.9
+          ],
+          [
+            5,
+            36.1
+          ],
+          [
+            2,
+            36.1
+          ],
+          [
+            -0.8,
+            35.3
+          ],
+          [
+            -3,
+            34.8
+          ],
+          [
+            -6.5,
+            34.8
+          ],
+          [
+            -6.7,
+            36.1
+          ]
+        ],
+        "color": "#A77BE0",
+        "width": 9,
+        "at": {
+          "line": 0,
+          "word": "Voilà",
+          "d": 0
+        },
+        "draw": 2.2
+      },
+      "beacon": [
+        {
+          "at": [
+            10.32,
+            36.85
+          ],
+          "when": 0.2
+        }
+      ],
+      "moves": [
+        {
+          "from": [
+            -0.98,
+            37.6
+          ],
+          "to": [
+            7.7,
+            45.1
+          ],
+          "n": 3,
+          "color": "#D9487A",
+          "at": {
+            "line": 0,
+            "word": "éléphants",
+            "d": -0.4
+          },
+          "dur": 1.6
+        }
+      ],
+      "say": [
+        "Voilà comment Carthage a failli battre Rome : avec Hannibal, ses éléphants et les Alpes."
+      ]
+    }
+  ]
+}

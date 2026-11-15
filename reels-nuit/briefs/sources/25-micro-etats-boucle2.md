@@ -1,0 +1,7 @@
+- Langues : art à 5 pays (Saint-Marin italien, Vatican italien + latin), notes retirées, dur 5,5.
+- Final : 5 pills de noms calées sur « noms » ; savant déplacé en France ; wave 0,8.
+- Pourquoi : vraie réponse (traité ou tradition ; voisins qui n'absorbent pas), dur frise 4,0, flèches 2,0.
+- Monaco : « déguisé en moine franciscain, s'empare du Rocher » ; traité 1861 « reconnaît » ; box serrée, highlight keep.
+- Vatican : focus [12.2,41.75,12.7,42.05], « enclavé dans Rome », pill/Rome/soldat calés sur les mots (highlight Vatican impossible : absent de Natural Earth).
+- Personnages décalés (Andorre, Liechtenstein, Saint-Marin) ; sub < 32 px retirés ; labels années du Liechtenstein regroupés à l'ouest.
+- Hook : pills Saint-Marin t / Vatican b. Phrases raccourcies (Andorre, hook, Saint-Marin, Liechtenstein). Faits : connaissances de l'audit, pas de nouvelle recherche web.

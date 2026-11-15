@@ -1,0 +1,2493 @@
+{
+ "format": "atlas",
+ "id": "traites-22-vienne",
+ "base": {
+  "countries": [
+   "Austria",
+   "United Kingdom",
+   "France",
+   "Germany",
+   "Poland",
+   "Netherlands",
+   "Belgium",
+   "Switzerland",
+   "Italy",
+   "Luxembourg",
+   "Czechia",
+   "Slovakia",
+   "Hungary",
+   "Slovenia",
+   "Croatia",
+   "Ukraine",
+   "Belarus",
+   "Lithuania"
+  ]
+ },
+ "open": {
+  "box": [
+   -6,
+   38,
+   28,
+   60
+  ]
+ },
+ "terrain": [
+  {
+   "box": [
+    -14,
+    27,
+    40,
+    76
+   ],
+   "px": 3000,
+   "z": 6
+  },
+  {
+   "box": [
+    -6.4,
+    37.4,
+    28.4,
+    60.4
+   ],
+   "px": 2800,
+   "z": 8
+  }
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "year": "1815",
+   "text": "Qui s’est partagé l’Europe ?",
+   "sub": "Acte final de Vienne",
+   "focus": {
+    "box": [
+     -6,
+     38,
+     28,
+     60
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Belgium",
+      "Luxembourg"
+     ],
+     "regions": [
+      {
+       "c": "Germany",
+       "n": "Nordrhein-Westfalen"
+      },
+      {
+       "c": "Poland",
+       "n": "Masovian"
+      },
+      {
+       "c": "Poland",
+       "n": "Łódź"
+      },
+      {
+       "c": "Poland",
+       "n": "Lublin"
+      },
+      {
+       "c": "Poland",
+       "n": "Świętokrzyskie"
+      },
+      {
+       "c": "Poland",
+       "n": "Podlachian"
+      },
+      {
+       "c": "Poland",
+       "n": "Greater Poland"
+      },
+      {
+       "c": "Poland",
+       "n": "Kuyavian-Pomeranian"
+      },
+      {
+       "c": "Italy",
+       "n": "Como"
+      },
+      {
+       "c": "Italy",
+       "n": "Varese"
+      },
+      {
+       "c": "Italy",
+       "n": "Sondrio"
+      },
+      {
+       "c": "Italy",
+       "n": "Milano"
+      },
+      {
+       "c": "Italy",
+       "n": "Monza e Brianza"
+      },
+      {
+       "c": "Italy",
+       "n": "Lecco"
+      },
+      {
+       "c": "Italy",
+       "n": "Lodi"
+      },
+      {
+       "c": "Italy",
+       "n": "Pavia"
+      },
+      {
+       "c": "Italy",
+       "n": "Bergamo"
+      },
+      {
+       "c": "Italy",
+       "n": "Brescia"
+      },
+      {
+       "c": "Italy",
+       "n": "Cremona"
+      },
+      {
+       "c": "Italy",
+       "n": "Mantova"
+      },
+      {
+       "c": "Italy",
+       "n": "Belluno"
+      },
+      {
+       "c": "Italy",
+       "n": "Udine"
+      },
+      {
+       "c": "Italy",
+       "n": "Pordenone"
+      },
+      {
+       "c": "Italy",
+       "n": "Venezia"
+      },
+      {
+       "c": "Italy",
+       "n": "Padova"
+      },
+      {
+       "c": "Italy",
+       "n": "Rovigo"
+      },
+      {
+       "c": "Italy",
+       "n": "Vicenza"
+      },
+      {
+       "c": "Italy",
+       "n": "Verona"
+      },
+      {
+       "c": "Italy",
+       "n": "Treviso"
+      }
+     ],
+     "color": "#FF2E88",
+     "at": 0,
+     "keep": false
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      16.37,
+      48.21
+     ],
+     "when": 0
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      16.37,
+      48.21
+     ],
+     "title": "Vienne",
+     "side": "b",
+     "when": {
+      "line": 1,
+      "word": "Vienne"
+     }
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      -0.12,
+      51.5
+     ],
+     "to": [
+      15.6,
+      48.6
+     ],
+     "n": 2,
+     "color": "#3FB8A8",
+     "at": {
+      "line": 1,
+      "d": 0.2
+     },
+     "dur": 2.2
+    },
+    {
+     "from": [
+      13.4,
+      52.52
+     ],
+     "to": [
+      16,
+      48.9
+     ],
+     "n": 2,
+     "color": "#C77DFF",
+     "at": {
+      "line": 1,
+      "d": 0.2
+     },
+     "dur": 2.2
+    },
+    {
+     "from": [
+      27,
+      54.5
+     ],
+     "to": [
+      17,
+      48.7
+     ],
+     "n": 2,
+     "color": "#8E2A2A",
+     "at": {
+      "line": 1,
+      "d": 0.2
+     },
+     "dur": 2.2
+    },
+    {
+     "from": [
+      2.35,
+      48.86
+     ],
+     "to": [
+      15.4,
+      48
+     ],
+     "n": 1,
+     "color": "#3D6FD1",
+     "at": {
+      "line": 1,
+      "word": "France",
+      "d": -0.2
+     },
+     "dur": 2.2
+    }
+   ],
+   "labels": [
+    {
+     "text": "Royaume-Uni",
+     "at": [
+      -2.6,
+      53.4
+     ],
+     "size": 38,
+     "when": {
+      "line": 1,
+      "d": 0.4
+     }
+    },
+    {
+     "text": "Prusse",
+     "at": [
+      13.5,
+      52.9
+     ],
+     "size": 38,
+     "when": {
+      "line": 1,
+      "d": 0.7
+     }
+    },
+    {
+     "text": "Russie",
+     "at": [
+      25.8,
+      55.6
+     ],
+     "size": 40,
+     "when": {
+      "line": 1,
+      "d": 1
+     }
+    },
+    {
+     "text": "France",
+     "at": [
+      2.4,
+      46.6
+     ],
+     "size": 38,
+     "when": {
+      "line": 1,
+      "word": "France"
+     }
+    }
+   ],
+   "say": [
+    "Qui s’est partagé l’Europe après la chute de Napoléon ?",
+    "Quatre vainqueurs se réunissent à Vienne, et la France vaincue s’invite à la table."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1814 · 1815",
+   "text": "Les vainqueurs à Vienne",
+   "focus": {
+    "box": [
+     -2,
+     43,
+     26,
+     57
+    ]
+   },
+   "art": [
+    {
+     "kind": "timeline",
+     "at": {
+      "line": 0,
+      "d": 0.3
+     },
+     "dur": 3.6,
+     "spread": true,
+     "title": "Neuf mois de congrès",
+     "items": [
+      {
+       "year": "Avr. 1814",
+       "text": "Napoléon abdique"
+      },
+      {
+       "year": "Sept. 1814",
+       "text": "Le congrès débute"
+      },
+      {
+       "year": "Mars 1815",
+       "text": "Napoléon revient",
+       "color": "#3D6FD1"
+      },
+      {
+       "year": "Juin 1815",
+       "text": "Acte final signé",
+       "color": "#FF2E88"
+      }
+     ]
+    }
+   ],
+   "highlight": [
+    {
+     "countries": [
+      "Austria",
+      "Czechia",
+      "Slovakia",
+      "Hungary",
+      "Slovenia",
+      "Croatia"
+     ],
+     "regions": [
+      {
+       "c": "Poland",
+       "n": "Subcarpathian"
+      },
+      {
+       "c": "Ukraine",
+       "n": "L'viv"
+      },
+      {
+       "c": "Ukraine",
+       "n": "Ternopil'"
+      },
+      {
+       "c": "Ukraine",
+       "n": "Ivano-Frankivs'k"
+      }
+     ],
+     "color": "#E8A33C",
+     "at": {
+      "line": 1,
+      "word": "Autrichien",
+      "d": -0.2
+     }
+    },
+    {
+     "regions": [
+      {
+       "c": "Germany",
+       "n": "Brandenburg"
+      },
+      {
+       "c": "Germany",
+       "n": "Berlin"
+      },
+      {
+       "c": "Germany",
+       "n": "Sachsen-Anhalt"
+      },
+      {
+       "c": "Poland",
+       "n": "Lower Silesian"
+      },
+      {
+       "c": "Poland",
+       "n": "Opole"
+      },
+      {
+       "c": "Poland",
+       "n": "West Pomeranian"
+      },
+      {
+       "c": "Poland",
+       "n": "Pomeranian"
+      },
+      {
+       "c": "Poland",
+       "n": "Warmian-Masurian"
+      },
+      {
+       "c": "Poland",
+       "n": "Lubusz"
+      }
+     ],
+     "color": "#C77DFF",
+     "at": {
+      "line": 1,
+      "word": "équilibre",
+      "d": -0.2
+     }
+    }
+   ],
+   "people": [
+    {
+     "who": "savant",
+     "at": [
+      14.2,
+      47.4
+     ],
+     "size": 220,
+     "when": {
+      "line": 1,
+      "word": "Metternich",
+      "d": -0.2
+     },
+     "label": {
+      "title": "Metternich"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      16.37,
+      48.21
+     ],
+     "when": {
+      "line": 1,
+      "d": 0
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Autriche",
+     "at": [
+      18.6,
+      47.2
+     ],
+     "size": 38,
+     "when": {
+      "line": 1,
+      "word": "Autrichien",
+      "d": 0.3
+     }
+    },
+    {
+     "text": "Prusse",
+     "at": [
+      14.4,
+      52.6
+     ],
+     "size": 38,
+     "when": {
+      "line": 1,
+      "word": "équilibre",
+      "d": 0.1
+     }
+    },
+    {
+     "text": "Russie",
+     "at": [
+      24.5,
+      55.2
+     ],
+     "size": 38,
+     "when": {
+      "line": 1,
+      "word": "équilibre",
+      "d": 0.4
+     }
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      26,
+      54
+     ],
+     "to": [
+      22,
+      52.8
+     ],
+     "n": 3,
+     "color": "#8E2A2A",
+     "at": {
+      "line": 1,
+      "word": "équilibre"
+     },
+     "dur": 2
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      19.5,
+      50.2
+     ],
+     "title": "Frontières approximatives",
+     "side": "b",
+     "when": {
+      "line": 1,
+      "d": 1.6
+     }
+    }
+   ],
+   "say": [
+    "Napoléon a abdiqué au printemps, et le congrès s’ouvre à l’automne.",
+    "L’Autrichien Metternich veut un équilibre : aucune puissance ne doit dominer."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1814",
+   "text": "La France ramenée en arrière",
+   "focus": {
+    "box": [
+     -4.8,
+     42,
+     10,
+     52.5
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "France"
+     ],
+     "color": "#3D6FD1",
+     "at": 0.3
+    },
+    {
+     "countries": [
+      "Belgium",
+      "Luxembourg"
+     ],
+     "regions": [
+      {
+       "c": "Germany",
+       "n": "Rheinland-Pfalz"
+      },
+      {
+       "c": "Germany",
+       "n": "Saarland"
+      }
+     ],
+     "color": "#3D6FD1",
+     "at": 0.3,
+     "keep": false
+    },
+    {
+     "countries": [
+      "Belgium",
+      "Luxembourg"
+     ],
+     "regions": [
+      {
+       "c": "Germany",
+       "n": "Rheinland-Pfalz"
+      },
+      {
+       "c": "Germany",
+       "n": "Saarland"
+      }
+     ],
+     "color": "#B0B7C6",
+     "at": {
+      "line": 1,
+      "word": "échappent",
+      "d": -0.3
+     },
+     "keep": false
+    }
+   ],
+   "people": [
+    {
+     "who": "savant",
+     "at": [
+      1.2,
+      47.6
+     ],
+     "size": 220,
+     "when": {
+      "line": 1,
+      "word": "Talleyrand",
+      "d": -0.2
+     },
+     "label": {
+      "title": "Talleyrand"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      2.35,
+      48.86
+     ],
+     "when": 0.4
+    }
+   ],
+   "labels": [
+    {
+     "text": "France",
+     "at": [
+      2.6,
+      46.2
+     ],
+     "size": 38,
+     "when": 1.1
+    },
+    {
+     "text": "Espagne",
+     "at": [
+      -3.2,
+      42.6
+     ],
+     "size": 34,
+     "when": 1.4
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      4.5,
+      50.7
+     ],
+     "title": "Belgique",
+     "side": "l",
+     "when": {
+      "line": 1,
+      "word": "Belgique",
+      "d": 0.2
+     }
+    },
+    {
+     "at": [
+      7.4,
+      49.9
+     ],
+     "title": "Rive gauche du Rhin",
+     "side": "r",
+     "when": {
+      "line": 1,
+      "word": "Rhin",
+      "d": 0.2
+     }
+    }
+   ],
+   "say": [
+    "La France vaincue revient à peu près à ses frontières d’avant les conquêtes.",
+    "Talleyrand la défend, mais la Belgique et la rive gauche du Rhin lui échappent."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1814 · 1815",
+   "text": "Pologne et Saxe : la crise",
+   "focus": {
+    "box": [
+     8,
+     47.5,
+     27,
+     56
+    ]
+   },
+   "highlight": [
+    {
+     "regions": [
+      {
+       "c": "Poland",
+       "n": "Masovian"
+      },
+      {
+       "c": "Poland",
+       "n": "Łódź"
+      },
+      {
+       "c": "Poland",
+       "n": "Lublin"
+      },
+      {
+       "c": "Poland",
+       "n": "Świętokrzyskie"
+      },
+      {
+       "c": "Poland",
+       "n": "Podlachian"
+      },
+      {
+       "c": "Poland",
+       "n": "Greater Poland"
+      },
+      {
+       "c": "Poland",
+       "n": "Kuyavian-Pomeranian"
+      },
+      {
+       "c": "Germany",
+       "n": "Sachsen"
+      }
+     ],
+     "color": "#B0B7C6",
+     "at": {
+      "line": 0,
+      "d": 0.2
+     },
+     "keep": false
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      27,
+      54.6
+     ],
+     "to": [
+      21.3,
+      52.4
+     ],
+     "n": 3,
+     "color": "#8E2A2A",
+     "at": {
+      "line": 0,
+      "word": "tsar",
+      "d": -0.2
+     },
+     "dur": 2
+    },
+    {
+     "from": [
+      13.4,
+      52.3
+     ],
+     "to": [
+      13.5,
+      51.2
+     ],
+     "n": 2,
+     "color": "#C77DFF",
+     "at": {
+      "line": 0,
+      "word": "Saxe",
+      "d": -0.4
+     },
+     "dur": 1.6
+    },
+    {
+     "from": [
+      15.6,
+      48.6
+     ],
+     "to": [
+      19.2,
+      51.4
+     ],
+     "n": 0,
+     "color": "#E8A33C",
+     "at": {
+      "line": 1,
+      "word": "secret",
+      "d": -0.6
+     },
+     "dur": 1.6
+    }
+   ],
+   "people": [
+    {
+     "who": "roi",
+     "at": [
+      23.6,
+      53.8
+     ],
+     "size": 220,
+     "when": {
+      "line": 0,
+      "word": "tsar",
+      "d": 0.2
+     },
+     "label": {
+      "title": "Alexandre 1er"
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      19.6,
+      52
+     ],
+     "title": "Pologne",
+     "sub": "duché de Varsovie",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "Pologne",
+      "d": 0.2
+     }
+    },
+    {
+     "at": [
+      13,
+      50.9
+     ],
+     "title": "Saxe",
+     "side": "l",
+     "when": {
+      "line": 0,
+      "word": "Saxe",
+      "d": 0.2
+     }
+    },
+    {
+     "at": [
+      16.37,
+      48.21
+     ],
+     "title": "Alliance secrète",
+     "sub": "3 janvier 1815",
+     "side": "b",
+     "when": {
+      "line": 1,
+      "word": "secret"
+     }
+    }
+   ],
+   "say": [
+    "Le tsar veut toute la Pologne, et la Prusse réclame toute la Saxe.",
+    "L’Autriche, le Royaume-Uni et la France s’allient en secret contre eux."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "9 juin 1815",
+   "text": "L’Acte final est signé",
+   "focus": {
+    "box": [
+     -1,
+     43,
+     25,
+     56
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Belgium",
+      "Luxembourg"
+     ],
+     "regions": [
+      {
+       "c": "Germany",
+       "n": "Nordrhein-Westfalen"
+      },
+      {
+       "c": "Poland",
+       "n": "Masovian"
+      },
+      {
+       "c": "Poland",
+       "n": "Łódź"
+      },
+      {
+       "c": "Poland",
+       "n": "Lublin"
+      },
+      {
+       "c": "Poland",
+       "n": "Świętokrzyskie"
+      },
+      {
+       "c": "Poland",
+       "n": "Podlachian"
+      },
+      {
+       "c": "Poland",
+       "n": "Greater Poland"
+      },
+      {
+       "c": "Poland",
+       "n": "Kuyavian-Pomeranian"
+      },
+      {
+       "c": "Italy",
+       "n": "Como"
+      },
+      {
+       "c": "Italy",
+       "n": "Varese"
+      },
+      {
+       "c": "Italy",
+       "n": "Sondrio"
+      },
+      {
+       "c": "Italy",
+       "n": "Milano"
+      },
+      {
+       "c": "Italy",
+       "n": "Monza e Brianza"
+      },
+      {
+       "c": "Italy",
+       "n": "Lecco"
+      },
+      {
+       "c": "Italy",
+       "n": "Lodi"
+      },
+      {
+       "c": "Italy",
+       "n": "Pavia"
+      },
+      {
+       "c": "Italy",
+       "n": "Bergamo"
+      },
+      {
+       "c": "Italy",
+       "n": "Brescia"
+      },
+      {
+       "c": "Italy",
+       "n": "Cremona"
+      },
+      {
+       "c": "Italy",
+       "n": "Mantova"
+      },
+      {
+       "c": "Italy",
+       "n": "Belluno"
+      },
+      {
+       "c": "Italy",
+       "n": "Udine"
+      },
+      {
+       "c": "Italy",
+       "n": "Pordenone"
+      },
+      {
+       "c": "Italy",
+       "n": "Venezia"
+      },
+      {
+       "c": "Italy",
+       "n": "Padova"
+      },
+      {
+       "c": "Italy",
+       "n": "Rovigo"
+      },
+      {
+       "c": "Italy",
+       "n": "Vicenza"
+      },
+      {
+       "c": "Italy",
+       "n": "Verona"
+      },
+      {
+       "c": "Italy",
+       "n": "Treviso"
+      }
+     ],
+     "color": "#FF2E88",
+     "at": 0,
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "Poland",
+       "n": "Masovian"
+      },
+      {
+       "c": "Poland",
+       "n": "Łódź"
+      },
+      {
+       "c": "Poland",
+       "n": "Lublin"
+      },
+      {
+       "c": "Poland",
+       "n": "Świętokrzyskie"
+      },
+      {
+       "c": "Poland",
+       "n": "Podlachian"
+      }
+     ],
+     "color": "#8E2A2A",
+     "at": {
+      "line": 1,
+      "word": "Russie"
+     }
+    },
+    {
+     "regions": [
+      {
+       "c": "Poland",
+       "n": "Greater Poland"
+      },
+      {
+       "c": "Poland",
+       "n": "Kuyavian-Pomeranian"
+      },
+      {
+       "c": "Germany",
+       "n": "Nordrhein-Westfalen"
+      }
+     ],
+     "color": "#C77DFF",
+     "at": {
+      "line": 1,
+      "word": "Prusse"
+     }
+    },
+    {
+     "countries": [
+      "Belgium",
+      "Luxembourg",
+      "Netherlands"
+     ],
+     "color": "#FF7A3C",
+     "at": {
+      "line": 1,
+      "word": "Rhénanie",
+      "d": 0.3
+     }
+    },
+    {
+     "regions": [
+      {
+       "c": "Italy",
+       "n": "Como"
+      },
+      {
+       "c": "Italy",
+       "n": "Varese"
+      },
+      {
+       "c": "Italy",
+       "n": "Sondrio"
+      },
+      {
+       "c": "Italy",
+       "n": "Milano"
+      },
+      {
+       "c": "Italy",
+       "n": "Monza e Brianza"
+      },
+      {
+       "c": "Italy",
+       "n": "Lecco"
+      },
+      {
+       "c": "Italy",
+       "n": "Lodi"
+      },
+      {
+       "c": "Italy",
+       "n": "Pavia"
+      },
+      {
+       "c": "Italy",
+       "n": "Bergamo"
+      },
+      {
+       "c": "Italy",
+       "n": "Brescia"
+      },
+      {
+       "c": "Italy",
+       "n": "Cremona"
+      },
+      {
+       "c": "Italy",
+       "n": "Mantova"
+      },
+      {
+       "c": "Italy",
+       "n": "Belluno"
+      },
+      {
+       "c": "Italy",
+       "n": "Udine"
+      },
+      {
+       "c": "Italy",
+       "n": "Pordenone"
+      },
+      {
+       "c": "Italy",
+       "n": "Venezia"
+      },
+      {
+       "c": "Italy",
+       "n": "Padova"
+      },
+      {
+       "c": "Italy",
+       "n": "Rovigo"
+      },
+      {
+       "c": "Italy",
+       "n": "Vicenza"
+      },
+      {
+       "c": "Italy",
+       "n": "Verona"
+      },
+      {
+       "c": "Italy",
+       "n": "Treviso"
+      }
+     ],
+     "color": "#E8A33C",
+     "at": {
+      "line": 1,
+      "word": "Rhénanie",
+      "d": 0.6
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      16.37,
+      48.21
+     ],
+     "when": 0
+    }
+   ],
+   "art": [
+    {
+     "kind": "treaty",
+     "at": {
+      "line": 0,
+      "word": "signent",
+      "d": -0.3
+     },
+     "dur": 3.6,
+     "title": "Acte final du congrès de Vienne",
+     "sub": "9 juin 1815, au nom de :",
+     "signers": [
+      "Autriche",
+      "Royaume-Uni",
+      "Prusse",
+      "Russie"
+     ],
+     "year": "1815"
+    },
+    {
+     "kind": "split",
+     "at": {
+      "line": 1,
+      "d": -0.2
+     },
+     "dur": 4,
+     "title": "Qui prend quoi",
+     "sub": "frontières approximatives",
+     "before": "Avant 1815",
+     "after": "Après 1815",
+     "legend": [
+      {
+       "color": "#FF2E88",
+       "text": "cédé"
+      },
+      {
+       "color": "#C77DFF",
+       "text": "Prusse"
+      },
+      {
+       "color": "#8E2A2A",
+       "text": "Russie"
+      },
+      {
+       "color": "#FF7A3C",
+       "text": "Pays-Bas"
+      }
+     ],
+     "parts": [
+      {
+       "region": {
+        "c": "Poland",
+        "n": "Masovian"
+       },
+       "color": "#FF2E88",
+       "to": "#8E2A2A"
+      },
+      {
+       "region": {
+        "c": "Poland",
+        "n": "Łódź"
+       },
+       "color": "#FF2E88",
+       "to": "#8E2A2A"
+      },
+      {
+       "region": {
+        "c": "Poland",
+        "n": "Lublin"
+       },
+       "color": "#FF2E88",
+       "to": "#8E2A2A"
+      },
+      {
+       "region": {
+        "c": "Poland",
+        "n": "Świętokrzyskie"
+       },
+       "color": "#FF2E88",
+       "to": "#8E2A2A"
+      },
+      {
+       "region": {
+        "c": "Poland",
+        "n": "Podlachian"
+       },
+       "color": "#FF2E88",
+       "to": "#8E2A2A"
+      },
+      {
+       "region": {
+        "c": "Poland",
+        "n": "Greater Poland"
+       },
+       "color": "#FF2E88",
+       "to": "#C77DFF"
+      },
+      {
+       "region": {
+        "c": "Poland",
+        "n": "Kuyavian-Pomeranian"
+       },
+       "color": "#FF2E88",
+       "to": "#C77DFF"
+      },
+      {
+       "region": {
+        "c": "Germany",
+        "n": "Nordrhein-Westfalen"
+       },
+       "color": "#FF2E88",
+       "to": "#C77DFF"
+      },
+      {
+       "country": "Belgium",
+       "color": "#FF2E88",
+       "to": "#FF7A3C"
+      },
+      {
+       "country": "Luxembourg",
+       "color": "#FF2E88",
+       "to": "#FF7A3C"
+      },
+      {
+       "country": "Netherlands",
+       "color": "#FF7A3C"
+      },
+      {
+       "region": {
+        "c": "Germany",
+        "n": "Brandenburg"
+       },
+       "color": "#C77DFF"
+      },
+      {
+       "region": {
+        "c": "Germany",
+        "n": "Berlin"
+       },
+       "color": "#C77DFF"
+      },
+      {
+       "region": {
+        "c": "Germany",
+        "n": "Sachsen-Anhalt"
+       },
+       "color": "#C77DFF"
+      },
+      {
+       "region": {
+        "c": "Poland",
+        "n": "Lower Silesian"
+       },
+       "color": "#C77DFF"
+      },
+      {
+       "region": {
+        "c": "Poland",
+        "n": "Opole"
+       },
+       "color": "#C77DFF"
+      },
+      {
+       "region": {
+        "c": "Poland",
+        "n": "West Pomeranian"
+       },
+       "color": "#C77DFF"
+      },
+      {
+       "region": {
+        "c": "Poland",
+        "n": "Pomeranian"
+       },
+       "color": "#C77DFF"
+      },
+      {
+       "region": {
+        "c": "Poland",
+        "n": "Warmian-Masurian"
+       },
+       "color": "#C77DFF"
+      },
+      {
+       "region": {
+        "c": "Poland",
+        "n": "Lubusz"
+       },
+       "color": "#C77DFF"
+      }
+     ]
+    }
+   ],
+   "say": [
+    "Le 9 juin 1815, neuf jours avant Waterloo, les puissances signent l’Acte final.",
+    "La Russie gagne le centre de la Pologne, et la Prusse gagne la Rhénanie."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1815",
+   "text": "Un royaume uni des Pays-Bas",
+   "focus": {
+    "box": [
+     1.5,
+     49.4,
+     9.5,
+     54
+    ]
+   },
+   "people": [
+    {
+     "who": "roi",
+     "at": [
+      5.6,
+      52.9
+     ],
+     "size": 230,
+     "when": {
+      "line": 0,
+      "word": "Guillaume",
+      "d": -0.2
+     },
+     "label": {
+      "title": "Guillaume 1er"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      4.35,
+      50.85
+     ],
+     "when": {
+      "line": 0,
+      "word": "Belgique"
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      4.35,
+      50.85
+     ],
+     "title": "Bruxelles",
+     "side": "l",
+     "when": {
+      "line": 0,
+      "word": "Belgique",
+      "d": 0.3
+     }
+    },
+    {
+     "at": [
+      4.9,
+      52.37
+     ],
+     "title": "Amsterdam",
+     "side": "l",
+     "when": {
+      "line": 0,
+      "word": "Pays-Bas",
+      "d": 0.2
+     }
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      4.9,
+      52.1
+     ],
+     "to": [
+      4.4,
+      51
+     ],
+     "n": 2,
+     "color": "#FF7A3C",
+     "at": {
+      "line": 0,
+      "word": "Belgique",
+      "d": -0.2
+     },
+     "dur": 1.8
+    }
+   ],
+   "labels": [
+    {
+     "text": "France",
+     "at": [
+      2.6,
+      49.7
+     ],
+     "size": 38,
+     "when": 1.4
+    },
+    {
+     "text": "Prusse",
+     "at": [
+      7.8,
+      51.3
+     ],
+     "size": 38,
+     "when": 1.2
+    }
+   ],
+   "say": [
+    "Au nord, Guillaume 1er réunit la Belgique et les Pays-Bas sous une seule couronne."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1815",
+   "text": "La Prusse sur le Rhin",
+   "focus": {
+    "box": [
+     4.5,
+     46.5,
+     20,
+     55.5
+    ]
+   },
+   "highlight": [
+    {
+     "regions": [
+      {
+       "c": "Germany",
+       "n": "Bayern"
+      },
+      {
+       "c": "Germany",
+       "n": "Baden-Württemberg"
+      },
+      {
+       "c": "Germany",
+       "n": "Hessen"
+      },
+      {
+       "c": "Germany",
+       "n": "Thüringen"
+      },
+      {
+       "c": "Germany",
+       "n": "Sachsen"
+      },
+      {
+       "c": "Germany",
+       "n": "Niedersachsen"
+      },
+      {
+       "c": "Germany",
+       "n": "Schleswig-Holstein"
+      },
+      {
+       "c": "Germany",
+       "n": "Mecklenburg-Vorpommern"
+      },
+      {
+       "c": "Germany",
+       "n": "Hamburg"
+      },
+      {
+       "c": "Germany",
+       "n": "Bremen"
+      },
+      {
+       "c": "Germany",
+       "n": "Rheinland-Pfalz"
+      },
+      {
+       "c": "Germany",
+       "n": "Saarland"
+      }
+     ],
+     "color": "#9FB4D6",
+     "at": {
+      "line": 1,
+      "d": 0.1
+     },
+     "keep": false
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      13.4,
+      52.52
+     ],
+     "to": [
+      7.2,
+      51.2
+     ],
+     "n": 3,
+     "color": "#C77DFF",
+     "at": {
+      "line": 0,
+      "word": "Rhin",
+      "d": -0.6
+     },
+     "dur": 2
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      13.4,
+      52.52
+     ],
+     "title": "Berlin",
+     "side": "t",
+     "when": 1.2
+    },
+    {
+     "at": [
+      6.96,
+      50.94
+     ],
+     "title": "Cologne",
+     "side": "l",
+     "when": {
+      "line": 0,
+      "word": "Rhin",
+      "d": 0.6
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Rhénanie",
+     "at": [
+      7.6,
+      51.8
+     ],
+     "size": 36,
+     "when": {
+      "line": 0,
+      "word": "France"
+     }
+    },
+    {
+     "text": "Confédération germanique",
+     "at": [
+      10.3,
+      49.3
+     ],
+     "size": 32,
+     "when": {
+      "line": 1,
+      "d": 3.4
+     }
+    }
+   ],
+   "art": [
+    {
+     "kind": "bars",
+     "at": {
+      "line": 1,
+      "d": 0.2
+     },
+     "dur": 3,
+     "title": "Beaucoup moins d’États",
+     "sub": "Allemagne, environ",
+     "items": [
+      {
+       "value": "300",
+       "label": "en 1789",
+       "h": 1,
+       "color": "#C9D6EE"
+      },
+      {
+       "value": "39",
+       "label": "en 1815",
+       "h": 0.13,
+       "color": "#9FB4D6"
+      }
+     ]
+    }
+   ],
+   "say": [
+    "La Prusse s’installe sur le Rhin, face à la France.",
+    "Avec l’Autriche, elle domine une Confédération germanique de 39 États."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1815",
+   "text": "L’Italie reste morcelée",
+   "focus": {
+    "box": [
+     5.5,
+     37.8,
+     19.5,
+     48.8
+    ]
+   },
+   "highlight": [
+    {
+     "regions": [
+      {
+       "c": "Italy",
+       "n": "Aoste"
+      },
+      {
+       "c": "Italy",
+       "n": "Turin"
+      },
+      {
+       "c": "Italy",
+       "n": "Cuneo"
+      },
+      {
+       "c": "Italy",
+       "n": "Asti"
+      },
+      {
+       "c": "Italy",
+       "n": "Alessandria"
+      },
+      {
+       "c": "Italy",
+       "n": "Novara"
+      },
+      {
+       "c": "Italy",
+       "n": "Vercelli"
+      },
+      {
+       "c": "Italy",
+       "n": "Biella"
+      },
+      {
+       "c": "Italy",
+       "n": "Verbano-Cusio-Ossola"
+      },
+      {
+       "c": "Italy",
+       "n": "Sassari"
+      },
+      {
+       "c": "Italy",
+       "n": "Nuoro"
+      },
+      {
+       "c": "Italy",
+       "n": "Olbia-Tempio"
+      },
+      {
+       "c": "Italy",
+       "n": "Oristrano"
+      },
+      {
+       "c": "Italy",
+       "n": "Medio Campidano"
+      },
+      {
+       "c": "Italy",
+       "n": "Cagliari"
+      },
+      {
+       "c": "Italy",
+       "n": "Ogliastra"
+      },
+      {
+       "c": "Italy",
+       "n": "Carbonia-Iglesias"
+      },
+      {
+       "c": "France",
+       "n": "Savoie"
+      },
+      {
+       "c": "France",
+       "n": "Haute-Savoie"
+      },
+      {
+       "c": "France",
+       "n": "Alpes-Maritimes"
+      },
+      {
+       "c": "Italy",
+       "n": "Imperia"
+      },
+      {
+       "c": "Italy",
+       "n": "Savona"
+      },
+      {
+       "c": "Italy",
+       "n": "Genova"
+      },
+      {
+       "c": "Italy",
+       "n": "La Spezia"
+      }
+     ],
+     "color": "#3E9A63",
+     "at": 0.4,
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "Italy",
+       "n": "Roma"
+      },
+      {
+       "c": "Italy",
+       "n": "Viterbo"
+      },
+      {
+       "c": "Italy",
+       "n": "Latina"
+      },
+      {
+       "c": "Italy",
+       "n": "Frosinone"
+      },
+      {
+       "c": "Italy",
+       "n": "Rieti"
+      },
+      {
+       "c": "Italy",
+       "n": "Terni"
+      },
+      {
+       "c": "Italy",
+       "n": "Perugia"
+      },
+      {
+       "c": "Italy",
+       "n": "Ancona"
+      },
+      {
+       "c": "Italy",
+       "n": "Macerata"
+      },
+      {
+       "c": "Italy",
+       "n": "Fermo"
+      },
+      {
+       "c": "Italy",
+       "n": "Ascoli Piceno"
+      },
+      {
+       "c": "Italy",
+       "n": "Pesaro e Urbino"
+      },
+      {
+       "c": "Italy",
+       "n": "Rimini"
+      },
+      {
+       "c": "Italy",
+       "n": "Forlì-Cesena"
+      },
+      {
+       "c": "Italy",
+       "n": "Ravenna"
+      },
+      {
+       "c": "Italy",
+       "n": "Ferrara"
+      },
+      {
+       "c": "Italy",
+       "n": "Bologna"
+      }
+     ],
+     "color": "#8FA3BF",
+     "at": {
+      "line": 0,
+      "word": "pape",
+      "d": -0.1
+     },
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "Italy",
+       "n": "Teramo"
+      },
+      {
+       "c": "Italy",
+       "n": "Pescara"
+      },
+      {
+       "c": "Italy",
+       "n": "Chieti"
+      },
+      {
+       "c": "Italy",
+       "n": "L'Aquila"
+      },
+      {
+       "c": "Italy",
+       "n": "Campobasso"
+      },
+      {
+       "c": "Italy",
+       "n": "Isernia"
+      },
+      {
+       "c": "Italy",
+       "n": "Salerno"
+      },
+      {
+       "c": "Italy",
+       "n": "Napoli"
+      },
+      {
+       "c": "Italy",
+       "n": "Caserta"
+      },
+      {
+       "c": "Italy",
+       "n": "Benevento"
+      },
+      {
+       "c": "Italy",
+       "n": "Avellino"
+      },
+      {
+       "c": "Italy",
+       "n": "Foggia"
+      },
+      {
+       "c": "Italy",
+       "n": "Barletta-Andria Trani"
+      },
+      {
+       "c": "Italy",
+       "n": "Bari"
+      },
+      {
+       "c": "Italy",
+       "n": "Brindisi"
+      },
+      {
+       "c": "Italy",
+       "n": "Lecce"
+      },
+      {
+       "c": "Italy",
+       "n": "Taranto"
+      },
+      {
+       "c": "Italy",
+       "n": "Matera"
+      },
+      {
+       "c": "Italy",
+       "n": "Potenza"
+      },
+      {
+       "c": "Italy",
+       "n": "Cosenza"
+      },
+      {
+       "c": "Italy",
+       "n": "Crotene"
+      },
+      {
+       "c": "Italy",
+       "n": "Catanzaro"
+      },
+      {
+       "c": "Italy",
+       "n": "Reggio Calabria"
+      },
+      {
+       "c": "Italy",
+       "n": "Vibo Valentia"
+      },
+      {
+       "c": "Italy",
+       "n": "Trapani"
+      },
+      {
+       "c": "Italy",
+       "n": "Messina"
+      },
+      {
+       "c": "Italy",
+       "n": "Palermo"
+      },
+      {
+       "c": "Italy",
+       "n": "Agrigento"
+      },
+      {
+       "c": "Italy",
+       "n": "Caltanissetta"
+      },
+      {
+       "c": "Italy",
+       "n": "Ragusa"
+      },
+      {
+       "c": "Italy",
+       "n": "Siracusa"
+      },
+      {
+       "c": "Italy",
+       "n": "Catania"
+      },
+      {
+       "c": "Italy",
+       "n": "Enna"
+      }
+     ],
+     "color": "#3FB8A8",
+     "at": {
+      "line": 0,
+      "word": "Naples",
+      "d": -0.2
+     },
+     "keep": false
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      12.33,
+      45.44
+     ],
+     "when": {
+      "line": 0,
+      "word": "Venise"
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      9.19,
+      45.46
+     ],
+     "title": "Milan",
+     "side": "l",
+     "when": {
+      "line": 0,
+      "word": "Milan"
+     }
+    },
+    {
+     "at": [
+      12.33,
+      45.44
+     ],
+     "title": "Venise",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "Venise"
+     }
+    },
+    {
+     "at": [
+      12.5,
+      41.9
+     ],
+     "title": "Rome",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "pape",
+      "d": 0.3
+     }
+    },
+    {
+     "at": [
+      8.2,
+      46.8
+     ],
+     "title": "Suisse",
+     "sub": "22 cantons",
+     "side": "t",
+     "when": 1.6
+    }
+   ],
+   "labels": [
+    {
+     "text": "Naples",
+     "at": [
+      15.2,
+      40.4
+     ],
+     "size": 34,
+     "when": {
+      "line": 0,
+      "word": "Naples",
+      "d": 0.2
+     }
+    },
+    {
+     "text": "Sardaigne",
+     "at": [
+      8.2,
+      44.9
+     ],
+     "size": 32,
+     "when": 1.1
+    },
+    {
+     "text": "France",
+     "at": [
+      5.9,
+      43.9
+     ],
+     "size": 32,
+     "when": 1.3
+    }
+   ],
+   "say": [
+    "En Italie, l’Autriche tient Milan et Venise ; le pape et les Bourbons de Naples retrouvent leurs trônes."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "Aujourd’hui",
+   "text": "Un tracé du congrès toujours là",
+   "focus": {
+    "box": [
+     1,
+     47,
+     24,
+     56
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Germany",
+      "Poland",
+      "Netherlands",
+      "Belgium",
+      "Luxembourg",
+      "France",
+      "Austria",
+      "Czechia",
+      "Slovakia",
+      "Hungary",
+      "Switzerland"
+     ],
+     "color": "#E8E2D0",
+     "at": 0,
+     "keep": false
+    },
+    {
+     "countries": [
+      "Belgium",
+      "Luxembourg"
+     ],
+     "regions": [
+      {
+       "c": "Germany",
+       "n": "Nordrhein-Westfalen"
+      },
+      {
+       "c": "Poland",
+       "n": "Masovian"
+      },
+      {
+       "c": "Poland",
+       "n": "Łódź"
+      },
+      {
+       "c": "Poland",
+       "n": "Lublin"
+      },
+      {
+       "c": "Poland",
+       "n": "Świętokrzyskie"
+      },
+      {
+       "c": "Poland",
+       "n": "Podlachian"
+      },
+      {
+       "c": "Poland",
+       "n": "Greater Poland"
+      },
+      {
+       "c": "Poland",
+       "n": "Kuyavian-Pomeranian"
+      }
+     ],
+     "color": "#FF2E88",
+     "at": 0.4,
+     "keep": false
+    }
+   ],
+   "line": {
+    "points": [
+     [
+      7.05,
+      52.24
+     ],
+     [
+      6.85,
+      52.12
+     ],
+     [
+      6.7,
+      52.03
+     ],
+     [
+      6.83,
+      51.96
+     ],
+     [
+      6.4,
+      51.83
+     ],
+     [
+      6.1,
+      51.86
+     ],
+     [
+      5.95,
+      51.8
+     ],
+     [
+      6.1,
+      51.65
+     ],
+     [
+      6.22,
+      51.5
+     ],
+     [
+      6.08,
+      51.23
+     ],
+     [
+      6.17,
+      51.12
+     ],
+     [
+      5.95,
+      51.03
+     ],
+     [
+      6.08,
+      50.88
+     ],
+     [
+      6.02,
+      50.76
+     ]
+    ],
+    "color": "#FFFFFF",
+    "width": 12,
+    "draw": 2.2,
+    "at": {
+     "line": 0,
+     "word": "frontière",
+     "d": -0.3
+    }
+   },
+   "labels": [
+    {
+     "text": "Pays-Bas",
+     "at": [
+      5.4,
+      52.6
+     ],
+     "size": 34,
+     "when": 0.8
+    },
+    {
+     "text": "Allemagne",
+     "at": [
+      10.5,
+      51.2
+     ],
+     "size": 38,
+     "when": 1
+    },
+    {
+     "text": "Pologne",
+     "at": [
+      19.2,
+      51.4
+     ],
+     "size": 38,
+     "when": 1.2
+    },
+    {
+     "text": "France",
+     "at": [
+      3,
+      48.2
+     ],
+     "size": 36,
+     "when": 1.4
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      6.22,
+      51.5
+     ],
+     "title": "Frontière de 1816",
+     "sub": "toujours là",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "frontière",
+      "d": 1.2
+     }
+    }
+   ],
+   "say": [
+    "Aujourd’hui, au sud, la frontière germano-néerlandaise suit encore le tracé né du congrès.",
+    "En rose, les terres qui ont changé de main à Vienne."
+   ]
+  },
+  {
+   "type": "final",
+   "text": "Quatre vainqueurs, une carte",
+   "sub": "Acte final de Vienne",
+   "focus": {
+    "box": [
+     -6,
+     38,
+     28,
+     60
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Belgium",
+      "Luxembourg"
+     ],
+     "regions": [
+      {
+       "c": "Germany",
+       "n": "Nordrhein-Westfalen"
+      },
+      {
+       "c": "Poland",
+       "n": "Masovian"
+      },
+      {
+       "c": "Poland",
+       "n": "Łódź"
+      },
+      {
+       "c": "Poland",
+       "n": "Lublin"
+      },
+      {
+       "c": "Poland",
+       "n": "Świętokrzyskie"
+      },
+      {
+       "c": "Poland",
+       "n": "Podlachian"
+      },
+      {
+       "c": "Poland",
+       "n": "Greater Poland"
+      },
+      {
+       "c": "Poland",
+       "n": "Kuyavian-Pomeranian"
+      },
+      {
+       "c": "Italy",
+       "n": "Como"
+      },
+      {
+       "c": "Italy",
+       "n": "Varese"
+      },
+      {
+       "c": "Italy",
+       "n": "Sondrio"
+      },
+      {
+       "c": "Italy",
+       "n": "Milano"
+      },
+      {
+       "c": "Italy",
+       "n": "Monza e Brianza"
+      },
+      {
+       "c": "Italy",
+       "n": "Lecco"
+      },
+      {
+       "c": "Italy",
+       "n": "Lodi"
+      },
+      {
+       "c": "Italy",
+       "n": "Pavia"
+      },
+      {
+       "c": "Italy",
+       "n": "Bergamo"
+      },
+      {
+       "c": "Italy",
+       "n": "Brescia"
+      },
+      {
+       "c": "Italy",
+       "n": "Cremona"
+      },
+      {
+       "c": "Italy",
+       "n": "Mantova"
+      },
+      {
+       "c": "Italy",
+       "n": "Belluno"
+      },
+      {
+       "c": "Italy",
+       "n": "Udine"
+      },
+      {
+       "c": "Italy",
+       "n": "Pordenone"
+      },
+      {
+       "c": "Italy",
+       "n": "Venezia"
+      },
+      {
+       "c": "Italy",
+       "n": "Padova"
+      },
+      {
+       "c": "Italy",
+       "n": "Rovigo"
+      },
+      {
+       "c": "Italy",
+       "n": "Vicenza"
+      },
+      {
+       "c": "Italy",
+       "n": "Verona"
+      },
+      {
+       "c": "Italy",
+       "n": "Treviso"
+      }
+     ],
+     "color": "#FF2E88",
+     "at": 0,
+     "keep": false
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      16.37,
+      48.21
+     ],
+     "when": {
+      "line": 0,
+      "d": 1
+     }
+    }
+   ],
+   "say": [
+    "Voilà pourquoi l’Autriche, la Prusse, la Russie et le Royaume-Uni ont redessiné l’Europe.",
+    "Et tout part de cette question :"
+   ]
+  }
+ ]
+}

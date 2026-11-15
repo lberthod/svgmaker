@@ -1,0 +1,758 @@
+{
+ "format": "atlas",
+ "id": "atlas-italie-1861",
+ "scenes": [
+  {
+   "type": "hook",
+   "text": "Avant 1861, l’Italie n’était pas un pays : comment est-elle née ?",
+   "focus": {
+    "box": [
+     5.5,
+     36.2,
+     19,
+     47.4
+    ]
+   },
+   "highlight": {
+    "countries": [
+     "Italy"
+    ],
+    "color": "#2F9E6B",
+    "keep": false,
+    "at": {
+     "line": 0,
+     "word": "née",
+     "d": -0.3
+    }
+   },
+   "say": [
+    "Avant 1861, l’Italie n’était pas un pays : comment est-elle née ?"
+   ],
+   "people": [
+    {
+     "who": "paysan",
+     "at": "Rome",
+     "size": 240,
+     "say": "Ciao !",
+     "when": {
+      "line": 0,
+      "word": "Avant",
+      "d": 0.2
+     },
+     "wave": true,
+     "mood": "happy"
+    }
+   ],
+   "pills": [
+    {
+     "at": "Turin",
+     "title": "1861",
+     "sub": "naissance du royaume",
+     "side": "t",
+     "when": {
+      "line": 0,
+      "word": "née",
+      "d": -0.3
+     }
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "Vers 1850",
+   "text": "Une mosaïque d’États",
+   "focus": {
+    "box": [
+     5.5,
+     36.2,
+     19,
+     47.4
+    ]
+   },
+   "pills": [
+    {
+     "at": "Turin",
+     "title": "Piémont-Sardaigne",
+     "side": "t",
+     "when": {
+      "line": 0,
+      "word": "Piémont",
+      "d": 0.1
+     }
+    },
+    {
+     "at": "Milan",
+     "title": "Lombardie",
+     "sub": "autrichienne",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "Lombardie",
+      "d": 0.1
+     }
+    },
+    {
+     "at": "Rome",
+     "title": "États du pape",
+     "side": "l",
+     "when": {
+      "line": 1,
+      "word": "pape",
+      "d": 0.1
+     }
+    },
+    {
+     "at": "Naples",
+     "title": "Deux-Siciles",
+     "side": "b",
+     "when": {
+      "line": 1,
+      "word": "Deux-Siciles",
+      "d": 0.1
+     }
+    }
+   ],
+   "say": [
+    "Vers 1850, l’Italie est un puzzle : le Piémont indépendant, la Lombardie et la Vénétie autrichiennes…",
+    "les États du pape, le royaume des Deux-Siciles, et plusieurs duchés."
+   ],
+   "people": [
+    {
+     "who": "soldat",
+     "at": [
+      13.4,
+      45.6
+     ],
+     "size": 200,
+     "say": "Autrichiens",
+     "when": {
+      "line": 0,
+      "word": "Vénétie",
+      "d": 0.1
+     }
+    },
+    {
+     "who": "roi",
+     "at": [
+      15,
+      40.9
+     ],
+     "size": 200,
+     "say": "Mon royaume",
+     "when": {
+      "line": 1,
+      "word": "Deux-Siciles",
+      "d": 0.4
+     },
+     "crown": true
+    }
+   ],
+   "labels": [
+    {
+     "text": "Toscane",
+     "at": [
+      11,
+      43.45
+     ],
+     "size": 40,
+     "when": {
+      "line": 1,
+      "word": "duchés",
+      "d": 0
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": "Rome",
+     "when": 0.4
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1859",
+   "text": "Le Piémont bat l’Autriche",
+   "focus": {
+    "box": [
+     5.5,
+     43,
+     14.5,
+     47.4
+    ]
+   },
+   "moves": [
+    {
+     "from": "Turin",
+     "to": "Milan",
+     "n": 6,
+     "color": "#3B82F6",
+     "label": "Alliance avec la France",
+     "at": {
+      "line": 0,
+      "word": "France",
+      "d": -0.2
+     },
+     "dur": 2.4
+    }
+   ],
+   "say": [
+    "En 1859, le Piémont s’allie à la France de Napoléon III et bat l’Autriche.",
+    "Il gagne la Lombardie, et Milan devient piémontaise."
+   ],
+   "people": [
+    {
+     "who": "soldat",
+     "at": [
+      10.8,
+      44.4
+     ],
+     "size": 220,
+     "say": "Victoire !",
+     "when": {
+      "line": 0,
+      "word": "bat",
+      "d": 0.1
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": "Turin",
+     "title": "Piémont",
+     "side": "l",
+     "when": {
+      "line": 0,
+      "word": "Piémont",
+      "d": 0
+     }
+    },
+    {
+     "at": "Milan",
+     "title": "Milan",
+     "sub": "1859",
+     "side": "t",
+     "when": {
+      "line": 1,
+      "word": "Milan",
+      "d": 0.1
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": "Rome",
+     "when": 0.4
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1860",
+   "text": "Garibaldi et ses Mille",
+   "focus": {
+    "box": [
+     7,
+     36,
+     18,
+     45
+    ]
+   },
+   "moves": [
+    {
+     "from": "Gênes",
+     "to": "Marsala",
+     "n": 6,
+     "color": "#C62828",
+     "label": "Les Mille",
+     "at": {
+      "line": 0,
+      "word": "embarque",
+      "d": -0.2
+     },
+     "dur": 3
+    },
+    {
+     "from": "Marsala",
+     "to": "Naples",
+     "n": 6,
+     "color": "#C62828",
+     "at": {
+      "line": 1,
+      "word": "Naples",
+      "d": -1.5
+     },
+     "dur": 2.6
+    }
+   ],
+   "people": [
+    {
+     "who": "rebelle",
+     "at": "Marsala",
+     "size": 240,
+     "label": {
+      "title": "Garibaldi",
+      "sub": "chemise rouge"
+     },
+     "say": "Vers Naples !",
+     "when": {
+      "line": 1,
+      "word": "Sicile",
+      "d": 0.2
+     }
+    }
+   ],
+   "say": [
+    "En 1860, Garibaldi embarque de Gênes avec mille volontaires en chemise rouge.",
+    "Ils débarquent en Sicile, puis remontent jusqu’à Naples."
+   ],
+   "pills": [
+    {
+     "at": "Gênes",
+     "title": "Gênes",
+     "sub": "mai 1860",
+     "side": "t",
+     "when": {
+      "line": 0,
+      "word": "Gênes",
+      "d": 0
+     }
+    },
+    {
+     "at": "Naples",
+     "title": "Naples",
+     "sub": "septembre 1860",
+     "side": "r",
+     "when": {
+      "line": 1,
+      "word": "Naples",
+      "d": 0
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Sicile",
+     "at": [
+      14.2,
+      37.6
+     ],
+     "size": 42,
+     "when": {
+      "line": 1,
+      "word": "Sicile",
+      "d": 0
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": "Rome",
+     "when": 0.4
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1861",
+   "text": "Le royaume d’Italie",
+   "focus": {
+    "box": [
+     5.5,
+     36.2,
+     19,
+     47.4
+    ]
+   },
+   "people": [
+    {
+     "who": "roi",
+     "at": [
+      7.9,
+      44.4
+     ],
+     "size": 240,
+     "say": "Roi d’Italie !",
+     "when": {
+      "line": 0,
+      "word": "roi",
+      "d": 0.2
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": "Venise",
+     "title": "Venise",
+     "sub": "pas encore",
+     "side": "r",
+     "when": {
+      "line": 1,
+      "word": "Venise",
+      "d": 0.1
+     }
+    },
+    {
+     "at": "Rome",
+     "title": "Rome",
+     "sub": "pas encore",
+     "side": "r",
+     "when": {
+      "line": 1,
+      "word": "Rome",
+      "d": 0.1
+     }
+    }
+   ],
+   "say": [
+    "Le 17 mars 1861, Victor-Emmanuel II est proclamé roi d’Italie, à Turin.",
+    "Mais il manque encore Venise et Rome !"
+   ],
+   "labels": [
+    {
+     "text": "Royaume d’Italie",
+     "at": [
+      12.4,
+      43.5
+     ],
+     "size": 46,
+     "when": {
+      "line": 0,
+      "word": "proclamé",
+      "d": 0
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": "Rome",
+     "when": 0.4
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1866",
+   "text": "Venise rejoint l’Italie",
+   "focus": {
+    "box": [
+     8,
+     43,
+     16,
+     47
+    ]
+   },
+   "pills": [
+    {
+     "at": "Venise",
+     "title": "Venise",
+     "sub": "1866",
+     "side": "t",
+     "when": {
+      "line": 1,
+      "word": "Venise",
+      "d": 0.1
+     }
+    }
+   ],
+   "say": [
+    "En 1866, l’Italie s’allie à la Prusse contre l’Autriche.",
+    "La Prusse gagne : l’Autriche cède la Vénétie, avec Venise, qui devient italienne."
+   ],
+   "people": [
+    {
+     "who": "soldat",
+     "at": [
+      12.7,
+      44.8
+     ],
+     "size": 220,
+     "say": "Venise !",
+     "when": {
+      "line": 1,
+      "word": "devient",
+      "d": 0
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Autriche",
+     "at": [
+      14.2,
+      46.7
+     ],
+     "size": 44,
+     "when": {
+      "line": 1,
+      "word": "Autriche",
+      "d": 0
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": "Rome",
+     "when": 0.4
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1870",
+   "text": "Rome devient italienne",
+   "focus": {
+    "box": [
+     8,
+     39,
+     16,
+     45
+    ]
+   },
+   "people": [
+    {
+     "who": "soldat",
+     "at": "Rome",
+     "size": 250,
+     "say": "Rome !",
+     "when": {
+      "line": 0,
+      "word": "Rome",
+      "d": 0.3
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": "Rome",
+     "title": "20 septembre",
+     "sub": "Rome, future capitale",
+     "side": "b",
+     "when": {
+      "line": 1,
+      "word": "capitale",
+      "d": -0.3
+     }
+    },
+    {
+     "at": "Florence",
+     "title": "Florence",
+     "sub": "capitale 1865–1871",
+     "side": "l",
+     "when": {
+      "line": 1,
+      "word": "capitale",
+      "d": 0
+     }
+    }
+   ],
+   "say": [
+    "En septembre 1870, la France est battue par la Prusse et retire ses troupes. Le 20, l’armée italienne entre dans Rome.",
+    "Rome devient la capitale en 1871."
+   ],
+   "moves": [
+    {
+     "from": "Florence",
+     "to": "Rome",
+     "n": 5,
+     "color": "#2F9E6B",
+     "at": {
+      "line": 0,
+      "word": "armée",
+      "d": -0.2
+     },
+     "dur": 2.4
+    }
+   ],
+   "beacon": [
+    {
+     "at": "Rome",
+     "when": 0.4
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "text": "Mais les Italiens ?",
+   "focus": {
+    "box": [
+     5.5,
+     36.2,
+     19,
+     47.4
+    ]
+   },
+   "big": {
+    "value": "10 %",
+    "sub": "au plus, parlent italien en 1861 (estimation)",
+    "at": {
+     "line": 0,
+     "word": "dix",
+     "d": -0.3
+    },
+    "dur": 2.6
+   },
+   "say": [
+    "Mais en 1861, environ dix Italiens sur cent, ou moins, parlent vraiment l’italien, selon les historiens.",
+    "Les autres parlent leur dialecte ou leur langue régionale : il faut maintenant unir le peuple."
+   ],
+   "people": [
+    {
+     "who": "paysan",
+     "at": "Palerme",
+     "size": 200,
+     "say": "Mon dialecte",
+     "when": {
+      "line": 1,
+      "word": "dialecte",
+      "d": 0
+     }
+    },
+    {
+     "who": "paysan",
+     "at": [
+      11.9,
+      44.45
+     ],
+     "size": 200,
+     "say": "Mon dialecte",
+     "when": {
+      "line": 1,
+      "word": "régionale",
+      "d": 0
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": "Rome",
+     "when": 0.4
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "Après 1861",
+   "text": "L’école, l’armée, la télé",
+   "focus": {
+    "box": [
+     5.5,
+     36.2,
+     19,
+     47.4
+    ]
+   },
+   "say": [
+    "Pour unir la langue, il faudra l’école, l’armée, puis plus tard la télévision.",
+    "Voilà comment une mosaïque est devenue un pays !"
+   ],
+   "people": [
+    {
+     "who": "savant",
+     "at": "Florence",
+     "size": 210,
+     "say": "L’école",
+     "when": {
+      "line": 0,
+      "word": "école",
+      "d": 0
+     }
+    },
+    {
+     "who": "soldat",
+     "at": [
+      14.9,
+      40.7
+     ],
+     "size": 210,
+     "say": "L’armée",
+     "when": {
+      "line": 0,
+      "word": "armée",
+      "d": 0
+     }
+    },
+    {
+     "who": "ouvrier",
+     "at": "Palerme",
+     "size": 210,
+     "say": "La télé",
+     "when": {
+      "line": 0,
+      "word": "télévision",
+      "d": 0
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": "Rome",
+     "when": 0.4
+    }
+   ]
+  },
+  {
+   "type": "final",
+   "text": "Une Italie, mille dialectes",
+   "sub": "L’Italie",
+   "focus": {
+    "box": [
+     5.5,
+     36.2,
+     19,
+     47.4
+    ]
+   },
+   "say": [
+    "Voilà pourquoi l’Italie garde autant de dialectes !"
+   ],
+   "people": [
+    {
+     "who": "paysan",
+     "at": "Rome",
+     "size": 250,
+     "say": "À bientôt !",
+     "when": 3.0,
+     "wave": true,
+     "mood": "happy"
+    }
+   ],
+   "pills": [
+    {
+     "at": "Naples",
+     "title": "Italie",
+     "sub": "1861",
+     "side": "r",
+     "when": 2.0
+    }
+   ]
+  }
+ ],
+ "base": {
+  "countries": [
+   "Italy"
+  ]
+ },
+ "terrain": [
+  {
+   "box": [
+    -12,
+    33,
+    34,
+    66
+   ],
+   "px": 2800,
+   "z": 6
+  },
+  {
+   "box": [
+    5.1,
+    35.6,
+    19.4,
+    47.8
+   ],
+   "px": 2800,
+   "z": 8
+  }
+ ]
+}

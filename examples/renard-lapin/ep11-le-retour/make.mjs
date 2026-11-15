@@ -7,11 +7,12 @@
 //  9.5–12.5  le saut         Roussin court, saute par-dessus… et atterrit fièrement : « TA-DAAA ! »
 // 12.5–15.0  Lino           « Moi aussi ! » — il saute… trop court : SPLASH !
 // 15.0–18.0  Lino           assis dans la flaque, trempé ; Roussin accourt : « Oh non ! Lino ! »
-// 18.0–21.0  la flaque       Lino éclate de rire : « Hi hi ! C'est rigolo ! » — Roussin saute dedans aussi : SPLASH !
+// 18.0–21.0  la flaque       Lino éclate de rire : « C'est rigolo ! » — Roussin saute dedans aussi : SPLASH !
 // 21.0–24.0  la flaque       ils rient et s'éclaboussent
 // 24.0–27.6  plan moyen      Mme Escargot passe en rentrant chez elle : « Bonsoir... » — « Bonsoir, Madame Escargot ! »
 // 27.6–30.0  plan large      carton
 import { writeFileSync } from 'node:fs';
+import { timeBadge } from '../lib/badge.mjs';
 import { W, H, INK, lines, sfxEv, an, ao, vis, sfx, fox, rabbit, put, style, addKF, track, ss, cloud } from '../lib/kit.mjs';
 import { makeCam, say, card, snail, bird } from '../lib/props.mjs';
 
@@ -118,15 +119,15 @@ const world = `${bg}${birdEl}
 const fx =
   say('rab', 'Quelle journée !', 1.0, 1.3, { bx: 380, by: 330, tips: [[140, 430]] }) +
   say('rab', 'Ce soir, tu dors chez moi !', 3.7, 1.6, { bx: 560, by: 150, tips: [[640, 290]] }) +
-  say('fox', 'Ouiii !', 5.4, 0.9, { bx: 1030, by: 75, tips: [[1010, 150]], shout: true }) +
+  say('fox', 'Oui, d’accord !', 5.4, 0.9, { bx: 1030, by: 75, tips: [[1010, 150]], shout: true }) +
   say('rab', 'Attention, la flaque !', 6.9, 1.2, { bx: 380, by: 170, tips: [[420, 300]], shout: true }) +
   say('fox', 'Cette fois, je saute !', 8.2, 1.3, { bx: 760, by: 170, tips: [[640, 300]] }) +
-  sfx('HOP !', 760, 160, 10.0, 0.6, -8, '#ffd23f', 70, 'boing') +
-  say('fox', 'TA-DAAA !', 11.2, 1.1, { bx: 1020, by: 230, tips: [[1080, 330]], shout: true }) +
+  sfx('BOING !', 760, 160, 10.0, 0.6, -8, '#ffd23f', 70, 'boing') +
+  say('fox', 'J’ai réussi !', 11.2, 1.1, { bx: 1020, by: 230, tips: [[1080, 330]], shout: true }) +
   say('rab', 'Moi aussi !', 12.6, 0.8, { bx: 300, by: 200, tips: [[190, 380]], shout: true }) +
   sfx('SPLASH !', 700, 170, 13.95, 1.0, -8, '#4fb3ff', 96, 'splash') +
-  say('fox', 'Oh non ! Lino !', 15.6, 1.3, { bx: 900, by: 120, tips: [[1000, 260]], shout: true }) +
-  say('rab', "Hi hi ! C'est rigolo !", 18.4, 1.4, { bx: 460, by: 140, tips: [[560, 330]] }) +
+  say('fox', 'Lino, ça va ?', 15.6, 1.3, { bx: 900, by: 120, tips: [[1000, 260]], shout: true }) +
+  say('rab', "C'est rigolo !", 18.4, 1.4, { bx: 460, by: 140, tips: [[560, 330]] }) +
   sfx('SPLASH !', 900, 140, 20.6, 0.9, 8, '#4fb3ff', 90, 'splash') +
   sfx('Ha ha ha !', 640, 290, 21.4, 2.2, -4, '#e8434e', 62, 'laugh') +
   say('snail', 'Bonsoir...', 25.4, 1.3, (() => { const sx = lerp(1360, 1145, (25.8 - 24.0) / 3.0), m = scr(sx - 82, 712 - 68, 25.8); return { bx: Math.min(1130, m[0] - 10), by: m[1] - 140, tips: [[m[0], m[1] - 30]] }; })()) +
@@ -137,6 +138,7 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" wid
 <style>${style()}</style>
 <rect width="${W}" height="${H}" fill="#ffd38a"/>
 <g style="${camStyle}">${world}</g>
+${timeBadge(17, 0)}
 ${fx}
 </svg>`;
 sfxEv.push({ name: 'chirp', t: 1.6 }, { name: 'whoosh', t: 10.0 }, { name: 'step', t: 10.9 }, { name: 'splash', t: 21.2 }, { name: 'splash', t: 22.8 }, { name: 'laugh', t: 18.5 });

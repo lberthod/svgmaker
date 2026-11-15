@@ -44,14 +44,14 @@ svgmaker audit  public/brand/serie2          # contrôle Reels seul, en environ 
 | `--gif` | GIF 12 i/s, 360 px, palette optimisée |
 | `--audit` | audit Reels pendant le rendu, rapport dans `svgmaker-audit.json` |
 | `--sheet` | planche de 6 images : `<nom>-planche.jpg` |
-| `--no-cover`, `--cover-at s` | couverture JPG (par défaut à t = 0) |
+| `--no-cover`, `--cover-at s` | couverture JPG `<nom>-cover.jpg`. Instant : `--cover-at`, sinon `data-cover-at` du SVG, sinon l’instant du début de la vidéo (10 s au plus) où les textes lisibles couvrent le plus de surface (titre et bandeau du thème plutôt qu’un décor vide) |
 | `--no-dedup` | capture toutes les images, même celles qui ne changent pas |
 | `-f, --force` | refait tout, même si l'empreinte n'a pas changé |
 
 ### Ce que le SVG peut déclarer (facultatif)
 
 ```xml
-<svg viewBox="0 0 1080 1920" data-duration="14.5" data-fps="30">
+<svg viewBox="0 0 1080 1920" data-duration="14.5" data-fps="30" data-cover-at="7">  <!-- instant de la couverture -->
   <text data-role="hook">SAME TREE.</text>          <!-- accroche : doit être lisible avant 1 s -->
   <text data-role="final">DIFFERENT PREPARATION.</text> <!-- carton final : au moins 2,8 s -->
 ```
@@ -59,6 +59,10 @@ svgmaker audit  public/brand/serie2          # contrôle Reels seul, en environ 
 Sans `data-duration`, la durée est **détectée** :
 1. fin de la dernière animation finie, CSS et SMIL confondus (y compris les `begin="id.end+0.5s"`) ;
 2. sinon, un cycle de la plus longue boucle.
+
+Avec `--audit` (et `svgmaker audit`), la couverture est aussi contrôlée : alerte si elle n'a aucun texte lisible,
+si elle est presque unie, ou si elle est identique à celle d'une autre vidéo du lot, du dossier ou des dossiers
+voisins (par ex. `out/animals/` et `out/colors/`). L'instant retenu est noté dans `.svgmaker.json` (`coverAt`).
 
 La taille vient de `width`/`height`. À défaut, le `viewBox` est mis à l'échelle sur 1080 px de large, donc un viewBox `320×569` donne 1080×1920.
 

@@ -1,0 +1,25 @@
+# 43 Rideau de fer — journal de refonte (lot E → série traites)
+
+Choix du parchemin : **Traité de Varsovie (pacte de Varsovie, 14 mai 1955)** plutôt que le traité de Washington (OTAN, 4 avril 1949). Raison : la question porte sur la coupure « de la Baltique à l'Adriatique » ; c'est en mai 1955, quand la RFA entre dans l'OTAN et que l'Est signe à Varsovie, que les deux côtés de la ligne deviennent deux alliances armées, et c'est la date où l'épisode doit s'arrêter (bible : « rideau de fer arrêté en 1955 »). Le discours de Fulton (1946) n'est pas un traité : il reste une scène de crise.
+
+- Signature : hook = question du programme mot pour mot ; year « 1955 », sub « Traité de Varsovie », Est en magenta à t=0, beacon sur Varsovie, `open` = focus du hook [4,39.5,30,57], final cadré pareil.
+- Retiré (doublons internes, épisodes 45 et 47) : scènes 13 août 1961, pique-nique 19 août 1989, 9 novembre 1989, 3 octobre 1990 ; et la phrase UE 2004 du final.
+- Retiré aussi pour la durée : scène « Avril 1945, rencontre sur l'Elbe » (la cause est gardée en une phrase du hook, avec une flèche « Armée rouge ») ; art `bars` OTAN/Pacte (coupé par la fin de scène au lot E).
+- Hook say[1] : « Là où l'Armée rouge s'arrête, une ligne de barbelés sépare bientôt deux camps » (répond au « comment », défaut faits n°4 du lot E). Pastille « Contours actuels » (Tchécoslovaquie = Czechia + Slovakia, RDA en regions).
+- Fulton : Churchill `savant` sans barbe ni moustache (pas de roi, défaut lot E n°3), à l'ouest de la ligne ; le rideau devient une `line` blanche Stettin–Trieste ; pastilles « Stettin / aujourd'hui Szczecin » et « Trieste / sur l'Adriatique » (plus de noms de mer posés en mer). Citation « de Stettin sur la Baltique à Trieste sur l'Adriatique » → https://fr.wikipedia.org/wiki/Rideau_de_fer
+- Nouvelle scène « 1946 – 1949 » : prise du pouvoir communiste pays par pays (coloriage progressif) + art `timeline` spread « Un pays après l'autre » ; Prague, février 1948.
+  - Coup de Prague, 17-25 février 1948 → https://fr.wikipedia.org/wiki/Coup_de_Prague
+  - Albanie : République populaire proclamée le 11 janvier 1946 → https://en.wikipedia.org/wiki/People%27s_Socialist_Republic_of_Albania
+  - Bulgarie : république populaire, septembre 1946 (référendum du 8, proclamation du 15) → https://en.wikipedia.org/wiki/Formation_of_the_Eastern_Bloc
+  - Roumanie : monarchie abolie le 30 décembre 1947 → https://en.wikipedia.org/wiki/Formation_of_the_Eastern_Bloc
+  - Pologne 1947 : élections de janvier 1947 qui donnent le pouvoir au bloc communiste (la République populaire n'est formellement nommée qu'en 1952 ; « 1947 » = prise du pouvoir) → https://en.wikipedia.org/wiki/Eastern_Bloc
+  - Hongrie : République populaire proclamée le 20 août 1949 → https://en.wikipedia.org/wiki/Hungarian_People%27s_Republic
+- Scène 1949 : OTAN en bleu (10 fondateurs visibles), RFA en bleu clair (hors OTAN jusqu'en 1955, défaut lot E n°6), Sarre non coloriée (protectorat français), RDA en rouge avec pastille « contours actuels ». OTAN : traité signé le 4 avril 1949 à Washington, 12 fondateurs → https://fr.wikipedia.org/wiki/Traité_de_l'Atlantique_Nord
+- Scène signature « Mai 1955 » : RFA passe au bleu OTAN ; `treaty` « Traité de Varsovie », 14 mai 1955, signataires URSS, Pologne, RDA, Tchécoslovaquie ; puis `split` « Deux alliances » Avant/Après 1955 (Est magenta → rouge, RFA bleu clair → bleu, Autriche neutre), légende signataires / Pacte de Varsovie / OTAN. Pacte signé à Varsovie le 14 mai 1955 par huit États (URSS, Albanie, RDA, Bulgarie, Hongrie, Pologne, Roumanie, Tchécoslovaquie) ; adhésion de la RFA à l'OTAN à la ratification des accords de Paris, 9 mai 1955 → https://fr.wikipedia.org/wiki/Pacte_de_Varsovie
+- Albanie ajoutée au bloc de l'Est (signataire du pacte, défaut lot E n°6).
+- Nouvelle scène « 15 mai 1955 » : traité d'État autrichien signé au Belvédère, à Vienne, avec URSS, États-Unis, Royaume-Uni, France ; troupes parties le 25 octobre 1955 ; neutralité (loi constitutionnelle du 26 octobre 1955) → https://fr.wikipedia.org/wiki/Traité_d'État_autrichien
+- « Aujourd'hui » : ligne du rideau (frontière RFA/RDA, puis frontières tchécoslovaque et hongroise avec la Bavière et l'Autriche, de la baie de Lübeck au point triple Autriche-Hongrie-Slovénie) en `line` blanche ; ancien bloc en magenta ; labels des pays actuels ; pill « Ligne Est-Ouest / effacée en 1989 » ; une seule pastille « Sentier du rideau de fer / EuroVelo 13, 20 pays ».
+- EuroVelo 13 revérifié : le site officiel donne aujourd'hui 10 650 km (« more than 10,600 km ») et 20 pays ; le lot E disait 10 400 puis 10 550 → voix « plus de 10 000 kilomètres et 20 pays » → https://en.eurovelo.com/ev13
+- Final : « Voilà pourquoi, dès 1955, deux alliances armées se font face au centre de l'Europe. » puis « Et tout part de cette question : » (boucle).
+- Couleurs : surbrillances limitées à leur scène (`keep: false`) pour que la dernière image soit identique à la première (un `keep: true` aurait laissé le bleu OTAN sous le final).
+- Durée estimée par `new` : 108,2 s (16 répliques).

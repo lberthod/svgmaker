@@ -1,0 +1,1688 @@
+{
+ "format": "atlas",
+ "id": "atlas-danube",
+ "base": {
+  "countries": [
+   "Germany",
+   "Austria",
+   "Slovakia",
+   "Hungary",
+   "Croatia",
+   "Serbia",
+   "Romania",
+   "Bulgaria",
+   "Moldova",
+   "Ukraine",
+   "Poland",
+   "Czechia",
+   "Italy",
+   "Slovenia",
+   "Switzerland",
+   "France",
+   "Bosnia and Herz.",
+   "Montenegro",
+   "Kosovo",
+   "North Macedonia",
+   "Albania",
+   "Greece",
+   "Turkey",
+   "Belarus",
+   "Liechtenstein"
+  ]
+ },
+ "terrain": [
+  {
+   "box": [
+    -14,
+    27,
+    40,
+    76
+   ],
+   "px": 3000,
+   "z": 6
+  },
+  {
+   "box": [
+    5.1,
+    41.6,
+    31.9,
+    50.8
+   ],
+   "px": 2800,
+   "z": 8
+  }
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "text": "Un fleuve, dix pays",
+   "sub": "Le Danube",
+   "focus": {
+    "box": [
+     5.5,
+     42.0,
+     31.5,
+     50.4
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Germany"
+     ],
+     "color": "#FFB347",
+     "at": 0.7,
+     "keep": false
+    },
+    {
+     "countries": [
+      "Austria"
+     ],
+     "color": "#E8503A",
+     "at": 0.8999999999999999,
+     "keep": false
+    },
+    {
+     "countries": [
+      "Slovakia"
+     ],
+     "color": "#4FA3E0",
+     "at": 1.1,
+     "keep": false
+    },
+    {
+     "countries": [
+      "Hungary"
+     ],
+     "color": "#3E9A63",
+     "at": 1.3,
+     "keep": false
+    },
+    {
+     "countries": [
+      "Croatia"
+     ],
+     "color": "#C77DFF",
+     "at": 1.5,
+     "keep": false
+    },
+    {
+     "countries": [
+      "Serbia"
+     ],
+     "color": "#FF8FB8",
+     "at": 1.7,
+     "keep": false
+    },
+    {
+     "countries": [
+      "Romania"
+     ],
+     "color": "#FFD83C",
+     "at": 1.9000000000000001,
+     "keep": false
+    },
+    {
+     "countries": [
+      "Bulgaria"
+     ],
+     "color": "#8FD0EE",
+     "at": 2.1,
+     "keep": false
+    },
+    {
+     "countries": [
+      "Moldova"
+     ],
+     "color": "#FF7A3C",
+     "at": 2.3,
+     "keep": false
+    },
+    {
+     "countries": [
+      "Ukraine"
+     ],
+     "color": "#7BD389",
+     "at": 2.5,
+     "keep": false
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      8.5,
+      47.95
+     ],
+     "when": 0.4
+    }
+   ],
+   "say": [
+    "Comment un seul fleuve a-t-il pu réunir dix pays ?",
+    "Il mesure environ 2850 kilomètres, avec quatre capitales sur ses rives."
+   ],
+   "art": [
+    {
+     "kind": "stats",
+     "at": {
+      "line": 1,
+      "word": "mesure",
+      "d": -0.2
+     },
+     "dur": 3.5,
+     "title": "Un fleuve en chiffres",
+     "items": [
+      {
+       "value": 2850,
+       "suffix": " km",
+       "label": "de long",
+       "color": "#4FA3E0"
+      },
+      {
+       "value": 10,
+       "label": "pays",
+       "color": "#FFD83C"
+      },
+      {
+       "value": 4,
+       "label": "capitales",
+       "color": "#E8503A"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "text": "Il naît en Forêt-Noire",
+   "focus": {
+    "box": [
+     6.8,
+     46.9,
+     17.0,
+     50.0
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Germany"
+     ],
+     "color": "#FFB347",
+     "at": {
+      "line": 0,
+      "word": "Forêt-Noire"
+     },
+     "keep": false
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      8.5,
+      47.95
+     ],
+     "title": "Donaueschingen",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "Donaueschingen"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      8.5,
+      47.95
+     ],
+     "when": 0.4
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      8.5,
+      47.95
+     ],
+     "to": [
+      12.1,
+      48.95
+     ],
+     "n": 0,
+     "color": "#7CC8EC",
+     "label": "Vers l’est",
+     "at": {
+      "line": 0,
+      "word": "Brigach"
+     },
+     "dur": 3.5
+    }
+   ],
+   "labels": [
+    {
+     "text": "France",
+     "at": [
+      7.2,
+      49.5
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "d": 0.6
+     }
+    },
+    {
+     "text": "Suisse",
+     "at": [
+      8.6,
+      47.2
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "d": 1.0
+     }
+    },
+    {
+     "text": "Autriche",
+     "at": [
+      13.3,
+      47.6
+     ],
+     "size": 38,
+     "when": {
+      "line": 1,
+      "d": 0.8
+     }
+    }
+   ],
+   "say": [
+    "En Forêt-Noire, à Donaueschingen, la Brigach et la Breg forment le Danube.",
+    "Il coule ensuite vers l’est."
+   ]
+  },
+  {
+   "type": "map",
+   "text": "Dix pays sur ses rives",
+   "focus": {
+    "box": [
+     7.0,
+     42.0,
+     31.0,
+     50.4
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Germany"
+     ],
+     "color": "#FFB347",
+     "at": 0.9,
+     "keep": false
+    },
+    {
+     "countries": [
+      "Austria"
+     ],
+     "color": "#E8503A",
+     "at": {
+      "line": 0,
+      "word": "Autriche"
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Slovakia"
+     ],
+     "color": "#4FA3E0",
+     "at": {
+      "line": 0,
+      "word": "Slovaquie"
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Hungary"
+     ],
+     "color": "#3E9A63",
+     "at": {
+      "line": 0,
+      "word": "Hongrie"
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Croatia"
+     ],
+     "color": "#C77DFF",
+     "at": {
+      "line": 0,
+      "word": "Croatie"
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Serbia"
+     ],
+     "color": "#FF8FB8",
+     "at": {
+      "line": 1,
+      "word": "Serbie"
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Romania"
+     ],
+     "color": "#FFD83C",
+     "at": {
+      "line": 1,
+      "word": "Roumanie"
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Bulgaria"
+     ],
+     "color": "#8FD0EE",
+     "at": {
+      "line": 1,
+      "word": "Bulgarie"
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Moldova"
+     ],
+     "color": "#FF7A3C",
+     "at": {
+      "line": 1,
+      "word": "Moldavie"
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Ukraine"
+     ],
+     "color": "#7BD389",
+     "at": {
+      "line": 1,
+      "word": "Ukraine"
+     },
+     "keep": false
+    }
+   ],
+   "labels": [
+    {
+     "text": "Allemagne",
+     "at": [
+      10.5,
+      49.4
+     ],
+     "size": 34,
+     "when": {
+      "line": 0,
+      "word": "Allemagne",
+      "d": 0.2
+     }
+    },
+    {
+     "text": "Autriche",
+     "at": [
+      14.3,
+      47.4
+     ],
+     "size": 34,
+     "when": {
+      "line": 0,
+      "word": "Autriche",
+      "d": 0.2
+     }
+    },
+    {
+     "text": "Slovaquie",
+     "at": [
+      19.3,
+      48.8
+     ],
+     "size": 34,
+     "when": {
+      "line": 0,
+      "word": "Slovaquie",
+      "d": 0.2
+     }
+    },
+    {
+     "text": "Hongrie",
+     "at": [
+      19.0,
+      47.1
+     ],
+     "size": 34,
+     "when": {
+      "line": 0,
+      "word": "Hongrie",
+      "d": 0.2
+     }
+    },
+    {
+     "text": "Croatie",
+     "at": [
+      16.2,
+      45.5
+     ],
+     "size": 34,
+     "when": {
+      "line": 0,
+      "word": "Croatie",
+      "d": 0.2
+     }
+    },
+    {
+     "text": "Serbie",
+     "at": [
+      20.8,
+      44.2
+     ],
+     "size": 34,
+     "when": {
+      "line": 1,
+      "word": "Serbie",
+      "d": 0.2
+     }
+    },
+    {
+     "text": "Roumanie",
+     "at": [
+      24.8,
+      45.7
+     ],
+     "size": 34,
+     "when": {
+      "line": 1,
+      "word": "Roumanie",
+      "d": 0.2
+     }
+    },
+    {
+     "text": "Bulgarie",
+     "at": [
+      25.2,
+      42.9
+     ],
+     "size": 34,
+     "when": {
+      "line": 1,
+      "word": "Bulgarie",
+      "d": 0.2
+     }
+    },
+    {
+     "text": "Moldavie",
+     "at": [
+      28.5,
+      47.2
+     ],
+     "size": 34,
+     "when": {
+      "line": 1,
+      "word": "Moldavie",
+      "d": 0.2
+     }
+    },
+    {
+     "text": "Ukraine",
+     "at": [
+      28.4,
+      49.3
+     ],
+     "size": 34,
+     "when": {
+      "line": 1,
+      "word": "Ukraine",
+      "d": 0.2
+     }
+    }
+   ],
+   "say": [
+    "Il traverse ou borde dix pays : Allemagne, Autriche, Slovaquie, Hongrie, Croatie.",
+    "Puis Serbie, Roumanie, Bulgarie, Moldavie et Ukraine."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1er siècle",
+   "text": "Frontière de Rome",
+   "focus": {
+    "box": [
+     10.0,
+     43.0,
+     30.5,
+     49.2
+    ]
+   },
+   "moves": [
+    {
+     "from": [
+      12.1,
+      48.95
+     ],
+     "to": [
+      28.8,
+      45.2
+     ],
+     "n": 4,
+     "color": "#E8503A",
+     "label": "Légions romaines",
+     "at": {
+      "line": 0,
+      "word": "Danube"
+     },
+     "dur": 3.4
+    }
+   ],
+   "people": [
+    {
+     "who": "romain",
+     "at": [
+      13.0,
+      45.2
+     ],
+     "size": 180,
+     "say": "Le limes !",
+     "when": {
+      "line": 0,
+      "word": "limes"
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      16.37,
+      48.21
+     ],
+     "title": "Vindobona",
+     "side": "r",
+     "when": {
+      "line": 1,
+      "word": "Vindobona"
+     }
+    },
+    {
+     "at": [
+      20.46,
+      44.82
+     ],
+     "title": "Singidunum",
+     "side": "l",
+     "when": {
+      "line": 1,
+      "word": "Singidunum"
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Empire romain",
+     "at": [
+      19.0,
+      43.6
+     ],
+     "size": 40,
+     "when": {
+      "line": 0,
+      "d": 0.4
+     }
+    },
+    {
+     "text": "Peuples du nord",
+     "at": [
+      22.0,
+      49.2
+     ],
+     "size": 36,
+     "when": {
+      "line": 0,
+      "d": 2.0
+     }
+    }
+   ],
+   "say": [
+    "Au 1er siècle, le Danube devient la frontière de Rome : le limes, sa ligne de défense.",
+    "Vindobona et Singidunum, aujourd’hui Vienne et Belgrade, le gardent."
+   ],
+   "highlight": [
+    {
+     "countries": [
+      "Italy"
+     ],
+     "color": "#B08D57",
+     "at": {
+      "line": 0,
+      "word": "Rome"
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Slovenia"
+     ],
+     "color": "#B08D57",
+     "at": {
+      "line": 0,
+      "word": "Rome"
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Croatia"
+     ],
+     "color": "#B08D57",
+     "at": {
+      "line": 0,
+      "word": "Rome"
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Serbia"
+     ],
+     "color": "#B08D57",
+     "at": {
+      "line": 0,
+      "word": "Rome"
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Bulgaria"
+     ],
+     "color": "#B08D57",
+     "at": {
+      "line": 0,
+      "word": "Rome"
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Bosnia and Herz."
+     ],
+     "color": "#B08D57",
+     "at": {
+      "line": 0,
+      "word": "Rome"
+     },
+     "keep": false
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1867",
+   "text": "Naissance de l’Autriche-Hongrie",
+   "focus": {
+    "box": [
+     12.5,
+     44.0,
+     23.0,
+     49.8
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Austria"
+     ],
+     "color": "#E8503A",
+     "at": 0.4,
+     "keep": false
+    },
+    {
+     "countries": [
+      "Hungary"
+     ],
+     "color": "#3E9A63",
+     "at": 0.9,
+     "keep": false
+    },
+    {
+     "countries": [
+      "Slovakia"
+     ],
+     "color": "#4FA3E0",
+     "at": {
+      "line": 1,
+      "word": "Slovaquie"
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Croatia"
+     ],
+     "color": "#C77DFF",
+     "at": {
+      "line": 1,
+      "word": "Croatie"
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Czechia"
+     ],
+     "color": "#B39DDB",
+     "at": {
+      "line": 1,
+      "word": "autres"
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Slovenia"
+     ],
+     "color": "#6FCFB5",
+     "at": {
+      "line": 1,
+      "word": "autres"
+     },
+     "keep": false
+    }
+   ],
+   "people": [
+    {
+     "who": "roi",
+     "at": [
+      13.8,
+      45.4
+     ],
+     "size": 180,
+     "say": "Mon empire !",
+     "label": {
+      "title": "François-Joseph"
+     },
+     "when": {
+      "line": 0,
+      "word": "Habsbourg"
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      16.37,
+      48.21
+     ],
+     "title": "Vienne",
+     "side": "t",
+     "when": {
+      "line": 1,
+      "word": "Vienne"
+     }
+    },
+    {
+     "at": [
+      19.04,
+      47.5
+     ],
+     "title": "Budapest",
+     "side": "r",
+     "when": {
+      "line": 1,
+      "word": "Budapest"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      16.37,
+      48.21
+     ],
+     "when": {
+      "line": 1,
+      "word": "Vienne"
+     }
+    }
+   ],
+   "say": [
+    "En 1867, naît l’Autriche-Hongrie, l’empire des Habsbourg.",
+    "Il couvre aussi la Slovaquie, la Croatie et bien d’autres régions, avec Vienne et Budapest."
+   ]
+  },
+  {
+   "type": "map",
+   "text": "Quatre capitales sur le fleuve",
+   "focus": {
+    "box": [
+     14.5,
+     44.0,
+     22.0,
+     48.8
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Austria"
+     ],
+     "color": "#E8503A",
+     "at": 0.3,
+     "keep": false
+    },
+    {
+     "countries": [
+      "Slovakia"
+     ],
+     "color": "#4FA3E0",
+     "at": {
+      "line": 0,
+      "word": "Bratislava"
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Hungary"
+     ],
+     "color": "#3E9A63",
+     "at": {
+      "line": 0,
+      "word": "Budapest"
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Serbia"
+     ],
+     "color": "#FF8FB8",
+     "at": {
+      "line": 0,
+      "word": "Belgrade"
+     },
+     "keep": false
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      16.37,
+      48.21
+     ],
+     "title": "Vienne",
+     "side": "l",
+     "when": {
+      "line": 0,
+      "word": "Vienne",
+      "d": 0.2
+     }
+    },
+    {
+     "at": [
+      17.11,
+      48.15
+     ],
+     "title": "Bratislava",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "Bratislava",
+      "d": 0.2
+     }
+    },
+    {
+     "at": [
+      19.04,
+      47.5
+     ],
+     "title": "Budapest",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "Budapest",
+      "d": 0.2
+     }
+    },
+    {
+     "at": [
+      20.46,
+      44.82
+     ],
+     "title": "Belgrade",
+     "side": "l",
+     "when": {
+      "line": 0,
+      "word": "Belgrade",
+      "d": 0.2
+     }
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      16.37,
+      48.21
+     ],
+     "to": [
+      19.04,
+      47.5
+     ],
+     "n": 1,
+     "color": "#8FD0EE",
+     "at": {
+      "line": 1,
+      "word": "route"
+     },
+     "dur": 1.3
+    },
+    {
+     "from": [
+      19.04,
+      47.5
+     ],
+     "to": [
+      20.46,
+      44.82
+     ],
+     "n": 1,
+     "color": "#8FD0EE",
+     "at": {
+      "line": 1,
+      "word": "route",
+      "d": 1.3
+     },
+     "dur": 1.3
+    }
+   ],
+   "labels": [],
+   "say": [
+    "Le Danube traverse quatre capitales : Vienne, Bratislava, Budapest et Belgrade.",
+    "Le fleuve y est une route : Vienne et Bratislava ne sont qu’à 60 kilomètres."
+   ]
+  },
+  {
+   "type": "map",
+   "text": "Un fleuve, huit langues",
+   "focus": {
+    "box": [
+     13.0,
+     42.5,
+     29.5,
+     49.5
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Germany"
+     ],
+     "color": "#FFB347",
+     "at": 0.3,
+     "keep": false
+    },
+    {
+     "countries": [
+      "Austria"
+     ],
+     "color": "#E8503A",
+     "at": 0.55,
+     "keep": false
+    },
+    {
+     "countries": [
+      "Slovakia"
+     ],
+     "color": "#4FA3E0",
+     "at": 0.8,
+     "keep": false
+    },
+    {
+     "countries": [
+      "Hungary"
+     ],
+     "color": "#3E9A63",
+     "at": 1.05,
+     "keep": false
+    },
+    {
+     "countries": [
+      "Croatia"
+     ],
+     "color": "#C77DFF",
+     "at": 1.3,
+     "keep": false
+    },
+    {
+     "countries": [
+      "Serbia"
+     ],
+     "color": "#FF8FB8",
+     "at": 1.55,
+     "keep": false
+    },
+    {
+     "countries": [
+      "Romania"
+     ],
+     "color": "#FFD83C",
+     "at": 1.8,
+     "keep": false
+    },
+    {
+     "countries": [
+      "Bulgaria"
+     ],
+     "color": "#8FD0EE",
+     "at": 2.05,
+     "keep": false
+    },
+    {
+     "countries": [
+      "Moldova"
+     ],
+     "color": "#FF7A3C",
+     "at": 2.3,
+     "keep": false
+    },
+    {
+     "countries": [
+      "Ukraine"
+     ],
+     "color": "#7BD389",
+     "at": 2.55,
+     "keep": false
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      14.2,
+      48.4
+     ],
+     "stack": [
+      {
+       "text": "Allemand",
+       "color": "#E8503A"
+      }
+     ],
+     "side": "l",
+     "when": {
+      "line": 0,
+      "word": "allemand"
+     }
+    },
+    {
+     "at": [
+      19.04,
+      47.5
+     ],
+     "stack": [
+      {
+       "text": "Hongrois",
+       "color": "#3E9A63"
+      }
+     ],
+     "when": {
+      "line": 0,
+      "word": "hongrois"
+     },
+     "side": "b"
+    },
+    {
+     "at": [
+      20.46,
+      44.82
+     ],
+     "stack": [
+      {
+       "text": "Serbe",
+       "color": "#FF8FB8"
+      }
+     ],
+     "when": {
+      "line": 0,
+      "word": "serbe"
+     }
+    },
+    {
+     "at": [
+      26.1,
+      44.43
+     ],
+     "stack": [
+      {
+       "text": "Roumain",
+       "color": "#FFD83C"
+      }
+     ],
+     "when": {
+      "line": 0,
+      "word": "roumain"
+     }
+    }
+   ],
+   "art": [
+    {
+     "kind": "languages",
+     "at": {
+      "line": 1,
+      "word": "Quatre",
+      "d": -0.3
+     },
+     "dur": 3.6,
+     "title": "Quatre familles de langues",
+     "items": [
+      {
+       "icon": "house",
+       "where": "Germanique",
+       "lang": "Allemand",
+       "note": "Allemagne, Autriche",
+       "color": "#E8503A"
+      },
+      {
+       "icon": "school",
+       "where": "Slave",
+       "lang": "Serbe, croate",
+       "note": "Serbie, Croatie, Bulgarie",
+       "color": "#FF8FB8"
+      },
+      {
+       "icon": "court",
+       "where": "Romane",
+       "lang": "Roumain",
+       "note": "Roumanie, Moldavie",
+       "color": "#FFD83C"
+      },
+      {
+       "icon": "school",
+       "where": "Ouralienne",
+       "lang": "Hongrois",
+       "note": "Hongrie",
+       "color": "#3E9A63"
+      }
+     ]
+    }
+   ],
+   "say": [
+    "Sur ses rives, on parle allemand, slovaque, hongrois, croate, serbe, roumain, bulgare, ukrainien.",
+    "Quatre familles : germanique, slave, romane et ouralienne."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1856",
+   "text": "Le fleuve ouvert à tous",
+   "focus": {
+    "box": [
+     22.5,
+     43.2,
+     31.0,
+     46.6
+    ]
+   },
+   "moves": [
+    {
+     "from": [
+      25.9,
+      43.9
+     ],
+     "to": [
+      28.05,
+      45.43
+     ],
+     "n": 1,
+     "color": "#8FD0EE",
+     "at": {
+      "line": 0,
+      "word": "navires"
+     },
+     "dur": 1.4
+    },
+    {
+     "from": [
+      28.05,
+      45.43
+     ],
+     "to": [
+      29.55,
+      45.15
+     ],
+     "n": 1,
+     "color": "#8FD0EE",
+     "at": {
+      "line": 0,
+      "word": "navires",
+      "d": 1.4
+     },
+     "dur": 1.2
+    }
+   ],
+   "people": [
+    {
+     "who": "marin",
+     "at": [
+      25.5,
+      45.8
+     ],
+     "size": 180,
+     "say": "Libre passage !",
+     "when": {
+      "line": 0,
+      "word": "tous",
+      "d": 0.4
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      28.05,
+      45.43
+     ],
+     "title": "Galati",
+     "side": "t",
+     "when": {
+      "line": 1,
+      "word": "commission"
+     }
+    },
+    {
+     "at": [
+      29.66,
+      45.16
+     ],
+     "title": "Sulina",
+     "side": "b",
+     "when": {
+      "line": 1,
+      "word": "embouchure"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      29.66,
+      45.16
+     ],
+     "when": {
+      "line": 1,
+      "word": "embouchure"
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Mer Noire",
+     "at": [
+      30.0,
+      43.6
+     ],
+     "size": 38,
+     "when": {
+      "line": 1,
+      "word": "mer"
+     }
+    },
+    {
+     "text": "Roumanie",
+     "at": [
+      25.3,
+      46.2
+     ],
+     "size": 36,
+     "when": {
+      "line": 0,
+      "d": 0.8
+     }
+    },
+    {
+     "text": "Bulgarie",
+     "at": [
+      25.0,
+      43.4
+     ],
+     "size": 36,
+     "when": {
+      "line": 0,
+      "d": 1.2
+     }
+    }
+   ],
+   "say": [
+    "En 1856, le traité de Paris ouvre le Danube aux navires de tous les pays.",
+    "Une commission européenne du Danube entretient l’embouchure jusqu’à la mer Noire."
+   ],
+   "highlight": [
+    {
+     "countries": [
+      "Romania"
+     ],
+     "color": "#FFD83C",
+     "at": 0.5,
+     "keep": false
+    },
+    {
+     "countries": [
+      "Bulgaria"
+     ],
+     "color": "#8FD0EE",
+     "at": 0.7,
+     "keep": false
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "text": "Le delta, trésor de l’Unesco",
+   "focus": {
+    "box": [
+     27.2,
+     43.9,
+     31.0,
+     46.8
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Romania"
+     ],
+     "color": "#FFD83C",
+     "at": {
+      "line": 0,
+      "word": "finit"
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Ukraine"
+     ],
+     "color": "#7BD389",
+     "at": {
+      "line": 0,
+      "word": "Roumanie"
+     },
+     "keep": false
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      29.45,
+      45.2
+     ],
+     "title": "Delta du Danube",
+     "side": "l",
+     "when": {
+      "line": 0,
+      "word": "delta"
+     }
+    },
+    {
+     "at": [
+      29.0,
+      46.2
+     ],
+     "title": "Unesco, 1991",
+     "side": "l",
+     "when": {
+      "line": 1,
+      "word": "Unesco"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      29.6,
+      45.2
+     ],
+     "when": {
+      "line": 0,
+      "word": "delta"
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Mer Noire",
+     "at": [
+      30.4,
+      44.5
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "word": "Noire"
+     }
+    },
+    {
+     "text": "Roumanie",
+     "at": [
+      28.0,
+      45.9
+     ],
+     "size": 34,
+     "when": {
+      "line": 0,
+      "word": "Roumanie"
+     }
+    },
+    {
+     "text": "Ukraine",
+     "at": [
+      29.6,
+      46.6
+     ],
+     "size": 34,
+     "when": {
+      "line": 0,
+      "word": "Ukraine"
+     }
+    }
+   ],
+   "say": [
+    "Le Danube finit en delta, entre Roumanie et Ukraine, dans la mer Noire.",
+    "Un des plus grands deltas d’Europe, refuge d’oiseaux, à l’Unesco depuis 1991."
+   ]
+  },
+  {
+   "type": "map",
+   "text": "Frontière, route, lien",
+   "focus": {
+    "box": [
+     7.0,
+     42.2,
+     30.8,
+     50.2
+    ]
+   },
+   "art": [
+    {
+     "kind": "timeline",
+     "at": {
+      "line": 0,
+      "d": 0.1
+     },
+     "dur": 3.6,
+     "title": "Cinq dates du Danube",
+     "items": [
+      {
+       "year": "1er siècle",
+       "text": "Frontière romaine"
+      },
+      {
+       "year": "1699",
+       "text": "Karlowitz"
+      },
+      {
+       "year": "1856",
+       "text": "Commission du Danube"
+      },
+      {
+       "year": "1867",
+       "text": "Autriche-Hongrie"
+      },
+      {
+       "year": "1994",
+       "text": "Fleuve protégé"
+      }
+     ]
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      9.5,
+      47.9
+     ],
+     "to": [
+      29.65,
+      45.17
+     ],
+     "n": 3,
+     "color": "#8FD0EE",
+     "at": {
+      "line": 1,
+      "word": "Frontière"
+     },
+     "dur": 1.6
+    }
+   ],
+   "say": [
+    "Du 1er siècle à 1994, cinq dates, dont Karlowitz en 1699.",
+    "Frontière de Rome, route des empires, lien entre dix pays."
+   ]
+  },
+  {
+   "type": "final",
+   "text": "Un fleuve, dix pays",
+   "sub": "Le Danube",
+   "focus": {
+    "box": [
+     7.0,
+     42.0,
+     31.0,
+     50.4
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Germany"
+     ],
+     "color": "#FFB347",
+     "at": 0.4,
+     "keep": false
+    },
+    {
+     "countries": [
+      "Austria"
+     ],
+     "color": "#E8503A",
+     "at": 0.6000000000000001,
+     "keep": false
+    },
+    {
+     "countries": [
+      "Slovakia"
+     ],
+     "color": "#4FA3E0",
+     "at": 0.8,
+     "keep": false
+    },
+    {
+     "countries": [
+      "Hungary"
+     ],
+     "color": "#3E9A63",
+     "at": 1.0,
+     "keep": false
+    },
+    {
+     "countries": [
+      "Croatia"
+     ],
+     "color": "#C77DFF",
+     "at": 1.2000000000000002,
+     "keep": false
+    },
+    {
+     "countries": [
+      "Serbia"
+     ],
+     "color": "#FF8FB8",
+     "at": 1.4,
+     "keep": false
+    },
+    {
+     "countries": [
+      "Romania"
+     ],
+     "color": "#FFD83C",
+     "at": 1.6,
+     "keep": false
+    },
+    {
+     "countries": [
+      "Bulgaria"
+     ],
+     "color": "#8FD0EE",
+     "at": 1.8000000000000003,
+     "keep": false
+    },
+    {
+     "countries": [
+      "Moldova"
+     ],
+     "color": "#FF7A3C",
+     "at": 2.0,
+     "keep": false
+    },
+    {
+     "countries": [
+      "Ukraine"
+     ],
+     "color": "#7BD389",
+     "at": 2.2,
+     "keep": false
+    }
+   ],
+   "people": [
+    {
+     "who": "marin",
+     "at": [
+      12.5,
+      44.0
+     ],
+     "size": 180,
+     "say": "Bon voyage !",
+     "wave": true,
+     "when": 2.5
+    }
+   ],
+   "say": [
+    "Voilà pourquoi le Danube est frontière, route et lien.",
+    "Voilà la réponse à la question qui nous a ouverts :"
+   ]
+  }
+ ]
+}

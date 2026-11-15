@@ -1,0 +1,165 @@
+{
+  "format": "atlas",
+  "id": "atlas-suisse-romandie",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "Où parle-t-on français en Suisse ?",
+      "focus": "europe",
+      "people": [
+        {
+          "who": "heidi",
+          "at": "Berne",
+          "size": 230,
+          "rays": true,
+          "wave": true,
+          "label": {
+            "title": "Heidi",
+            "sub": "ta guide suisse"
+          }
+        }
+      ],
+      "say": [
+        "Salut ! Où parle-t-on français en Suisse ? Suis la carte !"
+      ]
+    },
+    {
+      "type": "map",
+      "text": "Genève, la porte du monde",
+      "focus": {
+        "cantons": [
+          "GE"
+        ]
+      },
+      "pad": 1.6,
+      "highlight": {
+        "cantons": [
+          "GE"
+        ],
+        "color": "#3B82F6"
+      },
+      "people": [
+        {
+          "who": "fr",
+          "at": "Genève",
+          "say": "Bonjour !",
+          "label": {
+            "title": "Genève",
+            "sub": "ville internationale"
+          }
+        }
+      ],
+      "say": [
+        "On commence à Genève, la porte ouverte sur le monde."
+      ]
+    },
+    {
+      "type": "map",
+      "text": "Vaud, entre lac et vignes",
+      "focus": {
+        "cantons": [
+          "GE",
+          "VD"
+        ]
+      },
+      "highlight": {
+        "cantons": [
+          "VD"
+        ],
+        "color": "#3B82F6"
+      },
+      "pills": [
+        {
+          "at": "Lausanne",
+          "title": "Lausanne",
+          "sub": "capitale olympique",
+          "side": "l"
+        }
+      ],
+      "say": [
+        "Puis Vaud, entre lac et vignes, avec Lausanne, la capitale olympique."
+      ]
+    },
+    {
+      "type": "map",
+      "text": "Neuchâtel et le Jura",
+      "focus": {
+        "cantons": [
+          "GE",
+          "VD",
+          "NE",
+          "JU"
+        ]
+      },
+      "highlight": {
+        "cantons": [
+          "NE",
+          "JU"
+        ],
+        "color": "#3B82F6"
+      },
+      "labels": [
+        {
+          "text": "Romandie",
+          "at": [
+            6.7,
+            46.75
+          ]
+        }
+      ],
+      "say": [
+        "Neuchâtel et le Jura complètent la Romandie."
+      ]
+    },
+    {
+      "type": "map",
+      "year": "1481",
+      "text": "Fribourg, un canton bilingue",
+      "focus": "all",
+      "highlight": {
+        "cantons": [
+          "FR"
+        ],
+        "color": "#9B6BE0",
+        "keep": false
+      },
+      "pills": [
+        {
+          "at": "Fribourg",
+          "title": "Fribourg",
+          "sub": "français et allemand",
+          "side": "t",
+          "when": {
+            "line": 0,
+            "d": 2.0
+          }
+        }
+      ],
+      "say": [
+        "Fribourg rejoint la Confédération en 1481. Aujourd’hui encore, on y parle français et allemand !"
+      ]
+    },
+    {
+      "type": "final",
+      "text": "Et chez toi, on dit quoi ?",
+      "sub": "Écris-le en commentaire",
+      "focus": "all",
+      "people": [
+        {
+          "who": "heidi",
+          "at": "Berne",
+          "size": 240,
+          "rays": true,
+          "wave": true,
+          "label": {
+            "title": "Heidi",
+            "sub": "à bientôt !"
+          }
+        }
+      ],
+      "say": [
+        "Et chez toi, on dit quoi ? Écris-le en commentaire, et abonne-toi !"
+      ]
+    }
+  ]
+}

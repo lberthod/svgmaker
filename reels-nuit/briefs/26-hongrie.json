@@ -1,0 +1,1938 @@
+{
+ "format": "atlas",
+ "id": "atlas-hongrie",
+ "base": {
+  "countries": [
+   "Hungary"
+  ]
+ },
+ "terrain": [
+  {
+   "box": [
+    -14,
+    27,
+    49,
+    76
+   ],
+   "px": 3000,
+   "z": 6
+  },
+  {
+   "box": [
+    7.6,
+    40.6,
+    46.4,
+    63.4
+   ],
+   "px": 2800,
+   "z": 8
+  }
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "text": "Le hongrois, cousin du finnois",
+   "sub": "La Hongrie",
+   "focus": {
+    "box": [
+     11,
+     43.5,
+     27.5,
+     51
+    ]
+   },
+   "highlight": {
+    "countries": [
+     "Hungary"
+    ],
+    "color": "#FFD83C",
+    "at": 0.7,
+    "keep": false
+   },
+   "pills": [
+    {
+     "at": [
+      19.04,
+      47.5
+     ],
+     "title": "Budapest",
+     "sub": "langue magyare",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "hongrois"
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Autriche",
+     "at": [
+      14.2,
+      47.6
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "word": "voisins",
+      "d": 0.0
+     }
+    },
+    {
+     "text": "Slovaquie",
+     "at": [
+      19.4,
+      49.3
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "word": "voisins",
+      "d": 0.2
+     }
+    },
+    {
+     "text": "Roumanie",
+     "at": [
+      24.6,
+      46.3
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "word": "voisins",
+      "d": 0.4
+     }
+    },
+    {
+     "text": "Serbie",
+     "at": [
+      20.7,
+      44.5
+     ],
+     "size": 36,
+     "when": {
+      "line": 0,
+      "word": "voisins",
+      "d": 0.6
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      19.04,
+      47.5
+     ],
+     "when": 0.4
+    }
+   ],
+   "say": [
+    "Pourquoi le hongrois ressemble-t-il au finnois, et non à ses voisins ?"
+   ]
+  },
+  {
+   "type": "map",
+   "text": "Le magyar, cousin du finnois",
+   "focus": {
+    "box": [
+     13,
+     41.5,
+     36,
+     63
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Hungary"
+     ],
+     "color": "#FFD83C",
+     "at": {
+      "line": 0,
+      "word": "hongrois",
+      "d": -0.1
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Finland",
+      "Estonia"
+     ],
+     "color": "#3E9A63",
+     "at": {
+      "line": 0,
+      "word": "finnois",
+      "d": -0.1
+     },
+     "keep": false
+    }
+   ],
+   "line": {
+    "points": [
+     [
+      19.04,
+      47.5
+     ],
+     [
+      24.94,
+      60.17
+     ]
+    ],
+    "label": "Cousins",
+    "color": "#FFFFFF",
+    "at": {
+     "line": 1,
+     "word": "cousins",
+     "d": -0.3
+    }
+   },
+   "pills": [
+    {
+     "at": [
+      19.04,
+      47.5
+     ],
+     "title": "Budapest",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "hongrois",
+      "d": 0.2
+     }
+    },
+    {
+     "at": [
+      24.94,
+      60.17
+     ],
+     "title": "Helsinki",
+     "side": "l",
+     "when": {
+      "line": 0,
+      "word": "finnois",
+      "d": 0.2
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      19.04,
+      47.5
+     ],
+     "when": 0.4
+    }
+   ],
+   "say": [
+    "Le hongrois, ou magyar, est de la famille ouralienne, comme le finnois et l’estonien.",
+    "Ses cousins vivent à environ mille quatre cents kilomètres."
+   ],
+   "labels": [
+    {
+     "text": "Estonie",
+     "at": [
+      25.0,
+      58.6
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "word": "estonien",
+      "d": 0.2
+     }
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "text": "Un îlot ouralien parmi trois familles",
+   "focus": {
+    "box": [
+     9,
+     41.5,
+     31,
+     52.5
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Slovakia",
+      "Ukraine",
+      "Serbia",
+      "Croatia",
+      "Slovenia"
+     ],
+     "color": "#4FA3E0",
+     "at": {
+      "line": 0,
+      "word": "slaves",
+      "d": -0.1
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Austria"
+     ],
+     "color": "#E8A33C",
+     "at": {
+      "line": 0,
+      "word": "germaniques",
+      "d": -0.1
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Romania"
+     ],
+     "color": "#C77DFF",
+     "at": {
+      "line": 0,
+      "word": "romanes",
+      "d": -0.1
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Hungary"
+     ],
+     "color": "#FFD83C",
+     "at": {
+      "line": 1,
+      "word": "hongrois",
+      "d": -0.2
+     },
+     "keep": false
+    }
+   ],
+   "labels": [
+    {
+     "text": "Slaves",
+     "at": [
+      19.5,
+      49.2
+     ],
+     "size": 40,
+     "when": {
+      "line": 0,
+      "word": "slaves",
+      "d": 0.2
+     }
+    },
+    {
+     "text": "Germaniques",
+     "at": [
+      13.6,
+      47.9
+     ],
+     "size": 36,
+     "when": {
+      "line": 0,
+      "word": "germaniques",
+      "d": 0.2
+     }
+    },
+    {
+     "text": "Romanes",
+     "at": [
+      25.2,
+      45.9
+     ],
+     "size": 40,
+     "when": {
+      "line": 0,
+      "word": "romanes",
+      "d": 0.2
+     }
+    }
+   ],
+   "art": [
+    {
+     "kind": "languages",
+     "at": {
+      "line": 1,
+      "d": -0.6
+     },
+     "dur": 4.6,
+     "title": "Quatre langues, quatre familles",
+     "items": [
+      {
+       "icon": "house",
+       "where": "Slovaquie",
+       "lang": "Slave",
+       "note": "slovaque",
+       "color": "#4FA3E0"
+      },
+      {
+       "icon": "court",
+       "where": "Autriche",
+       "lang": "Germanique",
+       "note": "allemand",
+       "color": "#E8A33C"
+      },
+      {
+       "icon": "school",
+       "where": "Roumanie",
+       "lang": "Romane",
+       "note": "roumain",
+       "color": "#C77DFF"
+      },
+      {
+       "icon": "house",
+       "where": "Hongrie",
+       "lang": "Ouralienne",
+       "note": "magyar",
+       "color": "#FFD83C"
+      }
+     ]
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      19.04,
+      47.5
+     ],
+     "when": 0.4
+    }
+   ],
+   "say": [
+    "Autour de la Hongrie, on parle des langues slaves, germaniques et romanes.",
+    "Le hongrois vient d’une autre famille : l’ouralienne."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "895",
+   "text": "Les Magyars arrivent de l’Est",
+   "focus": {
+    "box": [
+     8,
+     43,
+     46,
+     58
+    ]
+   },
+   "moves": [
+    {
+     "from": [
+      44,
+      55
+     ],
+     "to": [
+      32,
+      48.5
+     ],
+     "n": 4,
+     "color": "#E8503A",
+     "label": "Les Magyars",
+     "at": {
+      "line": 0,
+      "word": "Vers",
+      "d": 0.2
+     },
+     "dur": 2.2
+    },
+    {
+     "from": [
+      32,
+      48.5
+     ],
+     "to": [
+      19.4,
+      47.2
+     ],
+     "n": 4,
+     "color": "#E8503A",
+     "at": {
+      "line": 0,
+      "word": "arrivent",
+      "d": -0.6
+     },
+     "dur": 2.0
+    }
+   ],
+   "highlight": {
+    "countries": [
+     "Hungary"
+    ],
+    "color": "#FFD83C",
+    "at": {
+     "line": 1,
+     "word": "fondent",
+     "d": -0.2
+    },
+    "keep": false
+   },
+   "people": [
+    {
+     "who": "soldat",
+     "at": [
+      23.5,
+      50.2
+     ],
+     "size": 180,
+     "say": "Un nouveau pays !",
+     "label": {
+      "title": "Árpád",
+      "sub": "895"
+     },
+     "when": {
+      "line": 1,
+      "word": "fondent"
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Steppes",
+     "at": [
+      38,
+      50.5
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "word": "Vers",
+      "d": 0.0
+     }
+    },
+    {
+     "text": "Carpates",
+     "at": [
+      28.5,
+      48.2
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "word": "Carpates",
+      "d": 0.0
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      19.4,
+      47.2
+     ],
+     "when": {
+      "line": 0,
+      "word": "arrivent",
+      "d": 0.6
+     }
+    }
+   ],
+   "say": [
+    "Vers 895, des cavaliers venus de l’est, les Magyars, arrivent dans le bassin des Carpates.",
+    "Ils y fondent leur pays, et gardent leur langue."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1000",
+   "text": "Étienne 1er, premier roi de Hongrie",
+   "focus": {
+    "box": [
+     10,
+     43,
+     28,
+     51
+    ]
+   },
+   "highlight": {
+    "countries": [
+     "Hungary"
+    ],
+    "color": "#FFD83C",
+    "at": {
+     "line": 0,
+     "word": "roi",
+     "d": -0.4
+    },
+    "keep": false
+   },
+   "people": [
+    {
+     "who": "roi",
+     "at": [
+      19.0,
+      48.6
+     ],
+     "size": 170,
+     "say": "Roi de Hongrie !",
+     "label": {
+      "title": "Étienne 1er",
+      "sub": "1000"
+     },
+     "when": {
+      "line": 0,
+      "word": "Étienne",
+      "d": 0.0
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Slaves",
+     "at": [
+      20.6,
+      49.8
+     ],
+     "size": 40,
+     "when": {
+      "line": 1,
+      "word": "magyar",
+      "d": 0.3
+     }
+    },
+    {
+     "text": "Germaniques",
+     "at": [
+      13.8,
+      48.0
+     ],
+     "size": 36,
+     "when": {
+      "line": 1,
+      "word": "magyar",
+      "d": 0.6
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      18.74,
+      47.79
+     ],
+     "when": {
+      "line": 0,
+      "word": "Étienne",
+      "d": 0.3
+     }
+    }
+   ],
+   "say": [
+    "Vers l’an 1000, Étienne 1er devient roi et ouvre la Hongrie à l’Europe chrétienne.",
+    "Le royaume garde sa langue, le magyar, entre voisins slaves et germaniques."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1526",
+   "text": "Ottomans et Habsbourg",
+   "focus": {
+    "box": [
+     11,
+     41,
+     30,
+     49.5
+    ]
+   },
+   "moves": [
+    {
+     "from": [
+      26,
+      43
+     ],
+     "to": [
+      18.68,
+      46.0
+     ],
+     "n": 4,
+     "color": "#B53A22",
+     "label": "Armée ottomane",
+     "at": {
+      "line": 0,
+      "word": "armée",
+      "d": -0.1
+     },
+     "dur": 1.8
+    }
+   ],
+   "highlight": [
+    {
+     "regions": [
+      {
+       "c": "Hungary",
+       "n": "Baranya"
+      },
+      {
+       "c": "Hungary",
+       "n": "Tolna"
+      },
+      {
+       "c": "Hungary",
+       "n": "Somogy"
+      },
+      {
+       "c": "Hungary",
+       "n": "Bács-Kiskun"
+      },
+      {
+       "c": "Hungary",
+       "n": "Csongrád"
+      },
+      {
+       "c": "Hungary",
+       "n": "Békés"
+      },
+      {
+       "c": "Hungary",
+       "n": "Fejér"
+      },
+      {
+       "c": "Hungary",
+       "n": "Pest"
+      },
+      {
+       "c": "Hungary",
+       "n": "Budapest"
+      },
+      {
+       "c": "Hungary",
+       "n": "Jász-Nagykun-Szolnok"
+      },
+      {
+       "c": "Hungary",
+       "n": "Heves"
+      },
+      {
+       "c": "Hungary",
+       "n": "Hajdú-Bihar"
+      }
+     ],
+     "color": "#B53A22",
+     "at": {
+      "line": 1,
+      "word": "ottoman",
+      "d": -0.2
+     },
+     "keep": false,
+     "countries": [
+      "Serbia",
+      "Bulgaria"
+     ]
+    },
+    {
+     "countries": [
+      "Austria"
+     ],
+     "regions": [
+      {
+       "c": "Hungary",
+       "n": "Gyor-Moson-Sopron"
+      },
+      {
+       "c": "Hungary",
+       "n": "Vas"
+      },
+      {
+       "c": "Hungary",
+       "n": "Zala"
+      },
+      {
+       "c": "Hungary",
+       "n": "Veszprém"
+      },
+      {
+       "c": "Hungary",
+       "n": "Komárom-Esztergom"
+      },
+      {
+       "c": "Hungary",
+       "n": "Nógrád"
+      },
+      {
+       "c": "Hungary",
+       "n": "Borsod-Abaúj-Zemplén"
+      }
+     ],
+     "color": "#E8A33C",
+     "at": {
+      "line": 1,
+      "word": "Habsbourg",
+      "d": -0.4
+     },
+     "keep": false
+    }
+   ],
+   "people": [
+    {
+     "who": "roi",
+     "at": [
+      20.5,
+      47.8
+     ],
+     "size": 170,
+     "mood": "sad",
+     "say": "La défaite !",
+     "when": {
+      "line": 0,
+      "word": "écrase",
+      "d": 0.0
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      18.68,
+      46.0
+     ],
+     "title": "Mohacs",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "écrase",
+      "d": 0.3
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Empire ottoman",
+     "at": [
+      26.5,
+      43.6
+     ],
+     "size": 38,
+     "when": {
+      "line": 1,
+      "word": "ottoman",
+      "d": 0.2
+     }
+    },
+    {
+     "text": "Habsbourg",
+     "at": [
+      15.2,
+      47.9
+     ],
+     "size": 38,
+     "when": {
+      "line": 1,
+      "word": "Habsbourg",
+      "d": 0.2
+     }
+    }
+   ],
+   "say": [
+    {
+     "say": "En 1526, à Mohatch, l’armée ottomane écrase celle du roi de Hongrie.",
+     "show": "En 1526, à Mohacs, l’armée ottomane écrase celle du roi de Hongrie."
+    },
+    "Pendant environ cent cinquante ans, le centre reste ottoman et l’ouest passe aux Habsbourg."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1867",
+   "text": "Le Compromis : deux couronnes",
+   "focus": {
+    "box": [
+     9.5,
+     43,
+     28,
+     51.2
+    ]
+   },
+   "highlight": [
+    {
+     "regions": [
+      {
+       "c": "Austria",
+       "n": "Niederösterreich"
+      },
+      {
+       "c": "Austria",
+       "n": "Oberösterreich"
+      },
+      {
+       "c": "Austria",
+       "n": "Vorarlberg"
+      },
+      {
+       "c": "Austria",
+       "n": "Tirol"
+      },
+      {
+       "c": "Austria",
+       "n": "Salzburg"
+      },
+      {
+       "c": "Austria",
+       "n": "Kärnten"
+      },
+      {
+       "c": "Austria",
+       "n": "Steiermark"
+      },
+      {
+       "c": "Austria",
+       "n": "Wien"
+      }
+     ],
+     "color": "#E8A33C",
+     "at": {
+      "line": 1,
+      "word": "Compromis",
+      "d": 0.1
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Hungary"
+     ],
+     "color": "#FFD83C",
+     "at": {
+      "line": 1,
+      "word": "Compromis",
+      "d": 0.3
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Slovakia"
+     ],
+     "color": "#4FA3E0",
+     "at": {
+      "line": 2,
+      "word": "terres",
+      "d": 0.0
+     },
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "Romania",
+       "n": "Alba"
+      },
+      {
+       "c": "Romania",
+       "n": "Bistrita-Nasaud"
+      },
+      {
+       "c": "Romania",
+       "n": "Brasov"
+      },
+      {
+       "c": "Romania",
+       "n": "Cluj"
+      },
+      {
+       "c": "Romania",
+       "n": "Covasna"
+      },
+      {
+       "c": "Romania",
+       "n": "Harghita"
+      },
+      {
+       "c": "Romania",
+       "n": "Hunedoara"
+      },
+      {
+       "c": "Romania",
+       "n": "Mures"
+      },
+      {
+       "c": "Romania",
+       "n": "Salaj"
+      },
+      {
+       "c": "Romania",
+       "n": "Sibiu"
+      },
+      {
+       "c": "Romania",
+       "n": "Arad"
+      },
+      {
+       "c": "Romania",
+       "n": "Bihor"
+      },
+      {
+       "c": "Romania",
+       "n": "Maramures"
+      },
+      {
+       "c": "Romania",
+       "n": "Satu Mare"
+      },
+      {
+       "c": "Romania",
+       "n": "Timis"
+      },
+      {
+       "c": "Romania",
+       "n": "Caras-Severin"
+      }
+     ],
+     "color": "#C77DFF",
+     "at": {
+      "line": 2,
+      "word": "terres",
+      "d": 0.3
+     },
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "Serbia",
+       "n": "Severno-Backi"
+      },
+      {
+       "c": "Serbia",
+       "n": "Zapadno-Backi"
+      },
+      {
+       "c": "Serbia",
+       "n": "Severno-Banatski"
+      },
+      {
+       "c": "Serbia",
+       "n": "Sremski"
+      },
+      {
+       "c": "Serbia",
+       "n": "Južno-Backi"
+      },
+      {
+       "c": "Serbia",
+       "n": "Srednje-Banatski"
+      },
+      {
+       "c": "Serbia",
+       "n": "Južno-Banatski"
+      }
+     ],
+     "color": "#E8503A",
+     "at": {
+      "line": 2,
+      "word": "terres",
+      "d": 0.6
+     },
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "Austria",
+       "n": "Burgenland"
+      }
+     ],
+     "color": "#FF8FB8",
+     "at": {
+      "line": 2,
+      "word": "terres",
+      "d": 0.9
+     },
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "Ukraine",
+       "n": "Transcarpathia"
+      }
+     ],
+     "color": "#4FD0C0",
+     "at": {
+      "line": 2,
+      "word": "terres",
+      "d": 1.2
+     },
+     "keep": false
+    }
+   ],
+   "line": {
+    "points": [
+     [
+      16.37,
+      48.21
+     ],
+     [
+      19.04,
+      47.5
+     ]
+    ],
+    "label": "Vienne – Buda",
+    "color": "#FFFFFF",
+    "at": {
+     "line": 1,
+     "word": "Compromis",
+     "d": 0.5
+    }
+   },
+   "people": [
+    {
+     "who": "roi",
+     "at": [
+      15.0,
+      49.4
+     ],
+     "size": 200,
+     "say": "Deux couronnes !",
+     "label": {
+      "title": "François-Joseph",
+      "sub": "1867"
+     },
+     "when": {
+      "line": 1,
+      "word": "François-Joseph",
+      "d": 0.0
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      16.37,
+      48.21
+     ],
+     "title": "Vienne",
+     "side": "t",
+     "when": {
+      "line": 1,
+      "word": "Compromis",
+      "d": 0.0
+     }
+    },
+    {
+     "at": [
+      19.04,
+      47.5
+     ],
+     "title": "Buda",
+     "side": "b",
+     "when": {
+      "line": 1,
+      "word": "Compromis",
+      "d": 0.2
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      19.04,
+      47.5
+     ],
+     "when": {
+      "line": 1,
+      "word": "Compromis",
+      "d": 0.4
+     }
+    }
+   ],
+   "say": [
+    "Depuis 1844, le hongrois est langue officielle.",
+    "En 1867, le Compromis crée l’Autriche-Hongrie : François-Joseph règne à Vienne et à Buda.",
+    "La Hongrie gouverne ses terres."
+   ],
+   "labels": [
+    {
+     "text": "magyar officiel 1844",
+     "at": [
+      13.0,
+      50.2
+     ],
+     "size": 36,
+     "when": {
+      "line": 0,
+      "word": "hongrois",
+      "d": 0.0
+     }
+    },
+    {
+     "text": "Slovaquie",
+     "at": [
+      19.6,
+      49.4
+     ],
+     "size": 36,
+     "when": {
+      "line": 2,
+      "word": "terres",
+      "d": 0.2
+     }
+    },
+    {
+     "text": "Transylvanie",
+     "at": [
+      24.6,
+      46.2
+     ],
+     "size": 36,
+     "when": {
+      "line": 2,
+      "word": "terres",
+      "d": 0.5
+     }
+    },
+    {
+     "text": "Voïvodine",
+     "at": [
+      20.2,
+      45.1
+     ],
+     "size": 36,
+     "when": {
+      "line": 2,
+      "word": "terres",
+      "d": 0.8
+     }
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1920",
+   "text": "Le traité de Trianon",
+   "focus": {
+    "box": [
+     12,
+     43.5,
+     28.5,
+     50.5
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Hungary"
+     ],
+     "color": "#FFD83C",
+     "at": {
+      "line": 0,
+      "word": "Hongrie",
+      "d": -0.3
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Slovakia"
+     ],
+     "color": "#4FA3E0",
+     "at": {
+      "line": 1,
+      "word": "voisins",
+      "d": -0.6
+     },
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "Romania",
+       "n": "Alba"
+      },
+      {
+       "c": "Romania",
+       "n": "Bistrita-Nasaud"
+      },
+      {
+       "c": "Romania",
+       "n": "Brasov"
+      },
+      {
+       "c": "Romania",
+       "n": "Cluj"
+      },
+      {
+       "c": "Romania",
+       "n": "Covasna"
+      },
+      {
+       "c": "Romania",
+       "n": "Harghita"
+      },
+      {
+       "c": "Romania",
+       "n": "Hunedoara"
+      },
+      {
+       "c": "Romania",
+       "n": "Mures"
+      },
+      {
+       "c": "Romania",
+       "n": "Salaj"
+      },
+      {
+       "c": "Romania",
+       "n": "Sibiu"
+      },
+      {
+       "c": "Romania",
+       "n": "Arad"
+      },
+      {
+       "c": "Romania",
+       "n": "Bihor"
+      },
+      {
+       "c": "Romania",
+       "n": "Maramures"
+      },
+      {
+       "c": "Romania",
+       "n": "Satu Mare"
+      },
+      {
+       "c": "Romania",
+       "n": "Timis"
+      },
+      {
+       "c": "Romania",
+       "n": "Caras-Severin"
+      }
+     ],
+     "color": "#C77DFF",
+     "at": {
+      "line": 1,
+      "word": "voisins",
+      "d": -0.3
+     },
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "Serbia",
+       "n": "Severno-Backi"
+      },
+      {
+       "c": "Serbia",
+       "n": "Zapadno-Backi"
+      },
+      {
+       "c": "Serbia",
+       "n": "Severno-Banatski"
+      },
+      {
+       "c": "Serbia",
+       "n": "Sremski"
+      },
+      {
+       "c": "Serbia",
+       "n": "Južno-Backi"
+      },
+      {
+       "c": "Serbia",
+       "n": "Srednje-Banatski"
+      },
+      {
+       "c": "Serbia",
+       "n": "Južno-Banatski"
+      }
+     ],
+     "color": "#E8503A",
+     "at": {
+      "line": 1,
+      "word": "voisins",
+      "d": 0.0
+     },
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "Austria",
+       "n": "Burgenland"
+      }
+     ],
+     "color": "#FF8FB8",
+     "at": {
+      "line": 1,
+      "word": "voisins",
+      "d": 0.2
+     },
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "Ukraine",
+       "n": "Transcarpathia"
+      }
+     ],
+     "color": "#4FD0C0",
+     "at": {
+      "line": 1,
+      "word": "voisins",
+      "d": 0.3
+     },
+     "keep": false
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      19.5,
+      47.8
+     ],
+     "to": [
+      19.5,
+      48.9
+     ],
+     "n": 0,
+     "color": "#FF5A36",
+     "at": {
+      "line": 1,
+      "word": "Hongrois",
+      "d": 0.0
+     },
+     "dur": 1.4
+    },
+    {
+     "from": [
+      21.0,
+      47.0
+     ],
+     "to": [
+      24.4,
+      46.3
+     ],
+     "n": 0,
+     "color": "#FF5A36",
+     "at": {
+      "line": 1,
+      "word": "Hongrois",
+      "d": 0.2
+     },
+     "dur": 1.4
+    },
+    {
+     "from": [
+      19.6,
+      46.3
+     ],
+     "to": [
+      20.0,
+      45.3
+     ],
+     "n": 0,
+     "color": "#FF5A36",
+     "at": {
+      "line": 1,
+      "word": "Hongrois",
+      "d": 0.4
+     },
+     "dur": 1.4
+    }
+   ],
+   "labels": [
+    {
+     "text": "Slovaquie",
+     "at": [
+      19.6,
+      49.3
+     ],
+     "size": 38,
+     "when": {
+      "line": 1,
+      "word": "voisins",
+      "d": 0.2
+     }
+    },
+    {
+     "text": "Transylvanie",
+     "at": [
+      24.6,
+      46.6
+     ],
+     "size": 38,
+     "when": {
+      "line": 1,
+      "word": "voisins",
+      "d": 0.4
+     }
+    },
+    {
+     "text": "Voïvodine",
+     "at": [
+      20.2,
+      45.1
+     ],
+     "size": 36,
+     "when": {
+      "line": 1,
+      "word": "voisins",
+      "d": 0.6
+     }
+    }
+   ],
+   "art": [
+    {
+     "kind": "split",
+     "at": {
+      "line": 0,
+      "word": "traité",
+      "d": -0.1
+     },
+     "dur": 4.0,
+     "title": "Le royaume avant et après",
+     "sub": "même échelle",
+     "before": "Avant 1920",
+     "after": "Après 1920",
+     "badge": "Deux tiers perdus",
+     "parts": [
+      {
+       "country": "Hungary",
+       "color": "#FFD83C"
+      },
+      {
+       "country": "Slovakia",
+       "color": "#4FA3E0",
+       "lost": true
+      },
+      {
+       "region": {
+        "c": "Romania",
+        "n": "Alba"
+       },
+       "color": "#C77DFF",
+       "lost": true
+      },
+      {
+       "region": {
+        "c": "Romania",
+        "n": "Bistrita-Nasaud"
+       },
+       "color": "#C77DFF",
+       "lost": true
+      },
+      {
+       "region": {
+        "c": "Romania",
+        "n": "Brasov"
+       },
+       "color": "#C77DFF",
+       "lost": true
+      },
+      {
+       "region": {
+        "c": "Romania",
+        "n": "Cluj"
+       },
+       "color": "#C77DFF",
+       "lost": true
+      },
+      {
+       "region": {
+        "c": "Romania",
+        "n": "Covasna"
+       },
+       "color": "#C77DFF",
+       "lost": true
+      },
+      {
+       "region": {
+        "c": "Romania",
+        "n": "Harghita"
+       },
+       "color": "#C77DFF",
+       "lost": true
+      },
+      {
+       "region": {
+        "c": "Romania",
+        "n": "Hunedoara"
+       },
+       "color": "#C77DFF",
+       "lost": true
+      },
+      {
+       "region": {
+        "c": "Romania",
+        "n": "Mures"
+       },
+       "color": "#C77DFF",
+       "lost": true
+      },
+      {
+       "region": {
+        "c": "Romania",
+        "n": "Salaj"
+       },
+       "color": "#C77DFF",
+       "lost": true
+      },
+      {
+       "region": {
+        "c": "Romania",
+        "n": "Sibiu"
+       },
+       "color": "#C77DFF",
+       "lost": true
+      },
+      {
+       "region": {
+        "c": "Romania",
+        "n": "Arad"
+       },
+       "color": "#C77DFF",
+       "lost": true
+      },
+      {
+       "region": {
+        "c": "Romania",
+        "n": "Bihor"
+       },
+       "color": "#C77DFF",
+       "lost": true
+      },
+      {
+       "region": {
+        "c": "Romania",
+        "n": "Maramures"
+       },
+       "color": "#C77DFF",
+       "lost": true
+      },
+      {
+       "region": {
+        "c": "Romania",
+        "n": "Satu Mare"
+       },
+       "color": "#C77DFF",
+       "lost": true
+      },
+      {
+       "region": {
+        "c": "Romania",
+        "n": "Timis"
+       },
+       "color": "#C77DFF",
+       "lost": true
+      },
+      {
+       "region": {
+        "c": "Romania",
+        "n": "Caras-Severin"
+       },
+       "color": "#C77DFF",
+       "lost": true
+      },
+      {
+       "region": {
+        "c": "Serbia",
+        "n": "Severno-Backi"
+       },
+       "color": "#E8503A",
+       "lost": true
+      },
+      {
+       "region": {
+        "c": "Serbia",
+        "n": "Zapadno-Backi"
+       },
+       "color": "#E8503A",
+       "lost": true
+      },
+      {
+       "region": {
+        "c": "Serbia",
+        "n": "Severno-Banatski"
+       },
+       "color": "#E8503A",
+       "lost": true
+      },
+      {
+       "region": {
+        "c": "Serbia",
+        "n": "Sremski"
+       },
+       "color": "#E8503A",
+       "lost": true
+      },
+      {
+       "region": {
+        "c": "Serbia",
+        "n": "Južno-Backi"
+       },
+       "color": "#E8503A",
+       "lost": true
+      },
+      {
+       "region": {
+        "c": "Serbia",
+        "n": "Srednje-Banatski"
+       },
+       "color": "#E8503A",
+       "lost": true
+      },
+      {
+       "region": {
+        "c": "Serbia",
+        "n": "Južno-Banatski"
+       },
+       "color": "#E8503A",
+       "lost": true
+      },
+      {
+       "region": {
+        "c": "Austria",
+        "n": "Burgenland"
+       },
+       "color": "#FF8FB8",
+       "lost": true
+      },
+      {
+       "region": {
+        "c": "Ukraine",
+        "n": "Transcarpathia"
+       },
+       "color": "#4FD0C0",
+       "lost": true
+      }
+     ]
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      19.04,
+      47.5
+     ],
+     "when": 0.4
+    }
+   ],
+   "say": [
+    "Le 4 juin 1920, le traité de Trianon retire à la Hongrie environ deux tiers de son territoire.",
+    "Plus de trois millions de Hongrois vivent alors dans les pays voisins."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "Aujourd’hui",
+   "text": "Le magyar reste bien vivant",
+   "focus": {
+    "box": [
+     11.5,
+     43.5,
+     29.5,
+     50.5
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Hungary"
+     ],
+     "color": "#FFD83C",
+     "at": 0.3,
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "Romania",
+       "n": "Harghita"
+      },
+      {
+       "c": "Romania",
+       "n": "Covasna"
+      },
+      {
+       "c": "Romania",
+       "n": "Mures"
+      },
+      {
+       "c": "Romania",
+       "n": "Bihor"
+      },
+      {
+       "c": "Romania",
+       "n": "Satu Mare"
+      }
+     ],
+     "color": "#E8A33C",
+     "at": {
+      "line": 1,
+      "word": "Roumanie",
+      "d": -0.1
+     },
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "Slovakia",
+       "n": "Nitriansky"
+      },
+      {
+       "c": "Slovakia",
+       "n": "Trnavský"
+      },
+      {
+       "c": "Slovakia",
+       "n": "Košický"
+      }
+     ],
+     "color": "#E8A33C",
+     "at": {
+      "line": 1,
+      "word": "Slovaquie",
+      "d": -0.1
+     },
+     "keep": false
+    }
+   ],
+   "art": [
+    {
+     "kind": "stats",
+     "at": {
+      "line": 0,
+      "word": "parlent",
+      "d": -0.2
+     },
+     "dur": 4.5,
+     "title": "Le hongrois aujourd’hui",
+     "items": [
+      {
+       "value": 13,
+       "suffix": " millions",
+       "label": "de locuteurs",
+       "color": "#FFD83C",
+       "size": 58
+      },
+      {
+       "value": 1,
+       "suffix": "re",
+       "label": "langue ouralienne",
+       "color": "#3E9A63"
+      },
+      {
+       "value": 2,
+       "suffix": " millions",
+       "label": "dans les pays voisins",
+       "color": "#4FA3E0",
+       "size": 58
+      }
+     ]
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      19.04,
+      47.5
+     ],
+     "title": "Budapest",
+     "sub": "capitale",
+     "side": "b",
+     "when": {
+      "line": 1,
+      "word": "Hongrie",
+      "d": 0.0
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      19.04,
+      47.5
+     ],
+     "when": 0.4
+    }
+   ],
+   "say": [
+    "Aujourd’hui, environ 13 millions de personnes parlent hongrois, la langue ouralienne la plus parlée.",
+    "Environ 2 millions vivent dans les pays voisins, surtout en Roumanie et en Slovaquie."
+   ],
+   "labels": [
+    {
+     "text": "Roumanie",
+     "at": [
+      25.8,
+      46.4
+     ],
+     "size": 36,
+     "when": {
+      "line": 1,
+      "word": "Roumanie",
+      "d": 0.0
+     }
+    },
+    {
+     "text": "Slovaquie",
+     "at": [
+      19.6,
+      49.5
+     ],
+     "size": 36,
+     "when": {
+      "line": 1,
+      "word": "Slovaquie",
+      "d": 0.0
+     }
+    }
+   ]
+  },
+  {
+   "type": "final",
+   "text": "Une langue venue de l’Est",
+   "sub": "La Hongrie",
+   "focus": {
+    "box": [
+     13,
+     44,
+     25.5,
+     50.5
+    ]
+   },
+   "highlight": {
+    "countries": [
+     "Hungary"
+    ],
+    "color": "#FFD83C",
+    "at": 0.5,
+    "keep": false
+   },
+   "people": [
+    {
+     "who": "paysan",
+     "at": [
+      19.3,
+      47.0
+     ],
+     "size": 250,
+     "say": "Szia !",
+     "wave": true,
+     "when": 2.5
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      19.04,
+      47.5
+     ],
+     "title": "Budapest",
+     "side": "t",
+     "when": 2.0
+    }
+   ],
+   "say": [
+    "Voilà pourquoi le magyar, cousin du finnois, a survécu parmi les langues slaves, germaniques et romanes.",
+    "Et voici la question qui nous a ouverts :"
+   ]
+  }
+ ]
+}

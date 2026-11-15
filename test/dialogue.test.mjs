@@ -111,3 +111,27 @@ test('lipsync : le contrôle lit la pose affichée (conforme avec la bonne envel
   assert.equal(bad.ok, false)
   assert.match(formatReport(bad), /NON conforme/)
 })
+
+test('dialogue : lettres de plomb, frise, partie « screw » de la presse, révélation du quiz calée', () => {
+  const b = demo()
+  b.shots[1].props.push({ letters: 'LIVRE', x: 540, y: 700, size: 700, at: 0.5 }, { frise: { start: 'vers 1450', next: '?' }, x: 540, y: 900, size: 800 },
+    { art: 'printing-press', x: 540, y: 1000, size: 400, parts: [{ part: 'screw', do: 'press', at: 0, k: 45 }] })
+  b.shots[2].quiz.reveal = 3.5
+  const r = buildBrief(b)
+  assert.equal((r.svg.match(/scale\(-1 1\)"><text/g) ?? []).length, 5, 'cinq lettres miroir')
+  assert.match(r.svg, /data-role="final"[^>]*>\?<\/text>/)
+  assert.match(r.svg, /\[data-part="screw"\]\{[^}]*dgPress/)
+  assert.deepEqual(r.info.warnings.filter((w) => /screw/.test(w)), [])
+  assert.throws(() => buildBrief({ ...b, shots: [{ ...b.shots[0], props: [{ letters: 'livre', x: 1, y: 1 }] }] }), /letters/)
+})
+
+test('audit : sous-titre trop petit signalé ; les sous-titres du moteur font ≥ 44 px, dans la zone sûre', () => {
+  const t = (fs) => ({ s: 'Bonjour', x0: 300, x1: 700, y0: 1250, y1: 1320, fs, role: 'sub' })
+  const samples = (fs) => [0, 0.25, 0.5].map((x) => ({ t: x, texts: [t(fs)] }))
+  const opt = { width: 1080, height: 1920, duration: 0.75 }
+  assert.ok(analyse(samples(36), opt).issues.some((i) => /sous-titre trop petit/.test(i)))
+  assert.ok(!analyse(samples(46), opt).issues.some((i) => /sous-titre trop petit/.test(i)))
+  const r = buildBrief(demo())
+  const sizes = [...r.svg.matchAll(/<text class="(?:en|th)"[^>]*font-size="(\d+)"[^>]*data-role="sub"/g)].map((m) => +m[1])
+  assert.ok(sizes.length >= 6 && sizes.every((s) => s >= 44 && s <= 48), sizes.join(','))
+})

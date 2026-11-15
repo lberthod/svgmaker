@@ -1,0 +1,1463 @@
+{
+ "format": "atlas",
+ "id": "atlas-rideau-de-fer",
+ "base": {
+  "countries": [
+   "Austria",
+   "Belgium",
+   "Bulgaria",
+   "Czechia",
+   "Denmark",
+   "France",
+   "Germany",
+   "Hungary",
+   "Iceland",
+   "Italy",
+   "Luxembourg",
+   "Netherlands",
+   "Norway",
+   "Poland",
+   "Portugal",
+   "Romania",
+   "Slovakia",
+   "United Kingdom"
+  ]
+ },
+ "scenes": [
+  {
+   "type": "hook",
+   "text": "L’Europe coupée en deux",
+   "sub": "Le rideau de fer",
+   "focus": {
+    "box": [
+     4,
+     43,
+     26,
+     57
+    ]
+   },
+   "highlight": [
+    {
+     "color": "#4FA3E0",
+     "at": {
+      "line": 1,
+      "word": "rideau",
+      "d": 0.0
+     },
+     "keep": false,
+     "countries": [
+      "France",
+      "United Kingdom",
+      "Italy",
+      "Belgium",
+      "Netherlands",
+      "Luxembourg",
+      "Norway",
+      "Denmark",
+      "Iceland",
+      "Portugal"
+     ],
+     "regions": [
+      {
+       "c": "Germany",
+       "n": "Schleswig-Holstein"
+      },
+      {
+       "c": "Germany",
+       "n": "Hamburg"
+      },
+      {
+       "c": "Germany",
+       "n": "Niedersachsen"
+      },
+      {
+       "c": "Germany",
+       "n": "Bremen"
+      },
+      {
+       "c": "Germany",
+       "n": "Nordrhein-Westfalen"
+      },
+      {
+       "c": "Germany",
+       "n": "Hessen"
+      },
+      {
+       "c": "Germany",
+       "n": "Rheinland-Pfalz"
+      },
+      {
+       "c": "Germany",
+       "n": "Baden-Württemberg"
+      },
+      {
+       "c": "Germany",
+       "n": "Bayern"
+      }
+     ]
+    },
+    {
+     "color": "#E8503A",
+     "at": {
+      "line": 1,
+      "word": "rideau",
+      "d": 0.3
+     },
+     "keep": false,
+     "countries": [
+      "Poland",
+      "Czechia",
+      "Slovakia",
+      "Hungary",
+      "Romania",
+      "Bulgaria"
+     ],
+     "regions": [
+      {
+       "c": "Germany",
+       "n": "Mecklenburg-Vorpommern"
+      },
+      {
+       "c": "Germany",
+       "n": "Brandenburg"
+      },
+      {
+       "c": "Germany",
+       "n": "Sachsen-Anhalt"
+      },
+      {
+       "c": "Germany",
+       "n": "Sachsen"
+      },
+      {
+       "c": "Germany",
+       "n": "Thüringen"
+      }
+     ]
+    }
+   ],
+   "labels": [
+    {
+     "text": "Bloc de l’Ouest",
+     "at": [
+      8.3,
+      47.0
+     ],
+     "size": 40,
+     "when": {
+      "line": 1,
+      "word": "rideau",
+      "d": 0.4
+     }
+    },
+    {
+     "text": "Bloc de l’Est",
+     "at": [
+      20.5,
+      50.2
+     ],
+     "size": 40,
+     "when": {
+      "line": 1,
+      "word": "rideau",
+      "d": 0.8
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      13.4,
+      52.52
+     ],
+     "when": 1.5
+    }
+   ],
+   "say": [
+    "Pourquoi l’Europe a-t-elle été coupée en deux ?",
+    "Après 1945, l’URSS communiste et l’Ouest s’opposent : un rideau de fer les sépare."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "5 mars 1946",
+   "text": "Churchill popularise le rideau de fer",
+   "focus": {
+    "box": [
+     4,
+     40.5,
+     26,
+     57
+    ]
+   },
+   "highlight": [
+    {
+     "color": "#E8503A",
+     "at": {
+      "line": 1,
+      "word": "Stettin",
+      "d": -0.2
+     },
+     "keep": false,
+     "countries": [
+      "Poland",
+      "Czechia",
+      "Slovakia",
+      "Hungary",
+      "Romania",
+      "Bulgaria"
+     ],
+     "regions": [
+      {
+       "c": "Germany",
+       "n": "Mecklenburg-Vorpommern"
+      },
+      {
+       "c": "Germany",
+       "n": "Brandenburg"
+      },
+      {
+       "c": "Germany",
+       "n": "Sachsen-Anhalt"
+      },
+      {
+       "c": "Germany",
+       "n": "Sachsen"
+      },
+      {
+       "c": "Germany",
+       "n": "Thüringen"
+      }
+     ]
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      14.55,
+      53.43
+     ],
+     "to": [
+      13.77,
+      45.65
+     ],
+     "n": 0,
+     "color": "#FFFFFF",
+     "label": "Le rideau de fer",
+     "at": {
+      "line": 1,
+      "word": "Stettin",
+      "d": 0.0
+     },
+     "dur": 2.6
+    }
+   ],
+   "people": [
+    {
+     "who": "savant",
+     "at": [
+      7.0,
+      51.5
+     ],
+     "size": 170,
+     "say": "Un rideau de fer !",
+     "label": {
+      "title": "Winston Churchill"
+     },
+     "when": {
+      "line": 0,
+      "word": "Fulton",
+      "d": 0.0
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      14.55,
+      53.43
+     ],
+     "title": "Stettin",
+     "side": "r",
+     "when": {
+      "line": 1,
+      "word": "Stettin",
+      "d": 0.2
+     }
+    },
+    {
+     "at": [
+      13.77,
+      45.65
+     ],
+     "title": "Trieste",
+     "side": "r",
+     "when": {
+      "line": 1,
+      "word": "Trieste",
+      "d": 0.2
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Mer Baltique",
+     "at": [
+      17.5,
+      55.0
+     ],
+     "size": 36,
+     "when": {
+      "line": 1,
+      "word": "Baltique",
+      "d": 0.2
+     }
+    },
+    {
+     "text": "Adriatique",
+     "at": [
+      16.0,
+      43.6
+     ],
+     "size": 36,
+     "when": {
+      "line": 1,
+      "word": "Adriatique",
+      "d": 0.0
+     }
+    }
+   ],
+   "say": [
+    "Le 5 mars 1946, à Fulton, Churchill parle d’un rideau de fer.",
+    "De Stettin, sur la Baltique, à Trieste, sur l’Adriatique."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1949 · 1955",
+   "text": "Deux blocs, deux alliances",
+   "focus": {
+    "box": [
+     -2,
+     38,
+     26,
+     60
+    ]
+   },
+   "highlight": [
+    {
+     "color": "#4FA3E0",
+     "at": {
+      "line": 0,
+      "word": "l’OTAN",
+      "d": 0.0
+     },
+     "keep": false,
+     "countries": [
+      "France",
+      "United Kingdom",
+      "Italy",
+      "Belgium",
+      "Netherlands",
+      "Luxembourg",
+      "Norway",
+      "Denmark",
+      "Iceland",
+      "Portugal"
+     ]
+    },
+    {
+     "color": "#E8503A",
+     "at": {
+      "line": 1,
+      "word": "répond",
+      "d": 0.0
+     },
+     "keep": false,
+     "countries": [
+      "Poland",
+      "Czechia",
+      "Slovakia",
+      "Hungary",
+      "Romania",
+      "Bulgaria"
+     ],
+     "regions": [
+      {
+       "c": "Germany",
+       "n": "Mecklenburg-Vorpommern"
+      },
+      {
+       "c": "Germany",
+       "n": "Brandenburg"
+      },
+      {
+       "c": "Germany",
+       "n": "Sachsen-Anhalt"
+      },
+      {
+       "c": "Germany",
+       "n": "Sachsen"
+      },
+      {
+       "c": "Germany",
+       "n": "Thüringen"
+      }
+     ]
+    }
+   ],
+   "labels": [
+    {
+     "text": "OTAN",
+     "at": [
+      2.5,
+      46.2
+     ],
+     "size": 46,
+     "when": {
+      "line": 0,
+      "word": "l’OTAN",
+      "d": 0.3
+     }
+    },
+    {
+     "text": "Pacte de Varsovie",
+     "at": [
+      19.0,
+      48.3
+     ],
+     "size": 40,
+     "when": {
+      "line": 1,
+      "word": "Varsovie",
+      "d": 0.2
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      13.4,
+      52.52
+     ],
+     "when": 0.4
+    }
+   ],
+   "art": [
+    {
+     "kind": "bars",
+     "at": {
+      "line": 0,
+      "word": "douze",
+      "d": 0.4
+     },
+     "dur": 3.4,
+     "title": "Deux alliances",
+     "items": [
+      {
+       "h": 1.0,
+       "value": "12",
+       "label": "OTAN 1949",
+       "color": "#4FA3E0"
+      },
+      {
+       "h": 0.67,
+       "value": "8",
+       "label": "Pacte 1955",
+       "color": "#E8503A"
+      }
+     ]
+    }
+   ],
+   "say": [
+    "En 1949, l’OTAN réunit douze pays occidentaux.",
+    "En 1955, l’URSS répond avec le pacte de Varsovie."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1949",
+   "text": "L’Allemagne est coupée en deux",
+   "focus": {
+    "box": [
+     5.0,
+     46.8,
+     16.0,
+     55.4
+    ]
+   },
+   "highlight": [
+    {
+     "color": "#4FA3E0",
+     "at": {
+      "line": 0,
+      "word": "naissent",
+      "d": 0.3
+     },
+     "keep": false,
+     "regions": [
+      {
+       "c": "Germany",
+       "n": "Schleswig-Holstein"
+      },
+      {
+       "c": "Germany",
+       "n": "Hamburg"
+      },
+      {
+       "c": "Germany",
+       "n": "Niedersachsen"
+      },
+      {
+       "c": "Germany",
+       "n": "Bremen"
+      },
+      {
+       "c": "Germany",
+       "n": "Nordrhein-Westfalen"
+      },
+      {
+       "c": "Germany",
+       "n": "Hessen"
+      },
+      {
+       "c": "Germany",
+       "n": "Rheinland-Pfalz"
+      },
+      {
+       "c": "Germany",
+       "n": "Baden-Württemberg"
+      },
+      {
+       "c": "Germany",
+       "n": "Bayern"
+      }
+     ]
+    },
+    {
+     "color": "#E8503A",
+     "at": {
+      "line": 0,
+      "word": "démocratique",
+      "d": 0.0
+     },
+     "keep": false,
+     "regions": [
+      {
+       "c": "Germany",
+       "n": "Mecklenburg-Vorpommern"
+      },
+      {
+       "c": "Germany",
+       "n": "Brandenburg"
+      },
+      {
+       "c": "Germany",
+       "n": "Sachsen-Anhalt"
+      },
+      {
+       "c": "Germany",
+       "n": "Sachsen"
+      },
+      {
+       "c": "Germany",
+       "n": "Thüringen"
+      }
+     ]
+    },
+    {
+     "color": "#C77DFF",
+     "at": {
+      "line": 1,
+      "word": "Berlin",
+      "d": 0.0
+     },
+     "keep": false,
+     "regions": [
+      {
+       "c": "Germany",
+       "n": "Berlin"
+      }
+     ]
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      7.1,
+      50.73
+     ],
+     "title": "Bonn",
+     "side": "l",
+     "when": {
+      "line": 0,
+      "word": "fédérale",
+      "d": 0.8
+     }
+    },
+    {
+     "at": [
+      13.4,
+      52.52
+     ],
+     "title": "Berlin",
+     "side": "t",
+     "when": {
+      "line": 1,
+      "word": "Berlin",
+      "d": 0.1
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "RFA",
+     "at": [
+      9.2,
+      49.6
+     ],
+     "size": 54,
+     "when": {
+      "line": 0,
+      "word": "fédérale",
+      "d": 0.3
+     }
+    },
+    {
+     "text": "RDA",
+     "at": [
+      12.0,
+      51.3
+     ],
+     "size": 54,
+     "when": {
+      "line": 0,
+      "word": "démocratique",
+      "d": 0.3
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      13.4,
+      52.52
+     ],
+     "when": {
+      "line": 1,
+      "word": "Berlin",
+      "d": 0.0
+     }
+    }
+   ],
+   "say": [
+    "En 1949, naissent la République fédérale à l’Ouest et la République démocratique à l’Est.",
+    "Berlin, au milieu de la RDA, est aussi partagée."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "13 août 1961",
+   "text": "Le mur de Berlin",
+   "focus": {
+    "box": [
+     11.8,
+     51.9,
+     15.0,
+     53.1
+    ]
+   },
+   "highlight": [
+    {
+     "color": "#E8503A",
+     "at": 0.2,
+     "keep": false,
+     "regions": [
+      {
+       "c": "Germany",
+       "n": "Mecklenburg-Vorpommern"
+      },
+      {
+       "c": "Germany",
+       "n": "Brandenburg"
+      },
+      {
+       "c": "Germany",
+       "n": "Sachsen-Anhalt"
+      },
+      {
+       "c": "Germany",
+       "n": "Sachsen"
+      },
+      {
+       "c": "Germany",
+       "n": "Thüringen"
+      }
+     ]
+    },
+    {
+     "color": "#C77DFF",
+     "at": {
+      "line": 0,
+      "word": "bloque",
+      "d": 0.0
+     },
+     "keep": false,
+     "regions": [
+      {
+       "c": "Germany",
+       "n": "Berlin"
+      }
+     ]
+    }
+   ],
+   "people": [
+    {
+     "who": "soldat",
+     "at": [
+      13.62,
+      52.68
+     ],
+     "size": 150,
+     "say": "Halte !",
+     "when": {
+      "line": 0,
+      "word": "bloque",
+      "d": 0.0
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      13.2,
+      52.5
+     ],
+     "title": "Berlin-Ouest",
+     "side": "l",
+     "when": {
+      "line": 0,
+      "word": "bloque",
+      "d": 0.8
+     }
+    },
+    {
+     "at": [
+      13.5,
+      52.45
+     ],
+     "title": "Berlin-Est",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "bloque",
+      "d": 1.2
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "RDA",
+     "at": [
+      13.8,
+      52.25
+     ],
+     "size": 46,
+     "when": {
+      "line": 0,
+      "word": "bloque",
+      "d": 0.3
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      13.38,
+      52.52
+     ],
+     "when": 0.4
+    }
+   ],
+   "art": [
+    {
+     "kind": "stats",
+     "at": {
+      "line": 1,
+      "word": "environ",
+      "d": -0.1
+     },
+     "dur": 3.4,
+     "title": "Le mur en chiffres",
+     "items": [
+      {
+       "value": 155,
+       "suffix": " km",
+       "label": "autour de Berlin-Ouest",
+       "color": "#C77DFF"
+      },
+      {
+       "value": 28,
+       "suffix": " ans",
+       "label": "de 1961 à 1989",
+       "color": "#E8503A"
+      }
+     ]
+    }
+   ],
+   "say": [
+    "Le 13 août 1961, la RDA bloque Berlin avec des barbelés.",
+    "Puis un mur d’environ 155 km encercle Berlin-Ouest."
+   ],
+   "moves": [
+    {
+     "from": [
+      13.09,
+      52.5
+     ],
+     "to": [
+      13.25,
+      52.65
+     ],
+     "n": 0,
+     "color": "#FFFFFF",
+     "dur": 1.0,
+     "at": {
+      "line": 0,
+      "word": "barbelés",
+      "d": 0.0
+     },
+     "label": "Le mur"
+    },
+    {
+     "from": [
+      13.25,
+      52.65
+     ],
+     "to": [
+      13.43,
+      52.55
+     ],
+     "n": 0,
+     "color": "#FFFFFF",
+     "dur": 1.0,
+     "at": {
+      "line": 0,
+      "word": "barbelés",
+      "d": 0.5
+     }
+    },
+    {
+     "from": [
+      13.43,
+      52.55
+     ],
+     "to": [
+      13.4,
+      52.4
+     ],
+     "n": 0,
+     "color": "#FFFFFF",
+     "dur": 1.0,
+     "at": {
+      "line": 0,
+      "word": "barbelés",
+      "d": 1.0
+     }
+    },
+    {
+     "from": [
+      13.4,
+      52.4
+     ],
+     "to": [
+      13.12,
+      52.4
+     ],
+     "n": 0,
+     "color": "#FFFFFF",
+     "dur": 1.0,
+     "at": {
+      "line": 0,
+      "word": "barbelés",
+      "d": 1.5
+     }
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "19 août 1989",
+   "text": "Le pique-nique qui ouvre la frontière",
+   "focus": {
+    "box": [
+     12,
+     45,
+     23,
+     49.5
+    ]
+   },
+   "highlight": [
+    {
+     "color": "#E8503A",
+     "at": 0.3,
+     "keep": false,
+     "countries": [
+      "Hungary"
+     ]
+    },
+    {
+     "color": "#FFFFFF",
+     "at": {
+      "line": 0,
+      "word": "frontière",
+      "d": 0.0
+     },
+     "keep": false,
+     "countries": [
+      "Austria"
+     ]
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      17.6,
+      47.2
+     ],
+     "to": [
+      15.8,
+      47.4
+     ],
+     "n": 5,
+     "color": "#FFD83C",
+     "label": "Vers l’Autriche",
+     "at": {
+      "line": 0,
+      "word": "frontière",
+      "d": 0.0
+     },
+     "dur": 2.4
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      16.58,
+      47.68
+     ],
+     "title": "Sopron",
+     "side": "t",
+     "when": {
+      "line": 0,
+      "word": "pique-nique",
+      "d": 0.3
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Autriche",
+     "at": [
+      14.3,
+      48.1
+     ],
+     "size": 40,
+     "when": {
+      "line": 0,
+      "word": "frontière",
+      "d": 0.2
+     }
+    },
+    {
+     "text": "Hongrie",
+     "at": [
+      19.4,
+      47.1
+     ],
+     "size": 40,
+     "when": {
+      "line": 0,
+      "word": "pique-nique",
+      "d": 0.0
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      16.58,
+      47.68
+     ],
+     "when": {
+      "line": 0,
+      "word": "Sopron",
+      "d": 0.0
+     }
+    }
+   ],
+   "say": [
+    "Le 19 août 1989, un pique-nique près de Sopron ouvre la frontière.",
+    "Plus de 600 Allemands de l’Est passent en Autriche."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "9 novembre 1989",
+   "text": "Le mur de Berlin s’ouvre",
+   "focus": {
+    "box": [
+     11.8,
+     52.0,
+     15.0,
+     53.0
+    ]
+   },
+   "highlight": [
+    {
+     "color": "#C77DFF",
+     "at": 0.2,
+     "keep": false,
+     "regions": [
+      {
+       "c": "Germany",
+       "n": "Berlin"
+      }
+     ]
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      13.55,
+      52.56
+     ],
+     "to": [
+      13.2,
+      52.56
+     ],
+     "n": 4,
+     "color": "#FFD83C",
+     "label": "",
+     "at": {
+      "line": 0,
+      "word": "ouvre",
+      "d": 0.0
+     },
+     "dur": 2.2
+    },
+    {
+     "from": [
+      13.2,
+      52.44
+     ],
+     "to": [
+      13.55,
+      52.44
+     ],
+     "n": 3,
+     "color": "#FFFFFF",
+     "label": "",
+     "at": {
+      "line": 1,
+      "word": "retrouvent",
+      "d": -0.3
+     },
+     "dur": 2.2
+    }
+   ],
+   "labels": [
+    {
+     "text": "Berlin-Est",
+     "at": [
+      13.62,
+      52.62
+     ],
+     "size": 38,
+     "when": 0.3
+    },
+    {
+     "text": "Berlin-Ouest",
+     "at": [
+      13.1,
+      52.62
+     ],
+     "size": 38,
+     "when": 0.7
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      13.38,
+      52.52
+     ],
+     "when": 0.3
+    }
+   ],
+   "say": [
+    "Le 9 novembre 1989, la RDA ouvre ses frontières.",
+    "La foule franchit le mur, et les Berlinois se retrouvent."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "3 octobre 1990",
+   "text": "Une seule Allemagne",
+   "focus": {
+    "box": [
+     5.0,
+     46.8,
+     16.0,
+     55.4
+    ]
+   },
+   "highlight": [
+    {
+     "color": "#FFD83C",
+     "at": 0.5,
+     "keep": false,
+     "countries": [
+      "Germany"
+     ]
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      13.4,
+      52.52
+     ],
+     "title": "Berlin",
+     "side": "t",
+     "when": {
+      "line": 0,
+      "word": "réunifiée",
+      "d": 0.2
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Pologne",
+     "at": [
+      16.4,
+      52.2
+     ],
+     "size": 38,
+     "when": {
+      "line": 1,
+      "word": "blocs",
+      "d": 0.0
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      13.4,
+      52.52
+     ],
+     "when": 0.4
+    }
+   ],
+   "say": [
+    "Le 3 octobre 1990, la RDA rejoint la RFA : l’Allemagne est réunifiée.",
+    "Les blocs disparaissent peu à peu."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "Aujourd’hui",
+   "text": "Le Sentier du rideau de fer",
+   "focus": {
+    "box": [
+     8,
+     40,
+     34,
+     60
+    ]
+   },
+   "moves": [
+    {
+     "from": [
+      14.3,
+      54.0
+     ],
+     "to": [
+      12.4,
+      50.4
+     ],
+     "n": 0,
+     "color": "#FFD83C",
+     "dur": 1.0,
+     "at": {
+      "line": 0,
+      "word": "suit",
+      "d": 0.2
+     },
+     "label": "EuroVelo 13"
+    },
+    {
+     "from": [
+      12.4,
+      50.4
+     ],
+     "to": [
+      13.8,
+      48.6
+     ],
+     "n": 0,
+     "color": "#FFD83C",
+     "dur": 1.0,
+     "at": {
+      "line": 0,
+      "word": "suit",
+      "d": 0.7
+     }
+    },
+    {
+     "from": [
+      13.8,
+      48.6
+     ],
+     "to": [
+      17.0,
+      48.0
+     ],
+     "n": 0,
+     "color": "#FFD83C",
+     "dur": 1.0,
+     "at": {
+      "line": 0,
+      "word": "suit",
+      "d": 1.2
+     }
+    },
+    {
+     "from": [
+      17.0,
+      48.0
+     ],
+     "to": [
+      22.5,
+      48.2
+     ],
+     "n": 0,
+     "color": "#FFD83C",
+     "dur": 1.0,
+     "at": {
+      "line": 0,
+      "word": "suit",
+      "d": 1.7
+     }
+    },
+    {
+     "from": [
+      22.5,
+      48.2
+     ],
+     "to": [
+      26.3,
+      41.7
+     ],
+     "n": 0,
+     "color": "#FFD83C",
+     "dur": 1.0,
+     "at": {
+      "line": 0,
+      "word": "suit",
+      "d": 2.2
+     }
+    }
+   ],
+   "highlight": [
+    {
+     "color": "#E8503A",
+     "at": 0.3,
+     "keep": false,
+     "countries": [
+      "Poland",
+      "Czechia",
+      "Slovakia",
+      "Hungary",
+      "Romania",
+      "Bulgaria"
+     ]
+    }
+   ],
+   "art": [
+    {
+     "kind": "stats",
+     "at": {
+      "line": 1,
+      "word": "vélo",
+      "d": 0.0
+     },
+     "dur": 3.4,
+     "title": "EuroVelo 13",
+     "items": [
+      {
+       "value": 10400,
+       "suffix": " km",
+       "label": "à vélo, environ",
+       "color": "#FFD83C",
+       "size": 64
+      },
+      {
+       "value": 20,
+       "label": "pays traversés",
+       "color": "#3E9A63"
+      }
+     ]
+    }
+   ],
+   "say": [
+    "Aujourd’hui, le Sentier du rideau de fer suit l’ancienne frontière.",
+    "C’est une route à vélo d’environ 10 400 km, dans 20 pays."
+   ]
+  },
+  {
+   "type": "final",
+   "text": "Une Europe réunie",
+   "sub": "Le rideau de fer",
+   "focus": {
+    "box": [
+     4,
+     43,
+     26,
+     57
+    ]
+   },
+   "highlight": [
+    {
+     "color": "#FFD83C",
+     "at": 0.4,
+     "keep": false,
+     "countries": [
+      "France",
+      "United Kingdom",
+      "Italy",
+      "Belgium",
+      "Netherlands",
+      "Luxembourg",
+      "Norway",
+      "Denmark",
+      "Iceland",
+      "Portugal",
+      "Poland",
+      "Czechia",
+      "Slovakia",
+      "Hungary",
+      "Romania",
+      "Bulgaria"
+     ],
+     "regions": [
+      {
+       "c": "Germany",
+       "n": "Schleswig-Holstein"
+      },
+      {
+       "c": "Germany",
+       "n": "Hamburg"
+      },
+      {
+       "c": "Germany",
+       "n": "Niedersachsen"
+      },
+      {
+       "c": "Germany",
+       "n": "Bremen"
+      },
+      {
+       "c": "Germany",
+       "n": "Nordrhein-Westfalen"
+      },
+      {
+       "c": "Germany",
+       "n": "Hessen"
+      },
+      {
+       "c": "Germany",
+       "n": "Rheinland-Pfalz"
+      },
+      {
+       "c": "Germany",
+       "n": "Saarland"
+      },
+      {
+       "c": "Germany",
+       "n": "Baden-Württemberg"
+      },
+      {
+       "c": "Germany",
+       "n": "Bayern"
+      },
+      {
+       "c": "Germany",
+       "n": "Mecklenburg-Vorpommern"
+      },
+      {
+       "c": "Germany",
+       "n": "Brandenburg"
+      },
+      {
+       "c": "Germany",
+       "n": "Sachsen-Anhalt"
+      },
+      {
+       "c": "Germany",
+       "n": "Sachsen"
+      },
+      {
+       "c": "Germany",
+       "n": "Thüringen"
+      },
+      {
+       "c": "Germany",
+       "n": "Berlin"
+      }
+     ]
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      13.4,
+      52.52
+     ],
+     "title": "Berlin",
+     "side": "t",
+     "when": 2.0
+    }
+   ],
+   "say": [
+    "En 2004, la Pologne, la Tchéquie, la Slovaquie et la Hongrie rejoignent l’Union européenne.",
+    "Voilà pourquoi l’Europe a été coupée en deux, puis réunie.",
+    "Voilà la réponse à la question qui nous a ouverts :"
+   ]
+  }
+ ],
+ "terrain": [
+  {
+   "box": [
+    -14,
+    27,
+    40,
+    76
+   ],
+   "px": 3000,
+   "z": 6
+  },
+  {
+   "box": [
+    -2.4,
+    37.6,
+    34.4,
+    60.4
+   ],
+   "px": 2800,
+   "z": 8
+  }
+ ]
+}

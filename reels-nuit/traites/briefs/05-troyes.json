@@ -1,0 +1,2190 @@
+{
+ "format": "atlas",
+ "id": "traites-05-troyes",
+ "base": {
+  "countries": [
+   "France"
+  ]
+ },
+ "open": {
+  "box": [
+   -5.8,
+   41.9,
+   9,
+   51.5
+  ]
+ },
+ "terrain": [
+  {
+   "box": [
+    -14,
+    27,
+    40,
+    76
+   ],
+   "px": 3000,
+   "z": 6
+  },
+  {
+   "box": [
+    -6.2,
+    41.5,
+    9.4,
+    51.9
+   ],
+   "px": 2800,
+   "z": 8
+  }
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "year": "1420",
+   "text": "Comment un roi anglais devient-il l’héritier du trône de France ?",
+   "sub": "Traité de Troyes",
+   "focus": {
+    "box": [
+     -5.8,
+     41.9,
+     9,
+     51.5
+    ]
+   },
+   "highlight": {
+    "regions": [
+     {
+      "c": "France",
+      "n": "Paris"
+     },
+     {
+      "c": "France",
+      "n": "Hauts-de-Seine"
+     },
+     {
+      "c": "France",
+      "n": "Seine-Saint-Denis"
+     },
+     {
+      "c": "France",
+      "n": "Val-de-Marne"
+     },
+     {
+      "c": "France",
+      "n": "Val-d'Oise"
+     },
+     {
+      "c": "France",
+      "n": "Yvelines"
+     },
+     {
+      "c": "France",
+      "n": "Essonne"
+     },
+     {
+      "c": "France",
+      "n": "Seien-et-Marne"
+     },
+     {
+      "c": "France",
+      "n": "Eure-et-Loir"
+     },
+     {
+      "c": "France",
+      "n": "Oise"
+     },
+     {
+      "c": "France",
+      "n": "Somme"
+     },
+     {
+      "c": "France",
+      "n": "Aisne"
+     },
+     {
+      "c": "France",
+      "n": "Marne"
+     },
+     {
+      "c": "France",
+      "n": "Aube"
+     },
+     {
+      "c": "France",
+      "n": "Haute-Marne"
+     },
+     {
+      "c": "France",
+      "n": "Ardennes"
+     }
+    ],
+    "color": "#FF2E88",
+    "at": 0,
+    "keep": false
+   },
+   "beacon": [
+    {
+     "at": [
+      4.074,
+      48.297
+     ],
+     "when": 0
+    }
+   ],
+   "people": [
+    {
+     "who": "roi",
+     "at": [
+      0,
+      47.6
+     ],
+     "size": 220,
+     "outfit": "#9AA6FF",
+     "say": "La France, pour moi ?",
+     "when": 1.2
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      -3.6,
+      45.6
+     ],
+     "title": "Frontières approximatives",
+     "side": "b",
+     "when": {
+      "line": 1,
+      "d": 0.2
+     }
+    }
+   ],
+   "say": [
+    "Comment un roi anglais devient-il l’héritier du trône de France ?",
+    "Par un traité où le roi de France déshérite son propre fils."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1415 – 1419",
+   "text": "Henri V conquiert la Normandie",
+   "focus": {
+    "box": [
+     -3.6,
+     42.4,
+     4.2,
+     52.4
+    ]
+   },
+   "highlight": [
+    {
+     "regions": [
+      {
+       "c": "France",
+       "n": "Gironde"
+      },
+      {
+       "c": "France",
+       "n": "Landes"
+      }
+     ],
+     "color": "#9AA6FF",
+     "at": 0.6
+    },
+    {
+     "regions": [
+      {
+       "c": "France",
+       "n": "Seine-Maritime"
+      },
+      {
+       "c": "France",
+       "n": "Eure"
+      },
+      {
+       "c": "France",
+       "n": "Calvados"
+      },
+      {
+       "c": "France",
+       "n": "Orne"
+      },
+      {
+       "c": "France",
+       "n": "Manche"
+      }
+     ],
+     "color": "#9AA6FF",
+     "at": {
+      "line": 1,
+      "word": "Normandie",
+      "d": -0.2
+     }
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      0.4,
+      49.3
+     ],
+     "to": [
+      2,
+      50.42
+     ],
+     "n": 4,
+     "color": "#9AA6FF",
+     "at": {
+      "line": 0,
+      "word": "Henri",
+      "d": -0.2
+     },
+     "dur": 2.2
+    }
+   ],
+   "people": [
+    {
+     "who": "roi",
+     "at": [
+      -0.3,
+      47.6
+     ],
+     "size": 220,
+     "outfit": "#9AA6FF",
+     "say": "Victoire !",
+     "label": {
+      "title": "Henri V",
+      "sub": "roi d’Angleterre"
+     },
+     "when": {
+      "line": 0,
+      "word": "Henri",
+      "d": -0.2
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      -0.6,
+      44.5
+     ],
+     "title": "Guyenne",
+     "sub": "anglaise (Gironde)",
+     "side": "r",
+     "when": 1.2
+    },
+    {
+     "at": [
+      2.13,
+      50.46
+     ],
+     "title": "Azincourt",
+     "sub": "Pas-de-Calais",
+     "side": "t",
+     "when": {
+      "line": 0,
+      "word": "Azincourt"
+     }
+    }
+   ],
+   "say": [
+    {
+     "say": "En 1415, le roi d’Angleterre Henri cinq bat les Français à Azincourt.",
+     "show": "En 1415, le roi d’Angleterre Henri V bat les Français à Azincourt."
+    },
+    "Puis, de 1417 à 1419, il conquiert la Normandie."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1418",
+   "text": "Les Bourguignons tiennent Paris",
+   "focus": {
+    "box": [
+     -0.8,
+     46.2,
+     6,
+     51.2
+    ]
+   },
+   "highlight": {
+    "regions": [
+     {
+      "c": "France",
+      "n": "Côte-d'Or"
+     },
+     {
+      "c": "France",
+      "n": "Saône-et-Loire"
+     },
+     {
+      "c": "France",
+      "n": "Nièvre"
+     },
+     {
+      "c": "France",
+      "n": "Yonne"
+     },
+     {
+      "c": "France",
+      "n": "Nord"
+     },
+     {
+      "c": "France",
+      "n": "Pas-de-Calais"
+     },
+     {
+      "c": "France",
+      "n": "Paris"
+     },
+     {
+      "c": "France",
+      "n": "Hauts-de-Seine"
+     },
+     {
+      "c": "France",
+      "n": "Seine-Saint-Denis"
+     },
+     {
+      "c": "France",
+      "n": "Val-de-Marne"
+     },
+     {
+      "c": "France",
+      "n": "Val-d'Oise"
+     },
+     {
+      "c": "France",
+      "n": "Yvelines"
+     },
+     {
+      "c": "France",
+      "n": "Essonne"
+     },
+     {
+      "c": "France",
+      "n": "Seien-et-Marne"
+     },
+     {
+      "c": "France",
+      "n": "Eure-et-Loir"
+     },
+     {
+      "c": "France",
+      "n": "Oise"
+     },
+     {
+      "c": "France",
+      "n": "Somme"
+     },
+     {
+      "c": "France",
+      "n": "Aisne"
+     },
+     {
+      "c": "France",
+      "n": "Marne"
+     },
+     {
+      "c": "France",
+      "n": "Aube"
+     },
+     {
+      "c": "France",
+      "n": "Haute-Marne"
+     },
+     {
+      "c": "France",
+      "n": "Ardennes"
+     }
+    ],
+    "color": "#E8A33C",
+    "at": {
+     "line": 1,
+     "word": "Bourguignons",
+     "d": -0.2
+    }
+   },
+   "people": [
+    {
+     "who": "roi",
+     "at": [
+      2.35,
+      49.3
+     ],
+     "size": 230,
+     "outfit": "#E8A33C",
+     "say": "Qui gouverne ?",
+     "label": {
+      "title": "Charles VI",
+      "sub": "roi de France"
+     },
+     "when": {
+      "line": 0,
+      "word": "Charles",
+      "d": -0.2
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Paris",
+     "at": [
+      2.35,
+      48.6
+     ],
+     "size": 36,
+     "when": {
+      "line": 1,
+      "word": "Paris"
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      4.6,
+      47.2
+     ],
+     "title": "Bourguignons",
+     "sub": "parti du duc de Bourgogne",
+     "side": "b",
+     "when": {
+      "line": 1,
+      "word": "Bourguignons",
+      "d": 0.6
+     }
+    }
+   ],
+   "say": [
+    {
+     "say": "Le roi de France, Charles six, souffre de crises de folie.",
+     "show": "Le roi de France, Charles VI, souffre de crises de folie."
+    },
+    "Depuis 1418, les Bourguignons tiennent Paris, et gouvernent pour lui."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1419",
+   "text": "La France coupée en trois",
+   "focus": {
+    "box": [
+     -3.6,
+     42.6,
+     7.4,
+     50.6
+    ]
+   },
+   "highlight": {
+    "regions": [
+     {
+      "c": "France",
+      "n": "Loiret"
+     },
+     {
+      "c": "France",
+      "n": "Loir-et-Cher"
+     },
+     {
+      "c": "France",
+      "n": "Indre-et-Loire"
+     },
+     {
+      "c": "France",
+      "n": "Maine-et-Loire"
+     },
+     {
+      "c": "France",
+      "n": "Sarthe"
+     },
+     {
+      "c": "France",
+      "n": "Mayenne"
+     },
+     {
+      "c": "France",
+      "n": "Cher"
+     },
+     {
+      "c": "France",
+      "n": "Indre"
+     },
+     {
+      "c": "France",
+      "n": "Vienne"
+     },
+     {
+      "c": "France",
+      "n": "Deux-Sèvres"
+     },
+     {
+      "c": "France",
+      "n": "Vendée"
+     },
+     {
+      "c": "France",
+      "n": "Charente"
+     },
+     {
+      "c": "France",
+      "n": "Charente-Maritime"
+     },
+     {
+      "c": "France",
+      "n": "Haute-Vienne"
+     },
+     {
+      "c": "France",
+      "n": "Creuse"
+     },
+     {
+      "c": "France",
+      "n": "Corrèze"
+     },
+     {
+      "c": "France",
+      "n": "Allier"
+     },
+     {
+      "c": "France",
+      "n": "Puy-de-Dôme"
+     },
+     {
+      "c": "France",
+      "n": "Cantal"
+     },
+     {
+      "c": "France",
+      "n": "Haute-Loire"
+     },
+     {
+      "c": "France",
+      "n": "Loire"
+     },
+     {
+      "c": "France",
+      "n": "Rhône"
+     },
+     {
+      "c": "France",
+      "n": "Isère"
+     },
+     {
+      "c": "France",
+      "n": "Drôme"
+     },
+     {
+      "c": "France",
+      "n": "Hautes-Alpes"
+     },
+     {
+      "c": "France",
+      "n": "Ardèche"
+     },
+     {
+      "c": "France",
+      "n": "Lozère"
+     },
+     {
+      "c": "France",
+      "n": "Gard"
+     },
+     {
+      "c": "France",
+      "n": "Hérault"
+     },
+     {
+      "c": "France",
+      "n": "Aude"
+     },
+     {
+      "c": "France",
+      "n": "Haute-Garonne"
+     },
+     {
+      "c": "France",
+      "n": "Tarn"
+     },
+     {
+      "c": "France",
+      "n": "Aveyron"
+     },
+     {
+      "c": "France",
+      "n": "Lot"
+     },
+     {
+      "c": "France",
+      "n": "Tarn-et-Garonne"
+     },
+     {
+      "c": "France",
+      "n": "Gers"
+     },
+     {
+      "c": "France",
+      "n": "Ariège"
+     },
+     {
+      "c": "France",
+      "n": "Hautes-Pyrénées"
+     },
+     {
+      "c": "France",
+      "n": "Dordogne"
+     },
+     {
+      "c": "France",
+      "n": "Lot-et-Garonne"
+     },
+     {
+      "c": "France",
+      "n": "Pyrénées-Atlantiques"
+     }
+    ],
+    "color": "#4FA3E0",
+    "at": {
+     "line": 0,
+     "word": "Loire",
+     "d": -0.2
+    }
+   },
+   "people": [
+    {
+     "who": "roi",
+     "at": [
+      2.398,
+      47.081
+     ],
+     "size": 210,
+     "outfit": "#4FA3E0",
+     "say": "Je suis l’héritier !",
+     "label": {
+      "title": "Le dauphin",
+      "sub": "le prince héritier"
+     },
+     "when": {
+      "line": 0,
+      "word": "dauphin",
+      "d": -0.2
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Anglais",
+     "at": [
+      -0.4,
+      48.95
+     ],
+     "size": 40,
+     "when": {
+      "line": 1,
+      "word": "Anglais"
+     }
+    },
+    {
+     "text": "Bourguignons",
+     "at": [
+      3.9,
+      48.95
+     ],
+     "size": 40,
+     "when": {
+      "line": 1,
+      "word": "Bourguignons"
+     }
+    },
+    {
+     "text": "Dauphin",
+     "at": [
+      1.5,
+      45.3
+     ],
+     "size": 40,
+     "when": {
+      "line": 1,
+      "word": "dauphin"
+     }
+    }
+   ],
+   "say": [
+    "Son fils, le dauphin Charles, se replie au sud de la Loire.",
+    "La France est coupée en trois : Anglais, Bourguignons et dauphin."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1419",
+   "text": "Le meurtre de Montereau",
+   "focus": {
+    "box": [
+     -0.6,
+     46.4,
+     6.2,
+     50.4
+    ]
+   },
+   "beacon": [
+    {
+     "at": [
+      2.954,
+      48.385
+     ],
+     "when": {
+      "line": 0,
+      "word": "tuent",
+      "d": -0.2
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      2.954,
+      48.385
+     ],
+     "title": "Montereau",
+     "sub": "Seine-et-Marne",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "tuent",
+      "d": 0.2
+     }
+    }
+   ],
+   "people": [
+    {
+     "who": "roi",
+     "at": [
+      5.04,
+      47.6
+     ],
+     "size": 210,
+     "outfit": "#E8A33C",
+     "say": "Vengeance !",
+     "label": {
+      "title": "Philippe le Bon",
+      "sub": "nouveau duc"
+     },
+     "when": {
+      "line": 1,
+      "word": "venger",
+      "d": -0.2
+     }
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      4.4,
+      47.9
+     ],
+     "to": [
+      1.1,
+      49.4
+     ],
+     "n": 3,
+     "color": "#E8A33C",
+     "at": {
+      "line": 1,
+      "word": "allie",
+      "d": -0.3
+     },
+     "dur": 2
+    }
+   ],
+   "say": [
+    "En 1419, des partisans du dauphin tuent le duc de Bourgogne à Montereau.",
+    "Pour se venger, le fils du duc s’allie aux Anglais."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "21 mai 1420",
+   "text": "Le traité de Troyes",
+   "focus": {
+    "box": [
+     -5.8,
+     41.9,
+     9,
+     51.5
+    ]
+   },
+   "highlight": {
+    "regions": [
+     {
+      "c": "France",
+      "n": "Paris"
+     },
+     {
+      "c": "France",
+      "n": "Hauts-de-Seine"
+     },
+     {
+      "c": "France",
+      "n": "Seine-Saint-Denis"
+     },
+     {
+      "c": "France",
+      "n": "Val-de-Marne"
+     },
+     {
+      "c": "France",
+      "n": "Val-d'Oise"
+     },
+     {
+      "c": "France",
+      "n": "Yvelines"
+     },
+     {
+      "c": "France",
+      "n": "Essonne"
+     },
+     {
+      "c": "France",
+      "n": "Seien-et-Marne"
+     },
+     {
+      "c": "France",
+      "n": "Eure-et-Loir"
+     },
+     {
+      "c": "France",
+      "n": "Oise"
+     },
+     {
+      "c": "France",
+      "n": "Somme"
+     },
+     {
+      "c": "France",
+      "n": "Aisne"
+     },
+     {
+      "c": "France",
+      "n": "Marne"
+     },
+     {
+      "c": "France",
+      "n": "Aube"
+     },
+     {
+      "c": "France",
+      "n": "Haute-Marne"
+     },
+     {
+      "c": "France",
+      "n": "Ardennes"
+     }
+    ],
+    "color": "#FF2E88",
+    "at": 0,
+    "keep": false
+   },
+   "beacon": [
+    {
+     "at": [
+      4.074,
+      48.297
+     ],
+     "when": 0
+    }
+   ],
+   "labels": [
+    {
+     "text": "Troyes",
+     "at": [
+      4.074,
+      47.85
+     ],
+     "size": 40,
+     "when": 0.3
+    }
+   ],
+   "art": [
+    {
+     "kind": "treaty",
+     "at": {
+      "line": 0,
+      "word": "signé",
+      "d": -0.3
+     },
+     "dur": 3.6,
+     "title": "Traité de Troyes",
+     "sub": "21 mai 1420, scellé au nom de :",
+     "signers": [
+      "Charles VI",
+      "Henri V"
+     ],
+     "year": "1420"
+    },
+    {
+     "kind": "split",
+     "at": {
+      "line": 1,
+      "d": -0.4
+     },
+     "dur": 4.6,
+     "title": "Le Nord à Henri V",
+     "sub": "frontières approximatives",
+     "before": "Avant 1420",
+     "after": "Après 1420",
+     "legend": [
+      {
+       "color": "#FF2E88",
+       "text": "cédé"
+      },
+      {
+       "color": "#9AA6FF",
+       "text": "Henri V"
+      },
+      {
+       "color": "#4FA3E0",
+       "text": "le dauphin"
+      },
+      {
+       "color": "#E8A33C",
+       "text": "Bourguignons"
+      }
+     ],
+     "parts": [
+      {
+       "region": {
+        "c": "France",
+        "n": "Seine-Maritime"
+       },
+       "color": "#9AA6FF"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Eure"
+       },
+       "color": "#9AA6FF"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Calvados"
+       },
+       "color": "#9AA6FF"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Orne"
+       },
+       "color": "#9AA6FF"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Manche"
+       },
+       "color": "#9AA6FF"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Gironde"
+       },
+       "color": "#9AA6FF"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Landes"
+       },
+       "color": "#9AA6FF"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Paris"
+       },
+       "color": "#FF2E88",
+       "to": "#9AA6FF"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Hauts-de-Seine"
+       },
+       "color": "#FF2E88",
+       "to": "#9AA6FF"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Seine-Saint-Denis"
+       },
+       "color": "#FF2E88",
+       "to": "#9AA6FF"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Val-de-Marne"
+       },
+       "color": "#FF2E88",
+       "to": "#9AA6FF"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Val-d'Oise"
+       },
+       "color": "#FF2E88",
+       "to": "#9AA6FF"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Yvelines"
+       },
+       "color": "#FF2E88",
+       "to": "#9AA6FF"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Essonne"
+       },
+       "color": "#FF2E88",
+       "to": "#9AA6FF"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Seien-et-Marne"
+       },
+       "color": "#FF2E88",
+       "to": "#9AA6FF"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Eure-et-Loir"
+       },
+       "color": "#FF2E88",
+       "to": "#9AA6FF"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Oise"
+       },
+       "color": "#FF2E88",
+       "to": "#9AA6FF"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Somme"
+       },
+       "color": "#FF2E88",
+       "to": "#9AA6FF"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Aisne"
+       },
+       "color": "#FF2E88",
+       "to": "#9AA6FF"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Marne"
+       },
+       "color": "#FF2E88",
+       "to": "#9AA6FF"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Aube"
+       },
+       "color": "#FF2E88",
+       "to": "#9AA6FF"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Haute-Marne"
+       },
+       "color": "#FF2E88",
+       "to": "#9AA6FF"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Ardennes"
+       },
+       "color": "#FF2E88",
+       "to": "#9AA6FF"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Loiret"
+       },
+       "color": "#4FA3E0"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Loir-et-Cher"
+       },
+       "color": "#4FA3E0"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Indre-et-Loire"
+       },
+       "color": "#4FA3E0"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Maine-et-Loire"
+       },
+       "color": "#4FA3E0"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Sarthe"
+       },
+       "color": "#4FA3E0"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Mayenne"
+       },
+       "color": "#4FA3E0"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Cher"
+       },
+       "color": "#4FA3E0"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Indre"
+       },
+       "color": "#4FA3E0"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Vienne"
+       },
+       "color": "#4FA3E0"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Deux-Sèvres"
+       },
+       "color": "#4FA3E0"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Vendée"
+       },
+       "color": "#4FA3E0"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Charente"
+       },
+       "color": "#4FA3E0"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Charente-Maritime"
+       },
+       "color": "#4FA3E0"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Haute-Vienne"
+       },
+       "color": "#4FA3E0"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Creuse"
+       },
+       "color": "#4FA3E0"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Corrèze"
+       },
+       "color": "#4FA3E0"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Allier"
+       },
+       "color": "#4FA3E0"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Puy-de-Dôme"
+       },
+       "color": "#4FA3E0"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Cantal"
+       },
+       "color": "#4FA3E0"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Haute-Loire"
+       },
+       "color": "#4FA3E0"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Loire"
+       },
+       "color": "#4FA3E0"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Rhône"
+       },
+       "color": "#4FA3E0"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Isère"
+       },
+       "color": "#4FA3E0"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Drôme"
+       },
+       "color": "#4FA3E0"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Hautes-Alpes"
+       },
+       "color": "#4FA3E0"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Ardèche"
+       },
+       "color": "#4FA3E0"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Lozère"
+       },
+       "color": "#4FA3E0"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Gard"
+       },
+       "color": "#4FA3E0"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Hérault"
+       },
+       "color": "#4FA3E0"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Aude"
+       },
+       "color": "#4FA3E0"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Haute-Garonne"
+       },
+       "color": "#4FA3E0"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Tarn"
+       },
+       "color": "#4FA3E0"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Aveyron"
+       },
+       "color": "#4FA3E0"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Lot"
+       },
+       "color": "#4FA3E0"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Tarn-et-Garonne"
+       },
+       "color": "#4FA3E0"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Gers"
+       },
+       "color": "#4FA3E0"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Ariège"
+       },
+       "color": "#4FA3E0"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Hautes-Pyrénées"
+       },
+       "color": "#4FA3E0"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Dordogne"
+       },
+       "color": "#4FA3E0"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Lot-et-Garonne"
+       },
+       "color": "#4FA3E0"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Pyrénées-Atlantiques"
+       },
+       "color": "#4FA3E0"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Côte-d'Or"
+       },
+       "color": "#E8A33C"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Saône-et-Loire"
+       },
+       "color": "#E8A33C"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Nièvre"
+       },
+       "color": "#E8A33C"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Yonne"
+       },
+       "color": "#E8A33C"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Nord"
+       },
+       "color": "#E8A33C"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Pas-de-Calais"
+       },
+       "color": "#E8A33C"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Finistère"
+       },
+       "color": "#6B7488"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Côtes-d'Armor"
+       },
+       "color": "#6B7488"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Morbihan"
+       },
+       "color": "#6B7488"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Ille-et-Vilaine"
+       },
+       "color": "#6B7488"
+      },
+      {
+       "region": {
+        "c": "France",
+        "n": "Loire-Atlantique"
+       },
+       "color": "#6B7488"
+      }
+     ]
+    }
+   ],
+   "say": [
+    {
+     "say": "Le 21 mai 1420, à Troyes, un traité est signé au nom du roi.",
+     "show": "Le 21 mai 1420, à Troyes, un traité est signé au nom du roi."
+    },
+    {
+     "say": "Henri cinq gouverne à la place du roi malade, et sera roi après lui.",
+     "show": "Henri V gouverne à la place du roi malade, et sera roi après lui."
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1420 – 1422",
+   "text": "Un roi anglais à Paris",
+   "focus": {
+    "box": [
+     -1.6,
+     46.4,
+     5.4,
+     51
+    ]
+   },
+   "highlight": {
+    "regions": [
+     {
+      "c": "France",
+      "n": "Paris"
+     },
+     {
+      "c": "France",
+      "n": "Hauts-de-Seine"
+     },
+     {
+      "c": "France",
+      "n": "Seine-Saint-Denis"
+     },
+     {
+      "c": "France",
+      "n": "Val-de-Marne"
+     },
+     {
+      "c": "France",
+      "n": "Val-d'Oise"
+     },
+     {
+      "c": "France",
+      "n": "Yvelines"
+     },
+     {
+      "c": "France",
+      "n": "Essonne"
+     },
+     {
+      "c": "France",
+      "n": "Seien-et-Marne"
+     },
+     {
+      "c": "France",
+      "n": "Eure-et-Loir"
+     },
+     {
+      "c": "France",
+      "n": "Oise"
+     },
+     {
+      "c": "France",
+      "n": "Somme"
+     },
+     {
+      "c": "France",
+      "n": "Aisne"
+     },
+     {
+      "c": "France",
+      "n": "Marne"
+     },
+     {
+      "c": "France",
+      "n": "Aube"
+     },
+     {
+      "c": "France",
+      "n": "Haute-Marne"
+     },
+     {
+      "c": "France",
+      "n": "Ardennes"
+     }
+    ],
+    "color": "#9AA6FF",
+    "at": {
+     "line": 0,
+     "word": "Paris",
+     "d": -0.2
+    }
+   },
+   "people": [
+    {
+     "who": "roi",
+     "at": [
+      2.35,
+      49.3
+     ],
+     "size": 230,
+     "outfit": "#9AA6FF",
+     "say": "Régent de France",
+     "label": {
+      "title": "Henri V",
+      "sub": "époux de Catherine"
+     },
+     "when": {
+      "line": 0,
+      "word": "Catherine",
+      "d": -0.3
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Paris",
+     "at": [
+      2.35,
+      48.6
+     ],
+     "size": 36,
+     "when": {
+      "line": 0,
+      "word": "Paris"
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      2.35,
+      48.86
+     ],
+     "title": "Henri VI",
+     "sub": "roi à moins d’un an",
+     "side": "r",
+     "when": {
+      "line": 1,
+      "word": "bébé",
+      "d": 0.2
+     }
+    }
+   ],
+   "art": [
+    {
+     "kind": "timeline",
+     "at": {
+      "line": 1,
+      "d": 0.2
+     },
+     "dur": 4,
+     "spread": true,
+     "title": "Le plan déraille",
+     "items": [
+      {
+       "year": "1420",
+       "text": "Henri V, héritier",
+       "color": "#9AA6FF"
+      },
+      {
+       "year": "août 1422",
+       "text": "Henri V meurt",
+       "color": "#9AA6FF"
+      },
+      {
+       "year": "oct. 1422",
+       "text": "Charles VI meurt",
+       "color": "#E8A33C"
+      }
+     ]
+    }
+   ],
+   "say": [
+    {
+     "say": "Henri cinq épouse Catherine, fille du roi, et gouverne Paris.",
+     "show": "Henri V épouse Catherine, fille du roi, et gouverne Paris."
+    },
+    "Mais il meurt en 1422, sept semaines avant le roi ; son bébé hérite."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1429 – 1453",
+   "text": "Charles VII reprend le royaume",
+   "focus": {
+    "box": [
+     -3.6,
+     42.2,
+     7.4,
+     52.4
+    ]
+   },
+   "highlight": [
+    {
+     "regions": [
+      {
+       "c": "France",
+       "n": "Marne"
+      },
+      {
+       "c": "France",
+       "n": "Aube"
+      },
+      {
+       "c": "France",
+       "n": "Aisne"
+      }
+     ],
+     "color": "#4FA3E0",
+     "at": {
+      "line": 0,
+      "word": "sacrer",
+      "d": -0.2
+     }
+    },
+    {
+     "regions": [
+      {
+       "c": "France",
+       "n": "Paris"
+      },
+      {
+       "c": "France",
+       "n": "Hauts-de-Seine"
+      },
+      {
+       "c": "France",
+       "n": "Seine-Saint-Denis"
+      },
+      {
+       "c": "France",
+       "n": "Val-de-Marne"
+      },
+      {
+       "c": "France",
+       "n": "Val-d'Oise"
+      },
+      {
+       "c": "France",
+       "n": "Yvelines"
+      },
+      {
+       "c": "France",
+       "n": "Essonne"
+      },
+      {
+       "c": "France",
+       "n": "Seien-et-Marne"
+      },
+      {
+       "c": "France",
+       "n": "Eure-et-Loir"
+      },
+      {
+       "c": "France",
+       "n": "Oise"
+      },
+      {
+       "c": "France",
+       "n": "Somme"
+      },
+      {
+       "c": "France",
+       "n": "Haute-Marne"
+      },
+      {
+       "c": "France",
+       "n": "Ardennes"
+      },
+      {
+       "c": "France",
+       "n": "Seine-Maritime"
+      },
+      {
+       "c": "France",
+       "n": "Eure"
+      },
+      {
+       "c": "France",
+       "n": "Calvados"
+      },
+      {
+       "c": "France",
+       "n": "Orne"
+      },
+      {
+       "c": "France",
+       "n": "Manche"
+      },
+      {
+       "c": "France",
+       "n": "Gironde"
+      },
+      {
+       "c": "France",
+       "n": "Landes"
+      }
+     ],
+     "color": "#4FA3E0",
+     "at": {
+      "line": 1,
+      "word": "Anglais",
+      "d": -0.2
+     }
+    },
+    {
+     "area": [
+      [
+       1.55,
+       50.8
+      ],
+      [
+       1.62,
+       50.98
+      ],
+      [
+       1.95,
+       51.08
+      ],
+      [
+       2.12,
+       50.98
+      ],
+      [
+       2.08,
+       50.82
+      ],
+      [
+       1.85,
+       50.74
+      ]
+     ],
+     "color": "#9AA6FF",
+     "at": {
+      "line": 1,
+      "word": "Calais",
+      "d": -0.2
+     }
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      1.9,
+      47.9
+     ],
+     "to": [
+      4.03,
+      49.25
+     ],
+     "n": 3,
+     "color": "#4FA3E0",
+     "at": {
+      "line": 0,
+      "word": "Jeanne",
+      "d": -0.2
+     },
+     "dur": 2
+    }
+   ],
+   "labels": [
+    {
+     "text": "Reims",
+     "at": [
+      4.03,
+      49
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "word": "Reims"
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      1.86,
+      50.93
+     ],
+     "title": "Calais",
+     "sub": "reste anglaise",
+     "side": "l",
+     "when": {
+      "line": 1,
+      "word": "Calais",
+      "d": 0.3
+     }
+    }
+   ],
+   "say": [
+    {
+     "say": "En 1429, Jeanne d’Arc fait sacrer le dauphin à Reims : Charles sept.",
+     "show": "En 1429, Jeanne d’Arc fait sacrer le dauphin à Reims : Charles VII."
+    },
+    "En 1453, il ne reste aux Anglais que Calais."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "Aujourd’hui",
+   "text": "La ligne de 1420 a disparu",
+   "focus": {
+    "box": [
+     -5.8,
+     41,
+     9,
+     52.8
+    ]
+   },
+   "highlight": {
+    "regions": [
+     {
+      "c": "France",
+      "n": "Paris"
+     },
+     {
+      "c": "France",
+      "n": "Hauts-de-Seine"
+     },
+     {
+      "c": "France",
+      "n": "Seine-Saint-Denis"
+     },
+     {
+      "c": "France",
+      "n": "Val-de-Marne"
+     },
+     {
+      "c": "France",
+      "n": "Val-d'Oise"
+     },
+     {
+      "c": "France",
+      "n": "Yvelines"
+     },
+     {
+      "c": "France",
+      "n": "Essonne"
+     },
+     {
+      "c": "France",
+      "n": "Seien-et-Marne"
+     },
+     {
+      "c": "France",
+      "n": "Eure-et-Loir"
+     },
+     {
+      "c": "France",
+      "n": "Oise"
+     },
+     {
+      "c": "France",
+      "n": "Somme"
+     },
+     {
+      "c": "France",
+      "n": "Aisne"
+     },
+     {
+      "c": "France",
+      "n": "Marne"
+     },
+     {
+      "c": "France",
+      "n": "Aube"
+     },
+     {
+      "c": "France",
+      "n": "Haute-Marne"
+     },
+     {
+      "c": "France",
+      "n": "Ardennes"
+     }
+    ],
+    "color": "#FF2E88",
+    "at": 0.2,
+    "keep": false
+   },
+   "line": {
+    "points": [
+     [
+      -1.2,
+      48.6
+     ],
+     [
+      0,
+      48.45
+     ],
+     [
+      0.9,
+      48.25
+     ],
+     [
+      1.6,
+      48.05
+     ],
+     [
+      2.4,
+      48.05
+     ],
+     [
+      3,
+      47.85
+     ],
+     [
+      3.15,
+      47.3
+     ],
+     [
+      3.1,
+      46.9
+     ],
+     [
+      3.7,
+      46.6
+     ],
+     [
+      4.4,
+      46.3
+     ],
+     [
+      4.85,
+      46.1
+     ]
+    ],
+    "color": "#FFFFFF",
+    "width": 12,
+    "draw": 2.2,
+    "at": {
+     "line": 0,
+     "d": 0.4
+    }
+   },
+   "labels": [
+    {
+     "text": "France",
+     "at": [
+      2.4,
+      45.6
+     ],
+     "size": 48,
+     "when": 1
+    },
+    {
+     "text": "Royaume-Uni",
+     "at": [
+      -1.5,
+      52.4
+     ],
+     "size": 40,
+     "when": 1.2
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      -0.4,
+      47.4
+     ],
+     "title": "Ligne de 1420",
+     "sub": "effacée en 1453",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "ligne",
+      "d": 0.3
+     }
+    },
+    {
+     "at": [
+      1.86,
+      50.93
+     ],
+     "title": "Calais",
+     "sub": "anglaise jusqu’en 1558",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "Calais"
+     }
+    }
+   ],
+   "say": [
+    "Aujourd’hui, cette ligne a disparu ; Calais est française depuis 1558.",
+    "Mais à Londres, le roi garde le titre de roi de France jusqu’en 1801."
+   ]
+  },
+  {
+   "type": "final",
+   "text": "Un traité pour une couronne",
+   "sub": "Troyes, 21 mai 1420",
+   "focus": {
+    "box": [
+     -5.8,
+     41.9,
+     9,
+     51.5
+    ]
+   },
+   "highlight": {
+    "regions": [
+     {
+      "c": "France",
+      "n": "Paris"
+     },
+     {
+      "c": "France",
+      "n": "Hauts-de-Seine"
+     },
+     {
+      "c": "France",
+      "n": "Seine-Saint-Denis"
+     },
+     {
+      "c": "France",
+      "n": "Val-de-Marne"
+     },
+     {
+      "c": "France",
+      "n": "Val-d'Oise"
+     },
+     {
+      "c": "France",
+      "n": "Yvelines"
+     },
+     {
+      "c": "France",
+      "n": "Essonne"
+     },
+     {
+      "c": "France",
+      "n": "Seien-et-Marne"
+     },
+     {
+      "c": "France",
+      "n": "Eure-et-Loir"
+     },
+     {
+      "c": "France",
+      "n": "Oise"
+     },
+     {
+      "c": "France",
+      "n": "Somme"
+     },
+     {
+      "c": "France",
+      "n": "Aisne"
+     },
+     {
+      "c": "France",
+      "n": "Marne"
+     },
+     {
+      "c": "France",
+      "n": "Aube"
+     },
+     {
+      "c": "France",
+      "n": "Haute-Marne"
+     },
+     {
+      "c": "France",
+      "n": "Ardennes"
+     }
+    ],
+    "color": "#FF2E88",
+    "at": 0.3,
+    "keep": false
+   },
+   "beacon": [
+    {
+     "at": [
+      4.074,
+      48.297
+     ],
+     "when": 0.5
+    }
+   ],
+   "say": [
+    "Voilà pourquoi la couronne de France a failli devenir anglaise.",
+    "Et tout part de cette question :"
+   ]
+  }
+ ]
+}

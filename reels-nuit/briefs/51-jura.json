@@ -1,0 +1,768 @@
+{
+ "format": "atlas",
+ "id": "atlas-jura",
+ "terrain": [
+  {
+   "box": [
+    -14,
+    27,
+    40,
+    76
+   ],
+   "px": 3000,
+   "z": 6
+  },
+  {
+   "box": [
+    6.1,
+    46.3,
+    8.8,
+    48.2
+   ],
+   "px": 2800,
+   "z": 9
+  }
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "text": "Pourquoi un canton du Jura ?",
+   "sub": "La naissance du 26e canton",
+   "focus": {
+    "box": [
+     6.5,
+     46.7,
+     8.4,
+     47.65
+    ]
+   },
+   "highlight": [
+    {
+     "cantons": [
+      "BE"
+     ],
+     "color": "#E8503A",
+     "at": 0.5,
+     "keep": true
+    },
+    {
+     "cantons": [
+      "JU"
+     ],
+     "color": "#4FA3E0",
+     "at": 1.2,
+     "keep": true
+    }
+   ],
+   "labels": [
+    {
+     "text": "Berne",
+     "at": [
+      7.85,
+      46.95
+     ],
+     "size": 44,
+     "when": {
+      "line": 0,
+      "word": "Berne"
+     }
+    },
+    {
+     "text": "Jura",
+     "at": [
+      7.15,
+      47.4
+     ],
+     "size": 44,
+     "when": {
+      "line": 0,
+      "word": "nouveau",
+      "d": 0.2
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      7.34,
+      47.36
+     ],
+     "title": "Delémont",
+     "side": "t",
+     "when": {
+      "line": 1,
+      "d": 0.3
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      7.34,
+      47.36
+     ],
+     "when": 0.6
+    }
+   ],
+   "say": [
+    "Pourquoi, en 1979, la Suisse a-t-elle créé un canton francophone, taillé dans celui de Berne ?",
+    "Ce territoire catholique a quitté un canton germanophone et protestant, après une longue lutte."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1815",
+   "text": "L’Évêché de Bâle donné à Berne",
+   "focus": {
+    "box": [
+     6.6,
+     46.95,
+     8.0,
+     47.7
+    ]
+   },
+   "highlight": [
+    {
+     "cantons": [
+      "JU"
+     ],
+     "districts": [
+      241,
+      1302
+     ],
+     "color": "#4FA3E0",
+     "at": 0.4,
+     "keep": false
+    }
+   ],
+   "labels": [
+    {
+     "text": "Berne",
+     "at": [
+      7.7,
+      46.98
+     ],
+     "size": 40,
+     "when": 0.8
+    },
+    {
+     "text": "Bâle",
+     "at": [
+      7.62,
+      47.62
+     ],
+     "size": 38,
+     "when": 1.0
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      7.34,
+      47.36
+     ],
+     "title": "Ancien Évêché de Bâle",
+     "side": "l",
+     "when": {
+      "line": 0,
+      "word": "Évêché"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      7.34,
+      47.36
+     ],
+     "when": 0.5
+    }
+   ],
+   "say": [
+    "En 1815, le Congrès de Vienne donne à Berne l’ancien Évêché de Bâle, pays francophone et surtout catholique."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1947",
+   "text": "L’affaire Moeckli",
+   "focus": {
+    "box": [
+     6.7,
+     46.95,
+     8.0,
+     47.6
+    ]
+   },
+   "highlight": [
+    {
+     "cantons": [
+      "JU"
+     ],
+     "color": "#4FA3E0",
+     "at": 0.3,
+     "keep": true
+    },
+    {
+     "districts": [
+      241
+     ],
+     "color": "#FFD83C",
+     "at": 0.6,
+     "keep": true
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      7.37,
+      47.28
+     ],
+     "title": "Moutier",
+     "sub": "1947",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "Moutier"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      7.37,
+      47.28
+     ],
+     "when": {
+      "line": 0,
+      "word": "Moutier"
+     }
+    }
+   ],
+   "say": [
+    "En 1947, Berne refuse un poste clé à un Jurassien, et à Moutier naît un mouvement séparatiste."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1974",
+   "text": "Un oui de justesse",
+   "focus": {
+    "box": [
+     6.7,
+     46.95,
+     8.0,
+     47.7
+    ]
+   },
+   "highlight": [
+    {
+     "districts": [
+      2601,
+      2602,
+      2603
+     ],
+     "color": "#4FA3E0",
+     "at": 0.3,
+     "keep": true
+    },
+    {
+     "districts": [
+      241,
+      1302
+     ],
+     "color": "#E8503A",
+     "at": 2.5,
+     "keep": true
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      7.34,
+      47.36
+     ],
+     "title": "Delémont",
+     "side": "t",
+     "when": {
+      "line": 1,
+      "word": "Delémont"
+     }
+    },
+    {
+     "at": [
+      7.0,
+      47.45
+     ],
+     "title": "Porrentruy",
+     "side": "t",
+     "when": {
+      "line": 1,
+      "word": "Porrentruy",
+      "d": 0.2
+     }
+    },
+    {
+     "at": [
+      7.0,
+      47.2
+     ],
+     "title": "Franches-Montagnes",
+     "side": "l",
+     "when": {
+      "line": 1,
+      "word": "Franches-Montagnes",
+      "d": 0.2
+     }
+    }
+   ],
+   "art": [
+    {
+     "kind": "stats",
+     "at": {
+      "line": 0,
+      "word": "52",
+      "d": -0.3
+     },
+     "dur": 4.5,
+     "title": "Plébiscite du 23 juin 1974",
+     "items": [
+      {
+       "value": 52,
+       "suffix": " % oui",
+       "label": "Jura entier",
+       "color": "#4FA3E0"
+      },
+      {
+       "value": 3,
+       "label": "districts pour",
+       "color": "#3E9A63"
+      },
+      {
+       "value": 4,
+       "label": "districts contre",
+       "color": "#E8503A"
+      }
+     ]
+    }
+   ],
+   "say": [
+    "Le 23 juin 1974, les sept districts jurassiens disent oui à environ 52 %, mais trois districts seulement.",
+    "Delémont, Porrentruy et les Franches-Montagnes votent oui ; Courtelary, La Neuveville, Moutier et Laufon non."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1975",
+   "text": "Le Sud reste bernois",
+   "focus": {
+    "box": [
+     6.7,
+     46.95,
+     8.0,
+     47.7
+    ]
+   },
+   "highlight": [
+    {
+     "cantons": [
+      "JU"
+     ],
+     "color": "#4FA3E0",
+     "at": 0.3,
+     "keep": true
+    },
+    {
+     "districts": [
+      241,
+      1302
+     ],
+     "color": "#FFD83C",
+     "at": 0.9,
+     "keep": true
+    }
+   ],
+   "labels": [
+    {
+     "text": "Reste bernois",
+     "at": [
+      7.2,
+      47.17
+     ],
+     "size": 40,
+     "when": {
+      "line": 0,
+      "word": "restent"
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      7.37,
+      47.28
+     ],
+     "title": "Moutier",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "Moutier"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      7.37,
+      47.28
+     ],
+     "when": {
+      "line": 0,
+      "word": "Moutier"
+     }
+    }
+   ],
+   "say": [
+    "En 1975, un second vote confirme que Moutier et les trois autres districts du Sud restent bernois."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1978 – 1979",
+   "text": "Le canton du Jura naît",
+   "focus": {
+    "box": [
+     6.6,
+     46.7,
+     8.4,
+     47.7
+    ]
+   },
+   "highlight": [
+    {
+     "cantons": [
+      "BE"
+     ],
+     "color": "#E8503A",
+     "at": 0.2,
+     "keep": true
+    },
+    {
+     "cantons": [
+      "JU"
+     ],
+     "color": "#4FA3E0",
+     "at": 0.8,
+     "keep": true
+    }
+   ],
+   "labels": [
+    {
+     "text": "Berne",
+     "at": [
+      7.8,
+      46.95
+     ],
+     "size": 40,
+     "when": 1.0
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      7.34,
+      47.36
+     ],
+     "title": "Delémont",
+     "sub": "capitale",
+     "side": "t",
+     "when": {
+      "line": 1,
+      "word": "Delémont"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      7.34,
+      47.36
+     ],
+     "when": {
+      "line": 1,
+      "word": "souveraineté"
+     }
+    }
+   ],
+   "art": [
+    {
+     "kind": "split",
+     "at": {
+      "line": 1,
+      "word": "1er",
+      "d": -0.2
+     },
+     "dur": 5,
+     "title": "Berne avant et après",
+     "before": "Avant 1979",
+     "after": "Dès 1979",
+     "legend": [
+      {
+       "color": "#E8503A",
+       "text": "Berne"
+      },
+      {
+       "color": "#4FA3E0",
+       "text": "Jura"
+      }
+     ],
+     "parts": [
+      {
+       "region": {
+        "c": "Switzerland",
+        "n": "Bern"
+       },
+       "color": "#E8503A"
+      },
+      {
+       "region": {
+        "c": "Switzerland",
+        "n": "Jura"
+       },
+       "color": "#E8503A",
+       "to": "#4FA3E0"
+      }
+     ]
+    }
+   ],
+   "say": [
+    "Le 24 septembre 1978, la Suisse accepte la création du canton du Jura, par 82,3 % de oui.",
+    "Le 1er janvier 1979, le Jura entre en souveraineté, avec Delémont pour capitale."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1989 – 1994",
+   "text": "Laufon quitte Berne",
+   "focus": {
+    "box": [
+     6.7,
+     47.1,
+     8.0,
+     47.8
+    ]
+   },
+   "highlight": [
+    {
+     "cantons": [
+      "JU"
+     ],
+     "color": "#4FA3E0",
+     "at": 0.2,
+     "keep": true
+    },
+    {
+     "districts": [
+      1302
+     ],
+     "color": "#3E9A63",
+     "at": 0.4,
+     "keep": false
+    }
+   ],
+   "labels": [
+    {
+     "text": "Bâle-Campagne",
+     "at": [
+      7.75,
+      47.52
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "word": "Bâle-Campagne"
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      7.52,
+      47.48
+     ],
+     "title": "Laufon",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "Laufon"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      7.52,
+      47.48
+     ],
+     "when": {
+      "line": 0,
+      "word": "Laufon"
+     }
+    }
+   ],
+   "say": [
+    "Laufon, resté bernois, vote en 1989 pour Bâle-Campagne, qu’il rejoint le 1er janvier 1994."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "2021 – 2026",
+   "text": "Moutier change de canton",
+   "focus": {
+    "box": [
+     6.8,
+     47.05,
+     7.9,
+     47.6
+    ]
+   },
+   "highlight": [
+    {
+     "cantons": [
+      "JU"
+     ],
+     "color": "#4FA3E0",
+     "at": 0.2,
+     "keep": true
+    },
+    {
+     "districts": [
+      241
+     ],
+     "color": "#FFD83C",
+     "at": 0.5,
+     "keep": true
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      7.37,
+      47.28
+     ],
+     "title": "Moutier",
+     "sub": "54,9 % de oui",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "Moutier"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      7.37,
+      47.28
+     ],
+     "when": {
+      "line": 0,
+      "word": "Moutier"
+     }
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      7.8,
+      47.16
+     ],
+     "to": [
+      7.52,
+      47.26
+     ],
+     "n": 2,
+     "color": "#4FA3E0",
+     "label": "Vers le Jura",
+     "at": {
+      "line": 0,
+      "word": "2021"
+     },
+     "dur": 2
+    }
+   ],
+   "say": [
+    "À Moutier, un vote de 2017, annulé puis refait en 2021, mène au Jura le 1er janvier 2026."
+   ]
+  },
+  {
+   "type": "final",
+   "text": "Un canton né de la volonté d’un peuple",
+   "sub": "Le canton du Jura",
+   "focus": {
+    "box": [
+     6.5,
+     46.7,
+     8.4,
+     47.65
+    ]
+   },
+   "highlight": [
+    {
+     "cantons": [
+      "BE"
+     ],
+     "color": "#E8503A",
+     "at": 0.2,
+     "keep": true
+    },
+    {
+     "cantons": [
+      "JU"
+     ],
+     "color": "#4FA3E0",
+     "at": 0.4,
+     "keep": true
+    }
+   ],
+   "art": [
+    {
+     "kind": "timeline",
+     "at": {
+      "line": 0,
+      "d": 0.3
+     },
+     "dur": 5,
+     "title": "Du Congrès à Moutier",
+     "spread": true,
+     "items": [
+      {
+       "year": "1815",
+       "text": "Évêché donné à Berne"
+      },
+      {
+       "year": "1947",
+       "text": "Affaire Moeckli"
+      },
+      {
+       "year": "1974",
+       "text": "Plébiscite jurassien"
+      },
+      {
+       "year": "1979",
+       "text": "Canton du Jura"
+      },
+      {
+       "year": "2026",
+       "text": "Moutier rejoint le Jura"
+      }
+     ]
+    }
+   ],
+   "say": [
+    "Voilà pourquoi le Jura est devenu canton : une minorité francophone et catholique l’a voulu par les urnes.",
+    "Voilà la réponse à la question qui nous a ouverts :"
+   ]
+  }
+ ]
+}

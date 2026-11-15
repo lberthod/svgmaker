@@ -1,0 +1,5 @@
+- Faits : cause ajoutée au hook (URSS communiste / Ouest, après 1945) ; Churchill « popularise », personnage civil sans couronne ; RFA retirée du bleu OTAN 1949 ; Sarre retirée ; « plus de 600 » ; EuroVelo 13 : 10 400 km, 20 pays (Wikipédia) ; final : 2004 adhésion UE de la Pologne, Tchéquie, Slovaquie, Hongrie.
+- Carto : tracé EuroVelo en 5 segments le long de l'ancienne frontière ; anneau du mur autour de Berlin-Ouest ; focus Berlin élargi ; Sopron/flèche décalés ; label URSS supprimé, labels recadrés.
+- Lisibilité : tous les sub de pastilles retirés ; phrases complètes par ligne ; flèches Nov. 1989 sans libellé.
+- Caméra : highlights/arts recalés sur les mots, arts 3,4 s.
+- Boucle : dernière phrase « Voilà la réponse à la question qui nous a ouverts : ». Terrain corrigé. Durée estimée 104,6 s.

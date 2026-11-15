@@ -1,0 +1,11 @@
+# Luxembourg v5, boucle 2 (corrections issues de l'audit B)
+- Sc.1 : sub = « 47 % d'étrangers sur 100 habitants » ; crowd calée sur « Environ » (+0,3) ; highlight Lux à 0,3 s.
+- Sc.2 : roi -> alaman (pas de couronne sur un comte), apparition « Autour » -0,5 ; art castle 3,8 -> 2,6 s ; Allemagne [7.1,49.9] ; focus élargi à 7,9 ; pastille side l.
+- Sc.3 : étiquettes de flèches échangées (Monde roman / Monde germanique) ; Wallonie -> « Pays romans » [4.3,50.2], Rhénanie -> « Pays germaniques » ; romain -> fr ; phrase sans coupure gênante.
+- Sc.4 : flèche « Vers La Haye » retirée ; label [5.2,49.75] calé sur « alors » ; pastille « aujourd'hui » sur « plus ».
+- Sc.5 : orange calé sur « indépendance » ; split 5 -> 3,6 s ; Bastogne side t, plus tôt ; « surtout francophone ».
+- Sc.6 : titre « Neutre, puis son grand-duc » ; neutral 14 -> 10,5 s, phase2 4,6 ; ajout de la cause de 1890 (fille ne peut régner, loi salique implicite).
+- Sc.7 : languages 14 -> 8 s ; note « nationale et officielle » ; highlight Lux, labels France/Allemagne, cadre élargi.
+- Sc.8 : timeline 5,6 -> 4,2 s ; 1890 « Grand-duc propre » ; highlight Lux ; moves n=1 ; pastille Lux side r sans sub.
+- Final : « Trois langues ! » à 1 s (plus de « À bientôt »).
+- Non traité (générateur) : « garde son propre grand-duc » codé en dur dans art.mjs l.121.

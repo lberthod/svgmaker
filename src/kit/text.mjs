@@ -77,6 +77,8 @@ export const kindOf = (s) => (/[฀-๿]/.test(String(s)) ? 'th' : 'en')
 
 // mots qui ne commencent jamais une ligne (unités après un nombre, ponctuation haute à la française, « · »)
 const GLUE_PREV = /^(°\S*|%|‰|h|min|s|ms|km|m|cm|mm|kg|g|€|CHF|[!?:;»·…—–])$/
+// chiffre romain (Henri VIII, Louis XIV, Jacques VI) : reste collé au prénom qui le précède
+const ROMAN = /^(?=[IVXLCDM])M{0,3}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})(er|e)?[,.;:!?»…]*$/
 const GLUE_NEXT = /^[«]$/
 
 /** Mots insécables : « 18 °C », « 24 h », « Bonne nuit ! », « « Oui » » restent ensemble. */
@@ -84,7 +86,7 @@ function tokens(para) {
   const out = []
   for (const w of para.split(/[ \t]+/).filter(Boolean)) {
     const prev = out.at(-1)
-    if (prev != null && (GLUE_PREV.test(w) || GLUE_NEXT.test(prev))) out[out.length - 1] = `${prev} ${w}`
+    if (prev != null && (GLUE_PREV.test(w) || GLUE_NEXT.test(prev) || (ROMAN.test(w) && /^\p{Lu}[\p{L}’'-]*$/u.test(prev) && !ROMAN.test(prev)))) out[out.length - 1] = `${prev} ${w}`
     else out.push(w)
   }
   return out
@@ -118,9 +120,25 @@ export function wrapLines(s, { kind = kindOf(s), size, width, balance = true }) 
         if (l.length <= best.length && Math.max(...l.map((x) => textWidth(x, kind, size))) <= mid + 0.5) { hi = mid; best = l } else lo = mid
       }
     }
-    lines.push(...best)
+    lines.push(...(kind === 'en' ? noTailWord(best, kind, size, width) : best))
   }
   return lines
+}
+
+// pas de « le / la / de… » orphelin en fin de ligne : le petit mot passe au début de la ligne suivante (si ça tient)
+const FUNC = new Set(['le', 'la', 'les', 'l’', 'de', 'du', 'des', 'd’', 'un', 'une', 'à', 'au', 'aux', 'en', 'et', 'ou', 'sur', 'dans', 'par', 'pour', 'que', 'qui', 'ce', 'cette', 'sa', 'son', 'ses', 'ne', 'the', 'of', 'a', 'an', 'to', 'and'])
+function noTailWord(lines, kind, size, width) {
+  const out = [...lines]
+  for (let i = 0; i < out.length - 1; i++) {
+    const parts = out[i].split(' ')
+    while (parts.length > 1 && FUNC.has(parts.at(-1).toLowerCase())) {
+      const w = parts.pop(), cand = `${w} ${out[i + 1]}`
+      if (textWidth(cand, kind, size) > width) { parts.push(w); break }
+      out[i + 1] = cand
+    }
+    out[i] = parts.join(' ')
+  }
+  return out
 }
 
 /**

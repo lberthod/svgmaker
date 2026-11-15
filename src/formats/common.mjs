@@ -40,12 +40,15 @@ export const drawArt = (id, x, y, px, { crayon = true, extra = '' } = {}) =>
  * top = haut de l'encre de la première ligne. Retourne { svg, height, size, lines }.
  * anim(i) : style CSS d'animation de la ligne i ; attrs : attributs en plus (data-role…).
  */
+/** Police d'affichage : les paires « IV » et « VI » en majuscules se collent (« ARRIVENT » lu « ARRVENT », « Charles IV » lu « Charles N ») : on écarte la 2e lettre. */
+const kernIV = (h, kind, size) => (kind === 'en' ? h.replace(/(IV|VI)/g, (m) => `${m[0]}<tspan dx="${f(size * 0.07)}">${m[1]}</tspan>`) : h)
+
 export function textBlock(s, { x = 540, top, width = 860, max, min = 30, maxLines = 3, anchor = 'middle', fill, halo, halo_k = 0.14, anim = () => '', attrs = '', tspans }) {
   const kind = kindOf(s)
   const b = fitBlock(s, { kind, max, min, width, maxLines })
   // interligne : la police thaïe (Mali) est plus haute (voyelles et tons au-dessus et au-dessous)
   const lh = b.size * LINE[kind], asc = b.size * 0.78
-  const svg = b.lines.map((line, i) => `<text class="${kind}" x="${x}" y="${f(top + asc + i * lh)}" text-anchor="${anchor}" font-size="${b.size}" fill="${fill}" stroke="${halo}" stroke-width="${f(b.size * halo_k)}"${attrs ? ' ' + attrs : ''} style="${anim(i)}">${tspans ? tspans(line, i) : esc(line)}</text>`).join('\n      ')
+  const svg = b.lines.map((line, i) => `<text class="${kind}" x="${x}" y="${f(top + asc + i * lh)}" text-anchor="${anchor}" font-size="${b.size}" fill="${fill}" stroke="${halo}" stroke-width="${f(b.size * halo_k)}"${attrs ? ' ' + attrs : ''} style="${anim(i)}">${tspans ? tspans(line, i) : kernIV(esc(line), kind, b.size)}</text>`).join('\n      ')
   return { svg, height: asc + (b.lines.length - 1) * lh + b.size * 0.22, size: b.size, lines: b.lines }
 }
 

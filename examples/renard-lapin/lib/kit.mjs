@@ -380,7 +380,7 @@ text{font-family:"Chalkboard SE","Comic Sans MS","Arial Rounded MT Bold",sans-se
 .v{opacity:0}
 @keyframes vis{0%,99.9%{opacity:1}100%{opacity:0}}
 @keyframes tfk{from{transform:var(--f)}to{transform:var(--t)}}
-@keyframes pop{0%{opacity:0;transform:scale(.2)}9%{opacity:1;transform:scale(1.15)}16%{transform:scale(1)}96%{opacity:1;transform:scale(1)}100%{opacity:0;transform:scale(.95)}}
+@keyframes pop{0%{opacity:0;transform:scale(.4)}3%{opacity:1;transform:scale(1.1)}8%{transform:scale(1)}97%{opacity:1;transform:scale(1)}100%{opacity:0;transform:scale(.97)}}
 @keyframes sfxk{0%{opacity:0;transform:scale(.2) rotate(-12deg)}10%{opacity:1;transform:scale(1.3) rotate(4deg)}20%{transform:scale(1) rotate(0)}85%{opacity:1}100%{opacity:0;transform:scale(1.05)}}
 @keyframes swing{from{transform:rotate(calc(var(--a) * -1))}to{transform:rotate(var(--a))}}
 @keyframes leank{0%{transform:rotate(0)}10%,90%{transform:rotate(var(--l))}100%{transform:rotate(0)}}

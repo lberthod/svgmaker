@@ -1,0 +1,1939 @@
+{
+  "format": "atlas",
+  "suisse": false,
+  "id": "empires-23-venise",
+  "world": true,
+  "base": {
+    "countries": [
+      "Italy",
+      "Slovenia",
+      "Croatia",
+      "Bosnia and Herz.",
+      "Montenegro",
+      "Albania",
+      "Greece",
+      "Turkey",
+      "Cyprus",
+      "N. Cyprus"
+    ]
+  },
+  "open": {
+    "box": [
+      11,
+      33.6,
+      35.2,
+      46.4
+    ]
+  },
+  "terrain": [
+    {
+      "box": [
+        -14,
+        20.1,
+        40,
+        76
+      ],
+      "px": 3000,
+      "z": 6
+    },
+    {
+      "box": [
+        9.6,
+        30.4,
+        36.6,
+        47
+      ],
+      "px": 2800,
+      "z": 8
+    }
+  ],
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "Venise",
+      "sub": "Une ville sur l’eau, un empire en mer",
+      "focus": {
+        "box": [
+          11,
+          33.6,
+          35.2,
+          46.4
+        ]
+      },
+      "line": {
+        "points": [
+          [
+            12.33,
+            45.42
+          ],
+          [
+            12.7,
+            45.15
+          ],
+          [
+            13.4,
+            44.7
+          ],
+          [
+            14.5,
+            43.95
+          ],
+          [
+            15.6,
+            43.25
+          ],
+          [
+            16.8,
+            42.6
+          ],
+          [
+            18,
+            41.9
+          ],
+          [
+            19,
+            40.9
+          ],
+          [
+            19.55,
+            39.95
+          ],
+          [
+            20.3,
+            38.7
+          ],
+          [
+            21.2,
+            37.3
+          ],
+          [
+            21.7,
+            36.6
+          ],
+          [
+            22.8,
+            36.2
+          ],
+          [
+            24,
+            35.6
+          ],
+          [
+            25.13,
+            35.45
+          ],
+          [
+            26.6,
+            35.45
+          ],
+          [
+            28,
+            35
+          ],
+          [
+            30,
+            34.75
+          ],
+          [
+            32.3,
+            34.5
+          ],
+          [
+            33.4,
+            34.55
+          ],
+          [
+            34.15,
+            34.9
+          ],
+          [
+            33.95,
+            35.12
+          ]
+        ],
+        "color": "#A77BE0",
+        "width": 10,
+        "at": 0.3
+      },
+      "beacon": [
+        {
+          "at": [
+            12.33,
+            45.44
+          ],
+          "when": 0
+        }
+      ],
+      "big": {
+        "value": "1 100 ans",
+        "sub": "de république, de 697 à 1797, environ",
+        "at": {
+          "line": 1,
+          "word": "Environ",
+          "d": -0.1
+        },
+        "dur": 3.2
+      },
+      "say": [
+        "Comment une ville sur l’eau a-t-elle bâti un empire en Méditerranée ?",
+        "Environ 1100 ans : des îlots de vase, des ports jusqu’à Chypre, puis plus rien."
+      ]
+    },
+    {
+      "type": "map",
+      "year": "568",
+      "text": "Des réfugiés dans la lagune",
+      "focus": {
+        "box": [
+          11.55,
+          44.95,
+          13.65,
+          46.05
+        ]
+      },
+      "note": "Contours approximatifs",
+      "highlight": [
+        {
+          "area": [
+            [
+              12.3,
+              45.15
+            ],
+            [
+              12.33,
+              45.25
+            ],
+            [
+              12.42,
+              45.4
+            ],
+            [
+              12.55,
+              45.47
+            ],
+            [
+              12.75,
+              45.55
+            ],
+            [
+              13,
+              45.62
+            ],
+            [
+              13.2,
+              45.66
+            ],
+            [
+              13.42,
+              45.68
+            ],
+            [
+              13.42,
+              45.74
+            ],
+            [
+              13.15,
+              45.73
+            ],
+            [
+              12.9,
+              45.67
+            ],
+            [
+              12.65,
+              45.59
+            ],
+            [
+              12.45,
+              45.53
+            ],
+            [
+              12.27,
+              45.46
+            ],
+            [
+              12.19,
+              45.3
+            ],
+            [
+              12.2,
+              45.15
+            ]
+          ],
+          "color": "#3F8FE0",
+          "at": {
+            "line": 0,
+            "word": "réfugiés",
+            "d": 0.2
+          },
+          "keep": false
+        }
+      ],
+      "moves": [
+        {
+          "from": [
+            11.5,
+            45.3
+          ],
+          "to": [
+            12.3,
+            45.45
+          ],
+          "n": 4,
+          "color": "#3F8FE0",
+          "label": "Réfugiés",
+          "at": {
+            "line": 0,
+            "word": "fuyant",
+            "d": -0.2
+          },
+          "dur": 2
+        },
+        {
+          "from": [
+            13.3,
+            45.98
+          ],
+          "to": [
+            13.25,
+            45.69
+          ],
+          "n": 3,
+          "color": "#3F8FE0",
+          "at": {
+            "line": 0,
+            "word": "fuyant",
+            "d": 0.3
+          },
+          "dur": 2
+        }
+      ],
+      "pills": [
+        {
+          "at": [
+            12.3,
+            45.3
+          ],
+          "title": "Lagune",
+          "sub": "eau peu profonde, hors d’atteinte",
+          "side": "b",
+          "when": {
+            "line": 0,
+            "word": "gagnent",
+            "d": 0
+          }
+        }
+      ],
+      "labels": [
+        {
+          "text": "Padoue",
+          "at": [
+            11.88,
+            45.41
+          ],
+          "size": 34,
+          "when": {
+            "line": 0,
+            "word": "Lombards"
+          }
+        },
+        {
+          "text": "Mer Adriatique",
+          "at": [
+            12.95,
+            44.98
+          ],
+          "size": 36,
+          "when": {
+            "line": 0,
+            "word": "réfugiés",
+            "d": 0.5
+          }
+        }
+      ],
+      "beacon": [
+        {
+          "at": [
+            12.33,
+            45.44
+          ],
+          "when": {
+            "line": 0,
+            "word": "gagnent"
+          }
+        }
+      ],
+      "say": [
+        "En 568, fuyant les Lombards, des réfugiés gagnent la lagune."
+      ]
+    },
+    {
+      "type": "map",
+      "year": "1082 – 1204",
+      "text": "Des comptoirs, puis des îles",
+      "focus": {
+        "box": [
+          11,
+          33.6,
+          35.2,
+          46.4
+        ]
+      },
+      "note": "Contours approximatifs",
+      "pills": [
+        {
+          "at": "Constantinople",
+          "title": "Comptoir",
+          "sub": "quartier de marchands à l’étranger",
+          "side": "b",
+          "when": {
+            "line": 0,
+            "word": "comptoirs"
+          }
+        },
+        {
+          "at": [
+            24.9,
+            35.3
+          ],
+          "title": "Crète",
+          "sub": "vénitienne jusqu’en 1669",
+          "side": "t",
+          "when": {
+            "line": 1,
+            "word": "Constantinople",
+            "d": 0.3
+          }
+        }
+      ],
+      "labels": [
+        {
+          "text": "Empire byzantin",
+          "at": [
+            24.5,
+            39.2
+          ],
+          "size": 38,
+          "when": {
+            "line": 0,
+            "word": "Byzance"
+          }
+        }
+      ],
+      "moves": [
+        {
+          "from": [
+            15.2,
+            43.9
+          ],
+          "to": [
+            21.4,
+            36.9
+          ],
+          "n": 0,
+          "color": "#3F8FE0",
+          "label": "4e croisade",
+          "at": {
+            "line": 1,
+            "word": "croisade",
+            "d": -0.3
+          },
+          "dur": 1.6
+        },
+        {
+          "from": [
+            23.6,
+            37.4
+          ],
+          "to": "Constantinople",
+          "n": 0,
+          "color": "#3F8FE0",
+          "at": {
+            "line": 1,
+            "word": "croisade",
+            "d": 1.2
+          },
+          "dur": 1.4
+        }
+      ],
+      "highlight": [
+        {
+          "regions": [
+            {
+              "c": "Greece",
+              "n": "Kriti"
+            }
+          ],
+          "color": "#3F8FE0",
+          "at": {
+            "line": 1,
+            "word": "Constantinople",
+            "d": 0.3
+          },
+          "keep": false
+        }
+      ],
+      "beacon": [
+        {
+          "at": [
+            12.33,
+            45.44
+          ],
+          "when": 0.3
+        }
+      ],
+      "say": [
+        "En 1082, Byzance ouvre ses ports aux Vénitiens, sans taxes, avec des comptoirs.",
+        "En 1204, Venise et les croisés détournent la 4e croisade sur Constantinople ; Venise achète la Crète."
+      ],
+      "line": {
+        "points": [
+          [
+            12.33,
+            45.42
+          ],
+          [
+            12.7,
+            45.15
+          ],
+          [
+            13.4,
+            44.7
+          ],
+          [
+            14.5,
+            43.95
+          ],
+          [
+            15.6,
+            43.25
+          ],
+          [
+            16.8,
+            42.6
+          ],
+          [
+            18,
+            41.9
+          ],
+          [
+            19,
+            40.9
+          ],
+          [
+            19.55,
+            39.95
+          ],
+          [
+            20.3,
+            38.7
+          ],
+          [
+            21.2,
+            37.3
+          ],
+          [
+            21.7,
+            36.6
+          ],
+          [
+            22.8,
+            36.2
+          ],
+          [
+            24,
+            37.5
+          ],
+          [
+            25.5,
+            39.6
+          ],
+          [
+            26.3,
+            40.2
+          ],
+          [
+            27.6,
+            40.7
+          ],
+          "Constantinople"
+        ],
+        "color": "#3F8FE0",
+        "label": "Marchands",
+        "at": {
+          "line": 0,
+          "word": "Vénitiens",
+          "d": -0.3
+        },
+        "draw": 2.2
+      }
+    },
+    {
+      "type": "map",
+      "year": "15e siècle",
+      "text": "L’Arsenal, chantier de l’État",
+      "focus": {
+        "box": [
+          11.7,
+          44.95,
+          13.1,
+          45.85
+        ]
+      },
+      "beacon": [
+        {
+          "at": [
+            12.33,
+            45.44
+          ],
+          "when": {
+            "line": 0,
+            "word": "Arsenal",
+            "d": -0.3
+          }
+        }
+      ],
+      "pills": [
+        {
+          "at": [
+            12.33,
+            45.44
+          ],
+          "title": "L’Arsenal",
+          "sub": "chantier naval de l’État",
+          "side": "b",
+          "when": {
+            "line": 0,
+            "word": "Arsenal",
+            "d": 0.1
+          }
+        }
+      ],
+      "people": [
+        {
+          "who": "ouvrier",
+          "at": [
+            12.15,
+            45.62
+          ],
+          "size": 220,
+          "say": "Une galère !",
+          "mood": "happy",
+          "when": {
+            "line": 0,
+            "word": "chantier",
+            "d": -0.2
+          }
+        }
+      ],
+      "art": [
+        {
+          "kind": "stats",
+          "at": {
+            "line": 0,
+            "word": "galères",
+            "d": 0.5
+          },
+          "dur": 4.3,
+          "title": "La flotte de Venise",
+          "items": [
+            {
+              "value": 3300,
+              "label": "navires en 1423, surtout marchands"
+            },
+            {
+              "value": 45,
+              "label": "galères de guerre, navires à rames"
+            }
+          ]
+        }
+      ],
+      "say": [
+        "L’Arsenal arme ses galères ; en 1423, Venise a environ 3300 navires, surtout marchands."
+      ]
+    },
+    {
+      "type": "map",
+      "year": "Vers 1490",
+      "text": "À son apogée",
+      "focus": {
+        "box": [
+          7,
+          33.6,
+          35.2,
+          46.4
+        ]
+      },
+      "note": "Contours approximatifs",
+      "line": {
+        "points": [
+          [
+            12.33,
+            45.42
+          ],
+          [
+            12.7,
+            45.15
+          ],
+          [
+            13.4,
+            44.7
+          ],
+          [
+            14.5,
+            43.95
+          ],
+          [
+            15.6,
+            43.25
+          ],
+          [
+            16.8,
+            42.6
+          ],
+          [
+            18,
+            41.9
+          ],
+          [
+            19,
+            40.9
+          ],
+          [
+            19.55,
+            39.95
+          ],
+          [
+            20.3,
+            38.7
+          ],
+          [
+            21.2,
+            37.3
+          ],
+          [
+            21.7,
+            36.6
+          ],
+          [
+            22.8,
+            36.2
+          ],
+          [
+            24,
+            35.6
+          ],
+          [
+            25.13,
+            35.45
+          ],
+          [
+            26.6,
+            35.45
+          ],
+          [
+            28,
+            35
+          ],
+          [
+            30,
+            34.75
+          ],
+          [
+            32.3,
+            34.5
+          ],
+          [
+            33.4,
+            34.55
+          ],
+          [
+            34.15,
+            34.9
+          ],
+          [
+            33.95,
+            35.12
+          ]
+        ],
+        "color": "#A77BE0",
+        "width": 10,
+        "at": {
+          "line": 0,
+          "word": "ports",
+          "d": -0.2
+        },
+        "draw": 2.6
+      },
+      "highlight": [
+        {
+          "area": [
+            [
+              13.5,
+              45.52
+            ],
+            [
+              13.55,
+              45.1
+            ],
+            [
+              13.85,
+              44.8
+            ],
+            [
+              14.3,
+              44.55
+            ],
+            [
+              14.8,
+              44
+            ],
+            [
+              15.2,
+              43.6
+            ],
+            [
+              15.9,
+              43.2
+            ],
+            [
+              16.5,
+              42.9
+            ],
+            [
+              17.2,
+              42.85
+            ],
+            [
+              17,
+              43.1
+            ],
+            [
+              16.75,
+              43.42
+            ],
+            [
+              16.45,
+              43.6
+            ],
+            [
+              16.1,
+              43.62
+            ],
+            [
+              15.95,
+              43.8
+            ],
+            [
+              15.55,
+              44.05
+            ],
+            [
+              15.35,
+              44.25
+            ],
+            [
+              15,
+              44.55
+            ],
+            [
+              14.8,
+              44.95
+            ],
+            [
+              14.5,
+              45.25
+            ],
+            [
+              14,
+              45.35
+            ],
+            [
+              13.95,
+              45.55
+            ],
+            [
+              13.6,
+              45.6
+            ]
+          ],
+          "color": "#A77BE0",
+          "at": {
+            "line": 0,
+            "word": "Dalmatie"
+          },
+          "keep": true
+        },
+        {
+          "area": [
+            [
+              19.62,
+              39.78
+            ],
+            [
+              19.9,
+              39.84
+            ],
+            [
+              20.13,
+              39.65
+            ],
+            [
+              19.96,
+              39.42
+            ],
+            [
+              19.86,
+              39.37
+            ],
+            [
+              19.75,
+              39.55
+            ],
+            [
+              19.64,
+              39.66
+            ]
+          ],
+          "color": "#A77BE0",
+          "at": {
+            "line": 0,
+            "word": "Corfou"
+          },
+          "keep": true
+        },
+        {
+          "regions": [
+            {
+              "c": "Greece",
+              "n": "Kriti"
+            }
+          ],
+          "color": "#A77BE0",
+          "at": {
+            "line": 0,
+            "word": "Crète"
+          },
+          "keep": true
+        },
+        {
+          "countries": [
+            "Cyprus",
+            "N. Cyprus"
+          ],
+          "color": "#A77BE0",
+          "at": {
+            "line": 0,
+            "word": "Chypre"
+          },
+          "keep": true
+        },
+        {
+          "regions": [
+            {
+              "c": "Italy",
+              "n": "Bergamo"
+            },
+            {
+              "c": "Italy",
+              "n": "Brescia"
+            },
+            {
+              "c": "Italy",
+              "n": "Verona"
+            },
+            {
+              "c": "Italy",
+              "n": "Vicenza"
+            },
+            {
+              "c": "Italy",
+              "n": "Padova"
+            },
+            {
+              "c": "Italy",
+              "n": "Venezia"
+            },
+            {
+              "c": "Italy",
+              "n": "Treviso"
+            },
+            {
+              "c": "Italy",
+              "n": "Belluno"
+            },
+            {
+              "c": "Italy",
+              "n": "Rovigo"
+            },
+            {
+              "c": "Italy",
+              "n": "Udine"
+            },
+            {
+              "c": "Italy",
+              "n": "Pordenone"
+            }
+          ],
+          "color": "#A77BE0",
+          "at": {
+            "line": 0,
+            "word": "terre"
+          },
+          "keep": true
+        },
+        {
+          "area": [
+            [
+              21.62,
+              36.75
+            ],
+            [
+              21.72,
+              36.98
+            ],
+            [
+              21.98,
+              36.85
+            ],
+            [
+              21.96,
+              36.7
+            ],
+            [
+              21.7,
+              36.68
+            ]
+          ],
+          "color": "#A77BE0",
+          "at": {
+            "line": 0,
+            "word": "Crète"
+          },
+          "keep": true
+        }
+      ],
+      "pills": [
+        {
+          "at": [
+            16.2,
+            43.55
+          ],
+          "title": "Dalmatie",
+          "sub": "vers 1420",
+          "side": "r",
+          "when": {
+            "line": 0,
+            "word": "Dalmatie",
+            "d": 0.2
+          }
+        },
+        {
+          "at": [
+            19.85,
+            39.6
+          ],
+          "title": "Corfou",
+          "sub": "depuis 1386",
+          "side": "l",
+          "when": {
+            "line": 0,
+            "word": "Corfou",
+            "d": 0.2
+          }
+        },
+        {
+          "at": [
+            23.6,
+            35.35
+          ],
+          "title": "Crète",
+          "side": "l",
+          "when": {
+            "line": 0,
+            "word": "Crète",
+            "d": 0.2
+          }
+        },
+        {
+          "at": [
+            33.2,
+            35.1
+          ],
+          "title": "Chypre",
+          "sub": "depuis 1489",
+          "side": "t",
+          "when": {
+            "line": 0,
+            "word": "Chypre",
+            "d": 0.2
+          }
+        },
+        {
+          "at": [
+            11.4,
+            45.9
+          ],
+          "title": "Terre ferme",
+          "sub": "ses terres en Italie",
+          "side": "t",
+          "when": {
+            "line": 0,
+            "word": "terre",
+            "d": 0.2
+          }
+        }
+      ],
+      "say": [
+        "Vers 1490, Venise tient des ports : Dalmatie, Corfou, Crète, Chypre, et la terre ferme."
+      ]
+    },
+    {
+      "type": "map",
+      "year": "16e – 17e siècles",
+      "text": "Les Ottomans prennent les îles",
+      "focus": {
+        "box": [
+          17,
+          28.8,
+          36.2,
+          43.6
+        ]
+      },
+      "note": "Contours approximatifs",
+      "highlight": [
+        {
+          "countries": [
+            "Cyprus",
+            "N. Cyprus"
+          ],
+          "color": "#6E6E6E",
+          "at": {
+            "line": 0,
+            "word": "Ottomans",
+            "d": 0.6
+          },
+          "keep": true
+        },
+        {
+          "regions": [
+            {
+              "c": "Greece",
+              "n": "Kriti"
+            }
+          ],
+          "color": "#6E6E6E",
+          "at": {
+            "line": 0,
+            "word": "avancent",
+            "d": 0.2
+          },
+          "keep": true
+        }
+      ],
+      "moves": [
+        {
+          "from": "Constantinople",
+          "to": [
+            33,
+            35.6
+          ],
+          "n": 0,
+          "color": "#8A93A8",
+          "label": "Empire ottoman",
+          "at": {
+            "line": 0,
+            "word": "Ottomans",
+            "d": -0.3
+          },
+          "dur": 2
+        }
+      ],
+      "art": [
+        {
+          "kind": "split",
+          "at": {
+            "line": 0,
+            "word": "Crète",
+            "d": -0.2
+          },
+          "dur": 4.2,
+          "title": "Venise perd ses îles",
+          "sub": "Chypre en 1571, la Crète en 1669",
+          "before": "Vers 1560",
+          "after": "En 1670",
+          "parts": [
+            {
+              "region": {
+                "c": "Greece",
+                "n": "Kriti"
+              },
+              "color": "#3F8FE0",
+              "to": "#6D6D6D"
+            },
+            {
+              "country": "Cyprus",
+              "color": "#3F8FE0",
+              "to": "#6D6D6D"
+            },
+            {
+              "country": "N. Cyprus",
+              "color": "#3F8FE0",
+              "to": "#6D6D6D"
+            }
+          ],
+          "legend": [
+            {
+              "color": "#3F8FE0",
+              "text": "Venise"
+            },
+            {
+              "color": "#6D6D6D",
+              "text": "Ottomans"
+            }
+          ],
+          "badge": "Perdues"
+        }
+      ],
+      "pills": [
+        {
+          "at": "Alexandrie",
+          "title": "Alexandrie",
+          "sub": "Venise y achetait les épices",
+          "side": "r",
+          "when": {
+            "line": 1,
+            "word": "route",
+            "d": -0.2
+          }
+        }
+      ],
+      "say": [
+        "Puis les Ottomans avancent : Venise perd Chypre en 1571, la Crète en 1669.",
+        "Et dès 1498, les Portugais trouvent une route des épices autour de l’Afrique."
+      ]
+    },
+    {
+      "type": "map",
+      "year": "1797",
+      "text": "La fin de la République",
+      "focus": {
+        "box": [
+          10,
+          44.4,
+          14.6,
+          46.6
+        ]
+      },
+      "moves": [
+        {
+          "from": [
+            9.4,
+            45.3
+          ],
+          "to": [
+            11.9,
+            45.4
+          ],
+          "n": 4,
+          "color": "#8A93A8",
+          "label": "Armée française",
+          "at": {
+            "line": 0,
+            "word": "Bonaparte",
+            "d": -0.6
+          },
+          "dur": 2
+        }
+      ],
+      "people": [
+        {
+          "who": "soldat",
+          "at": [
+            11,
+            45.2
+          ],
+          "size": 220,
+          "label": {
+            "title": "Bonaparte",
+            "sub": "1797"
+          },
+          "when": {
+            "line": 0,
+            "word": "Bonaparte",
+            "d": -0.2
+          }
+        }
+      ],
+      "pills": [
+        {
+          "at": [
+            12.33,
+            45.44
+          ],
+          "title": "12 mai 1797",
+          "sub": "la République disparaît",
+          "side": "b",
+          "when": {
+            "line": 0,
+            "word": "mai"
+          }
+        }
+      ],
+      "highlight": [
+        {
+          "regions": [
+            {
+              "c": "Italy",
+              "n": "Venezia"
+            },
+            {
+              "c": "Italy",
+              "n": "Padova"
+            },
+            {
+              "c": "Italy",
+              "n": "Treviso"
+            },
+            {
+              "c": "Italy",
+              "n": "Vicenza"
+            },
+            {
+              "c": "Italy",
+              "n": "Belluno"
+            },
+            {
+              "c": "Italy",
+              "n": "Rovigo"
+            },
+            {
+              "c": "Italy",
+              "n": "Udine"
+            },
+            {
+              "c": "Italy",
+              "n": "Pordenone"
+            }
+          ],
+          "color": "#8A93A8",
+          "at": {
+            "line": 1,
+            "word": "traité"
+          },
+          "keep": false
+        }
+      ],
+      "labels": [
+        {
+          "text": "Autriche",
+          "at": [
+            13.3,
+            46.35
+          ],
+          "size": 38,
+          "when": {
+            "line": 1,
+            "word": "Autriche",
+            "d": 0.3
+          }
+        },
+        {
+          "text": "Campo Formio, oct. 1797",
+          "at": [
+            13.15,
+            46.0
+          ],
+          "size": 34,
+          "when": {
+            "line": 1,
+            "word": "traité"
+          }
+        }
+      ],
+      "say": [
+        "En 1797, Bonaparte arrive : le 12 mai, la République disparaît.",
+        "Un traité donne ensuite Venise à l’Autriche."
+      ]
+    },
+    {
+      "type": "map",
+      "text": "Plus de mille ans",
+      "focus": {
+        "box": [
+          11.4,
+          44.8,
+          13.4,
+          46
+        ]
+      },
+      "art": [
+        {
+          "kind": "timeline",
+          "at": {
+            "line": 0,
+            "d": 0.1
+          },
+          "dur": 6,
+          "title": "La République de Venise",
+          "sub": "doge : le chef élu de Venise",
+          "items": [
+            {
+              "year": "568 – 697",
+              "text": "Naissance : lagune, 1er doge"
+            },
+            {
+              "year": "Vers 1490",
+              "text": "Apogée : jusqu’à Chypre",
+              "color": "#A77BE0"
+            },
+            {
+              "year": "1797",
+              "text": "Chute : Bonaparte"
+            },
+            {
+              "year": "Auj.",
+              "text": "Ville italienne"
+            }
+          ]
+        }
+      ],
+      "say": [
+        "Du premier doge, en 697 selon la tradition, jusqu’à Bonaparte en 1797."
+      ]
+    },
+    {
+      "type": "map",
+      "year": "Aujourd’hui",
+      "text": "Ce qu’il en reste",
+      "focus": {
+        "box": [
+          13,
+          34,
+          27,
+          46.2
+        ]
+      },
+      "pills": [
+        {
+          "at": [
+            10.6,
+            44.3
+          ],
+          "stack": [
+            {
+              "text": "arsenal",
+              "color": "#3F8FE0"
+            },
+            {
+              "text": "ghetto",
+              "color": "#3F8FE0"
+            },
+            {
+              "text": "quarantaine",
+              "color": "#3F8FE0"
+            }
+          ],
+          "when": {
+            "line": 0,
+            "word": "mots"
+          }
+        },
+        {
+          "at": [
+            12.33,
+            45.44
+          ],
+          "title": "ghetto",
+          "sub": "le quartier imposé aux Juifs en 1516",
+          "side": "r",
+          "when": {
+            "line": 0,
+            "word": "ghetto",
+            "d": 0.2
+          }
+        },
+        {
+          "at": [
+            15.23,
+            44.12
+          ],
+          "title": "Zadar",
+          "sub": "lion de saint Marc, 1543",
+          "side": "l",
+          "when": {
+            "line": 1,
+            "word": "Zadar"
+          }
+        },
+        {
+          "at": [
+            25.13,
+            35.34
+          ],
+          "title": "Héraklion",
+          "sub": "lions sur le fort vénitien",
+          "side": "t",
+          "when": {
+            "line": 1,
+            "word": "Héraklion"
+          }
+        }
+      ],
+      "beacon": [
+        {
+          "at": [
+            15.23,
+            44.12
+          ],
+          "when": {
+            "line": 1,
+            "word": "Zadar"
+          }
+        },
+        {
+          "at": [
+            25.13,
+            35.34
+          ],
+          "when": {
+            "line": 1,
+            "word": "Héraklion"
+          }
+        }
+      ],
+      "labels": [
+        {
+          "text": "Croatie",
+          "at": [
+            16.2,
+            45.3
+          ],
+          "size": 36,
+          "when": {
+            "line": 1,
+            "word": "Croatie"
+          }
+        },
+        {
+          "text": "Grèce",
+          "at": [
+            22,
+            39.3
+          ],
+          "size": 38,
+          "when": {
+            "line": 1,
+            "word": "Grèce"
+          }
+        }
+      ],
+      "say": [
+        "Il en reste des mots : arsenal, ghetto, quarantaine, les 40 jours d’isolement des navires.",
+        "Son lion de saint Marc veille encore sur Zadar, en Croatie, et Héraklion, en Grèce."
+      ]
+    },
+    {
+      "type": "final",
+      "text": "Venise",
+      "sub": "Les comptoirs et les îles de Venise",
+      "focus": {
+        "box": [
+          11,
+          33.6,
+          35.2,
+          46.4
+        ]
+      },
+      "note": "Contour approximatif, frontières d’aujourd’hui",
+      "line": {
+        "points": [
+          [
+            12.33,
+            45.42
+          ],
+          [
+            12.7,
+            45.15
+          ],
+          [
+            13.4,
+            44.7
+          ],
+          [
+            14.5,
+            43.95
+          ],
+          [
+            15.6,
+            43.25
+          ],
+          [
+            16.8,
+            42.6
+          ],
+          [
+            18,
+            41.9
+          ],
+          [
+            19,
+            40.9
+          ],
+          [
+            19.55,
+            39.95
+          ],
+          [
+            20.3,
+            38.7
+          ],
+          [
+            21.2,
+            37.3
+          ],
+          [
+            21.7,
+            36.6
+          ],
+          [
+            22.8,
+            36.2
+          ],
+          [
+            24,
+            35.6
+          ],
+          [
+            25.13,
+            35.45
+          ],
+          [
+            26.6,
+            35.45
+          ],
+          [
+            28,
+            35
+          ],
+          [
+            30,
+            34.75
+          ],
+          [
+            32.3,
+            34.5
+          ],
+          [
+            33.4,
+            34.55
+          ],
+          [
+            34.15,
+            34.9
+          ],
+          [
+            33.95,
+            35.12
+          ]
+        ],
+        "color": "#A77BE0",
+        "width": 10,
+        "at": 0.2,
+        "draw": 2.2
+      },
+      "beacon": [
+        {
+          "at": [
+            12.33,
+            45.44
+          ],
+          "when": 0.2
+        }
+      ],
+      "pills": [
+        {
+          "at": [
+            15.6,
+            44
+          ],
+          "title": "Dalmatie",
+          "side": "r",
+          "when": {
+            "line": 0,
+            "word": "ville"
+          }
+        },
+        {
+          "at": [
+            19.85,
+            39.6
+          ],
+          "title": "Corfou",
+          "side": "l",
+          "when": {
+            "line": 0,
+            "word": "empire"
+          }
+        },
+        {
+          "at": [
+            24.8,
+            35.2
+          ],
+          "title": "Crète",
+          "side": "b",
+          "when": {
+            "line": 0,
+            "word": "Méditerranée"
+          }
+        },
+        {
+          "at": [
+            33.2,
+            35.1
+          ],
+          "title": "Chypre",
+          "side": "t",
+          "when": {
+            "line": 0,
+            "word": "port"
+          }
+        }
+      ],
+      "say": [
+        "Voilà comment une ville sur l’eau a bâti un empire en Méditerranée : port après port."
+      ],
+      "highlight": [
+        {
+          "area": [
+            [
+              13.5,
+              45.52
+            ],
+            [
+              13.55,
+              45.1
+            ],
+            [
+              13.85,
+              44.8
+            ],
+            [
+              14.3,
+              44.55
+            ],
+            [
+              14.8,
+              44
+            ],
+            [
+              15.2,
+              43.6
+            ],
+            [
+              15.9,
+              43.2
+            ],
+            [
+              16.5,
+              42.9
+            ],
+            [
+              17.2,
+              42.85
+            ],
+            [
+              17,
+              43.1
+            ],
+            [
+              16.75,
+              43.42
+            ],
+            [
+              16.45,
+              43.6
+            ],
+            [
+              16.1,
+              43.62
+            ],
+            [
+              15.95,
+              43.8
+            ],
+            [
+              15.55,
+              44.05
+            ],
+            [
+              15.35,
+              44.25
+            ],
+            [
+              15,
+              44.55
+            ],
+            [
+              14.8,
+              44.95
+            ],
+            [
+              14.5,
+              45.25
+            ],
+            [
+              14,
+              45.35
+            ],
+            [
+              13.95,
+              45.55
+            ],
+            [
+              13.6,
+              45.6
+            ]
+          ],
+          "color": "#A77BE0",
+          "at": 0.3,
+          "keep": false
+        },
+        {
+          "area": [
+            [
+              19.62,
+              39.78
+            ],
+            [
+              19.9,
+              39.84
+            ],
+            [
+              20.13,
+              39.65
+            ],
+            [
+              19.96,
+              39.42
+            ],
+            [
+              19.86,
+              39.37
+            ],
+            [
+              19.75,
+              39.55
+            ],
+            [
+              19.64,
+              39.66
+            ]
+          ],
+          "color": "#A77BE0",
+          "at": 0.3,
+          "keep": false
+        },
+        {
+          "regions": [
+            {
+              "c": "Greece",
+              "n": "Kriti"
+            }
+          ],
+          "color": "#A77BE0",
+          "at": 0.3,
+          "keep": false
+        },
+        {
+          "countries": [
+            "Cyprus",
+            "N. Cyprus"
+          ],
+          "color": "#A77BE0",
+          "at": 0.3,
+          "keep": false
+        },
+        {
+          "regions": [
+            {
+              "c": "Italy",
+              "n": "Bergamo"
+            },
+            {
+              "c": "Italy",
+              "n": "Brescia"
+            },
+            {
+              "c": "Italy",
+              "n": "Verona"
+            },
+            {
+              "c": "Italy",
+              "n": "Vicenza"
+            },
+            {
+              "c": "Italy",
+              "n": "Padova"
+            },
+            {
+              "c": "Italy",
+              "n": "Venezia"
+            },
+            {
+              "c": "Italy",
+              "n": "Treviso"
+            },
+            {
+              "c": "Italy",
+              "n": "Belluno"
+            },
+            {
+              "c": "Italy",
+              "n": "Rovigo"
+            },
+            {
+              "c": "Italy",
+              "n": "Udine"
+            },
+            {
+              "c": "Italy",
+              "n": "Pordenone"
+            }
+          ],
+          "color": "#A77BE0",
+          "at": 0.3,
+          "keep": false
+        },
+        {
+          "area": [
+            [
+              21.62,
+              36.75
+            ],
+            [
+              21.72,
+              36.98
+            ],
+            [
+              21.98,
+              36.85
+            ],
+            [
+              21.96,
+              36.7
+            ],
+            [
+              21.7,
+              36.68
+            ]
+          ],
+          "color": "#A77BE0",
+          "at": 0.3,
+          "keep": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,815 @@
+{
+  "format": "atlas",
+  "id": "atlas-belgique-3-langues",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "Trois langues dans un si petit pays : pourquoi ?",
+      "focus": {
+        "box": [
+          2,
+          49.4,
+          6.8,
+          51.7
+        ]
+      },
+      "highlight": {
+        "countries": [
+          "Belgium"
+        ],
+        "color": "#F5C342",
+        "keep": false,
+        "at": {
+          "line": 0,
+          "word": "langues",
+          "d": 0.2
+        }
+      },
+      "say": [
+        "Trois langues dans un si petit pays : pourquoi ?",
+        "Bienvenue en Belgique !"
+      ],
+      "people": [
+        {
+          "who": "paysan",
+          "at": "Bruxelles",
+          "size": 240,
+          "say": "Bienvenue !",
+          "when": {
+            "line": 1,
+            "word": "Bienvenue",
+            "d": 0.1
+          },
+          "wave": true,
+          "mood": "happy"
+        }
+      ],
+      "pills": [
+        {
+          "at": "Bruxelles",
+          "title": "Bruxelles",
+          "sub": "capitale",
+          "side": "b",
+          "when": {
+            "line": 1,
+            "word": "Belgique",
+            "d": 0
+          }
+        }
+      ]
+    },
+    {
+      "type": "map",
+      "year": "57 av. J.-C.",
+      "text": "Les Belges, un peuple gaulois",
+      "focus": {
+        "box": [
+          2,
+          49.4,
+          6.8,
+          51.7
+        ]
+      },
+      "highlight": {
+        "countries": [
+          "Belgium"
+        ],
+        "color": "#3E9A63",
+        "keep": false
+      },
+      "people": [
+        {
+          "who": "celte",
+          "at": "Bruxelles",
+          "size": 280,
+          "say": "Les Belges !",
+          "when": {
+            "line": 0,
+            "word": "Belges",
+            "d": 0.3
+          }
+        },
+        {
+          "who": "cesar",
+          "at": [
+            3.3,
+            50
+          ],
+          "size": 220,
+          "say": "Les plus braves",
+          "when": {
+            "line": 0,
+            "word": "braves",
+            "d": 0
+          }
+        }
+      ],
+      "say": [
+        "Il y a plus de 2000 ans, la région est peuplée par les Belges, un peuple gaulois. Jules César les juge les plus braves des Gaulois."
+      ],
+      "sub": "Sur le territoire de la Belgique actuelle",
+      "labels": [
+        {
+          "text": "Gaule belgique",
+          "at": [
+            5,
+            50.1
+          ],
+          "size": 46,
+          "when": {
+            "line": 0,
+            "word": "Gaulois",
+            "d": 0
+          }
+        }
+      ]
+    },
+    {
+      "type": "map",
+      "year": "Ve siècle",
+      "text": "Les Francs arrivent du nord",
+      "focus": {
+        "box": [
+          2,
+          49.4,
+          6.8,
+          51.7
+        ]
+      },
+      "moves": [
+        {
+          "from": [
+            6.2,
+            52
+          ],
+          "to": [
+            3.39,
+            50.61
+          ],
+          "n": 6,
+          "color": "#E8A33C",
+          "label": "Les Francs",
+          "at": {
+            "line": 0,
+            "word": "Francs",
+            "d": -0.2
+          },
+          "dur": 2.6
+        }
+      ],
+      "say": [
+        "Au Ve siècle, des Francs, un peuple germanique, s’installent dans le nord.",
+        "Au sud, on parle un latin populaire, ancêtre du français."
+      ],
+      "people": [
+        {
+          "who": "soldat",
+          "at": [
+            3.9,
+            51.05
+          ],
+          "size": 220,
+          "say": "Nous arrivons",
+          "when": {
+            "line": 0,
+            "word": "installent",
+            "d": 0
+          },
+          "label": {
+            "title": "Un Franc",
+            "sub": "peuple germanique"
+          }
+        }
+      ],
+      "labels": [
+        {
+          "text": "Latin populaire",
+          "at": [
+            4.6,
+            50
+          ],
+          "size": 46,
+          "when": {
+            "line": 1,
+            "word": "latin",
+            "d": 0
+          }
+        }
+      ]
+    },
+    {
+      "type": "map",
+      "year": "Depuis plus de 1000 ans",
+      "text": "La frontière des langues",
+      "focus": {
+        "box": [
+          2,
+          49.4,
+          6.8,
+          51.7
+        ]
+      },
+      "line": {
+        "points": [
+          [
+            2.85,
+            50.76
+          ],
+          [
+            3.6,
+            50.74
+          ],
+          [
+            4.3,
+            50.72
+          ],
+          [
+            5,
+            50.75
+          ],
+          [
+            5.75,
+            50.76
+          ]
+        ],
+        "label": "Frontière linguistique (approx.)",
+        "color": "#FFD83C",
+        "at": {
+          "line": 0,
+          "word": "frontière",
+          "d": -0.2
+        }
+      },
+      "labels": [
+        {
+          "text": "Néerlandais",
+          "at": [
+            4,
+            51.15
+          ],
+          "size": 50,
+          "when": {
+            "line": 1,
+            "word": "nord"
+          }
+        },
+        {
+          "text": "Français",
+          "at": [
+            4.5,
+            50.3
+          ],
+          "size": 50,
+          "when": {
+            "line": 1,
+            "word": "sud"
+          }
+        }
+      ],
+      "say": [
+        "Cette frontière des langues, née au haut Moyen Âge, n’a presque pas bougé.",
+        "Néerlandais au nord, français au sud."
+      ],
+      "people": [
+        {
+          "who": "de",
+          "at": [
+            3.9,
+            51.3
+          ],
+          "size": 200,
+          "say": "Goeiedag !",
+          "when": {
+            "line": 1,
+            "word": "Néerlandais",
+            "d": 0.2
+          }
+        },
+        {
+          "who": "fr",
+          "at": [
+            4.9,
+            50.1
+          ],
+          "size": 200,
+          "say": "Bonjour !",
+          "when": {
+            "line": 1,
+            "word": "français",
+            "d": 0.2
+          }
+        }
+      ]
+    },
+    {
+      "type": "map",
+      "year": "XIVe – XIXe siècles",
+      "text": "Le champ de bataille de l’Europe",
+      "focus": {
+        "box": [
+          0,
+          48.8,
+          8.5,
+          52.4
+        ]
+      },
+      "pills": [
+        {
+          "at": "Waterloo",
+          "title": "Waterloo",
+          "sub": "1815",
+          "side": "b",
+          "when": {
+            "line": 1,
+            "word": "bataille",
+            "d": 0
+          }
+        },
+        {
+          "at": "Paris",
+          "title": "France",
+          "side": "r",
+          "when": {
+            "line": 0,
+            "word": "France",
+            "d": 0
+          }
+        },
+        {
+          "at": "Gand",
+          "title": "Bourgogne",
+          "sub": "puis Espagne, Autriche",
+          "side": "t",
+          "when": {
+            "line": 0,
+            "word": "Bourgogne",
+            "d": 0
+          }
+        }
+      ],
+      "say": [
+        "Ces terres passent aux ducs de Bourgogne, puis à l’Espagne, à l’Autriche, à la France.",
+        "On les surnomme le champ de bataille de l’Europe."
+      ],
+      "people": [
+        {
+          "who": "soldat",
+          "at": [
+            4.7,
+            50.5
+          ],
+          "size": 220,
+          "say": "Waterloo !",
+          "when": {
+            "line": 1,
+            "word": "bataille",
+            "d": 0.3
+          }
+        }
+      ]
+    },
+    {
+      "type": "map",
+      "year": "1815",
+      "text": "Réunis aux Pays-Bas",
+      "focus": {
+        "box": [
+          1,
+          49,
+          7.8,
+          53.8
+        ]
+      },
+      "highlight": {
+        "countries": [
+          "Belgium",
+          "Netherlands"
+        ],
+        "color": "#E8A33C",
+        "keep": false,
+        "at": {
+          "line": 0,
+          "word": "Pays-Bas",
+          "d": -0.3
+        }
+      },
+      "say": [
+        "En 1815, le congrès de Vienne réunit la Belgique et les Pays-Bas sous un même roi.",
+        "Les Belges, surtout catholiques, supportent mal ce roi protestant et sa politique."
+      ],
+      "people": [
+        {
+          "who": "roi",
+          "at": "Amsterdam",
+          "size": 220,
+          "say": "Un seul roi",
+          "when": {
+            "line": 0,
+            "word": "roi",
+            "d": 0
+          },
+          "crown": true
+        },
+        {
+          "who": "paysan",
+          "at": "Bruxelles",
+          "size": 220,
+          "say": "Pas notre roi",
+          "when": {
+            "line": 1,
+            "word": "catholiques",
+            "d": 0
+          }
+        }
+      ],
+      "labels": [
+        {
+          "text": "Pays-Bas",
+          "at": [
+            3.2,
+            52.95
+          ],
+          "size": 50,
+          "when": {
+            "line": 0,
+            "word": "Pays-Bas",
+            "d": 0
+          }
+        }
+      ]
+    },
+    {
+      "type": "map",
+      "year": "1830",
+      "text": "La révolution belge",
+      "focus": {
+        "box": [
+          2,
+          49.4,
+          6.8,
+          51.7
+        ]
+      },
+      "highlight": {
+        "countries": [
+          "Belgium"
+        ],
+        "color": "#F5C342"
+      },
+      "people": [
+        {
+          "who": "rebelle",
+          "at": "Bruxelles",
+          "size": 280,
+          "say": "Indépendance !",
+          "when": {
+            "line": 0,
+            "word": "révolte",
+            "d": 0.2
+          }
+        },
+        {
+          "who": "roi",
+          "at": [
+            5.5,
+            50.2
+          ],
+          "size": 220,
+          "say": "Léopold Ier",
+          "when": {
+            "line": 1,
+            "word": "Léopold",
+            "d": 0
+          },
+          "crown": true
+        }
+      ],
+      "say": [
+        "En 1830, après un opéra qui enflamme Bruxelles, la révolte éclate.",
+        "La Belgique devient indépendante, et en 1831 elle a son premier roi, Léopold Ier."
+      ],
+      "pills": [
+        {
+          "at": "Bruxelles",
+          "title": "Bruxelles",
+          "sub": "1830",
+          "side": "b",
+          "when": {
+            "line": 0,
+            "word": "Bruxelles",
+            "d": 0
+          }
+        }
+      ]
+    },
+    {
+      "type": "map",
+      "year": "1830 – 1898",
+      "text": "Le français domine, le néerlandais lutte",
+      "focus": {
+        "box": [
+          2,
+          49.4,
+          6.8,
+          51.7
+        ]
+      },
+      "big": {
+        "value": "1898",
+        "sub": "néerlandais et français égaux dans les lois",
+        "at": {
+          "line": 1,
+          "word": "1898",
+          "d": -0.4
+        },
+        "dur": 2.4
+      },
+      "say": [
+        "Pendant longtemps, le français est la langue de l’administration, même en Flandre.",
+        "Les Flamands, majoritaires, se battent pour l’égalité : en 1898, une loi met le néerlandais au même niveau."
+      ],
+      "people": [
+        {
+          "who": "ouvrier",
+          "at": "Anvers",
+          "size": 220,
+          "say": "Notre langue !",
+          "when": {
+            "line": 1,
+            "word": "Flamands",
+            "d": 0.2
+          }
+        }
+      ],
+      "labels": [
+        {
+          "text": "Flandre",
+          "at": [
+            3.5,
+            50.95
+          ],
+          "size": 46,
+          "when": {
+            "line": 1,
+            "word": "Flamands",
+            "d": 0
+          }
+        }
+      ]
+    },
+    {
+      "type": "map",
+      "year": "1920",
+      "text": "La troisième langue arrive",
+      "focus": {
+        "box": [
+          3.5,
+          49.6,
+          7.3,
+          51.2
+        ]
+      },
+      "pills": [
+        {
+          "at": "Eupen",
+          "title": "Eupen",
+          "sub": "germanophone",
+          "side": "t",
+          "when": {
+            "line": 0,
+            "word": "Eupen",
+            "d": 0.2
+          }
+        }
+      ],
+      "say": [
+        "Après la Première Guerre mondiale, l’Allemagne cède Eupen et Malmedy à la Belgique.",
+        "Ses habitants parlent allemand : voilà la troisième langue !"
+      ],
+      "people": [
+        {
+          "who": "de",
+          "at": [
+            6.55,
+            50.1
+          ],
+          "size": 220,
+          "say": "Guten Tag !",
+          "when": {
+            "line": 1,
+            "word": "allemand",
+            "d": 0
+          }
+        }
+      ],
+      "labels": [
+        {
+          "text": "Malmedy",
+          "at": [
+            6.03,
+            50.4
+          ],
+          "size": 38,
+          "when": {
+            "line": 0,
+            "word": "Malmedy",
+            "d": 0
+          }
+        }
+      ]
+    },
+    {
+      "type": "map",
+      "year": "1970 – 1993",
+      "text": "Trois communautés, trois régions",
+      "focus": {
+        "box": [
+          2,
+          49.4,
+          6.8,
+          51.7
+        ]
+      },
+      "labels": [
+        {
+          "text": "Flandre",
+          "at": [
+            4.6,
+            51.3
+          ],
+          "size": 52,
+          "when": {
+            "line": 0,
+            "word": "Flandre"
+          }
+        },
+        {
+          "text": "Wallonie",
+          "at": [
+            4.8,
+            50.3
+          ],
+          "size": 52,
+          "when": {
+            "line": 0,
+            "word": "Wallonie"
+          }
+        }
+      ],
+      "pills": [
+        {
+          "at": "Bruxelles",
+          "title": "Bruxelles",
+          "sub": "bilingue",
+          "side": "b",
+          "when": {
+            "line": 0,
+            "word": "Bruxelles"
+          }
+        }
+      ],
+      "say": [
+        "Depuis 1993, la Belgique est un État fédéral : la Flandre, la Wallonie et Bruxelles.",
+        "Trois régions, et trois communautés linguistiques."
+      ],
+      "people": [
+        {
+          "who": "de",
+          "at": "Gand",
+          "size": 200,
+          "say": "Vlaanderen !",
+          "when": {
+            "line": 0,
+            "word": "Flandre",
+            "d": 0.3
+          }
+        },
+        {
+          "who": "fr",
+          "at": "Namur",
+          "size": 200,
+          "say": "Wallonie !",
+          "when": {
+            "line": 0,
+            "word": "Wallonie",
+            "d": 0.3
+          }
+        }
+      ]
+    },
+    {
+      "type": "map",
+      "text": "La Belgique en 100 personnes",
+      "sub": "Estimations approximatives · plusieurs langues possibles",
+      "focus": {
+        "box": [
+          2,
+          49.4,
+          6.8,
+          51.7
+        ]
+      },
+      "crowd": {
+        "at": 0.4,
+        "groups": [
+          {
+            "color": "#E8A33C",
+            "n": 59,
+            "label": "59 % néerlandais",
+            "at": {
+              "line": 0,
+              "word": "néerlandais",
+              "d": -0.9
+            }
+          },
+          {
+            "lang": "fr",
+            "n": 40,
+            "label": "40 % français",
+            "at": {
+              "line": 0,
+              "word": "français",
+              "d": -0.9
+            }
+          },
+          {
+            "lang": "de",
+            "n": 1,
+            "label": "1 % allemand",
+            "at": {
+              "line": 1,
+              "word": "allemand",
+              "d": -0.6
+            }
+          }
+        ]
+      },
+      "say": [
+        "Sur 100 Belges, environ 59 parlent néerlandais et 40 français…",
+        "et environ un sur cent parle allemand !"
+      ],
+      "people": [
+        {
+          "who": "de",
+          "at": "Eupen",
+          "size": 190,
+          "say": "Un sur cent",
+          "when": {
+            "line": 1,
+            "word": "cent",
+            "d": 0
+          }
+        }
+      ]
+    },
+    {
+      "type": "final",
+      "text": "Et toi, tu parles combien de langues ?",
+      "sub": "Dis-le en commentaire !",
+      "focus": {
+        "box": [
+          2,
+          49.4,
+          6.8,
+          51.7
+        ]
+      },
+      "say": [
+        "Voilà pourquoi la Belgique parle trois langues ! Et toi, tu en parles combien ? Dis-le en commentaire, et abonne-toi pour la suite !"
+      ],
+      "people": [
+        {
+          "who": "paysan",
+          "at": "Bruxelles",
+          "size": 260,
+          "say": "À bientôt !",
+          "when": {
+            "line": 0,
+            "word": "abonne-toi",
+            "d": 0
+          },
+          "wave": true,
+          "mood": "happy"
+        }
+      ],
+      "pills": [
+        {
+          "at": "Bruxelles",
+          "title": "Belgique",
+          "sub": "3 langues",
+          "side": "b",
+          "when": {
+            "line": 0,
+            "word": "langues",
+            "d": 0
+          }
+        }
+      ]
+    }
+  ],
+  "base": {
+    "countries": [
+      "Belgium"
+    ]
+  }
+}

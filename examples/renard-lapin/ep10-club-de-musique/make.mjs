@@ -11,6 +11,7 @@
 // 23.5–27.8  plan à deux     Roussin : « Lino... je dors chez toi ce soir ? » — Lino : « Oui !! » (saut de joie)
 // 27.8–30.0  plan large      carton
 import { writeFileSync } from 'node:fs';
+import { timeBadge } from '../lib/badge.mjs';
 import { W, H, INK, lines, sfxEv, an, ao, vis, sfx, fox, rabbit, owl, put, style, addKF, track, ss } from '../lib/kit.mjs';
 import { makeCam, say, card, pal } from '../lib/props.mjs';
 import { wallClock } from '../lib/classroom.mjs';
@@ -21,10 +22,10 @@ const SHOTS = [
   [3.5, 6.5, 960, 470, 1.8, 1.85],
   [6.5, 9.5, 370, 470, 1.8, 1.85],
   [9.5, 12.0, 640, 420, 1.15, 1.17],
-  [12.0, 15.0, 650, 495, 1.6, 1.62],
+  [12.0, 15.0, 640, 495, 1.3, 1.33],
   [15.0, 18.0, 480, 430, 1.9, 1.95],
   [18.0, 23.5, 640, 410, 1.12, 1.15],
-  [23.5, 27.8, 650, 450, 1.6, 1.65],
+  [23.5, 27.8, 640, 450, 1.3, 1.35],
   [27.8, 30, 640, 360, 1.0, 1.03],
 ];
 const { camStyle } = makeCam(SHOTS, DUR);
@@ -116,24 +117,25 @@ const world = `${wall}
   ${notesSlow}${notesChaos}${notesBeat}${hearts}`;
 
 const fx =
-  say('owl', 'Le club de musique ! Un, deux, trois...', 0.4, 2.4, { bx: 640, by: 250, tips: [[640, 330]] }) +
+  say('owl', 'Le club de musique !', 0.4, 2.0, { bx: 640, by: 250, tips: [[640, 330]] }) +
   sfx('BADABADABOUM !', 1010, 95, 3.7, 2.6, -6, '#e8434e', 58, 'knock') +
   sfx('POUUUUU...', 520, 150, 6.8, 2.5, 4, '#ffb300', 70, 'tummy') +
   sfx('BADABOUM !', 1060, 195, 9.6, 1.4, 8, '#e8434e', 45, 'knock') + sfx('POUUU...', 300, 230, 9.8, 1.4, -6, '#ffb300', 60, 'tummy') +
   say('owl', 'Stop !', 10.9, 1.2, { bx: 640, by: 200, tips: [[640, 320]], shout: true }) +
-  say('rab', 'Trop vite ?', 12.2, 1.1, { bx: 800, by: 150, tips: [[965, 228]] }) +
-  say('fox', 'Trop lent ?', 13.3, 1.5, { bx: 170, by: 100, tips: [[150, 190]] }) +
+  say('rab', 'Trop vite ?', 12.2, 1.1, { bx: 900, by: 150, tips: [[1060, 250]] }) +
+  say('fox', 'Trop lent ?', 13.3, 1.5, { bx: 330, by: 160, tips: [[200, 235]] }) +
   say('owl', 'Écoutez-vous !', 15.2, 2.1, { bx: 870, by: 120, tips: [[870, 230]] }) +
   sfx('boum...', 1150, 225, 15.8, 0.6, -6, '#e8434e', 60, 'knock') + sfx('pom...', 400, 210, 16.6, 0.6, 6, '#ffb300', 60, 'knock') + sfx('boum...', 1150, 225, 17.2, 0.6, -6, '#e8434e', 60, 'knock') +
   sfx('BOUM - POM - BOUM - POM', 630, 210, 18.4, 4.6, -3, '#7a4fd6', 42, 'chime') +
-  say('fox', 'Lino... je dors chez toi ce soir ?', 23.8, 2.2, { bx: 560, by: 110, tips: [[440, 220]] }) +
-  say('rab', 'Oui !!', 25.9, 1.8, { bx: 1135, by: 260, tips: [[1000, 300]], shout: true }) +
+  say('fox', 'Je dors chez toi ?', 23.8, 2.0, { bx: 380, by: 160, tips: [[200, 240]] }) +
+  say('rab', 'Oui !!', 25.9, 1.8, { bx: 1090, by: 240, tips: [[1000, 330]], shout: true }) +
   card(27.8, 'Le club de musique !', 'le retour', 640, 130);
 
 const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" data-duration="${DUR}" data-fps="30">
 <style>${style()}</style>
 <rect width="${W}" height="${H}" fill="#efe4ff"/>
 <g style="${camStyle}">${world}</g>
+${timeBadge(16, 15)}
 ${fx}
 </svg>`;
 for (let t = 3.7; t < 6.4; t += 0.14) sfxEv.push({ name: 'knock', t: +t.toFixed(2) });

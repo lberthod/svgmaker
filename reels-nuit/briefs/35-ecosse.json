@@ -1,0 +1,2370 @@
+{
+ "format": "atlas",
+ "id": "atlas-ecosse",
+ "base": {
+  "countries": [
+   "United Kingdom",
+   "Ireland"
+  ]
+ },
+ "scenes": [
+  {
+   "type": "hook",
+   "text": "Pourquoi l’Écosse a-t-elle tenu tête à l’Angleterre ?",
+   "focus": {
+    "box": [
+     -8.2,
+     54.4,
+     0.4,
+     60
+    ]
+   },
+   "highlight": {
+    "regions": [
+     {
+      "c": "United Kingdom",
+      "n": "Highland"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Argyll and Bute"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Moray"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Aberdeenshire"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Aberdeen"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Angus"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Perthshire and Kinross"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Eilean Siar"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Orkney"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Shetland Islands"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Dundee"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Fife"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Stirling"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Clackmannanshire"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Falkirk"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "West Lothian"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Edinburgh"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Midlothian"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "East Lothian"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Scottish Borders"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Dumfries and Galloway"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "South Ayrshire"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "East Ayrshire"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "North Ayshire"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Inverclyde"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Renfrewshire"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "West Dunbartonshire"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "North Lanarkshire"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "East Dunbartonshire"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Glasgow"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "East Renfrewshire"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "South Lanarkshire"
+     }
+    ],
+    "color": "#4FA3E0",
+    "at": 0.6,
+    "keep": false
+   },
+   "pills": [
+    {
+     "at": [
+      -3.19,
+      55.95
+     ],
+     "title": "Édimbourg",
+     "side": "r",
+     "when": {
+      "line": 1,
+      "word": "batailles"
+     },
+     "sub": "la capitale"
+    }
+   ],
+   "labels": [
+    {
+     "text": "Angleterre",
+     "at": [
+      -1.6,
+      53.9
+     ],
+     "size": 36,
+     "when": {
+      "line": 1,
+      "word": "langues"
+     }
+    },
+    {
+     "text": "Irlande",
+     "at": [
+      -7.8,
+      54.6
+     ],
+     "size": 36,
+     "when": {
+      "line": 1,
+      "word": "parlement"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      -3.19,
+      55.95
+     ],
+     "when": 0.4
+    }
+   ],
+   "say": [
+    "Pourquoi l’Écosse a-t-elle tenu tête à l’Angleterre ?",
+    "Batailles, langues et parlement racontent la réponse."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "9e siècle",
+   "text": "Pictes et Scots s’unissent",
+   "focus": {
+    "box": [
+     -7.6,
+     55.4,
+     -0.8,
+     58.6
+    ]
+   },
+   "highlight": [
+    {
+     "regions": [
+      {
+       "c": "United Kingdom",
+       "n": "Highland"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Moray"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Aberdeenshire"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Aberdeen"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Angus"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Perthshire and Kinross"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Fife"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Dundee"
+      }
+     ],
+     "color": "#C77DFF",
+     "at": {
+      "line": 0,
+      "word": "Pictes",
+      "d": -0.1
+     },
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "United Kingdom",
+       "n": "Argyll and Bute"
+      }
+     ],
+     "color": "#FF7A3C",
+     "at": {
+      "line": 0,
+      "word": "Scots",
+      "d": -0.1
+     },
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "United Kingdom",
+       "n": "Highland"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Moray"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Aberdeenshire"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Aberdeen"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Angus"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Perthshire and Kinross"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Fife"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Dundee"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Argyll and Bute"
+      }
+     ],
+     "color": "#4FA3E0",
+     "at": {
+      "line": 1,
+      "word": "royaume",
+      "d": -0.2
+     },
+     "keep": false
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      -5.9,
+      56.1
+     ],
+     "to": [
+      -3.41,
+      56.41
+     ],
+     "n": 3,
+     "color": "#FF7A3C",
+     "at": {
+      "line": 0,
+      "word": "réunit",
+      "d": -0.3
+     },
+     "dur": 2.2
+    }
+   ],
+   "people": [
+    {
+     "who": "roi",
+     "at": [
+      -3,
+      57.2
+     ],
+     "size": 230,
+     "say": "Un seul royaume !",
+     "label": {
+      "title": "Kenneth MacAlpin",
+      "sub": "vers 843"
+     },
+     "when": {
+      "line": 0,
+      "word": "Kenneth",
+      "d": 0.1
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      -3.41,
+      56.41
+     ],
+     "title": "Scone",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "réunit",
+      "d": 0.3
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      -3.41,
+      56.41
+     ],
+     "when": {
+      "line": 1,
+      "word": "royaume"
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Pictes",
+     "at": [
+      -3.9,
+      58
+     ],
+     "size": 36,
+     "when": {
+      "line": 0,
+      "word": "Pictes",
+      "d": 0.1
+     }
+    },
+    {
+     "text": "Scots",
+     "at": [
+      -6,
+      56.9
+     ],
+     "size": 36,
+     "when": {
+      "line": 0,
+      "word": "Scots",
+      "d": 0.1
+     }
+    },
+    {
+     "text": "Irlande",
+     "at": [
+      -7.2,
+      55
+     ],
+     "size": 36,
+     "when": {
+      "line": 1,
+      "d": 0.6
+     }
+    }
+   ],
+   "say": [
+    "Vers 843, Kenneth MacAlpin réunit les Pictes et les Scots.",
+    "Ainsi naît peu à peu le royaume d’Écosse."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1296 · 1297",
+   "text": "William Wallace bat les Anglais",
+   "focus": {
+    "box": [
+     -5.6,
+     54.6,
+     -0.6,
+     57.4
+    ]
+   },
+   "highlight": {
+    "regions": [
+     {
+      "c": "United Kingdom",
+      "n": "Highland"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Argyll and Bute"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Moray"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Aberdeenshire"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Aberdeen"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Angus"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Perthshire and Kinross"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Eilean Siar"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Orkney"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Shetland Islands"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Dundee"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Fife"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Stirling"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Clackmannanshire"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Falkirk"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "West Lothian"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Edinburgh"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Midlothian"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "East Lothian"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Scottish Borders"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Dumfries and Galloway"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "South Ayrshire"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "East Ayrshire"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "North Ayshire"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Inverclyde"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Renfrewshire"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "West Dunbartonshire"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "North Lanarkshire"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "East Dunbartonshire"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Glasgow"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "East Renfrewshire"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "South Lanarkshire"
+     }
+    ],
+    "color": "#4FA3E0",
+    "at": 0.5,
+    "keep": false
+   },
+   "moves": [
+    {
+     "from": [
+      -1.5,
+      54.6
+     ],
+     "to": [
+      -2,
+      55.77
+     ],
+     "n": 4,
+     "color": "#E8503A",
+     "at": {
+      "line": 0,
+      "word": "envahit",
+      "d": -0.2
+     },
+     "dur": 2
+    },
+    {
+     "from": [
+      -4.9,
+      55.9
+     ],
+     "to": [
+      -3.94,
+      56.12
+     ],
+     "n": 3,
+     "color": "#4FA3E0",
+     "at": {
+      "line": 1,
+      "word": "Wallace",
+      "d": 0.2
+     },
+     "dur": 1.8
+    }
+   ],
+   "people": [
+    {
+     "who": "rebelle",
+     "at": [
+      -4.6,
+      56.7
+     ],
+     "size": 230,
+     "say": "Liberté !",
+     "label": {
+      "title": "William Wallace",
+      "sub": "1297"
+     },
+     "when": {
+      "line": 1,
+      "word": "Wallace",
+      "d": -0.2
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      -2,
+      55.77
+     ],
+     "title": "Berwick",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "envahit",
+      "d": 0.3
+     }
+    },
+    {
+     "at": [
+      -3.94,
+      56.12
+     ],
+     "title": "Stirling",
+     "side": "l",
+     "when": {
+      "line": 1,
+      "word": "Stirling",
+      "d": -0.1
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      -3.94,
+      56.12
+     ],
+     "when": {
+      "line": 1,
+      "word": "Stirling",
+      "d": -0.2
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Angleterre",
+     "at": [
+      -1.4,
+      54.75
+     ],
+     "size": 34,
+     "when": {
+      "line": 0,
+      "word": "Édouard",
+      "d": 0.2
+     }
+    }
+   ],
+   "say": [
+    "En 1296, le roi anglais Édouard Ier envahit l’Écosse.",
+    "En 1297, William Wallace bat l’armée anglaise au pont de Stirling."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1314",
+   "text": "Bannockburn : la victoire de Bruce",
+   "focus": {
+    "box": [
+     -5.6,
+     54.6,
+     -0.6,
+     57.4
+    ]
+   },
+   "highlight": {
+    "regions": [
+     {
+      "c": "United Kingdom",
+      "n": "Highland"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Argyll and Bute"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Moray"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Aberdeenshire"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Aberdeen"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Angus"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Perthshire and Kinross"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Eilean Siar"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Orkney"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Shetland Islands"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Dundee"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Fife"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Stirling"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Clackmannanshire"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Falkirk"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "West Lothian"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Edinburgh"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Midlothian"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "East Lothian"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Scottish Borders"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Dumfries and Galloway"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "South Ayrshire"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "East Ayrshire"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "North Ayshire"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Inverclyde"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Renfrewshire"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "West Dunbartonshire"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "North Lanarkshire"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "East Dunbartonshire"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Glasgow"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "East Renfrewshire"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "South Lanarkshire"
+     }
+    ],
+    "color": "#4FA3E0",
+    "at": 0.5,
+    "keep": false
+   },
+   "moves": [
+    {
+     "from": [
+      -3.94,
+      56.12
+     ],
+     "to": [
+      -2.2,
+      55.1
+     ],
+     "n": 4,
+     "color": "#E8503A",
+     "label": "L’armée anglaise s’enfuit",
+     "at": {
+      "line": 0,
+      "word": "écrase",
+      "d": 0.1
+     },
+     "dur": 2.2
+    }
+   ],
+   "people": [
+    {
+     "who": "roi",
+     "at": [
+      -4.7,
+      56.7
+     ],
+     "size": 230,
+     "say": "Victoire !",
+     "label": {
+      "title": "Robert Bruce",
+      "sub": "roi d’Écosse"
+     },
+     "when": {
+      "line": 0,
+      "word": "Bruce",
+      "d": -0.1
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      -3.94,
+      56.12
+     ],
+     "title": "Bannockburn",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "Bannockburn",
+      "d": 0.2
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      -3.94,
+      56.12
+     ],
+     "when": 0.5
+    }
+   ],
+   "labels": [
+    {
+     "text": "Angleterre",
+     "at": [
+      -1.4,
+      54.7
+     ],
+     "size": 34,
+     "when": {
+      "line": 1,
+      "d": 0.2
+     }
+    }
+   ],
+   "say": [
+    "En 1314, Robert Bruce écrase l’armée anglaise à Bannockburn.",
+    "L’Angleterre reconnaît l’indépendance écossaise en 1328."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1320",
+   "text": "La déclaration d’Arbroath",
+   "focus": {
+    "box": [
+     -5.6,
+     55.2,
+     -0.6,
+     58
+    ]
+   },
+   "highlight": {
+    "regions": [
+     {
+      "c": "United Kingdom",
+      "n": "Highland"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Argyll and Bute"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Moray"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Aberdeenshire"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Aberdeen"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Angus"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Perthshire and Kinross"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Eilean Siar"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Orkney"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Shetland Islands"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Dundee"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Fife"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Stirling"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Clackmannanshire"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Falkirk"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "West Lothian"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Edinburgh"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Midlothian"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "East Lothian"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Scottish Borders"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Dumfries and Galloway"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "South Ayrshire"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "East Ayrshire"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "North Ayshire"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Inverclyde"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Renfrewshire"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "West Dunbartonshire"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "North Lanarkshire"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "East Dunbartonshire"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Glasgow"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "East Renfrewshire"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "South Lanarkshire"
+     }
+    ],
+    "color": "#4FA3E0",
+    "at": 0.4,
+    "keep": false
+   },
+   "pills": [
+    {
+     "at": [
+      -2.58,
+      56.56
+     ],
+     "title": "Arbroath",
+     "side": "r",
+     "when": {
+      "line": 1,
+      "d": 0
+     },
+     "sub": "6 avril 1320"
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      -2.58,
+      56.56
+     ],
+     "when": {
+      "line": 1,
+      "d": 0
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Mer du Nord",
+     "at": [
+      -1.3,
+      57.3
+     ],
+     "size": 34,
+     "when": {
+      "line": 1,
+      "d": 0.3
+     }
+    }
+   ],
+   "art": [
+    {
+     "kind": "timeline",
+     "at": {
+      "line": 0,
+      "d": 0.3
+     },
+     "dur": 3.4,
+     "title": "Les guerres d’indépendance",
+     "items": [
+      {
+       "year": "1297",
+       "text": "Stirling Bridge"
+      },
+      {
+       "year": "1314",
+       "text": "Bannockburn"
+      },
+      {
+       "year": "1320",
+       "text": "Arbroath"
+      },
+      {
+       "year": "1328",
+       "text": "Indépendance"
+      }
+     ]
+    }
+   ],
+   "say": [
+    "En 1320, des nobles écrivent au pape la déclaration d’Arbroath.",
+    "Ils jurent de défendre leur liberté, même au prix de leur vie."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1603",
+   "text": "Deux couronnes sur une seule tête",
+   "focus": {
+    "box": [
+     -6.2,
+     50.4,
+     1.8,
+     58
+    ]
+   },
+   "highlight": {
+    "regions": [
+     {
+      "c": "United Kingdom",
+      "n": "Highland"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Argyll and Bute"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Moray"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Aberdeenshire"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Aberdeen"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Angus"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Perthshire and Kinross"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Eilean Siar"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Orkney"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Shetland Islands"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Dundee"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Fife"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Stirling"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Clackmannanshire"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Falkirk"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "West Lothian"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Edinburgh"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Midlothian"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "East Lothian"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Scottish Borders"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Dumfries and Galloway"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "South Ayrshire"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "East Ayrshire"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "North Ayshire"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Inverclyde"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Renfrewshire"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "West Dunbartonshire"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "North Lanarkshire"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "East Dunbartonshire"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Glasgow"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "East Renfrewshire"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "South Lanarkshire"
+     }
+    ],
+    "color": "#4FA3E0",
+    "at": 0.4,
+    "keep": false
+   },
+   "moves": [
+    {
+     "from": [
+      -3.19,
+      55.95
+     ],
+     "to": [
+      -0.13,
+      51.5
+     ],
+     "n": 3,
+     "color": "#FFD83C",
+     "at": {
+      "line": 1,
+      "word": "Jacques",
+      "d": -0.6
+     },
+     "dur": 2
+    }
+   ],
+   "people": [
+    {
+     "who": "roi",
+     "at": [
+      -4.4,
+      56.3
+     ],
+     "size": 230,
+     "say": "Deux royaumes !",
+     "label": {
+      "title": "Jacques VI d’Écosse",
+      "sub": "1603"
+     },
+     "when": {
+      "line": 0,
+      "d": 0
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      -3.19,
+      55.95
+     ],
+     "title": "Édimbourg",
+     "side": "l",
+     "when": {
+      "line": 0,
+      "word": "Élisabeth",
+      "d": 0.3
+     }
+    },
+    {
+     "at": [
+      -0.13,
+      51.5
+     ],
+     "title": "Londres",
+     "side": "r",
+     "when": {
+      "line": 1,
+      "word": "trône",
+      "d": 0.3
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      -0.13,
+      51.5
+     ],
+     "when": {
+      "line": 1,
+      "word": "trône"
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Angleterre",
+     "at": [
+      -2.5,
+      52.4
+     ],
+     "size": 36,
+     "when": {
+      "line": 0,
+      "word": "Angleterre",
+      "d": 0.2
+     }
+    }
+   ],
+   "say": [
+    "En 1603, la reine anglaise Élisabeth meurt sans enfant.",
+    "Le roi d’Écosse, Jacques VI, devient aussi roi d’Angleterre."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1707 · 1999",
+   "text": "Le Parlement écossais rouvre",
+   "focus": {
+    "box": [
+     -5.6,
+     54.7,
+     -0.8,
+     57.2
+    ]
+   },
+   "highlight": {
+    "regions": [
+     {
+      "c": "United Kingdom",
+      "n": "Highland"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Argyll and Bute"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Moray"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Aberdeenshire"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Aberdeen"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Angus"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Perthshire and Kinross"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Eilean Siar"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Orkney"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Shetland Islands"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Dundee"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Fife"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Stirling"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Clackmannanshire"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Falkirk"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "West Lothian"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Edinburgh"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Midlothian"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "East Lothian"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Scottish Borders"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Dumfries and Galloway"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "South Ayrshire"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "East Ayrshire"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "North Ayshire"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Inverclyde"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Renfrewshire"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "West Dunbartonshire"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "North Lanarkshire"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "East Dunbartonshire"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Glasgow"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "East Renfrewshire"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "South Lanarkshire"
+     }
+    ],
+    "color": "#4FA3E0",
+    "at": 0.4,
+    "keep": false
+   },
+   "people": [
+    {
+     "who": "savant",
+     "at": [
+      -4.2,
+      56.6
+     ],
+     "size": 230,
+     "say": "129 députés !",
+     "label": {
+      "title": "Parlement écossais",
+      "sub": "1999"
+     },
+     "when": {
+      "line": 1,
+      "word": "1999",
+      "d": -0.3
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      -3.17,
+      55.95
+     ],
+     "title": "Holyrood",
+     "side": "r",
+     "when": {
+      "line": 1,
+      "word": "Édimbourg",
+      "d": 0.2
+     },
+     "sub": "Édimbourg"
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      -3.17,
+      55.95
+     ],
+     "when": {
+      "line": 1,
+      "word": "Édimbourg"
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Angleterre",
+     "at": [
+      -2.3,
+      55.1
+     ],
+     "size": 34,
+     "when": {
+      "line": 0,
+      "d": 0.3
+     }
+    }
+   ],
+   "art": [
+    {
+     "kind": "stats",
+     "at": {
+      "line": 0,
+      "d": 0.2
+     },
+     "dur": 3.2,
+     "title": "Un parlement retrouvé",
+     "items": [
+      {
+       "value": 292,
+       "suffix": " ans",
+       "label": "sans parlement",
+       "color": "#E8503A"
+      },
+      {
+       "value": 74,
+       "suffix": " %",
+       "label": "de oui des votants",
+       "color": "#3E9A63"
+      },
+      {
+       "value": 129,
+       "label": "députés en 1999",
+       "color": "#4FA3E0"
+      }
+     ]
+    }
+   ],
+   "say": [
+    "En 1707, l’Union avec l’Angleterre supprime le Parlement d’Écosse, puis 74 % des votants le réclament en 1997.",
+    "En 1999, il rouvre à Édimbourg avec 129 députés."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "Aujourd’hui",
+   "text": "Trois langues en Écosse",
+   "focus": {
+    "box": [
+     -8.2,
+     54.4,
+     0.4,
+     60
+    ]
+   },
+   "highlight": [
+    {
+     "regions": [
+      {
+       "c": "United Kingdom",
+       "n": "Highland"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Argyll and Bute"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Moray"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Aberdeenshire"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Aberdeen"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Angus"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Perthshire and Kinross"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Eilean Siar"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Orkney"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Shetland Islands"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Dundee"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Fife"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Stirling"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Clackmannanshire"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Falkirk"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "West Lothian"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Edinburgh"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Midlothian"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "East Lothian"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Scottish Borders"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Dumfries and Galloway"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "South Ayrshire"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "East Ayrshire"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "North Ayshire"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Inverclyde"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Renfrewshire"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "West Dunbartonshire"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "North Lanarkshire"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "East Dunbartonshire"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Glasgow"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "East Renfrewshire"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "South Lanarkshire"
+      }
+     ],
+     "color": "#4FA3E0",
+     "at": 0.4,
+     "keep": false
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      -3.19,
+      55.95
+     ],
+     "title": "Édimbourg",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "anglais",
+      "d": 0.3
+     }
+    },
+    {
+     "at": [
+      -4.22,
+      57.48
+     ],
+     "title": "Inverness",
+     "side": "l",
+     "when": {
+      "line": 1,
+      "word": "gaélique",
+      "d": 0.7
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      -3.19,
+      55.95
+     ],
+     "when": 0.5
+    }
+   ],
+   "labels": [
+    {
+     "text": "Anglais",
+     "at": [
+      -3.2,
+      55.7
+     ],
+     "size": 36,
+     "when": {
+      "line": 0,
+      "d": 0
+     }
+    },
+    {
+     "text": "Scots",
+     "at": [
+      -2.6,
+      57.3
+     ],
+     "size": 36,
+     "when": {
+      "line": 1,
+      "word": "scots",
+      "d": 0.3
+     }
+    },
+    {
+     "text": "Gaélique",
+     "at": [
+      -6.8,
+      57.6
+     ],
+     "size": 36,
+     "when": {
+      "line": 1,
+      "word": "gaélique",
+      "d": 0.3
+     }
+    }
+   ],
+   "art": [
+    {
+     "kind": "bars",
+     "at": {
+      "line": 0,
+      "word": "habitants",
+      "d": -1
+     },
+     "dur": 3.6,
+     "title": "Qui parle quoi en 2022",
+     "sub": "recensement 2022, personnes qui le parlent",
+     "items": [
+      {
+       "label": "Habitants",
+       "value": "5,4 M",
+       "h": 1,
+       "color": "#4FA3E0"
+      },
+      {
+       "label": "Scots",
+       "value": "1,5 M",
+       "h": 0.28,
+       "color": "#C77DFF"
+      },
+      {
+       "label": "Gaélique",
+       "value": "70 000",
+       "h": 0.015,
+       "color": "#3E9A63"
+      }
+     ]
+    }
+   ],
+   "say": [
+    "Sur 5,4 millions d’habitants, l’anglais domine.",
+    "Environ 1,5 million parlent scots, et environ 70 000 le gaélique."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "2011 · 2022",
+   "text": "Le gaélique des Highlands",
+   "focus": {
+    "box": [
+     -8,
+     54.9,
+     -1,
+     59.2
+    ]
+   },
+   "highlight": [
+    {
+     "regions": [
+      {
+       "c": "United Kingdom",
+       "n": "Highland"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Argyll and Bute"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Eilean Siar"
+      }
+     ],
+     "color": "#3E9A63",
+     "at": {
+      "line": 1,
+      "word": "Highlands",
+      "d": -0.1
+     },
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "United Kingdom",
+       "n": "Moray"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Aberdeenshire"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Aberdeen"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Angus"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Perthshire and Kinross"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Dundee"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Fife"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Stirling"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Clackmannanshire"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Falkirk"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "West Lothian"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Edinburgh"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Midlothian"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "East Lothian"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Scottish Borders"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Dumfries and Galloway"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "South Ayrshire"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "East Ayrshire"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "North Ayshire"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Inverclyde"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Renfrewshire"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "West Dunbartonshire"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "North Lanarkshire"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "East Dunbartonshire"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Glasgow"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "East Renfrewshire"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "South Lanarkshire"
+      }
+     ],
+     "color": "#FFD83C",
+     "at": {
+      "line": 1,
+      "word": "îles",
+      "d": 0.6
+     },
+     "keep": false
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      -6.39,
+      58.21
+     ],
+     "title": "Stornoway",
+     "side": "r",
+     "when": {
+      "line": 1,
+      "word": "îles",
+      "d": 0.1
+     }
+    },
+    {
+     "at": [
+      -4.22,
+      57.48
+     ],
+     "title": "Inverness",
+     "side": "r",
+     "when": {
+      "line": 1,
+      "word": "Highlands",
+      "d": 0.3
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      -6.39,
+      58.21
+     ],
+     "when": {
+      "line": 1,
+      "word": "îles"
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Highlands",
+     "at": [
+      -5,
+      57.1
+     ],
+     "size": 38,
+     "when": {
+      "line": 1,
+      "word": "Highlands",
+      "d": 0.2
+     }
+    },
+    {
+     "text": "Lowlands",
+     "at": [
+      -3.9,
+      55.5
+     ],
+     "size": 38,
+     "when": {
+      "line": 1,
+      "word": "îles",
+      "d": 0.8
+     }
+    }
+   ],
+   "art": [
+    {
+     "kind": "stats",
+     "at": {
+      "line": 0,
+      "d": 0.1
+     },
+     "dur": 3.2,
+     "title": "Le gaélique remonte",
+     "items": [
+      {
+       "value": 58,
+       "suffix": " 000",
+       "label": "locuteurs en 2011",
+       "color": "#FF7A3C"
+      },
+      {
+       "value": 70,
+       "suffix": " 000",
+       "label": "locuteurs en 2022",
+       "color": "#3E9A63"
+      }
+     ]
+    }
+   ],
+   "say": [
+    "Le gaélique passe d’environ 58 000 locuteurs en 2011 à 70 000 en 2022.",
+    "Il vit surtout dans les Highlands et les îles, comme les Hébrides."
+   ]
+  },
+  {
+   "type": "final",
+   "text": "Une Écosse fière de son histoire",
+   "sub": "Royaume, langues, parlement",
+   "focus": {
+    "box": [
+     -8.2,
+     54.4,
+     0.4,
+     60
+    ]
+   },
+   "highlight": [
+    {
+     "regions": [
+      {
+       "c": "United Kingdom",
+       "n": "Highland"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Argyll and Bute"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Eilean Siar"
+      }
+     ],
+     "color": "#3E9A63",
+     "at": 0.4,
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "United Kingdom",
+       "n": "Moray"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Aberdeenshire"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Aberdeen"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Angus"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Perthshire and Kinross"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Dundee"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Fife"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Stirling"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Clackmannanshire"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Falkirk"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "West Lothian"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Edinburgh"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Midlothian"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "East Lothian"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Scottish Borders"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Dumfries and Galloway"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "South Ayrshire"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "East Ayrshire"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "North Ayshire"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Inverclyde"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Renfrewshire"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "West Dunbartonshire"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "North Lanarkshire"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "East Dunbartonshire"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Glasgow"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "East Renfrewshire"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "South Lanarkshire"
+      }
+     ],
+     "color": "#FFD83C",
+     "at": 1,
+     "keep": false
+    }
+   ],
+   "people": [
+    {
+     "who": "paysan",
+     "at": [
+      -6.5,
+      59
+     ],
+     "size": 250,
+     "say": "Écosse !",
+     "wave": true,
+     "when": 2.6
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      -3.19,
+      55.95
+     ],
+     "title": "Édimbourg",
+     "side": "r",
+     "when": 1.6
+    }
+   ],
+   "say": [
+    "Voilà pourquoi l’Écosse a gardé son identité : victoires, langues et parlement.",
+    "Voilà la réponse à la question qui nous a ouverts :"
+   ]
+  }
+ ],
+ "terrain": [
+  {
+   "box": [
+    -14,
+    27,
+    40,
+    76
+   ],
+   "px": 3000,
+   "z": 6
+  },
+  {
+   "box": [
+    -8.6,
+    50,
+    2.2,
+    60.4
+   ],
+   "px": 2800,
+   "z": 8
+  }
+ ]
+}

@@ -1,0 +1,5 @@
+# Boucle 2 : 37-bretagne
+- Faits : 1882 = école obligatoire en français, « symbole » (pas d'interdiction légale) ; 207 000 / 107 000 « environ », sous-titre « enquêtes TMO pour la Région, 5 départements » (source : synthèse TMO 2018, étude sociolinguistique Région 2024) ; « des écoles comme Diwan » ; 4000 dit « environ quatre mille ».
+- Frise : 1790 retiré ; union 1532 montrée par highlight Bretagne rouge ; Louis XII/Nantes calés sur « 1499 » ; frise à line 1 d 0.3, dur 3.
+- Cartographie : Basse-Bretagne (Finistère teinte forte + label) remplace Quimper ; Loire-Atlantique verte et pastille Nantes sur « Nantes » ; label Pays de la Loire retiré ; label Bretagne déplacé dans la région ; Ferry en [2.35,49.2], Paris side t ; Diwan avec sprite « fr » ; Langeais side t, focus.box est 2.2 ; scène 1790 avec Bretagne entière + personnage, sans balise.
+- Positions : marin [-4.6,49.5], moves from [-3.9,50.4], label Grande-Bretagne [-3.0,50.7], pastilles Rennes/Nantes/Anjou décalées ; art stats size 84 sans sub ; art arts when/dur recalés ; terrain 2e box mise à jour.

@@ -1,0 +1,7 @@
+- Exigence 1 : say avec chiffres/ordinaux/romains conservés (validés par `new`), aucun chiffre résiduel.
+- Exigence 2 : art `compare` (hook) France 551 695 km² vs Belgique 30 688 km², ratio 18× (Vikidia « Belgique » 30 688 km² ; Areq/Wikipédia France métropolitaine 551 695 km²). La phrase 2 du hook devient « Bienvenue en Belgique, un pays 18 fois plus petit que la France ! ».
+- Exigence 2 : art `split` (scène 1830) Belgique indépendante / Pays-Bas séparés, calé sur « révolte » (indépendance proclamée le 4 octobre 1830, Léopold Ier 1831 ; Vikidia « Indépendance de la Belgique », enseignons.be).
+- Exigence 2 : art `timeline` (scène 1970-1993) : 1830 indépendance, 1898 néerlandais égal (loi Coremans-De Vriendt, connue), 1920 Eupen et Malmedy, 1970 trois communautés, 1993 État fédéral (Wikipédia « State reform in Belgium », La Libre « Cinq réformes de l'État »). Say réécrit ; labels/pastilles/personnages décalés sur la ligne 1 pour ne pas passer sous l'art.
+- Exigence 3 : personnage rebelle recalé sur « enflamme » (hors fenêtre de l'art) ; label Allemagne ajouté à [6.5, 50.95] (x < 1000).
+- Exigence 5 : final : ajout de « Et voilà la réponse à la question qui nous a ouverts : » ; bulle « À bientôt ! » remplacée par « Voilà ! ».
+- Exigence 6 : terrain recalé ([-14,27,40,76] px 3000 z6 ; [-0.4,48.4,8.9,54.2] px 2800 z9) ; couleurs stables (Belgique #F5C342 partout, Pays-Bas #E8A33C, flèche des Francs #D9622B) ; 1815 : highlight en deux objets (Belgique puis Pays-Bas) ; label France ajouté en 1830.

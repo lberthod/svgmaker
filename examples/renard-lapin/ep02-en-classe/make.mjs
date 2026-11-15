@@ -11,8 +11,9 @@
 // 17.4–19.6  Roussin          rêve de 4 croissants
 // 19.6–21.0  fenêtre         Rouge-Gorge se pose avec LE croissant, TOC TOC
 // 21.0–22.6  Roussin          « MON CROISSANT !! »
-// 22.6–30.0  plan large      DRING la récré : l'oiseau s'envole, Roussin puis Lino foncent ; « Ah... ces deux-là ! » ; carton
+// 22.6–30.0  plan large      DRING la récré : l'oiseau s'envole, Roussin puis Lino foncent ; « Ces deux-là, alors ! » ; carton
 import { writeFileSync } from 'node:fs';
+import { timeBadge } from '../lib/badge.mjs';
 import { W, H, INK, lines, sfxEv, an, ao, anims, vis, tf, esc, sfx, fox, rabbit, owl, put, cloud, eyeStates, mouthStates, style, addKF } from '../lib/kit.mjs';
 
 const DUR = 30;
@@ -20,12 +21,12 @@ const DUR = 30;
 // ───────── caméra : [t0, t1, cx, cy, z0, z1] (point du monde au centre de l'écran) ─────────
 const SHOTS = [
   [0, 4.3, 640, 360, 1.0, 1.035],
-  [4.3, 8.0, 470, 330, 1.45, 1.52],
+  [4.3, 8.0, 560, 330, 1.12, 1.17],
   [8.0, 13.6, 760, 460, 1.4, 1.46],
   [13.6, 14.8, 380, 420, 1.7, 1.75],
   [14.8, 16.2, 960, 450, 1.75, 1.8],
   [16.2, 17.4, 640, 360, 1.0, 1.02],
-  [17.4, 19.6, 620, 480, 2.15, 2.22],
+  [17.4, 19.6, 790, 470, 1.4, 1.45],
   [19.6, 21.0, 1100, 290, 1.9, 1.95],
   [21.0, 22.6, 820, 440, 1.35, 1.4],
   [22.6, 30, 640, 360, 1.0, 1.03],
@@ -47,7 +48,7 @@ const scr = (wx, wy, t) => {
 // ───────── bulles (espace écran) : centre (bx,by), une ou plusieurs pointes ─────────
 function say(who, text, t0, dur, { bx, by, tips, shout = false, fs: fs0 }) {
   lines.push({ who, t0, t1: t0 + dur, text });
-  const fs = fs0 || (shout ? 40 : 33), w = text.length * fs * 0.56 + 56, h = fs + 34;
+  const fs = Math.max(fs0 || (shout ? 50 : 41), shout ? 44 : 36), w = text.length * fs * 0.56 + 56, h = fs + 34;
   const x = Math.min(Math.max(bx, w / 2 + 16), W - 16 - w / 2), y = Math.min(Math.max(by, h / 2 + 14), H - h / 2 - 14);
   const fill = shout ? '#fff36b' : '#ffffff';
   const edge = (ty) => (ty < y ? y - h / 2 + 6 : y + h / 2 - 6);
@@ -226,7 +227,7 @@ const thought = (() => {
     [[-150, 0, 66], [-70, -40, 72], [30, -46, 76], [120, -16, 66], [150, 40, 50], [60, 52, 62], [-50, 50, 62], [-140, 40, 48]]
       .map(([x, y, r]) => `<circle cx="${cx + x}" cy="${cy + y}" r="${r}" fill="#fff"/>`).join('');
   const dots = [[hx + 60, hy - 30, 12], [hx + 100, hy - 62, 17], [hx + 150, hy - 92, 22]].map(([x, y, r]) => `<circle cx="${x}" cy="${y}" r="${r}" fill="#fff" stroke="${INK}" stroke-width="4"/>`).join('');
-  const crs = [-144, -48, 48, 144].map((dx, i) => `<g transform="translate(${cx + dx} ${cy - 4})"><g style="${an({ n: 'floaty', d: 0.6, t: i * 0.15, c: 999, dir: 'alternate' })}"><g transform="scale(1.1)">${croissant}</g></g></g>`).join('') + `<text x="${cx}" y="${cy + 66}" class="bt" style="font-size:27px">Mmm... quatre croissants...</text>`;
+  const crs = [-144, -48, 48, 144].map((dx, i) => `<g transform="translate(${cx + dx} ${cy - 4})"><g style="${an({ n: 'floaty', d: 0.6, t: i * 0.15, c: 999, dir: 'alternate' })}"><g transform="scale(1.1)">${croissant}</g></g></g>`).join('') + `<text x="${cx}" y="${cy + 66}" class="bt" style="font-size:40px">Quatre !</text>`;
   return `<g style="transform-origin:${hx + 100}px ${hy - 60}px;${an({ n: 'thinkk', d: 2.2, t: 17.45, f: 'both' })}">${dots}${blob}${crs}
     </g>`;
 })();
@@ -238,20 +239,20 @@ const fx =
   say('owl', 'Combien font 2 + 2 ?', 6.0, 1.8, { bx: 470, by: 335, tips: [[230, 520]] }) +
   say('rab', 'Moi ! Moi ! Moi !', 8.2, 1.4, { bx: 1010, by: 52, tips: [[905, 150]], shout: true }) +
   sfx('GROOOUUU...', 330, 660, 10.0, 1.4, -4, '#b57bff', 72, 'tummy') +
-  say('mimi', 'Hi hi hi !', 11.1, 1.2, { bx: 760, by: 150, tips: [P(800, 390, 11.1)] }) +
+  say('mimi', 'Ça gargouille !', 11.1, 1.2, { bx: 760, by: 150, tips: [P(800, 390, 11.1)] }) +
   say('fox', "J'ai faim...", 12.4, 1.2, { bx: 300, by: 160, tips: [P(470, 400, 12.4)] }) +
   say('owl', 'Oui, Lino ?', 13.7, 0.95, { bx: 480, by: 110, tips: [P(260, 360, 13.7)] }) +
   say('rab', 'Quatre carottes !', 14.9, 1.25, { bx: 1000, by: 110, tips: [[690, 300]], shout: true }) +
   say('owl', 'Bravo !', 16.5, 0.85, { bx: 240, by: 240, tips: [owlTip(16.5)] }) +
   thought +
-  (lines.push({ who: 'fox', t0: 17.6, t1: 19.4, text: 'Mmm... quatre croissants...' }), '') +
+  (lines.push({ who: 'fox', t0: 17.6, t1: 19.4, text: 'Quatre !' }), '') +
   sfx('TOC !', 930, 330, 20.08, 0.6, -8, '#ffd23f', 70, 'knock') + sfx('TOC !', 1010, 260, 20.33, 0.6, 8, '#ffd23f', 70) +
   sfx('!!', 560, 300, 21.0, 1.2, 0, '#e8434e', 90) +
   say('fox', 'MON CROISSANT !!', 21.1, 1.3, { bx: 440, by: 200, tips: [P(667, 500, 21.1)], shout: true }) +
   sfx('DRING !', 165, 200, 22.6, 1.2, -8, '#ffd23f', 54, 'bell') +
   sfx('ZIP !', 1140, 150, 22.8, 0.8, 8, '#ff6f95', 70) +
   say('rab', 'Attends-moi !', 24.85, 0.75, { bx: 1010, by: 215, tips: [[905, 330]], shout: true }) +
-  say('owl', 'Ah... ces deux-là !', 25.75, 2.1, { bx: 300, by: 300, tips: [[200, 455]] }) +
+  say('owl', 'Ces deux-là, alors !', 25.75, 2.1, { bx: 300, by: 300, tips: [[200, 455]] }) +
   `<g style="${an({ n: 'cardk', d: 0.6, t: 27.7, f: 'both', e: 'cubic-bezier(.2,1.6,.4,1)' })}"><g transform="translate(640 120) scale(.8)">
     <rect x="-279" y="-80" width="570" height="196" rx="30" fill="#000" opacity=".22" transform="rotate(-1.5)"/><rect x="-285" y="-88" width="570" height="196" rx="30" fill="#fff" stroke="${INK}" stroke-width="7" transform="rotate(-1.5)"/>
     <text y="0" class="sfx" style="font-size:68px;fill:#e8434e;stroke:#fff;stroke-width:0">Roussin &amp; Lino</text>
@@ -262,6 +263,7 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" wid
 <style>${style()}</style>
 <rect width="${W}" height="${H}" fill="#ffe9bd"/>
 <g style="transform-origin:0 0;animation:cam ${DUR}s linear 0s 1 normal both">${world}</g>
+${timeBadge(8, 35)}
 ${fx}
 </svg>`;
 sfxEv.push({ name: 'chirp', t: 19.6 }, { name: 'chirp', t: 22.75 }, { name: 'chime', t: 16.3 }, { name: 'whoosh', t: 23.3 }, { name: 'whoosh', t: 25.7 }, { name: 'wave', t: 0.35 });

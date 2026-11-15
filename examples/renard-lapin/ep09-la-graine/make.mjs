@@ -7,11 +7,12 @@
 //  9.5–12.0  Lino           toujours rien : « Toujours rien... » ; il se tourne vers l'horloge
 // 12.0–15.0  la fenêtre      dans son dos, Rouge-Gorge entre avec un petit arrosoir et arrose le pot ; Roussin le voit et sourit
 // 15.0–18.0  l'horloge       nouvel accéléré, jusqu'à 15h55
-// 18.0–21.0  le pot          une pousse ! « Oh ! Elle pousse ! » ; Lino se tourne vers Roussin (« Roussin, regarde ! ») ; l'oiseau revient arroser
+// 18.0–21.0  le pot          une pousse ! « Elle pousse ! » ; Lino se tourne vers Roussin (« Roussin, regarde ! ») ; l'oiseau revient arroser
 // 21.0–23.6  l'horloge       la dernière minute… 16h00 : DRIIING !
-// 23.6–28.2  le pot          une grande fleur jaillit (POP) — « Oooh ! » ; l'oiseau se pose dessus ; Roussin : « C'est lui ! » ; Lino : « Merci, petit oiseau ! »
+// 23.6–28.2  le pot          une grande fleur jaillit (POP) : « Quelle belle fleur ! » ; l'oiseau se pose dessus ; Roussin : « C'est l'oiseau qui arrose ! » ; Lino : « Merci, petit oiseau ! »
 // 28.2–30.0  plan large      carton
 import { writeFileSync } from 'node:fs';
+import { timeBadge } from '../lib/badge.mjs';
 import { W, H, INK, lines, sfxEv, an, vis, sfx, fox, rabbit, owl, put, style, addKF, track, ss } from '../lib/kit.mjs';
 import { makeCam, say, card, bird, pal, puff } from '../lib/props.mjs';
 import { wall, banner, board, windowEl, openSash, radiator, desk, book, pencil } from '../lib/classroom.mjs';
@@ -20,13 +21,14 @@ const DUR = 30;
 const SHOTS = [
   [0, 3.5, 640, 360, 1.0, 1.03],
   [3.5, 6.5, 1010, 370, 2.1, 2.15],
-  [6.5, 9.5, 150, 160, 3.0, 3.3],
-  [9.5, 12.0, 880, 400, 1.7, 1.75],
+  [6.5, 8.0, 150, 160, 3.0, 3.3],
+  [8.0, 12.0, 880, 400, 1.7, 1.75],
   [12.0, 15.0, 960, 360, 1.25, 1.3],
-  [15.0, 18.0, 150, 160, 2.6, 2.9],
-  [18.0, 21.0, 920, 405, 1.5, 1.55],
-  [21.0, 23.6, 150, 160, 3.0, 3.1],
-  [23.6, 28.2, 920, 330, 1.45, 1.5],
+  [15.0, 16.5, 150, 160, 2.6, 2.9],
+  [16.5, 21.0, 860, 400, 1.35, 1.42],
+  [21.0, 22.0, 150, 160, 3.0, 3.1],
+  [22.0, 23.6, 920, 405, 1.5, 1.55],
+  [23.6, 28.2, 740, 330, 1.25, 1.28],
   [28.2, 30, 640, 360, 1.0, 1.03],
 ];
 const { camStyle } = makeCam(SHOTS, DUR);
@@ -35,7 +37,7 @@ const clamp = (x, a, b) => Math.min(b, Math.max(a, x));
 
 // ───────── horloge animée (accélérés comiques) ─────────
 // angle de l'aiguille des minutes (deg) en fonction du temps : 14h30 → 15h00 → 15h55 → 16h00
-const MPTS = [[0, 180], [6.8, 180], [9.2, 360], [15.2, 360], [17.8, 690], [21.2, 690], [21.7, 696], [22.1, 702], [22.5, 708], [22.85, 720]];
+const MPTS = [[0, 180], [6.6, 180], [8.0, 360], [15.0, 360], [16.4, 690], [21.0, 690], [21.25, 696], [21.5, 702], [21.7, 708], [21.9, 720]];
 const kf = (name, pts, f) => `@keyframes ${name}{${pts.map(([t, a]) => `${((t / DUR) * 100).toFixed(3)}%{transform:rotate(${f(a).toFixed(1)}deg)}`).join('')}100%{transform:rotate(${f(pts[pts.length - 1][1]).toFixed(1)}deg)}}`;
 // heure : 14h30 = 75° ; l'aiguille des heures avance de 1/12 des minutes (le tour « comique » en plus ne compte pas)
 const realMin = (a) => a;
@@ -52,7 +54,7 @@ const clock = `<g transform="translate(150 150)"><circle r="50" fill="#fff" stro
   ${Array.from({ length: 12 }, (_, i) => `<line x1="0" y1="-38" x2="0" y2="${i % 3 ? -33 : -28}" stroke="${INK}" stroke-width="${i % 3 ? 2.5 : 4}" transform="rotate(${i * 30})"/>`).join('')}
   <g style="${an({ n: 'clockH', d: DUR, f: 'both' })}"><line x1="0" y1="0" x2="0" y2="-22" stroke="${INK}" stroke-width="6" stroke-linecap="round"/></g>
   <g style="${an({ n: 'clockM', d: DUR, f: 'both' })}"><line x1="0" y1="0" x2="0" y2="-34" stroke="#e8434e" stroke-width="4" stroke-linecap="round"/></g><circle r="4.5" fill="${INK}"/>
-  ${[[6.8, 9.2], [15.2, 17.8]].map(([a, b]) => vis(a, b, `<g style="${an({ n: 'speed', d: 0.4, t: a, c: 20 })}"><path d="M0 -62 A62 62 0 0 1 54 -31 M0 62 A62 62 0 0 1 -54 31" stroke="#ff8fb1" stroke-width="6" fill="none" stroke-linecap="round"/></g>`)).join('')}</g>`;
+  ${[[6.6, 8.0], [15.0, 16.4]].map(([a, b]) => vis(a, b, `<g style="${an({ n: 'speed', d: 0.4, t: a, c: 20 })}"><path d="M0 -62 A62 62 0 0 1 54 -31 M0 62 A62 62 0 0 1 -54 31" stroke="#ff8fb1" stroke-width="6" fill="none" stroke-linecap="round"/></g>`)).join('')}</g>`;
 
 // ───────── tableau ─────────
 const chalk = '#f6f6ea';
@@ -89,7 +91,7 @@ const visit = (tIn, tPour, tOut) => flyTo(tIn, tPour - 0.1, [960, 200], HOV, -20
   vis(tPour - 0.1, tOut, `<g transform="translate(${HOV[0]} ${HOV[1]})"><g style="animation:hover .25s ease-in-out infinite alternate"><g transform="scale(${BS})">${bird(true, false)}${can(tPour)}</g></g></g>`) + drops(tPour) +
   flyTo(tOut, tOut + 0.55, HOV, [960, 120], -30, can(99));
 const PERCH = [FL[0] + 4, FL[1] - 58];
-const birdEl = visit(12.2, 12.9, 14.3) + visit(19.85, 20.25, 21.0) +
+const birdEl = visit(12.2, 12.9, 14.3) + visit(16.3, 16.75, 17.6) + visit(19.85, 20.25, 21.0) +
   flyTo(24.7, 25.35, [1340, 140], PERCH, -50) +
   vis(25.35, 99, `<g transform="translate(${PERCH[0]} ${PERCH[1]})"><g style="${an({ n: 'giggle', d: 0.15, t: 25.6, c: 6, dir: 'alternate' })}"><g transform="scale(${BS})">${bird(false, false)}</g></g></g>`);
 
@@ -129,32 +131,33 @@ const fx =
   say('owl', 'On plante une graine !', 0.4, 1.5, { bx: 420, by: 325, tips: [[225, 440]] }) +
   say('rab', 'Pousse vite !', 2.65, 0.85, { bx: 780, by: 350, tips: [[930, 450]], shout: true }) +
   say('rab', 'Allez... pousse !', 4.0, 1.6, { bx: 880, by: 600, tips: [[665, 600]] }) +
-  sfx('TIC TAC TIC TAC', 640, 610, 6.8, 2.4, -4, '#ff8fb1', 58, 'click') +
-  say('rab', 'Toujours rien...', 10.0, 1.0, { bx: 470, by: 300, tips: [[640, 395]] }) +
-  sfx('plic !', 1040, 245, 13.6, 0.3, 6, '#1e8fe0', 36, 'click') + sfx('ploc !', 960, 320, 13.92, 0.4, -6, '#1e8fe0', 36, 'click') + sfx('plic !', 960, 190, 20.6, 0.35, 6, '#1e8fe0', 50, 'click') +
-  sfx('TIC TAC TIC TAC', 640, 610, 15.2, 2.4, 4, '#ff8fb1', 58, 'click') +
+  sfx('TIC TAC TIC TAC', 640, 610, 6.6, 1.4, -4, '#ff8fb1', 58, 'click') +
+  say('rab', 'Toujours rien...', 9.0, 1.2, { bx: 470, by: 300, tips: [[640, 395]] }) +
+  sfx('plic !', 1040, 245, 13.6, 0.3, 6, '#1e8fe0', 36, 'click') + sfx('ploc !', 960, 320, 13.92, 0.4, -6, '#1e8fe0', 36, 'click') + sfx('plic !', 960, 190, 20.6, 0.35, 6, '#1e8fe0', 50, 'click') + sfx('plic !', 1000, 200, 17.0, 0.4, 6, '#1e8fe0', 50, 'click') +
+  sfx('TIC TAC TIC TAC', 640, 610, 15.0, 1.4, 4, '#ff8fb1', 58, 'click') +
   sfx('POP !', 1000, 170, 18.4, 0.7, -8, '#ffd23f', 90, 'poof') +
-  say('rab', 'Oh ! Elle pousse !', 18.7, 1.2, { bx: 1050, by: 360, tips: [[870, 450]], shout: true }) +
+  say('rab', 'Elle pousse !', 18.7, 1.2, { bx: 1050, by: 360, tips: [[870, 450]], shout: true }) +
   say('rab', 'Roussin, regarde !', 19.9, 1.0, { bx: 290, by: 205, tips: [[515, 410]] }) +
-  sfx('tic... tac...', 640, 600, 21.2, 1.5, -4, '#ff8fb1', 50, 'click') +
-  sfx('DRIIING !', 640, 560, 22.9, 0.7, -6, '#ffd23f', 90, 'bell') +
+  sfx('tic... tac...', 640, 600, 21.0, 0.9, -4, '#ff8fb1', 50, 'click') +
+  sfx('DRIIING !', 640, 560, 21.9, 0.9, -6, '#ffd23f', 90, 'bell') +
   sfx('POP !', 1110, 110, 24.1, 0.7, 8, '#ffd23f', 76, 'poof') +
-  say('rab', 'Oooh !', 24.35, 0.9, { bx: 1010, by: 600, tips: [[870, 605]], shout: true }) +
+  say('rab', 'Quelle belle fleur !', 24.35, 0.9, { bx: 1010, by: 600, tips: [[870, 605]], shout: true }) +
   sfx('CUI CUI !', 745, 150, 25.6, 0.8, 8, '#ff6f95', 34, 'chirp') +
-  say('fox', "C'est lui !", 25.4, 0.75, { bx: 470, by: 590, tips: [[400, 640]] }) +
-  say('rab', 'Merci, petit oiseau !', 26.2, 1.4, { bx: 1082, by: 620, fs: 30, tips: [[825, 605]] }) +
+  say('fox', 'C’est l’oiseau qui arrose !', 25.4, 1.4, { bx: 560, by: 410, tips: [[345, 500]] }) +
+  say('rab', 'Merci, petit oiseau !', 26.9, 1.25, { bx: 1082, by: 620, tips: [[825, 605]] }) +
   card(28.2, 'La graine !', 'le club de musique', 640, 215);
 
 const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" data-duration="${DUR}" data-fps="30">
 <style>${style()}</style>
 <rect width="${W}" height="${H}" fill="#ffe9bd"/>
 <g style="${camStyle}">${world}</g>
+${timeBadge(14, 30)}
 ${fx}
 </svg>`;
-for (let t = 6.9; t < 9.2; t += 0.3) sfxEv.push({ name: 'click', t: +t.toFixed(2) });
-for (let t = 15.3; t < 17.8; t += 0.3) sfxEv.push({ name: 'click', t: +t.toFixed(2) });
-for (const t of [21.25, 21.7, 22.1, 22.5]) sfxEv.push({ name: 'click', t });
-sfxEv.push({ name: 'whoosh', t: 12.2 }, { name: 'whoosh', t: 19.85 }, { name: 'chime', t: 18.4 }, { name: 'chime', t: 24.15 }, { name: 'whoosh', t: 24.7 });
+for (let t = 6.7; t < 8.0; t += 0.3) sfxEv.push({ name: 'click', t: +t.toFixed(2) });
+for (let t = 15.1; t < 16.4; t += 0.3) sfxEv.push({ name: 'click', t: +t.toFixed(2) });
+for (const t of [21.2, 21.45, 21.7]) sfxEv.push({ name: 'click', t });
+sfxEv.push({ name: 'whoosh', t: 12.2 }, { name: 'whoosh', t: 16.3 }, { name: 'whoosh', t: 19.85 }, { name: 'chime', t: 18.4 }, { name: 'chime', t: 24.15 }, { name: 'whoosh', t: 24.7 });
 writeFileSync(new URL('./la-graine.svg', import.meta.url), svg);
 writeFileSync(new URL('./timeline.json', import.meta.url), JSON.stringify({ duration: DUR, bpm: 116, lines, sfx: sfxEv }, null, 1));
 console.log('svg', (svg.length / 1024).toFixed(0), 'Ko ·', lines.length, 'répliques');

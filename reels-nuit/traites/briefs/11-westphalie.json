@@ -1,0 +1,1491 @@
+{
+ "format": "atlas",
+ "id": "traites-11-westphalie",
+ "base": {
+  "countries": [
+   "Germany",
+   "France",
+   "Netherlands",
+   "Switzerland",
+   "Sweden",
+   "Austria",
+   "Czechia",
+   "Poland",
+   "Denmark",
+   "Belgium",
+   "Luxembourg",
+   "Italy",
+   "Hungary"
+  ]
+ },
+ "terrain": [
+  {
+   "box": [
+    -14,
+    27,
+    40,
+    76
+   ],
+   "px": 3000,
+   "z": 6
+  },
+  {
+   "box": [
+    -3.4,
+    45.0,
+    20.4,
+    58.9
+   ],
+   "px": 2800,
+   "z": 8
+  }
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "year": "1648",
+   "text": "Reconnus indépendants la même année ?",
+   "sub": "Traités de Westphalie",
+   "focus": {
+    "box": [
+     0.5,
+     42.6,
+     13.5,
+     56.7
+    ]
+   },
+   "highlight": {
+    "countries": [
+     "Switzerland",
+     "Netherlands"
+    ],
+    "color": "#FF2E88",
+    "at": 0
+   },
+   "beacon": [
+    {
+     "at": [
+      7.63,
+      51.96
+     ],
+     "when": 0
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      7.63,
+      51.96
+     ],
+     "title": "Münster",
+     "side": "r",
+     "when": {
+      "line": 1,
+      "word": "villes",
+      "d": -0.2
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Suisse",
+     "at": [
+      8.2,
+      46.75
+     ],
+     "size": 40,
+     "when": 0.4
+    },
+    {
+     "text": "Pays-Bas",
+     "at": [
+      5.6,
+      52.2
+     ],
+     "size": 40,
+     "when": 0.6
+    }
+   ],
+   "say": [
+    "Comment la Suisse et les Pays-Bas ont-ils été reconnus indépendants la même année ?",
+    "Tout se joue dans deux villes allemandes, au bout de trente ans de guerre."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "Avant 1648",
+   "text": "La Suisse dans le Saint-Empire",
+   "focus": {
+    "box": [
+     4.5,
+     44.0,
+     17.5,
+     53.2
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Germany",
+      "Austria",
+      "Czechia"
+     ],
+     "color": "#B5523B",
+     "at": {
+      "line": 0,
+      "word": "dépendent",
+      "d": -0.3
+     },
+     "keep": false
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      11.2,
+      51.4
+     ],
+     "title": "Saint-Empire",
+     "sub": "Allemagne, Autriche, Tchéquie",
+     "side": "t",
+     "when": {
+      "line": 0,
+      "word": "dépendent"
+     }
+    },
+    {
+     "at": [
+      14.8,
+      48.9
+     ],
+     "title": "Contours actuels",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "dépendent",
+      "d": 0.8
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Suisse",
+     "at": [
+      8.2,
+      46.75
+     ],
+     "size": 40,
+     "when": 0.3
+    },
+    {
+     "text": "France",
+     "at": [
+      5.6,
+      47.6
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "d": 1.0
+     }
+    }
+   ],
+   "people": [
+    {
+     "who": "confedere",
+     "at": [
+      8.6,
+      46.3
+     ],
+     "size": 220,
+     "when": {
+      "line": 0,
+      "word": "gouvernent"
+     }
+    }
+   ],
+   "say": [
+    "Les cantons suisses se gouvernent seuls, mais dépendent encore en droit du Saint-Empire."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1568 – 1648",
+   "text": "Les Provinces-Unies contre l’Espagne",
+   "focus": {
+    "box": [
+     2.2,
+     49.3,
+     8.0,
+     53.8
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Belgium",
+      "Luxembourg"
+     ],
+     "color": "#C77DFF",
+     "at": {
+      "line": 0,
+      "word": "Espagne",
+      "d": -0.2
+     },
+     "keep": false
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      5.2,
+      52.4
+     ],
+     "title": "Provinces-Unies",
+     "sub": "les Pays-Bas d’aujourd’hui",
+     "side": "t",
+     "when": {
+      "line": 0,
+      "word": "Provinces-Unies"
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Pays-Bas espagnols",
+     "at": [
+      4.9,
+      50.0
+     ],
+     "size": 36,
+     "when": {
+      "line": 0,
+      "word": "Espagne",
+      "d": 0.2
+     }
+    },
+    {
+     "text": "Saint-Empire",
+     "at": [
+      7.2,
+      51.0
+     ],
+     "size": 36,
+     "when": {
+      "line": 0,
+      "d": 1.6
+     }
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      4.2,
+      50.5
+     ],
+     "to": [
+      4.7,
+      51.5
+     ],
+     "n": 3,
+     "color": "#C77DFF",
+     "at": {
+      "line": 0,
+      "word": "combattent",
+      "d": -0.2
+     },
+     "dur": 2.0
+    }
+   ],
+   "people": [
+    {
+     "who": "marin",
+     "at": [
+      6.4,
+      52.8
+     ],
+     "size": 220,
+     "when": {
+      "line": 0,
+      "word": "roi",
+      "d": -0.2
+     }
+    }
+   ],
+   "say": [
+    "Plus au nord, les Provinces-Unies combattent le roi d’Espagne depuis 1568."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1618 – 1648",
+   "text": "Trente ans de guerre",
+   "focus": {
+    "box": [
+     -3.0,
+     46.0,
+     20.0,
+     58.0
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Germany",
+      "Austria",
+      "Czechia"
+     ],
+     "color": "#B5523B",
+     "at": 0.2,
+     "keep": false
+    },
+    {
+     "countries": [
+      "Sweden"
+     ],
+     "color": "#3E9A63",
+     "at": {
+      "line": 1,
+      "word": "Suède",
+      "d": -0.2
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "France"
+     ],
+     "color": "#3D6FD1",
+     "at": {
+      "line": 1,
+      "word": "France",
+      "d": -0.3
+     },
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "France",
+       "n": "Bas-Rhin"
+      },
+      {
+       "c": "France",
+       "n": "Haute-Rhin"
+      },
+      {
+       "c": "France",
+       "n": "Territoire de Belfort"
+      }
+     ],
+     "color": "#B5523B",
+     "at": {
+      "line": 1,
+      "word": "France",
+      "d": -0.3
+     },
+     "keep": false
+    }
+   ],
+   "art": [
+    {
+     "kind": "timeline",
+     "at": {
+      "line": 0,
+      "d": 0.3
+     },
+     "dur": 3.6,
+     "title": "Trente ans de guerre",
+     "items": [
+      {
+       "year": "1618",
+       "text": "Prague, la révolte"
+      },
+      {
+       "year": "1630",
+       "text": "Entrée de la Suède"
+      },
+      {
+       "year": "1635",
+       "text": "La France s’engage"
+      },
+      {
+       "year": "1644",
+       "text": "Les négociations"
+      },
+      {
+       "year": "1648",
+       "text": "La paix"
+      }
+     ],
+     "spread": true
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      16.2,
+      56.2
+     ],
+     "to": [
+      13.5,
+      53.6
+     ],
+     "n": 3,
+     "color": "#3E9A63",
+     "at": {
+      "line": 1,
+      "word": "Suède"
+     },
+     "dur": 2.2
+    },
+    {
+     "from": [
+      2.35,
+      48.86
+     ],
+     "to": [
+      7.4,
+      50.4
+     ],
+     "n": 3,
+     "color": "#3D6FD1",
+     "at": {
+      "line": 1,
+      "word": "France",
+      "d": -0.4
+     },
+     "dur": 1.6
+    }
+   ],
+   "labels": [
+    {
+     "text": "Suède",
+     "at": [
+      15.0,
+      58.3
+     ],
+     "size": 38,
+     "when": {
+      "line": 1,
+      "word": "Suède",
+      "d": 0.1
+     }
+    },
+    {
+     "text": "France",
+     "at": [
+      1.5,
+      46.4
+     ],
+     "size": 38,
+     "when": {
+      "line": 1,
+      "word": "France",
+      "d": 0.1
+     }
+    },
+    {
+     "text": "Saint-Empire",
+     "at": [
+      9.8,
+      51.3
+     ],
+     "size": 38,
+     "when": {
+      "line": 1,
+      "d": 0.2
+     }
+    }
+   ],
+   "say": [
+    "En 1618, une révolte à Prague déclenche la guerre de Trente Ans.",
+    "La Suède entre en guerre en 1630, la France en 1635."
+   ],
+   "pills": [
+    {
+     "at": [
+      14.42,
+      50.09
+     ],
+     "title": "Prague",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "d": 3.9
+     }
+    },
+    {
+     "at": [
+      13.0,
+      49.3
+     ],
+     "title": "Contours actuels",
+     "side": "b",
+     "when": {
+      "line": 1,
+      "d": 0.4
+     }
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "30 janvier 1648",
+   "text": "La paix de Münster",
+   "focus": {
+    "box": [
+     2.6,
+     50.2,
+     9.4,
+     54.0
+    ]
+   },
+   "highlight": {
+    "countries": [
+     "Belgium",
+     "Luxembourg"
+    ],
+    "color": "#C77DFF",
+    "at": 0.2,
+    "keep": false
+   },
+   "beacon": [
+    {
+     "at": [
+      7.63,
+      51.96
+     ],
+     "when": 1.0
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      7.63,
+      51.96
+     ],
+     "title": "Münster",
+     "side": "r",
+     "when": 1.0
+    }
+   ],
+   "labels": [
+    {
+     "text": "Provinces-Unies",
+     "at": [
+      5.3,
+      52.9
+     ],
+     "size": 38,
+     "when": 1.6
+    },
+    {
+     "text": "Pays-Bas espagnols",
+     "at": [
+      4.4,
+      50.75
+     ],
+     "size": 36,
+     "when": 1.3
+    }
+   ],
+   "people": [
+    {
+     "who": "marin",
+     "at": [
+      5.6,
+      52.3
+     ],
+     "size": 220,
+     "when": 1.9
+    }
+   ],
+   "say": [
+    {
+     "say": "Le 30 janvier 1648, à Munster, l’Espagne reconnaît la souveraineté des Provinces-Unies.",
+     "show": "Le 30 janvier 1648, à Münster, l’Espagne reconnaît la souveraineté des Provinces-Unies."
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "24 octobre 1648",
+   "text": "Les traités de Westphalie",
+   "focus": {
+    "box": [
+     3.5,
+     50.4,
+     10.0,
+     53.6
+    ]
+   },
+   "beacon": [
+    {
+     "at": [
+      7.63,
+      51.96
+     ],
+     "when": 0.2
+    },
+    {
+     "at": [
+      8.05,
+      52.28
+     ],
+     "when": 1.3
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      7.63,
+      51.96
+     ],
+     "title": "Münster",
+     "side": "l",
+     "when": 1.0
+    },
+    {
+     "at": [
+      8.05,
+      52.28
+     ],
+     "title": "Osnabrück",
+     "side": "r",
+     "when": 1.3
+    }
+   ],
+   "art": [
+    {
+     "kind": "treaty",
+     "at": {
+      "line": 0,
+      "word": "négociés",
+      "d": -0.2
+     },
+     "dur": 3.5,
+     "title": "Traités de Westphalie",
+     "sub": "24 octobre 1648, au nom de :",
+     "signers": [
+      "L’empereur",
+      "Le roi de France",
+      "La reine de Suède"
+     ],
+     "year": "1648"
+    },
+    {
+     "kind": "split",
+     "at": {
+      "line": 1,
+      "word": "exemptée",
+      "d": -0.2
+     },
+     "dur": 4,
+     "title": "Ce qui sort de l’Empire",
+     "sub": "contours actuels",
+     "before": "Avant 1648",
+     "after": "Après 1648",
+     "parts": [
+      {
+       "country": "Switzerland",
+       "color": "#FF2E88",
+       "to": "#FF7A3C"
+      },
+      {
+       "country": "Netherlands",
+       "color": "#FF2E88",
+       "to": "#FF7A3C"
+      },
+      {
+       "country": "Belgium",
+       "color": "#C77DFF"
+      },
+      {
+       "country": "Germany",
+       "color": "#B5523B"
+      },
+      {
+       "country": "Austria",
+       "color": "#B5523B"
+      },
+      {
+       "country": "Czechia",
+       "color": "#B5523B"
+      }
+     ],
+     "legend": [
+      {
+       "color": "#FF2E88",
+       "text": "détachés"
+      },
+      {
+       "color": "#FF7A3C",
+       "text": "indépendants"
+      },
+      {
+       "color": "#B5523B",
+       "text": "Saint-Empire"
+      },
+      {
+       "color": "#C77DFF",
+       "text": "Espagne"
+      }
+     ]
+    }
+   ],
+   "say": [
+    {
+     "say": "Le 24 octobre 1648, les traités négociés à Munster et à Osnabruck sont signés à Munster.",
+     "show": "Le 24 octobre 1648, les traités négociés à Münster et à Osnabrück sont signés à Münster."
+    },
+    "La Suisse est exemptée de l’Empire, et l’empereur n’y garde plus aucun droit."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1648",
+   "text": "La France gagne l’Alsace",
+   "focus": {
+    "box": [
+     3.2,
+     47.3,
+     10.0,
+     50.3
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "France"
+     ],
+     "color": "#3D6FD1",
+     "at": 0.2,
+     "keep": false
+    },
+    {
+     "countries": [
+      "Germany"
+     ],
+     "color": "#B5523B",
+     "at": 0.2,
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "France",
+       "n": "Bas-Rhin"
+      },
+      {
+       "c": "France",
+       "n": "Haute-Rhin"
+      },
+      {
+       "c": "France",
+       "n": "Territoire de Belfort"
+      }
+     ],
+     "color": "#B5523B",
+     "at": 0.2,
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "France",
+       "n": "Bas-Rhin"
+      },
+      {
+       "c": "France",
+       "n": "Haute-Rhin"
+      },
+      {
+       "c": "France",
+       "n": "Territoire de Belfort"
+      }
+     ],
+     "color": "#FF2E88",
+     "at": {
+      "line": 1,
+      "word": "Alsace",
+      "d": -0.2
+     },
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "France",
+       "n": "Bas-Rhin"
+      },
+      {
+       "c": "France",
+       "n": "Haute-Rhin"
+      },
+      {
+       "c": "France",
+       "n": "Territoire de Belfort"
+      }
+     ],
+     "color": "#3D6FD1",
+     "at": {
+      "line": 1,
+      "word": "Toul"
+     },
+     "keep": false
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      4.6,
+      47.75
+     ],
+     "to": [
+      6.6,
+      47.95
+     ],
+     "n": 3,
+     "color": "#3D6FD1",
+     "at": {
+      "line": 1,
+      "word": "obtient"
+     },
+     "dur": 2.2
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      7.4,
+      48.2
+     ],
+     "title": "Alsace",
+     "side": "r",
+     "when": {
+      "line": 1,
+      "word": "Alsace"
+     }
+    },
+    {
+     "at": [
+      7.75,
+      48.58
+     ],
+     "title": "Strasbourg",
+     "sub": "libre jusqu’en 1681",
+     "side": "t",
+     "when": {
+      "line": 1,
+      "word": "garde",
+      "d": 0.9
+     }
+    },
+    {
+     "at": [
+      6.18,
+      49.12
+     ],
+     "title": "Metz",
+     "side": "t",
+     "when": {
+      "line": 1,
+      "word": "garde"
+     }
+    },
+    {
+     "at": [
+      5.89,
+      48.68
+     ],
+     "title": "Toul",
+     "side": "b",
+     "when": {
+      "line": 1,
+      "word": "garde",
+      "d": 0.3
+     }
+    },
+    {
+     "at": [
+      5.38,
+      49.16
+     ],
+     "title": "Verdun",
+     "side": "l",
+     "when": {
+      "line": 1,
+      "word": "garde",
+      "d": 0.6
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "France",
+     "at": [
+      3.9,
+      48.3
+     ],
+     "size": 38,
+     "when": 1.0
+    },
+    {
+     "text": "Saint-Empire",
+     "at": [
+      9.0,
+      49.6
+     ],
+     "size": 38,
+     "when": 1.4
+    }
+   ],
+   "say": [
+    "Les vainqueurs, eux, se font payer en territoires arrachés à l’Empire.",
+    "La France obtient la majeure partie de l’Alsace et garde Metz, Toul et Verdun."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1648",
+   "text": "La Suède sur la Baltique",
+   "focus": {
+    "box": [
+     6.8,
+     51.2,
+     18.0,
+     57.2
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Sweden"
+     ],
+     "color": "#3E9A63",
+     "at": 0.2,
+     "keep": false
+    },
+    {
+     "areas": [
+      [
+       [
+        12.35,
+        54.95
+       ],
+       [
+        14.9,
+        54.95
+       ],
+       [
+        14.95,
+        54.0
+       ],
+       [
+        14.85,
+        53.35
+       ],
+       [
+        14.2,
+        53.25
+       ],
+       [
+        13.6,
+        53.35
+       ],
+       [
+        13.1,
+        53.65
+       ],
+       [
+        12.7,
+        53.9
+       ],
+       [
+        12.35,
+        54.2
+       ]
+      ],
+      [
+       [
+        11.3,
+        54.05
+       ],
+       [
+        11.6,
+        54.05
+       ],
+       [
+        11.6,
+        53.83
+       ],
+       [
+        11.3,
+        53.83
+       ]
+      ]
+     ],
+     "color": "#FF2E88",
+     "at": {
+      "line": 0,
+      "word": "Poméranie",
+      "d": -0.2
+     },
+     "keep": false
+    },
+    {
+     "areas": [
+      [
+       [
+        8.45,
+        53.95
+       ],
+       [
+        9.0,
+        53.95
+       ],
+       [
+        9.6,
+        53.7
+       ],
+       [
+        9.95,
+        53.5
+       ],
+       [
+        9.95,
+        53.25
+       ],
+       [
+        9.65,
+        53.0
+       ],
+       [
+        9.45,
+        52.85
+       ],
+       [
+        9.15,
+        52.85
+       ],
+       [
+        8.9,
+        53.05
+       ],
+       [
+        8.65,
+        53.15
+       ],
+       [
+        8.5,
+        53.45
+       ]
+      ]
+     ],
+     "color": "#FF2E88",
+     "at": {
+      "line": 0,
+      "word": "Brême",
+      "d": -0.2
+     },
+     "keep": false
+    },
+    {
+     "areas": [
+      [
+       [
+        12.35,
+        54.95
+       ],
+       [
+        14.9,
+        54.95
+       ],
+       [
+        14.95,
+        54.0
+       ],
+       [
+        14.85,
+        53.35
+       ],
+       [
+        14.2,
+        53.25
+       ],
+       [
+        13.6,
+        53.35
+       ],
+       [
+        13.1,
+        53.65
+       ],
+       [
+        12.7,
+        53.9
+       ],
+       [
+        12.35,
+        54.2
+       ]
+      ],
+      [
+       [
+        11.3,
+        54.05
+       ],
+       [
+        11.6,
+        54.05
+       ],
+       [
+        11.6,
+        53.83
+       ],
+       [
+        11.3,
+        53.83
+       ]
+      ],
+      [
+       [
+        8.45,
+        53.95
+       ],
+       [
+        9.0,
+        53.95
+       ],
+       [
+        9.6,
+        53.7
+       ],
+       [
+        9.95,
+        53.5
+       ],
+       [
+        9.95,
+        53.25
+       ],
+       [
+        9.65,
+        53.0
+       ],
+       [
+        9.45,
+        52.85
+       ],
+       [
+        9.15,
+        52.85
+       ],
+       [
+        8.9,
+        53.05
+       ],
+       [
+        8.65,
+        53.15
+       ],
+       [
+        8.5,
+        53.45
+       ]
+      ]
+     ],
+     "color": "#3E9A63",
+     "at": {
+      "line": 1,
+      "word": "contrôle",
+      "d": -0.2
+     },
+     "keep": false
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      16.36,
+      56.66
+     ],
+     "to": [
+      13.5,
+      54.5
+     ],
+     "n": 2,
+     "color": "#3E9A63",
+     "at": {
+      "line": 0,
+      "word": "gagne"
+     },
+     "dur": 2.2
+    },
+    {
+     "from": [
+      12.86,
+      56.67
+     ],
+     "to": [
+      9.4,
+      53.55
+     ],
+     "n": 2,
+     "color": "#3E9A63",
+     "at": {
+      "line": 0,
+      "word": "duchés"
+     },
+     "dur": 2.2
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      13.2,
+      53.65
+     ],
+     "title": "Poméranie",
+     "sub": "frontières approximatives",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "Poméranie",
+      "d": 0.3
+     }
+    },
+    {
+     "at": [
+      11.47,
+      53.89
+     ],
+     "title": "Wismar",
+     "side": "t",
+     "when": {
+      "line": 0,
+      "word": "Wismar"
+     }
+    },
+    {
+     "at": [
+      9.5,
+      53.05
+     ],
+     "title": "Brême-Verden",
+     "sub": "Weser et Elbe",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "Brême"
+     }
+    },
+    {
+     "at": [
+      14.55,
+      53.43
+     ],
+     "title": "Stettin",
+     "sub": "port sur l’Oder",
+     "side": "r",
+     "when": {
+      "line": 1,
+      "word": "Oder"
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Suède",
+     "at": [
+      14.6,
+      56.8
+     ],
+     "size": 40,
+     "when": 1.0
+    },
+    {
+     "text": "Danemark",
+     "at": [
+      9.6,
+      56.2
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "d": 1.2
+     }
+    }
+   ],
+   "say": [
+    "La Suède gagne la Poméranie occidentale, Wismar et les duchés de Brême et de Verden.",
+    "Elle contrôle ainsi les embouchures de l’Oder, de l’Elbe et de la Weser."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "Aujourd’hui",
+   "text": "Deux pays toujours indépendants",
+   "focus": {
+    "box": [
+     0.5,
+     42.6,
+     13.5,
+     56.7
+    ]
+   },
+   "line": {
+    "points": [
+     [
+      7.59,
+      47.56
+     ],
+     [
+      7.79,
+      47.55
+     ],
+     [
+      8.06,
+      47.56
+     ],
+     [
+      8.23,
+      47.6
+     ],
+     [
+      8.52,
+      47.58
+     ],
+     [
+      8.61,
+      47.68
+     ],
+     [
+      8.86,
+      47.66
+     ],
+     [
+      9.17,
+      47.66
+     ]
+    ],
+    "color": "#FFFFFF",
+    "width": 14,
+    "at": {
+     "line": 1,
+     "word": "borde"
+    }
+   },
+   "labels": [
+    {
+     "text": "Allemagne",
+     "at": [
+      9.8,
+      50.6
+     ],
+     "size": 40,
+     "when": {
+      "line": 1,
+      "d": 0.2
+     }
+    },
+    {
+     "text": "France",
+     "at": [
+      2.8,
+      48.6
+     ],
+     "size": 40,
+     "when": 1.0
+    },
+    {
+     "text": "Belgique",
+     "at": [
+      4.4,
+      50.5
+     ],
+     "size": 36,
+     "when": 1.2
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      6.9,
+      46.85
+     ],
+     "title": "Suisse",
+     "sub": "toujours là",
+     "side": "l",
+     "when": 1.2
+    },
+    {
+     "at": [
+      5.4,
+      52.3
+     ],
+     "title": "Pays-Bas",
+     "sub": "toujours là",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "Pays-Bas",
+      "d": 0.2
+     }
+    },
+    {
+     "at": [
+      8.86,
+      47.66
+     ],
+     "title": "Rhin",
+     "sub": "frontière de 1648",
+     "side": "t",
+     "when": {
+      "line": 1,
+      "word": "Rhin"
+     }
+    }
+   ],
+   "say": [
+    "Aujourd’hui, la Suisse et les Pays-Bas sont toujours des États indépendants.",
+    "Au nord, la Suisse borde encore l’Allemagne le long du Rhin, presque comme en 1648."
+   ]
+  },
+  {
+   "type": "final",
+   "text": "Deux pays reconnus en 1648",
+   "sub": "Traités de Westphalie",
+   "focus": {
+    "box": [
+     0.5,
+     42.6,
+     13.5,
+     56.7
+    ]
+   },
+   "beacon": [
+    {
+     "at": [
+      7.63,
+      51.96
+     ],
+     "when": 0.5
+    }
+   ],
+   "say": [
+    "Voilà pourquoi la paix de Westphalie a fait reconnaître la Suisse et les Pays-Bas.",
+    "Et tout part de cette question :"
+   ]
+  }
+ ],
+ "open": {
+  "box": [
+   0.5,
+   42.6,
+   13.5,
+   56.7
+  ]
+ }
+}

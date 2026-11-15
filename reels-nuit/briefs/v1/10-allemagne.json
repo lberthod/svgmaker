@@ -1,0 +1,726 @@
+{
+ "format": "atlas",
+ "id": "atlas-allemagne-1871",
+ "scenes": [
+  {
+   "type": "hook",
+   "text": "Pourquoi l’Allemagne n’est-elle née qu’en 1871 ?",
+   "focus": {
+    "box": [
+     3.0,
+     46.5,
+     19.0,
+     55.5
+    ]
+   },
+   "highlight": {
+    "countries": [
+     "Germany"
+    ],
+    "color": "#E8A33C",
+    "keep": false,
+    "at": {
+     "line": 0,
+     "word": "Allemagne",
+     "d": 0.1
+    }
+   },
+   "say": [
+    "Pourquoi l’Allemagne n’est-elle née qu’en 1871 ?",
+    "Elle existait pourtant bien avant, sans être un pays."
+   ],
+   "note": "Contours actuels, indicatifs",
+   "people": [
+    {
+     "who": "roi",
+     "at": "Berlin",
+     "size": 240,
+     "say": "Un empire",
+     "label": {
+      "title": "Guillaume Ier",
+      "sub": "empereur en 1871"
+     },
+     "when": {
+      "line": 0,
+      "word": "1871",
+      "d": 0
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": "Berlin",
+     "title": "Berlin",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "Allemagne",
+      "d": 0.2
+     }
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1806",
+   "text": "Le Saint-Empire disparaît",
+   "focus": {
+    "box": [
+     3.0,
+     46.5,
+     19.0,
+     55.5
+    ]
+   },
+   "pills": [
+    {
+     "at": "Vienne",
+     "title": "Vienne",
+     "sub": "François II, dernier empereur",
+     "side": "l",
+     "when": {
+      "line": 0,
+      "word": "empereur",
+      "d": 0
+     }
+    }
+   ],
+   "say": [
+    {
+     "say": "Pendant plus de huit siècles, les terres allemandes forment le cœur du Saint-Empire, dirigé par un empereur.",
+     "show": "Pendant plus de huit siècles, les terres allemandes forment le centre du Saint-Empire, dirigé par un empereur."
+    },
+    "En 1806, sous la pression de Napoléon, le dernier empereur renonce à la couronne."
+   ],
+   "people": [
+    {
+     "who": "roi",
+     "at": "Vienne",
+     "size": 220,
+     "say": "Je renonce",
+     "label": {
+      "title": "François II",
+      "sub": "dernier empereur"
+     },
+     "mood": "sad",
+     "when": {
+      "line": 1,
+      "word": "renonce",
+      "d": -0.5
+     }
+    }
+   ],
+   "moves": [
+    {
+     "from": "Paris",
+     "to": "Vienne",
+     "n": 4,
+     "color": "#FFFFFF",
+     "label": "Napoléon",
+     "at": {
+      "line": 1,
+      "word": "Napoléon",
+      "d": -0.2
+     },
+     "dur": 2.4
+    }
+   ],
+   "highlight": {
+    "countries": [
+     "Germany",
+     "Austria"
+    ],
+    "color": "#E8A33C",
+    "keep": false,
+    "at": {
+     "line": 0,
+     "word": "Saint-Empire",
+     "d": 0
+    }
+   }
+  },
+  {
+   "type": "map",
+   "year": "1815",
+   "text": "Trente-neuf États allemands",
+   "focus": {
+    "box": [
+     3.0,
+     46.5,
+     19.0,
+     55.5
+    ]
+   },
+   "big": {
+    "value": "39",
+    "sub": "États dans la Confédération",
+    "at": {
+     "line": 0,
+     "word": "trente-neuf",
+     "d": -0.4
+    },
+    "dur": 2.4
+   },
+   "labels": [
+    {
+     "text": "Prusse",
+     "at": [
+      13.4,
+      52.3
+     ],
+     "size": 46,
+     "when": {
+      "line": 1,
+      "word": "Prusse"
+     }
+    },
+    {
+     "text": "Bavière",
+     "at": [
+      11.5,
+      48.7
+     ],
+     "size": 46,
+     "when": {
+      "line": 1,
+      "word": "Bavière"
+     }
+    }
+   ],
+   "say": [
+    "En 1815, il reste trente-neuf États dans la Confédération germanique.",
+    "La Prusse, la Bavière, la Saxe… chacun a ses lois, ses douanes, sa monnaie."
+   ],
+   "people": [
+    {
+     "who": "soldat",
+     "at": [
+      13.4,
+      52.8
+     ],
+     "size": 200,
+     "say": "Prussiens",
+     "when": {
+      "line": 1,
+      "word": "Prusse",
+      "d": 0.3
+     }
+    },
+    {
+     "who": "paysan",
+     "at": [
+      11.5,
+      48.3
+     ],
+     "size": 200,
+     "say": "Bavarois",
+     "when": {
+      "line": 1,
+      "word": "Bavière",
+      "d": 0.3
+     }
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1834",
+   "text": "L’économie unit les États",
+   "focus": {
+    "box": [
+     4.0,
+     47.0,
+     17.0,
+     54.5
+    ]
+   },
+   "pills": [
+    {
+     "at": "Berlin",
+     "title": "Berlin",
+     "side": "t",
+     "when": {
+      "line": 0,
+      "word": "douane",
+      "d": 0
+     }
+    },
+    {
+     "at": "Munich",
+     "title": "Munich",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "Zollverein",
+      "d": 0.2
+     }
+    }
+   ],
+   "moves": [
+    {
+     "from": "Berlin",
+     "to": "Munich",
+     "n": 0,
+     "color": "#FFFFFF",
+     "label": "Le Zollverein",
+     "at": {
+      "line": 0,
+      "word": "Zollverein",
+      "d": -0.2
+     },
+     "dur": 2.4
+    },
+    {
+     "from": [
+      12.37,
+      51.34
+     ],
+     "to": "Francfort",
+     "n": 0,
+     "color": "#FFFFFF",
+     "at": {
+      "line": 0,
+      "word": "Zollverein",
+      "d": 0
+     },
+     "dur": 2.4
+    }
+   ],
+   "say": [
+    "En 1834, la Prusse crée une union douanière, le Zollverein : plus de douanes entre la plupart des États.",
+    "Ce marché commun prépare l’unité allemande, sans l’Autriche."
+   ],
+   "people": [
+    {
+     "who": "ouvrier",
+     "at": "Francfort",
+     "size": 200,
+     "say": "Marché commun",
+     "mood": "happy",
+     "when": {
+      "line": 1,
+      "word": "marché",
+      "d": 0
+     }
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1848 – 1849",
+   "text": "Le rêve d’une nation",
+   "focus": {
+    "box": [
+     4.0,
+     47.0,
+     17.0,
+     54.5
+    ]
+   },
+   "pills": [
+    {
+     "at": "Francfort",
+     "title": "Francfort",
+     "sub": "parlement de 1848",
+     "side": "l",
+     "when": {
+      "line": 0,
+      "word": "Francfort",
+      "d": 0.1
+     }
+    },
+    {
+     "at": "Berlin",
+     "title": "Berlin",
+     "sub": "le roi refuse",
+     "side": "t",
+     "when": {
+      "line": 1,
+      "word": "refuse",
+      "d": 0
+     }
+    }
+   ],
+   "say": [
+    "En 1848, un parlement se réunit à Francfort pour construire une Allemagne unie et libérale.",
+    "Mais en 1849, le roi de Prusse refuse la couronne impériale, et le rêve s’éteint."
+   ],
+   "people": [
+    {
+     "who": "rebelle",
+     "at": "Francfort",
+     "size": 220,
+     "say": "Une nation !",
+     "when": {
+      "line": 0,
+      "word": "parlement",
+      "d": 0.2
+     }
+    },
+    {
+     "who": "roi",
+     "at": "Berlin",
+     "size": 200,
+     "say": "Je refuse",
+     "mood": "sad",
+     "label": {
+      "title": "Le roi de Prusse"
+     },
+     "when": {
+      "line": 1,
+      "word": "refuse",
+      "d": -0.3
+     }
+    }
+   ],
+   "highlight": {
+    "countries": [
+     "Germany"
+    ],
+    "color": "#E8A33C",
+    "keep": false,
+    "at": {
+     "line": 0,
+     "word": "unie",
+     "d": 0
+    }
+   }
+  },
+  {
+   "type": "map",
+   "year": "1866",
+   "text": "La Prusse bat l’Autriche",
+   "focus": {
+    "box": [
+     8.0,
+     47.0,
+     20.0,
+     53.5
+    ]
+   },
+   "moves": [
+    {
+     "from": "Berlin",
+     "to": [
+      15.83,
+      50.21
+     ],
+     "n": 6,
+     "color": "#C62828",
+     "label": "Sadowa",
+     "at": {
+      "line": 0,
+      "word": "Prusse",
+      "d": -0.2
+     },
+     "dur": 2.6
+    }
+   ],
+   "say": [
+    "En 1866, la Prusse de Bismarck bat l’Autriche, sa rivale, à Sadowa.",
+    "Elle prend la tête des États du nord, et l’Autriche reste dehors."
+   ],
+   "pills": [
+    {
+     "at": "Berlin",
+     "title": "Berlin",
+     "sub": "Prusse",
+     "side": "t",
+     "when": {
+      "line": 0,
+      "word": "Prusse",
+      "d": 0
+     }
+    },
+    {
+     "at": "Vienne",
+     "title": "Vienne",
+     "sub": "Autriche",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "Autriche",
+      "d": 0
+     }
+    }
+   ],
+   "people": [
+    {
+     "who": "soldat",
+     "at": [
+      15.0,
+      50.5
+     ],
+     "size": 210,
+     "say": "Victoire",
+     "when": {
+      "line": 1,
+      "word": "prend",
+      "d": 0
+     }
+    }
+   ],
+   "highlight": {
+    "countries": [
+     "Austria"
+    ],
+    "color": "#C0504D",
+    "keep": false,
+    "at": {
+     "line": 1,
+     "word": "dehors",
+     "d": -0.5
+    }
+   }
+  },
+  {
+   "type": "map",
+   "year": "1870",
+   "text": "Contre la France",
+   "focus": {
+    "box": [
+     0.0,
+     46.5,
+     17.0,
+     55.0
+    ]
+   },
+   "moves": [
+    {
+     "from": "Berlin",
+     "to": "Paris",
+     "n": 6,
+     "color": "#C62828",
+     "label": "1870",
+     "at": {
+      "line": 0,
+      "word": "1870",
+      "d": -0.4
+     },
+     "dur": 3.0
+    }
+   ],
+   "say": [
+    "En 1870, la France déclare la guerre à la Prusse, après une dépêche retouchée par Bismarck.",
+    "Les États du sud s’allient au nord : cette guerre commune soude l’Allemagne."
+   ],
+   "pills": [
+    {
+     "at": "Paris",
+     "title": "Paris",
+     "sub": "France",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "France",
+      "d": 0
+     }
+    }
+   ],
+   "people": [
+    {
+     "who": "soldat",
+     "at": "Strasbourg",
+     "size": 210,
+     "say": "Ensemble",
+     "when": {
+      "line": 1,
+      "word": "soude",
+      "d": 0
+     }
+    }
+   ],
+   "highlight": {
+    "countries": [
+     "France"
+    ],
+    "color": "#3B82F6",
+    "keep": false,
+    "at": {
+     "line": 0,
+     "word": "France",
+     "d": 0
+    }
+   }
+  },
+  {
+   "type": "map",
+   "year": "18 janvier 1871",
+   "text": "L’empire est proclamé à Versailles",
+   "focus": {
+    "box": [
+     0.0,
+     46.5,
+     17.0,
+     55.0
+    ]
+   },
+   "pills": [
+    {
+     "at": "Versailles",
+     "title": "Versailles",
+     "sub": "galerie des Glaces",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "Versailles",
+      "d": 0.1
+     }
+    }
+   ],
+   "people": [
+    {
+     "who": "roi",
+     "at": "Versailles",
+     "size": 230,
+     "say": "Empereur !",
+     "when": {
+      "line": 1,
+      "word": "Guillaume",
+      "d": 0.3
+     }
+    }
+   ],
+   "highlight": {
+    "countries": [
+     "Germany"
+    ],
+    "color": "#E8A33C",
+    "at": {
+     "line": 1,
+     "word": "Guillaume",
+     "d": 0
+    }
+   },
+   "say": [
+    "Le 18 janvier 1871, en pleine guerre, dans la galerie des Glaces du château de Versailles, l’empire allemand est proclamé.",
+    "Le roi de Prusse, Guillaume Ier, devient empereur allemand."
+   ],
+   "moves": [
+    {
+     "from": [
+      8.0,
+      49.5
+     ],
+     "to": "Versailles",
+     "n": 4,
+     "color": "#E8A33C",
+     "label": "Armées allemandes",
+     "at": {
+      "line": 0,
+      "word": "guerre",
+      "d": -0.3
+     },
+     "dur": 2.4
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "text": "Une nation toute jeune",
+   "focus": {
+    "box": [
+     3.0,
+     46.5,
+     19.0,
+     55.5
+    ]
+   },
+   "highlight": {
+    "countries": [
+     "Germany"
+    ],
+    "color": "#E8A33C"
+   },
+   "say": [
+    "Voilà pourquoi l’Allemagne est un pays jeune : elle naît dix ans après le royaume d’Italie, proclamé en 1861.",
+    "Une nation née de l’économie, de la guerre, de Bismarck et d’un roi de Prusse."
+   ],
+   "people": [
+    {
+     "who": "roi",
+     "at": "Berlin",
+     "size": 230,
+     "say": "Un empire",
+     "when": {
+      "line": 1,
+      "word": "roi",
+      "d": 0
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": "Berlin",
+     "title": "Berlin",
+     "sub": "capitale",
+     "side": "b",
+     "when": {
+      "line": 1,
+      "word": "Bismarck",
+      "d": 0
+     }
+    }
+   ],
+   "big": {
+    "value": "1871",
+    "sub": "naissance de l’Allemagne",
+    "at": {
+     "line": 0,
+     "word": "jeune",
+     "d": 0
+    },
+    "dur": 2.4
+   }
+  },
+  {
+   "type": "final",
+   "text": "Et toi, ton pays a quel âge ?",
+   "sub": "Dis-le en commentaire !",
+   "focus": {
+    "box": [
+     3.0,
+     46.5,
+     19.0,
+     55.5
+    ]
+   },
+   "say": [
+    "Et toi, ton pays a quel âge ? Dis-le en commentaire, et abonne-toi pour la suite !"
+   ],
+   "people": [
+    {
+     "who": "roi",
+     "at": "Berlin",
+     "size": 230,
+     "say": "Et toi ?",
+     "wave": true,
+     "mood": "happy",
+     "when": {
+      "line": 0,
+      "word": "toi",
+      "d": 0
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": "Berlin",
+     "title": "Berlin",
+     "sub": "1871",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "pays",
+      "d": 0
+     }
+    }
+   ]
+  }
+ ],
+ "base": {
+  "countries": [
+   "Germany"
+  ]
+ }
+}

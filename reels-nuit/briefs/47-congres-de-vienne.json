@@ -1,0 +1,2384 @@
+{
+ "format": "atlas",
+ "id": "atlas-congres-de-vienne",
+ "base": {
+  "countries": [
+   "Austria",
+   "United Kingdom",
+   "France",
+   "Germany",
+   "Poland",
+   "Netherlands",
+   "Belgium",
+   "Switzerland",
+   "Italy",
+   "Norway",
+   "Sweden",
+   "Denmark",
+   "Luxembourg"
+  ]
+ },
+ "terrain": [
+  {
+   "box": [
+    -14,
+    27,
+    40,
+    76
+   ],
+   "px": 3000,
+   "z": 6
+  },
+  {
+   "box": [
+    -6.4,
+    37.4,
+    30.4,
+    69.4
+   ],
+   "px": 2800,
+   "z": 8
+  }
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "text": "Qui a refait la carte de l’Europe ?",
+   "sub": "Le congrès de Vienne",
+   "focus": {
+    "box": [
+     -6,
+     38,
+     28,
+     60
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "United Kingdom"
+     ],
+     "color": "#4FA3E0",
+     "at": {
+      "line": 1,
+      "d": 0.2
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Austria"
+     ],
+     "color": "#E8A33C",
+     "at": {
+      "line": 1,
+      "d": 0.6
+     },
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "Germany",
+       "n": "Brandenburg"
+      },
+      {
+       "c": "Germany",
+       "n": "Berlin"
+      },
+      {
+       "c": "Germany",
+       "n": "Sachsen-Anhalt"
+      },
+      {
+       "c": "Germany",
+       "n": "Nordrhein-Westfalen"
+      },
+      {
+       "c": "Poland",
+       "n": "Lower Silesian"
+      },
+      {
+       "c": "Poland",
+       "n": "Opole"
+      },
+      {
+       "c": "Poland",
+       "n": "West Pomeranian"
+      },
+      {
+       "c": "Poland",
+       "n": "Lubusz"
+      },
+      {
+       "c": "Poland",
+       "n": "Pomeranian"
+      },
+      {
+       "c": "Poland",
+       "n": "Kuyavian-Pomeranian"
+      },
+      {
+       "c": "Poland",
+       "n": "Greater Poland"
+      },
+      {
+       "c": "Poland",
+       "n": "Warmian-Masurian"
+      },
+      {
+       "c": "Poland",
+       "n": "Silesian"
+      }
+     ],
+     "color": "#C77DFF",
+     "at": {
+      "line": 1,
+      "d": 1
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "France"
+     ],
+     "color": "#FFD83C",
+     "at": {
+      "line": 1,
+      "word": "Français"
+     },
+     "keep": false
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      -0.12,
+      51.5
+     ],
+     "to": [
+      16.37,
+      48.21
+     ],
+     "n": 2,
+     "color": "#4FA3E0",
+     "at": {
+      "line": 1,
+      "word": "Vienne",
+      "d": -1.4
+     },
+     "dur": 2.2
+    },
+    {
+     "from": [
+      13.4,
+      52.52
+     ],
+     "to": [
+      16.37,
+      48.21
+     ],
+     "n": 2,
+     "color": "#C77DFF",
+     "at": {
+      "line": 1,
+      "word": "Vienne",
+      "d": -1.4
+     },
+     "dur": 2.2
+    },
+    {
+     "from": [
+      27,
+      54.5
+     ],
+     "to": [
+      16.37,
+      48.21
+     ],
+     "n": 3,
+     "color": "#FFFFFF",
+     "at": {
+      "line": 1,
+      "word": "Vienne",
+      "d": -1.4
+     },
+     "dur": 2.2
+    },
+    {
+     "from": [
+      2.35,
+      48.86
+     ],
+     "to": [
+      16.37,
+      48.21
+     ],
+     "n": 1,
+     "color": "#FFD83C",
+     "at": {
+      "line": 1,
+      "word": "Vienne",
+      "d": -1.2
+     },
+     "dur": 2.2
+    }
+   ],
+   "labels": [
+    {
+     "text": "Russie",
+     "at": [
+      26,
+      55.8
+     ],
+     "size": 40,
+     "when": {
+      "line": 1,
+      "d": 0.9
+     }
+    },
+    {
+     "text": "Royaume-Uni",
+     "at": [
+      -3,
+      54.2
+     ],
+     "size": 34,
+     "when": {
+      "line": 1,
+      "d": 0.4
+     }
+    },
+    {
+     "text": "Prusse",
+     "at": [
+      13.5,
+      52.9
+     ],
+     "size": 36,
+     "when": {
+      "line": 1,
+      "d": 1
+     }
+    },
+    {
+     "text": "Autriche",
+     "at": [
+      14.6,
+      47.3
+     ],
+     "size": 36,
+     "when": {
+      "line": 1,
+      "d": 0.6
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      16.37,
+      48.21
+     ],
+     "title": "Vienne",
+     "side": "b",
+     "when": {
+      "line": 1,
+      "word": "Vienne"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      16.37,
+      48.21
+     ],
+     "when": {
+      "line": 1,
+      "word": "Vienne",
+      "d": -0.2
+     }
+    }
+   ],
+   "say": [
+    "Qui a refait la carte de l’Europe après Napoléon ?",
+    "Quatre vainqueurs et un Français, Talleyrand, se réunissent à Vienne."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1814 · 1815",
+   "text": "Napoléon tombe, Vienne décide",
+   "focus": {
+    "box": [
+     -2,
+     43,
+     26,
+     57
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Austria"
+     ],
+     "color": "#E8A33C",
+     "at": {
+      "line": 1,
+      "word": "Autrichien"
+     },
+     "keep": false
+    }
+   ],
+   "art": [
+    {
+     "kind": "timeline",
+     "at": {
+      "line": 0,
+      "d": 0.1
+     },
+     "dur": 3.6,
+     "title": "Du 1er exil à l’acte final",
+     "items": [
+      {
+       "year": "Avr. 1814",
+       "text": "Napoléon abdique"
+      },
+      {
+       "year": "Sept. 1814",
+       "text": "Le congrès débute"
+      },
+      {
+       "year": "Mars 1815",
+       "text": "Napoléon revient"
+      },
+      {
+       "year": "Juin 1815",
+       "text": "Acte final signé"
+      }
+     ]
+    }
+   ],
+   "people": [
+    {
+     "who": "savant",
+     "at": [
+      16.37,
+      48.21
+     ],
+     "size": 230,
+     "when": {
+      "line": 1,
+      "word": "Metternich"
+     },
+     "label": {
+      "title": "Metternich"
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      16.37,
+      48.21
+     ],
+     "title": "Vienne",
+     "side": "b",
+     "when": {
+      "line": 1,
+      "word": "Autrichien"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      16.37,
+      48.21
+     ],
+     "when": {
+      "line": 1,
+      "d": 0
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "France",
+     "at": [
+      2.5,
+      46.5
+     ],
+     "size": 36,
+     "when": {
+      "line": 1,
+      "d": 0.3
+     }
+    },
+    {
+     "text": "Russie",
+     "at": [
+      24,
+      55.5
+     ],
+     "size": 38,
+     "when": {
+      "line": 1,
+      "d": 0.6
+     }
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      -0.12,
+      51.5
+     ],
+     "to": [
+      16.37,
+      48.21
+     ],
+     "n": 2,
+     "color": "#4FA3E0",
+     "at": {
+      "line": 1,
+      "word": "équilibre"
+     },
+     "dur": 2
+    },
+    {
+     "from": [
+      13.4,
+      52.52
+     ],
+     "to": [
+      16.37,
+      48.21
+     ],
+     "n": 2,
+     "color": "#C77DFF",
+     "at": {
+      "line": 1,
+      "word": "équilibre"
+     },
+     "dur": 2
+    },
+    {
+     "from": [
+      25,
+      54
+     ],
+     "to": [
+      16.37,
+      48.21
+     ],
+     "n": 3,
+     "color": "#FFFFFF",
+     "at": {
+      "line": 1,
+      "word": "équilibre"
+     },
+     "dur": 2
+    }
+   ],
+   "say": [
+    "Napoléon abdique en avril 1814 ; le congrès se réunit à Vienne dès septembre.",
+    "L’Autrichien Metternich veut un équilibre : aucune puissance ne doit dominer."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1815",
+   "text": "La France revient en arrière",
+   "focus": {
+    "box": [
+     -4.8,
+     42,
+     9.5,
+     51.5
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "France"
+     ],
+     "color": "#FFD83C",
+     "at": {
+      "line": 0,
+      "word": "frontières",
+      "d": -0.6
+     },
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "France",
+       "n": "Savoie"
+      },
+      {
+       "c": "France",
+       "n": "Haute-Savoie"
+      },
+      {
+       "c": "France",
+       "n": "Alpes-Maritimes"
+      }
+     ],
+     "color": "#5B6CFF",
+     "at": {
+      "line": 0,
+      "word": "frontières",
+      "d": 0.3
+     },
+     "keep": false
+    }
+   ],
+   "people": [
+    {
+     "who": "savant",
+     "at": [
+      2.35,
+      48.86
+     ],
+     "size": 230,
+     "when": {
+      "line": 0,
+      "word": "Talleyrand",
+      "d": -0.2
+     },
+     "label": {
+      "title": "Talleyrand"
+     }
+    },
+    {
+     "who": "roi",
+     "at": [
+      1.4,
+      47
+     ],
+     "size": 220,
+     "when": {
+      "line": 1,
+      "word": "Bourbons"
+     },
+     "label": {
+      "title": "Les Bourbons"
+     }
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      3.4,
+      48.8
+     ],
+     "to": [
+      8,
+      49.5
+     ],
+     "n": 2,
+     "color": "#FF5A36",
+     "at": {
+      "line": 1,
+      "word": "perd"
+     },
+     "dur": 2
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      2.35,
+      48.86
+     ],
+     "when": 0.4
+    }
+   ],
+   "labels": [
+    {
+     "text": "Espagne",
+     "at": [
+      -1.8,
+      42.3
+     ],
+     "size": 36,
+     "when": {
+      "line": 0,
+      "d": 0.8
+     }
+    },
+    {
+     "text": "Allemagne",
+     "at": [
+      8,
+      50.6
+     ],
+     "size": 36,
+     "when": {
+      "line": 0,
+      "d": 1
+     }
+    },
+    {
+     "text": "Savoie",
+     "at": [
+      6.5,
+      45.9
+     ],
+     "size": 32,
+     "when": {
+      "line": 0,
+      "word": "frontières",
+      "d": 0.5
+     }
+    }
+   ],
+   "say": [
+    "Talleyrand négocie pour la France, qui revient à peu près à ses frontières d’avant les conquêtes.",
+    "Elle perd ses conquêtes, rend la Savoie, et les Bourbons reviennent sur le trône."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1815",
+   "text": "Un seul royaume au nord",
+   "focus": {
+    "box": [
+     1.5,
+     49.6,
+     9.5,
+     54
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Belgium"
+     ],
+     "color": "#FF7A3C",
+     "at": {
+      "line": 0,
+      "word": "Belgique",
+      "d": -0.1
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Netherlands"
+     ],
+     "color": "#FF7A3C",
+     "at": {
+      "line": 0,
+      "word": "Pays-Bas",
+      "d": -0.1
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Luxembourg"
+     ],
+     "color": "#FF7A3C",
+     "at": {
+      "line": 0,
+      "word": "Pays-Bas",
+      "d": 0.1
+     },
+     "keep": false
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      4.9,
+      52
+     ],
+     "to": [
+      3.9,
+      50.2
+     ],
+     "n": 2,
+     "color": "#FFFFFF",
+     "at": {
+      "line": 1,
+      "word": "barrière"
+     },
+     "dur": 2
+    }
+   ],
+   "people": [
+    {
+     "who": "roi",
+     "at": [
+      5.4,
+      52.9
+     ],
+     "size": 230,
+     "when": {
+      "line": 1,
+      "word": "roi"
+     },
+     "label": {
+      "title": "Guillaume 1er"
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      4.35,
+      50.85
+     ],
+     "title": "Bruxelles",
+     "side": "l",
+     "when": {
+      "line": 0,
+      "word": "Belgique",
+      "d": 0.3
+     }
+    },
+    {
+     "at": [
+      4.9,
+      52.37
+     ],
+     "title": "Amsterdam",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "Pays-Bas",
+      "d": 0.3
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "France",
+     "at": [
+      2.4,
+      49.6
+     ],
+     "size": 36,
+     "when": {
+      "line": 1,
+      "word": "France",
+      "d": 0.2
+     }
+    },
+    {
+     "text": "Allemagne",
+     "at": [
+      8,
+      51
+     ],
+     "size": 36,
+     "when": {
+      "line": 1,
+      "word": "France",
+      "d": 0.6
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      4.35,
+      50.85
+     ],
+     "when": 0.4
+    },
+    {
+     "at": [
+      4.9,
+      52.37
+     ],
+     "when": {
+      "line": 0,
+      "word": "Pays-Bas"
+     }
+    }
+   ],
+   "say": [
+    "Au nord, la Belgique et les Pays-Bas forment un seul royaume.",
+    "Il sert de barrière face à la France ; le roi s’appelle Guillaume 1er."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1814 · 1815",
+   "text": "La Norvège change de couronne",
+   "focus": {
+    "box": [
+     3,
+     53.5,
+     28,
+     69
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Denmark"
+     ],
+     "color": "#B0B7C6",
+     "at": {
+      "line": 0,
+      "word": "Danemark"
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Norway"
+     ],
+     "color": "#FFFFFF",
+     "at": {
+      "line": 1,
+      "word": "Norvège",
+      "d": -0.2
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Sweden"
+     ],
+     "color": "#3E9A63",
+     "at": {
+      "line": 1,
+      "word": "Suède",
+      "d": -0.1
+     },
+     "keep": false
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      10.4,
+      60.4
+     ],
+     "to": [
+      17.3,
+      59.6
+     ],
+     "n": 3,
+     "color": "#3E9A63",
+     "at": {
+      "line": 1,
+      "word": "Suède",
+      "d": -0.2
+     },
+     "dur": 2.2
+    }
+   ],
+   "people": [
+    {
+     "who": "soldat",
+     "at": [
+      16,
+      61.2
+     ],
+     "size": 230,
+     "when": {
+      "line": 1,
+      "word": "constitution",
+      "d": -0.5
+     },
+     "label": {
+      "title": "Bernadotte"
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      10.75,
+      59.91
+     ],
+     "title": "Oslo",
+     "side": "t",
+     "when": {
+      "line": 1,
+      "word": "Suède",
+      "d": 0.4
+     }
+    },
+    {
+     "at": [
+      18.07,
+      59.33
+     ],
+     "title": "Stockholm",
+     "side": "r",
+     "when": {
+      "line": 1,
+      "word": "Suède",
+      "d": 0.4
+     }
+    },
+    {
+     "at": [
+      12.57,
+      55.68
+     ],
+     "title": "Copenhague",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "Danemark",
+      "d": 0.6
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Mer du Nord",
+     "at": [
+      5.5,
+      57.5
+     ],
+     "size": 34,
+     "when": {
+      "line": 0,
+      "d": 1.2
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      10.75,
+      59.91
+     ],
+     "when": {
+      "line": 0,
+      "word": "Norvège"
+     }
+    }
+   ],
+   "say": [
+    "Après Napoléon, le Danemark, son allié, perd la Norvège, cédée au traité de Kiel.",
+    "Elle s’unit à la Suède en 1814, tout en gardant sa constitution."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1815",
+   "text": "Un royaume de Pologne sous le tsar",
+   "focus": {
+    "box": [
+     12.5,
+     48.5,
+     30,
+     56.5
+    ]
+   },
+   "highlight": [
+    {
+     "regions": [
+      {
+       "c": "Poland",
+       "n": "Masovian"
+      },
+      {
+       "c": "Poland",
+       "n": "Lublin"
+      },
+      {
+       "c": "Poland",
+       "n": "Podlachian"
+      },
+      {
+       "c": "Poland",
+       "n": "Łódź"
+      },
+      {
+       "c": "Poland",
+       "n": "Świętokrzyskie"
+      }
+     ],
+     "color": "#FF8FB8",
+     "at": {
+      "line": 0,
+      "d": 0.3
+     },
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "Poland",
+       "n": "Lower Silesian"
+      },
+      {
+       "c": "Poland",
+       "n": "Opole"
+      },
+      {
+       "c": "Poland",
+       "n": "West Pomeranian"
+      },
+      {
+       "c": "Poland",
+       "n": "Lubusz"
+      },
+      {
+       "c": "Poland",
+       "n": "Pomeranian"
+      },
+      {
+       "c": "Poland",
+       "n": "Kuyavian-Pomeranian"
+      },
+      {
+       "c": "Poland",
+       "n": "Greater Poland"
+      },
+      {
+       "c": "Poland",
+       "n": "Warmian-Masurian"
+      },
+      {
+       "c": "Poland",
+       "n": "Silesian"
+      }
+     ],
+     "color": "#C77DFF",
+     "at": {
+      "line": 1,
+      "word": "Prusse",
+      "d": -0.2
+     },
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "Poland",
+       "n": "Lesser Poland"
+      },
+      {
+       "c": "Poland",
+       "n": "Subcarpathian"
+      }
+     ],
+     "color": "#E8A33C",
+     "at": {
+      "line": 1,
+      "word": "Autriche",
+      "d": 0
+     },
+     "keep": false
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      29.5,
+      54.5
+     ],
+     "to": [
+      21.01,
+      52.23
+     ],
+     "n": 3,
+     "color": "#FFFFFF",
+     "at": {
+      "line": 1,
+      "word": "tsar",
+      "d": -0.3
+     },
+     "dur": 2.2
+    }
+   ],
+   "people": [
+    {
+     "who": "roi",
+     "at": [
+      22.8,
+      53.6
+     ],
+     "size": 230,
+     "when": {
+      "line": 1,
+      "word": "roi"
+     },
+     "label": {
+      "title": "Alexandre 1er"
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      21.01,
+      52.23
+     ],
+     "title": "Varsovie",
+     "side": "t",
+     "when": {
+      "line": 0,
+      "word": "royaume",
+      "d": 0
+     }
+    },
+    {
+     "at": [
+      19.94,
+      50.06
+     ],
+     "title": "Cracovie",
+     "side": "l",
+     "when": {
+      "line": 1,
+      "word": "Autriche",
+      "d": 0.4
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Russie",
+     "at": [
+      27.5,
+      55.6
+     ],
+     "size": 40,
+     "when": {
+      "line": 1,
+      "word": "tsar",
+      "d": 0.2
+     }
+    },
+    {
+     "text": "Prusse",
+     "at": [
+      16.5,
+      53.9
+     ],
+     "size": 38,
+     "when": {
+      "line": 1,
+      "word": "Prusse",
+      "d": 0.1
+     }
+    },
+    {
+     "text": "Autriche",
+     "at": [
+      22.5,
+      49.6
+     ],
+     "size": 36,
+     "when": {
+      "line": 1,
+      "word": "Autriche"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      21.01,
+      52.23
+     ],
+     "when": {
+      "line": 0,
+      "word": "Varsovie",
+      "d": -0.2
+     }
+    }
+   ],
+   "say": [
+    "La Pologne reste partagée, mais un royaume naît autour de Varsovie.",
+    "Son roi est le tsar de Russie ; la Prusse garde la Posnanie, et l’Autriche la Galicie."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1815",
+   "text": "39 États, une Prusse plus grande",
+   "focus": {
+    "box": [
+     4.5,
+     46.5,
+     20,
+     55.5
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Germany"
+     ],
+     "color": "#9FB4D6",
+     "at": {
+      "line": 0,
+      "word": "Confédération",
+      "d": -0.2
+     },
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "Germany",
+       "n": "Brandenburg"
+      },
+      {
+       "c": "Germany",
+       "n": "Berlin"
+      },
+      {
+       "c": "Germany",
+       "n": "Sachsen-Anhalt"
+      },
+      {
+       "c": "Germany",
+       "n": "Nordrhein-Westfalen"
+      },
+      {
+       "c": "Poland",
+       "n": "Lower Silesian"
+      },
+      {
+       "c": "Poland",
+       "n": "West Pomeranian"
+      },
+      {
+       "c": "Poland",
+       "n": "Lubusz"
+      }
+     ],
+     "color": "#C77DFF",
+     "at": {
+      "line": 1,
+      "word": "Prusse",
+      "d": -0.4
+     },
+     "keep": false
+    }
+   ],
+   "art": [
+    {
+     "kind": "bars",
+     "at": {
+      "line": 0,
+      "word": "Confédération",
+      "d": -0.1
+     },
+     "dur": 3,
+     "title": "Beaucoup moins d’États",
+     "sub": "Allemagne, environ",
+     "items": [
+      {
+       "value": "300",
+       "label": "en 1789",
+       "h": 1,
+       "color": "#C9D6EE"
+      },
+      {
+       "value": "39",
+       "label": "en 1815",
+       "h": 0.13,
+       "color": "#9FB4D6"
+      }
+     ]
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      13.4,
+      52.52
+     ],
+     "to": [
+      6.96,
+      50.94
+     ],
+     "n": 3,
+     "color": "#C77DFF",
+     "at": {
+      "line": 1,
+      "word": "Rhénanie",
+      "d": -0.2
+     },
+     "dur": 2.2
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      13.4,
+      52.52
+     ],
+     "title": "Berlin",
+     "side": "t",
+     "when": {
+      "line": 1,
+      "word": "Prusse",
+      "d": 0.2
+     }
+    },
+    {
+     "at": [
+      6.96,
+      50.94
+     ],
+     "title": "Cologne",
+     "side": "l",
+     "when": {
+      "line": 1,
+      "word": "Rhénanie",
+      "d": 0.3
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Rhénanie",
+     "at": [
+      7,
+      51.7
+     ],
+     "size": 36,
+     "when": {
+      "line": 1,
+      "word": "Rhénanie",
+      "d": 0.4
+     }
+    },
+    {
+     "text": "Saxe",
+     "at": [
+      13,
+      51
+     ],
+     "size": 36,
+     "when": {
+      "line": 1,
+      "word": "Saxe"
+     }
+    },
+    {
+     "text": "Confédération germanique",
+     "at": [
+      10.5,
+      49.6
+     ],
+     "size": 32,
+     "when": {
+      "line": 1,
+      "d": 1.2
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      13.4,
+      52.52
+     ],
+     "when": {
+      "line": 1,
+      "word": "Prusse"
+     }
+    }
+   ],
+   "say": [
+    "Les vainqueurs créent une Confédération germanique de 39 États.",
+    "La Prusse gagne la Rhénanie et une partie de la Saxe."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1815",
+   "text": "La Suisse neutre, à 22 cantons",
+   "focus": {
+    "box": [
+     5.4,
+     45.4,
+     11,
+     48.3
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Switzerland"
+     ],
+     "color": "#E8503A",
+     "at": {
+      "line": 0,
+      "d": 0.1
+     },
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "Switzerland",
+       "n": "Valais"
+      }
+     ],
+     "color": "#FFD83C",
+     "at": {
+      "line": 0,
+      "word": "cantons",
+      "d": 0.4
+     },
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "Switzerland",
+       "n": "Neuchâtel"
+      }
+     ],
+     "color": "#FFD83C",
+     "at": {
+      "line": 0,
+      "word": "Neuchâtel"
+     },
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "Switzerland",
+       "n": "Genève"
+      }
+     ],
+     "color": "#FFD83C",
+     "at": {
+      "line": 0,
+      "word": "Genève"
+     },
+     "keep": false
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      7.36,
+      46.23
+     ],
+     "title": "Valais",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "Valais",
+      "d": 0.2
+     }
+    },
+    {
+     "at": [
+      6.93,
+      46.99
+     ],
+     "title": "Neuchâtel",
+     "side": "t",
+     "when": {
+      "line": 0,
+      "word": "Neuchâtel",
+      "d": 0.2
+     }
+    },
+    {
+     "at": [
+      6.14,
+      46.2
+     ],
+     "title": "Genève",
+     "side": "l",
+     "when": {
+      "line": 0,
+      "word": "Genève",
+      "d": 0.2
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "France",
+     "at": [
+      5.8,
+      47.5
+     ],
+     "size": 36,
+     "when": {
+      "line": 0,
+      "d": 0.3
+     }
+    },
+    {
+     "text": "Italie",
+     "at": [
+      8.9,
+      45.65
+     ],
+     "size": 36,
+     "when": {
+      "line": 0,
+      "d": 0.6
+     }
+    },
+    {
+     "text": "Allemagne",
+     "at": [
+      8.6,
+      48.1
+     ],
+     "size": 36,
+     "when": {
+      "line": 0,
+      "d": 0.9
+     }
+    }
+   ],
+   "art": [
+    {
+     "kind": "stats",
+     "at": {
+      "line": 1,
+      "d": -0.1
+     },
+     "dur": 3.4,
+     "title": "La Suisse en 1815",
+     "items": [
+      {
+       "value": 19,
+       "label": "cantons avant",
+       "color": "#C9D6EE"
+      },
+      {
+       "value": 3,
+       "prefix": "+",
+       "label": "cantons nouveaux",
+       "color": "#FFFFFF"
+      },
+      {
+       "value": 22,
+       "label": "cantons en 1815",
+       "color": "#E8503A"
+      }
+     ]
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      6.2,
+      46
+     ],
+     "to": [
+      7.9,
+      46.9
+     ],
+     "n": 3,
+     "color": "#FFFFFF",
+     "at": {
+      "line": 0,
+      "word": "Genève",
+      "d": 0.4
+     },
+     "dur": 2
+    }
+   ],
+   "say": [
+    "En 1815, trois cantons rejoignent la Suisse : le Valais, Neuchâtel et Genève.",
+    "Elle compte alors 22 cantons, et sa neutralité perpétuelle est reconnue."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1815",
+   "text": "L’Italie reste en morceaux",
+   "focus": {
+    "box": [
+     5.5,
+     37.8,
+     19.5,
+     48.8
+    ]
+   },
+   "highlight": [
+    {
+     "regions": [
+      {
+       "c": "Italy",
+       "n": "Como"
+      },
+      {
+       "c": "Italy",
+       "n": "Varese"
+      },
+      {
+       "c": "Italy",
+       "n": "Sondrio"
+      },
+      {
+       "c": "Italy",
+       "n": "Milano"
+      },
+      {
+       "c": "Italy",
+       "n": "Monza e Brianza"
+      },
+      {
+       "c": "Italy",
+       "n": "Lecco"
+      },
+      {
+       "c": "Italy",
+       "n": "Lodi"
+      },
+      {
+       "c": "Italy",
+       "n": "Pavia"
+      },
+      {
+       "c": "Italy",
+       "n": "Bergamo"
+      },
+      {
+       "c": "Italy",
+       "n": "Brescia"
+      },
+      {
+       "c": "Italy",
+       "n": "Cremona"
+      },
+      {
+       "c": "Italy",
+       "n": "Mantova"
+      },
+      {
+       "c": "Italy",
+       "n": "Belluno"
+      },
+      {
+       "c": "Italy",
+       "n": "Udine"
+      },
+      {
+       "c": "Italy",
+       "n": "Gorizia"
+      },
+      {
+       "c": "Italy",
+       "n": "Trieste"
+      },
+      {
+       "c": "Italy",
+       "n": "Pordenone"
+      },
+      {
+       "c": "Italy",
+       "n": "Venezia"
+      },
+      {
+       "c": "Italy",
+       "n": "Padova"
+      },
+      {
+       "c": "Italy",
+       "n": "Rovigo"
+      },
+      {
+       "c": "Italy",
+       "n": "Vicenza"
+      },
+      {
+       "c": "Italy",
+       "n": "Verona"
+      },
+      {
+       "c": "Italy",
+       "n": "Treviso"
+      },
+      {
+       "c": "Italy",
+       "n": "Trento"
+      },
+      {
+       "c": "Italy",
+       "n": "Bozen"
+      }
+     ],
+     "color": "#E8A33C",
+     "at": {
+      "line": 0,
+      "word": "Autriche",
+      "d": -0.2
+     },
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "Italy",
+       "n": "Aoste"
+      },
+      {
+       "c": "Italy",
+       "n": "Turin"
+      },
+      {
+       "c": "Italy",
+       "n": "Cuneo"
+      },
+      {
+       "c": "Italy",
+       "n": "Asti"
+      },
+      {
+       "c": "Italy",
+       "n": "Alessandria"
+      },
+      {
+       "c": "Italy",
+       "n": "Novara"
+      },
+      {
+       "c": "Italy",
+       "n": "Vercelli"
+      },
+      {
+       "c": "Italy",
+       "n": "Biella"
+      },
+      {
+       "c": "Italy",
+       "n": "Verbano-Cusio-Ossola"
+      },
+      {
+       "c": "Italy",
+       "n": "Sassari"
+      },
+      {
+       "c": "Italy",
+       "n": "Nuoro"
+      },
+      {
+       "c": "Italy",
+       "n": "Olbia-Tempio"
+      },
+      {
+       "c": "Italy",
+       "n": "Oristrano"
+      },
+      {
+       "c": "Italy",
+       "n": "Medio Campidano"
+      },
+      {
+       "c": "Italy",
+       "n": "Cagliari"
+      },
+      {
+       "c": "Italy",
+       "n": "Ogliastra"
+      },
+      {
+       "c": "Italy",
+       "n": "Carbonia-Iglesias"
+      },
+      {
+       "c": "France",
+       "n": "Savoie"
+      },
+      {
+       "c": "France",
+       "n": "Haute-Savoie"
+      },
+      {
+       "c": "France",
+       "n": "Alpes-Maritimes"
+      }
+     ],
+     "color": "#5B6CFF",
+     "at": {
+      "line": 1,
+      "word": "Sardaigne",
+      "d": -0.1
+     },
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "Italy",
+       "n": "Imperia"
+      },
+      {
+       "c": "Italy",
+       "n": "Savona"
+      },
+      {
+       "c": "Italy",
+       "n": "Genova"
+      },
+      {
+       "c": "Italy",
+       "n": "La Spezia"
+      }
+     ],
+     "color": "#9AA6FF",
+     "at": {
+      "line": 1,
+      "word": "Gênes",
+      "d": -0.1
+     },
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "Italy",
+       "n": "Roma"
+      },
+      {
+       "c": "Italy",
+       "n": "Viterbo"
+      },
+      {
+       "c": "Italy",
+       "n": "Latina"
+      },
+      {
+       "c": "Italy",
+       "n": "Frosinone"
+      },
+      {
+       "c": "Italy",
+       "n": "Rieti"
+      },
+      {
+       "c": "Italy",
+       "n": "Terni"
+      },
+      {
+       "c": "Italy",
+       "n": "Perugia"
+      },
+      {
+       "c": "Italy",
+       "n": "Ancona"
+      },
+      {
+       "c": "Italy",
+       "n": "Macerata"
+      },
+      {
+       "c": "Italy",
+       "n": "Fermo"
+      },
+      {
+       "c": "Italy",
+       "n": "Ascoli Piceno"
+      },
+      {
+       "c": "Italy",
+       "n": "Pesaro e Urbino"
+      },
+      {
+       "c": "Italy",
+       "n": "Rimini"
+      },
+      {
+       "c": "Italy",
+       "n": "Forlì-Cesena"
+      },
+      {
+       "c": "Italy",
+       "n": "Ravenna"
+      },
+      {
+       "c": "Italy",
+       "n": "Ferrara"
+      },
+      {
+       "c": "Italy",
+       "n": "Bologna"
+      }
+     ],
+     "color": "#FF6F91",
+     "at": {
+      "line": 1,
+      "word": "pape"
+     },
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "Italy",
+       "n": "Teramo"
+      },
+      {
+       "c": "Italy",
+       "n": "Pescara"
+      },
+      {
+       "c": "Italy",
+       "n": "Chieti"
+      },
+      {
+       "c": "Italy",
+       "n": "L'Aquila"
+      },
+      {
+       "c": "Italy",
+       "n": "Campobasso"
+      },
+      {
+       "c": "Italy",
+       "n": "Isernia"
+      },
+      {
+       "c": "Italy",
+       "n": "Salerno"
+      },
+      {
+       "c": "Italy",
+       "n": "Napoli"
+      },
+      {
+       "c": "Italy",
+       "n": "Caserta"
+      },
+      {
+       "c": "Italy",
+       "n": "Benevento"
+      },
+      {
+       "c": "Italy",
+       "n": "Avellino"
+      },
+      {
+       "c": "Italy",
+       "n": "Foggia"
+      },
+      {
+       "c": "Italy",
+       "n": "Barletta-Andria Trani"
+      },
+      {
+       "c": "Italy",
+       "n": "Bari"
+      },
+      {
+       "c": "Italy",
+       "n": "Brindisi"
+      },
+      {
+       "c": "Italy",
+       "n": "Lecce"
+      },
+      {
+       "c": "Italy",
+       "n": "Taranto"
+      },
+      {
+       "c": "Italy",
+       "n": "Matera"
+      },
+      {
+       "c": "Italy",
+       "n": "Potenza"
+      },
+      {
+       "c": "Italy",
+       "n": "Cosenza"
+      },
+      {
+       "c": "Italy",
+       "n": "Crotene"
+      },
+      {
+       "c": "Italy",
+       "n": "Catanzaro"
+      },
+      {
+       "c": "Italy",
+       "n": "Reggio Calabria"
+      },
+      {
+       "c": "Italy",
+       "n": "Vibo Valentia"
+      },
+      {
+       "c": "Italy",
+       "n": "Trapani"
+      },
+      {
+       "c": "Italy",
+       "n": "Messina"
+      },
+      {
+       "c": "Italy",
+       "n": "Palermo"
+      },
+      {
+       "c": "Italy",
+       "n": "Agrigento"
+      },
+      {
+       "c": "Italy",
+       "n": "Caltanissetta"
+      },
+      {
+       "c": "Italy",
+       "n": "Ragusa"
+      },
+      {
+       "c": "Italy",
+       "n": "Siracusa"
+      },
+      {
+       "c": "Italy",
+       "n": "Catania"
+      },
+      {
+       "c": "Italy",
+       "n": "Enna"
+      }
+     ],
+     "color": "#3FB8A8",
+     "at": {
+      "line": 1,
+      "word": "Naples"
+     },
+     "keep": false
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      7.7,
+      45.1
+     ],
+     "to": [
+      8.9,
+      44.4
+     ],
+     "n": 3,
+     "color": "#5B6CFF",
+     "at": {
+      "line": 1,
+      "word": "Gênes",
+      "d": -0.3
+     },
+     "dur": 2
+    }
+   ],
+   "people": [
+    {
+     "who": "roi",
+     "at": [
+      7.69,
+      45.07
+     ],
+     "size": 200,
+     "when": {
+      "line": 1,
+      "word": "s’agrandit"
+     },
+     "label": {
+      "title": "Victor-Emmanuel 1er"
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      9.19,
+      45.46
+     ],
+     "title": "Milan",
+     "side": "l",
+     "when": {
+      "line": 0,
+      "word": "Milan"
+     }
+    },
+    {
+     "at": [
+      12.33,
+      45.44
+     ],
+     "title": "Venise",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "Venise"
+     }
+    },
+    {
+     "at": [
+      8.93,
+      44.41
+     ],
+     "title": "Gênes",
+     "side": "b",
+     "when": {
+      "line": 1,
+      "word": "Gênes",
+      "d": 0.2
+     }
+    },
+    {
+     "at": [
+      12.5,
+      41.9
+     ],
+     "title": "Rome",
+     "side": "r",
+     "when": {
+      "line": 1,
+      "word": "pape",
+      "d": 0.4
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "France",
+     "at": [
+      5.9,
+      43.9
+     ],
+     "size": 32,
+     "when": {
+      "line": 0,
+      "d": 0.4
+     }
+    },
+    {
+     "text": "Naples",
+     "at": [
+      15,
+      40.2
+     ],
+     "size": 34,
+     "when": {
+      "line": 1,
+      "word": "Naples"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      8.93,
+      44.41
+     ],
+     "when": {
+      "line": 1,
+      "word": "Gênes"
+     }
+    }
+   ],
+   "say": [
+    "L’Italie reste morcelée : l’Autriche tient le nord-est, de Milan à Venise.",
+    "La Sardaigne s’agrandit avec Gênes, le pape retrouve ses États, et les Bourbons reprennent Naples."
+   ]
+  },
+  {
+   "type": "final",
+   "text": "Une Europe refaite en 1815",
+   "sub": "Le congrès de Vienne",
+   "focus": {
+    "box": [
+     -6,
+     38,
+     28,
+     60
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "United Kingdom"
+     ],
+     "color": "#4FA3E0",
+     "at": {
+      "line": 0,
+      "word": "Vienne"
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Austria"
+     ],
+     "color": "#E8A33C",
+     "at": {
+      "line": 0,
+      "word": "Vienne",
+      "d": 0.2
+     },
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "Germany",
+       "n": "Brandenburg"
+      },
+      {
+       "c": "Germany",
+       "n": "Berlin"
+      },
+      {
+       "c": "Germany",
+       "n": "Sachsen-Anhalt"
+      },
+      {
+       "c": "Germany",
+       "n": "Nordrhein-Westfalen"
+      },
+      {
+       "c": "Poland",
+       "n": "Lower Silesian"
+      },
+      {
+       "c": "Poland",
+       "n": "Opole"
+      },
+      {
+       "c": "Poland",
+       "n": "West Pomeranian"
+      },
+      {
+       "c": "Poland",
+       "n": "Lubusz"
+      },
+      {
+       "c": "Poland",
+       "n": "Pomeranian"
+      },
+      {
+       "c": "Poland",
+       "n": "Kuyavian-Pomeranian"
+      },
+      {
+       "c": "Poland",
+       "n": "Greater Poland"
+      },
+      {
+       "c": "Poland",
+       "n": "Warmian-Masurian"
+      },
+      {
+       "c": "Poland",
+       "n": "Silesian"
+      }
+     ],
+     "color": "#C77DFF",
+     "at": {
+      "line": 0,
+      "word": "Vienne",
+      "d": 0.4
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "France"
+     ],
+     "color": "#FFD83C",
+     "at": {
+      "line": 0,
+      "word": "Vienne",
+      "d": 0.6
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Belgium",
+      "Netherlands"
+     ],
+     "color": "#FF7A3C",
+     "at": {
+      "line": 0,
+      "word": "Vienne",
+      "d": 0.9
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Switzerland"
+     ],
+     "color": "#E8503A",
+     "at": {
+      "line": 0,
+      "word": "Vienne",
+      "d": 1.1
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Norway"
+     ],
+     "color": "#FFFFFF",
+     "at": {
+      "line": 0,
+      "word": "Vienne",
+      "d": 1.3
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Sweden"
+     ],
+     "color": "#3E9A63",
+     "at": {
+      "line": 0,
+      "word": "Vienne",
+      "d": 1.5
+     },
+     "keep": false
+    }
+   ],
+   "people": [
+    {
+     "who": "savant",
+     "at": [
+      17.5,
+      46.8
+     ],
+     "size": 230,
+     "when": 3,
+     "wave": true
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      16.37,
+      48.21
+     ],
+     "title": "Vienne",
+     "side": "b",
+     "when": 2
+    }
+   ],
+   "say": [
+    "Voilà pourquoi l’Europe de 1815 est née à Vienne : un équilibre des puissances.",
+    "Voilà la réponse à la question qui nous a ouverts :"
+   ]
+  }
+ ]
+}

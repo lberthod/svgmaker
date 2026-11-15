@@ -4,7 +4,7 @@ import { mkdtempSync, readFileSync, writeFileSync, existsSync } from 'node:fs'
 import os from 'node:os'
 import path from 'node:path'
 import { test } from 'node:test'
-import { analyse } from '../src/audit.mjs'
+import { analyse, coverIssues, pickCover } from '../src/audit.mjs'
 import { collectSvgs, renderAll } from '../src/render.mjs'
 
 const here = path.dirname(new URL(import.meta.url).pathname)
@@ -89,6 +89,69 @@ test('rendu : MP4 conforme, couverture, manifeste, puis saut incrémental', asyn
   assert.ok(r1.results[0].reused > 0, 'les images fixes de fin doivent être réutilisées')
   const r2 = await renderAll([f], opts, quiet)
   assert.equal(r2.skipped, 1)
+})
+
+test('couverture : instant choisi quand le titre ET le bandeau du thème sont lisibles', () => {
+  // comme Mali : décor vide à 0 s, accroche à 0,5 s, bulle « Hi! » à 2 s, bandeau du thème à 6 s, puis la 1re scène
+  const samples = []
+  for (let t = 0; t < 30; t += 0.25) {
+    const texts = []
+    if (t >= 0.5 && t < 8) texts.push(box('Learn English', 200, 400, 880, 480), box('with Mali!', 200, 500, 880, 600))
+    if (t >= 6 && t < 8) texts.push(box('Animals', 130, 660, 950, 770))
+    if (t >= 9) texts.push(box('Cat', 300, 300, 780, 460))
+    if (t >= 2 && t < 4) texts.push(box('Hi!', 700, 800, 780, 880)) // petite bulle : ne doit pas l'emporter sur le bandeau
+    samples.push({ t, texts, actors: t >= 2 ? [{ name: 'mali', x0: 100, y0: 900, x1: 700, y1: 1500 }] : [] })
+  }
+  assert.equal(pickCover(samples, { width: 1080, height: 1920, duration: 30 }), 6)
+  assert.equal(pickCover(samples.map((s) => ({ ...s, texts: [] })), { width: 1080, height: 1920, duration: 30 }), null)
+})
+
+test('couverture : alerte si vide, unie ou identique à celle d\'une autre vidéo', () => {
+  const sig = Buffer.from(Array.from({ length: 300 }, (_, i) => (i * 37) % 256))
+  const flat = Buffer.alloc(300, 200)
+  assert.ok(coverIssues({ at: 0, texts: 0, sig }).some((i) => i.includes('trop vide')))
+  assert.ok(coverIssues({ at: 1, texts: 2, sig: flat }).some((i) => i.includes('presque unie')))
+  const twin = coverIssues({ at: 7, texts: 3, sig }, [{ name: 'mali-colors', sig: Buffer.from(sig) }, { name: 'autre', sig: flat }])
+  assert.deepEqual(twin, ['couverture identique à celle de mali-colors : on ne distingue pas les vidéos dans la grille'])
+  assert.deepEqual(coverIssues({ at: 7, texts: 3, sig }, [{ name: 'autre', sig: flat }]), [])
+})
+
+test('rendu : couverture automatique, data-cover-at et contrôle d\'audit', async () => {
+  const root = mkdtempSync(path.join(os.tmpdir(), 'svgm-cover-'))
+  // décor identique, titre qui apparaît à 0,6 s ; le titre change d'une vidéo à l'autre
+  const svg = (title, attr = '') => `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920" width="1080" height="1920" data-duration="2" data-fps="10"${attr}>
+  <style>.t{opacity:0;animation:in .2s linear .6s forwards}@keyframes in{to{opacity:1}}</style>
+  <rect width="1080" height="1920" fill="#FFE9EF"/><circle cx="540" cy="1300" r="300" fill="#3DBE5A"/>
+  <text class="t" x="540" y="700" text-anchor="middle" font-size="150" font-family="sans-serif" fill="#222">${title}</text></svg>`
+  const files = ['animals', 'colors', 'fruits'].map((id) => {
+    const d = path.join(root, id)
+    execFileSync('mkdir', ['-p', d])
+    const f = path.join(d, `mali-${id}.svg`)
+    writeFileSync(f, svg(id === 'fruits' ? 'colors' : id.toUpperCase(), id === 'colors' ? ' data-cover-at="0"' : ''))
+    return f
+  })
+  const opts = { jobs: 2, crf: 28, preset: 'ultrafast', quality: 80, cover: true, dedup: true, audit: true, size: '270x480' }
+  const r = await renderAll([files[0]], opts, quiet)
+  assert.equal(r.failed, 0)
+  const a = r.results[0].audit
+  assert.ok(a.cover.at >= 0.6 && a.cover.at <= 1, `couverture auto à ${a.cover.at} s`)
+  assert.equal(a.cover.texts, 1)
+  assert.ok(!a.issues.some((i) => i.includes('couverture')), a.issues.join(' | '))
+  const m = JSON.parse(readFileSync(path.join(root, 'animals', '.svgmaker.json'), 'utf8'))
+  assert.equal(m.files['mali-animals'].coverAt, a.cover.at)
+  // data-cover-at="0" : l'image vide est imposée, l'audit la signale
+  const r2 = await renderAll([files[1]], opts, quiet)
+  assert.equal(r2.results[0].audit.cover.at, 0)
+  assert.ok(r2.results[0].audit.issues.some((i) => i.includes('couverture trop vide')))
+  // même lot : deux vidéos au même titre → couverture identique (comparée aussi au dossier voisin)
+  writeFileSync(files[0], svg('COLORS'))
+  writeFileSync(files[2], svg('COLORS'))
+  const r3 = await renderAll([files[0], files[2]], { ...opts, jobs: 1 }, quiet)
+  const all = r3.results.flatMap((x) => x.audit.issues)
+  assert.ok(all.some((i) => i.includes('couverture identique')), all.join(' | '))
+  // svgmaker audit (sans rendu) relit la couverture existante à l'instant noté dans le manifeste
+  const r4 = await renderAll([files[1]], { ...opts, auditOnly: true }, quiet)
+  assert.ok(r4.results[0].audit.issues.some((i) => i.includes('couverture trop vide')))
 })
 
 test('collectSvgs : dossiers et récursivité', async () => {

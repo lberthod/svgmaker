@@ -1,0 +1,1365 @@
+{
+ "format": "atlas",
+ "id": "atlas-pays-baltes",
+ "base": {
+  "countries": [
+   "Latvia",
+   "Lithuania",
+   "Estonia"
+  ]
+ },
+ "terrain": [
+  {
+   "box": [
+    -14,
+    27,
+    40,
+    76
+   ],
+   "px": 3000,
+   "z": 6
+  },
+  {
+   "box": [
+    18,
+    52.4,
+    30,
+    61.4
+   ],
+   "px": 2800,
+   "z": 8
+  }
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "text": "Trois voisins, trois langues",
+   "sub": "Les pays baltes",
+   "focus": {
+    "box": [
+     18.6,
+     53.4,
+     29.6,
+     60.2
+    ]
+   },
+   "highlight": [
+    {
+     "color": "#4FA3E0",
+     "at": {
+      "line": 0,
+      "word": "Estonie",
+      "d": 0.1
+     },
+     "keep": false,
+     "countries": [
+      "Estonia"
+     ]
+    },
+    {
+     "color": "#E8503A",
+     "at": {
+      "line": 0,
+      "word": "Lettonie",
+      "d": 0.1
+     },
+     "keep": false,
+     "countries": [
+      "Latvia"
+     ]
+    },
+    {
+     "color": "#FFD83C",
+     "at": {
+      "line": 0,
+      "word": "Lituanie",
+      "d": 0.1
+     },
+     "keep": false,
+     "countries": [
+      "Lithuania"
+     ]
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      24.75,
+      59.44
+     ],
+     "title": "Tallinn",
+     "side": "t",
+     "when": {
+      "line": 0,
+      "word": "Estonie",
+      "d": 0.3
+     }
+    },
+    {
+     "at": [
+      24.11,
+      56.95
+     ],
+     "title": "Riga",
+     "side": "l",
+     "when": {
+      "line": 0,
+      "word": "Lettonie",
+      "d": 0.3
+     }
+    },
+    {
+     "at": [
+      25.28,
+      54.69
+     ],
+     "title": "Vilnius",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "Lituanie",
+      "d": 0.3
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Mer Baltique",
+     "at": [
+      20.3,
+      58.2
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "word": "mer",
+      "d": 0.2
+     }
+    }
+   ],
+   "say": [
+    "Estonie, Lettonie, Lituanie : trois voisins au bord de la mer Baltique.",
+    "Ensemble, ils comptent environ 6 millions d’habitants."
+   ],
+   "art": [
+    {
+     "kind": "stats",
+     "at": {
+      "line": 1,
+      "d": 0
+     },
+     "dur": 5,
+     "title": "Combien d’habitants ?",
+     "sub": "environ, en 2025",
+     "items": [
+      {
+       "value": 1.4,
+       "decimals": 1,
+       "suffix": " M",
+       "label": "Estonie",
+       "color": "#4FA3E0"
+      },
+      {
+       "value": 1.9,
+       "decimals": 1,
+       "suffix": " M",
+       "label": "Lettonie",
+       "color": "#E8503A"
+      },
+      {
+       "value": 2.9,
+       "decimals": 1,
+       "suffix": " M",
+       "label": "Lituanie",
+       "color": "#FFD83C"
+      }
+     ]
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      24.75,
+      59.44
+     ],
+     "when": 0.4
+    },
+    {
+     "at": [
+      24.11,
+      56.95
+     ],
+     "when": 0.6000000000000001
+    },
+    {
+     "at": [
+      25.28,
+      54.69
+     ],
+     "when": 0.8
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "Aujourd’hui",
+   "text": "Deux familles de langues",
+   "focus": {
+    "box": [
+     19.6,
+     53.6,
+     28.8,
+     61
+    ]
+   },
+   "highlight": [
+    {
+     "color": "#E8503A",
+     "at": {
+      "line": 0,
+      "word": "letton",
+      "d": 0
+     },
+     "keep": false,
+     "countries": [
+      "Latvia"
+     ]
+    },
+    {
+     "color": "#FFD83C",
+     "at": {
+      "line": 0,
+      "word": "lituanien",
+      "d": 0
+     },
+     "keep": false,
+     "countries": [
+      "Lithuania"
+     ]
+    },
+    {
+     "color": "#4FA3E0",
+     "at": {
+      "line": 1,
+      "word": "estonien",
+      "d": 0
+     },
+     "keep": false,
+     "countries": [
+      "Estonia"
+     ]
+    }
+   ],
+   "labels": [
+    {
+     "text": "Finlande",
+     "at": [
+      24.9,
+      60.5
+     ],
+     "size": 38,
+     "when": {
+      "line": 1,
+      "word": "finnois",
+      "d": 0
+     }
+    },
+    {
+     "text": "Russie",
+     "at": [
+      28.2,
+      58.4
+     ],
+     "size": 38,
+     "when": {
+      "line": 1,
+      "word": "finnois",
+      "d": 0.3
+     }
+    },
+    {
+     "text": "Pologne",
+     "at": [
+      22,
+      53.8
+     ],
+     "size": 38,
+     "when": {
+      "line": 1,
+      "word": "finnois",
+      "d": 0.6
+     }
+    }
+   ],
+   "art": [
+    {
+     "kind": "languages",
+     "at": {
+      "line": 0,
+      "d": 0
+     },
+     "dur": 5.5,
+     "title": "Trois pays, trois langues",
+     "items": [
+      {
+       "icon": "house",
+       "where": "Estonie",
+       "lang": "Estonien",
+       "note": "finno-ougrien, cousin du finnois",
+       "color": "#4FA3E0"
+      },
+      {
+       "icon": "house",
+       "where": "Lettonie",
+       "lang": "Letton",
+       "note": "langue balte",
+       "color": "#E8503A"
+      },
+      {
+       "icon": "house",
+       "where": "Lituanie",
+       "lang": "Lituanien",
+       "note": "langue balte",
+       "color": "#FFD83C"
+      }
+     ]
+    }
+   ],
+   "say": [
+    "Le letton et le lituanien sont des langues baltes.",
+    "L’estonien, lui, est finno-ougrien, cousin du finnois."
+   ],
+   "beacon": [
+    {
+     "at": [
+      24.75,
+      59.44
+     ],
+     "when": 0.4
+    },
+    {
+     "at": [
+      24.11,
+      56.95
+     ],
+     "when": 0.6000000000000001
+    },
+    {
+     "at": [
+      25.28,
+      54.69
+     ],
+     "when": 0.8
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "XIIIe siècle",
+   "text": "Les chevaliers venus de la mer",
+   "focus": {
+    "box": [
+     18.6,
+     53.8,
+     28.6,
+     60.1
+    ]
+   },
+   "highlight": [
+    {
+     "color": "#4FA3E0",
+     "at": {
+      "line": 1,
+      "word": "dominent",
+      "d": 0
+     },
+     "keep": false,
+     "countries": [
+      "Estonia"
+     ]
+    },
+    {
+     "color": "#E8503A",
+     "at": {
+      "line": 1,
+      "word": "dominent",
+      "d": 0
+     },
+     "keep": false,
+     "countries": [
+      "Latvia"
+     ]
+    },
+    {
+     "color": "#FFD83C",
+     "at": {
+      "line": 1,
+      "word": "Lituanie",
+      "d": 0
+     },
+     "keep": false,
+     "countries": [
+      "Lithuania"
+     ]
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      19.6,
+      57.6
+     ],
+     "to": [
+      24.11,
+      56.95
+     ],
+     "n": 4,
+     "color": "#FFFFFF",
+     "label": "Chevaliers allemands",
+     "at": {
+      "line": 0,
+      "word": "chevaliers",
+      "d": 0.2
+     },
+     "dur": 2.4
+    }
+   ],
+   "people": [
+    {
+     "who": "soldat",
+     "at": [
+      21.2,
+      58.9
+     ],
+     "size": 220,
+     "label": {
+      "title": "Chevaliers Porte-Glaive",
+      "sub": "1202"
+     },
+     "when": {
+      "line": 0,
+      "word": "fonde",
+      "d": 0
+     }
+    },
+    {
+     "who": "celte",
+     "at": [
+      24.6,
+      55.3
+     ],
+     "size": 200,
+     "say": "On résiste !",
+     "when": {
+      "line": 1,
+      "word": "résiste",
+      "d": -0.6
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      24.11,
+      56.95
+     ],
+     "title": "Riga",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "fonde",
+      "d": 0.2
+     },
+     "sub": "fondée en 1201"
+    }
+   ],
+   "say": [
+    "En 1201, l’évêque Albert fonde Riga ; des chevaliers allemands y forment l’ordre de Livonie.",
+    "Ils dominent l’Estonie du sud et la Lettonie, mais la Lituanie résiste."
+   ],
+   "beacon": [
+    {
+     "at": [
+      24.75,
+      59.44
+     ],
+     "when": 0.4
+    },
+    {
+     "at": [
+      24.11,
+      56.95
+     ],
+     "when": 0.6000000000000001
+    },
+    {
+     "at": [
+      25.28,
+      54.69
+     ],
+     "when": 0.8
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1385 – 1795",
+   "text": "Union avec la Pologne, puis la Russie",
+   "focus": {
+    "box": [
+     18.4,
+     52.8,
+     29.6,
+     60
+    ]
+   },
+   "highlight": [
+    {
+     "color": "#FFD83C",
+     "at": {
+      "line": 0,
+      "word": "Lituanie",
+      "d": 0
+     },
+     "keep": false,
+     "countries": [
+      "Lithuania"
+     ]
+    },
+    {
+     "color": "#8E6CC8",
+     "at": {
+      "line": 0,
+      "word": "Pologne",
+      "d": 0
+     },
+     "keep": false,
+     "countries": [
+      "Poland"
+     ]
+    },
+    {
+     "color": "#4FA3E0",
+     "at": {
+      "line": 1,
+      "word": "russe",
+      "d": 0
+     },
+     "keep": false,
+     "countries": [
+      "Estonia"
+     ]
+    },
+    {
+     "color": "#E8503A",
+     "at": {
+      "line": 1,
+      "word": "russe",
+      "d": 0
+     },
+     "keep": false,
+     "countries": [
+      "Latvia"
+     ]
+    },
+    {
+     "color": "#FFD83C",
+     "at": {
+      "line": 1,
+      "word": "russe",
+      "d": 0
+     },
+     "keep": false,
+     "countries": [
+      "Lithuania"
+     ]
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      25.28,
+      54.69
+     ],
+     "to": [
+      20.1,
+      53.5
+     ],
+     "n": 3,
+     "color": "#FFD83C",
+     "at": {
+      "line": 0,
+      "word": "Grunwald",
+      "d": -0.4
+     },
+     "dur": 2.4
+    },
+    {
+     "from": [
+      28,
+      57.3
+     ],
+     "to": [
+      24.75,
+      59.44
+     ],
+     "n": 3,
+     "color": "#FFFFFF",
+     "label": "Empire russe",
+     "at": {
+      "line": 1,
+      "word": "russe",
+      "d": 0
+     },
+     "dur": 2.4
+    }
+   ],
+   "people": [
+    {
+     "who": "roi",
+     "at": [
+      22.7,
+      55.6
+     ],
+     "size": 220,
+     "say": "Union !",
+     "label": {
+      "title": "Jogaila",
+      "sub": "Krewo, 1385"
+     },
+     "when": {
+      "line": 0,
+      "word": "s’allie",
+      "d": -1
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      20.1,
+      53.48
+     ],
+     "title": "Grunwald",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "Grunwald",
+      "d": 0.2
+     },
+     "sub": "1410"
+    }
+   ],
+   "labels": [
+    {
+     "text": "Pologne",
+     "at": [
+      22.3,
+      53
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "word": "Pologne",
+      "d": 0.3
+     }
+    }
+   ],
+   "say": [
+    "En 1385, la Lituanie s’allie à la Pologne, puis bat l’ordre Teutonique à Grunwald en 1410.",
+    "L’empire russe prend ensuite la région, entre 1721 et 1795."
+   ],
+   "beacon": [
+    {
+     "at": [
+      25.28,
+      54.69
+     ],
+     "when": 0.4
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1918",
+   "text": "Trois indépendances",
+   "focus": {
+    "box": [
+     19.6,
+     53.6,
+     28.8,
+     60.1
+    ]
+   },
+   "highlight": [
+    {
+     "color": "#FFD83C",
+     "at": {
+      "line": 0,
+      "word": "Lituanie",
+      "d": 0
+     },
+     "keep": false,
+     "countries": [
+      "Lithuania"
+     ]
+    },
+    {
+     "color": "#4FA3E0",
+     "at": {
+      "line": 0,
+      "word": "Estonie",
+      "d": 0
+     },
+     "keep": false,
+     "countries": [
+      "Estonia"
+     ]
+    },
+    {
+     "color": "#E8503A",
+     "at": {
+      "line": 0,
+      "word": "Lettonie",
+      "d": 0.1
+     },
+     "keep": false,
+     "countries": [
+      "Latvia"
+     ]
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      25.28,
+      54.69
+     ],
+     "title": "Vilnius",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "Lituanie",
+      "d": 0.4
+     },
+     "sub": "16 février"
+    },
+    {
+     "at": [
+      24.75,
+      59.44
+     ],
+     "title": "Tallinn",
+     "side": "l",
+     "when": {
+      "line": 0,
+      "word": "Estonie",
+      "d": 0.4
+     },
+     "sub": "24 février"
+    },
+    {
+     "at": [
+      24.11,
+      56.95
+     ],
+     "title": "Riga",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "Lettonie",
+      "d": 0.5
+     },
+     "sub": "18 novembre"
+    }
+   ],
+   "people": [
+    {
+     "who": "paysan",
+     "at": [
+      22.3,
+      56.2
+     ],
+     "size": 200,
+     "say": "Enfin libres !",
+     "mood": "happy",
+     "when": {
+      "line": 1,
+      "word": "reconnus",
+      "d": -0.8
+     }
+    }
+   ],
+   "say": [
+    "En 1918, la Lituanie, l’Estonie et la Lettonie proclament leur indépendance.",
+    "Les trois pays sont reconnus en 1920, après des guerres."
+   ],
+   "beacon": [
+    {
+     "at": [
+      24.75,
+      59.44
+     ],
+     "when": 0.4
+    },
+    {
+     "at": [
+      24.11,
+      56.95
+     ],
+     "when": 0.6000000000000001
+    },
+    {
+     "at": [
+      25.28,
+      54.69
+     ],
+     "when": 0.8
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1939 – 1940",
+   "text": "Pacte secret, puis annexion",
+   "focus": {
+    "box": [
+     19.6,
+     53.6,
+     29.4,
+     60.1
+    ]
+   },
+   "highlight": [
+    {
+     "color": "#4FA3E0",
+     "at": {
+      "line": 1,
+      "word": "occupe",
+      "d": 0
+     },
+     "keep": false,
+     "countries": [
+      "Estonia"
+     ]
+    },
+    {
+     "color": "#E8503A",
+     "at": {
+      "line": 1,
+      "word": "occupe",
+      "d": 0
+     },
+     "keep": false,
+     "countries": [
+      "Latvia"
+     ]
+    },
+    {
+     "color": "#FFD83C",
+     "at": {
+      "line": 1,
+      "word": "occupe",
+      "d": 0
+     },
+     "keep": false,
+     "countries": [
+      "Lithuania"
+     ]
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      28.6,
+      58.9
+     ],
+     "to": [
+      24.75,
+      59.44
+     ],
+     "n": 2,
+     "color": "#E8503A",
+     "label": "Armée rouge",
+     "at": {
+      "line": 1,
+      "word": "rouge",
+      "d": -1
+     },
+     "dur": 2.4
+    },
+    {
+     "from": [
+      28.5,
+      55.6
+     ],
+     "to": [
+      25.28,
+      54.69
+     ],
+     "n": 2,
+     "color": "#E8503A",
+     "at": {
+      "line": 1,
+      "word": "rouge",
+      "d": -1
+     },
+     "dur": 2.4
+    }
+   ],
+   "labels": [
+    {
+     "text": "Allemagne",
+     "at": [
+      19.8,
+      53.9
+     ],
+     "size": 42,
+     "when": {
+      "line": 0,
+      "word": "pacte",
+      "d": 0
+     }
+    },
+    {
+     "text": "URSS",
+     "at": [
+      28.3,
+      57.7
+     ],
+     "size": 42,
+     "when": {
+      "line": 0,
+      "word": "pacte",
+      "d": 0.3
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      24.75,
+      59.44
+     ],
+     "title": "Tallinn",
+     "side": "t",
+     "when": {
+      "line": 1,
+      "word": "soviétiques",
+      "d": -0.5
+     },
+     "sub": "6 août"
+    },
+    {
+     "at": [
+      24.11,
+      56.95
+     ],
+     "title": "Riga",
+     "side": "l",
+     "when": {
+      "line": 1,
+      "word": "soviétiques",
+      "d": -0.4
+     },
+     "sub": "5 août"
+    },
+    {
+     "at": [
+      25.28,
+      54.69
+     ],
+     "title": "Vilnius",
+     "side": "b",
+     "when": {
+      "line": 1,
+      "word": "soviétiques",
+      "d": -0.3
+     },
+     "sub": "3 août"
+    }
+   ],
+   "say": [
+    "En 1939, l’Allemagne nazie et l’URSS signent un pacte secret.",
+    "En 1940, l’armée rouge occupe les trois pays, qui deviennent soviétiques."
+   ],
+   "beacon": [
+    {
+     "at": [
+      24.75,
+      59.44
+     ],
+     "when": 0.4
+    },
+    {
+     "at": [
+      24.11,
+      56.95
+     ],
+     "when": 0.6000000000000001
+    },
+    {
+     "at": [
+      25.28,
+      54.69
+     ],
+     "when": 0.8
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1989 – 1991",
+   "text": "La chaîne humaine",
+   "focus": {
+    "box": [
+     19.6,
+     53.6,
+     28.8,
+     60.1
+    ]
+   },
+   "highlight": [
+    {
+     "color": "#FFD83C",
+     "at": {
+      "line": 1,
+      "word": "1990",
+      "d": 0
+     },
+     "keep": true,
+     "countries": [
+      "Lithuania"
+     ]
+    },
+    {
+     "color": "#4FA3E0",
+     "at": {
+      "line": 1,
+      "word": "1991",
+      "d": 0
+     },
+     "keep": true,
+     "countries": [
+      "Estonia"
+     ]
+    },
+    {
+     "color": "#E8503A",
+     "at": {
+      "line": 1,
+      "word": "1991",
+      "d": 0
+     },
+     "keep": true,
+     "countries": [
+      "Latvia"
+     ]
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      24.75,
+      59.44
+     ],
+     "to": [
+      24.11,
+      56.95
+     ],
+     "n": 6,
+     "color": "#FFFFFF",
+     "label": "Chaîne humaine",
+     "at": {
+      "line": 0,
+      "word": "chaîne",
+      "d": 0
+     },
+     "dur": 2.4
+    },
+    {
+     "from": [
+      24.11,
+      56.95
+     ],
+     "to": [
+      25.28,
+      54.69
+     ],
+     "n": 6,
+     "color": "#FFFFFF",
+     "at": {
+      "line": 0,
+      "word": "chaîne",
+      "d": 0.4
+     },
+     "dur": 2.4
+    }
+   ],
+   "people": [
+    {
+     "who": "rebelle",
+     "at": [
+      22.5,
+      57
+     ],
+     "size": 200,
+     "say": "Main dans la main",
+     "mood": "happy",
+     "when": {
+      "line": 0,
+      "word": "millions",
+      "d": -0.5
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      25.28,
+      54.69
+     ],
+     "title": "Vilnius",
+     "side": "r",
+     "when": {
+      "line": 1,
+      "word": "1990",
+      "d": 0.3
+     },
+     "sub": "11 mars 1990"
+    },
+    {
+     "at": [
+      24.75,
+      59.44
+     ],
+     "title": "Tallinn",
+     "side": "t",
+     "when": {
+      "line": 1,
+      "word": "1991",
+      "d": 0
+     },
+     "sub": "20 août 1991"
+    },
+    {
+     "at": [
+      24.11,
+      56.95
+     ],
+     "title": "Riga",
+     "side": "l",
+     "when": {
+      "line": 1,
+      "word": "1991",
+      "d": 0.2
+     },
+     "sub": "21 août 1991"
+    }
+   ],
+   "say": [
+    "En 1989, environ deux millions de personnes forment une chaîne humaine, de Tallinn à Vilnius.",
+    "En 1990 et 1991, les trois pays retrouvent leur indépendance."
+   ],
+   "beacon": [
+    {
+     "at": [
+      24.75,
+      59.44
+     ],
+     "when": 0.4
+    },
+    {
+     "at": [
+      24.11,
+      56.95
+     ],
+     "when": 0.6000000000000001
+    },
+    {
+     "at": [
+      25.28,
+      54.69
+     ],
+     "when": 0.8
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1201 – 1991",
+   "text": "Huit siècles, trois destins",
+   "focus": {
+    "box": [
+     18.4,
+     53,
+     29.6,
+     60.2
+    ]
+   },
+   "art": [
+    {
+     "kind": "timeline",
+     "at": {
+      "line": 0,
+      "d": 0.2
+     },
+     "dur": 7.5,
+     "title": "Huit siècles d’histoire",
+     "items": [
+      {
+       "year": "1201",
+       "text": "Riga est fondée"
+      },
+      {
+       "year": "1410",
+       "text": "Grunwald"
+      },
+      {
+       "year": "1795",
+       "text": "Empire russe"
+      },
+      {
+       "year": "1918",
+       "text": "Indépendance"
+      },
+      {
+       "year": "1940",
+       "text": "Annexion par l’URSS"
+      },
+      {
+       "year": "1991",
+       "text": "Liberté retrouvée"
+      }
+     ]
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      24.75,
+      59.44
+     ],
+     "title": "Tallinn",
+     "side": "t",
+     "when": {
+      "line": 1,
+      "word": "estonien",
+      "d": 0
+     }
+    },
+    {
+     "at": [
+      24.11,
+      56.95
+     ],
+     "title": "Riga",
+     "side": "l",
+     "when": {
+      "line": 1,
+      "word": "letton",
+      "d": 0
+     }
+    },
+    {
+     "at": [
+      25.28,
+      54.69
+     ],
+     "title": "Vilnius",
+     "side": "r",
+     "when": {
+      "line": 1,
+      "word": "lituanien",
+      "d": 0
+     }
+    }
+   ],
+   "say": [
+    "Chevaliers, rois, empires : les trois pays ont subi de grandes puissances.",
+    "Pourtant, l’estonien, le letton et le lituanien ont survécu."
+   ],
+   "beacon": [
+    {
+     "at": [
+      24.75,
+      59.44
+     ],
+     "when": 0.4
+    },
+    {
+     "at": [
+      24.11,
+      56.95
+     ],
+     "when": 0.6000000000000001
+    },
+    {
+     "at": [
+      25.28,
+      54.69
+     ],
+     "when": 0.8
+    }
+   ]
+  },
+  {
+   "type": "final",
+   "text": "Trois pays, trois langues",
+   "sub": "Les pays baltes",
+   "focus": {
+    "box": [
+     18.6,
+     53.4,
+     29.6,
+     60.2
+    ]
+   },
+   "people": [
+    {
+     "who": "paysan",
+     "at": [
+      27,
+      57.2
+     ],
+     "size": 260,
+     "say": "Trois langues !",
+     "wave": true,
+     "when": 1.6
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      24.75,
+      59.44
+     ],
+     "title": "Estonien",
+     "side": "t",
+     "when": 0.6
+    },
+    {
+     "at": [
+      24.11,
+      56.95
+     ],
+     "title": "Letton",
+     "side": "l",
+     "when": 0.9
+    },
+    {
+     "at": [
+      25.28,
+      54.69
+     ],
+     "title": "Lituanien",
+     "side": "r",
+     "when": 1.2
+    }
+   ],
+   "say": [
+    "Voilà pourquoi les pays baltes, si proches, parlent trois langues !"
+   ]
+  }
+ ]
+}

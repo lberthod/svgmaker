@@ -1,0 +1,936 @@
+{
+ "format": "atlas",
+ "id": "atlas-danemark",
+ "base": {
+  "countries": [
+   "Denmark",
+   "Norway",
+   "Sweden",
+   "Germany",
+   "United Kingdom",
+   "Iceland"
+  ]
+ },
+ "terrain": [
+  {
+   "box": [
+    -75,
+    27,
+    40,
+    81
+   ],
+   "px": 3000,
+   "z": 6
+  },
+  {
+   "box": [
+    -60.4,
+    51.6,
+    16.4,
+    78.4
+   ],
+   "px": 2800,
+   "z": 8
+  }
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "text": "Un petit pays, un immense territoire",
+   "sub": "Le Danemark",
+   "focus": {
+    "box": [
+     6.8,
+     54,
+     15.8,
+     58.2
+    ]
+   },
+   "highlight": {
+    "countries": [
+     "Denmark"
+    ],
+    "color": "#E8503A",
+    "at": 0.7,
+    "keep": false
+   },
+   "pills": [
+    {
+     "at": [
+      12.57,
+      55.68
+     ],
+     "title": "Copenhague",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "Danemark",
+      "d": 0.4
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Allemagne",
+     "at": [
+      10,
+      54.25
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "d": 1
+     }
+    },
+    {
+     "text": "Suède",
+     "at": [
+      13.7,
+      57.3
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "d": 1.3
+     }
+    }
+   ],
+   "art": [
+    {
+     "kind": "bars",
+     "at": {
+      "line": 1,
+      "word": "Groenland",
+      "d": -0.3
+     },
+     "dur": 4.2,
+     "title": "Qui est le plus grand ?",
+     "sub": "superficie",
+     "items": [
+      {
+       "label": "Danemark",
+       "value": "43 000 km²",
+       "h": 0.02,
+       "color": "#E8503A"
+      },
+      {
+       "label": "Groenland",
+       "value": "2 166 000 km²",
+       "h": 1,
+       "color": "#8FD0EE"
+      }
+     ]
+    }
+   ],
+   "say": [
+    "Pourquoi le petit Danemark règne-t-il sur un territoire immense ?",
+    "Le Groenland seul est environ 50 fois plus grand que lui."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "Vers 960",
+   "text": "Harald unit le Danemark",
+   "focus": {
+    "box": [
+     7.4,
+     54.4,
+     13.8,
+     57.8
+    ]
+   },
+   "highlight": {
+    "countries": [
+     "Denmark"
+    ],
+    "color": "#E8503A",
+    "at": {
+     "line": 0,
+     "d": 0.2
+    },
+    "keep": false
+   },
+   "moves": [
+    {
+     "from": [
+      9.42,
+      55.76
+     ],
+     "to": [
+      12.08,
+      55.64
+     ],
+     "n": 3,
+     "color": "#FFD83C",
+     "at": {
+      "line": 0,
+      "word": "unit",
+      "d": 0.1
+     },
+     "dur": 2.2
+    }
+   ],
+   "people": [
+    {
+     "who": "roi",
+     "at": [
+      9.42,
+      55.76
+     ],
+     "size": 240,
+     "say": "Un seul royaume !",
+     "label": {
+      "title": "Harald à la Dent bleue",
+      "sub": "vers 960"
+     },
+     "when": {
+      "line": 0,
+      "word": "roi"
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      9.42,
+      55.76
+     ],
+     "title": "Jelling",
+     "sub": "la pierre runique",
+     "side": "b",
+     "when": {
+      "line": 1,
+      "word": "pierre"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      9.42,
+      55.76
+     ],
+     "when": 0.4
+    }
+   ],
+   "labels": [
+    {
+     "text": "Mer du Nord",
+     "at": [
+      6.9,
+      57.2
+     ],
+     "size": 36,
+     "when": {
+      "line": 0,
+      "d": 0.6
+     }
+    },
+    {
+     "text": "Baltique",
+     "at": [
+      13,
+      54.75
+     ],
+     "size": 36,
+     "when": {
+      "line": 1,
+      "d": 0.4
+     }
+    }
+   ],
+   "say": [
+    "À l’époque des Vikings, vers 960, le roi Harald à la Dent bleue unit le Danemark.",
+    "Il convertit les Danois au christianisme, selon la pierre de Jelling."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1018 · 1028",
+   "text": "Canut le Grand, roi de trois pays",
+   "focus": {
+    "box": [
+     -4,
+     52,
+     14,
+     64
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Denmark"
+     ],
+     "color": "#E8503A",
+     "at": {
+      "line": 0,
+      "word": "Danemark",
+      "d": -0.1
+     },
+     "keep": true
+    },
+    {
+     "countries": [
+      "Norway"
+     ],
+     "color": "#3E9A63",
+     "at": {
+      "line": 1,
+      "word": "Norvège",
+      "d": -0.1
+     },
+     "keep": true
+    },
+    {
+     "color": "#9B6FD0",
+     "at": {
+      "line": 0,
+      "word": "Angleterre",
+      "d": -0.1
+     },
+     "keep": true,
+     "countries": [
+      "United Kingdom"
+     ]
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      8.6,
+      56.3
+     ],
+     "to": [
+      1.2,
+      52.6
+     ],
+     "n": 3,
+     "color": "#E8503A",
+     "label": "Angleterre",
+     "at": {
+      "line": 0,
+      "word": "Angleterre"
+     },
+     "dur": 2.2
+    },
+    {
+     "from": [
+      11.3,
+      56.6
+     ],
+     "to": [
+      9.2,
+      59.3
+     ],
+     "n": 3,
+     "color": "#3E9A63",
+     "label": "Norvège",
+     "at": {
+      "line": 1,
+      "word": "Norvège",
+      "d": 0.1
+     },
+     "dur": 2
+    }
+   ],
+   "people": [
+    {
+     "who": "roi",
+     "at": [
+      11,
+      56.2
+     ],
+     "size": 230,
+     "say": "Trois couronnes !",
+     "label": {
+      "title": "Canut le Grand",
+      "sub": "mort en 1035"
+     },
+     "when": {
+      "line": 1,
+      "word": "prend"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      12.08,
+      55.64
+     ],
+     "when": 0.4
+    }
+   ],
+   "labels": [
+    {
+     "text": "Mer du Nord",
+     "at": [
+      3.5,
+      55.5
+     ],
+     "size": 38,
+     "when": {
+      "line": 1,
+      "d": 0.2
+     }
+    }
+   ],
+   "say": [
+    "En 1018, Canut le Grand, déjà roi d’Angleterre, devient aussi roi du Danemark.",
+    "En 1028, il prend la Norvège : c’est l’empire de la mer du Nord."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1814",
+   "text": "La Norvège passe à la Suède",
+   "focus": {
+    "box": [
+     -14,
+     54,
+     16,
+     66
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Denmark"
+     ],
+     "color": "#E8503A",
+     "at": 0.3,
+     "keep": false
+    },
+    {
+     "countries": [
+      "Norway"
+     ],
+     "color": "#3E9A63",
+     "at": {
+      "line": 0,
+      "word": "traité"
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Sweden"
+     ],
+     "color": "#FFD83C",
+     "at": {
+      "line": 0,
+      "word": "Suède",
+      "d": -0.2
+     },
+     "keep": false
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      8.5,
+      57
+     ],
+     "to": [
+      -9,
+      63
+     ],
+     "n": 2,
+     "color": "#FFFFFF",
+     "label": "Groenland, Islande, Féroé",
+     "at": {
+      "line": 1,
+      "word": "Groenland"
+     },
+     "dur": 2.4
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      12.57,
+      55.68
+     ],
+     "title": "Copenhague",
+     "side": "r",
+     "when": {
+      "line": 1,
+      "word": "garde"
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Norvège",
+     "at": [
+      8.2,
+      62
+     ],
+     "size": 42,
+     "when": {
+      "line": 0,
+      "word": "traité",
+      "d": 0.4
+     }
+    },
+    {
+     "text": "Suède",
+     "at": [
+      14,
+      60.8
+     ],
+     "size": 42,
+     "when": {
+      "line": 0,
+      "word": "Suède",
+      "d": 0.2
+     }
+    }
+   ],
+   "art": [
+    {
+     "kind": "split",
+     "at": {
+      "line": 1,
+      "word": "garde",
+      "d": -0.3
+     },
+     "dur": 3.2,
+     "title": "La Norvège change de main",
+     "sub": "même échelle",
+     "before": "Avant 1814",
+     "after": "Après 1814",
+     "badge": "Norvège cédée",
+     "parts": [
+      {
+       "country": "Denmark",
+       "color": "#E8503A"
+      },
+      {
+       "country": "Norway",
+       "color": "#3E9A63",
+       "lost": true
+      }
+     ]
+    }
+   ],
+   "say": [
+    "En 1814, le traité de Kiel force le Danemark à céder la Norvège à la Suède.",
+    "Mais il garde le Groenland, l’Islande et les îles Féroé, anciennes colonies norvégiennes."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1864 · 1920",
+   "text": "Le Slesvig du Nord redevient danois",
+   "focus": {
+    "box": [
+     7.2,
+     53.6,
+     13.0,
+     57.6
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Denmark"
+     ],
+     "color": "#E8503A",
+     "at": 0.3,
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "Germany",
+       "n": "Schleswig-Holstein"
+      }
+     ],
+     "color": "#4FA3E0",
+     "at": {
+      "line": 0,
+      "word": "cède"
+     },
+     "keep": false
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      10.9,
+      53.5
+     ],
+     "to": [
+      9.9,
+      54.85
+     ],
+     "n": 3,
+     "color": "#FFFFFF",
+     "label": "Prusse et Autriche",
+     "at": {
+      "line": 0,
+      "word": "Prusse",
+      "d": 0.1
+     },
+     "dur": 2.2
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      9.75,
+      54.91
+     ],
+     "title": "Dybbøl",
+     "sub": "bataille décisive",
+     "side": "t",
+     "when": {
+      "line": 0,
+      "word": "perd",
+      "d": 0.1
+     }
+    },
+    {
+     "at": [
+      9.44,
+      54.78
+     ],
+     "title": "Flensburg",
+     "sub": "reste allemande",
+     "side": "b",
+     "when": {
+      "line": 2,
+      "word": "naît"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      9.75,
+      54.91
+     ],
+     "when": 0.4
+    }
+   ],
+   "labels": [
+    {
+     "text": "Allemagne",
+     "at": [
+      10.8,
+      53.95
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "d": 1.5
+     }
+    }
+   ],
+   "art": [
+    {
+     "kind": "bars",
+     "at": {
+      "line": 2,
+      "word": "nord",
+      "d": -0.3
+     },
+     "dur": 3.3,
+     "title": "Les deux votes de 1920",
+     "sub": "oui pour…",
+     "items": [
+      {
+       "label": "Nord : Danemark",
+       "value": "75 %",
+       "h": 0.75,
+       "color": "#E8503A"
+      },
+      {
+       "label": "Centre : Allemagne",
+       "value": "80 %",
+       "h": 0.8,
+       "color": "#4FA3E0"
+      }
+     ]
+    }
+   ],
+   "say": [
+    "En 1864, le Danemark perd la guerre contre la Prusse et l’Autriche et cède le Slesvig et le Holstein.",
+    "Après 1918, deux votes ont lieu en 1920 dans le Slesvig.",
+    "Le nord choisit le Danemark, le centre l’Allemagne : la frontière actuelle naît."
+   ],
+   "line": {
+    "points": [
+     [
+      8.63,
+      54.89
+     ],
+     [
+      9.2,
+      54.87
+     ],
+     [
+      9.48,
+      54.83
+     ],
+     [
+      9.78,
+      54.81
+     ]
+    ],
+    "label": "Frontière depuis 1920",
+    "color": "#FFFFFF",
+    "at": {
+     "line": 2,
+     "word": "actuelle"
+    }
+   },
+   "people": [
+    {
+     "who": "paysan",
+     "at": [
+      8.97,
+      54.93
+     ],
+     "size": 220,
+     "say": "Je vote !",
+     "when": {
+      "line": 1,
+      "word": "votes"
+     }
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "Aujourd’hui",
+   "text": "Le Groenland, géant de glace",
+   "focus": {
+    "box": [
+     -60,
+     56,
+     16,
+     78
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Denmark"
+     ],
+     "color": "#E8503A",
+     "at": 0.3,
+     "keep": false
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      11.5,
+      56.4
+     ],
+     "to": [
+      -40,
+      70
+     ],
+     "n": 3,
+     "color": "#FFFFFF",
+     "at": {
+      "line": 0,
+      "word": "Groenland"
+     },
+     "dur": 2.6
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      -42,
+      72
+     ],
+     "title": "Groenland",
+     "sub": "autonome depuis 2009",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "danois"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      12.57,
+      55.68
+     ],
+     "when": 0.4
+    }
+   ],
+   "labels": [
+    {
+     "text": "Norvège",
+     "at": [
+      8.5,
+      62.5
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "d": 0.5
+     }
+    }
+   ],
+   "art": [
+    {
+     "kind": "stats",
+     "at": {
+      "line": 1,
+      "d": 0
+     },
+     "dur": 4.4,
+     "title": "Le Groenland",
+     "sub": "dans le royaume",
+     "items": [
+      {
+       "value": 98,
+       "suffix": " %",
+       "label": "de la superficie du royaume",
+       "color": "#8FD0EE"
+      },
+      {
+       "value": 56000,
+       "label": "habitants",
+       "color": "#FFD83C"
+      }
+     ]
+    }
+   ],
+   "say": [
+    "Le Groenland, danois depuis 1721, est autonome depuis 2009.",
+    "Il couvre 98 % du royaume, mais seulement environ 56 000 habitants y vivent."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1948",
+   "text": "Les îles Féroé, autonomes",
+   "focus": {
+    "box": [
+     -10.8,
+     59.6,
+     -2.8,
+     64.4
+    ]
+   },
+   "people": [
+    {
+     "who": "marin",
+     "at": [
+      -6.77,
+      62.01
+     ],
+     "size": 220,
+     "say": "Autonomie !",
+     "when": {
+      "line": 1,
+      "word": "Environ"
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      -6.77,
+      62.01
+     ],
+     "title": "Tórshavn",
+     "sub": "capitale",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "îles",
+      "d": 0.2
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      -6.77,
+      62.01
+     ],
+     "when": 0.4
+    }
+   ],
+   "labels": [
+    {
+     "text": "Îles Féroé",
+     "at": [
+      -6.8,
+      61.2
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "word": "Féroé"
+     }
+    }
+   ],
+   "say": [
+    "Au nord de l’Écosse, les dix-huit îles Féroé restent danoises.",
+    "Environ 54 000 habitants y vivent, avec un gouvernement local depuis 1948."
+   ]
+  },
+  {
+   "type": "final",
+   "text": "Un petit pays, un vaste royaume",
+   "sub": "Le Danemark",
+   "focus": {
+    "box": [
+     6.8,
+     54,
+     15.8,
+     58.2
+    ]
+   },
+   "highlight": {
+    "countries": [
+     "Denmark"
+    ],
+    "color": "#E8503A",
+    "at": 0.3,
+    "keep": false
+   },
+   "people": [
+    {
+     "who": "roi",
+     "at": [
+      9.42,
+      55.76
+     ],
+     "size": 250,
+     "say": "À bientôt !",
+     "wave": true,
+     "when": 3
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      12.57,
+      55.68
+     ],
+     "title": "Copenhague",
+     "sub": "la capitale",
+     "side": "r",
+     "when": 2
+    }
+   ],
+   "say": [
+    "Voilà pourquoi le petit Danemark règne sur un royaume environ 50 fois plus vaste.",
+    "Et c’est la réponse à la question suivante :"
+   ]
+  }
+ ]
+}

@@ -8,10 +8,11 @@
 // 12.0–14.0  Lino           il bâille à son tour
 // 14.0–16.0  le fond         Mimi, puis Coin, bâillent
 // 16.0–18.5  la maîtresse    « Non... pas de... » — elle résiste… et bâille : AAAAH !
-// 18.5–24.0  plan large      silence ; Roussin pouffe « Hi hi ! » ; toute la classe éclate de rire : « Ha ha ha ! »
+// 18.5–24.0  plan large      silence ; Roussin pouffe « C'est rigolo ! » ; toute la classe éclate de rire : « Bravo, bravo ! »
 // 24.0–27.0  le tableau      elle écrit B : « B comme... bâillement ! »
 // 27.0–30.0  plan large      Rouge-Gorge bâille à la fenêtre ; carton
 import { writeFileSync } from 'node:fs';
+import { timeBadge } from '../lib/badge.mjs';
 import { W, H, INK, lines, sfxEv, an, ao, vis, sfx, fox, rabbit, owl, put, style, addKF, track, ss } from '../lib/kit.mjs';
 import { makeCam, say, card, bird, pal } from '../lib/props.mjs';
 import { FLOOR, wall, banner, board, wallClock, windowEl, radiator, desk, pencil, book, WIN } from '../lib/classroom.mjs';
@@ -92,17 +93,18 @@ const fx =
   sfx('AAAAHHH...', 960, 90, 10.25, 1.5, -6, '#b57bff', 76, 'yawn') +
   sfx('aaah...', 880, 85, 12.3, 1.3, 6, '#b57bff', 60, 'yawn') +
   sfx('aah...', 405, 285, 14.2, 0.75, -6, '#b57bff', 62, 'yawn') + sfx('aah...', 375, 215, 15.05, 0.75, 6, '#b57bff', 60, 'yawn') +
-  say('owl', 'Non... pas de...', 16.1, 1.1, { bx: 240, by: 95, tips: [[330, 160]] }) +
+  say('owl', 'Je ne bâille pas !', 16.1, 1.1, { bx: 240, by: 95, tips: [[330, 160]] }) +
   sfx('AAAAAHHH !', 540, 80, 17.3, 1.2, -6, '#b57bff', 64, 'yawn') +
-  say('fox', 'Hi hi !', 20.0, 0.8, { bx: 720, by: 324, tips: [[480, 445]] }) +
-  say('class', 'Ha ha ha !', 21.2, 1.4, { bx: 640, by: 640, tips: [], shout: true }) +
-  say('owl', 'B comme... bâillement !', 24.3, 2.1, { bx: 240, by: 292, fs: 24, tips: [[290, 470]] }) +
+  say('fox', 'C’est rigolo !', 20.0, 0.8, { bx: 720, by: 324, tips: [[480, 445]] }) +
+  say('class', 'Bravo, bravo !', 21.2, 1.4, { bx: 640, by: 640, tips: [], shout: true }) +
+  say('owl', 'B comme... bâillement !', 24.3, 2.1, { bx: 290, by: 292, tips: [[290, 470]] }) +
   insert + card(28.9, 'Les lettres !', 'la graine', 640, 592);
 
 const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" data-duration="${DUR}" data-fps="30">
 <style>${style()}</style>
 <rect width="${W}" height="${H}" fill="#ffe9bd"/>
 <g style="${camStyle}">${world}</g>
+${timeBadge(13, 30)}
 ${fx}
 </svg>`;
 sfxEv.push({ name: 'chalk', t: 0.6 }, { name: 'chalk', t: 4.0 }, { name: 'chalk', t: 24.3 }, { name: 'laugh', t: 21.2 }, { name: 'chirp', t: 27.4 });

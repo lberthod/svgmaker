@@ -1,0 +1,3 @@
+# Boucle 2 (audit C)
+- Faits : 1571-2004 = 433 ans, titre frise « Plus de quatre siècles d’histoire » ; 1878 « sous contrôle britannique » (souveraineté ottomane jusqu’en 1914) ; Venise « en hérite » (cession de Catherine Cornaro, 1489) ; 20 juillet 1974 intervention, 36 % après l’offensive d’août : https://fr.wikipedia.org/wiki/Invasion_turque_de_Chypre ; plan Annan 24 avril 2004 : https://fr.wikipedia.org/wiki/Plan_Annan ; bases britanniques ~3 % (Akrotiri, Dhekelia).
+- Mise en scène : art split calé sur « Turquie », dur 3,5 ; flèches from lat ≤ 36,0 ; « Vers la Grèce » vers l’ouest ; pill Kyrénia ; focus.box distinct par scène (zoom Nicosie pour la Ligne verte) ; pill UE avant la frise ; étiquettes « Base britannique » (Dhekelia) ; terrain recalculé.

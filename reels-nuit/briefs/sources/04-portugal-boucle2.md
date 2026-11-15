@@ -1,0 +1,5 @@
+# Boucle 2, 04-portugal
+- Faits : hook « près de 900 ans » + titre distinct ; « prince du Portugal » (1143) ; « Le pays est né autour de Guimarães » ; pastille Guimarães « berceau » ; « plus de cinq fois plus petit » ; Windsor placé sur Windsor (-0,6 ; 51,48) ; Ceuta « ville aujourd’hui espagnole » ; Vasco de Gama en pastille + flèche « vers l’Inde » ; frise : 1640 « Révolte » + 1668 « Indépendance », titre « Neuf siècles d’histoire ».
+- Cadrage différent par scène ; Faro remonté (box sud, pastille à droite) ; Maroc, Al-Andalus, León et Castille déplacés ; Windsor box nord élargie.
+- Portugal recoloré en vert après la révolte de 1640 ; cause du « pourquoi » en scène 9 (frontière fixée tôt, Atlantique, indépendance 1640) ; plus de « Voilà » consécutifs ; big 1297 recalé sur « Europe », compare 2,8 s, bulle « Frontière fixée » retirée, Espagne éclaircie ; hook sans doublon de titre, labels Portugal/Espagne ; phrases raccourcies (cible 85-90 s).
+- Non appliqué : teintes nord/sud en scène 2 (anachronisme), surbrillance Algarve, art « route des Indes » dédié (flèche + pastille suffisent), boucle/frises/compteurs (générateur).

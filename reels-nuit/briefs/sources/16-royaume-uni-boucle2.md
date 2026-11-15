@@ -1,0 +1,5 @@
+- Hook et scenes 1603, 1707, 1921, langues, population, final : 4 nations en 4 couleurs (Angleterre jaune, Ecosse bleu, Galles rouge, Irlande du Nord violet), labels des 4 nations aux 3 dernieres scenes.
+- Etiquettes de fleches supprimees ou raccourcies, pastilles Londres en side r, roi Henri VIII place a Londres, Jacques VI sans sous-titre.
+- 1921 : year "1921", fleche "Reste britannique" retiree, majorite protestante, 1922 en phrase suivante.
+- Frise finale (timeline) et ses fleches convergentes (contresens) retirees ; arts languages/stats a 5 s et 4,5 s, notes raccourcies.
+- Phrases raccourcies ; final : "Voici ce que ces siecles ont construit, en une phrase :" ; terrain recale. Aucun fait nouveau.

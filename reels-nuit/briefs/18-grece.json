@@ -1,0 +1,1110 @@
+{
+ "format": "atlas",
+ "id": "atlas-grece",
+ "base": {
+  "countries": [
+   "Greece"
+  ]
+ },
+ "terrain": [
+  {
+   "box": [
+    -14,
+    27,
+    44,
+    76
+   ],
+   "px": 3000,
+   "z": 6
+  },
+  {
+   "box": [
+    17.1,
+    30.2,
+    41.4,
+    47.4
+   ],
+   "px": 2800,
+   "z": 8
+  }
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "text": "La langue grecque a plus de 3 000 ans !",
+   "sub": "Et la Grèce est née en 1830",
+   "focus": {
+    "box": [
+     18.6,
+     34.4,
+     30,
+     47
+    ]
+   },
+   "highlight": {
+    "countries": [
+     "Greece"
+    ],
+    "color": "#FFD83C",
+    "at": 0.3,
+    "keep": false
+   },
+   "beacon": [
+    {
+     "at": [
+      23.73,
+      37.98
+     ],
+     "when": 1
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      23.73,
+      37.98
+     ],
+     "title": "Athènes",
+     "side": "b",
+     "when": {
+      "line": 1,
+      "word": "Grèce",
+      "d": 0.3
+     }
+    }
+   ],
+   "say": [
+    "La langue grecque s’écrit depuis plus de 3 000 ans.",
+    "Mais l’État grec moderne n’existe que depuis 1830."
+   ],
+   "art": [
+    {
+     "kind": "stats",
+     "at": {
+      "line": 0,
+      "d": 0.2
+     },
+     "dur": 3.2,
+     "title": "Une langue très ancienne",
+     "items": [
+      {
+       "value": 3000,
+       "prefix": "+ de ",
+       "suffix": " ans",
+       "label": "d’écriture grecque",
+       "color": "#4FA3E0"
+      },
+      {
+       "value": 183,
+       "suffix": "0",
+       "count": false,
+       "prefix": "",
+       "label": "naissance de l’État grec",
+       "color": "#FFD83C"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "8e siècle av. J.-C.",
+   "text": "Des cités, pas un seul État",
+   "focus": {
+    "box": [
+     19.4,
+     35.2,
+     29.6,
+     41
+    ]
+   },
+   "highlight": {
+    "regions": [
+     {
+      "c": "Greece",
+      "n": "Attiki"
+     },
+     {
+      "c": "Greece",
+      "n": "Peloponnisos"
+     },
+     {
+      "c": "Greece",
+      "n": "Stereá Elláda"
+     }
+    ],
+    "color": "#FFD83C",
+    "at": {
+     "line": 0,
+     "d": 0.2
+    },
+    "keep": false
+   },
+   "people": [
+    {
+     "who": "savant",
+     "at": [
+      23.73,
+      37.98
+     ],
+     "size": 230,
+     "say": "",
+     "when": {
+      "line": 0,
+      "word": "Athènes",
+      "d": 0.2
+     }
+    },
+    {
+     "who": "soldat",
+     "at": [
+      22.3,
+      37.2
+     ],
+     "size": 230,
+     "say": "",
+     "when": {
+      "line": 0,
+      "word": "Sparte",
+      "d": 0.2
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      23.73,
+      37.98
+     ],
+     "title": "Athènes",
+     "side": "t",
+     "when": {
+      "line": 0,
+      "word": "Athènes"
+     }
+    },
+    {
+     "at": [
+      22.43,
+      37.08
+     ],
+     "title": "Sparte",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "Sparte"
+     }
+    },
+    {
+     "at": [
+      22.88,
+      37.91
+     ],
+     "title": "Corinthe",
+     "side": "t",
+     "when": {
+      "line": 0,
+      "word": "Corinthe",
+      "d": 0.1
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Mer Égée",
+     "at": [
+      25.3,
+      38.6
+     ],
+     "size": 40,
+     "when": {
+      "line": 0,
+      "d": 0.4
+     }
+    },
+    {
+     "text": "Mer Ionienne",
+     "at": [
+      19.6,
+      37.2
+     ],
+     "size": 36,
+     "when": {
+      "line": 0,
+      "d": 0.8
+     }
+    }
+   ],
+   "say": [
+    "Dans l’Antiquité, la Grèce est un ensemble de cités, comme Athènes, Sparte ou Corinthe.",
+    "Elles partagent une langue et un alphabet venu des Phéniciens."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "4e siècle av. J.-C.",
+   "text": "Alexandre répand le grec",
+   "focus": {
+    "box": [
+     18,
+     30.6,
+     41,
+     42.5
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Turkey"
+     ],
+     "color": "#F0A060",
+     "at": {
+      "line": 0,
+      "word": "conquiert",
+      "d": 0.2
+     },
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "Greece",
+       "n": "Kentriki Makedonia"
+      },
+      {
+       "c": "Greece",
+       "n": "Dytiki Makedonia"
+      }
+     ],
+     "color": "#FFD83C",
+     "at": 0.2,
+     "keep": false
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      22.5,
+      40.76
+     ],
+     "to": [
+      36.85,
+      36.8
+     ],
+     "n": 3,
+     "color": "#FFB347",
+     "at": {
+      "line": 0,
+      "word": "conquiert",
+      "d": -0.2
+     },
+     "dur": 1.8
+    },
+    {
+     "from": [
+      36.85,
+      36.8
+     ],
+     "to": [
+      40.6,
+      34.6
+     ],
+     "n": 3,
+     "color": "#FFB347",
+     "label": "Vers la Perse",
+     "at": {
+      "line": 0,
+      "word": "conquiert",
+      "d": 1.4
+     },
+     "dur": 1.8
+    },
+    {
+     "from": [
+      36.85,
+      36.8
+     ],
+     "to": [
+      29.92,
+      31.2
+     ],
+     "n": 3,
+     "color": "#FFB347",
+     "at": {
+      "line": 0,
+      "word": "Égypte",
+      "d": -0.3
+     },
+     "dur": 2
+    }
+   ],
+   "people": [
+    {
+     "who": "roi",
+     "at": [
+      22.5,
+      40.9
+     ],
+     "size": 240,
+     "say": "Vers l’Orient !",
+     "label": {
+      "title": "Alexandre le Grand",
+      "sub": "336 – 323 av. J.-C."
+     },
+     "when": {
+      "line": 0,
+      "word": "Alexandre",
+      "d": 0.3
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      22.5,
+      40.76
+     ],
+     "title": "Pella",
+     "sub": "Macédoine",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "Alexandre",
+      "d": 0.8
+     }
+    },
+    {
+     "at": [
+      29.92,
+      31.2
+     ],
+     "title": "Alexandrie",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "Égypte",
+      "d": 0.3
+     }
+    }
+   ],
+   "say": [
+    "Au 4e siècle avant Jésus-Christ, Alexandre le Grand conquiert la Perse, puis l’Égypte.",
+    "Le grec devient la langue commune du monde hellénistique."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1453",
+   "text": "Les Ottomans dominent la Grèce",
+   "focus": {
+    "box": [
+     18.6,
+     34.4,
+     31,
+     42.5
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Turkey",
+      "Bulgaria",
+      "North Macedonia"
+     ],
+     "color": "#E8503A",
+     "at": {
+      "line": 0,
+      "word": "Ottomans",
+      "d": 0.4
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Greece"
+     ],
+     "color": "#F08A5D",
+     "at": {
+      "line": 1,
+      "word": "Grèce",
+      "d": 0
+     },
+     "keep": false
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      28.98,
+      41.01
+     ],
+     "to": [
+      23.73,
+      37.98
+     ],
+     "n": 4,
+     "color": "#E8503A",
+     "label": "Les Ottomans",
+     "at": {
+      "line": 0,
+      "word": "capitale",
+      "d": 0.3
+     },
+     "dur": 2.5
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      28.98,
+      41.01
+     ],
+     "title": "Constantinople",
+     "sub": "29 mai 1453",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "Constantinople"
+     }
+    },
+    {
+     "at": [
+      23.73,
+      37.98
+     ],
+     "title": "Athènes",
+     "side": "l",
+     "when": {
+      "line": 1,
+      "word": "Grèce",
+      "d": 0.4
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      28.98,
+      41.01
+     ],
+     "when": 0.5
+    }
+   ],
+   "labels": [
+    {
+     "text": "Bulgarie",
+     "at": [
+      24.8,
+      42.2
+     ],
+     "size": 36,
+     "when": {
+      "line": 0,
+      "d": 0.5
+     }
+    }
+   ],
+   "art": [
+    {
+     "kind": "languages",
+     "at": {
+      "line": 1,
+      "d": 0.8
+     },
+     "dur": 3.5,
+     "title": "Qui parle quoi ?",
+     "items": [
+      {
+       "icon": "house",
+       "where": "À l’église",
+       "lang": "Grec",
+       "note": "Église orthodoxe",
+       "color": "#4FA3E0"
+      },
+      {
+       "icon": "court",
+       "where": "Au pouvoir",
+       "lang": "Turc ottoman",
+       "note": "Administration",
+       "color": "#E8503A"
+      }
+     ]
+    }
+   ],
+   "say": [
+    "En 1453, les Ottomans prennent Constantinople, la capitale byzantine.",
+    "Peu à peu, la Grèce passe sous leur pouvoir, mais l’Église garde le grec vivant."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1821 – 1827",
+   "text": "La révolte des Grecs",
+   "focus": {
+    "box": [
+     19.4,
+     35.6,
+     26.6,
+     40.6
+    ]
+   },
+   "highlight": {
+    "regions": [
+     {
+      "c": "Greece",
+      "n": "Peloponnisos"
+     },
+     {
+      "c": "Greece",
+      "n": "Stereá Elláda"
+     }
+    ],
+    "color": "#4FA3E0",
+    "at": {
+     "line": 0,
+     "d": 0.2
+    },
+    "keep": false
+   },
+   "people": [
+    {
+     "who": "rebelle",
+     "at": [
+      22.0,
+      39.2
+     ],
+     "size": 240,
+     "say": "Liberté !",
+     "when": {
+      "line": 0,
+      "word": "1821",
+      "d": 0.8
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      21.73,
+      38.25
+     ],
+     "title": "Patras",
+     "side": "l",
+     "when": {
+      "line": 0,
+      "word": "1821",
+      "d": 0.5
+     }
+    },
+    {
+     "at": [
+      21.7,
+      36.93
+     ],
+     "title": "Navarin",
+     "sub": "1827",
+     "side": "r",
+     "when": {
+      "line": 1,
+      "word": "Navarin",
+      "d": -0.5
+     }
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      19.5,
+      36.4
+     ],
+     "to": [
+      21.7,
+      36.95
+     ],
+     "n": 3,
+     "color": "#8FD0EE",
+     "label": "Flotte alliée",
+     "at": {
+      "line": 1,
+      "d": -0.3
+     },
+     "dur": 2.6
+    }
+   ],
+   "say": [
+    "En 1821, les Grecs se révoltent contre l’Empire ottoman.",
+    "En 1827, les alliés détruisent la flotte ottomane à Navarin."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1830 – 1834",
+   "text": "Un pays indépendant, un roi, une capitale",
+   "focus": {
+    "box": [
+     19.4,
+     35.6,
+     26.6,
+     40.6
+    ]
+   },
+   "highlight": {
+    "regions": [
+     {
+      "c": "Greece",
+      "n": "Peloponnisos"
+     },
+     {
+      "c": "Greece",
+      "n": "Stereá Elláda"
+     },
+     {
+      "c": "Greece",
+      "n": "Attiki"
+     }
+    ],
+    "color": "#FFD83C",
+    "at": {
+     "line": 0,
+     "d": 0.2
+    },
+    "keep": false
+   },
+   "people": [
+    {
+     "who": "roi",
+     "at": [
+      23.4,
+      38.5
+     ],
+     "size": 240,
+     "say": "Athènes !",
+     "label": {
+      "title": "Le roi Othon",
+      "sub": "roi dès 1833"
+     },
+     "when": {
+      "line": 1,
+      "word": "Athènes",
+      "d": 0
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      23.73,
+      37.98
+     ],
+     "title": "Athènes",
+     "sub": "capitale en 1834",
+     "side": "r",
+     "when": {
+      "line": 1,
+      "word": "Athènes",
+      "d": 0.4
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      23.73,
+      37.98
+     ],
+     "when": {
+      "line": 1,
+      "word": "Athènes",
+      "d": -0.2
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Encore petit",
+     "at": [
+      21.6,
+      39.2
+     ],
+     "size": 44,
+     "when": {
+      "line": 0,
+      "word": "petite",
+      "d": 0
+     }
+    }
+   ],
+   "say": [
+    "En 1830, la Grèce est reconnue indépendante, mais très petite.",
+    "Athènes devient sa capitale en 1834, sous le roi Othon."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1864 – 1913",
+   "text": "Le territoire s’agrandit",
+   "focus": {
+    "box": [
+     17.5,
+     33.4,
+     27.5,
+     41.6
+    ]
+   },
+   "highlight": [
+    {
+     "regions": [
+      {
+       "c": "Greece",
+       "n": "Peloponnisos"
+      },
+      {
+       "c": "Greece",
+       "n": "Stereá Elláda"
+      },
+      {
+       "c": "Greece",
+       "n": "Attiki"
+      }
+     ],
+     "color": "#FFD83C",
+     "at": 0.2,
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "Greece",
+       "n": "Ionioi Nisoi"
+      }
+     ],
+     "color": "#E8A33C",
+     "at": {
+      "line": 0,
+      "word": "îles",
+      "d": -0.3
+     },
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "Greece",
+       "n": "Thessalia"
+      }
+     ],
+     "color": "#2EB872",
+     "at": {
+      "line": 0,
+      "word": "Thessalie",
+      "d": -0.3
+     },
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "Greece",
+       "n": "Ipeiros"
+      },
+      {
+       "c": "Greece",
+       "n": "Kentriki Makedonia"
+      },
+      {
+       "c": "Greece",
+       "n": "Dytiki Makedonia"
+      },
+      {
+       "c": "Greece",
+       "n": "Kriti"
+      },
+      {
+       "c": "Greece",
+       "n": "Anatoliki Makedonia kai Thraki"
+      }
+     ],
+     "color": "#FF5A36",
+     "at": {
+      "line": 1,
+      "word": "Macédoine",
+      "d": -1.2
+     },
+     "keep": false
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      18.9,
+      39.7
+     ],
+     "to": [
+      19.92,
+      39.62
+     ],
+     "n": 2,
+     "color": "#E8A33C",
+     "label": "1864",
+     "at": {
+      "line": 0,
+      "word": "îles",
+      "d": 0
+     },
+     "dur": 2
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      19.92,
+      39.62
+     ],
+     "title": "Corfou",
+     "sub": "1864",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "îles",
+      "d": 0.2
+     }
+    },
+    {
+     "at": [
+      22.42,
+      39.64
+     ],
+     "title": "Larissa",
+     "sub": "1881",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "Thessalie",
+      "d": 0.2
+     }
+    },
+    {
+     "at": [
+      22.94,
+      40.64
+     ],
+     "title": "Thessalonique",
+     "sub": "1913",
+     "side": "r",
+     "when": {
+      "line": 1,
+      "word": "Macédoine",
+      "d": 0.3
+     }
+    },
+    {
+     "at": [
+      25.14,
+      35.34
+     ],
+     "title": "Héraklion",
+     "sub": "1913",
+     "side": "b",
+     "when": {
+      "line": 1,
+      "word": "Crète",
+      "d": 0
+     }
+    }
+   ],
+   "say": [
+    "En 1864, les îles Ioniennes la rejoignent, puis la Thessalie en 1881.",
+    "En 1913, elle gagne la Macédoine, l’Épire et la Crète."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1912 – 1947",
+   "text": "Le Dodécanèse rejoint la Grèce",
+   "focus": {
+    "box": [
+     24,
+     34.8,
+     30,
+     38.2
+    ]
+   },
+   "beacon": [
+    {
+     "at": [
+      28.23,
+      36.44
+     ],
+     "when": {
+      "line": 0,
+      "word": "Rhodes",
+      "d": -0.3
+     }
+    }
+   ],
+   "people": [
+    {
+     "who": "marin",
+     "at": [
+      27.29,
+      36.9
+     ],
+     "size": 220,
+     "say": "Enfin !",
+     "when": {
+      "line": 1,
+      "word": "extension",
+      "d": 0.8
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      28.23,
+      36.44
+     ],
+     "title": "Rhodes",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "Rhodes"
+     }
+    },
+    {
+     "at": [
+      26.4,
+      36.5
+     ],
+     "title": "Dodécanèse",
+     "side": "l",
+     "when": {
+      "line": 0,
+      "word": "Dodécanèse",
+      "d": 0
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Turquie",
+     "at": [
+      29,
+      37.9
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "d": 0.4
+     }
+    }
+   ],
+   "art": [
+    {
+     "kind": "timeline",
+     "at": {
+      "line": 1,
+      "word": "dernière",
+      "d": 0
+     },
+     "dur": 3.2,
+     "title": "Un pays qui s’agrandit",
+     "items": [
+      {
+       "year": "1864",
+       "text": "Îles Ioniennes"
+      },
+      {
+       "year": "1881",
+       "text": "Thessalie"
+      },
+      {
+       "year": "1913",
+       "text": "Macédoine, Crète"
+      },
+      {
+       "year": "1920",
+       "text": "Thrace occidentale"
+      },
+      {
+       "year": "1947",
+       "text": "Dodécanèse"
+      }
+     ]
+    }
+   ],
+   "say": [
+    "L’Italie occupe le Dodécanèse, dont Rhodes, dès 1912.",
+    "En 1947, il rejoint la Grèce : dernière extension du pays."
+   ],
+   "highlight": [
+    {
+     "countries": [
+      "Greece"
+     ],
+     "color": "#FFD83C",
+     "at": 0.2,
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "Greece",
+       "n": "Notio Aigaio"
+      }
+     ],
+     "color": "#FFD83C",
+     "at": {
+      "line": 1,
+      "word": "1947",
+      "d": 0
+     },
+     "keep": false
+    }
+   ]
+  },
+  {
+   "type": "final",
+   "text": "Une langue plus vieille que le pays",
+   "sub": "La Grèce",
+   "focus": {
+    "box": [
+     18.6,
+     34.4,
+     30,
+     42.2
+    ]
+   },
+   "people": [
+    {
+     "who": "savant",
+     "at": [
+      23.73,
+      37.98
+     ],
+     "size": 240,
+     "say": "Voilà !",
+     "wave": true,
+     "mood": "happy",
+     "when": 1.8
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      23.73,
+      37.98
+     ],
+     "title": "Athènes",
+     "sub": "3 000 ans de grec",
+     "side": "b",
+     "when": 1
+    }
+   ],
+   "say": [
+    "Voilà pourquoi ce pays récent a l’une des plus vieilles langues d’Europe !",
+    "Voici donc le fait qui nous a ouverts :"
+   ]
+  }
+ ]
+}

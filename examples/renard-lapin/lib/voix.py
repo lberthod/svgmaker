@@ -16,11 +16,9 @@ SCRIPT = 'tts_ming_fr.py' if ENGINE == 'ming' else 'tts_kokoro_fr.py'
 CACHE = os.path.expanduser('~/.cache/svgmaker-voix')
 #            pitch, speed
 VOICES = {'fox': (1.0, 1.0), 'rab': (1.04, 1.0), 'owl': (1.0, 1.0), 'snail': (1.0, 0.92),
-          'mimi': (1.08, 1.0), 'coin': (1.05, 1.0)} if ENGINE == 'ming' else \
+          'mimi': (1.08, 1.0), 'coin': (1.05, 1.0), 'guide': (1.0, 1.04), 'narrateur': (1.0, 1.0), 'narratrice': (1.0, 1.0), 'hedge': (1.0, 0.96), 'badger': (1.0, 0.95), 'frog': (1.0, 1.0), 'crab': (1.0, 1.05), 'pelican': (1.0, 0.92), 'otter': (1.0, 1.04), 'marmot': (1.0, 0.9), 'ibex': (1.0, 1.05), 'lynx': (1.0, 0.95), 'beaver': (1.0, 0.98), 'giraffe': (1.0, 0.95), 'mole': (1.0, 1.05), 'raccoon': (1.0, 0.95), 'pigeon': (1.0, 1.06), 'zebra': (1.0, 1.0), 'koala': (1.0, 0.88), 'meerkat': (1.0, 1.08), 'moonling': (1.0, 0.92), 'deer': (1.0, 0.93), 'squirrel': (1.0, 1.1), 'boar': (1.0, 0.9), 'cheetah': (1.0, 1.12), 'penguin': (1.0, 1.0), 'hamster': (1.0, 1.05), 'turtle': (1.0, 0.88), 'seal': (1.0, 0.97)} if ENGINE == 'ming' else \
          {'fox': (0.86, 1.05), 'rab': (1.16, 1.1), 'owl': (0.74, 0.92), 'snail': (0.82, 0.78),
-          'mimi': (1.38, 1.1), 'coin': (1.3, 1.15)}
-SAY = {'fox': ('Thomas', 190, 1.0), 'rab': ('Flo (Français (France))', 200, 1.22), 'owl': ('Grandpa (Français (France))', 170, 0.92),
-       'snail': ('Grandma (Français (France))', 105, 1.0), 'mimi': ('Flo (Français (France))', 210, 1.5), 'coin': ('Thomas', 210, 1.45)}
+          'mimi': (1.38, 1.1), 'coin': (1.3, 1.15), 'guide': (1.2, 1.08), 'narrateur': (0.8, 1.0), 'narratrice': (1.1, 1.0), 'hedge': (1.25, 1.0), 'badger': (0.7, 0.92), 'frog': (1.1, 1.05), 'crab': (1.3, 1.15), 'pelican': (0.7, 0.88), 'otter': (1.25, 1.1), 'marmot': (0.8, 0.8), 'ibex': (0.85, 1.1), 'lynx': (1.3, 0.95), 'beaver': (0.78, 1.0), 'giraffe': (1.15, 0.92), 'mole': (0.85, 1.1), 'raccoon': (0.74, 0.92), 'pigeon': (1.1, 1.12), 'zebra': (1.0, 1.0), 'koala': (0.78, 0.85), 'meerkat': (1.2, 1.12), 'moonling': (1.35, 0.9), 'deer': (1.2, 0.95), 'squirrel': (1.3, 1.12), 'boar': (0.7, 0.88), 'cheetah': (1.15, 1.15), 'penguin': (1.0, 0.98), 'hamster': (1.3, 1.08), 'turtle': (0.9, 0.85), 'seal': (0.72, 0.95)}
 SIL = 'silenceremove=start_periods=1:start_threshold=-45dB,areverse,silenceremove=start_periods=1:start_threshold=-45dB,areverse'
 
 
@@ -93,10 +91,8 @@ def line(who, text, win, sr):
             tempo = (1 / p) * (sp if ENGINE == 'ming' else 1)  # Ming n'a pas de réglage de débit : on l'applique ici
             _ff(raw, w, f'{SIL},asetrate={int(rsr * p)},aresample={sr},atempo={tempo:.3f},'
                         f'acompressor=threshold=-18dB:ratio=3,volume=1.4', sr)
-        else:  # repli : voix macOS
-            v, rate, p = SAY[who]; a = os.path.join(d, 'v.aiff')
-            subprocess.run(['say', '-v', v, '-r', str(rate), '-o', a, text.replace('!', ' ').replace('+', 'plus')], check=True)
-            _ff(a, w, f'{SIL},asetrate={int(22050 * p)},aresample={sr},atempo={1 / p:.3f},acompressor=threshold=-18dB:ratio=3,volume=1.5', sr)
+        else:  # jamais de repli sur une voix macOS (licence non commerciale, règle 1) : la voix Ming doit exister
+            raise RuntimeError(f"voix Ming manquante pour la réplique de « {who} » : {text!r} (lancer la préparation des voix, aucun repli macOS)")
         x = _rd(w)
         if len(x) / sr > win:
             _ff(w, w2, f'atempo={min(len(x) / sr / win, 2.0):.3f}', sr); x = _rd(w2)

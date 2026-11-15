@@ -13,6 +13,7 @@
 // 23.0–26.5  plan large      Lino : « Bravo, Roussin ! » ; ils mangent ensemble : « Miam ! »
 // 26.5–30.0  plan large      carton
 import { writeFileSync } from 'node:fs';
+import { timeBadge } from '../lib/badge.mjs';
 import { W, H, INK, lines, sfxEv, an, ao, vis, sfx, fox, rabbit, put, style, addKF, track, ss } from '../lib/kit.mjs';
 import { makeCam, say, card, bird, pal, snail, croissant as croissant0 } from '../lib/props.mjs';
 const croissant = `<g><path d="M-58 26 Q-56 -34 0 -38 Q56 -34 58 26 Q44 4 28 6 Q18 -8 0 -8 Q-18 -8 -28 6 Q-44 4 -58 26Z" fill="#e9a84a" stroke="#3a2418" stroke-width="4" stroke-linejoin="round"/><path d="M-28 0 Q-30 -20 -20 -32 M28 0 Q30 -20 20 -32 M-8 -22 Q-8 -32 -4 -37 M8 -22 Q8 -32 4 -37" stroke="#b97520" stroke-width="3" fill="none"/><path d="M-34 -24 Q0 -36 34 -24" stroke="#f6d08a" stroke-width="4" fill="none" stroke-linecap="round"/></g>`;
@@ -140,13 +141,14 @@ const fx =
   say('fox', 'Tiens, la moitié !', 18.4, 1.3, { bx: 330, by: 110, tips: [[470, 165]] }) +
   sfx('CUI CUI !', 720, 110, 20.1, 1.0, 8, '#ff6f95', 64, 'chirp') +
   say('rab', 'Bravo, Roussin !', 23.3, 1.4, { bx: 1000, by: 140, tips: [[960, 330]] }) +
-  say('fox', 'Miam !', 24.8, 0.9, { bx: 760, by: 260, tips: [[640, 480]], shout: true }) +
+  say('fox', 'Délicieux !', 24.8, 0.9, { bx: 760, by: 260, tips: [[640, 480]], shout: true }) +
   card(27.3, 'À la cantine !', 'la pause de midi', 640, 235);
 
 const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" data-duration="${DUR}" data-fps="30">
 <style>${style()}</style>
 <rect width="${W}" height="${H}" fill="#fff6e3"/>
 <g style="${camStyle}">${world}</g>
+${timeBadge(12, 0)}
 ${fx}
 </svg>`;
 sfxEv.push({ name: 'chime', t: 9.65 }, { name: 'whoosh', t: 12.2 }, { name: 'chime', t: 20.0 }, { name: 'whoosh', t: 20.1 }, { name: 'laugh', t: 20.4 });

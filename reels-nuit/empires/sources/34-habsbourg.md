@@ -1,0 +1,42 @@
+# Sources — empires-34-habsbourg (Habsbourg, « Les héritages Habsbourg, de Vienne à Madrid »)
+
+- Château de Habsbourg, commune de Habsburg, canton d'Argovie (Suisse) ; construit dans les années 1020 (attribué à Radbot ; infobox FR : 1020-1100) → dit « au 11e siècle » → https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Habsbourg , https://en.wikipedia.org/wiki/House_of_Habsburg
+- Rodolphe de Habsbourg élu roi des Romains le 1er octobre 1273 → https://en.wikipedia.org/wiki/House_of_Habsburg
+- 1278 : victoire de Marchfeld sur Ottokar II de Bohême ; Rodolphe acquiert l'Autriche et la Styrie (duc d'Autriche 1278-1282) → https://fr.wikipedia.org/wiki/Maison_de_Habsbourg
+- Devise « Bella gerant alii, tu felix Austria nube » = « Que d'autres fassent la guerre ; toi, heureuse Autriche, marie-toi » (distique d'origine incertaine, attribution à Matthias Corvin douteuse : dit « Leur règle ») → https://en.wikipedia.org/wiki/Felix_Austria , https://www.herodote.net/Le_destin_romanesque_des_Habsbourg-synthese-31-153.php , https://www.larousse.fr/encyclopedie/divers/wd/187324
+- Maximilien et Marie de Bourgogne, mariage le 16 (ou 19) août 1477 à Gand ; apporte les Pays-Bas et la Franche-Comté → https://en.wikipedia.org/wiki/House_of_Habsburg , https://www.larousse.fr/encyclopedie/divers/wd/187324
+- Philippe le Beau épouse Jeanne de Castille le 20 octobre 1496 (Lierre) ; elle hérite de la Castille en 1504 → https://fr.wikipedia.org/wiki/Jeanne_Ire_de_Castille (EN Wikipédia donne 1497 pour la cérémonie : écart signalé)
+- Double mariage de 1515 (traité de Vienne) ; Mohács, 29 août 1526, mort de Louis II ; Ferdinand roi de Bohême et de Hongrie (élu à Presbourg le 17 décembre 1526) ; Hongrie partagée (ouest/nord aux Habsbourg) → https://fr.wikipedia.org/wiki/Bataille_de_Moh%C3%A1cs_(1526) , https://en.wikipedia.org/wiki/House_of_Habsburg
+- Charles Quint, héritier de ses quatre grands-parents (Maximilien : Autriche ; Marie : Pays-Bas ; Isabelle : Castille ; Ferdinand : Aragon, Naples, Sicile, Sardaigne) ; roi d'Espagne en 1516 → https://en.wikipedia.org/wiki/Charles_V,_Holy_Roman_Emperor , https://fr.wikipedia.org/wiki/Jeanne_Ire_de_Castille
+- Abdication 1555-1556 et partage en branches espagnole (Philippe II : Espagne, Pays-Bas, Italie, Amérique) et autrichienne (Ferdinand Ier) → https://en.wikipedia.org/wiki/House_of_Habsburg , https://fr.wikipedia.org/wiki/Pays-Bas_espagnols
+- Charles II d'Espagne meurt sans descendance le 1er novembre 1700 : extinction de la branche espagnole ; problèmes de santé attribués aux mariages consanguins (coefficient 0,254) → https://fr.wikipedia.org/wiki/Charles_II_(roi_d%27Espagne) ; lien prognathisme/consanguinité (non dit) : Vilas et al., Annals of Human Biology, 2019 → https://www.eurekalert.org/news-releases/565834
+- Durées : Espagne 1516-1700 = 184 ans ; Vienne 1278-1918 ≈ 640 ans (fin en 1918) → https://fr.wikipedia.org/wiki/Maison_de_Habsbourg
+- Pays-Bas espagnols 1556-1713/1714, capitale Bruxelles, puis Pays-Bas autrichiens jusqu'à la conquête française (1794) ; Habsbourg dès 1477/1482 → « environ trois siècles » → https://fr.wikipedia.org/wiki/Pays-Bas_espagnols
+- Schönbrunn : résidence d'été des Habsbourg, commencé en 1696, 1 441 pièces, Unesco 1996 → https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Sch%C3%B6nbrunn
+- Contours (apogée vers 1556, approximatifs, régions actuelles) : Espagne entière ; Pays-Bas des 17 provinces (Pays-Bas, Belgique sans Liège/Limbourg, Luxembourg, Nord, Pas-de-Calais) et Franche-Comté (Doubs, Jura, Haute-Saône) ; Autriche sans Salzbourg + Haut-Adige ; Bohême-Moravie (Tchéquie) ; Hongrie royale (Slovaquie, ouest et nord de la Hongrie, Croatie du nord-ouest) ; Slovénie ; Milanais, royaume de Naples, Sicile, Sardaigne → https://en.wikipedia.org/wiki/Habsburg_Spain , https://en.wikipedia.org/wiki/Royal_Hungary , https://fr.wikipedia.org/wiki/Pays-Bas_espagnols
+- Contour violet (30 points) : trois lobes (Espagne, Pays-Bas, bloc Autriche-Bohême-Hongrie) reliés par des traits (mer, Rhin) ; l'Italie n'y figure pas (limite de 30 points), elle est colorée à la scène d'apogée.
+- Rodolphe : Ottokar cède l'Autriche en novembre 1276 ; Marchfeld le 26 août 1278 ; fils investis à Augsbourg en décembre 1282 → https://en.wikipedia.org/wiki/Rudolf_I_of_Germany
+- Mariage Maximilien-Marie : Gand, 19 août 1477 ; à la mort de Marie (1482), Philippe hérite sous la tutelle de Maximilien → https://en.wikipedia.org/wiki/Mary_of_Burgundy
+- Jeanne de Castille : mariage formel le 20 octobre 1496 à Lierre (Wikipédia EN, article Joanna of Castile, donne aussi 1496) → https://en.wikipedia.org/wiki/Joanna_of_Castile
+- Madrid devient siège de la cour en juin 1561 (Philippe II) : « Madrid » anachronique pour 1556 → https://en.wikipedia.org/wiki/Madrid
+- Devise « Bella gerant alii… » : simple « dicton » sans auteur ni date établis → https://en.wikipedia.org/wiki/Felix_Austria
+- Roussillon (Pyrénées-Orientales) aragonais puis espagnol jusqu'en 1659 (traité des Pyrénées) → https://fr.wikipedia.org/wiki/Roussillon_(province)
+- Franche-Comté et Artois occupés par la France de 1477 à 1493 (traité de Senlis) → https://fr.wikipedia.org/wiki/Trait%C3%A9_de_Senlis
+- Italie espagnole vers 1556 : Milanais (1535), royaumes de Naples, de Sicile et de Sardaigne → https://en.wikipedia.org/wiki/Habsburg_Spain
+- Schönbrunn : 1 441 pièces, Unesco 1996, résidence d'été → https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Sch%C3%B6nbrunn
+
+## Pré-audit (13/11/2026)
+- Contour violet (hook, apogée, final) : `line.points` = Espagne (Roussillon inclus, Portugal exclu) ; `line.parts` = 17 provinces des Pays-Bas, Franche-Comté, bloc Autriche-Bohême-Hongrie royale, Milanais, Naples + Sicile, Sardaigne (plus de traits sur la mer).
+- Pyrénées-Orientales ajoutées à l'Espagne (scènes 3-4 et partage) : Roussillon espagnol jusqu'en 1659.
+- Scène 2 (1477) : Franche-Comté retirée (française de 1477 à 1493) ; « reçoit les Pays-Bas » → « les Pays-Bas entrent dans la famille ».
+- Devise d'origine incertaine : « Leur règle » → « Leur devise, dit-on ».
+- Scène 1 : « prend l'Autriche » → « s'impose en Autriche » (cession 1276, Marchfeld 1278) ; année « 1278 » seule, voix raccourcie.
+- Jeanne de Castille : 1496 confirmé (Wikipédia EN aussi) ; pastille inchangée.
+- Madrid anachronique en 1556 (capitale en 1561) : « de Madrid à Vienne » → « de l'Espagne à Vienne » ; stats « à Madrid » → « en Espagne » ; Madrid gardé pour 1700 et la dynastie.
+- Chute à 67 s estimées → 56 s : scène « Un héritage coupé en deux » supprimée (partage de 1556 non dit), voix des scènes 1, 3, 4 resserrées. Durée estimée 102,5 s (≈ 77 s réelles).
+- « Maîtres de l'Europe en 1556 » (exagéré) → « à leur sommet en 1556 » ; frise : « Apogée : Charles Quint ».
+- « À force de mariages entre cousins » (causalité) → « Après des générations de mariages entre cousins ».
+- « La Belgique » (anachronique avant 1830) → « La future Belgique » (titre et voix).
+- Art `stats` : titre-question « Combien de temps ? » → « Des siècles de règne » ; sous-titre retiré (chevauchait le 1er compteur).
+- Arts vérifiés par captures aux instants des arts (l'aperçu capture ≈ 1 s après le début de scène, avant les arts) : split, languages, stats, timeline s'affichent en entier.
+- Autriche-Hongrie : seule mention indirecte, la date 1918 dans `stats` ; rien d'autre.

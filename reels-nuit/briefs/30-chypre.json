@@ -1,0 +1,1179 @@
+{
+ "format": "atlas",
+ "id": "atlas-chypre",
+ "base": {
+  "countries": [
+   "Cyprus",
+   "N. Cyprus"
+  ]
+ },
+ "terrain": [
+  {
+   "box": [
+    -14,
+    27,
+    40,
+    76
+   ],
+   "px": 3000,
+   "z": 6
+  },
+  {
+   "box": [
+    31.0,
+    33.5,
+    35.5,
+    36.7
+   ],
+   "px": 2800,
+   "z": 8
+  }
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "text": "Chypre, une île coupée en deux",
+   "sub": "Dans l’Union européenne",
+   "focus": {
+    "box": [
+     31.9,
+     34.1,
+     34.9,
+     36.2
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Cyprus",
+      "N. Cyprus"
+     ],
+     "color": "#FFD83C",
+     "at": 0.7,
+     "keep": false
+    },
+    {
+     "countries": [
+      "Cyprus"
+     ],
+     "color": "#4FA3E0",
+     "at": {
+      "line": 1,
+      "word": "tampon",
+      "d": -0.2
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "N. Cyprus"
+     ],
+     "color": "#E8503A",
+     "at": {
+      "line": 1,
+      "word": "tampon",
+      "d": -0.2
+     },
+     "keep": false
+    }
+   ],
+   "line": {
+    "points": [
+     [
+      32.64,
+      35.18
+     ],
+     [
+      32.95,
+      35.1
+     ],
+     [
+      33.37,
+      35.17
+     ],
+     [
+      33.6,
+      35.07
+     ],
+     [
+      33.95,
+      35.04
+     ]
+    ],
+    "label": "Ligne verte",
+    "color": "#3E9A63",
+    "at": {
+     "line": 1,
+     "word": "tampon",
+     "d": 0.2
+    }
+   },
+   "pills": [
+    {
+     "at": [
+      33.37,
+      35.17
+     ],
+     "title": "Nicosie",
+     "side": "t",
+     "when": {
+      "line": 1,
+      "word": "capitale"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      33.37,
+      35.17
+     ],
+     "when": 0.6
+    }
+   ],
+   "labels": [
+    {
+     "text": "Turquie",
+     "at": [
+      33,
+      36
+     ],
+     "size": 38,
+     "when": 0.9
+    },
+    {
+     "text": "Méditerranée",
+     "at": [
+      33.2,
+      34.35
+     ],
+     "size": 38,
+     "when": 1.2
+    }
+   ],
+   "say": [
+    "Pourquoi Chypre, île de l’Union européenne, est-elle coupée en deux ?",
+    "Une zone tampon de l’ONU la traverse, jusqu’à la capitale."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "Antiquité – 1489",
+   "text": "Cuivre, Byzance, Venise",
+   "focus": {
+    "box": [
+     31.7,
+     34.0,
+     34.9,
+     36.1
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Cyprus",
+      "N. Cyprus"
+     ],
+     "color": "#FFD83C",
+     "at": {
+      "line": 0,
+      "d": 0
+     },
+     "keep": false
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      31.9,
+      36
+     ],
+     "to": [
+      32.9,
+      35.1
+     ],
+     "n": 3,
+     "color": "#B45AE0",
+     "label": "Byzantins",
+     "at": {
+      "line": 0,
+      "word": "byzantine",
+      "d": -0.8
+     },
+     "dur": 2.2
+    },
+    {
+     "from": [
+      34.9,
+      34.45
+     ],
+     "to": [
+      33.4,
+      34.6
+     ],
+     "n": 3,
+     "color": "#FFB347",
+     "label": "Croisés",
+     "at": {
+      "line": 1,
+      "word": "croisés",
+      "d": -0.2
+     },
+     "dur": 2.2
+    }
+   ],
+   "people": [
+    {
+     "who": "ouvrier",
+     "at": [
+      32.95,
+      34.98
+     ],
+     "size": 220,
+     "say": "Du cuivre !",
+     "when": {
+      "line": 0,
+      "word": "cuivre",
+      "d": 0
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      33.94,
+      35.12
+     ],
+     "title": "Famagouste",
+     "sub": "Venise",
+     "side": "r",
+     "when": {
+      "line": 1,
+      "word": "Venise"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      32.95,
+      34.98
+     ],
+     "when": 0.4
+    }
+   ],
+   "labels": [
+    {
+     "text": "Turquie",
+     "at": [
+      33,
+      36
+     ],
+     "size": 38,
+     "when": 1
+    }
+   ],
+   "say": [
+    "Célèbre pour son cuivre dès l’Antiquité, Chypre devient byzantine en 395.",
+    "Les croisés la prennent en 1191 ; en 1489, Venise en hérite."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1571",
+   "text": "Les Ottomans prennent l’île",
+   "focus": {
+    "box": [
+     32.0,
+     34.2,
+     34.9,
+     36.2
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Cyprus",
+      "N. Cyprus"
+     ],
+     "color": "#FFD83C",
+     "at": {
+      "line": 0,
+      "d": 0
+     },
+     "keep": false
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      33.5,
+      35.95
+     ],
+     "to": [
+      33.6,
+      34.97
+     ],
+     "n": 4,
+     "color": "#FF7A3C",
+     "label": "Ottomans",
+     "at": {
+      "line": 0,
+      "word": "Ottomans",
+      "d": 0
+     },
+     "dur": 2.3
+    },
+    {
+     "from": [
+      32.6,
+      35.95
+     ],
+     "to": [
+      33.1,
+      35.1
+     ],
+     "n": 3,
+     "color": "#FF7A3C",
+     "label": "Anatolie",
+     "at": {
+      "line": 1,
+      "word": "Anatolie",
+      "d": 0
+     },
+     "dur": 2
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      33.94,
+      35.12
+     ],
+     "title": "Famagouste",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "Famagouste"
+     }
+    }
+   ],
+   "people": [
+    {
+     "who": "paysan",
+     "at": [
+      33.1,
+      35
+     ],
+     "size": 220,
+     "say": "Voisins grecs",
+     "when": {
+      "line": 1,
+      "word": "familles",
+      "d": 0
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      33.94,
+      35.12
+     ],
+     "when": 0.4
+    }
+   ],
+   "labels": [
+    {
+     "text": "Turquie",
+     "at": [
+      33,
+      36
+     ],
+     "size": 38,
+     "when": 0.9
+    }
+   ],
+   "say": [
+    "En 1571, après le siège de Famagouste, les Ottomans conquièrent l’île.",
+    "Des familles turques d’Anatolie s’installent près des Grecs."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1878 · 1925",
+   "text": "L’île passe sous contrôle britannique",
+   "focus": {
+    "box": [
+     31.4,
+     34.1,
+     34.4,
+     36.1
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Cyprus",
+      "N. Cyprus"
+     ],
+     "color": "#FFD83C",
+     "at": {
+      "line": 0,
+      "d": 0
+     },
+     "keep": false
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      31.9,
+      34.35
+     ],
+     "to": [
+      33.3,
+      35.12
+     ],
+     "n": 3,
+     "color": "#8FD0EE",
+     "label": "Britanniques",
+     "at": {
+      "line": 0,
+      "word": "confient",
+      "d": 0
+     },
+     "dur": 2.4
+    },
+    {
+     "from": [
+      32.4,
+      35.0
+     ],
+     "to": [
+      31.9,
+      35.0
+     ],
+     "n": 2,
+     "color": "#7BD36B",
+     "label": "Vers la Grèce",
+     "at": {
+      "line": 1,
+      "word": "Grecs",
+      "d": 0.2
+     },
+     "dur": 2
+    }
+   ],
+   "people": [
+    {
+     "who": "soldat",
+     "at": [
+      33.4,
+      35.02
+     ],
+     "size": 220,
+     "say": "Colonie de la Couronne",
+     "when": {
+      "line": 0,
+      "word": "colonie",
+      "d": 0
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      33.37,
+      35.17
+     ],
+     "when": 0.4
+    }
+   ],
+   "labels": [
+    {
+     "text": "Turquie",
+     "at": [
+      33,
+      36
+     ],
+     "size": 38,
+     "when": 1
+    },
+    {
+     "text": "Base britannique",
+     "at": [
+      33.85,
+      34.78
+     ],
+     "size": 34,
+     "when": {
+      "line": 0,
+      "word": "Britanniques",
+      "d": 0.5
+     }
+    }
+   ],
+   "say": [
+    "En 1878, les Ottomans confient l’île aux Britanniques, qui en font une colonie en 1925.",
+    "Beaucoup de Grecs veulent rejoindre la Grèce ; les Turcs refusent."
+   ],
+   "pills": [
+    {
+     "at": [
+      33.37,
+      35.17
+     ],
+     "title": "Nicosie",
+     "side": "t",
+     "when": {
+      "line": 0,
+      "d": 0.8
+     }
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1960",
+   "text": "Une île indépendante",
+   "focus": {
+    "box": [
+     32.2,
+     34.3,
+     34.5,
+     35.9
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Cyprus",
+      "N. Cyprus"
+     ],
+     "color": "#FFD83C",
+     "at": {
+      "line": 0,
+      "d": 0
+     },
+     "keep": false
+    }
+   ],
+   "people": [
+    {
+     "who": "savant",
+     "at": [
+      33.15,
+      35
+     ],
+     "size": 220,
+     "say": "Premier président",
+     "label": {
+      "title": "Makarios III",
+      "sub": "1960"
+     },
+     "when": {
+      "line": 0,
+      "word": "Makarios"
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      33.37,
+      35.17
+     ],
+     "title": "Nicosie",
+     "sub": "capitale",
+     "side": "t",
+     "when": {
+      "line": 0,
+      "word": "Chypre",
+      "d": 0.2
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      33.37,
+      35.17
+     ],
+     "when": 0.4
+    }
+   ],
+   "labels": [
+    {
+     "text": "Turquie",
+     "at": [
+      33,
+      36
+     ],
+     "size": 38,
+     "when": 1
+    }
+   ],
+   "art": [
+    {
+     "kind": "languages",
+     "at": {
+      "line": 1,
+      "word": "grec",
+      "d": -0.3
+     },
+     "dur": 4.2,
+     "title": "Deux langues officielles",
+     "items": [
+      {
+       "icon": "school",
+       "where": "Grecs",
+       "lang": "Grec",
+       "color": "#4FA3E0"
+      },
+      {
+       "icon": "house",
+       "where": "Turcs",
+       "lang": "Turc",
+       "color": "#E8503A"
+      }
+     ],
+     "sub": "pouvoir partagé, 1960"
+    }
+   ],
+   "say": [
+    "En 1960, Chypre devient indépendante, avec Makarios III pour président.",
+    "Le grec et le turc deviennent langues officielles, et le pouvoir est partagé."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1974",
+   "text": "Coup d’État, puis intervention turque",
+   "focus": {
+    "box": [
+     32.3,
+     34.2,
+     34.8,
+     36.1
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Cyprus",
+      "N. Cyprus"
+     ],
+     "color": "#FFD83C",
+     "at": {
+      "line": 0,
+      "d": 0
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Cyprus"
+     ],
+     "color": "#4FA3E0",
+     "at": {
+      "line": 1,
+      "word": "Turquie",
+      "d": 0.3
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "N. Cyprus"
+     ],
+     "color": "#E8503A",
+     "at": {
+      "line": 1,
+      "word": "Turquie",
+      "d": 0.3
+     },
+     "keep": false
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      33.6,
+      36.0
+     ],
+     "to": [
+      33.33,
+      35.35
+     ],
+     "n": 5,
+     "color": "#FF7A3C",
+     "label": "Armée turque, 20 juillet",
+     "at": {
+      "line": 1,
+      "word": "Turquie",
+      "d": 0
+     },
+     "dur": 2.3
+    }
+   ],
+   "people": [
+    {
+     "who": "soldat",
+     "at": [
+      33.3,
+      35.12
+     ],
+     "size": 220,
+     "say": "Coup d’État !",
+     "label": {
+      "title": "15 juillet",
+      "sub": "1974"
+     },
+     "when": {
+      "line": 0,
+      "word": "coup",
+      "d": 0
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      33.37,
+      35.17
+     ],
+     "when": 0.4
+    }
+   ],
+   "labels": [
+    {
+     "text": "Turquie",
+     "at": [
+      32.6,
+      36
+     ],
+     "size": 38,
+     "when": 0.9
+    }
+   ],
+   "art": [
+    {
+     "kind": "split",
+     "at": {
+      "line": 1,
+      "word": "Turquie",
+      "d": 0.5
+     },
+     "dur": 3.5,
+     "title": "L’île après 1974",
+     "sub": "même échelle",
+     "before": "Avant 1974",
+     "after": "Après 1974",
+     "badge": "36 % au nord",
+     "parts": [
+      {
+       "country": "Cyprus",
+       "color": "#4FA3E0"
+      },
+      {
+       "country": "N. Cyprus",
+       "color": "#E8503A",
+       "lost": true
+      }
+     ]
+    }
+   ],
+   "say": [
+    "En juillet 1974, un coup d’État, soutenu par la junte grecque, vise l’union avec la Grèce.",
+    "Cinq jours plus tard, la Turquie intervient ; en août, elle contrôle environ 36 % de l’île."
+   ],
+   "pills": [
+    {
+     "at": [
+      33.3,
+      35.34
+     ],
+     "title": "Kyrénia",
+     "sub": "20 juillet",
+     "side": "t",
+     "when": {
+      "line": 1,
+      "word": "intervient",
+      "d": 0.2
+     }
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "Depuis 1974",
+   "text": "La Ligne verte",
+   "focus": {
+    "box": [
+     32.5,
+     34.7,
+     34.1,
+     35.6
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Cyprus"
+     ],
+     "color": "#4FA3E0",
+     "at": 0.2,
+     "keep": false
+    },
+    {
+     "countries": [
+      "N. Cyprus"
+     ],
+     "color": "#E8503A",
+     "at": 0.4,
+     "keep": false
+    }
+   ],
+   "line": {
+    "points": [
+     [
+      32.64,
+      35.18
+     ],
+     [
+      32.95,
+      35.1
+     ],
+     [
+      33.37,
+      35.17
+     ],
+     [
+      33.6,
+      35.07
+     ],
+     [
+      33.95,
+      35.04
+     ]
+    ],
+    "label": "Zone ONU",
+    "color": "#3E9A63",
+    "at": {
+     "line": 0,
+     "word": "Ligne",
+     "d": 0
+    }
+   },
+   "pills": [
+    {
+     "at": [
+      33.37,
+      35.17
+     ],
+     "title": "Nicosie",
+     "sub": "ville divisée",
+     "side": "t",
+     "when": {
+      "line": 0,
+      "word": "verte",
+      "d": 0.6
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      33.37,
+      35.17
+     ],
+     "when": 0.4
+    }
+   ],
+   "labels": [
+    {
+     "text": "Sud",
+     "at": [
+      33,
+      34.8
+     ],
+     "size": 38,
+     "when": 0.8
+    },
+    {
+     "text": "Nord",
+     "at": [
+      33.5,
+      35.45
+     ],
+     "size": 38,
+     "when": 1
+    }
+   ],
+   "art": [
+    {
+     "kind": "stats",
+     "at": {
+      "line": 1,
+      "d": -0.2
+     },
+     "dur": 5,
+     "title": "La division en chiffres",
+     "items": [
+      {
+       "value": 180,
+       "suffix": " km",
+       "label": "de zone tampon",
+       "color": "#3E9A63"
+      },
+      {
+       "value": 200000,
+       "label": "déplacés, environ",
+       "color": "#FFD83C"
+      },
+      {
+       "value": 36,
+       "suffix": " %",
+       "label": "de l’île au nord (hors bases)",
+       "color": "#E8503A"
+      }
+     ]
+    }
+   ],
+   "say": [
+    "La Ligne verte, zone tampon de l’ONU, s’étend sur environ 180 km.",
+    "Environ 200 000 personnes ont changé de côté ; le nord couvre 36 % de l’île."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "2004",
+   "text": "Dans l’Union européenne",
+   "focus": {
+    "box": [
+     31.8,
+     34.0,
+     35.0,
+     36.2
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Cyprus"
+     ],
+     "color": "#4FA3E0",
+     "at": 0.2,
+     "keep": false
+    },
+    {
+     "countries": [
+      "N. Cyprus"
+     ],
+     "color": "#E8503A",
+     "at": 0.4,
+     "keep": false
+    }
+   ],
+   "line": {
+    "points": [
+     [
+      32.64,
+      35.18
+     ],
+     [
+      32.95,
+      35.1
+     ],
+     [
+      33.37,
+      35.17
+     ],
+     [
+      33.6,
+      35.07
+     ],
+     [
+      33.95,
+      35.04
+     ]
+    ],
+    "color": "#3E9A63",
+    "at": 0.5
+   },
+   "pills": [
+    {
+     "at": [
+      33,
+      34.85
+     ],
+     "title": "Union européenne",
+     "side": "b",
+     "when": {
+      "line": 1,
+      "d": 0
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      33.37,
+      35.17
+     ],
+     "when": 0.4
+    }
+   ],
+   "art": [
+    {
+     "kind": "timeline",
+     "at": {
+      "line": 1,
+      "word": "européen",
+      "d": 0
+     },
+     "dur": 5,
+     "title": "Plus de quatre siècles d’histoire",
+     "items": [
+      {
+       "year": "1571",
+       "text": "Les Ottomans"
+      },
+      {
+       "year": "1878",
+       "text": "Les Britanniques"
+      },
+      {
+       "year": "1960",
+       "text": "L’indépendance"
+      },
+      {
+       "year": "1974",
+       "text": "La division"
+      },
+      {
+       "year": "2004",
+       "text": "Plan Annan, entrée dans l’UE"
+      }
+     ]
+    }
+   ],
+   "say": [
+    "En avril 2004, un plan de l’ONU est accepté au nord, rejeté au sud.",
+    "Le 1er mai, l’île entre dans l’Union européenne, mais le droit européen est suspendu au nord."
+   ],
+   "labels": [
+    {
+     "text": "Plan Annan",
+     "at": [
+      33.3,
+      35.6
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "word": "plan",
+      "d": 0
+     }
+    },
+    {
+     "text": "Base britannique",
+     "at": [
+      33.85,
+      34.78
+     ],
+     "size": 34,
+     "when": {
+      "line": 1,
+      "d": 0.3
+     }
+    }
+   ]
+  },
+  {
+   "type": "final",
+   "text": "Une île, deux communautés",
+   "sub": "Chypre",
+   "focus": {
+    "box": [
+     31.6,
+     33.9,
+     35.1,
+     36.3
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Cyprus"
+     ],
+     "color": "#4FA3E0",
+     "at": 0.3,
+     "keep": false
+    },
+    {
+     "countries": [
+      "N. Cyprus"
+     ],
+     "color": "#E8503A",
+     "at": 0.7,
+     "keep": false
+    }
+   ],
+   "line": {
+    "points": [
+     [
+      32.64,
+      35.18
+     ],
+     [
+      32.95,
+      35.1
+     ],
+     [
+      33.37,
+      35.17
+     ],
+     [
+      33.6,
+      35.07
+     ],
+     [
+      33.95,
+      35.04
+     ]
+    ],
+    "label": "Ligne verte",
+    "color": "#3E9A63",
+    "at": 1
+   },
+   "people": [
+    {
+     "who": "paysan",
+     "at": [
+      32.6,
+      34.75
+     ],
+     "size": 250,
+     "say": "Deux langues",
+     "wave": true,
+     "when": 3
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      33.37,
+      35.17
+     ],
+     "when": 0.4
+    }
+   ],
+   "say": [
+    "Voilà pourquoi Chypre reste divisée : deux communautés, deux langues, une zone tampon.",
+    "Voilà la réponse à la question qui nous a ouverts :"
+   ]
+  }
+ ]
+}

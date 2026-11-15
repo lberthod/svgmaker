@@ -1,0 +1,4 @@
+# Boucle 2 : 06 Scandinavie
+Appliqué : focus.box distinct par scène ; Norvège étiquetée dans la Norvège (1905) ; Copenhague dégagée (pions déplacés en mer, pastilles côté r/l) ; split 1814 avec la Suède jaune + « traité de Kiel » ; couleurs par pays (monarchies, 1523) ; sous-lignes de pastilles et labels retirées ; beacon Calmar ; voix 1814 « mais gardent leur constitution » ; Kristiania dit en voix ; timeline « Norvège → Suède » et dur 5,2 ; compare « hors Groenland » ; « surtout à l’écrit » ; final « Reprenons depuis le début : trois pays, une seule couronne. » ; phrases ajoutées pour 70-90 s.
+Non appliqué : mention « frontières actuelles » (scène 1523-1814, texte trop petit) ; art compare « merci » langues (hors sujet, plus complexe) ; roi Éric nommé (alourdit la phrase).
+Retiré après mesure (durée 93 s) : « monarque » et « surtout à l’écrit ».

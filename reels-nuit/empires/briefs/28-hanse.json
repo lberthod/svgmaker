@@ -1,0 +1,1353 @@
+{
+  "format": "atlas",
+  "suisse": false,
+  "id": "empires-28-hanse",
+  "world": true,
+  "base": {
+    "countries": [
+      "Germany",
+      "Denmark",
+      "Norway",
+      "Sweden",
+      "Finland",
+      "Poland",
+      "Lithuania",
+      "Latvia",
+      "Estonia",
+      "Russia",
+      "United Kingdom",
+      "Belgium",
+      "Netherlands"
+    ]
+  },
+  "open": {
+    "box": [
+      -3,
+      48.6,
+      34,
+      62.6
+    ]
+  },
+  "terrain": [
+    {
+      "box": [
+        -15.9,
+        22.3,
+        40,
+        85
+      ],
+      "px": 3000,
+      "z": 6
+    },
+    {
+      "box": [
+        -12.4,
+        46.6,
+        34.4,
+        63
+      ],
+      "px": 2800,
+      "z": 8
+    }
+  ],
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "La Hanse",
+      "sub": "Hanse : une union de marchands",
+      "focus": {
+        "box": [
+          -3,
+          48.6,
+          34,
+          62.6
+        ]
+      },
+      "line": {
+        "points": [
+          [
+            5.32,
+            60.39
+          ],
+          [
+            4.3,
+            59.7
+          ],
+          [
+            3.3,
+            57.6
+          ],
+          [
+            2.3,
+            55.1
+          ],
+          [
+            1.8,
+            53.1
+          ],
+          [
+            1.6,
+            52
+          ],
+          [
+            1,
+            51.5
+          ],
+          [
+            -0.13,
+            51.51
+          ],
+          [
+            1.4,
+            51.38
+          ],
+          [
+            2.3,
+            51.32
+          ],
+          [
+            3.22,
+            51.21
+          ],
+          [
+            3.7,
+            51.6
+          ],
+          [
+            4.5,
+            52.6
+          ],
+          [
+            5.2,
+            53.45
+          ],
+          [
+            6.8,
+            53.75
+          ],
+          [
+            8.3,
+            53.95
+          ],
+          [
+            9.99,
+            53.55
+          ],
+          [
+            10.69,
+            53.87
+          ],
+          [
+            11.6,
+            54.3
+          ],
+          [
+            14,
+            54.8
+          ],
+          [
+            16.5,
+            56.3
+          ],
+          [
+            18.29,
+            57.64
+          ],
+          [
+            21.2,
+            58.6
+          ],
+          [
+            24.75,
+            59.44
+          ],
+          [
+            27.6,
+            60.05
+          ],
+          [
+            30.1,
+            59.95
+          ],
+          [
+            31.6,
+            60.1
+          ],
+          [
+            32.4,
+            59.9
+          ],
+          [
+            31.9,
+            59.1
+          ],
+          [
+            31.27,
+            58.52
+          ]
+        ],
+        "color": "#A77BE0",
+        "width": 8,
+        "at": 0.3,
+        "draw": 2
+      },
+      "beacon": [
+        {
+          "at": "Lübeck",
+          "when": 0
+        }
+      ],
+      "big": {
+        "value": "200 villes",
+        "sub": "environ, au fil des siècles",
+        "at": {
+          "line": 1,
+          "word": "environ",
+          "d": -0.1
+        },
+        "dur": 3
+      },
+      "say": [
+        "Comment des marchands ont-ils dominé la Baltique sans roi ?",
+        "D’un port à environ 200 villes, puis presque plus rien."
+      ]
+    },
+    {
+      "type": "map",
+      "year": "1143 · 1159",
+      "text": "Lübeck, un port sur la Baltique",
+      "focus": {
+        "box": [
+          6.8,
+          51.6,
+          12.8,
+          55.2
+        ]
+      },
+      "beacon": [
+        {
+          "at": "Lübeck",
+          "when": {
+            "line": 0,
+            "word": "Lübeck",
+            "d": -0.2
+          }
+        }
+      ],
+      "people": [
+        {
+          "who": "roi",
+          "outfit": "#C8372D",
+          "at": [
+            10.2,
+            53.2
+          ],
+          "size": 220,
+          "say": "Rebâtissez le port !",
+          "label": {
+            "title": "Henri le Lion",
+            "sub": "duc de Saxe"
+          },
+          "when": {
+            "line": 0,
+            "word": "Henri",
+            "d": -0.3
+          }
+        }
+      ],
+      "pills": [
+        {
+          "at": "Lübeck",
+          "title": "Lübeck",
+          "sub": "refondée en 1159",
+          "side": "r",
+          "when": {
+            "line": 0,
+            "word": "refonde",
+            "d": 0
+          }
+        }
+      ],
+      "moves": [
+        {
+          "from": [
+            8.9,
+            52.3
+          ],
+          "to": [
+            10.6,
+            53.8
+          ],
+          "n": 4,
+          "color": "#C8372D",
+          "label": "Marchands allemands",
+          "at": {
+            "line": 0,
+            "word": "fonde",
+            "d": -0.2
+          },
+          "dur": 2
+        }
+      ],
+      "labels": [
+        {
+          "text": "Mer Baltique",
+          "at": [
+            11.6,
+            54.6
+          ],
+          "size": 36,
+          "when": {
+            "line": 0,
+            "word": "comte",
+            "d": 0
+          }
+        }
+      ],
+      "say": [
+        "En 1143, un comte fonde Lübeck ; Henri le Lion la refonde en 1159."
+      ]
+    },
+    {
+      "type": "map",
+      "year": "13e siècle",
+      "text": "La cogue ouvre la Baltique",
+      "sub": "Cogue : un gros voilier de charge",
+      "focus": {
+        "box": [
+          8.5,
+          52.6,
+          27,
+          60.6
+        ]
+      },
+      "beacon": [
+        {
+          "at": "Lübeck",
+          "when": 0.3
+        }
+      ],
+      "moves": [
+        {
+          "from": "Lübeck",
+          "to": "Visby",
+          "n": 0,
+          "color": "#C8372D",
+          "at": {
+            "line": 0,
+            "word": "cogues",
+            "d": -0.2
+          },
+          "dur": 1.6
+        },
+        {
+          "from": "Visby",
+          "to": "Riga",
+          "n": 0,
+          "color": "#C8372D",
+          "at": {
+            "line": 0,
+            "word": "Riga",
+            "d": -0.4
+          },
+          "dur": 1.2
+        },
+        {
+          "from": "Visby",
+          "to": "Tallinn",
+          "n": 0,
+          "color": "#C8372D",
+          "at": {
+            "line": 0,
+            "word": "Reval",
+            "d": -0.4
+          },
+          "dur": 1.2
+        }
+      ],
+      "people": [
+        {
+          "who": "marin",
+          "outfit": "#C8372D",
+          "at": [
+            9.6,
+            53.9
+          ],
+          "size": 200,
+          "say": "Cap sur Visby !",
+          "when": {
+            "line": 0,
+            "word": "cogues",
+            "d": 0
+          }
+        }
+      ],
+      "pills": [
+        {
+          "at": "Visby",
+          "title": "Visby",
+          "sub": "île de Gotland",
+          "side": "l",
+          "when": {
+            "line": 0,
+            "word": "Visby",
+            "d": 0
+          }
+        },
+        {
+          "at": "Riga",
+          "title": "Riga",
+          "sub": "fondée en 1201",
+          "side": "b",
+          "when": {
+            "line": 0,
+            "word": "Riga",
+            "d": 0
+          }
+        },
+        {
+          "at": "Tallinn",
+          "title": "Reval",
+          "side": "t",
+          "when": {
+            "line": 0,
+            "word": "Reval",
+            "d": 0
+          },
+          "sub": "aujourd’hui Tallinn"
+        }
+      ],
+      "say": [
+        "Sur leurs cogues, ses marchands gagnent Visby, Riga et Reval."
+      ]
+    },
+    {
+      "type": "map",
+      "year": "14e siècle",
+      "text": "Quatre grands comptoirs",
+      "sub": "Comptoir : un quartier de marchands à l’étranger",
+      "focus": {
+        "box": [
+          -3,
+          48.6,
+          34,
+          62.6
+        ]
+      },
+      "beacon": [
+        {
+          "at": "Lübeck",
+          "when": 0.3
+        }
+      ],
+      "pills": [
+        {
+          "at": "Londres",
+          "title": "Londres",
+          "sub": "le Steelyard",
+          "side": "b",
+          "when": {
+            "line": 0,
+            "word": "Londres",
+            "d": 0
+          }
+        },
+        {
+          "at": "Bruges",
+          "title": "Bruges",
+          "side": "r",
+          "when": {
+            "line": 0,
+            "word": "Bruges",
+            "d": 0
+          }
+        },
+        {
+          "at": "Bergen",
+          "title": "Bergen",
+          "sub": "le Bryggen",
+          "side": "r",
+          "when": {
+            "line": 0,
+            "word": "Bergen",
+            "d": 0
+          }
+        },
+        {
+          "at": "Novgorod",
+          "title": "Novgorod",
+          "sub": "le Peterhof",
+          "side": "b",
+          "when": {
+            "line": 0,
+            "word": "Novgorod",
+            "d": 0
+          }
+        }
+      ],
+      "art": [
+        {
+          "kind": "bars",
+          "at": {
+            "line": 1,
+            "word": "environ",
+            "d": -0.3
+          },
+          "dur": 4.4,
+          "title": "De Londres à Novgorod",
+          "sub": "à vol d’oiseau ; la France d’ouest en est",
+          "items": [
+            {
+              "value": "2 100 km",
+              "label": "Londres – Novgorod",
+              "h": 1,
+              "color": "#C8372D"
+            },
+            {
+              "value": "900 km",
+              "label": "Brest – Strasbourg",
+              "h": 0.43,
+              "color": "#8A93A8"
+            }
+          ]
+        }
+      ],
+      "say": [
+        "Ils ouvrent quatre comptoirs : Londres, Bruges, Bergen et Novgorod.",
+        "Environ 2100 kilomètres : plus de deux fois la France."
+      ]
+    },
+    {
+      "type": "map",
+      "year": "Vers 1356",
+      "text": "Pas de roi : une assemblée",
+      "sub": "Diète : la réunion des villes",
+      "focus": {
+        "box": [
+          6.5,
+          51.6,
+          19.5,
+          56.4
+        ]
+      },
+      "beacon": [
+        {
+          "at": "Lübeck",
+          "when": {
+            "line": 0,
+            "word": "Lübeck",
+            "d": -0.2
+          }
+        }
+      ],
+      "moves": [
+        {
+          "from": "Brême",
+          "to": "Lübeck",
+          "n": 1,
+          "color": "#C8372D",
+          "at": {
+            "line": 0,
+            "word": "villes",
+            "d": -0.2
+          },
+          "dur": 1.4
+        },
+        {
+          "from": "Cologne",
+          "to": [
+            10.5,
+            53.7
+          ],
+          "n": 1,
+          "color": "#C8372D",
+          "at": {
+            "line": 0,
+            "word": "villes",
+            "d": 0.1
+          },
+          "dur": 1.6
+        },
+        {
+          "from": "Gdansk",
+          "to": [
+            10.9,
+            53.9
+          ],
+          "n": 1,
+          "color": "#C8372D",
+          "at": {
+            "line": 0,
+            "word": "villes",
+            "d": 0.3
+          },
+          "dur": 1.6
+        }
+      ],
+      "people": [
+        {
+          "who": "savant",
+          "outfit": "#C8372D",
+          "at": [
+            11.4,
+            53.1
+          ],
+          "size": 200,
+          "say": "Votons !",
+          "label": {
+            "title": "Un délégué"
+          },
+          "when": {
+            "line": 0,
+            "word": "votent",
+            "d": -0.2
+          }
+        }
+      ],
+      "pills": [
+        {
+          "at": [
+            14.6,
+            55.1
+          ],
+          "title": "Blocus",
+          "sub": "plus aucun commerce avec l’ennemi",
+          "side": "b",
+          "when": {
+            "line": 0,
+            "word": "blocus",
+            "d": -0.2
+          }
+        }
+      ],
+      "say": [
+        "Vers 1356, les villes votent à Lübeck ; leur arme : le blocus."
+      ]
+    },
+    {
+      "type": "map",
+      "year": "1370",
+      "text": "À son apogée",
+      "focus": {
+        "box": [
+          -3,
+          48.6,
+          34,
+          62.6
+        ]
+      },
+      "line": {
+        "points": [
+          [
+            5.32,
+            60.39
+          ],
+          [
+            4.3,
+            59.7
+          ],
+          [
+            3.3,
+            57.6
+          ],
+          [
+            2.3,
+            55.1
+          ],
+          [
+            1.8,
+            53.1
+          ],
+          [
+            1.6,
+            52
+          ],
+          [
+            1,
+            51.5
+          ],
+          [
+            -0.13,
+            51.51
+          ],
+          [
+            1.4,
+            51.38
+          ],
+          [
+            2.3,
+            51.32
+          ],
+          [
+            3.22,
+            51.21
+          ],
+          [
+            3.7,
+            51.6
+          ],
+          [
+            4.5,
+            52.6
+          ],
+          [
+            5.2,
+            53.45
+          ],
+          [
+            6.8,
+            53.75
+          ],
+          [
+            8.3,
+            53.95
+          ],
+          [
+            9.99,
+            53.55
+          ],
+          [
+            10.69,
+            53.87
+          ],
+          [
+            11.6,
+            54.3
+          ],
+          [
+            14,
+            54.8
+          ],
+          [
+            16.5,
+            56.3
+          ],
+          [
+            18.29,
+            57.64
+          ],
+          [
+            21.2,
+            58.6
+          ],
+          [
+            24.75,
+            59.44
+          ],
+          [
+            27.6,
+            60.05
+          ],
+          [
+            30.1,
+            59.95
+          ],
+          [
+            31.6,
+            60.1
+          ],
+          [
+            32.4,
+            59.9
+          ],
+          [
+            31.9,
+            59.1
+          ],
+          [
+            31.27,
+            58.52
+          ]
+        ],
+        "color": "#A77BE0",
+        "width": 8,
+        "at": {
+          "line": 1,
+          "word": "domine",
+          "d": -0.2
+        },
+        "draw": 2.6
+      },
+      "beacon": [
+        {
+          "at": "Lübeck",
+          "when": 0.3
+        }
+      ],
+      "moves": [
+        {
+          "from": "Lübeck",
+          "to": "Copenhague",
+          "n": 3,
+          "color": "#C8372D",
+          "label": "Flotte de la Hanse",
+          "at": {
+            "line": 0,
+            "word": "bat",
+            "d": -0.4
+          },
+          "dur": 1.6
+        }
+      ],
+      "people": [
+        {
+          "who": "roi",
+          "outfit": "#8A93A8",
+          "at": [
+            9.3,
+            55.9
+          ],
+          "size": 190,
+          "say": "Je dois céder…",
+          "mood": "sad",
+          "label": {
+            "title": "Valdemar IV",
+            "sub": "roi du Danemark"
+          },
+          "when": {
+            "line": 0,
+            "word": "bat",
+            "d": 0
+          }
+        }
+      ],
+      "labels": [
+        {
+          "text": "Danemark",
+          "at": [
+            9.2,
+            56.8
+          ],
+          "size": 34,
+          "when": {
+            "line": 0,
+            "word": "Danemark",
+            "d": 0
+          }
+        },
+        {
+          "text": "Suède",
+          "at": [
+            15,
+            60.4
+          ],
+          "size": 36,
+          "when": {
+            "line": 1,
+            "word": "Nord",
+            "d": 0
+          }
+        }
+      ],
+      "pills": [
+        {
+          "at": "Bergen",
+          "title": "Bergen",
+          "side": "r",
+          "when": {
+            "line": 1,
+            "word": "Nord",
+            "d": 0.2
+          }
+        },
+        {
+          "at": "Londres",
+          "title": "Londres",
+          "side": "b",
+          "when": {
+            "line": 1,
+            "word": "Londres",
+            "d": 0
+          }
+        },
+        {
+          "at": "Novgorod",
+          "title": "Novgorod",
+          "side": "b",
+          "when": {
+            "line": 1,
+            "word": "Novgorod",
+            "d": 0
+          }
+        }
+      ],
+      "art": [
+        {
+          "kind": "treaty",
+          "at": {
+            "line": 0,
+            "word": "paix",
+            "d": -0.3
+          },
+          "dur": 3.8,
+          "title": "Paix de Stralsund",
+          "sub": "24 mai 1370",
+          "signers": [
+            "La Hanse",
+            "Le Danemark"
+          ],
+          "year": "1370",
+          "seal": "#C8372D"
+        }
+      ],
+      "say": [
+        "En 1370, la Hanse bat le Danemark et impose la paix de Stralsund.",
+        "Elle domine le commerce du Nord, de Londres à Novgorod."
+      ],
+      "note": "Routes approximatives"
+    },
+    {
+      "type": "map",
+      "year": "1494 · 1598",
+      "text": "Des États plus forts",
+      "focus": {
+        "box": [
+          -12,
+          47,
+          34,
+          62.6
+        ]
+      },
+      "beacon": [
+        {
+          "at": "Novgorod",
+          "when": {
+            "line": 0,
+            "word": "Novgorod",
+            "d": -0.2
+          }
+        },
+        {
+          "at": "Londres",
+          "when": {
+            "line": 0,
+            "word": "Londres",
+            "d": -0.2
+          }
+        }
+      ],
+      "pills": [
+        {
+          "at": "Novgorod",
+          "title": "Novgorod",
+          "sub": "comptoir fermé en 1494",
+          "side": "t",
+          "when": {
+            "line": 0,
+            "word": "Novgorod",
+            "d": 0
+          }
+        },
+        {
+          "at": "Londres",
+          "title": "Londres",
+          "sub": "comptoir fermé en 1598",
+          "side": "b",
+          "when": {
+            "line": 0,
+            "word": "Londres",
+            "d": 0
+          }
+        }
+      ],
+      "people": [
+        {
+          "who": "roi",
+          "outfit": "#8A93A8",
+          "at": [
+            29.2,
+            55.9
+          ],
+          "size": 190,
+          "say": "Dehors !",
+          "mood": "oops",
+          "label": {
+            "title": "Ivan III",
+            "sub": "prince de Moscou"
+          },
+          "when": {
+            "line": 0,
+            "word": "Moscou",
+            "d": -0.2
+          }
+        }
+      ],
+      "moves": [
+        {
+          "from": [
+            4.9,
+            52.4
+          ],
+          "to": [
+            -10,
+            48.2
+          ],
+          "n": 3,
+          "color": "#8A93A8",
+          "label": "Hollandais, Anglais",
+          "at": {
+            "line": 1,
+            "word": "Atlantique",
+            "d": -0.6
+          },
+          "dur": 1.8
+        }
+      ],
+      "say": [
+        "Puis les États se renforcent : Moscou ferme Novgorod en 1494, Londres en 1598.",
+        "Et le commerce part vers l’Atlantique, aux Hollandais et aux Anglais."
+      ]
+    },
+    {
+      "type": "map",
+      "text": "Une histoire en quatre dates",
+      "focus": {
+        "box": [
+          8.6,
+          52.8,
+          12.6,
+          54.8
+        ]
+      },
+      "beacon": [
+        {
+          "at": "Lübeck",
+          "when": 0.3
+        }
+      ],
+      "art": [
+        {
+          "kind": "timeline",
+          "at": {
+            "line": 0,
+            "d": 0.1
+          },
+          "dur": 4.8,
+          "title": "La Hanse",
+          "items": [
+            {
+              "year": "1159",
+              "text": "Naissance : Lübeck",
+              "color": "#C8372D"
+            },
+            {
+              "year": "1370",
+              "text": "Apogée : Stralsund",
+              "color": "#A77BE0"
+            },
+            {
+              "year": "1669",
+              "text": "Chute : la fin",
+              "color": "#8A93A8"
+            },
+            {
+              "year": "Aujourd’hui",
+              "text": "Villes hanséatiques",
+              "color": "#FFFFFF"
+            }
+          ]
+        }
+      ],
+      "pills": [
+        {
+          "at": "Lübeck",
+          "title": "Lübeck",
+          "sub": "dernière diète, 1669",
+          "side": "r",
+          "when": {
+            "line": 0,
+            "d": 5.2
+          }
+        }
+      ],
+      "say": [
+        "Née à Lübeck, la Hanse y tient sa dernière diète en 1669, avec une poignée de villes."
+      ]
+    },
+    {
+      "type": "map",
+      "year": "Aujourd’hui",
+      "text": "Ce qu’il en reste",
+      "focus": {
+        "box": [
+          7.2,
+          52.4,
+          11.8,
+          54.4
+        ]
+      },
+      "highlight": [
+        {
+          "regions": [
+            {
+              "c": "Germany",
+              "n": "Hamburg"
+            }
+          ],
+          "color": "#C8372D",
+          "at": {
+            "line": 0,
+            "word": "Hambourg",
+            "d": -0.2
+          },
+          "keep": false
+        },
+        {
+          "regions": [
+            {
+              "c": "Germany",
+              "n": "Bremen"
+            }
+          ],
+          "color": "#C8372D",
+          "at": {
+            "line": 0,
+            "word": "Brême",
+            "d": -0.2
+          },
+          "keep": false
+        }
+      ],
+      "pills": [
+        {
+          "at": "Hambourg",
+          "title": "Hambourg · HH",
+          "sub": "ville libre et hanséatique",
+          "side": "r",
+          "when": {
+            "line": 0,
+            "word": "Hambourg",
+            "d": 0.1
+          }
+        },
+        {
+          "at": "Brême",
+          "title": "Brême · HB",
+          "sub": "ville libre hanséatique",
+          "side": "b",
+          "when": {
+            "line": 0,
+            "word": "Brême",
+            "d": 0.1
+          }
+        }
+      ],
+      "labels": [
+        {
+          "text": "Allemagne",
+          "at": [
+            9.6,
+            52.7
+          ],
+          "size": 38,
+          "when": {
+            "line": 0,
+            "word": "Allemagne",
+            "d": 0
+          }
+        }
+      ],
+      "say": [
+        "Hambourg et Brême restent des villes hanséatiques, et des États de l’Allemagne.",
+        {
+          "say": "Sur leurs plaques, ache-ache et ache-bé : le H veut dire hanséatique.",
+          "show": "Sur leurs plaques, HH et HB : le H veut dire hanséatique."
+        }
+      ]
+    },
+    {
+      "type": "final",
+      "text": "La Hanse",
+      "sub": "De Londres à Novgorod",
+      "focus": {
+        "box": [
+          -3,
+          48.6,
+          34,
+          62.6
+        ]
+      },
+      "note": "Routes approximatives, frontières d’aujourd’hui",
+      "line": {
+        "points": [
+          [
+            5.32,
+            60.39
+          ],
+          [
+            4.3,
+            59.7
+          ],
+          [
+            3.3,
+            57.6
+          ],
+          [
+            2.3,
+            55.1
+          ],
+          [
+            1.8,
+            53.1
+          ],
+          [
+            1.6,
+            52
+          ],
+          [
+            1,
+            51.5
+          ],
+          [
+            -0.13,
+            51.51
+          ],
+          [
+            1.4,
+            51.38
+          ],
+          [
+            2.3,
+            51.32
+          ],
+          [
+            3.22,
+            51.21
+          ],
+          [
+            3.7,
+            51.6
+          ],
+          [
+            4.5,
+            52.6
+          ],
+          [
+            5.2,
+            53.45
+          ],
+          [
+            6.8,
+            53.75
+          ],
+          [
+            8.3,
+            53.95
+          ],
+          [
+            9.99,
+            53.55
+          ],
+          [
+            10.69,
+            53.87
+          ],
+          [
+            11.6,
+            54.3
+          ],
+          [
+            14,
+            54.8
+          ],
+          [
+            16.5,
+            56.3
+          ],
+          [
+            18.29,
+            57.64
+          ],
+          [
+            21.2,
+            58.6
+          ],
+          [
+            24.75,
+            59.44
+          ],
+          [
+            27.6,
+            60.05
+          ],
+          [
+            30.1,
+            59.95
+          ],
+          [
+            31.6,
+            60.1
+          ],
+          [
+            32.4,
+            59.9
+          ],
+          [
+            31.9,
+            59.1
+          ],
+          [
+            31.27,
+            58.52
+          ]
+        ],
+        "color": "#A77BE0",
+        "width": 8,
+        "at": {
+          "line": 1,
+          "word": "Voilà",
+          "d": 0
+        },
+        "draw": 2
+      },
+      "beacon": [
+        {
+          "at": "Lübeck",
+          "when": {
+            "line": 1,
+            "word": "Voilà",
+            "d": 0
+          }
+        }
+      ],
+      "art": [
+        {
+          "kind": "languages",
+          "at": {
+            "line": 0,
+            "d": 0.1
+          },
+          "dur": 4.6,
+          "title": "Ce qu’il en reste",
+          "items": [
+            {
+              "icon": "house",
+              "where": "Hambourg",
+              "lang": "HH",
+              "note": "Hansestadt Hamburg",
+              "color": "#C8372D"
+            },
+            {
+              "icon": "court",
+              "where": "Brême",
+              "lang": "HB",
+              "note": "Hansestadt Bremen",
+              "color": "#9E2A3A"
+            },
+            {
+              "icon": "school",
+              "where": "Lufthansa",
+              "lang": "Luft + Hansa",
+              "note": "l’air + la Hanse, nom né en 1926",
+              "color": "#8A93A8"
+            }
+          ]
+        }
+      ],
+      "say": [
+        "Même Lufthansa porte son nom : Luft veut dire air, Hansa, la Hanse.",
+        "Voilà comment des marchands ont dominé la Baltique sans roi : en s’unissant, ville après ville."
+      ]
+    }
+  ]
+}

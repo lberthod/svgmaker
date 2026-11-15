@@ -1,0 +1,5 @@
+- Alexandre : Perse avant Égypte, sprite roi, focus 18–41 / 30,6–42,5, terrain étendu, Grèce moderne retirée (Macédoine seule), flèches Issos/Perse/Égypte. (Égypte/Perse absentes de la carte : non colorées.)
+- 1453 : Turquie, Bulgarie, Macédoine du Nord en rouge, Grèce en orange à « Grèce » ; flèche avancée, art languages décalé et raccourci, icône et note corrigées.
+- 1821 : alliés, flotte, positions pastilles/rebelle ; 1830 : Othon/Athènes ; 1913 : Thessalonique 1913, Thrace orientale au groupe rouge, focus remonté pour la Crète.
+- 1947 : Dodécanèse jaune à « 1947 », timeline 3,2 s, ajout Thrace 1920, titre « Un pays qui s’agrandit ».
+- Hook : stats 3,2 s (3 000 ans / 1830), highlight à 0,3 s. Sources : faits connus (Wikipédia FR Alexandre, Dodécanèse, Thrace).

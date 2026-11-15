@@ -5,11 +5,13 @@ import { lipAnimations } from '../../kit/actors/lipsync.mjs'
 import { ACTOR_ACTIONS } from './css.mjs'
 
 /** `an(name, dur, delay, { ease, fill, iter })` → valeur de `animation:` (à joindre par des virgules). */
+// Une animation « fill: none » qui démarre à 0 s n'est pas appliquée à l'image 0 par le rendu (Chromium, temps fixé
+// à 0 alors que l'animation est en pause) : on la passe en « backwards » (aucun effet avant 0 s, la vidéo commence là).
 export const animator = (f) => (name, dur, delay, { ease = 'ease-in-out', fill = 'both', iter = 1 } = {}) =>
-  `${name} ${f(dur)}s ${ease} ${f(delay)}s ${iter === Infinity ? 'infinite' : iter} ${fill}`
+  `${name} ${f(dur)}s ${ease} ${f(delay)}s ${iter === Infinity ? 'infinite' : iter} ${fill === 'none' && f(delay) <= 0 ? 'backwards' : fill}`
 
-const ENTER = { pop: ['pop', 0.6, 'cubic-bezier(.3,1.5,.5,1)'], drop: ['dgDrop', 0.9, 'ease-out'], rise: ['dgRise', 0.8, 'ease-out'], 'slide-left': ['dgSlideL', 0.7, 'ease-out'], 'slide-right': ['dgSlideR', 0.7, 'ease-out'], fade: ['fadeIn', 0.5, 'ease-out'] }
-const EXIT = { fade: 'out', pop: 'dgPopOut', drop: 'dgDropOut', 'slide-left': 'dgSlideLOut', 'slide-right': 'dgSlideROut' }
+export const ENTER = { pop: ['pop', 0.6, 'cubic-bezier(.3,1.5,.5,1)'], drop: ['dgDrop', 0.9, 'ease-out'], rise: ['dgRise', 0.8, 'ease-out'], 'slide-left': ['dgSlideL', 0.7, 'ease-out'], 'slide-right': ['dgSlideR', 0.7, 'ease-out'], fade: ['fadeIn', 0.5, 'ease-out'] }
+export const EXIT = { fade: 'out', pop: 'dgPopOut', drop: 'dgDropOut', 'slide-left': 'dgSlideLOut', 'slide-right': 'dgSlideROut' }
 
 /** Keyframes d'ouverture de la pose talk pour une réplique (marche/arrêt, avec hystérésis), ou bat sans enveloppe. */
 function talkOpacity(E, uid, i, l) {

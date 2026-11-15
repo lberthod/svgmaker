@@ -1,0 +1,4 @@
+# Boucle 2 : 38-alsace-lorraine
+- Faits : hook « 4 changements de pays en 75 ans », art stats du hook supprimé ; year « 1552 à 1681 » ; « droits des Habsbourg » (1648) ; 1871 « cède l’Alsace et la Moselle actuelle » ; 1944-45 avec Metz et Strasbourg (pill Metz) ; Concordat/Vendredi saint « Alsace-Moselle » + explications dites ; cause 1914 à 1918 ; hook « alsacien ou francique ».
+- Carto : couleur par propriétaire (France bleu, Allemagne orange), keep:false partout, highlights at 0.3/0.55/0.8 ; labels Alsace et Moselle ; personnages size 160-170 hors zone (ouest) ; soldat libérateur 1944, occupant « de » 1940, paysan 1942 ; moves n réduit ; Colmar calé sur « début » ; split sub « de la France à l’Allemagne » ; timeline dur 4.
+- Sources : aucune nouvelle recherche web (faits issus des rapports d’audit).

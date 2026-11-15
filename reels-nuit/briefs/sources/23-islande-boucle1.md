@@ -1,0 +1,21 @@
+# 23-islande, boucle 1 (corrections)
+- 23-1 : scène 5 year « 1262 – 1814 » devient « 1262 – 1918 » ; 1814 retiré.
+- 23-1/23-5 : stats « 390 000 locuteurs » supprimé ; scène langue remplacée par un art bars « þ ð » et « tölva » en grand (23-5), dur 7 (23-4/23-5).
+- 23-1 : superficie 103000 km², voix « deux fois et demie » ; population 394000 ; libellés raccourcis (23-2).
+- 23-1 : « sans effort » devient « assez facilement » ; « presque inchangée/même » devient « très proche » (scènes 1, 4, 8, finale).
+- 23-1 : move colons, label « Colons norvégiens, celtes » (limite 28 car.).
+- 23-1/23-3/23-5 : pastilles Akureyri supprimées (scènes 4 et 8) ; pastille Reykjavik de la scène sagas retirée (23-5).
+- 23-2/23-3/23-5 : scène 2 : marin en mer [-16,61.8] sur « Ingólfur », pastille Reykjavik side r, label Norvège [5,63], focus.box [-28,59.5,9,67.5].
+- 23-4 : scène 2 move at « installent », dur 2,6.
+- 23-2/23-3/23-5 : scène 3 : Thingvellir side t sans sub, beacon sur Thingvellir, pastille Reykjavik supprimée, Océan Atlantique [-24.4,63.3], chef when ligne 1 +0,3, titre « L’Althing, parlement en plein air » (crénage).
+- 23-2/23-4 : scène 4 : auteur [-19,65.4], when ligne 0 +0,8.
+- 23-2/23-3/23-5 : scène 5 : titre « Norvège, puis Danemark », focus.box [-28,54,18.5,67.8], labels Norvège [8,63.4] et Danemark [9.6,55.4], Copenhague side r, label du move Norvège retiré, moves recalés (« chefs », « couronne » -0,2, dur 2,6).
+- 23-2/23-3/23-4/23-5 : scène 6 : roi remplacé par paysan « Nous sommes libres ! », label « Fête nationale 17 juin », when ligne 1 ; pastille Thingvellir supprimée ; Reykjavik when ligne 0 +0,5.
+- demande : Iceland coloriée (highlight jaune) dans toutes les scènes.
+- demande : terrain[0] [-31,27,40,76] px 3000 z 6 ; terrain[1] [-28.4,53.6,18.9,68.2] px 2800.
+- Durée : 99,7 s avant, scène frise « Mille ans d’histoire » supprimée (répétition, 23-5) : 88,7 s.
+## Non appliqué
+- 23-1 item 3 (1380 sur l’écran) : écarté, frise supprimée ; 1262 – 1918 suffit.
+- Reykholt (23-1) : sans lien avec la voix.
+- 23-2 sub hook supprimé : gardé (le titre ne nomme pas l’Islande).
+- 23-4 punch final, Ken Burns : générateur.

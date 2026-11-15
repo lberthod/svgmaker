@@ -12,6 +12,7 @@
 // 24.5–27.6  Roussin          ventre rond, il le tapote : « Mon ventre est content ! »
 // 27.6–30.0  plan large      carton
 import { writeFileSync } from 'node:fs';
+import { timeBadge } from '../lib/badge.mjs';
 import { W, H, INK, lines, sfxEv, an, ao, vis, sfx, fox, rabbit, put, style, addKF, track, ss } from '../lib/kit.mjs';
 import { makeCam, say, card } from '../lib/props.mjs';
 import { wallClock } from '../lib/classroom.mjs';
@@ -130,21 +131,22 @@ const fx =
   sfx('GROOOUUU...', 560, 520, 4.6, 1.2, -6, '#b57bff', 56, 'tummy') +
   say('fox', "J'ai trop faim !", 4.9, 1.4, { bx: 900, by: 230, tips: [[960, 330]] }) +
   say('rab', 'Soupe de carottes !', 7.0, 1.4, { bx: 720, by: 140, tips: [[864, 190]] }) +
-  say('fox', "Des carottes ?... Je n'aime pas ça...", 9.9, 2.4, { bx: 640, by: 120, tips: [[560, 250]] }) +
-  say('rab', 'Goûte juste une cuillère !', 12.6, 2.1, { bx: 450, by: 85, tips: [[608, 150]] }) +
+  say('fox', 'Je n’aime pas ça !', 9.9, 2.2, { bx: 640, by: 130, tips: [[560, 250]] }) +
+  say('rab', 'Goûte juste une cuillère !', 12.6, 2.1, { bx: 760, by: 110, tips: [[560, 200]] }) +
   sfx('GLOUP', 980, 260, 16.95, 0.35, 8, '#ff9f43', 60, 'click') +
-  say('fox', 'Mmm !', 17.3, 1.2, { bx: 1030, by: 300, fs: 44, tips: [[920, 420]], shout: true }) +
+  say('fox', 'C’est bon !', 17.3, 1.2, { bx: 1030, by: 300, fs: 44, tips: [[920, 420]], shout: true }) +
   sfx('SLURP SLURP !', 640, 140, 18.7, 1.8, -6, '#ff9f43', 70, 'slide') +
   sfx('Ahh !', 620, 215, 20.7, 0.9, -6, '#ff9f43', 52, 'yawn') +
   say('fox', 'Encore !', 21.8, 1.6, { bx: 400, by: 180, tips: [[440, 255]], shout: true }) +
   say('fox', 'Mon ventre est content !', 25.0, 1.8, { bx: 550, by: 110, tips: [[480, 250]] }) +
-  say('rab', 'Hi hi !', 26.5, 1.0, { bx: 1155, by: 410, tips: [[1045, 455]] }) +
+  say('rab', 'Tu as tout mangé !', 26.5, 1.0, { bx: 1155, by: 410, tips: [[1045, 455]] }) +
   card(27.6, 'Le souper !', 'les devoirs', 640, 140);
 
 const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" data-duration="${DUR}" data-fps="30">
 <style>${style()}</style>
 <rect width="${W}" height="${H}" fill="#fff4dc"/>
 <g style="${camStyle}">${world}</g>
+${timeBadge(18, 30)}
 ${fx}
 </svg>`;
 sfxEv.push({ name: 'clink', t: 7.7 }, { name: 'clink', t: 23.3 }, { name: 'chime', t: 17.3 }, { name: 'clink', t: 20.6 }, { name: 'chime', t: 25.2 });

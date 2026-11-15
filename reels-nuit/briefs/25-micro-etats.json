@@ -1,0 +1,1112 @@
+{
+ "format": "atlas",
+ "id": "atlas-micro-etats",
+ "base": {
+  "countries": [
+   "Andorra",
+   "Liechtenstein",
+   "Monaco",
+   "San Marino"
+  ]
+ },
+ "terrain": [
+  {
+   "box": [
+    -14,
+    27,
+    40,
+    76
+   ],
+   "px": 3000,
+   "z": 6
+  },
+  {
+   "box": [
+    -1.9,
+    40.1,
+    14.9,
+    49.2
+   ],
+   "px": 2800,
+   "z": 8
+  }
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "text": "Cinq minuscules pays d’Europe",
+   "sub": "Les micro-États d’Europe",
+   "focus": {
+    "box": [
+     -0.5,
+     40.6,
+     14.5,
+     48.4
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Andorra"
+     ],
+     "color": "#E8503A",
+     "at": 0.7,
+     "keep": false
+    },
+    {
+     "countries": [
+      "Liechtenstein"
+     ],
+     "color": "#4FA3E0",
+     "at": 0.7999999999999999,
+     "keep": false
+    },
+    {
+     "countries": [
+      "Monaco"
+     ],
+     "color": "#B45AE0",
+     "at": 0.8999999999999999,
+     "keep": false
+    },
+    {
+     "countries": [
+      "San Marino"
+     ],
+     "color": "#3E9A63",
+     "at": 1,
+     "keep": false
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      1.522,
+      42.507
+     ],
+     "title": "Andorre",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "Andorre"
+     }
+    },
+    {
+     "at": [
+      9.521,
+      47.141
+     ],
+     "title": "Liechtenstein",
+     "side": "t",
+     "when": {
+      "line": 0,
+      "word": "Liechtenstein",
+      "d": 0.2
+     }
+    },
+    {
+     "at": [
+      7.42,
+      43.738
+     ],
+     "title": "Monaco",
+     "side": "l",
+     "when": {
+      "line": 0,
+      "word": "Monaco",
+      "d": 0.3
+     }
+    },
+    {
+     "at": [
+      12.447,
+      43.936
+     ],
+     "title": "Saint-Marin",
+     "side": "t",
+     "when": {
+      "line": 0,
+      "word": "Saint-Marin",
+      "d": 0.2
+     }
+    },
+    {
+     "at": [
+      12.453,
+      41.903
+     ],
+     "title": "Vatican",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "Vatican",
+      "d": 0.2
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      1.522,
+      42.507
+     ],
+     "when": 0.5
+    },
+    {
+     "at": [
+      9.521,
+      47.141
+     ],
+     "when": 0.6
+    },
+    {
+     "at": [
+      7.42,
+      43.738
+     ],
+     "when": 0.7
+    },
+    {
+     "at": [
+      12.447,
+      43.936
+     ],
+     "when": 0.8
+    },
+    {
+     "at": [
+      12.453,
+      41.903
+     ],
+     "when": 0.9
+    }
+   ],
+   "art": [
+    {
+     "kind": "stats",
+     "at": {
+      "line": 1,
+      "word": "couvre",
+      "d": 0
+     },
+     "dur": 4.5,
+     "title": "Tailles comparées",
+     "items": [
+      {
+       "value": 468,
+       "suffix": " km²",
+       "label": "Andorre",
+       "color": "#E8503A"
+      },
+      {
+       "value": 160,
+       "suffix": " km²",
+       "label": "Liechtenstein",
+       "color": "#4FA3E0"
+      },
+      {
+       "value": 61,
+       "suffix": " km²",
+       "label": "Saint-Marin",
+       "color": "#3E9A63"
+      },
+      {
+       "value": 2,
+       "suffix": " km²",
+       "label": "Monaco",
+       "color": "#B45AE0"
+      },
+      {
+       "value": 0.44,
+       "decimals": 2,
+       "suffix": " km²",
+       "label": "Vatican",
+       "color": "#FFD83C"
+      }
+     ]
+    }
+   ],
+   "say": [
+    "Andorre, Liechtenstein, Monaco, Saint-Marin, Vatican : cinq minuscules pays d’Europe.",
+    "Le plus grand couvre 468 kilomètres carrés, le Vatican moins d’un."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1278",
+   "text": "Andorre : deux princes",
+   "focus": {
+    "box": [
+     0.3,
+     42,
+     2.8,
+     43
+    ]
+   },
+   "highlight": {
+    "countries": [
+     "Andorra"
+    ],
+    "color": "#E8503A",
+    "at": {
+     "line": 0,
+     "d": 0.3
+    },
+    "keep": false
+   },
+   "people": [
+    {
+     "who": "roi",
+     "at": [
+      0.85,
+      42.75
+     ],
+     "size": 230,
+     "say": "Deux coprinces",
+     "label": {
+      "title": "Évêque et comte"
+     },
+     "when": {
+      "line": 0,
+      "word": "évêque"
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "France",
+     "at": [
+      1.8,
+      42.85
+     ],
+     "size": 38,
+     "when": 0.6
+    },
+    {
+     "text": "Espagne",
+     "at": [
+      1,
+      42.1
+     ],
+     "size": 38,
+     "when": 0.9
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      1.522,
+      42.507
+     ],
+     "title": "Andorre",
+     "side": "l",
+     "when": {
+      "line": 0,
+      "word": "vallées"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      1.522,
+      42.507
+     ],
+     "when": 0.4
+    }
+   ],
+   "say": [
+    "En 1278, un évêque espagnol et un comte français se partagent le pouvoir sur les vallées d’Andorre.",
+    "Aujourd’hui encore, l’évêque d’Urgell et le président français sont coprinces."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1719",
+   "text": "Le Liechtenstein, une principauté",
+   "focus": {
+    "box": [
+     8.5,
+     46.6,
+     10.3,
+     47.7
+    ]
+   },
+   "highlight": {
+    "countries": [
+     "Liechtenstein"
+    ],
+    "color": "#4FA3E0",
+    "at": {
+     "line": 0,
+     "d": 0.3
+    },
+    "keep": false
+   },
+   "people": [
+    {
+     "who": "roi",
+     "at": [
+      10.1,
+      46.7
+     ],
+     "size": 230,
+     "say": "Une principauté !",
+     "label": {
+      "title": "Empereur Charles VI"
+     },
+     "when": {
+      "line": 0,
+      "word": "réunit"
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Suisse",
+     "at": [
+      8.8,
+      46.9
+     ],
+     "size": 38,
+     "when": 0.7
+    },
+    {
+     "text": "Autriche",
+     "at": [
+      10.2,
+      47.2
+     ],
+     "size": 38,
+     "when": 1
+    },
+    {
+     "text": "1806 : souverain",
+     "at": [
+      8.6,
+      47.55
+     ],
+     "size": 36,
+     "when": {
+      "line": 1,
+      "word": "Souverain"
+     }
+    },
+    {
+     "text": "1868 : sans armée",
+     "at": [
+      8.6,
+      47.45
+     ],
+     "size": 36,
+     "when": {
+      "line": 1,
+      "word": "armée"
+     }
+    },
+    {
+     "text": "1924 : douane",
+     "at": [
+      8.6,
+      47.35
+     ],
+     "size": 36,
+     "when": {
+      "line": 1,
+      "word": "union"
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      9.521,
+      47.141
+     ],
+     "title": "Vaduz",
+     "side": "t",
+     "when": {
+      "line": 0,
+      "word": "Liechtenstein"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      9.521,
+      47.141
+     ],
+     "when": 0.4
+    }
+   ],
+   "say": [
+    {
+     "say": "En 1719, l’empereur Charles six réunit Vaduz et Schellenberg : naît la principauté de Liechtenstein.",
+     "show": "En 1719, l’empereur Charles VI réunit Vaduz et Schellenberg : naît la principauté de Liechtenstein."
+    },
+    "Souverain en 1806, sans armée en 1868, en union douanière avec la Suisse en 1924."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1297",
+   "text": "Monaco : le Rocher des Grimaldi",
+   "focus": {
+    "box": [
+     7,
+     43.55,
+     7.85,
+     43.95
+    ]
+   },
+   "people": [
+    {
+     "who": "savant",
+     "at": [
+      7.12,
+      43.82
+     ],
+     "size": 230,
+     "outfit": "#5B3A1E",
+     "say": "Ouvrez la porte !",
+     "label": {
+      "title": "François Grimaldi"
+     },
+     "when": {
+      "line": 0,
+      "word": "légende"
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "France",
+     "at": [
+      7.1,
+      43.9
+     ],
+     "size": 38,
+     "when": 0.7
+    },
+    {
+     "text": "Italie",
+     "at": [
+      7.7,
+      43.85
+     ],
+     "size": 38,
+     "when": 1
+    },
+    {
+     "text": "1861",
+     "at": [
+      7.62,
+      43.69
+     ],
+     "size": 40,
+     "when": {
+      "line": 1,
+      "word": "traité"
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      7.42,
+      43.738
+     ],
+     "title": "Monaco",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "Rocher"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      7.42,
+      43.738
+     ],
+     "when": 0.4
+    }
+   ],
+   "say": [
+    "Selon la légende, en 1297, François Grimaldi, déguisé en moine franciscain, s’empare du Rocher de Monaco.",
+    "Sa famille règne encore, et un traité de 1861 avec la France reconnaît la souveraineté du pays."
+   ],
+   "highlight": {
+    "countries": [
+     "Monaco"
+    ],
+    "color": "#B45AE0",
+    "at": {
+     "line": 0,
+     "word": "Rocher",
+     "d": -0.3
+    },
+    "keep": true
+   }
+  },
+  {
+   "type": "map",
+   "year": "301",
+   "text": "Saint-Marin : la plus vieille république",
+   "focus": {
+    "box": [
+     11.9,
+     43.5,
+     13.1,
+     44.4
+    ]
+   },
+   "highlight": {
+    "countries": [
+     "San Marino"
+    ],
+    "color": "#3E9A63",
+    "at": {
+     "line": 0,
+     "d": 0
+    },
+    "keep": true
+   },
+   "people": [
+    {
+     "who": "ouvrier",
+     "at": [
+      11.98,
+      44.25
+     ],
+     "size": 230,
+     "say": "Un refuge sur la montagne",
+     "label": {
+      "title": "Marin, tailleur"
+     },
+     "when": {
+      "line": 0,
+      "word": "tailleur"
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Italie",
+     "at": [
+      12.15,
+      43.65
+     ],
+     "size": 40,
+     "when": 0.7
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      12.447,
+      43.936
+     ],
+     "title": "Saint-Marin",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "Marin"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      12.447,
+      43.936
+     ],
+     "when": 0.4
+    }
+   ],
+   "say": [
+    "Selon la tradition, le tailleur de pierre Marin fonde en 301 une communauté sur le mont Titano.",
+    "C’est la plus ancienne république du monde encore en activité."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1870 – 1929",
+   "text": "Le Vatican, État du pape",
+   "focus": {
+    "box": [
+     12.2,
+     41.75,
+     12.7,
+     42.05
+    ]
+   },
+   "people": [
+    {
+     "who": "soldat",
+     "at": [
+      12.28,
+      41.98
+     ],
+     "size": 220,
+     "outfit": "#E8A33C",
+     "say": "Garde suisse",
+     "label": {
+      "title": "Garde suisse"
+     },
+     "when": {
+      "line": 0,
+      "word": "Rome",
+      "d": 0
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Italie",
+     "at": [
+      12.6,
+      42
+     ],
+     "size": 40,
+     "when": 0.7
+    },
+    {
+     "text": "Rome",
+     "at": [
+      12.62,
+      41.83
+     ],
+     "size": 36,
+     "when": {
+      "line": 0,
+      "word": "Rome"
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      12.453,
+      41.903
+     ],
+     "title": "Vatican",
+     "side": "t",
+     "when": {
+      "line": 0,
+      "word": "Italie"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      12.453,
+      41.903
+     ],
+     "when": 0.4
+    }
+   ],
+   "say": [
+    "En 1870, l’Italie prend Rome et met fin aux États du pape.",
+    "En 1929, un traité fait du Vatican, enclavé dans Rome, le plus petit État du monde."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "Aujourd’hui",
+   "text": "Cinq pays, plusieurs langues",
+   "focus": {
+    "box": [
+     0,
+     41.5,
+     13.5,
+     48
+    ]
+   },
+   "art": [
+    {
+     "kind": "languages",
+     "at": {
+      "line": 0,
+      "d": 0.2
+     },
+     "dur": 5.5,
+     "title": "Les langues officielles",
+     "items": [
+      {
+       "icon": "court",
+       "where": "Andorre",
+       "lang": "Catalan",
+       "color": "#E8503A"
+      },
+      {
+       "icon": "school",
+       "where": "Liechtenstein",
+       "lang": "Allemand",
+       "color": "#4FA3E0"
+      },
+      {
+       "icon": "house",
+       "where": "Monaco",
+       "lang": "Français",
+       "color": "#B45AE0"
+      },
+      {
+       "icon": "court",
+       "where": "Saint-Marin",
+       "lang": "Italien",
+       "color": "#3E9A63"
+      },
+      {
+       "icon": "school",
+       "where": "Vatican",
+       "lang": "Italien, latin",
+       "color": "#FFD83C"
+      }
+     ]
+    }
+   ],
+   "say": [
+    "Andorre parle catalan, le Liechtenstein allemand, Monaco français,",
+    "Saint-Marin italien, et le Vatican italien et latin."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "301 – 1929",
+   "text": "Pourquoi ils existent encore",
+   "focus": {
+    "box": [
+     -1.5,
+     40.5,
+     14.5,
+     48.8
+    ]
+   },
+   "art": [
+    {
+     "kind": "timeline",
+     "at": {
+      "line": 0,
+      "d": 0.1
+     },
+     "dur": 4,
+     "title": "Cinq histoires",
+     "items": [
+      {
+       "year": "301",
+       "text": "Saint-Marin : tradition"
+      },
+      {
+       "year": "1278",
+       "text": "Andorre : pacte"
+      },
+      {
+       "year": "1297",
+       "text": "Monaco : légende"
+      },
+      {
+       "year": "1719",
+       "text": "Liechtenstein"
+      },
+      {
+       "year": "1929",
+       "text": "Vatican : traité"
+      }
+     ]
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      4,
+      46
+     ],
+     "to": [
+      7.42,
+      43.738
+     ],
+     "n": 2,
+     "color": "#A9C8E8",
+     "label": "France",
+     "at": {
+      "line": 1,
+      "word": "France"
+     },
+     "dur": 2
+    },
+    {
+     "from": [
+      12.2,
+      42.9
+     ],
+     "to": [
+      12.447,
+      43.936
+     ],
+     "n": 2,
+     "color": "#F2B27A",
+     "label": "Italie",
+     "at": {
+      "line": 1,
+      "word": "Italie"
+     },
+     "dur": 2
+    },
+    {
+     "from": [
+      7,
+      46.6
+     ],
+     "to": [
+      9.521,
+      47.141
+     ],
+     "n": 1,
+     "color": "#F28FB0",
+     "label": "Suisse",
+     "at": {
+      "line": 1,
+      "word": "Suisse"
+     },
+     "dur": 2
+    },
+    {
+     "from": [
+      -1,
+      41.2
+     ],
+     "to": [
+      1.522,
+      42.507
+     ],
+     "n": 2,
+     "color": "#D8C26A",
+     "label": "Espagne",
+     "at": {
+      "line": 1,
+      "word": "Espagne"
+     },
+     "dur": 2
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      7.42,
+      43.738
+     ],
+     "when": {
+      "line": 1,
+      "word": "France"
+     }
+    },
+    {
+     "at": [
+      12.447,
+      43.936
+     ],
+     "when": {
+      "line": 1,
+      "word": "Italie"
+     }
+    },
+    {
+     "at": [
+      9.521,
+      47.141
+     ],
+     "when": {
+      "line": 1,
+      "word": "Suisse"
+     }
+    },
+    {
+     "at": [
+      1.522,
+      42.507
+     ],
+     "when": {
+      "line": 1,
+      "word": "Espagne"
+     }
+    }
+   ],
+   "say": [
+    "Chacun doit sa survie à un traité ou à une tradition ancienne.",
+    "Et leurs grands voisins, la France, l’Italie, la Suisse, l’Espagne, ne les ont jamais absorbés."
+   ]
+  },
+  {
+   "type": "final",
+   "text": "Petits, mais pleins de vie",
+   "sub": "Les micro-États d’Europe",
+   "focus": {
+    "box": [
+     -0.5,
+     40.6,
+     14.5,
+     48.4
+    ]
+   },
+   "people": [
+    {
+     "who": "savant",
+     "at": [
+      3.5,
+      46.5
+     ],
+     "size": 260,
+     "say": "Et voilà !",
+     "wave": true,
+     "when": 0.8
+    }
+   ],
+   "say": [
+    "Voilà pourquoi ces cinq micro-États existent encore.",
+    "Et voici les noms de ces cinq pays :"
+   ],
+   "highlight": [
+    {
+     "countries": [
+      "Andorra"
+     ],
+     "color": "#E8503A",
+     "at": 0.3,
+     "keep": true
+    },
+    {
+     "countries": [
+      "Liechtenstein"
+     ],
+     "color": "#4FA3E0",
+     "at": 0.3,
+     "keep": true
+    },
+    {
+     "countries": [
+      "Monaco"
+     ],
+     "color": "#B45AE0",
+     "at": 0.3,
+     "keep": true
+    },
+    {
+     "countries": [
+      "San Marino"
+     ],
+     "color": "#3E9A63",
+     "at": 0.3,
+     "keep": true
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      1.522,
+      42.507
+     ],
+     "when": 0.3
+    },
+    {
+     "at": [
+      9.521,
+      47.141
+     ],
+     "when": 0.44999999999999996
+    },
+    {
+     "at": [
+      7.42,
+      43.738
+     ],
+     "when": 0.6
+    },
+    {
+     "at": [
+      12.447,
+      43.936
+     ],
+     "when": 0.75
+    },
+    {
+     "at": [
+      12.453,
+      41.903
+     ],
+     "when": 0.8999999999999999
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      1.522,
+      42.507
+     ],
+     "title": "Andorre",
+     "side": "b",
+     "when": {
+      "line": 1,
+      "word": "noms",
+      "d": 0.15
+     }
+    },
+    {
+     "at": [
+      9.521,
+      47.141
+     ],
+     "title": "Liechtenstein",
+     "side": "t",
+     "when": {
+      "line": 1,
+      "word": "noms",
+      "d": 0.55
+     }
+    },
+    {
+     "at": [
+      7.42,
+      43.738
+     ],
+     "title": "Monaco",
+     "side": "l",
+     "when": {
+      "line": 1,
+      "word": "noms",
+      "d": 0.9500000000000001
+     }
+    },
+    {
+     "at": [
+      12.447,
+      43.936
+     ],
+     "title": "Saint-Marin",
+     "side": "t",
+     "when": {
+      "line": 1,
+      "word": "noms",
+      "d": 1.35
+     }
+    },
+    {
+     "at": [
+      12.453,
+      41.903
+     ],
+     "title": "Vatican",
+     "side": "b",
+     "when": {
+      "line": 1,
+      "word": "noms",
+      "d": 1.75
+     }
+    }
+   ]
+  }
+ ]
+}

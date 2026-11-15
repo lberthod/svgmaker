@@ -1,6 +1,7 @@
 // Roussin & Lino vont à l'école — 30 s, 1280x720, 4 scènes en plans coupés.
 // Génère cartoon-ecole.svg + timeline.json (répliques et effets pour audio.py).
 import { writeFileSync } from 'node:fs';
+import { timeBadge } from '../renard-lapin/lib/badge.mjs';
 
 const W = 1280, H = 720;
 const INK = '#3a2418';
@@ -22,7 +23,7 @@ const esc = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;');
 // bulle de BD : (x,y) = pointe de la queue, juste au-dessus de la tête
 function bub(who, text, x, y, t0, dur, shout = false, local = false) {
   lines.push({ who, t0, t1: t0 + dur, text });
-  const fs = shout ? 42 : 34, w = text.length * fs * 0.56 + 56, h = fs + 34;
+  const fs = shout ? 46 : 38, w = text.length * fs * 0.56 + 56, h = fs + 34;
   const cx = local ? x : Math.min(Math.max(x, w / 2 + 14), W - 14 - w / 2), rel = cx - x;
   const fill = shout ? '#fff36b' : '#ffffff';
   return `<g transform="translate(${x} ${y})"><g style="${an({ n: 'pop', d: dur, t: t0, f: 'both' })}">
@@ -357,7 +358,7 @@ const s1 = scene(T1, T1e, tf(`
   vis(2.3, 3.9, `<g transform="translate(300 505)"><g style="transform-origin:0 0;${an({ n: 'wake', d: 0.5, t: 2.3, f: 'both' })}">
     ${shake(tf(rabbit({ talk: [[2.55, 3.8]], mood: 'panic', sweatWin: [2.5, 3.9], noBag: true }), { t0: 3.4, d: 0.45, from: 'scale(1,1)', to: 'scale(1.22,.74)' }), 2.6, 0.7, 2)}</g></g>
     <g transform="translate(490 296)"><g style="${an({ n: 'sfxk', d: 1.4, t: 2.35, f: 'both' })}"><text class="sfx" style="font-size:110px;fill:#e8434e">!!</text></g></g>`) +
-  bub('rab', 'Oh non ! 8h25 !!', 345, 175, 2.5, 1.4, true) +
+  bub('rab', 'Non ! Il est 8 h 25 !!', 400, 205, 2.5, 1.4, true) +
   // Lino file (3.9 → 5.6)
   vis(3.9, T1e, tf(
     `<g style="${an({ n: 'leapk', d: 0.7, t: 3.9, f: 'both' })}">${put(0, 0, 1.2, rabbit({ run: [4.55, 5.55], runExtra: [[4.55, 5.55]], jumps: [[3.9, 4.55, 0]], talk: [], mood: 'panic' }))}</g>`,
@@ -391,9 +392,9 @@ const s2 = scene(T2, T2e, tf(`
     { t0: T2, d: 0.9, from: 'translate(-260px,612px)', to: 'translate(400px,612px)', e: 'cubic-bezier(.2,.3,.4,1)' })) +
   // dérapage Lino → poussière
   vis(6.45, 7.2, `<g transform="translate(500 606)">${[0, 1, 2, 3, 4].map((i) => `<g style="${an({ n: 'dustk', d: 0.55, t: 6.5 + i * 0.05 })}"><circle cx="${-i * 26}" cy="${-i * 6}" r="${26 - i * 2}" fill="#e6e9ee" stroke="#b9c0c9" stroke-width="3"/></g>`).join('')}</g>`) +
-  sfx('SCRIIITCH !', 290, 110, 6.2, 1.1, -6, '#ff9a3d', 70, 'skid') +
+  sfx('SCRIIITCH !', 470, 110, 6.2, 1.1, -6, '#ff9a3d', 70, 'skid') +
   bub('fox', 'Salut ! Tu cours ?', 760, 232, 6.7, 1.3) +
-  bub('rab', "8h30 !! L'ÉCOLE !!", 440, 165, 8.0, 1.5, true) +
+  bub('rab', "8h30 !! L'ÉCOLE !!", 440, 200, 8.0, 1.5, true) +
   // oiseau voleur
   vis(0, 10.35, `<g transform="translate(1130 196) scale(2.2)"><ellipse rx="22" ry="16" fill="#e8434e" stroke="${INK}" stroke-width="3.5"/><circle cx="-18" cy="-8" r="12" fill="#e8434e" stroke="${INK}" stroke-width="3.5"/><polygon points="-28,-8 -40,-4 -28,-1" fill="#ffb300" stroke="${INK}" stroke-width="2.5"/><circle cx="-21" cy="-10" r="3" fill="${INK}"/></g>`) +
   vis(10.3, 99, tf(tf(`<g transform="scale(2.2)"><g style="transform-origin:0 0;${an({ n: 'flap', d: 0.12, t: 10.3, c: 999, dir: 'alternate' })}"><ellipse rx="22" ry="14" fill="#e8434e" stroke="${INK}" stroke-width="3.5"/><circle cx="-18" cy="-6" r="12" fill="#e8434e" stroke="${INK}" stroke-width="3.5"/><polygon points="-28,-6 -40,-3 -28,0" fill="#ffb300" stroke="${INK}" stroke-width="2.5"/><circle cx="-21" cy="-8" r="3" fill="${INK}"/><path d="M0 -4 Q18 -50 36 -26 Q16 -10 6 2Z" fill="#b8232d" stroke="${INK}" stroke-width="3"/></g></g>
@@ -459,10 +460,10 @@ const s3 = scene(T3, T3e, `
   vis(14.65, 15.55, `<g transform="translate(${FOX_X + 20} 610)">${Array.from({ length: 10 }, (_, i) => `<g style="--dx:${(i - 5) * 26}px;--dy:${-130 - (i % 3) * 40}px;${an({ n: 'drop', d: 0.8, t: 14.65, f: 'both', e: 'ease-out' })}"><circle r="${8 - (i % 3)}" fill="#8fd3ff" stroke="${INK}" stroke-width="2.5"/></g>`).join('')}</g>`) +
   sfx('SPLASH !', FOX_X - 140, 300, 14.65, 1.0, -12, '#6ee7ff', 84, 'splash') +
   bub('rab', 'Attention, flaque !', RAB_X + 40, 195, 13.0, 1.0, true) +
-  bub('fox', 'Brrr ! Mes chaussettes !', FOX_X + 20, 255, 15.5, 1.3) +
+  bub('fox', 'Mes chaussettes sont mouillées !', FOX_X + 20, 255, 15.5, 1.3) +
   bub('rab', 'Saute ! Saute !', RAB_X + 40, 195, 17.5, 0.45, true) +
   bub('fox', 'Pardon, madame...', FOX_X + 60, 150, 18.2, 0.7) +
-  sfx('DRING !', 300, 120, 19.5, 1.5, 6, '#ffd23f', 90, 'bell') +
+  sfx('DRING !', 470, 130, 19.5, 1.5, 6, '#ffd23f', 90, 'bell') +
   bub('rab', 'La cloche !! Vite !!', RAB_X + 40, 195, 19.75, 1.35, true)
 );
 
@@ -508,11 +509,11 @@ const s4 = scene(T4, 99, `
     { t0: T4, d: 1.7, from: 'translate(-910px,614px)', to: 'translate(390px,614px)', e: 'linear' })) +
   vis(23.2, 24.0, `<g transform="translate(700 606)">${[0, 1, 2, 3, 4].map((i) => `<g style="${an({ n: 'dustk', d: 0.6, t: 23.2 + i * 0.05 })}"><circle cx="${-i * 28}" cy="${-i * 5}" r="${28 - i * 2}" fill="#f3e6c8" stroke="#d6c39a" stroke-width="3"/></g>`).join('')}</g>`) +
   sfx('SCRIIITCH !', 470, 668, 22.95, 1.1, -6, '#ff9a3d', 60, 'skid') +
-  bub('rab', 'Ouf !!', 630, 170, 23.9, 1.0, true) +
+  bub('rab', 'Enfin !!', 630, 170, 23.9, 1.0, true) +
   bub('owl', '8h29 et 59 secondes !', 1020, 322, 24.9, 1.9) +
   sfx('DRING !', 720, 112, 26.15, 1.3, 6, '#ffd23f', 90, 'bell') +
   bub('owl', 'Bravo, pile à l\'heure !', 1020, 322, 26.8, 1.5) +
-  `<g style="${an({ n: 'cardk', d: 0.6, t: 27.6, f: 'both', e: 'cubic-bezier(.2,1.6,.4,1)' })}"><g transform="translate(330 72) scale(.76)">
+  `<g style="${an({ n: 'cardk', d: 0.6, t: 27.6, f: 'both', e: 'cubic-bezier(.2,1.6,.4,1)' })}"><g transform="translate(680 130) scale(.76)">
     <rect x="-279" y="-76" width="570" height="168" rx="30" fill="#000" opacity=".22" transform="rotate(-1.5)"/><rect x="-285" y="-84" width="570" height="168" rx="30" fill="#fff" stroke="${INK}" stroke-width="7" transform="rotate(-1.5)"/>
     <text y="4" class="sfx" style="font-size:68px;fill:#e8434e;stroke:#fff;stroke-width:0">Roussin &amp; Lino</text>
     <text y="58" class="bt" style="font-size:38px;fill:#2b5ba8">vont à l'école !</text></g></g>`;
@@ -559,6 +560,7 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" wid
 <style>${style}</style>
 ${S1}${shake(s2, 6.45, 0.3, 6)}${tf(s3, { t0: T3, d: T3e - T3, from: 'scale(1)', to: 'scale(1.05)', o: '640px 420px', e: 'linear' })}${shake(s4, 23.3, 0.3, 5)}
 ${[T2, T3, T4].map((t) => tf(`<polygon points="0,0 1500,0 1600,720 100,720" fill="#fff6d6"/>`, { t0: t - 0.2, d: 0.4, from: 'translate(-1700px,0px)', to: 'translate(1400px,0px)', e: 'linear' })).join('')}
+${timeBadge(8, 25)}
 </svg>`;
 writeFileSync(new URL('./cartoon-ecole.svg', import.meta.url), svg);
 writeFileSync(new URL('./timeline.json', import.meta.url), JSON.stringify({ lines, sfx: sfxEv }, null, 1));

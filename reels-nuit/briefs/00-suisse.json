@@ -1,0 +1,803 @@
+{
+  "format": "atlas",
+  "id": "atlas-suisse-4-langues",
+  "terrain": [
+    {
+      "box": [
+        -14,
+        27,
+        40,
+        76
+      ],
+      "px": 3000,
+      "z": 6
+    },
+    {
+      "box": [
+        2.8,
+        40.6,
+        15.2,
+        49.8
+      ],
+      "px": 2800,
+      "z": 8
+    }
+  ],
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "Quatre langues dans un si petit pays : pourquoi ?",
+      "focus": "all",
+      "highlight": [
+        {
+          "langs": [
+            "de"
+          ],
+          "keep": false,
+          "at": {
+            "line": 0,
+            "word": "langues",
+            "d": 0.3
+          }
+        },
+        {
+          "langs": [
+            "fr"
+          ],
+          "keep": false,
+          "at": {
+            "line": 0,
+            "word": "langues",
+            "d": 0.7
+          }
+        },
+        {
+          "langs": [
+            "it"
+          ],
+          "keep": false,
+          "at": {
+            "line": 0,
+            "word": "langues",
+            "d": 1.1
+          }
+        },
+        {
+          "langs": [
+            "rm"
+          ],
+          "keep": false,
+          "at": {
+            "line": 0,
+            "word": "langues",
+            "d": 1.5
+          }
+        }
+      ],
+      "say": [
+        "Quatre langues dans un si petit pays : pourquoi ?",
+        "Neuf fois plus petite que l’Allemagne, la Suisse !"
+      ],
+      "art": [
+        {
+          "kind": "compare",
+          "at": {
+            "line": 1,
+            "d": 0.0
+          },
+          "dur": 3.6,
+          "title": "Petite, vraiment ?",
+          "sub": "même échelle",
+          "ratio": "8,7×",
+          "items": [
+            {
+              "country": "Germany",
+              "label": "Allemagne",
+              "value": "357 600 km²",
+              "color": "#E8A33C"
+            },
+            {
+              "country": "Switzerland",
+              "label": "Suisse",
+              "value": "41 285 km²",
+              "color": "#E8503A"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "map",
+      "year": "58 av. J.-C.",
+      "text": "Les Helvètes, un peuple celte",
+      "focus": "all",
+      "highlight": {
+        "cantons": [
+          "VD",
+          "FR",
+          "NE",
+          "BE",
+          "SO",
+          "AG",
+          "LU",
+          "ZH",
+          "TG"
+        ],
+        "color": "#3E9A63",
+        "keep": false
+      },
+      "labels": [
+        {
+          "text": "Plateau suisse",
+          "at": [
+            7.9,
+            47.0
+          ],
+          "size": 50
+        }
+      ],
+      "people": [
+        {
+          "who": "celte",
+          "at": "Berne",
+          "size": 300,
+          "say": "Chez nous !",
+          "when": {
+            "line": 0,
+            "word": "Helvètes",
+            "d": 0.2
+          }
+        }
+      ],
+      "say": [
+        "Il y a 2000 ans, les Helvètes, un peuple celte, vivent sur le Plateau."
+      ]
+    },
+    {
+      "type": "map",
+      "year": "58 av. J.-C.",
+      "text": "César est à Genève",
+      "focus": {
+        "box": [
+          3.2,
+          39.5,
+          14.8,
+          47.5
+        ]
+      },
+      "pills": [
+        {
+          "at": "Rome",
+          "title": "Rome",
+          "side": "t",
+          "when": {
+            "line": 0,
+            "word": "César",
+            "d": -0.4
+          }
+        },
+        {
+          "at": "Genève",
+          "title": "Genève",
+          "side": "t",
+          "when": {
+            "line": 0,
+            "word": "Genève",
+            "d": -0.2
+          }
+        }
+      ],
+      "moves": [
+        {
+          "from": "Rome",
+          "to": "Genève",
+          "n": 6,
+          "color": "#FFFFFF",
+          "label": "Légions romaines",
+          "at": {
+            "line": 0,
+            "word": "César",
+            "d": -1.2
+          },
+          "dur": 2.8
+        }
+      ],
+      "people": [
+        {
+          "who": "cesar",
+          "at": "Genève",
+          "size": 260,
+          "when": {
+            "line": 0,
+            "word": "arrête",
+            "d": 0.0
+          }
+        }
+      ],
+      "say": [
+        {
+          "say": "En cinquante-huit avant Jésus-Christ, César accourt à Genève avec ses légions et arrête les Helvètes.",
+          "show": "En 58 av. J.-C., César accourt à Genève avec ses légions et arrête les Helvètes."
+        }
+      ]
+    },
+    {
+      "type": "map",
+      "year": "15 av. J.-C.",
+      "text": "Rome conquiert la région",
+      "focus": "all",
+      "highlight": {
+        "langs": [
+          "fr",
+          "it",
+          "rm",
+          "bi"
+        ],
+        "color": "#7B3FA0",
+        "keep": false,
+        "at": {
+          "line": 0,
+          "word": "Rome",
+          "d": -0.5
+        }
+      },
+      "say": [
+        {
+          "say": "Vers quinze avant Jésus-Christ, Rome conquiert la région.",
+          "show": "Vers 15 av. J.-C., Rome conquiert la région."
+        },
+        "Le latin s’installe, ancêtre de trois langues suisses !"
+      ],
+      "labels": [
+        {
+          "text": "Latin",
+          "at": [
+            6.7,
+            46.65
+          ],
+          "size": 70,
+          "when": {
+            "line": 1,
+            "word": "latin",
+            "d": -0.2
+          }
+        }
+      ]
+    },
+    {
+      "type": "map",
+      "year": "5e – 8e siècle",
+      "text": "Les Alamans s’installent",
+      "highlight": {
+        "langs": [
+          "de"
+        ]
+      },
+      "moves": [
+        {
+          "from": [
+            9.0,
+            48.0
+          ],
+          "to": "Zurich",
+          "n": 6,
+          "color": "#E8503A",
+          "label": "Les Alamans",
+          "at": {
+            "line": 0,
+            "word": "Alamans",
+            "d": -0.8
+          },
+          "dur": 2.2
+        }
+      ],
+      "people": [
+        {
+          "who": "alaman",
+          "at": [
+            8.0,
+            46.95
+          ],
+          "size": 280,
+          "say": "Grüezi !",
+          "label": {
+            "title": "Un Alaman",
+            "sub": "peuple germanique"
+          },
+          "when": {
+            "line": 1,
+            "word": "dialectes",
+            "d": 0.2
+          }
+        }
+      ],
+      "say": [
+        {
+          "say": "Du cinquième au huitième siècle, les Alamans, un peuple germanique, s’installent sur le Plateau.",
+          "show": "Du 5e au 8e siècle, les Alamans, un peuple germanique, s’installent sur le Plateau."
+        },
+        "Leurs dialectes donneront l’allemand suisse !"
+      ],
+      "focus": {
+        "box": [
+          5.0,
+          45.0,
+          12.5,
+          49.0
+        ]
+      }
+    },
+    {
+      "type": "map",
+      "year": "443",
+      "text": "Les Burgondes, à l’ouest",
+      "highlight": {
+        "langs": [
+          "fr"
+        ],
+        "at": {
+          "line": 0,
+          "word": "Burgondes",
+          "d": -1.5
+        }
+      },
+      "moves": [
+        {
+          "from": [
+            6.0,
+            47.4
+          ],
+          "to": "Genève",
+          "n": 6,
+          "color": "#3B82F6",
+          "label": "Les Burgondes",
+          "at": {
+            "line": 0,
+            "word": "Burgondes",
+            "d": -0.2
+          },
+          "dur": 2.4
+        }
+      ],
+      "people": [
+        {
+          "who": "burgonde",
+          "at": "Lausanne",
+          "size": 280,
+          "say": "Salve !",
+          "label": {
+            "title": "Un Burgonde",
+            "sub": "adopte le latin local"
+          },
+          "when": {
+            "line": 1,
+            "word": "latin",
+            "d": -0.4
+          }
+        }
+      ],
+      "say": [
+        "En 443, Rome installe les Burgondes près de Genève.",
+        "Ils adoptent le latin local, ancêtre du français romand !"
+      ],
+      "focus": {
+        "box": [
+          3.5,
+          44.0,
+          10.5,
+          48.5
+        ]
+      }
+    },
+    {
+      "type": "map",
+      "text": "Le latin survit dans les Alpes",
+      "focus": {
+        "langs": [
+          "it",
+          "rm"
+        ]
+      },
+      "pad": 0.25,
+      "highlight": [
+        {
+          "langs": [
+            "it"
+          ],
+          "at": {
+            "line": 0,
+            "word": "italien",
+            "d": -0.3
+          }
+        },
+        {
+          "langs": [
+            "rm"
+          ],
+          "at": {
+            "line": 0,
+            "word": "Grisons",
+            "d": -0.2
+          }
+        }
+      ],
+      "labels": [
+        {
+          "text": "Tessin",
+          "at": [
+            8.95,
+            46.2
+          ],
+          "when": {
+            "line": 0,
+            "word": "italien"
+          }
+        },
+        {
+          "text": "Grisons",
+          "at": [
+            9.2,
+            46.75
+          ],
+          "when": {
+            "line": 0,
+            "word": "Grisons"
+          }
+        }
+      ],
+      "people": [
+        {
+          "who": "it",
+          "at": [
+            8.9,
+            45.95
+          ],
+          "size": 210,
+          "say": "Buongiorno !",
+          "when": {
+            "line": 0,
+            "word": "italien",
+            "d": 0.6
+          }
+        },
+        {
+          "who": "rm",
+          "at": [
+            8.9,
+            46.8
+          ],
+          "size": 210,
+          "say": "Allegra !",
+          "when": {
+            "line": 0,
+            "word": "romanche",
+            "d": 0.1
+          }
+        }
+      ],
+      "say": [
+        "Au sud, le latin devient l’italien. Dans les Grisons, le romanche !"
+      ]
+    },
+    {
+      "type": "map",
+      "year": "1291",
+      "text": "Trois cantons s’allient",
+      "sub": "Début de la Confédération",
+      "people": [
+        {
+          "who": "confedere",
+          "at": [
+            8.5,
+            46.62
+          ],
+          "size": 220,
+          "wave": true,
+          "say": "Alliance !",
+          "when": {
+            "line": 0,
+            "word": "s’allient",
+            "d": 0.0
+          }
+        }
+      ],
+      "say": [
+        "En 1291, Uri, Schwytz et Unterwald s’allient : début de la Confédération !"
+      ],
+      "focus": {
+        "box": [
+          7.6,
+          46.3,
+          9.6,
+          47.4
+        ]
+      },
+      "highlight": {
+        "cantons": [
+          "UR",
+          "SZ",
+          "NW",
+          "OW"
+        ],
+        "color": "#E8503A",
+        "at": {
+          "line": 0,
+          "word": "Uri",
+          "d": -0.3
+        }
+      },
+      "labels": [
+        {
+          "text": "Uri",
+          "at": [
+            8.65,
+            46.78
+          ],
+          "when": {
+            "line": 0,
+            "word": "Uri"
+          }
+        },
+        {
+          "text": "Schwytz",
+          "at": [
+            8.72,
+            47.03
+          ],
+          "when": {
+            "line": 0,
+            "word": "Schwytz"
+          }
+        },
+        {
+          "text": "Unterwald",
+          "at": [
+            8.28,
+            46.88
+          ],
+          "when": {
+            "line": 0,
+            "word": "Unterwald"
+          }
+        }
+      ]
+    },
+    {
+      "type": "map",
+      "year": "1291 – 1815",
+      "text": "Une Confédération qui grandit",
+      "focus": "all",
+      "say": [
+        "La Confédération grandit : huit cantons en 1353, treize en 1513, vingt-deux en 1815."
+      ],
+      "art": [
+        {
+          "kind": "timeline",
+          "at": {
+            "line": 0,
+            "word": "grandit",
+            "d": -0.6
+          },
+          "dur": 5.4,
+          "title": "Une Suisse qui grandit",
+          "items": [
+            {
+              "year": "1291",
+              "text": "3 cantons"
+            },
+            {
+              "year": "1353",
+              "text": "8 cantons"
+            },
+            {
+              "year": "1513",
+              "text": "13 cantons"
+            },
+            {
+              "year": "1815",
+              "text": "22 cantons"
+            }
+          ]
+        }
+      ],
+      "highlight": [
+        {
+          "cantons": [
+            "UR",
+            "SZ",
+            "NW",
+            "OW",
+            "LU",
+            "ZH",
+            "ZG",
+            "GL",
+            "BE"
+          ],
+          "color": "#E8503A",
+          "at": {
+            "line": 0,
+            "word": "huit",
+            "d": -0.2
+          }
+        },
+        {
+          "cantons": [
+            "FR",
+            "SO",
+            "BS",
+            "SH",
+            "AI",
+            "AR"
+          ],
+          "color": "#E8A33C",
+          "at": {
+            "line": 0,
+            "word": "treize",
+            "d": -0.2
+          }
+        },
+        {
+          "cantons": [
+            "VD",
+            "AG",
+            "TG",
+            "TI",
+            "SG",
+            "GR",
+            "VS",
+            "NE",
+            "GE"
+          ],
+          "color": "#3E9A63",
+          "at": {
+            "line": 0,
+            "word": "vingt-deux",
+            "d": -0.2
+          }
+        }
+      ]
+    },
+    {
+      "type": "map",
+      "year": "1848 – 1938",
+      "text": "Le romanche entre à son tour",
+      "focus": "all",
+      "say": [
+        "En 1848, trois langues nationales ; en 1938, plus de 9 votants sur 10 ajoutent le romanche, quatrième langue nationale !"
+      ],
+      "highlight": {
+        "langs": [
+          "rm"
+        ],
+        "color": "#FF9F1C",
+        "keep": false,
+        "at": {
+          "line": 0,
+          "word": "romanche",
+          "d": -0.2
+        }
+      },
+      "art": [
+        {
+          "kind": "stats",
+          "at": {
+            "line": 0,
+            "word": "romanche",
+            "d": 0.8
+          },
+          "dur": 3.6,
+          "title": "Le vote de 1938",
+          "items": [
+            {
+              "value": 91.6,
+              "decimals": 1,
+              "suffix": " %",
+              "label": "oui au romanche",
+              "ring": 91.6,
+              "color": "#FF9F1C"
+            },
+            {
+              "value": 3,
+              "label": "langues avant lui",
+              "ring": 75,
+              "color": "#FFD83C"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "map",
+      "text": "La Suisse en 100 personnes",
+      "sub": "Source : OFS 2023 · langues principales, autres langues non montrées",
+      "focus": "all",
+      "crowd": {
+        "at": 0.4,
+        "groups": [
+          {
+            "lang": "de",
+            "n": 61,
+            "label": "61 % allemand",
+            "at": {
+              "line": 0,
+              "word": "allemand",
+              "d": -1.0
+            }
+          },
+          {
+            "lang": "fr",
+            "n": 23,
+            "label": "23 % français",
+            "at": {
+              "line": 0,
+              "word": "français",
+              "d": -0.9
+            }
+          },
+          {
+            "lang": "it",
+            "n": 8,
+            "label": "8 % italien",
+            "at": {
+              "line": 0,
+              "word": "italien",
+              "d": -0.9
+            }
+          },
+          {
+            "lang": "rm",
+            "n": 1,
+            "label": "0,5 % romanche",
+            "at": {
+              "line": 1,
+              "word": "romanche",
+              "d": -0.6
+            }
+          }
+        ]
+      },
+      "say": [
+        "Aujourd’hui, sur 100 habitants, 61 parlent allemand, 23 français, 8 italien…",
+        "et moins d’un parle romanche !"
+      ]
+    },
+    {
+      "type": "map",
+      "text": "Un seul pays, quatre langues",
+      "focus": "all",
+      "highlight": {
+        "langs": [
+          "de",
+          "fr",
+          "it",
+          "rm",
+          "bi"
+        ],
+        "keep": false
+      },
+      "say": [
+        "Les frontières des langues ont plus de mille ans, et la Suisse s’est faite par alliances et par conquêtes.",
+        "Voilà pourquoi la Suisse parle quatre langues !"
+      ]
+    },
+    {
+      "type": "final",
+      "text": "Quatre langues, un seul pays",
+      "sub": "Une Suisse faite d’alliances et de conquêtes",
+      "focus": "all",
+      "say": [
+        "Quatre langues, un seul pays."
+      ],
+      "highlight": {
+        "langs": [
+          "de",
+          "fr",
+          "it",
+          "rm",
+          "bi"
+        ],
+        "keep": false
+      }
+    }
+  ]
+}

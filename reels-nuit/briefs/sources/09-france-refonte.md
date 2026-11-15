@@ -1,0 +1,7 @@
+- Ex.2 : art stats (rapport Grégoire, 1794 : six millions ignorent le français, autant le parlent mal ; remplace `big`) - sources : Wikisource/Univ. Laval, Rapport Grégoire.
+- Ex.2 : art stats (lois Ferry : gratuité 16 juin 1881, obligation 6 à 13 ans le 28 mars 1882) - sources : vie-publique.fr, schoolmouv.
+- Ex.2 : art timeline en final (50 av. J.-C., 842, 1539, 1882).
+- Ex.1 : say écrits avec chiffres (2000, 6 à 13 ans), validation OK.
+- Ex.3 : année « Ier » -> « 1er » à l'écran ; pastilles Strasbourg à gauche, Paris retirée en 1539, Bordeaux/Marseille et Toulouse retirées ; labels Breton/Alsacien/Occitan décalés des personnages ; Louis le Germanique déplacé ; Corse ramenée sous x=1000 (box élargie à 11,5).
+- Ex.5 : final = 3 phrases, dernière « Voilà la réponse à la question qui nous a ouverts : » ; « À bientôt ! » retiré.
+- Ex.6 : box Rome élargie à 13° pour voir Rome ; terrain recalculé sur l'union des box.

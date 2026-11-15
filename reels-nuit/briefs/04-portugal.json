@@ -1,0 +1,956 @@
+{
+ "format": "atlas",
+ "id": "atlas-portugal-independance",
+ "scenes": [
+  {
+   "type": "hook",
+   "text": "Un petit royaume face à l’Espagne",
+   "focus": {
+    "box": [
+     -10.5,
+     35.5,
+     0,
+     44
+    ]
+   },
+   "highlight": {
+    "countries": [
+     "Portugal"
+    ],
+    "color": "#2F9E6B",
+    "keep": false,
+    "at": {
+     "line": 0,
+     "word": "Portugal",
+     "d": 0.1
+    }
+   },
+   "say": [
+    "Pourquoi le Portugal existe-t-il à côté de l’Espagne ?",
+    "Son histoire commence il y a près de 900 ans."
+   ],
+   "people": [
+    {
+     "who": "marin",
+     "at": "Lisbonne",
+     "size": 250,
+     "say": "À l’horizon !",
+     "label": {
+      "title": "Un marin",
+      "sub": "face à l’Atlantique"
+     },
+     "when": {
+      "line": 0,
+      "word": "Portugal",
+      "d": 0.4
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": "Lisbonne",
+     "title": "Lisbonne",
+     "side": "r",
+     "when": {
+      "line": 1,
+      "word": "ans",
+      "d": -0.5
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Portugal",
+     "at": [
+      -8.2,
+      39.9
+     ],
+     "size": 46,
+     "when": {
+      "line": 0,
+      "word": "Portugal",
+      "d": 0.3
+     }
+    },
+    {
+     "text": "Espagne",
+     "at": [
+      -3.6,
+      40.3
+     ],
+     "size": 50,
+     "when": {
+      "line": 0,
+      "word": "Espagne",
+      "d": 0
+     }
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "8e – 11e siècle",
+   "text": "Le nord reprend la terre aux Maures",
+   "focus": {
+    "box": [
+     -10.5,
+     37,
+     -4,
+     43.8
+    ]
+   },
+   "moves": [
+    {
+     "from": "Guimarães",
+     "to": "Coimbra",
+     "n": 6,
+     "color": "#FFFFFF",
+     "label": "La Reconquête",
+     "at": {
+      "line": 0,
+      "word": "chrétiens",
+      "d": -0.3
+     },
+     "dur": 2.6
+    }
+   ],
+   "say": [
+    "Dès le 8e siècle, des royaumes chrétiens du nord reprennent la terre aux musulmans."
+   ],
+   "people": [
+    {
+     "who": "soldat",
+     "at": "Guimarães",
+     "size": 240,
+     "say": "En avant !",
+     "when": {
+      "line": 0,
+      "word": "reprennent"
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": "Coimbra",
+     "title": "Coimbra",
+     "sub": "reprise en 1064",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "reprennent",
+      "d": 0.4
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Al-Andalus",
+     "at": [
+      -5,
+      37.6
+     ],
+     "size": 44,
+     "when": {
+      "line": 0,
+      "word": "musulmans",
+      "d": -0.2
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": "Lisbonne",
+     "when": 0.4
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1143",
+   "text": "Un roi pour le Portugal",
+   "focus": {
+    "box": [
+     -9.8,
+     39.8,
+     -4,
+     43.3
+    ]
+   },
+   "people": [
+    {
+     "who": "roi",
+     "at": "Guimarães",
+     "size": 270,
+     "say": "Roi du Portugal !",
+     "when": {
+      "line": 0,
+      "word": "Alphonse",
+      "d": 0.4
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": "Guimarães",
+     "title": "Guimarães",
+     "sub": "berceau du pays",
+     "side": "r",
+     "when": {
+      "line": 1,
+      "word": "Pape",
+      "d": 0
+     }
+    }
+   ],
+   "say": [
+    "En 1143, Alphonse 1er, prince du Portugal, est reconnu roi par son cousin, roi de León et de Castille.",
+    "Le pape confirmera en 1179. Le pays est né autour de Guimarães."
+   ],
+   "highlight": [
+    {
+     "regions": [
+      {
+       "c": "Portugal",
+       "n": "Viana do Castelo"
+      },
+      {
+       "c": "Portugal",
+       "n": "Braga"
+      },
+      {
+       "c": "Portugal",
+       "n": "Porto"
+      },
+      {
+       "c": "Portugal",
+       "n": "Aveiro"
+      },
+      {
+       "c": "Portugal",
+       "n": "Coimbra"
+      },
+      {
+       "c": "Portugal",
+       "n": "Vila Real"
+      },
+      {
+       "c": "Portugal",
+       "n": "Bragança"
+      },
+      {
+       "c": "Portugal",
+       "n": "Viseu"
+      }
+     ],
+     "color": "#2F9E6B",
+     "at": {
+      "line": 0,
+      "word": "Alphonse"
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "León et Castille",
+     "at": [
+      -5.4,
+      42.2
+     ],
+     "size": 44,
+     "when": {
+      "line": 0,
+      "word": "Castille",
+      "d": -0.3
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": "Lisbonne",
+     "when": 0.4
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1147 – 1249",
+   "text": "Cap sur le sud",
+   "focus": {
+    "box": [
+     -10.5,
+     34.8,
+     -4.5,
+     42.2
+    ]
+   },
+   "moves": [
+    {
+     "from": "Coimbra",
+     "to": "Lisbonne",
+     "n": 5,
+     "color": "#FFFFFF",
+     "at": {
+      "line": 0,
+      "word": "Lisbonne",
+      "d": -1.4
+     },
+     "dur": 2.2
+    },
+    {
+     "from": "Lisbonne",
+     "to": "Faro",
+     "n": 5,
+     "color": "#FFFFFF",
+     "label": "1249",
+     "at": {
+      "line": 0,
+      "word": "Algarve",
+      "d": -1.2
+     },
+     "dur": 2.4
+    }
+   ],
+   "pills": [
+    {
+     "at": "Lisbonne",
+     "title": "Lisbonne",
+     "sub": "1147",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "Lisbonne",
+      "d": 0.2
+     }
+    },
+    {
+     "at": "Faro",
+     "title": "Faro",
+     "sub": "1249",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "Algarve",
+      "d": 0.2
+     }
+    }
+   ],
+   "say": [
+    "En 1147, Lisbonne est prise aux Maures ; en 1249, l’Algarve est reconquise.",
+    "Le Portugal a déjà presque sa forme actuelle."
+   ],
+   "people": [
+    {
+     "who": "soldat",
+     "at": "Faro",
+     "size": 230,
+     "say": "Victoire !",
+     "when": {
+      "line": 1,
+      "word": "Portugal",
+      "d": 0
+     }
+    }
+   ],
+   "highlight": [
+    {
+     "countries": [
+      "Portugal"
+     ],
+     "color": "#2F9E6B",
+     "at": {
+      "line": 1,
+      "word": "forme",
+      "d": -0.3
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": "Lisbonne",
+     "when": 0.4
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1297",
+   "text": "Une frontière qui ne bouge plus",
+   "focus": {
+    "box": [
+     -11,
+     35.5,
+     -3,
+     44
+    ]
+   },
+   "highlight": {
+    "countries": [
+     "Portugal"
+    ],
+    "color": "#2F9E6B"
+   },
+   "big": {
+    "value": "+ 700 ans",
+    "sub": "de frontière presque inchangée",
+    "at": {
+     "line": 1,
+     "word": "Europe",
+     "d": 0.2
+    },
+    "dur": 2.0
+   },
+   "say": [
+    "En 1297, le traité d’Alcañices fixe la frontière avec la Castille.",
+    "Le Portugal, plus de cinq fois plus petit que l’Espagne, garde pourtant l’une des plus vieilles frontières d’Europe."
+   ],
+   "pills": [
+    {
+     "at": [
+      -6.35,
+      41.7
+     ],
+     "title": "Alcañices",
+     "sub": "1297",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "Alcañices",
+      "d": 0.1
+     }
+    }
+   ],
+   "people": [
+    {
+     "who": "roi",
+     "at": "Lisbonne",
+     "size": 230,
+     "label": {
+      "title": "Denis 1er",
+      "sub": "roi du Portugal"
+     },
+     "when": {
+      "line": 0,
+      "word": "frontière",
+      "d": 0.3
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": "Lisbonne",
+     "when": 0.4
+    }
+   ],
+   "art": [
+    {
+     "kind": "compare",
+     "at": {
+      "line": 1,
+      "word": "petit",
+      "d": -0.3
+     },
+     "dur": 2.8,
+     "title": "Petit voisin, vieille frontière",
+     "sub": "même échelle",
+     "ratio": "5,5×",
+     "items": [
+      {
+       "country": "Portugal",
+       "label": "Portugal",
+       "value": "92 000 km²",
+       "color": "#2F9E6B"
+      },
+      {
+       "country": "Spain",
+       "label": "Espagne",
+       "value": "506 mille km²",
+       "color": "#FF5A5A"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1385 – 1386",
+   "text": "Une alliance qui dure encore",
+   "focus": {
+    "box": [
+     -12,
+     36,
+     4,
+     55
+    ]
+   },
+   "moves": [
+    {
+     "from": "Lisbonne",
+     "to": "Londres",
+     "n": 0,
+     "color": "#FFD83C",
+     "label": "Traité de Windsor",
+     "at": {
+      "line": 1,
+      "word": "Windsor",
+      "d": -1.2
+     },
+     "dur": 3
+    }
+   ],
+   "say": [
+    "En 1385, le Portugal bat la Castille à Aljubarrota.",
+    "En 1386, le traité de Windsor l’allie à l’Angleterre, souvent citée comme la plus ancienne alliance encore en vigueur."
+   ],
+   "pills": [
+    {
+     "at": [
+      -8.99,
+      39.55
+     ],
+     "title": "Aljubarrota",
+     "sub": "1385",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "Aljubarrota"
+     }
+    },
+    {
+     "at": [
+      -0.6,
+      51.48
+     ],
+     "title": "Windsor",
+     "sub": "1386",
+     "side": "l",
+     "when": {
+      "line": 1,
+      "word": "Windsor",
+      "d": 0.1
+     }
+    }
+   ],
+   "people": [
+    {
+     "who": "soldat",
+     "at": [
+      -8.99,
+      39.55
+     ],
+     "size": 230,
+     "say": "Victoire !",
+     "when": {
+      "line": 0,
+      "word": "bat",
+      "d": 0.2
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": "Lisbonne",
+     "when": 0.4
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1415 – 1498",
+   "text": "Le Portugal part sur les mers",
+   "focus": {
+    "box": [
+     -12.5,
+     31.5,
+     -0.5,
+     43
+    ]
+   },
+   "moves": [
+    {
+     "from": "Lisbonne",
+     "to": "Ceuta",
+     "n": 6,
+     "color": "#3B82F6",
+     "at": {
+      "line": 0,
+      "word": "Ceuta",
+      "d": -0.5
+     },
+     "dur": 2.6
+    },
+    {
+     "from": "Lisbonne",
+     "to": [
+      -11.8,
+      33.0
+     ],
+     "n": 4,
+     "color": "#FFD83C",
+     "label": "vers l’Inde",
+     "at": {
+      "line": 1,
+      "word": "Vasco",
+      "d": -0.2
+     },
+     "dur": 2.4
+    }
+   ],
+   "say": [
+    "En 1415, le Portugal prend Ceuta, au Maroc, ville aujourd’hui espagnole : début des grandes explorations.",
+    "En 1498, Vasco de Gama atteint l’Inde par la mer."
+   ],
+   "people": [
+    {
+     "who": "marin",
+     "at": "Lisbonne",
+     "size": 240,
+     "say": "Cap sur Ceuta",
+     "when": {
+      "line": 0,
+      "word": "Ceuta"
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": "Ceuta",
+     "title": "Ceuta",
+     "sub": "1415",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "Ceuta",
+      "d": 0.8
+     }
+    },
+    {
+     "at": [
+      -11.2,
+      36.0
+     ],
+     "title": "Vasco de Gama",
+     "sub": "1498",
+     "side": "r",
+     "when": {
+      "line": 1,
+      "word": "Vasco",
+      "d": 0.1
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Maroc",
+     "at": [
+      -5.5,
+      32.6
+     ],
+     "size": 46,
+     "when": {
+      "line": 0,
+      "word": "Maroc"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": "Lisbonne",
+     "when": 0.4
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1580 – 1640",
+   "text": "Soixante ans sous la même couronne",
+   "focus": {
+    "box": [
+     -10,
+     36,
+     1,
+     44.5
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Spain",
+      "Portugal"
+     ],
+     "color": "#C62828",
+     "keep": false,
+     "at": {
+      "line": 0,
+      "word": "1580",
+      "d": 0
+     }
+    },
+    {
+     "countries": [
+      "Portugal"
+     ],
+     "color": "#2F9E6B",
+     "at": {
+      "line": 1,
+      "word": "révolte",
+      "d": 0.2
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": "Lisbonne",
+     "title": "1er décembre 1640",
+     "sub": "la révolte éclate",
+     "side": "r",
+     "when": {
+      "line": 1,
+      "word": "1640",
+      "d": -0.4
+     }
+    }
+   ],
+   "say": [
+    "En 1580, le roi d’Espagne devient aussi roi du Portugal, pour soixante ans.",
+    "Le 1er décembre 1640, Lisbonne se révolte.",
+    "La guerre dure 28 ans ; l’Espagne reconnaît le Portugal en 1668."
+   ],
+   "people": [
+    {
+     "who": "roi",
+     "at": "Madrid",
+     "size": 230,
+     "say": "Deux couronnes",
+     "when": {
+      "line": 0,
+      "word": "roi",
+      "d": 0.2
+     }
+    },
+    {
+     "who": "rebelle",
+     "at": "Lisbonne",
+     "size": 230,
+     "say": "Liberté !",
+     "when": {
+      "line": 1,
+      "word": "Lisbonne",
+      "d": 0.5
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": "Lisbonne",
+     "when": 0.4
+    }
+   ],
+   "art": [
+    {
+     "kind": "stats",
+     "at": {
+      "line": 2,
+      "d": 0.3
+     },
+     "dur": 3.8,
+     "title": "Couronne puis guerre, 1580 – 1668",
+     "items": [
+      {
+       "value": 60,
+       "suffix": " ans",
+       "label": "sous une couronne",
+       "color": "#FFD83C"
+      },
+      {
+       "value": 28,
+       "suffix": " ans",
+       "label": "de guerre",
+       "color": "#FF5A36"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "text": "Une identité plus forte que la taille",
+   "focus": {
+    "box": [
+     -11,
+     35.5,
+     -1,
+     43.5
+    ]
+   },
+   "highlight": {
+    "countries": [
+     "Portugal"
+    ],
+    "color": "#2F9E6B"
+   },
+   "say": [
+    "Parce qu’il a fixé tôt sa frontière, regardé l’Atlantique et repris son indépendance en 1640.",
+    "Cela explique pourquoi il reste indépendant."
+   ],
+   "pills": [
+    {
+     "at": "Guimarães",
+     "title": "Guimarães",
+     "sub": "berceau",
+     "side": "r",
+     "when": {
+      "line": 1,
+      "d": 0.1
+     }
+    }
+   ],
+   "people": [
+    {
+     "who": "marin",
+     "at": "Lisbonne",
+     "size": 240,
+     "say": "Le large !",
+     "when": {
+      "line": 1,
+      "word": "encore",
+      "d": 0.3
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Portugal",
+     "at": [
+      -7.9,
+      39.6
+     ],
+     "size": 50,
+     "when": {
+      "line": 1,
+      "word": "existe"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": "Lisbonne",
+     "when": 0.4
+    }
+   ],
+   "art": [
+    {
+     "kind": "timeline",
+     "at": {
+      "line": 0,
+      "word": "frontière",
+      "d": 0
+     },
+     "dur": 4.2,
+     "title": "Neuf siècles d’histoire",
+     "items": [
+      {
+       "year": "1143",
+       "text": "Royaume reconnu"
+      },
+      {
+       "year": "1249",
+       "text": "Algarve"
+      },
+      {
+       "year": "1297",
+       "text": "Frontière fixée"
+      },
+      {
+       "year": "1385",
+       "text": "Aljubarrota"
+      },
+      {
+       "year": "1415",
+       "text": "Ceuta"
+      },
+      {
+       "year": "1640",
+       "text": "Révolte"
+      },
+      {
+       "year": "1668",
+       "text": "Indépendance"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "final",
+   "text": "Un royaume indépendant",
+   "sub": "Le Portugal",
+   "focus": {
+    "box": [
+     -10.5,
+     35.5,
+     0,
+     44
+    ]
+   },
+   "say": [
+    "Voilà comment le Portugal est devenu indépendant.",
+    "Et c’est la question qui nous a ouverts :"
+   ],
+   "people": [
+    {
+     "who": "paysan",
+     "at": "Porto",
+     "size": 240,
+     "say": "Olá !",
+     "wave": true,
+     "when": 2
+    }
+   ],
+   "highlight": [
+    {
+     "countries": [
+      "Portugal"
+     ],
+     "color": "#2F9E6B",
+     "keep": false,
+     "at": 0.5
+    }
+   ],
+   "pills": [
+    {
+     "at": "Lisbonne",
+     "title": "Lisbonne",
+     "side": "r",
+     "when": 1.5
+    }
+   ]
+  }
+ ],
+ "base": {
+  "countries": [
+   "Portugal"
+  ]
+ },
+ "terrain": [
+  {
+   "box": [
+    -15,
+    27,
+    40,
+    76
+   ],
+   "px": 3000,
+   "z": 6
+  },
+  {
+   "box": [
+    -12.4,
+    32.6,
+    4.4,
+    52.9
+   ],
+   "px": 2800,
+   "z": 8
+  }
+ ]
+}

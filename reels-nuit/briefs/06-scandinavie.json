@@ -1,0 +1,887 @@
+{
+ "format": "atlas",
+ "id": "atlas-scandinavie-kalmar",
+ "scenes": [
+  {
+   "type": "hook",
+   "text": "Trois pays, une seule couronne : comment se sont-ils séparés ?",
+   "focus": {
+    "box": [
+     3,
+     54.5,
+     24,
+     62
+    ]
+   },
+   "highlight": {
+    "countries": [
+     "Denmark",
+     "Norway",
+     "Sweden"
+    ],
+    "color": "#6B3FA0",
+    "keep": false,
+    "at": {
+     "line": 0,
+     "word": "couronne",
+     "d": 0.1
+    }
+   },
+   "say": [
+    "Trois pays, une seule couronne : comment se sont-ils séparés ?"
+   ],
+   "people": [
+    {
+     "who": "marin",
+     "at": [
+      11.2,
+      55.3
+     ],
+     "size": 170,
+     "say": "Trois pays !",
+     "when": {
+      "line": 0,
+      "word": "pays",
+      "d": 0.2
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": "Oslo",
+     "title": "Oslo",
+     "side": "l",
+     "when": {
+      "line": 0,
+      "word": "pays",
+      "d": 0.4
+     }
+    },
+    {
+     "at": "Stockholm",
+     "title": "Stockholm",
+     "side": "t",
+     "when": {
+      "line": 0,
+      "word": "seule"
+     }
+    },
+    {
+     "at": "Copenhague",
+     "title": "Copenhague",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "couronne",
+      "d": -0.4
+     }
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1397",
+   "text": "L’union de Kalmar",
+   "focus": {
+    "box": [
+     5,
+     55,
+     22,
+     62
+    ]
+   },
+   "highlight": {
+    "countries": [
+     "Denmark",
+     "Norway",
+     "Sweden"
+    ],
+    "color": "#6B3FA0",
+    "keep": false,
+    "at": {
+     "line": 0,
+     "word": "Kalmar",
+     "d": 0
+    }
+   },
+   "pills": [
+    {
+     "at": "Calmar",
+     "title": "Kalmar",
+     "sub": "1397",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "Kalmar",
+      "d": 0.1
+     }
+    }
+   ],
+   "people": [
+    {
+     "who": "roi",
+     "at": [
+      11.2,
+      55.3
+     ],
+     "size": 170,
+     "say": "Une couronne !",
+     "when": {
+      "line": 1,
+      "word": "couronne",
+      "d": 0.3
+     }
+    }
+   ],
+   "say": [
+    "En 1397, à Kalmar, le Danemark, la Norvège et la Suède s’unissent sous un seul roi, voulu par la reine Marguerite.",
+    "Une seule couronne, trois royaumes."
+   ],
+   "labels": [
+    {
+     "text": "Danemark",
+     "at": [
+      9.2,
+      56.0
+     ],
+     "size": 40,
+     "when": {
+      "line": 0,
+      "word": "Danemark"
+     }
+    },
+    {
+     "text": "Norvège",
+     "at": [
+      8.6,
+      60.6
+     ],
+     "size": 40,
+     "when": {
+      "line": 0,
+      "word": "Norvège"
+     }
+    },
+    {
+     "text": "Suède",
+     "at": [
+      14.2,
+      59.2
+     ],
+     "size": 40,
+     "when": {
+      "line": 0,
+      "word": "Suède"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": "Calmar",
+     "when": 0.4
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1523",
+   "text": "La Suède reprend sa liberté",
+   "focus": {
+    "box": [
+     7,
+     54.6,
+     21,
+     61
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Denmark"
+     ],
+     "color": "#3B82F6",
+     "at": 0.2
+    },
+    {
+     "countries": [
+      "Sweden"
+     ],
+     "color": "#FFD83C",
+     "at": {
+      "line": 0,
+      "word": "supportent",
+      "d": 0
+     }
+    }
+   ],
+   "people": [
+    {
+     "who": "rebelle",
+     "at": "Stockholm",
+     "size": 170,
+     "say": "Libre !",
+     "label": {
+      "title": "Gustave Vasa"
+     },
+     "when": {
+      "line": 0,
+      "word": "Gustave",
+      "d": 0.5
+     }
+    }
+   ],
+   "say": [
+    "Mais les Suédois supportent mal la domination danoise. En 1523, Gustave Vasa devient roi de Suède.",
+    "La Suède quitte l’union."
+   ],
+   "pills": [
+    {
+     "at": "Copenhague",
+     "title": "Copenhague",
+     "side": "l",
+     "when": {
+      "line": 0,
+      "word": "danoise"
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Suède",
+     "at": [
+      15.0,
+      57.9
+     ],
+     "size": 40,
+     "when": {
+      "line": 0,
+      "word": "Suède"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": "Stockholm",
+     "when": 0.4
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1523 – 1814",
+   "text": "Le Danemark garde la Norvège",
+   "focus": {
+    "box": [
+     3,
+     54.5,
+     17,
+     62.2
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Denmark"
+     ],
+     "color": "#3B82F6"
+    },
+    {
+     "countries": [
+      "Norway"
+     ],
+     "color": "#E8503A"
+    }
+   ],
+   "say": [
+    "Le Danemark et la Norvège restent unis pendant près de trois siècles.",
+    "Le roi règne depuis Copenhague."
+   ],
+   "people": [
+    {
+     "who": "roi",
+     "at": [
+      11.6,
+      55.0
+     ],
+     "size": 170,
+     "say": "Deux royaumes",
+     "when": {
+      "line": 1,
+      "word": "Copenhague",
+      "d": -0.4
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Danemark",
+     "at": [
+      9.3,
+      56.0
+     ],
+     "size": 40,
+     "when": {
+      "line": 0,
+      "word": "Danemark"
+     }
+    },
+    {
+     "text": "Norvège",
+     "at": [
+      8.0,
+      60.5
+     ],
+     "size": 40,
+     "when": {
+      "line": 0,
+      "word": "Norvège"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": "Copenhague",
+     "when": 0.4
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1814",
+   "text": "La Norvège change de roi",
+   "focus": {
+    "box": [
+     4,
+     55,
+     19,
+     62
+    ]
+   },
+   "moves": [
+    {
+     "from": "Stockholm",
+     "to": "Oslo",
+     "n": 3,
+     "color": "#FFD83C",
+     "label": "Union avec la Suède",
+     "at": {
+      "line": 0,
+      "word": "Suède",
+      "d": -0.3
+     },
+     "dur": 2.8
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      11.27,
+      60.32
+     ],
+     "title": "17 mai 1814",
+     "side": "r",
+     "when": {
+      "line": 1,
+      "word": "constitution",
+      "d": -0.3
+     }
+    }
+   ],
+   "say": [
+    "En 1814, le Danemark, vaincu, doit céder la Norvège à la Suède, par le traité de Kiel.",
+    "Les Norvégiens se donnent une constitution à Eidsvoll, le 17 mai, puis acceptent l’union avec la Suède, mais gardent leur constitution."
+   ],
+   "people": [
+    {
+     "who": "rebelle",
+     "at": [
+      8.3,
+      60.9
+     ],
+     "size": 170,
+     "say": "Constitution !",
+     "when": {
+      "line": 1,
+      "word": "constitution",
+      "d": 0.2
+     }
+    }
+   ],
+   "highlight": [
+    {
+     "countries": [
+      "Denmark"
+     ],
+     "color": "#3B82F6",
+     "at": {
+      "line": 0,
+      "word": "Danemark"
+     }
+    },
+    {
+     "countries": [
+      "Norway"
+     ],
+     "color": "#E8503A",
+     "at": {
+      "line": 0,
+      "word": "Norvège"
+     }
+    },
+    {
+     "countries": [
+      "Sweden"
+     ],
+     "color": "#FFD83C",
+     "at": {
+      "line": 0,
+      "word": "Suède"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": "Stockholm",
+     "when": 0.4
+    }
+   ],
+   "art": [
+    {
+     "kind": "split",
+     "at": {
+      "line": 0,
+      "word": "céder",
+      "d": -0.2
+     },
+     "dur": 3.4,
+     "title": "La Norvège change de main",
+     "sub": "traité de Kiel",
+     "before": "Avant 1814",
+     "after": "Après 1814",
+     "badge": "Norvège cédée",
+     "parts": [
+      {
+       "country": "Denmark",
+       "color": "#3B82F6"
+      },
+      {
+       "country": "Norway",
+       "color": "#E8503A",
+       "lost": true
+      },
+      {
+       "country": "Sweden",
+       "color": "#FFD83C"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1905",
+   "text": "La Norvège devient indépendante",
+   "focus": {
+    "box": [
+     3,
+     57.5,
+     15,
+     63
+    ]
+   },
+   "highlight": {
+    "countries": [
+     "Norway"
+    ],
+    "color": "#E8503A",
+    "at": {
+     "line": 0,
+     "word": "1905",
+     "d": -0.3
+    }
+   },
+   "people": [
+    {
+     "who": "roi",
+     "at": "Oslo",
+     "size": 170,
+     "say": "Roi de Norvège !",
+     "when": {
+      "line": 0,
+      "word": "guerre",
+      "d": 0.1
+     }
+    }
+   ],
+   "say": [
+    "En 1905, l’union avec la Suède prend fin, sans guerre.",
+    "La Norvège choisit son propre roi.",
+    "Sa capitale, Oslo, s’appelait alors Kristiania.",
+    "Quatre dates résument tout."
+   ],
+   "pills": [
+    {
+     "at": "Oslo",
+     "title": "Oslo",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "1905",
+      "d": 0.1
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Norvège",
+     "at": [
+      8.0,
+      61.5
+     ],
+     "size": 40,
+     "when": {
+      "line": 0,
+      "word": "Norvège"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": "Oslo",
+     "when": 0.4
+    }
+   ],
+   "art": [
+    {
+     "kind": "timeline",
+     "at": {
+      "line": 1,
+      "word": "choisit",
+      "d": -0.1
+     },
+     "dur": 5.2,
+     "title": "Quatre dates",
+     "sub": "Scandinavie",
+     "items": [
+      {
+       "year": "1397",
+       "text": "Union de Kalmar"
+      },
+      {
+       "year": "1523",
+       "text": "La Suède part"
+      },
+      {
+       "year": "1814",
+       "text": "Norvège → Suède"
+      },
+      {
+       "year": "1905",
+       "text": "La Norvège est libre"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "text": "Trois langues cousines",
+   "focus": {
+    "box": [
+     2,
+     54,
+     24,
+     63
+    ]
+   },
+   "labels": [
+    {
+     "text": "Danois",
+     "at": [
+      9.5,
+      56.0
+     ],
+     "size": 50,
+     "when": {
+      "line": 0,
+      "word": "danois"
+     }
+    },
+    {
+     "text": "Norvégien",
+     "at": [
+      8.5,
+      60.5
+     ],
+     "size": 50,
+     "when": {
+      "line": 0,
+      "word": "norvégien"
+     }
+    },
+    {
+     "text": "Suédois",
+     "at": [
+      15.5,
+      58.5
+     ],
+     "size": 50,
+     "when": {
+      "line": 0,
+      "word": "suédois"
+     }
+    }
+   ],
+   "say": [
+    "Le danois, le norvégien et le suédois se ressemblent tellement que leurs locuteurs se comprennent souvent.",
+    "Trois langues, une même famille !"
+   ],
+   "people": [
+    {
+     "who": "paysan",
+     "at": [
+      11.5,
+      55.2
+     ],
+     "size": 160,
+     "say": "Hej !",
+     "when": {
+      "line": 1,
+      "word": "Trois"
+     }
+    },
+    {
+     "who": "paysan",
+     "at": "Oslo",
+     "size": 160,
+     "say": "Hei !",
+     "when": {
+      "line": 1,
+      "word": "langues"
+     }
+    },
+    {
+     "who": "paysan",
+     "at": "Stockholm",
+     "size": 160,
+     "say": "Hej !",
+     "when": {
+      "line": 1,
+      "word": "famille"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": "Stockholm",
+     "when": 0.4
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "text": "Trois monarchies voisines",
+   "focus": {
+    "box": [
+     4,
+     54.5,
+     21,
+     61.5
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Denmark"
+     ],
+     "color": "#3B82F6",
+     "at": {
+      "line": 0,
+      "word": "Danemark",
+      "d": 0
+     }
+    },
+    {
+     "countries": [
+      "Norway"
+     ],
+     "color": "#E8503A",
+     "at": {
+      "line": 0,
+      "word": "Norvège",
+      "d": 0
+     }
+    },
+    {
+     "countries": [
+      "Sweden"
+     ],
+     "color": "#FFD83C",
+     "at": {
+      "line": 0,
+      "word": "Suède",
+      "d": 0
+     }
+    }
+   ],
+   "say": [
+    "Aujourd’hui, le Danemark, la Norvège et la Suède sont trois monarchies.",
+    "Mais la Suède est dix fois plus étendue que le Danemark."
+   ],
+   "people": [
+    {
+     "who": "roi",
+     "at": [
+      11.5,
+      55.2
+     ],
+     "size": 160,
+     "label": {
+      "title": "Danemark"
+     },
+     "crown": true,
+     "when": {
+      "line": 0,
+      "word": "Danemark"
+     }
+    },
+    {
+     "who": "roi",
+     "at": "Oslo",
+     "size": 160,
+     "label": {
+      "title": "Norvège"
+     },
+     "crown": true,
+     "when": {
+      "line": 0,
+      "word": "Norvège"
+     }
+    },
+    {
+     "who": "roi",
+     "at": "Stockholm",
+     "size": 160,
+     "label": {
+      "title": "Suède"
+     },
+     "crown": true,
+     "when": {
+      "line": 0,
+      "word": "Suède"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": "Stockholm",
+     "when": 0.4
+    }
+   ],
+   "art": [
+    {
+     "kind": "compare",
+     "at": {
+      "line": 1,
+      "word": "Mais",
+      "d": 0.3
+     },
+     "dur": 4.4,
+     "title": "Même échelle",
+     "sub": "superficie, hors Groenland",
+     "ratio": "10×",
+     "items": [
+      {
+       "country": "Sweden",
+       "label": "Suède",
+       "value": "450 000 km²",
+       "color": "#FFD83C"
+      },
+      {
+       "country": "Denmark",
+       "label": "Danemark",
+       "value": "43 000 km²",
+       "color": "#3B82F6"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "final",
+   "text": "Trois royaumes voisins",
+   "sub": "La Scandinavie",
+   "focus": {
+    "box": [
+     2,
+     53.5,
+     26,
+     63
+    ]
+   },
+   "say": [
+    "Voilà pourquoi la Scandinavie partage tant d’histoire !",
+    "Reprenons depuis le début : trois pays, une seule couronne."
+   ],
+   "people": [
+    {
+     "who": "paysan",
+     "at": "Oslo",
+     "size": 170,
+     "say": "Hei !",
+     "wave": true,
+     "when": 3.0
+    }
+   ],
+   "highlight": [
+    {
+     "countries": [
+      "Denmark",
+      "Norway",
+      "Sweden"
+     ],
+     "color": "#6B3FA0",
+     "keep": false,
+     "at": 1.0
+    }
+   ],
+   "pills": [
+    {
+     "at": "Stockholm",
+     "title": "Stockholm",
+     "side": "t",
+     "when": 2.0
+    }
+   ]
+  }
+ ],
+ "base": {
+  "countries": [
+   "Denmark",
+   "Norway",
+   "Sweden"
+  ]
+ },
+ "terrain": [
+  {
+   "box": [
+    -14,
+    27,
+    40,
+    76
+   ],
+   "px": 3000,
+   "z": 6
+  },
+  {
+   "box": [
+    2.6,
+    54.1,
+    24.4,
+    62.4
+   ],
+   "px": 2800,
+   "z": 8
+  }
+ ]
+}

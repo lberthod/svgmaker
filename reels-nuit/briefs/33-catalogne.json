@@ -1,0 +1,1772 @@
+{
+ "format": "atlas",
+ "id": "atlas-catalogne",
+ "base": {
+  "countries": [
+   "Spain",
+   "Andorra"
+  ]
+ },
+ "terrain": [
+  {
+   "box": [
+    -14,
+    27,
+    40,
+    76
+   ],
+   "px": 3000,
+   "z": 6
+  },
+  {
+   "box": [
+    -6.9,
+    36.6,
+    15.4,
+    44.0
+   ],
+   "px": 2800,
+   "z": 8
+  }
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "text": "Le catalan, de Barcelone à la Sardaigne",
+   "sub": "Une langue, six territoires",
+   "focus": {
+    "box": [
+     -2.8,
+     37.0,
+     9.8,
+     43.6
+    ]
+   },
+   "highlight": [
+    {
+     "color": "#FFD83C",
+     "at": 0.7,
+     "keep": false,
+     "regions": [
+      {
+       "c": "Spain",
+       "n": "Barcelona"
+      },
+      {
+       "c": "Spain",
+       "n": "Tarragona"
+      },
+      {
+       "c": "Spain",
+       "n": "Lérida"
+      },
+      {
+       "c": "Spain",
+       "n": "Gerona"
+      }
+     ]
+    },
+    {
+     "color": "#FF8FB8",
+     "at": 1.1,
+     "keep": false,
+     "regions": [
+      {
+       "c": "Spain",
+       "n": "Castellón"
+      },
+      {
+       "c": "Spain",
+       "n": "Valencia"
+      },
+      {
+       "c": "Spain",
+       "n": "Alicante"
+      }
+     ]
+    },
+    {
+     "color": "#4FA3E0",
+     "at": 1.5,
+     "keep": false,
+     "regions": [
+      {
+       "c": "Spain",
+       "n": "Baleares"
+      }
+     ]
+    },
+    {
+     "color": "#C77DFF",
+     "at": 1.9,
+     "keep": false,
+     "countries": [
+      "Andorra"
+     ]
+    },
+    {
+     "color": "#3E9A63",
+     "at": 2.3,
+     "keep": false,
+     "regions": [
+      {
+       "c": "France",
+       "n": "Pyrénées-Orientales"
+      }
+     ]
+    },
+    {
+     "color": "#2EC4B6",
+     "at": 2.7,
+     "keep": false,
+     "regions": [
+      {
+       "c": "Italy",
+       "n": "Sassari"
+      }
+     ]
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      2.17,
+      41.39
+     ],
+     "title": "Barcelone",
+     "side": "t",
+     "when": {
+      "line": 1,
+      "word": "Barcelone"
+     }
+    },
+    {
+     "at": [
+      1.52,
+      42.55
+     ],
+     "title": "Andorre",
+     "side": "t",
+     "when": {
+      "line": 0,
+      "d": 2.4
+     }
+    },
+    {
+     "at": [
+      8.31,
+      40.56
+     ],
+     "title": "Alghero",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "Sardaigne"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      8.31,
+      40.56
+     ],
+     "when": {
+      "line": 0,
+      "word": "Sardaigne"
+     }
+    }
+   ],
+   "say": [
+    "Pourquoi parle-t-on catalan jusqu’en Sardaigne ?",
+    "Tout commence autour de Barcelone, il y a mille ans."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "988 · 1137",
+   "text": "Un comté devient une couronne",
+   "focus": {
+    "box": [
+     -2.8,
+     39.9,
+     4.8,
+     43.6
+    ]
+   },
+   "highlight": [
+    {
+     "color": "#FFD83C",
+     "at": {
+      "line": 0,
+      "d": 0.2
+     },
+     "keep": false,
+     "regions": [
+      {
+       "c": "Spain",
+       "n": "Barcelona"
+      },
+      {
+       "c": "Spain",
+       "n": "Tarragona"
+      },
+      {
+       "c": "Spain",
+       "n": "Lérida"
+      },
+      {
+       "c": "Spain",
+       "n": "Gerona"
+      }
+     ]
+    },
+    {
+     "color": "#E8A33C",
+     "at": {
+      "line": 1,
+      "word": "Aragon",
+      "d": -0.2
+     },
+     "keep": false,
+     "regions": [
+      {
+       "c": "Spain",
+       "n": "Huesca"
+      },
+      {
+       "c": "Spain",
+       "n": "Zaragoza"
+      },
+      {
+       "c": "Spain",
+       "n": "Teruel"
+      }
+     ]
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      -0.88,
+      41.65
+     ],
+     "to": [
+      1.6,
+      41.5
+     ],
+     "n": 3,
+     "color": "#E8A33C",
+     "label": "Union avec l’Aragon",
+     "at": {
+      "line": 1,
+      "word": "Aragon"
+     },
+     "dur": 2.4
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      2.17,
+      41.39
+     ],
+     "title": "Barcelone",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "Barcelone"
+     }
+    },
+    {
+     "at": [
+      -0.88,
+      41.65
+     ],
+     "title": "Saragosse",
+     "side": "b",
+     "when": {
+      "line": 1,
+      "word": "Aragon",
+      "d": 0.3
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      2.17,
+      41.39
+     ],
+     "when": 0.4
+    }
+   ],
+   "labels": [
+    {
+     "text": "France",
+     "at": [
+      1.6,
+      43.25
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "d": 0.5
+     }
+    },
+    {
+     "text": "Aragon",
+     "at": [
+      -0.4,
+      42.25
+     ],
+     "size": 38,
+     "when": {
+      "line": 1,
+      "word": "Aragon",
+      "d": 0.4
+     }
+    }
+   ],
+   "say": [
+    "En 988, le comté de Barcelone devient indépendant de fait.",
+    "En 1137, il s’unit à l’Aragon : c’est la couronne d’Aragon."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "13e – 15e siècles",
+   "text": "Une couronne sur la Méditerranée",
+   "focus": {
+    "box": [
+     -3.0,
+     37.0,
+     15.0,
+     43.6
+    ]
+   },
+   "highlight": [
+    {
+     "color": "#E8A33C",
+     "at": {
+      "line": 0,
+      "d": 0.2
+     },
+     "keep": false,
+     "regions": [
+      {
+       "c": "Spain",
+       "n": "Barcelona"
+      },
+      {
+       "c": "Spain",
+       "n": "Tarragona"
+      },
+      {
+       "c": "Spain",
+       "n": "Lérida"
+      },
+      {
+       "c": "Spain",
+       "n": "Gerona"
+      },
+      {
+       "c": "Spain",
+       "n": "Huesca"
+      },
+      {
+       "c": "Spain",
+       "n": "Zaragoza"
+      },
+      {
+       "c": "Spain",
+       "n": "Teruel"
+      }
+     ]
+    },
+    {
+     "color": "#E8A33C",
+     "at": {
+      "line": 0,
+      "word": "Majorque",
+      "d": 0.0
+     },
+     "keep": false,
+     "regions": [
+      {
+       "c": "Spain",
+       "n": "Baleares"
+      }
+     ]
+    },
+    {
+     "color": "#E8A33C",
+     "at": {
+      "line": 0,
+      "word": "Valence",
+      "d": 0.0
+     },
+     "keep": false,
+     "regions": [
+      {
+       "c": "Spain",
+       "n": "Castellón"
+      },
+      {
+       "c": "Spain",
+       "n": "Valencia"
+      },
+      {
+       "c": "Spain",
+       "n": "Alicante"
+      }
+     ]
+    },
+    {
+     "color": "#E8A33C",
+     "at": {
+      "line": 0,
+      "word": "Sardaigne",
+      "d": 0.0
+     },
+     "keep": false,
+     "regions": [
+      {
+       "c": "Italy",
+       "n": "Sassari"
+      },
+      {
+       "c": "Italy",
+       "n": "Nuoro"
+      },
+      {
+       "c": "Italy",
+       "n": "Cagliari"
+      },
+      {
+       "c": "Italy",
+       "n": "Carbonia-Iglesias"
+      },
+      {
+       "c": "Italy",
+       "n": "Olbia-Tempio"
+      },
+      {
+       "c": "Italy",
+       "n": "Medio Campidano"
+      },
+      {
+       "c": "Italy",
+       "n": "Ogliastra"
+      }
+     ]
+    },
+    {
+     "color": "#E8A33C",
+     "at": {
+      "line": 0,
+      "word": "Naples",
+      "d": 0.0
+     },
+     "keep": false,
+     "regions": [
+      {
+       "c": "Italy",
+       "n": "Napoli"
+      },
+      {
+       "c": "Italy",
+       "n": "Caserta"
+      },
+      {
+       "c": "Italy",
+       "n": "Salerno"
+      }
+     ]
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      2.17,
+      41.39
+     ],
+     "to": [
+      8.31,
+      40.56
+     ],
+     "n": 3,
+     "color": "#FFFFFF",
+     "label": "Colons catalans",
+     "at": {
+      "line": 1,
+      "word": "Alghero",
+      "d": -0.9
+     },
+     "dur": 2.2
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      2.17,
+      41.39
+     ],
+     "title": "Barcelone",
+     "side": "t",
+     "when": {
+      "line": 0,
+      "d": 0.3
+     }
+    },
+    {
+     "at": [
+      2.65,
+      39.57
+     ],
+     "title": "Palma",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "Majorque",
+      "d": 0.0
+     }
+    },
+    {
+     "at": [
+      -0.38,
+      39.47
+     ],
+     "title": "Valence",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "Valence",
+      "d": 0.0
+     }
+    },
+    {
+     "at": [
+      14.25,
+      40.85
+     ],
+     "title": "Naples",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "Naples",
+      "d": 0.0
+     }
+    },
+    {
+     "at": [
+      8.31,
+      40.56
+     ],
+     "title": "Alghero",
+     "side": "b",
+     "when": {
+      "line": 1,
+      "word": "Alghero"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      8.31,
+      40.56
+     ],
+     "when": {
+      "line": 1,
+      "word": "Alghero"
+     }
+    }
+   ],
+   "say": [
+    "Du 13e au 15e siècle, elle conquiert Majorque, Valence, la Sardaigne, puis Naples.",
+    "Alghero est conquise en 1354, puis repeuplée de colons catalans."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1479",
+   "text": "L’union avec la Castille",
+   "focus": {
+    "box": [
+     -6.5,
+     37.0,
+     4.5,
+     43.5
+    ]
+   },
+   "highlight": [
+    {
+     "color": "#E8503A",
+     "at": {
+      "line": 0,
+      "d": 0.2
+     },
+     "keep": false,
+     "regions": [
+      {
+       "c": "Spain",
+       "n": "Madrid"
+      },
+      {
+       "c": "Spain",
+       "n": "Toledo"
+      },
+      {
+       "c": "Spain",
+       "n": "Ávila"
+      },
+      {
+       "c": "Spain",
+       "n": "Segovia"
+      },
+      {
+       "c": "Spain",
+       "n": "Valladolid"
+      },
+      {
+       "c": "Spain",
+       "n": "Burgos"
+      },
+      {
+       "c": "Spain",
+       "n": "Palencia"
+      },
+      {
+       "c": "Spain",
+       "n": "León"
+      },
+      {
+       "c": "Spain",
+       "n": "Soria"
+      },
+      {
+       "c": "Spain",
+       "n": "Guadalajara"
+      },
+      {
+       "c": "Spain",
+       "n": "Cuenca"
+      },
+      {
+       "c": "Spain",
+       "n": "Ciudad Real"
+      },
+      {
+       "c": "Spain",
+       "n": "Salamanca"
+      },
+      {
+       "c": "Spain",
+       "n": "Zamora"
+      },
+      {
+       "c": "Spain",
+       "n": "Albacete"
+      },
+      {
+       "c": "Spain",
+       "n": "Sevilla"
+      },
+      {
+       "c": "Spain",
+       "n": "Córdoba"
+      },
+      {
+       "c": "Spain",
+       "n": "Jaén"
+      },
+      {
+       "c": "Spain",
+       "n": "Cádiz"
+      },
+      {
+       "c": "Spain",
+       "n": "Huelva"
+      },
+      {
+       "c": "Spain",
+       "n": "Badajoz"
+      },
+      {
+       "c": "Spain",
+       "n": "Cáceres"
+      },
+      {
+       "c": "Spain",
+       "n": "Murcia"
+      },
+      {
+       "c": "Spain",
+       "n": "La Rioja"
+      },
+      {
+       "c": "Spain",
+       "n": "Cantabria"
+      },
+      {
+       "c": "Spain",
+       "n": "Asturias"
+      },
+      {
+       "c": "Spain",
+       "n": "Lugo"
+      },
+      {
+       "c": "Spain",
+       "n": "Orense"
+      },
+      {
+       "c": "Spain",
+       "n": "Pontevedra"
+      },
+      {
+       "c": "Spain",
+       "n": "La Coruña"
+      },
+      {
+       "c": "Spain",
+       "n": "Bizkaia"
+      },
+      {
+       "c": "Spain",
+       "n": "Gipuzkoa"
+      },
+      {
+       "c": "Spain",
+       "n": "Álava"
+      }
+     ]
+    },
+    {
+     "color": "#E8A33C",
+     "at": {
+      "line": 0,
+      "d": 0.4
+     },
+     "keep": false,
+     "regions": [
+      {
+       "c": "Spain",
+       "n": "Barcelona"
+      },
+      {
+       "c": "Spain",
+       "n": "Tarragona"
+      },
+      {
+       "c": "Spain",
+       "n": "Lérida"
+      },
+      {
+       "c": "Spain",
+       "n": "Gerona"
+      },
+      {
+       "c": "Spain",
+       "n": "Huesca"
+      },
+      {
+       "c": "Spain",
+       "n": "Zaragoza"
+      },
+      {
+       "c": "Spain",
+       "n": "Teruel"
+      },
+      {
+       "c": "Spain",
+       "n": "Castellón"
+      },
+      {
+       "c": "Spain",
+       "n": "Valencia"
+      },
+      {
+       "c": "Spain",
+       "n": "Alicante"
+      },
+      {
+       "c": "Spain",
+       "n": "Baleares"
+      }
+     ]
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      -4.72,
+      41.65
+     ],
+     "to": [
+      -1.2,
+      41.55
+     ],
+     "n": 3,
+     "color": "#FFFFFF",
+     "label": "Union des couronnes",
+     "at": {
+      "line": 0,
+      "word": "dynastique",
+      "d": -0.9
+     },
+     "dur": 2.4
+    }
+   ],
+   "people": [
+    {
+     "who": "roi",
+     "at": [
+      0.2,
+      41.3
+     ],
+     "size": 230,
+     "say": "Roi d’Aragon !",
+     "label": {
+      "title": "Ferdinand",
+      "sub": "1479"
+     },
+     "when": {
+      "line": 0,
+      "word": "Ferdinand"
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Castille",
+     "at": [
+      -4.6,
+      39.9
+     ],
+     "size": 44,
+     "when": {
+      "line": 0,
+      "word": "Castille"
+     }
+    },
+    {
+     "text": "Aragon",
+     "at": [
+      -0.3,
+      42.3
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "word": "roi",
+      "d": 0.6
+     }
+    },
+    {
+     "text": "France",
+     "at": [
+      1.0,
+      43.3
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "word": "dynastique",
+      "d": 0.3
+     }
+    }
+   ],
+   "say": [
+    "En 1479, Ferdinand, marié à Isabelle de Castille, devient roi d’Aragon : c’est une union dynastique."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1714 · 1716",
+   "text": "Barcelone tombe, le castillan s’impose",
+   "focus": {
+    "box": [
+     -5.3,
+     39.4,
+     4.8,
+     43.5
+    ]
+   },
+   "highlight": [
+    {
+     "color": "#FFD83C",
+     "at": {
+      "line": 0,
+      "d": 0.2
+     },
+     "keep": false,
+     "regions": [
+      {
+       "c": "Spain",
+       "n": "Barcelona"
+      },
+      {
+       "c": "Spain",
+       "n": "Tarragona"
+      },
+      {
+       "c": "Spain",
+       "n": "Lérida"
+      },
+      {
+       "c": "Spain",
+       "n": "Gerona"
+      }
+     ]
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      -3.7,
+      40.42
+     ],
+     "to": [
+      1.6,
+      41.5
+     ],
+     "n": 3,
+     "color": "#E8503A",
+     "label": "Décret de 1716",
+     "at": {
+      "line": 1,
+      "word": "décret",
+      "d": -0.4
+     },
+     "dur": 2.4
+    }
+   ],
+   "people": [
+    {
+     "who": "soldat",
+     "at": [
+      3.2,
+      41.9
+     ],
+     "size": 150,
+     "say": "La ville tombe !",
+     "label": {
+      "title": "Septembre 1714",
+      "sub": "fin du siège"
+     },
+     "when": {
+      "line": 0,
+      "word": "tombe"
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      -3.7,
+      40.42
+     ],
+     "title": "Madrid",
+     "side": "b",
+     "when": {
+      "line": 1,
+      "d": 0.0
+     }
+    },
+    {
+     "at": [
+      2.17,
+      41.39
+     ],
+     "title": "Barcelone",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "Barcelone"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      2.17,
+      41.39
+     ],
+     "when": 0.4
+    }
+   ],
+   "say": [
+    "À la fin de la guerre de Succession d’Espagne, Barcelone tombe en 1714.",
+    {
+     "say": "En 1716, le décret de Nouéva Planta impose le castillan à l’administration.",
+     "show": "En 1716, le décret de Nueva Planta impose le castillan à l’administration."
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "19e siècle",
+   "text": "La Renaixença",
+   "focus": {
+    "box": [
+     -0.3,
+     40.3,
+     4.3,
+     43.3
+    ]
+   },
+   "highlight": [
+    {
+     "color": "#FFD83C",
+     "at": 0.3,
+     "keep": false,
+     "regions": [
+      {
+       "c": "Spain",
+       "n": "Barcelona"
+      },
+      {
+       "c": "Spain",
+       "n": "Tarragona"
+      },
+      {
+       "c": "Spain",
+       "n": "Lérida"
+      },
+      {
+       "c": "Spain",
+       "n": "Gerona"
+      }
+     ]
+    }
+   ],
+   "people": [
+    {
+     "who": "savant",
+     "at": [
+      1.3,
+      41.7
+     ],
+     "size": 230,
+     "say": "Écrivons en catalan !",
+     "label": {
+      "title": "Écrivains",
+      "sub": "19e siècle"
+     },
+     "when": {
+      "line": 0,
+      "word": "siècle"
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      2.17,
+      41.39
+     ],
+     "title": "Barcelone",
+     "side": "b",
+     "when": {
+      "line": 1,
+      "word": "1859"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      2.17,
+      41.39
+     ],
+     "when": 0.4
+    }
+   ],
+   "labels": [
+    {
+     "text": "France",
+     "at": [
+      2.0,
+      43.1
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "d": 1.0
+     }
+    }
+   ],
+   "say": [
+    {
+     "say": "Au 19e siècle, la Rénaïchènsa relance la littérature catalane.",
+     "show": "Au 19e siècle, la Renaixença relance la littérature catalane."
+    },
+    {
+     "say": "Les Djoks Florals, concours de poésie, renaissent en 1859.",
+     "show": "Les Jocs Florals, concours de poésie, renaissent en 1859."
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1932",
+   "text": "Un statut d’autonomie",
+   "focus": {
+    "box": [
+     -5.0,
+     39.4,
+     4.6,
+     43.5
+    ]
+   },
+   "highlight": [
+    {
+     "color": "#FFD83C",
+     "at": {
+      "line": 0,
+      "d": 0.2
+     },
+     "keep": false,
+     "regions": [
+      {
+       "c": "Spain",
+       "n": "Barcelona"
+      },
+      {
+       "c": "Spain",
+       "n": "Tarragona"
+      },
+      {
+       "c": "Spain",
+       "n": "Lérida"
+      },
+      {
+       "c": "Spain",
+       "n": "Gerona"
+      }
+     ]
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      -3.7,
+      40.42
+     ],
+     "to": [
+      1.9,
+      41.5
+     ],
+     "n": 3,
+     "color": "#3E9A63",
+     "label": "Statut : catalan co-officiel",
+     "at": {
+      "line": 0,
+      "d": 0.2
+     },
+     "dur": 2.4
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      2.17,
+      41.39
+     ],
+     "title": "La Généralité",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "Généralité"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      2.17,
+      41.39
+     ],
+     "when": 0.4
+    }
+   ],
+   "labels": [
+    {
+     "text": "Castille",
+     "at": [
+      -3.4,
+      41.6
+     ],
+     "size": 40,
+     "when": {
+      "line": 0,
+      "d": 0.6
+     }
+    }
+   ],
+   "say": [
+    "En 1932, le statut d’autonomie rétablit la Généralité et rend le catalan officiel, avec le castillan."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1939 – 1975",
+   "text": "Le catalan interdit en public",
+   "focus": {
+    "box": [
+     -0.3,
+     40.3,
+     4.3,
+     43.3
+    ]
+   },
+   "highlight": [
+    {
+     "color": "#FFD83C",
+     "at": 0.3,
+     "keep": false,
+     "regions": [
+      {
+       "c": "Spain",
+       "n": "Barcelona"
+      },
+      {
+       "c": "Spain",
+       "n": "Tarragona"
+      },
+      {
+       "c": "Spain",
+       "n": "Lérida"
+      },
+      {
+       "c": "Spain",
+       "n": "Gerona"
+      }
+     ]
+    }
+   ],
+   "people": [
+    {
+     "who": "soldat",
+     "at": [
+      3.6,
+      41.6
+     ],
+     "size": 200,
+     "say": "Interdit !",
+     "label": {
+      "title": "Régime de Franco",
+      "sub": "1939 – 1975"
+     },
+     "when": {
+      "line": 0,
+      "word": "Franco",
+      "d": -0.2
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      2.17,
+      41.39
+     ],
+     "title": "En famille",
+     "side": "b",
+     "when": {
+      "line": 1,
+      "word": "famille"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      2.17,
+      41.39
+     ],
+     "when": 0.4
+    }
+   ],
+   "say": [
+    "De 1939 à 1975, sous Franco, le catalan est interdit en public.",
+    "On le parle pourtant en famille."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1979",
+   "text": "Un nouveau statut",
+   "focus": {
+    "box": [
+     0.2,
+     40.8,
+     3.8,
+     42.8
+    ]
+   },
+   "highlight": [
+    {
+     "color": "#FFD83C",
+     "at": 0.3,
+     "keep": false,
+     "regions": [
+      {
+       "c": "Spain",
+       "n": "Barcelona"
+      },
+      {
+       "c": "Spain",
+       "n": "Tarragona"
+      },
+      {
+       "c": "Spain",
+       "n": "Lérida"
+      },
+      {
+       "c": "Spain",
+       "n": "Gerona"
+      }
+     ]
+    }
+   ],
+   "people": [
+    {
+     "who": "ouvrier",
+     "at": [
+      3.0,
+      41.1
+     ],
+     "size": 230,
+     "say": "Langue propre !",
+     "label": {
+      "title": "Langue propre",
+      "sub": "1979"
+     },
+     "when": {
+      "line": 1,
+      "d": 0.0
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      2.17,
+      41.39
+     ],
+     "title": "Barcelone",
+     "side": "b",
+     "when": {
+      "line": 1,
+      "word": "officielle"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      2.17,
+      41.39
+     ],
+     "when": 0.4
+    }
+   ],
+   "labels": [
+    {
+     "text": "France",
+     "at": [
+      2.0,
+      43.1
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "d": 2.0
+     }
+    }
+   ],
+   "say": [
+    "En 1979, un nouveau statut en fait la langue propre de la Catalogne.",
+    "Elle est officielle, avec le castillan."
+   ],
+   "art": [
+    {
+     "kind": "timeline",
+     "at": {
+      "line": 0,
+      "d": 0.3
+     },
+     "dur": 3.2,
+     "title": "Du statut à la langue",
+     "items": [
+      {
+       "year": "1932",
+       "text": "Statut d’autonomie"
+      },
+      {
+       "year": "1939",
+       "text": "Interdiction"
+      },
+      {
+       "year": "1975",
+       "text": "Fin du régime"
+      },
+      {
+       "year": "1979",
+       "text": "Nouveau statut"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "Aujourd’hui",
+   "text": "Où parle-t-on catalan ?",
+   "focus": {
+    "box": [
+     -2.8,
+     37.0,
+     9.8,
+     43.6
+    ]
+   },
+   "highlight": [
+    {
+     "color": "#FFD83C",
+     "at": {
+      "line": 0,
+      "word": "Catalogne"
+     },
+     "keep": false,
+     "regions": [
+      {
+       "c": "Spain",
+       "n": "Barcelona"
+      },
+      {
+       "c": "Spain",
+       "n": "Tarragona"
+      },
+      {
+       "c": "Spain",
+       "n": "Lérida"
+      },
+      {
+       "c": "Spain",
+       "n": "Gerona"
+      }
+     ]
+    },
+    {
+     "color": "#FF8FB8",
+     "at": {
+      "line": 0,
+      "word": "Valence"
+     },
+     "keep": false,
+     "regions": [
+      {
+       "c": "Spain",
+       "n": "Castellón"
+      },
+      {
+       "c": "Spain",
+       "n": "Valencia"
+      },
+      {
+       "c": "Spain",
+       "n": "Alicante"
+      }
+     ]
+    },
+    {
+     "color": "#4FA3E0",
+     "at": {
+      "line": 0,
+      "word": "Baléares"
+     },
+     "keep": false,
+     "regions": [
+      {
+       "c": "Spain",
+       "n": "Baleares"
+      }
+     ]
+    },
+    {
+     "color": "#C77DFF",
+     "at": {
+      "line": 0,
+      "word": "Andorre"
+     },
+     "keep": false,
+     "countries": [
+      "Andorra"
+     ]
+    },
+    {
+     "color": "#3E9A63",
+     "at": {
+      "line": 0,
+      "word": "Roussillon"
+     },
+     "keep": false,
+     "regions": [
+      {
+       "c": "France",
+       "n": "Pyrénées-Orientales"
+      }
+     ]
+    },
+    {
+     "color": "#2EC4B6",
+     "at": {
+      "line": 0,
+      "word": "Alghero"
+     },
+     "keep": false,
+     "regions": [
+      {
+       "c": "Italy",
+       "n": "Sassari"
+      }
+     ]
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      1.52,
+      42.55
+     ],
+     "title": "Andorre",
+     "side": "t",
+     "when": {
+      "line": 0,
+      "word": "Andorre"
+     }
+    },
+    {
+     "at": [
+      8.31,
+      40.56
+     ],
+     "title": "Alghero",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "Alghero"
+     }
+    },
+    {
+     "at": [
+      2.9,
+      42.7
+     ],
+     "title": "Perpignan",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "Roussillon",
+      "d": 0.3
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      8.31,
+      40.56
+     ],
+     "when": {
+      "line": 0,
+      "word": "Alghero"
+     }
+    }
+   ],
+   "art": [
+    {
+     "kind": "languages",
+     "at": {
+      "line": 1,
+      "d": 0.0
+     },
+     "dur": 3.8,
+     "title": "Six statuts",
+     "items": [
+      {
+       "icon": "court",
+       "where": "Andorre",
+       "lang": "Officielle",
+       "color": "#C77DFF"
+      },
+      {
+       "icon": "school",
+       "where": "Catalogne",
+       "lang": "Co-officielle",
+       "color": "#FFD83C"
+      },
+      {
+       "icon": "school",
+       "where": "Valence",
+       "lang": "Co-officielle",
+       "color": "#FF8FB8"
+      },
+      {
+       "icon": "school",
+       "where": "Baléares",
+       "lang": "Co-officielle",
+       "color": "#4FA3E0"
+      },
+      {
+       "icon": "house",
+       "where": "Roussillon",
+       "lang": "Régionale",
+       "color": "#3E9A63"
+      },
+      {
+       "icon": "house",
+       "where": "Alghero",
+       "lang": "Régionale",
+       "color": "#2EC4B6"
+      }
+     ]
+    }
+   ],
+   "say": [
+    "Aujourd’hui, on parle catalan en Catalogne, à Valence, aux Baléares, en Andorre, dans le Roussillon et à Alghero.",
+    "Seule langue officielle en Andorre, co-officielle en Catalogne, à Valence et aux Baléares, simplement reconnue comme langue régionale en France et à Alghero."
+   ]
+  },
+  {
+   "type": "final",
+   "text": "Du comté à la langue catalane",
+   "sub": "Le catalan",
+   "focus": {
+    "box": [
+     -2.8,
+     37.0,
+     9.8,
+     43.6
+    ]
+   },
+   "highlight": [
+    {
+     "color": "#FFD83C",
+     "at": 0.3,
+     "keep": false,
+     "regions": [
+      {
+       "c": "Spain",
+       "n": "Barcelona"
+      },
+      {
+       "c": "Spain",
+       "n": "Tarragona"
+      },
+      {
+       "c": "Spain",
+       "n": "Lérida"
+      },
+      {
+       "c": "Spain",
+       "n": "Gerona"
+      }
+     ]
+    },
+    {
+     "color": "#FF8FB8",
+     "at": 0.6,
+     "keep": false,
+     "regions": [
+      {
+       "c": "Spain",
+       "n": "Castellón"
+      },
+      {
+       "c": "Spain",
+       "n": "Valencia"
+      },
+      {
+       "c": "Spain",
+       "n": "Alicante"
+      }
+     ]
+    },
+    {
+     "color": "#4FA3E0",
+     "at": 0.9,
+     "keep": false,
+     "regions": [
+      {
+       "c": "Spain",
+       "n": "Baleares"
+      }
+     ]
+    },
+    {
+     "color": "#C77DFF",
+     "at": 1.2,
+     "keep": false,
+     "countries": [
+      "Andorra"
+     ]
+    },
+    {
+     "color": "#3E9A63",
+     "at": 1.5,
+     "keep": false,
+     "regions": [
+      {
+       "c": "France",
+       "n": "Pyrénées-Orientales"
+      }
+     ]
+    },
+    {
+     "color": "#2EC4B6",
+     "at": 1.8,
+     "keep": false,
+     "regions": [
+      {
+       "c": "Italy",
+       "n": "Sassari"
+      }
+     ]
+    }
+   ],
+   "people": [
+    {
+     "who": "paysan",
+     "at": [
+      5.2,
+      41.6
+     ],
+     "size": 200,
+     "say": "Catalan !",
+     "wave": true,
+     "when": 2.5
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      8.31,
+      40.56
+     ],
+     "title": "Alghero",
+     "side": "b",
+     "when": 2.0
+    }
+   ],
+   "say": [
+    "Voilà pourquoi on parle catalan de Barcelone à Alghero.",
+    "Voilà la réponse à la question qui nous a ouverts :"
+   ]
+  }
+ ]
+}

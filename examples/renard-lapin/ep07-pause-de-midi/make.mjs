@@ -2,7 +2,7 @@
 //
 // Découpage :
 //  0.0– 4.0  plan large      Roussin compte contre l'arbre, les yeux fermés ; Lino court se cacher derrière un buisson
-//  4.0– 6.5  le buisson      ses grandes oreilles dépassent du buisson : « Chut... »
+//  4.0– 6.5  le buisson      ses grandes oreilles dépassent du buisson : « Silence... »
 //  6.5– 9.5  Roussin          « Prêt ou pas, j'arrive ! » ; il voit les oreilles (!)
 //  9.5–12.0  plan moyen      « Trouvé, Lino ! » — Lino sort : « Oh non ! »
 // 12.0–14.2  plan moyen      Lino compte à son tour ; Roussin se faufile et plonge derrière l'autre buisson
@@ -10,8 +10,9 @@
 // 17.2–21.0  gros plan       derrière le buisson : Roussin s'est endormi, Zzz
 // 21.0–23.5  plan moyen      Lino appelle toujours du mauvais côté (« Roussin !! ») ; Rouge-Gorge arrive et se pose sur le buisson
 // 23.5–26.0  gros plan       CUI CUI ! Roussin se réveille, des feuilles sur la tête : « Hein ? J'ai gagné ? »
-// 26.0–30.0  plan large      Lino accourt : « Ha ha ! Trouvé ! » ; l'oiseau sur la tête de Roussin ; carton
+// 26.0–30.0  plan large      Lino accourt : « Je t'ai trouvé ! » ; l'oiseau sur la tête de Roussin ; carton
 import { writeFileSync } from 'node:fs';
+import { timeBadge } from '../lib/badge.mjs';
 import { W, H, INK, lines, sfxEv, an, ao, vis, sfx, fox, rabbit, put, style, addKF, track, ss } from '../lib/kit.mjs';
 import { makeCam, say, card, bird, pal } from '../lib/props.mjs';
 import { courtyard } from '../lib/courtyard.mjs';
@@ -116,25 +117,26 @@ const world = `${C.bg}${C.tree}${C.slide}
   ${birdEl}`;
 
 const fx =
-  ['Un...', 'Deux...', 'Trois...', 'Quatre...', 'Cinq !'].map((w, i) => say('fox', w, 0.6 + i * 0.6, 0.55, { bx: 600, by: 200, tips: [[880, 420]] })).join('') +
-  say('rab', 'Chut...', 4.6, 1.0, { bx: 900, by: 140, tips: [[1080, 250]] }) +
+  say('fox', 'Je compte jusqu’à cinq !', 0.6, 3.0, { bx: 600, by: 200, tips: [[880, 420]] }) +
+  say('rab', 'Silence...', 4.6, 1.0, { bx: 900, by: 140, tips: [[1080, 250]] }) +
   say('fox', "Prêt ou pas, j'arrive !", 6.6, 1.4, { bx: 520, by: 130, tips: [[640, 300]] }) +
   sfx('!', 880, 330, 8.2, 0.8, 0, '#ffd23f', 130, 'boing') +
   say('fox', 'Trouvé, Lino !', 9.6, 1.2, { bx: 520, by: 140, tips: [[620, 300]], shout: true }) +
-  say('rab', 'Oh non !', 11.0, 0.9, { bx: 1060, by: 140, tips: [[1000, 300]] }) +
-  say('rab', 'À toi ! Un, deux...', 12.1, 1.5, { bx: 900, by: 150, tips: [[960, 300]] }) +
+  say('rab', 'Zut, trouvé !', 11.0, 0.9, { bx: 1060, by: 140, tips: [[1000, 300]] }) +
+  say('rab', 'À toi de compter !', 12.1, 1.5, { bx: 900, by: 150, tips: [[960, 300]] }) +
   say('rab', 'Trouvée, Mimi !', 15.2, 0.8, { bx: 700, by: 150, tips: [[800, 290]] }) +
   say('rab', 'Roussin ? Où es-tu ?', 16.3, 0.85, { bx: 900, by: 150, tips: [[930, 300]] }) +
   say('rab', 'Roussin !!', 21.35, 0.9, { bx: 1000, by: 170, tips: [[960, 310]], shout: true }) +
   sfx('CUI CUI !', 820, 90, 23.55, 0.75, -8, '#ffd23f', 70, 'chirp') +
-  say('fox', "Hein ? J'ai gagné ?", 24.35, 1.3, { bx: 980, by: 90, tips: [[760, 370]] }) +
-  say('rab', 'Ha ha ! Trouvé !', 26.85, 0.6, { bx: 800, by: 230, tips: [[700, 390]] }) +
+  say('fox', 'Quoi ? J’ai gagné ?', 24.35, 1.3, { bx: 980, by: 90, tips: [[760, 370]] }) +
+  say('rab', 'Je t’ai trouvé !', 26.85, 1.2, { bx: 800, by: 230, tips: [[700, 390]] }) +
   card(27.5, 'La pause de midi !', 'les lettres', 640, 130);
 
 const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" data-duration="${DUR}" data-fps="30">
 <style>${style()}</style>
 <rect width="${W}" height="${H}" fill="#7cc8ff"/>
 <g style="${camStyle}">${world}</g>
+${timeBadge(12, 45)}
 ${fx}
 </svg>`;
 sfxEv.push({ name: 'whoosh', t: 0.4 }, { name: 'whoosh', t: 13.55 }, { name: 'step', t: 12.4 }, { name: 'whoosh', t: 21.9 }, { name: 'boing', t: 24.2 }, { name: 'laugh', t: 26.8 }, { name: 'chirp', t: 26.3 });

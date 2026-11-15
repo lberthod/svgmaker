@@ -1,0 +1,1320 @@
+{
+ "format": "atlas",
+ "id": "atlas-pays-basque",
+ "base": {
+  "countries": [
+   "Spain",
+   "France"
+  ]
+ },
+ "terrain": [
+  {
+   "box": [
+    -14,
+    27,
+    40,
+    76
+   ],
+   "px": 3000,
+   "z": 6
+  },
+  {
+   "box": [
+    -5.4,
+    40.9,
+    2.6,
+    45.4
+   ],
+   "px": 2800,
+   "z": 8
+  }
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "text": "Une langue sans cousine connue",
+   "sub": "L’euskara",
+   "focus": {
+    "box": [
+     -4.0,
+     41.9,
+     0.4,
+     44.2
+    ]
+   },
+   "highlight": {
+    "color": "#FFD83C",
+    "at": 0.7,
+    "keep": false,
+    "regions": [
+     {
+      "c": "Spain",
+      "n": "Álava"
+     },
+     {
+      "c": "Spain",
+      "n": "Bizkaia"
+     },
+     {
+      "c": "Spain",
+      "n": "Gipuzkoa"
+     },
+     {
+      "c": "Spain",
+      "n": "Navarra"
+     },
+     {
+      "c": "France",
+      "n": "Pyrénées-Atlantiques"
+     }
+    ]
+   },
+   "pills": [
+    {
+     "at": [
+      -2.93,
+      43.26
+     ],
+     "title": "Bilbao",
+     "side": "t",
+     "when": {
+      "line": 0,
+      "d": 2.2
+     }
+    },
+    {
+     "at": [
+      -1.47,
+      43.49
+     ],
+     "title": "Bayonne",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "d": 2.6
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      -2.93,
+      43.26
+     ],
+     "when": 0.4
+    }
+   ],
+   "labels": [
+    {
+     "text": "France",
+     "at": [
+      -0.9,
+      44.05
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "word": "langue",
+      "d": 0.2
+     }
+    },
+    {
+     "text": "Espagne",
+     "at": [
+      -3.4,
+      42.25
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "word": "Basques",
+      "d": 0.2
+     }
+    }
+   ],
+   "art": [
+    {
+     "kind": "stats",
+     "at": {
+      "line": 1,
+      "d": -0.1
+     },
+     "dur": 4.0,
+     "title": "Un pays, une langue seule",
+     "items": [
+      {
+       "value": 7,
+       "label": "provinces",
+       "color": "#FFD83C"
+      },
+      {
+       "value": 2,
+       "label": "États",
+       "color": "#E8503A"
+      },
+      {
+       "value": 1,
+       "label": "langue",
+       "color": "#4FA3E0"
+      },
+      {
+       "value": 0,
+       "label": "parent prouvé",
+       "color": "#FFFFFF"
+      }
+     ]
+    }
+   ],
+   "say": [
+    "Pourquoi l’euskara, la langue des Basques, n’a-t-elle aucune parenté connue ?",
+    "Sept provinces, deux États, une langue sans parent prouvé."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "Préhistoire",
+   "text": "Un isolat, sans parenté connue",
+   "focus": {
+    "box": [
+     -4.4,
+     41.8,
+     2.2,
+     45.0
+    ]
+   },
+   "highlight": {
+    "color": "#FFD83C",
+    "at": {
+     "line": 0,
+     "word": "euskara"
+    },
+    "keep": false,
+    "regions": [
+     {
+      "c": "Spain",
+      "n": "Álava"
+     },
+     {
+      "c": "Spain",
+      "n": "Bizkaia"
+     },
+     {
+      "c": "Spain",
+      "n": "Gipuzkoa"
+     },
+     {
+      "c": "Spain",
+      "n": "Navarra"
+     },
+     {
+      "c": "France",
+      "n": "Pyrénées-Atlantiques"
+     }
+    ]
+   },
+   "moves": [
+    {
+     "from": [
+      1.2,
+      44.4
+     ],
+     "to": [
+      -1.3,
+      43.2
+     ],
+     "n": 3,
+     "color": "#4FA3E0",
+     "at": {
+      "line": 1,
+      "d": -0.3
+     },
+     "dur": 1.8,
+     "label": "Langues indo-européennes"
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      -2.0,
+      43.1
+     ],
+     "when": 0.4
+    }
+   ],
+   "labels": [
+    {
+     "text": "France",
+     "at": [
+      1.2,
+      44.9
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "d": 1.2
+     }
+    },
+    {
+     "text": "Espagne",
+     "at": [
+      -3.2,
+      42.0
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "d": 1.6
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      -2.0,
+      43.1
+     ],
+     "stack": [
+      {
+       "text": "Euskara",
+       "color": "#FFD83C"
+      }
+     ],
+     "when": {
+      "line": 0,
+      "word": "isolat"
+     }
+    }
+   ],
+   "say": [
+    "L’euskara est un isolat : aucune langue vivante ne lui est prouvée parente.",
+    "Il vient probablement d’avant les langues indo-européennes."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1er siècle av. J.-C.",
+   "text": "Rome chez les Vascons",
+   "focus": {
+    "box": [
+     -3.6,
+     41.3,
+     0.4,
+     43.8
+    ]
+   },
+   "highlight": {
+    "color": "#FFD83C",
+    "at": {
+     "line": 0,
+     "word": "Vascons"
+    },
+    "keep": false,
+    "regions": [
+     {
+      "c": "Spain",
+      "n": "Navarra"
+     }
+    ]
+   },
+   "moves": [
+    {
+     "from": [
+      0.2,
+      41.9
+     ],
+     "to": [
+      -1.64,
+      42.82
+     ],
+     "n": 4,
+     "color": "#E8503A",
+     "at": {
+      "line": 0,
+      "d": 0.2
+     },
+     "dur": 2.4
+    }
+   ],
+   "people": [
+    {
+     "who": "romain",
+     "at": [
+      -1.64,
+      43.05
+     ],
+     "size": 240,
+     "say": "Pompaelo !",
+     "when": {
+      "line": 0,
+      "word": "Pampelune"
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      -1.64,
+      42.82
+     ],
+     "title": "Pampelune",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "Pampelune",
+      "d": 0.2
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      -1.64,
+      42.82
+     ],
+     "when": 0.4
+    }
+   ],
+   "labels": [
+    {
+     "text": "Ebre",
+     "at": [
+      -1.2,
+      41.5
+     ],
+     "size": 36,
+     "when": {
+      "line": 1,
+      "d": 0.5
+     }
+    }
+   ],
+   "say": [
+    "Au 1er siècle avant notre ère, les Romains arrivent à Pampelune, chez les Vascons.",
+    "Le latin se répand ; isolés dans leurs vallées, ils gardent leur langue."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "824 – 1620",
+   "text": "Le royaume de Navarre",
+   "focus": {
+    "box": [
+     -3.5,
+     42.0,
+     -0.3,
+     43.6
+    ]
+   },
+   "highlight": [
+    {
+     "color": "#3E9A63",
+     "at": {
+      "line": 0,
+      "d": 0.3
+     },
+     "keep": false,
+     "regions": [
+      {
+       "c": "Spain",
+       "n": "Navarra"
+      }
+     ]
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      -3.7,
+      42.4
+     ],
+     "to": [
+      -1.64,
+      42.82
+     ],
+     "n": 3,
+     "color": "#E8503A",
+     "at": {
+      "line": 1,
+      "d": 0.0
+     },
+     "dur": 2.0,
+     "label": "Castille"
+    }
+   ],
+   "people": [
+    {
+     "who": "roi",
+     "at": [
+      -1.64,
+      42.7
+     ],
+     "size": 240,
+     "say": "Un royaume !",
+     "when": {
+      "line": 0,
+      "word": "naît"
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      -1.64,
+      42.82
+     ],
+     "title": "Pampelune",
+     "side": "l",
+     "when": {
+      "line": 0,
+      "word": "Pampelune",
+      "d": 0.1
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      -1.64,
+      42.82
+     ],
+     "when": 0.4
+    }
+   ],
+   "labels": [
+    {
+     "text": "Castille",
+     "at": [
+      -3.3,
+      42.1
+     ],
+     "size": 38,
+     "when": {
+      "line": 1,
+      "word": "Castille",
+      "d": 0.2
+     }
+    },
+    {
+     "text": "Basse-Navarre",
+     "at": [
+      -1.1,
+      43.15
+     ],
+     "size": 36,
+     "when": {
+      "line": 1,
+      "word": "Basse-Navarre",
+      "d": 0.0
+     }
+    }
+   ],
+   "art": [
+    {
+     "kind": "timeline",
+     "at": {
+      "line": 1,
+      "d": -1
+     },
+     "dur": 4.0,
+     "title": "Un royaume, deux destins",
+     "items": [
+      {
+       "year": "824",
+       "text": "Royaume de Pampelune"
+      },
+      {
+       "year": "1512",
+       "text": "Haute-Navarre → Castille"
+      },
+      {
+       "year": "1620",
+       "text": "Basse-Navarre → France"
+      }
+     ]
+    }
+   ],
+   "say": [
+    "En 824 naît le royaume de Pampelune, futur royaume de Navarre.",
+    "La Haute-Navarre passe à la Castille en 1512, la Basse-Navarre à la France en 1620."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1789 – 1876",
+   "text": "Sept provinces, deux États",
+   "focus": {
+    "box": [
+     -4.2,
+     42.0,
+     0.4,
+     44.2
+    ]
+   },
+   "highlight": [
+    {
+     "color": "#E8503A",
+     "at": {
+      "line": 0,
+      "word": "fueros"
+     },
+     "keep": false,
+     "regions": [
+      {
+       "c": "Spain",
+       "n": "Álava"
+      },
+      {
+       "c": "Spain",
+       "n": "Bizkaia"
+      },
+      {
+       "c": "Spain",
+       "n": "Gipuzkoa"
+      }
+     ]
+    },
+    {
+     "color": "#3E9A63",
+     "at": {
+      "line": 1,
+      "word": "Navarre",
+      "d": 0.0
+     },
+     "keep": false,
+     "regions": [
+      {
+       "c": "Spain",
+       "n": "Navarra"
+      }
+     ]
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      -2.93,
+      43.26
+     ],
+     "title": "Bilbao",
+     "side": "t",
+     "when": {
+      "line": 1,
+      "word": "communauté",
+      "d": 0.2
+     }
+    },
+    {
+     "at": [
+      -1.64,
+      42.82
+     ],
+     "title": "Pampelune",
+     "side": "b",
+     "when": {
+      "line": 1,
+      "word": "Navarre",
+      "d": 0.4
+     }
+    },
+    {
+     "at": [
+      -1.47,
+      43.49
+     ],
+     "title": "Bayonne",
+     "side": "r",
+     "when": {
+      "line": 1,
+      "word": "France",
+      "d": 0.2
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      -2.93,
+      43.26
+     ],
+     "when": 0.4
+    }
+   ],
+   "labels": [
+    {
+     "text": "France",
+     "at": [
+      -0.2,
+      44.0
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "word": "fueros",
+      "d": 0.8
+     }
+    },
+    {
+     "text": "Espagne",
+     "at": [
+      -3.3,
+      42.25
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "word": "fueros",
+      "d": 0.3
+     }
+    },
+    {
+     "text": "Labourd · Navarre · Soule",
+     "at": [
+      -0.9,
+      43.05
+     ],
+     "size": 34,
+     "when": {
+      "line": 1,
+      "word": "France",
+      "d": 0.3
+     }
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      -1.47,
+      43.49
+     ],
+     "to": [
+      -1.4,
+      43.35
+     ],
+     "n": 3,
+     "color": "#4FA3E0",
+     "at": {
+      "line": 0,
+      "word": "supprime"
+     },
+     "dur": 2.0
+    }
+   ],
+   "say": [
+    "La France supprime les provinces en 1790 ; l’Espagne retire aux provinces leurs droits propres, les fueros, en 1876.",
+    "Il reste sept provinces : trois en Espagne autonome, la Navarre, trois en France."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1937 – 1975",
+   "text": "Guernica, puis l’interdiction",
+   "focus": {
+    "box": [
+     -4.2,
+     41.9,
+     -0.8,
+     44.2
+    ]
+   },
+   "highlight": [
+    {
+     "color": "#E8503A",
+     "at": {
+      "line": 0,
+      "word": "avril"
+     },
+     "keep": false,
+     "regions": [
+      {
+       "c": "Spain",
+       "n": "Bizkaia"
+      }
+     ]
+    },
+    {
+     "color": "#8A93A8",
+     "at": {
+      "line": 1,
+      "word": "Franco"
+     },
+     "keep": false,
+     "countries": [
+      "Spain"
+     ]
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      -1.0,
+      43.0
+     ],
+     "to": [
+      -2.68,
+      43.32
+     ],
+     "n": 0,
+     "color": "#FF5A36",
+     "at": {
+      "line": 0,
+      "word": "aviation",
+      "d": 0.0
+     },
+     "dur": 1.8
+    }
+   ],
+   "people": [
+    {
+     "who": "rebelle",
+     "at": [
+      -3.0,
+      42.7
+     ],
+     "size": 230,
+     "say": "Interdit !",
+     "when": {
+      "line": 1,
+      "word": "interdit"
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      -2.68,
+      43.32
+     ],
+     "title": "Guernica",
+     "side": "l",
+     "when": {
+      "line": 0,
+      "word": "Guernica",
+      "d": 0.1
+     },
+     "sub": "26 avril 1937"
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      -2.68,
+      43.32
+     ],
+     "when": 0.4
+    }
+   ],
+   "labels": [
+    {
+     "text": "Espagne",
+     "at": [
+      -4.1,
+      42.0
+     ],
+     "size": 42,
+     "when": {
+      "line": 1,
+      "word": "Franco",
+      "d": 0.3
+     }
+    },
+    {
+     "text": "France",
+     "at": [
+      -0.9,
+      44.0
+     ],
+     "size": 36,
+     "when": {
+      "line": 1,
+      "d": 0.5
+     }
+    }
+   ],
+   "say": [
+    "En avril 1937, l’aviation allemande et italienne bombarde Guernica.",
+    "Sous Franco, l’euskara est interdit en public."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1968",
+   "text": "L’euskara batua, une langue unifiée",
+   "focus": {
+    "box": [
+     -3.6,
+     42.3,
+     -0.6,
+     43.8
+    ]
+   },
+   "highlight": {
+    "color": "#FFD83C",
+    "at": {
+     "line": 0,
+     "d": 0.3
+    },
+    "keep": false,
+    "regions": [
+     {
+      "c": "Spain",
+      "n": "Álava"
+     },
+     {
+      "c": "Spain",
+      "n": "Bizkaia"
+     },
+     {
+      "c": "Spain",
+      "n": "Gipuzkoa"
+     },
+     {
+      "c": "Spain",
+      "n": "Navarra"
+     },
+     {
+      "c": "France",
+      "n": "Pyrénées-Atlantiques"
+     }
+    ]
+   },
+   "moves": [
+    {
+     "from": [
+      -3.3,
+      43.25
+     ],
+     "to": [
+      -2.5,
+      43.3
+     ],
+     "n": 1,
+     "color": "#FF7A3C",
+     "label": "Bizkaia",
+     "at": {
+      "line": 0,
+      "word": "batua",
+      "d": 0.5
+     },
+     "dur": 2.6
+    },
+    {
+     "from": [
+      -2.0,
+      43.1
+     ],
+     "to": [
+      -2.4,
+      43.3
+     ],
+     "n": 1,
+     "color": "#4FA3E0",
+     "label": "Gipuzkoa",
+     "at": {
+      "line": 0,
+      "word": "batua",
+      "d": 0.7
+     },
+     "dur": 2.6
+    },
+    {
+     "from": [
+      -1.7,
+      42.7
+     ],
+     "to": [
+      -2.3,
+      43.2
+     ],
+     "n": 1,
+     "color": "#3E9A63",
+     "label": "Navarre",
+     "at": {
+      "line": 0,
+      "word": "batua",
+      "d": 0.9
+     },
+     "dur": 2.6
+    },
+    {
+     "from": [
+      -1.2,
+      43.4
+     ],
+     "to": [
+      -2.1,
+      43.35
+     ],
+     "n": 1,
+     "color": "#C77DFF",
+     "label": "Labourd",
+     "at": {
+      "line": 0,
+      "word": "batua",
+      "d": 1.1
+     },
+     "dur": 2.6
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      -2.4,
+      43.0
+     ],
+     "title": "Arantzazu",
+     "side": "l",
+     "when": {
+      "line": 0,
+      "word": "Académie",
+      "d": 0.4
+     },
+     "sub": "1968"
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      -2.4,
+      43.0
+     ],
+     "when": 0.4
+    }
+   ],
+   "labels": [
+    {
+     "text": "France",
+     "at": [
+      -0.3,
+      44.0
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "d": 0.6
+     }
+    },
+    {
+     "text": "Espagne",
+     "at": [
+      -3.3,
+      42.2
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "d": 0.9
+     }
+    }
+   ],
+   "say": [
+    "En 1968, l’Académie de la langue basque crée l’euskara batua.",
+    "Il unifie des dialectes éloignés."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1979 · 1986",
+   "text": "Une autonomie, une langue officielle",
+   "focus": {
+    "box": [
+     -5.0,
+     41.4,
+     1.0,
+     44.6
+    ]
+   },
+   "highlight": [
+    {
+     "color": "#E8503A",
+     "at": {
+      "line": 0,
+      "word": "1979"
+     },
+     "keep": false,
+     "regions": [
+      {
+       "c": "Spain",
+       "n": "Álava"
+      },
+      {
+       "c": "Spain",
+       "n": "Bizkaia"
+      },
+      {
+       "c": "Spain",
+       "n": "Gipuzkoa"
+      }
+     ]
+    },
+    {
+     "color": "#3E9A63",
+     "at": {
+      "line": 1,
+      "d": 0.0
+     },
+     "keep": false,
+     "regions": [
+      {
+       "c": "Spain",
+       "n": "Navarra"
+      }
+     ]
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      -2.67,
+      42.85
+     ],
+     "title": "Vitoria-Gasteiz",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "autonomie",
+      "d": 0.2
+     },
+     "sub": "capitale"
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      -2.67,
+      42.85
+     ],
+     "when": 0.4
+    }
+   ],
+   "labels": [
+    {
+     "text": "France",
+     "at": [
+      -0.2,
+      44.0
+     ],
+     "size": 38,
+     "when": {
+      "line": 1,
+      "word": "France",
+      "d": 0.3
+     }
+    }
+   ],
+   "art": [
+    {
+     "kind": "languages",
+     "at": {
+      "line": 1,
+      "d": 1.0
+     },
+     "dur": 4.0,
+     "title": "Trois statuts pour l’euskara",
+     "items": [
+      {
+       "icon": "court",
+       "where": "Autonomie",
+       "lang": "Co-officielle",
+       "color": "#E8503A"
+      },
+      {
+       "icon": "court",
+       "where": "Navarre",
+       "lang": "Zone basque",
+       "color": "#3E9A63"
+      },
+      {
+       "icon": "court",
+       "where": "France",
+       "lang": "Non officielle",
+       "color": "#4FA3E0"
+      }
+     ]
+    }
+   ],
+   "say": [
+    "En 1979, le statut de Guernica donne l’autonomie à la communauté basque.",
+    "L’euskara y est officiel ; en Navarre, en partie depuis 1986 ; en France, pas."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "Aujourd’hui",
+   "text": "Une langue qui progresse",
+   "focus": {
+    "box": [
+     -3.9,
+     41.9,
+     0.3,
+     44.1
+    ]
+   },
+   "highlight": {
+    "color": "#FFD83C",
+    "at": {
+     "line": 0,
+     "d": 0.2
+    },
+    "keep": false,
+    "regions": [
+     {
+      "c": "Spain",
+      "n": "Álava"
+     },
+     {
+      "c": "Spain",
+      "n": "Bizkaia"
+     },
+     {
+      "c": "Spain",
+      "n": "Gipuzkoa"
+     },
+     {
+      "c": "Spain",
+      "n": "Navarra"
+     },
+     {
+      "c": "France",
+      "n": "Pyrénées-Atlantiques"
+     }
+    ]
+   },
+   "beacon": [
+    {
+     "at": [
+      -2.2,
+      43.1
+     ],
+     "when": 0.4
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      -2.2,
+      43.1
+     ],
+     "stack": [
+      {
+       "text": "Euskara",
+       "color": "#FFD83C"
+      }
+     ],
+     "when": {
+      "line": 0,
+      "word": "personnes"
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "France",
+     "at": [
+      -0.5,
+      44.0
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "d": 0.6
+     }
+    },
+    {
+     "text": "Espagne",
+     "at": [
+      -3.3,
+      42.2
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "d": 1.0
+     }
+    }
+   ],
+   "say": [
+    "Des centaines de milliers de personnes parlent aujourd’hui l’euskara."
+   ]
+  },
+  {
+   "type": "final",
+   "text": "Un isolat qui a survécu",
+   "sub": "L’euskara",
+   "focus": {
+    "box": [
+     -4.0,
+     42.0,
+     -0.1,
+     43.9
+    ]
+   },
+   "highlight": {
+    "color": "#FFD83C",
+    "at": {
+     "line": 0,
+     "word": "isolé"
+    },
+    "keep": false,
+    "regions": [
+     {
+      "c": "Spain",
+      "n": "Álava"
+     },
+     {
+      "c": "Spain",
+      "n": "Bizkaia"
+     },
+     {
+      "c": "Spain",
+      "n": "Gipuzkoa"
+     },
+     {
+      "c": "Spain",
+      "n": "Navarra"
+     },
+     {
+      "c": "France",
+      "n": "Pyrénées-Atlantiques"
+     }
+    ]
+   },
+   "pills": [
+    {
+     "at": [
+      -2.93,
+      43.26
+     ],
+     "title": "Bilbao",
+     "side": "t",
+     "when": 1.5
+    },
+    {
+     "at": [
+      -1.47,
+      43.49
+     ],
+     "title": "Bayonne",
+     "side": "r",
+     "when": 1.8
+    }
+   ],
+   "people": [
+    {
+     "who": "paysan",
+     "at": [
+      -2.2,
+      42.95
+     ],
+     "size": 250,
+     "say": "Euskara !",
+     "wave": true,
+     "when": 1.5
+    }
+   ],
+   "say": [
+    "Voilà pourquoi l’euskara, isolé et ancien, n’a aucune parente connue.",
+    "Voilà la réponse à la question qui nous a ouverts :"
+   ]
+  }
+ ]
+}

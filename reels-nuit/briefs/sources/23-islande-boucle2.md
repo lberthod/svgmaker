@@ -1,0 +1,5 @@
+- ex.2/6 scène 7 : art bars (barres identiques) remplacé par stats 2 items (2 lettres þ ð gardées, 1 mot inventé tölva, 1965 : source Wikipédia, audit faits).
+- ex.5 scènes 7 et finale : vraie cause (île isolée, sagas relues, mots créés plutôt qu'empruntés) ; boucle : « Voilà la réponse à la question qui nous a ouverts : » puis hook conservé.
+- ex.3/6 scène 2 : « vers 874 », label « Colons norvégiens », marin [-15,65.8] taille 150, pill b, Norvège [7,64.5], focus nord 69,5.
+- scène 3 : justice ajoutée, focus [-26,62.6,-12.5,66.8], chef [-20,64.7] ligne 0 ; scène 4 : « sans traduction, avec notes », pill Sagas ; scène 5 : flèches recalées, Copenhague [12.4,55.7], label Danemark déplacé, sans « Roi du Danemark » ; scène 6 : frise + 1397, dur 5,2, séparateur « – ».
+- terrain recalculé sur l'union des focus.

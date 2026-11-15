@@ -1,0 +1,4 @@
+- Faits : titre timeline « 7e siècle – 2007 / 14 siècles, 6 dates » ; 1335 Carniole et Carinthie ; Trubar « pasteur slovène », « posent les bases de la langue écrite » ; pill Schwäbisch Hall (Peter Frentz, Abecedarium 1550, Wikipédia EN).
+- Glyphes : « ž » absent de la police, donc Primoz et Dobrodosli sans accent (š non testé séparément).
+- Carto : Vienne en pill, Slovénie verte / Autriche orange, Zagreb->Ljubljana 1991, focus.box resserrés, terrain recalculé [7.8,43.4,21.4,50.4].
+- Compo : scène duel renommée « Le duel slovène » et placée après 2004, avec éveil national XIXe (langue écrite et parlée) ; hook « deux fois plus petite que la Suisse » ; frise finale dur 5 + réplique « Six dates, une seule langue. » ; pills 2004 fusionnées, Euro retirée.

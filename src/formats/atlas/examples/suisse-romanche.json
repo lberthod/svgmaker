@@ -1,0 +1,127 @@
+{
+  "format": "atlas",
+  "id": "atlas-suisse-romanche",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "La plus petite langue de Suisse",
+      "focus": "all",
+      "people": [
+        {
+          "who": "rm",
+          "at": "Disentis",
+          "size": 230,
+          "rays": true,
+          "wave": true,
+          "label": {
+            "title": "Un Grison",
+            "sub": "parle romanche"
+          },
+          "say": "Allegra !"
+        }
+      ],
+      "say": [
+        "Connais-tu la plus petite langue de Suisse ? Le romanche !"
+      ]
+    },
+    {
+      "type": "map",
+      "text": "Elle vit dans les Grisons",
+      "focus": {
+        "cantons": [
+          "GR"
+        ]
+      },
+      "highlight": {
+        "cantons": [
+          "GR"
+        ],
+        "color": "#F5B84B"
+      },
+      "labels": [
+        {
+          "text": "Grisons",
+          "at": [
+            9.4,
+            46.75
+          ]
+        }
+      ],
+      "pills": [
+        {
+          "at": "Coire",
+          "title": "Coire",
+          "sub": "capitale des Grisons",
+          "side": "t"
+        }
+      ],
+      "say": [
+        "Elle se parle dans les Grisons, au centre des Alpes."
+      ]
+    },
+    {
+      "type": "map",
+      "text": "Trois régions la gardent vivante",
+      "highlight": {
+        "langs": [
+          "rm"
+        ]
+      },
+      "pills": [
+        {
+          "at": "Disentis",
+          "title": "Disentis",
+          "side": "t"
+        },
+        {
+          "at": "Scuol",
+          "title": "Scuol",
+          "side": "b"
+        }
+      ],
+      "say": [
+        "Trois régions la gardent vivante, comme Disentis et Scuol."
+      ]
+    },
+    {
+      "type": "map",
+      "year": "1938",
+      "text": "Langue nationale depuis 1938",
+      "focus": "all",
+      "big": {
+        "value": "91 %",
+        "sub": "de oui au vote",
+        "at": {
+          "line": 0,
+          "d": 2.4
+        },
+        "dur": 2.2
+      },
+      "say": [
+        "Le romanche est une langue nationale depuis 1938 : plus de 9 votants sur 10 ont dit oui !"
+      ]
+    },
+    {
+      "type": "final",
+      "text": "Quatre langues. Une minuscule.",
+      "sub": "Abonne-toi pour la suite",
+      "focus": "all",
+      "people": [
+        {
+          "who": "heidi",
+          "at": "Berne",
+          "size": 240,
+          "rays": true,
+          "wave": true,
+          "label": {
+            "title": "Heidi",
+            "sub": "à bientôt !"
+          }
+        }
+      ],
+      "say": [
+        "Quatre langues nationales, et une seule minuscule. Abonne-toi pour la suite !"
+      ]
+    }
+  ]
+}

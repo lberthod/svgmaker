@@ -1,0 +1,1 @@
+Boucle 2 : corrections audit (faits, lisibilité, carto, caméra, compo) appliquées à 21-roumanie.json : année 271–6e siècle, Transylvanie/Ottomans, Moldavie pays, Bucovine colorée, Dacie sans Brasov/Arges, finale Slaves et Hongrois, couleur slave #E0607E, Valachie/Moldavie distinctes avant l'union, art languages (apă/acqua/voda) ajouté, timeline sans « Vers ».

@@ -1,0 +1,1627 @@
+{
+ "format": "atlas",
+ "id": "geographie-14-mont-blanc",
+ "open": {
+  "box": [
+   6.12,
+   45.5,
+   7.62,
+   46.16
+  ]
+ },
+ "rivers": "detail",
+ "base": {
+  "countries": [
+   "France",
+   "Italy",
+   "Switzerland"
+  ]
+ },
+ "terrain": [
+  {
+   "box": [
+    -14,
+    27,
+    40,
+    76
+   ],
+   "px": 3000,
+   "z": 7
+  },
+  {
+   "box": [
+    4.4,
+    44.2,
+    9.3,
+    47.4
+   ],
+   "px": 2800,
+   "z": 9
+  },
+  {
+   "box": [
+    5.8,
+    45.1,
+    8.1,
+    46.6
+   ],
+   "px": 2800,
+   "z": 10
+  }
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "text": "À qui est le sommet ?",
+   "focus": {
+    "box": [
+     5.3,
+     45.2,
+     8.5,
+     46.45
+    ]
+   },
+   "line": {
+    "points": [
+     [
+      6.807,
+      45.751
+     ],
+     [
+      6.818,
+      45.781
+     ],
+     [
+      6.812,
+      45.808
+     ],
+     [
+      6.818,
+      45.836
+     ],
+     [
+      6.844,
+      45.843
+     ],
+     [
+      6.8652,
+      45.8326
+     ],
+     [
+      6.876,
+      45.849
+     ],
+     [
+      6.907,
+      45.856
+     ],
+     [
+      6.928,
+      45.853
+     ],
+     [
+      6.932,
+      45.868
+     ],
+     [
+      6.958,
+      45.873
+     ],
+     [
+      6.989,
+      45.869
+     ],
+     [
+      7.046,
+      45.922
+     ]
+    ],
+    "color": "#4DFFC3",
+    "at": 0,
+    "draw": 1.6
+   },
+   "labels": [
+    {
+     "text": "France",
+     "at": [
+      6.45,
+      46.02
+     ],
+     "size": 40,
+     "when": {
+      "line": 1,
+      "word": "carte"
+     }
+    },
+    {
+     "text": "Italie",
+     "at": [
+      7.25,
+      45.62
+     ],
+     "size": 40,
+     "when": {
+      "line": 1,
+      "word": "carte",
+      "d": 0.4
+     }
+    }
+   ],
+   "say": [
+    "À qui est le sommet du mont Blanc ?",
+    "Selon la carte, la frontière passe au sommet… ou plus bas."
+   ]
+  },
+  {
+   "type": "map",
+   "text": "Le toit des Alpes",
+   "focus": {
+    "box": [
+     4.9,
+     44.9,
+     8.9,
+     47.0
+    ]
+   },
+   "line": {
+    "points": [
+     [
+      6.807,
+      45.751
+     ],
+     [
+      6.818,
+      45.781
+     ],
+     [
+      6.812,
+      45.808
+     ],
+     [
+      6.818,
+      45.836
+     ],
+     [
+      6.844,
+      45.843
+     ],
+     [
+      6.8652,
+      45.8326
+     ],
+     [
+      6.876,
+      45.849
+     ],
+     [
+      6.907,
+      45.856
+     ],
+     [
+      6.928,
+      45.853
+     ],
+     [
+      6.932,
+      45.868
+     ],
+     [
+      6.958,
+      45.873
+     ],
+     [
+      6.989,
+      45.869
+     ],
+     [
+      7.046,
+      45.922
+     ]
+    ],
+    "color": "#4DFFC3",
+    "at": 0.8
+   },
+   "art": [
+    {
+     "kind": "profile",
+     "at": {
+      "line": 0,
+      "d": 0.1
+     },
+     "dur": 3.4,
+     "title": "Coupe du massif",
+     "sub": "du nord au sud",
+     "h": [
+      1040,
+      1300,
+      1560,
+      1950,
+      2380,
+      2620,
+      2970,
+      3270,
+      3890,
+      4310,
+      4807,
+      4748,
+      4640,
+      3920,
+      3880,
+      3350,
+      3010,
+      2710,
+      2150,
+      1620,
+      1930,
+      2230,
+      2210,
+      1440,
+      1200
+     ],
+     "from": "Chamonix",
+     "to": "Courmayeur",
+     "peaks": [
+      {
+       "i": 10,
+       "label": "Mont Blanc",
+       "value": "environ 4 807 m"
+      }
+     ]
+    }
+   ],
+   "labels": [
+    {
+     "text": "France",
+     "at": [
+      5.6,
+      45.6
+     ],
+     "size": 40,
+     "when": {
+      "line": 1,
+      "d": 0
+     }
+    },
+    {
+     "text": "Italie",
+     "at": [
+      7.9,
+      45.25
+     ],
+     "size": 40,
+     "when": {
+      "line": 1,
+      "d": 0.3
+     }
+    },
+    {
+     "text": "Suisse",
+     "at": [
+      7.6,
+      46.55
+     ],
+     "size": 40,
+     "when": {
+      "line": 1,
+      "d": 0.6
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      6.87,
+      45.924
+     ],
+     "title": "Chamonix",
+     "side": "l",
+     "stroke": "#3fb8a9",
+     "when": {
+      "line": 1,
+      "word": "varie"
+     }
+    },
+    {
+     "at": [
+      6.969,
+      45.792
+     ],
+     "title": "Courmayeur",
+     "side": "r",
+     "stroke": "#3fb8a9",
+     "when": {
+      "line": 1,
+      "word": "calotte"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      6.8652,
+      45.8326
+     ],
+     "when": {
+      "line": 1
+     }
+    }
+   ],
+   "say": [
+    "Le plus haut sommet des Alpes, dans un massif partagé entre trois pays.",
+    "Sa hauteur varie avec sa calotte de neige et de glace."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "Env. 30 millions d’années",
+   "text": "L’Afrique pousse l’Europe",
+   "focus": {
+    "box": [
+     -4,
+     34,
+     24,
+     52
+    ]
+   },
+   "line": {
+    "points": [
+     [
+      7.3,
+      43.9
+     ],
+     [
+      6.9,
+      45.0
+     ],
+     [
+      6.8652,
+      45.8326
+     ],
+     [
+      8.0,
+      46.5
+     ],
+     [
+      10.5,
+      46.8
+     ],
+     [
+      13.0,
+      47.2
+     ],
+     [
+      16.0,
+      47.7
+     ]
+    ],
+    "color": "#4DFFC3",
+    "at": 1.0,
+    "label": "Les Alpes"
+   },
+   "moves": [
+    {
+     "from": [
+      9.0,
+      35.2
+     ],
+     "to": [
+      7.6,
+      44.6
+     ],
+     "n": 0,
+     "color": "#FFB347",
+     "label": "L’Afrique pousse",
+     "at": {
+      "line": 0,
+      "word": "pousse",
+      "d": -0.2
+     },
+     "dur": 2.6
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      11.5,
+      46.9
+     ],
+     "title": "Collision Afrique–Europe",
+     "side": "b",
+     "stroke": "#3fb8a9",
+     "when": {
+      "line": 1,
+      "word": "plisse"
+     }
+    }
+   ],
+   "say": [
+    "Depuis environ trente millions d’années, l’Afrique pousse contre l’Europe.",
+    "Le sol se plisse comme un tapis contre un mur : les Alpes montent."
+   ],
+   "still": true,
+   "labels": [
+    {
+     "text": "Afrique",
+     "at": [
+      3.0,
+      35.3
+     ],
+     "size": 40,
+     "when": {
+      "line": 0,
+      "word": "Afrique"
+     }
+    },
+    {
+     "text": "Europe",
+     "at": [
+      2.5,
+      47.5
+     ],
+     "size": 40,
+     "when": {
+      "line": 0,
+      "word": "Europe"
+     }
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "text": "Un toit à deux pentes",
+   "focus": {
+    "box": [
+     6.2,
+     45.48,
+     7.7,
+     46.14
+    ]
+   },
+   "line": {
+    "points": [
+     [
+      6.807,
+      45.751
+     ],
+     [
+      6.818,
+      45.781
+     ],
+     [
+      6.812,
+      45.808
+     ],
+     [
+      6.818,
+      45.836
+     ],
+     [
+      6.844,
+      45.843
+     ],
+     [
+      6.8652,
+      45.8326
+     ],
+     [
+      6.876,
+      45.849
+     ],
+     [
+      6.907,
+      45.856
+     ],
+     [
+      6.928,
+      45.853
+     ],
+     [
+      6.932,
+      45.868
+     ],
+     [
+      6.958,
+      45.873
+     ],
+     [
+      6.989,
+      45.869
+     ],
+     [
+      7.046,
+      45.922
+     ]
+    ],
+    "color": "#4DFFC3",
+    "at": 0.8
+   },
+   "moves": [
+    {
+     "from": [
+      6.86,
+      45.86
+     ],
+     "to": [
+      6.62,
+      46.04
+     ],
+     "n": 0,
+     "color": "#8FD0EE",
+     "label": "Vers le Rhône",
+     "at": {
+      "line": 0,
+      "word": "Rhône",
+      "d": -0.6
+     },
+     "dur": 1.6
+    },
+    {
+     "from": [
+      6.88,
+      45.82
+     ],
+     "to": [
+      7.18,
+      45.72
+     ],
+     "n": 0,
+     "color": "#8FD0EE",
+     "label": "Vers le Pô",
+     "at": {
+      "line": 0,
+      "word": "Pô",
+      "d": -0.6
+     },
+     "dur": 1.6
+    }
+   ],
+   "labels": [
+    {
+     "text": "France",
+     "at": [
+      6.45,
+      46.1
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "d": 0.4
+     }
+    },
+    {
+     "text": "Italie",
+     "at": [
+      7.35,
+      45.58
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "d": 0.8
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      7.046,
+      45.922
+     ],
+     "title": "Ligne de partage des eaux",
+     "side": "r",
+     "stroke": "#3fb8a9",
+     "when": {
+      "line": 1,
+      "word": "toit"
+     }
+    }
+   ],
+   "say": [
+    "Sur la crête, l’eau file au nord vers le Rhône, au sud vers le Pô.",
+    "Un toit à deux pentes, qui sépare deux vallées."
+   ],
+   "still": true
+  },
+  {
+   "type": "map",
+   "year": "1860 – 1861",
+   "text": "La Savoie passe à la France",
+   "focus": {
+    "box": [
+     4.8,
+     44.6,
+     8.6,
+     46.8
+    ]
+   },
+   "highlight": [
+    {
+     "regions": [
+      {
+       "c": "France",
+       "n": "Savoie"
+      },
+      {
+       "c": "France",
+       "n": "Haute-Savoie"
+      }
+     ],
+     "color": "#4FA3E0",
+     "at": {
+      "line": 1,
+      "d": -0.2
+     },
+     "keep": false
+    }
+   ],
+   "art": [
+    {
+     "kind": "treaty",
+     "at": {
+      "line": 0,
+      "d": 0.2
+     },
+     "dur": 3.6,
+     "title": "Traité de Turin",
+     "sub": "24 mars 1860",
+     "signers": [
+      "Talleyrand",
+      "Benedetti",
+      "Cavour",
+      "Farini"
+     ],
+     "year": "1860"
+    }
+   ],
+   "line": {
+    "points": [
+     [
+      6.807,
+      45.751
+     ],
+     [
+      6.818,
+      45.781
+     ],
+     [
+      6.812,
+      45.808
+     ],
+     [
+      6.818,
+      45.836
+     ],
+     [
+      6.844,
+      45.843
+     ],
+     [
+      6.8652,
+      45.8326
+     ],
+     [
+      6.876,
+      45.849
+     ],
+     [
+      6.907,
+      45.856
+     ],
+     [
+      6.928,
+      45.853
+     ],
+     [
+      6.932,
+      45.868
+     ],
+     [
+      6.958,
+      45.873
+     ],
+     [
+      6.989,
+      45.869
+     ],
+     [
+      7.046,
+      45.922
+     ]
+    ],
+    "color": "#4DFFC3",
+    "at": 0.8
+   },
+   "labels": [
+    {
+     "text": "Royaume de Sardaigne",
+     "at": [
+      8.05,
+      44.95
+     ],
+     "size": 36,
+     "when": {
+      "line": 1,
+      "word": "limite"
+     }
+    },
+    {
+     "text": "Savoie",
+     "at": [
+      6.3,
+      45.75
+     ],
+     "size": 38,
+     "when": {
+      "line": 1,
+      "word": "limite",
+      "d": 0.4
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      6.8652,
+      45.8326
+     ],
+     "when": {
+      "line": 1,
+      "word": "sommet"
+     }
+    }
+   ],
+   "say": [
+    "En 1860, le traité de Turin cède la Savoie à la France.",
+    "En 1861, une convention garde l’ancienne limite, sans préciser le sommet."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1865",
+   "text": "La carte française",
+   "focus": {
+    "box": [
+     6.12,
+     45.5,
+     7.62,
+     46.16
+    ]
+   },
+   "line": {
+    "points": [
+     [
+      6.807,
+      45.751
+     ],
+     [
+      6.818,
+      45.781
+     ],
+     [
+      6.812,
+      45.808
+     ],
+     [
+      6.818,
+      45.836
+     ],
+     [
+      6.845,
+      45.836
+     ],
+     [
+      6.8694,
+      45.8289
+     ],
+     [
+      6.88,
+      45.842
+     ],
+     [
+      6.905,
+      45.848
+     ],
+     [
+      6.933,
+      45.84
+     ],
+     [
+      6.938,
+      45.86
+     ],
+     [
+      6.958,
+      45.873
+     ],
+     [
+      6.989,
+      45.869
+     ],
+     [
+      7.046,
+      45.922
+     ]
+    ],
+    "color": "#4DFFC3",
+    "at": 0.8
+   },
+   "highlight": [
+    {
+     "regions": [
+      {
+       "c": "France",
+       "n": "Haute-Savoie"
+      }
+     ],
+     "color": "#4FA3E0",
+     "at": {
+      "line": 1,
+      "word": "descend"
+     },
+     "keep": false
+    }
+   ],
+   "people": [
+    {
+     "who": "savant",
+     "at": [
+      6.4,
+      46.06
+     ],
+     "size": 200,
+     "label": {
+      "title": "Capitaine Mieulet",
+      "sub": "carte de 1865"
+     },
+     "when": {
+      "line": 0,
+      "word": "Mieulet",
+      "d": -0.3
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      6.8652,
+      45.8326
+     ],
+     "when": {
+      "line": 1,
+      "word": "descend"
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      6.8694,
+      45.8289
+     ],
+     "title": "Mont Blanc de Courmayeur",
+     "sub": "environ 4 748 m",
+     "side": "b",
+     "stroke": "#3fb8a9",
+     "when": {
+      "line": 1,
+      "word": "italien"
+     }
+    },
+    {
+     "at": [
+      6.8652,
+      45.8326
+     ],
+     "title": "Sommet en France",
+     "side": "l",
+     "stroke": "#3fb8a9",
+     "when": {
+      "line": 1,
+      "word": "sommet",
+      "d": 0.1
+     }
+    }
+   ],
+   "say": [
+    "En 1865, le capitaine Mieulet dresse la carte française.",
+    "La frontière y descend côté italien : le sommet est français."
+   ]
+  },
+  {
+   "type": "map",
+   "text": "La carte italienne",
+   "focus": {
+    "box": [
+     6.12,
+     45.5,
+     7.62,
+     46.16
+    ]
+   },
+   "line": {
+    "points": [
+     [
+      6.807,
+      45.751
+     ],
+     [
+      6.818,
+      45.781
+     ],
+     [
+      6.812,
+      45.808
+     ],
+     [
+      6.818,
+      45.836
+     ],
+     [
+      6.844,
+      45.843
+     ],
+     [
+      6.8652,
+      45.8326
+     ],
+     [
+      6.876,
+      45.849
+     ],
+     [
+      6.907,
+      45.856
+     ],
+     [
+      6.928,
+      45.853
+     ],
+     [
+      6.932,
+      45.868
+     ],
+     [
+      6.958,
+      45.873
+     ],
+     [
+      6.989,
+      45.869
+     ],
+     [
+      7.046,
+      45.922
+     ]
+    ],
+    "color": "#4DFFC3",
+    "at": 0.3
+   },
+   "highlight": [
+    {
+     "regions": [
+      {
+       "c": "Italy",
+       "n": "Aoste"
+      }
+     ],
+     "color": "#3E9A63",
+     "at": {
+      "line": 0,
+      "word": "italiennes"
+     },
+     "keep": false
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      6.8652,
+      45.8326
+     ],
+     "when": {
+      "line": 0,
+      "word": "crête"
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      6.8652,
+      45.8326
+     ],
+     "title": "Sommet partagé",
+     "side": "t",
+     "stroke": "#3fb8a9",
+     "when": {
+      "line": 0,
+      "word": "crête"
+     }
+    }
+   ],
+   "say": [
+    "Les cartes italiennes suivent la crête : le sommet est partagé.",
+    "Entre les deux, une bande de glace change de pays."
+   ],
+   "art": [
+    {
+     "kind": "split",
+     "at": {
+      "line": 1,
+      "d": -0.1
+     },
+     "dur": 3.8,
+     "title": "La zone disputée",
+     "sub": "autour du sommet",
+     "before": "Carte française",
+     "after": "Carte italienne",
+     "parts": [
+      {
+       "area": [
+        [
+         6.838,
+         45.8414
+        ],
+        [
+         6.844,
+         45.843
+        ],
+        [
+         6.8652,
+         45.8326
+        ],
+        [
+         6.876,
+         45.849
+        ],
+        [
+         6.907,
+         45.856
+        ],
+        [
+         6.928,
+         45.853
+        ],
+        [
+         6.932,
+         45.868
+        ],
+        [
+         6.948,
+         45.8711
+        ],
+        [
+         6.948,
+         45.876
+        ],
+        [
+         6.838,
+         45.876
+        ]
+       ],
+       "color": "#4FA3E0"
+      },
+      {
+       "area": [
+        [
+         6.838,
+         45.836
+        ],
+        [
+         6.845,
+         45.836
+        ],
+        [
+         6.8694,
+         45.8289
+        ],
+        [
+         6.88,
+         45.842
+        ],
+        [
+         6.905,
+         45.848
+        ],
+        [
+         6.933,
+         45.84
+        ],
+        [
+         6.938,
+         45.86
+        ],
+        [
+         6.948,
+         45.8665
+        ],
+        [
+         6.948,
+         45.82
+        ],
+        [
+         6.838,
+         45.82
+        ]
+       ],
+       "color": "#3E9A63"
+      },
+      {
+       "area": [
+        [
+         6.838,
+         45.8414
+        ],
+        [
+         6.844,
+         45.843
+        ],
+        [
+         6.8652,
+         45.8326
+        ],
+        [
+         6.876,
+         45.849
+        ],
+        [
+         6.907,
+         45.856
+        ],
+        [
+         6.928,
+         45.853
+        ],
+        [
+         6.932,
+         45.868
+        ],
+        [
+         6.948,
+         45.8711
+        ],
+        [
+         6.948,
+         45.8665
+        ],
+        [
+         6.938,
+         45.86
+        ],
+        [
+         6.933,
+         45.84
+        ],
+        [
+         6.905,
+         45.848
+        ],
+        [
+         6.88,
+         45.842
+        ],
+        [
+         6.8694,
+         45.8289
+        ],
+        [
+         6.845,
+         45.836
+        ],
+        [
+         6.838,
+         45.836
+        ]
+       ],
+       "color": "#9AD4FF",
+       "to": "#8BE0A4"
+      }
+     ],
+     "legend": [
+      {
+       "color": "#9AD4FF",
+       "text": "France"
+      },
+      {
+       "color": "#8BE0A4",
+       "text": "Italie"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "2015 – 2020",
+   "text": "Un désaccord qui dure",
+   "focus": {
+    "box": [
+     6.25,
+     45.55,
+     7.75,
+     46.2
+    ]
+   },
+   "line": {
+    "points": [
+     [
+      6.807,
+      45.751
+     ],
+     [
+      6.818,
+      45.781
+     ],
+     [
+      6.812,
+      45.808
+     ],
+     [
+      6.818,
+      45.836
+     ],
+     [
+      6.844,
+      45.843
+     ],
+     [
+      6.8652,
+      45.8326
+     ],
+     [
+      6.876,
+      45.849
+     ],
+     [
+      6.907,
+      45.856
+     ],
+     [
+      6.928,
+      45.853
+     ],
+     [
+      6.932,
+      45.868
+     ],
+     [
+      6.958,
+      45.873
+     ],
+     [
+      6.989,
+      45.869
+     ],
+     [
+      7.046,
+      45.922
+     ]
+    ],
+    "color": "#4DFFC3",
+    "at": 0.8
+   },
+   "people": [
+    {
+     "who": "fr",
+     "at": [
+      6.62,
+      45.98
+     ],
+     "size": 190,
+     "say": "C’est en France !",
+     "when": {
+      "line": 0,
+      "word": "ferme"
+     }
+    },
+    {
+     "who": "it",
+     "at": [
+      7.25,
+      45.68
+     ],
+     "size": 190,
+     "say": "C’est chez nous !",
+     "when": {
+      "line": 0,
+      "word": "glacier",
+      "d": 0.4
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      6.934,
+      45.844
+     ],
+     "title": "Glacier du Géant",
+     "sub": "refuge Torino",
+     "side": "r",
+     "stroke": "#3fb8a9",
+     "when": {
+      "line": 0,
+      "word": "glacier",
+      "d": -0.2
+     }
+    },
+    {
+     "at": [
+      6.9,
+      45.85
+     ],
+     "title": "Zone protégée",
+     "sub": "2020",
+     "side": "l",
+     "stroke": "#3fb8a9",
+     "when": {
+      "line": 1,
+      "word": "protégée",
+      "d": -0.2
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      6.934,
+      45.844
+     ],
+     "when": {
+      "line": 0,
+      "word": "glacier"
+     }
+    }
+   ],
+   "say": [
+    "En 2015, Chamonix ferme l’accès au glacier du Géant ; Courmayeur proteste.",
+    "En 2020, une zone protégée française fâche l’Italie : rien n’est réglé."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "Aujourd’hui",
+   "text": "Un tunnel sous le massif",
+   "focus": {
+    "box": [
+     6.25,
+     45.55,
+     7.75,
+     46.2
+    ]
+   },
+   "line": {
+    "points": [
+     [
+      6.807,
+      45.751
+     ],
+     [
+      6.818,
+      45.781
+     ],
+     [
+      6.812,
+      45.808
+     ],
+     [
+      6.818,
+      45.836
+     ],
+     [
+      6.844,
+      45.843
+     ],
+     [
+      6.8652,
+      45.8326
+     ],
+     [
+      6.876,
+      45.849
+     ],
+     [
+      6.907,
+      45.856
+     ],
+     [
+      6.928,
+      45.853
+     ],
+     [
+      6.932,
+      45.868
+     ],
+     [
+      6.958,
+      45.873
+     ],
+     [
+      6.989,
+      45.869
+     ],
+     [
+      7.046,
+      45.922
+     ]
+    ],
+    "color": "#4DFFC3",
+    "at": 0.3
+   },
+   "moves": [
+    {
+     "from": [
+      6.843,
+      45.9
+     ],
+     "to": [
+      6.958,
+      45.818
+     ],
+     "n": 1,
+     "color": "#FFFFFF",
+     "label": "Tunnel, environ 11,6 km",
+     "at": {
+      "line": 0,
+      "word": "relie",
+      "d": -0.2
+     },
+     "dur": 2.2
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      6.87,
+      45.924
+     ],
+     "when": {
+      "line": 0,
+      "word": "tunnel"
+     }
+    },
+    {
+     "at": [
+      6.969,
+      45.792
+     ],
+     "when": {
+      "line": 0,
+      "word": "tunnel"
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      6.87,
+      45.924
+     ],
+     "title": "Chamonix",
+     "sub": "France",
+     "side": "l",
+     "stroke": "#3fb8a9",
+     "when": {
+      "line": 0,
+      "word": "tunnel"
+     }
+    },
+    {
+     "at": [
+      6.969,
+      45.792
+     ],
+     "title": "Courmayeur",
+     "sub": "Italie",
+     "side": "r",
+     "stroke": "#3fb8a9",
+     "when": {
+      "line": 0,
+      "word": "tunnel",
+      "d": 0.4
+     }
+    }
+   ],
+   "say": [
+    "Aujourd’hui, un tunnel relie Chamonix à Courmayeur sous le massif.",
+    "Au sommet, les secours des deux pays interviennent, chacun avec sa carte."
+   ]
+  },
+  {
+   "type": "final",
+   "text": "Une crête, deux cartes",
+   "focus": {
+    "box": [
+     6.12,
+     45.5,
+     7.62,
+     46.16
+    ]
+   },
+   "line": {
+    "points": [
+     [
+      6.807,
+      45.751
+     ],
+     [
+      6.818,
+      45.781
+     ],
+     [
+      6.812,
+      45.808
+     ],
+     [
+      6.818,
+      45.836
+     ],
+     [
+      6.844,
+      45.843
+     ],
+     [
+      6.8652,
+      45.8326
+     ],
+     [
+      6.876,
+      45.849
+     ],
+     [
+      6.907,
+      45.856
+     ],
+     [
+      6.928,
+      45.853
+     ],
+     [
+      6.932,
+      45.868
+     ],
+     [
+      6.958,
+      45.873
+     ],
+     [
+      6.989,
+      45.869
+     ],
+     [
+      7.046,
+      45.922
+     ]
+    ],
+    "color": "#4DFFC3",
+    "at": 0.8
+   },
+   "beacon": [
+    {
+     "at": [
+      6.8652,
+      45.8326
+     ],
+     "when": 0.6
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      6.8652,
+      45.8326
+     ],
+     "title": "Mont Blanc",
+     "sub": "environ 4 807 m",
+     "side": "t",
+     "stroke": "#3fb8a9",
+     "when": 0.8
+    }
+   ],
+   "say": [
+    "Voilà pourquoi le sommet du mont Blanc est disputé : chaque pays lit la crête à sa façon.",
+    "Et tout commence par cette question :"
+   ]
+  }
+ ]
+}

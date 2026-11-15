@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-300 -300 600 600" width="600" height="600" data-art="marmotoons-mark">
+<title>marmotoons-mark</title>
+<!-- art --><g transform="translate(-250 -250) scale(7.8125)"><circle cx="16" cy="17" r="7" fill="#7a4e33"/>
+  <circle cx="48" cy="17" r="7" fill="#7a4e33"/>
+  <circle cx="16" cy="17" r="3.5" fill="#e9b98f"/>
+  <circle cx="48" cy="17" r="3.5" fill="#e9b98f"/>
+  <ellipse cx="32" cy="35" rx="23" ry="22" fill="#9a6644"/>
+  <ellipse cx="32" cy="43" rx="13" ry="10" fill="#f1d3b3"/>
+  <circle cx="23.5" cy="31" r="3.4" fill="#1d2440"/>
+  <circle cx="40.5" cy="31" r="3.4" fill="#1d2440"/>
+  <circle cx="24.6" cy="29.9" r="1.1" fill="#fff"/>
+  <circle cx="41.6" cy="29.9" r="1.1" fill="#fff"/>
+  <ellipse cx="32" cy="38" rx="4" ry="2.8" fill="#3a2418"/>
+  <rect x="29" y="43" width="2.8" height="4.6" rx="0.8" fill="#fff"/>
+  <rect x="32.2" y="43" width="2.8" height="4.6" rx="0.8" fill="#fff"/></g><!-- /art -->
+</svg>

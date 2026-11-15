@@ -1,0 +1,1001 @@
+{
+  "format": "atlas",
+  "id": "geographie-26-mediterranee",
+  "base": {
+    "countries": [
+      "Spain",
+      "Portugal",
+      "Morocco",
+      "Algeria",
+      "Tunisia",
+      "France",
+      "Italy",
+      "Libya",
+      "Egypt",
+      "Greece",
+      "Turkey",
+      "Gibraltar"
+    ]
+  },
+  "open": {
+    "box": [
+      -6.45,
+      35.5,
+      -4.85,
+      36.5
+    ]
+  },
+  "terrain": [
+    {
+      "box": [
+        -14,
+        18,
+        42,
+        76
+      ],
+      "px": 3000,
+      "z": 6
+    },
+    {
+      "box": [
+        -10.4,
+        32.6,
+        9.4,
+        46.4
+      ],
+      "px": 2800,
+      "z": 8
+    },
+    {
+      "box": [
+        -6.8,
+        29,
+        17,
+        43.35
+      ],
+      "px": 2800,
+      "z": 7,
+      "sea": -850,
+      "scenes": [
+        3,
+        4,
+        5
+      ],
+      "fadeIn": 3.5
+    },
+    {
+      "box": [
+        11.5,
+        29,
+        37,
+        46.5
+      ],
+      "px": 2400,
+      "z": 7,
+      "sea": -2000,
+      "scenes": [
+        3,
+        4,
+        5
+      ],
+      "fadeIn": 3.5
+    }
+  ],
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "La mer presque vidée",
+      "focus": {
+        "box": [
+          -7.2,
+          34.9,
+          -3.8,
+          37.1
+        ]
+      },
+      "line": {
+        "points": [
+          [
+            -6.6,
+            35.93
+          ],
+          [
+            -5.75,
+            35.93
+          ],
+          [
+            -5.4,
+            36
+          ],
+          [
+            -4.7,
+            36.1
+          ]
+        ],
+        "color": "#4DFFC3",
+        "width": 12,
+        "at": 0
+      },
+      "labels": [
+        {
+          "text": "Espagne",
+          "at": [
+            -5.4,
+            36.75
+          ],
+          "size": 38,
+          "when": {
+            "line": 1,
+            "word": "Espagne"
+          }
+        },
+        {
+          "text": "Maroc",
+          "at": [
+            -5.5,
+            35.3
+          ],
+          "size": 38,
+          "when": {
+            "line": 1,
+            "word": "Maroc"
+          }
+        }
+      ],
+      "pills": [
+        {
+          "at": [
+            -5.6,
+            35.96
+          ],
+          "title": "Détroit de Gibraltar",
+          "sub": "environ 14 km de large",
+          "side": "b",
+          "when": {
+            "line": 1,
+            "word": "passage"
+          }
+        }
+      ],
+      "say": [
+        "Comment la Méditerranée s’est-elle presque vidée ?",
+        "Tout part de ce passage, entre l’Espagne et le Maroc."
+      ]
+    },
+    {
+      "type": "map",
+      "text": "Une seule porte vers l’océan",
+      "focus": {
+        "box": [
+          -10,
+          33,
+          8,
+          45
+        ]
+      },
+      "line": {
+        "points": [
+          [
+            -6.6,
+            35.93
+          ],
+          [
+            -5.75,
+            35.93
+          ],
+          [
+            -5.4,
+            36
+          ],
+          [
+            -4.7,
+            36.1
+          ]
+        ],
+        "color": "#4DFFC3",
+        "width": 12,
+        "at": 0.9,
+        "draw": 1
+      },
+      "labels": [
+        {
+          "text": "Atlantique",
+          "at": [
+            -8.6,
+            35.6
+          ],
+          "size": 36,
+          "when": {
+            "line": 0,
+            "word": "Atlantique"
+          }
+        },
+        {
+          "text": "Méditerranée",
+          "at": [
+            3.2,
+            38.6
+          ],
+          "size": 40,
+          "when": {
+            "line": 0,
+            "d": 0.5
+          }
+        },
+        {
+          "text": "Espagne",
+          "at": [
+            -3.6,
+            39.8
+          ],
+          "size": 38,
+          "when": {
+            "line": 0,
+            "d": 1
+          }
+        },
+        {
+          "text": "Algérie",
+          "at": [
+            3,
+            34.8
+          ],
+          "size": 38,
+          "when": {
+            "line": 0,
+            "d": 1.4
+          }
+        },
+        {
+          "text": "France",
+          "at": [
+            3,
+            44.4
+          ],
+          "size": 38,
+          "when": {
+            "line": 0,
+            "d": 1.8
+          }
+        }
+      ],
+      "art": [
+        {
+          "kind": "profile",
+          "at": {
+            "line": 1,
+            "d": 0
+          },
+          "dur": 4.5,
+          "title": "Une porte peu profonde",
+          "sub": "coupe de l’Atlantique à la Méditerranée",
+          "h": [
+            -2540,
+            -2030,
+            -1300,
+            -820,
+            -320,
+            -900,
+            -1130,
+            -1340,
+            -1260,
+            -1850,
+            -1850,
+            -1780,
+            -2660,
+            -2700,
+            -2710,
+            -2770,
+            -2830,
+            -2810,
+            -2800,
+            -2820,
+            -2840,
+            -2820,
+            -2780,
+            -2780
+          ],
+          "peaks": [
+            {
+              "i": 4,
+              "label": "Seuil de Gibraltar",
+              "value": "environ 300 m"
+            },
+            {
+              "i": 18,
+              "label": "Bassin algérien",
+              "value": "près de 3 km"
+            }
+          ],
+          "from": "Atlantique",
+          "to": "Méditerranée"
+        }
+      ],
+      "say": [
+        "Aujourd’hui, seul ce détroit la relie à l’Atlantique.",
+        {
+          "say": "Son seuil n’a qu’environ trois cents mètres de fond, puis la mer plonge à près de trois kilomètres.",
+          "show": "Son seuil n’a qu’environ 300 mètres de fond, puis la mer plonge à près de 3 kilomètres."
+        }
+      ]
+    },
+    {
+      "type": "map",
+      "still": true,
+      "year": "Env. 6 millions d’années",
+      "text": "Le robinet se ferme",
+      "focus": {
+        "box": [
+          -9,
+          33.2,
+          -1,
+          38.6
+        ]
+      },
+      "line": {
+        "points": [
+          [
+            -6.6,
+            35.93
+          ],
+          [
+            -5.75,
+            35.93
+          ],
+          [
+            -5.4,
+            36
+          ],
+          [
+            -4.7,
+            36.1
+          ]
+        ],
+        "color": "#4DFFC3",
+        "width": 8,
+        "at": 0.9,
+        "draw": 1
+      },
+      "moves": [
+        {
+          "from": [
+            -3,
+            34.4
+          ],
+          "to": [
+            -3,
+            35.9
+          ],
+          "n": 0,
+          "color": "#FFB347",
+          "label": "L’Afrique pousse",
+          "at": {
+            "line": 0,
+            "word": "pousse",
+            "d": -0.3
+          },
+          "dur": 2.2
+        },
+        {
+          "from": [
+            -6.9,
+            37
+          ],
+          "to": [
+            -2.6,
+            37.5
+          ],
+          "n": 0,
+          "color": "#7CC8EC",
+          "label": "Passage d’Espagne",
+          "at": {
+            "line": 1,
+            "word": "Espagne"
+          },
+          "dur": 1.8
+        },
+        {
+          "from": [
+            -6.7,
+            34.5
+          ],
+          "to": [
+            -3.6,
+            34.4
+          ],
+          "n": 0,
+          "color": "#7CC8EC",
+          "label": "Passage du Maroc",
+          "at": {
+            "line": 1,
+            "word": "Maroc"
+          },
+          "dur": 1.8
+        }
+      ],
+      "pills": [
+        {
+          "at": [
+            -5.6,
+            35.96
+          ],
+          "title": "Gibraltar",
+          "sub": "pas encore ouvert",
+          "side": "t",
+          "when": {
+            "line": 1,
+            "word": "presque",
+            "d": 0.6
+          }
+        }
+      ],
+      "say": [
+        {
+          "say": "Il y a environ six millions d’années, l’Afrique, qui pousse contre l’Europe, soulève le sol.",
+          "show": "Il y a environ 6 millions d’années, l’Afrique, qui pousse contre l’Europe, soulève le sol."
+        },
+        "En Espagne et au Maroc, les passages vers l’océan se ferment presque."
+      ]
+    },
+    {
+      "type": "map",
+      "year": "Env. 5,6 millions d’années",
+      "text": "La baignoire se vide",
+      "focus": {
+        "box": [
+          -8.5,
+          31,
+          20,
+          45
+        ]
+      },
+      "line": {
+        "points": [
+          [
+            -6.6,
+            35.93
+          ],
+          [
+            -5.75,
+            35.93
+          ],
+          [
+            -5.4,
+            36
+          ],
+          [
+            -4.7,
+            36.1
+          ]
+        ],
+        "color": "#4DFFC3",
+        "width": 12,
+        "at": 0.9,
+        "draw": 1
+      },
+      "moves": [
+        {
+          "from": [
+            4.8,
+            43.7
+          ],
+          "to": [
+            4.6,
+            41.8
+          ],
+          "n": 0,
+          "color": "#7CC8EC",
+          "label": "Rhône",
+          "at": {
+            "line": 1,
+            "word": "fleuves",
+            "d": -0.4
+          },
+          "dur": 1.6
+        },
+        {
+          "from": [
+            6,
+            37.4
+          ],
+          "to": [
+            6,
+            40.2
+          ],
+          "n": 0,
+          "color": "#FFB347",
+          "label": "Évaporation",
+          "at": {
+            "line": 1,
+            "word": "soleil"
+          },
+          "dur": 1.8
+        }
+      ],
+      "say": [
+        "Comme une baignoire au robinet presque fermé, la mer perd plus d’eau qu’elle n’en reçoit.",
+        "Le soleil évapore plus que n’apportent les fleuves."
+      ]
+    },
+    {
+      "type": "map",
+      "year": "Env. 5,6 millions d’années",
+      "text": "Des lacs salés au fond",
+      "focus": {
+        "box": [
+          -8.5,
+          31,
+          20,
+          45
+        ]
+      },
+      "line": {
+        "points": [
+          [
+            -6.6,
+            35.93
+          ],
+          [
+            -5.75,
+            35.93
+          ],
+          [
+            -5.4,
+            36
+          ],
+          [
+            -4.7,
+            36.1
+          ]
+        ],
+        "color": "#4DFFC3",
+        "width": 12,
+        "at": 0,
+        "draw": 1
+      },
+      "art": [
+        {
+          "kind": "bars",
+          "at": {
+            "line": 0,
+            "d": 0
+          },
+          "dur": 4.5,
+          "title": "La mer baisse de…",
+          "sub": "environ, selon une étude de 2024 (débattu)",
+          "items": [
+            {
+              "label": "Tour Eiffel",
+              "value": "330 m",
+              "h": 0.16,
+              "color": "#9AA3AD"
+            },
+            {
+              "label": "À l’ouest",
+              "value": "850 m",
+              "h": 0.42,
+              "color": "#4FA3E0"
+            },
+            {
+              "label": "À l’est",
+              "value": "2 km",
+              "h": 1,
+              "color": "#E8503A"
+            }
+          ]
+        }
+      ],
+      "pills": [
+        {
+          "at": [
+            5,
+            39
+          ],
+          "title": "Couches de sel",
+          "sub": "plus d’un km par endroits",
+          "side": "b",
+          "when": {
+            "line": 1,
+            "word": "sel"
+          }
+        }
+      ],
+      "say": [
+        {
+          "say": "Selon une étude récente, elle baisse d’environ huit cent cinquante mètres à l’ouest, deux kilomètres à l’est.",
+          "show": "Selon une étude récente, elle baisse d’environ 850 mètres à l’ouest, 2 kilomètres à l’est."
+        },
+        "Au fond, des lacs très salés laissent du sel, épais de plus d’un kilomètre par endroits."
+      ]
+    },
+    {
+      "type": "map",
+      "still": true,
+      "year": "Env. 5,3 millions d’années",
+      "text": "L’Atlantique revient",
+      "focus": {
+        "box": [
+          -9.5,
+          33,
+          2,
+          39.5
+        ]
+      },
+      "line": {
+        "points": [
+          [
+            -6.6,
+            35.93
+          ],
+          [
+            -5.75,
+            35.93
+          ],
+          [
+            -5.4,
+            36
+          ],
+          [
+            -4.7,
+            36.1
+          ]
+        ],
+        "color": "#4DFFC3",
+        "width": 12,
+        "at": {
+          "line": 0,
+          "word": "ouvre"
+        },
+        "draw": 1.6
+      },
+      "moves": [
+        {
+          "from": [
+            -9.2,
+            35.95
+          ],
+          "to": [
+            -1.2,
+            36.6
+          ],
+          "n": 0,
+          "color": "#7CC8EC",
+          "label": "L’Atlantique",
+          "at": {
+            "line": 1,
+            "word": "Atlantique",
+            "d": -0.2
+          },
+          "dur": 3
+        }
+      ],
+      "pills": [
+        {
+          "at": [
+            -1.6,
+            37.3
+          ],
+          "title": "Remise en eau",
+          "sub": "cause et vitesse débattues",
+          "side": "t",
+          "when": {
+            "line": 1,
+            "word": "peut-être"
+          }
+        }
+      ],
+      "say": [
+        {
+          "say": "Il y a environ cinq virgule trois millions d’années, le détroit de Gibraltar s’ouvre, sans qu’on sache bien pourquoi.",
+          "show": "Il y a environ 5,3 millions d’années, le détroit de Gibraltar s’ouvre, sans qu’on sache bien pourquoi."
+        },
+        "Et l’Atlantique remplit de nouveau la mer, peut-être en moins de deux ans."
+      ]
+    },
+    {
+      "type": "map",
+      "text": "Au temps d’Orrorin",
+      "focus": {
+        "box": [
+          -8,
+          34,
+          -3,
+          38
+        ]
+      },
+      "line": {
+        "points": [
+          [
+            -6.6,
+            35.93
+          ],
+          [
+            -5.75,
+            35.93
+          ],
+          [
+            -5.4,
+            36
+          ],
+          [
+            -4.7,
+            36.1
+          ]
+        ],
+        "color": "#4DFFC3",
+        "width": 12,
+        "at": 0.9,
+        "draw": 1
+      },
+      "art": [
+        {
+          "kind": "timeline",
+          "at": {
+            "line": 0,
+            "d": 0.1
+          },
+          "dur": 5,
+          "title": "Une histoire très ancienne",
+          "sub": "Ma : millions d’années, environ",
+          "items": [
+            {
+              "year": "6 Ma",
+              "text": "Mer presque isolée"
+            },
+            {
+              "year": "6 Ma",
+              "text": "Orrorin au Kenya",
+              "color": "#FFB347"
+            },
+            {
+              "year": "5,6 Ma",
+              "text": "Mer presque vide"
+            },
+            {
+              "year": "5,3 Ma",
+              "text": "L’océan revient"
+            },
+            {
+              "year": "3,2 Ma",
+              "text": "Lucy en Éthiopie",
+              "color": "#FFB347"
+            }
+          ]
+        }
+      ],
+      "say": [
+        "À la même époque, au Kenya, vit Orrorin, peut-être un de nos premiers ancêtres.",
+        {
+          "say": "Lucy viendra environ trois millions d’années plus tard.",
+          "show": "Lucy viendra environ 3 millions d’années plus tard."
+        }
+      ]
+    },
+    {
+      "type": "map",
+      "year": "1970",
+      "text": "Du sel sous la mer",
+      "focus": {
+        "box": [
+          -7,
+          35,
+          12,
+          43.5
+        ]
+      },
+      "line": {
+        "points": [
+          [
+            -6.6,
+            35.93
+          ],
+          [
+            -5.75,
+            35.93
+          ],
+          [
+            -5.4,
+            36
+          ],
+          [
+            -4.7,
+            36.1
+          ]
+        ],
+        "color": "#4DFFC3",
+        "width": 12,
+        "at": 0.9,
+        "draw": 1
+      },
+      "beacon": [
+        {
+          "at": [
+            5.5,
+            39.2
+          ],
+          "when": {
+            "line": 0,
+            "word": "fore"
+          }
+        }
+      ],
+      "pills": [
+        {
+          "at": [
+            5.5,
+            39.2
+          ],
+          "title": "Crise messinienne",
+          "sub": "sel et gypse forés en 1970",
+          "side": "b",
+          "when": {
+            "line": 1,
+            "word": "évaporée"
+          }
+        }
+      ],
+      "people": [
+        {
+          "who": "savant",
+          "at": [
+            8,
+            37.5
+          ],
+          "size": 150,
+          "say": "Du sel !",
+          "mood": "wow",
+          "when": {
+            "line": 1,
+            "word": "sel",
+            "d": -0.3
+          }
+        }
+      ],
+      "say": [
+        {
+          "say": "En mille neuf cent soixante-dix, le Glomar Tchallèndjeur fore le fond de la mer.",
+          "show": "En 1970, le Glomar Challenger fore le fond de la mer."
+        },
+        "Il remonte du sel et du gypse : la mer s’était en grande partie évaporée."
+      ]
+    },
+    {
+      "type": "map",
+      "year": "Aujourd’hui",
+      "text": "Un canyon sous le Rhône",
+      "focus": {
+        "box": [
+          -8.5,
+          33.5,
+          10,
+          46
+        ]
+      },
+      "line": {
+        "points": [
+          [
+            -6.6,
+            35.93
+          ],
+          [
+            -5.75,
+            35.93
+          ],
+          [
+            -5.4,
+            36
+          ],
+          [
+            -4.7,
+            36.1
+          ]
+        ],
+        "color": "#4DFFC3",
+        "width": 12,
+        "at": 0.9,
+        "draw": 1
+      },
+      "beacon": [
+        {
+          "at": [
+            4.7,
+            44.33
+          ],
+          "when": {
+            "line": 0,
+            "word": "Rhône"
+          }
+        }
+      ],
+      "labels": [
+        {
+          "text": "Rhône",
+          "at": [
+            5.35,
+            44.95
+          ],
+          "size": 36,
+          "when": {
+            "line": 0,
+            "word": "Rhône"
+          }
+        },
+        {
+          "text": "Espagne",
+          "at": [
+            -3.6,
+            39.8
+          ],
+          "size": 38,
+          "when": {
+            "line": 0,
+            "d": 1
+          }
+        }
+      ],
+      "pills": [
+        {
+          "at": [
+            4.7,
+            44.33
+          ],
+          "title": "Canyon enfoui du Rhône",
+          "sub": "jusqu’à environ -700 m",
+          "side": "l",
+          "when": {
+            "line": 1,
+            "word": "Comblé"
+          }
+        }
+      ],
+      "say": [
+        "Aujourd’hui, sous la vallée du Rhône, dort un canyon creusé quand la mer était basse.",
+        {
+          "say": "Comblé depuis, il descend jusqu’à environ sept cents mètres sous le niveau de la mer.",
+          "show": "Comblé depuis, il descend jusqu’à environ 700 mètres sous le niveau de la mer."
+        }
+      ]
+    },
+    {
+      "type": "final",
+      "text": "La mer presque vidée",
+      "sub": "Le détroit de Gibraltar",
+      "focus": {
+        "box": [
+          -6.45,
+          35.5,
+          -4.85,
+          36.5
+        ]
+      },
+      "line": {
+        "points": [
+          [
+            -6.6,
+            35.93
+          ],
+          [
+            -5.75,
+            35.93
+          ],
+          [
+            -5.4,
+            36
+          ],
+          [
+            -4.7,
+            36.1
+          ]
+        ],
+        "color": "#4DFFC3",
+        "width": 12,
+        "at": 0,
+        "draw": 1
+      },
+      "say": [
+        "Voilà pourquoi la Méditerranée s’est presque vidée : ses portes vers l’océan s’étaient presque fermées.",
+        "Et tout commence par cette question :"
+      ]
+    }
+  ]
+}

@@ -12,6 +12,7 @@
 // 23.0–25.2  la porte        « ...appétit ! »
 // 25.2–30.0  plan large      « Merci ! » ; Roussin file à l'intérieur ; carton
 import { writeFileSync } from 'node:fs';
+import { timeBadge } from '../lib/badge.mjs';
 import { W, H, INK, lines, sfxEv, an, ao, vis, sfx, fox, rabbit, owl, put, style, addKF, track, ss } from '../lib/kit.mjs';
 import { makeCam, say, card, bird, pal, snail, croissant } from '../lib/props.mjs';
 import { wallClock } from '../lib/classroom.mjs';
@@ -19,11 +20,11 @@ import { wallClock } from '../lib/classroom.mjs';
 const DUR = 30;
 const SHOTS = [
   [0, 3.5, 560, 420, 1.12, 1.15],
-  [3.5, 7.0, 500, 470, 1.75, 1.8],
+  [3.5, 7.0, 440, 470, 1.5, 1.55],
   [7.0, 8.4, 880, 440, 1.6, 1.65],
-  [8.4, 10.4, 370, 470, 1.8, 1.86],
+  [8.4, 10.4, 400, 470, 1.62, 1.68],
   [10.4, 14.0, 560, 380, 1.15, 1.18],
-  [14.0, 17.0, 760, 430, 1.6, 1.63],
+  [14.0, 17.0, 760, 400, 1.45, 1.48],
   [17.0, 20.0, 1000, 480, 2.4, 2.45],
   [20.0, 23.0, 709, 360, 1.12, 1.14],
   [23.0, 25.2, 1000, 480, 2.4, 2.45],
@@ -150,13 +151,13 @@ const world = `${corridor}
 const fx =
   say('owl', 'En rang, deux par deux !', 0.5, 1.8, { bx: 740, by: 220, tips: [[685, 380]] }) +
   sfx('SNIF SNIF', 600, 300, 8.6, 1.2, -6, '#ffb84d', 58, 'sniff') +
-  say('fox', 'Mmm... des croissants !', 8.7, 1.5, { bx: 380, by: 110, tips: [[600, 290]] }) +
+  say('fox', 'Je veux des croissants !', 8.7, 1.5, { bx: 380, by: 110, tips: [[600, 290]] }) +
   sfx('FIOUUU', 330, 670, 10.55, 0.7, -6, '#7cc8ff', 50, 'whoosh') +
   say('rab', 'Roussin ! Le rang !', 11.3, 1.3, { bx: 900, by: 110, tips: [[650, 470]], shout: true }) +
   sfx('POP', 210, 650, 17.12, 0.6, -6, '#ffd23f', 56, 'boing') +
   say('snail', 'Bon...', 19.2, 0.75, { bx: 700, by: 50, tips: [[640, 160]], fs: 42 }) +
   sfx('GROOOUUU...', 820, 690, 20.3, 1.0, -6, '#b57bff', 40, 'tummy') +
-  say('rab', 'Quarante-deux pas !', 20.6, 1.2, { bx: 360, by: 240, tips: [[360, 370]] }) +
+  say('rab', 'Roussin, on attend !', 20.6, 1.2, { bx: 360, by: 240, tips: [[360, 370]] }) +
   say('snail', '...appétit !', 23.4, 1.7, { bx: 700, by: 50, tips: [[640, 160]], fs: 42 }) +
   say('class', 'Merci !', 25.4, 1.0, { bx: 640, by: 265, tips: [[330, 390], [850, 400]], shout: true }) +
   sfx('ZOUM !', 980, 360, 26.0, 0.8, -6, '#ffd23f', 64, 'whoosh') +
@@ -166,6 +167,7 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" wid
 <style>${style()}</style>
 <rect width="${W}" height="${H}" fill="#e6f2d9"/>
 <g style="${camStyle}">${world}</g>
+${timeBadge(11, 50)}
 ${fx}
 </svg>`;
 sfxEv.push({ name: 'step', t: 3.7 }, { name: 'step', t: 5.3 }, { name: 'chime', t: 7.1 }, { name: 'door', t: 17.6 }, { name: 'chirp', t: 21.0 });

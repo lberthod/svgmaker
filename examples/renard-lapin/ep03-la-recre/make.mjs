@@ -13,20 +13,20 @@
 // 24.8–26.6  la cime         l'oiseau, tout en haut, avec le croissant : trop haut
 // 26.6–30.0  plan large      DRING la cloche : « La cloche ! On rentre ! » ; ils filent ; carton
 import { writeFileSync } from 'node:fs';
+import { timeBadge } from '../lib/badge.mjs';
 import { W, H, INK, lines, sfxEv, an, ao, vis, tf, sfx, fox, rabbit, put, cloud, style, addKF, track, trackKF, ss } from '../lib/kit.mjs';
 import { makeCam, say, card, bird, pal, stars, puff } from '../lib/props.mjs';
 
 const DUR = 30;
 const SHOTS = [
   [0, 3.6, 640, 360, 1.0, 1.03],
-  [3.6, 5.7, 720, 420, 1.8, 1.86],
+  [3.6, 5.7, 800, 420, 1.5, 1.55],
   [5.7, 11.2, 930, 420, 1.25, 1.29],
   [11.2, 12.8, 1150, 520, 2.2, 2.25],
   [12.8, 15.0, 930, 480, 1.5, 1.55],
   [15.0, 18.4, 420, 400, 1.25, 1.3],
   [18.4, 22.0, 600, 540, 1.55, 1.62],
-  [22.0, 23.5, 640, 360, 1.0, 1.02],
-  [23.5, 24.8, 520, 520, 1.8, 1.85],
+  [22.0, 24.8, 640, 360, 1.0, 1.04],
   [24.8, 25.8, 965, 170, 2.0, 2.06],
   [25.8, 30, 640, 360, 1.0, 1.03],
 ];
@@ -52,7 +52,7 @@ const bez = (v) => { const m = 1 - v; const k = [m * m * m, 3 * m * m * v, 3 * m
 const bezAng = (v) => { const [a, b] = bez(Math.max(0, v - 0.01)), [c, d] = bez(Math.min(1, v + 0.01)); return (Math.atan2(d - b, c - a) * 180) / Math.PI; };
 const BIRD_CHUTE = (() => { const [x, y] = bez(0.5); return [x + 4, y - 28]; })();
 const LAND = [545, 704];        // Roussin dans le bac à sable
-const RAB_X = 1245, RAB_Y = 705, RAB_X2 = 990;
+const RAB_X = 1110, RAB_Y = 705, RAB_X2 = 990;
 
 // ───────── décor ─────────
 const clockEl = `<g transform="translate(85 300)"><circle r="40" fill="#fff" stroke="${INK}" stroke-width="6"/>
@@ -266,7 +266,7 @@ const fx =
   say('fox', 'Rends-moi mon croissant !', 1.6, 1.5, { bx: 470, by: 410, tips: [[690, 500]], shout: true }) +
   sfx('CUI !', 0, 0, 15.2, 0.01, 0, '#fff', 1, 'chirp') + sfx('CUI CUI !', 930, 80, 3.75, 1.0, 8, '#ff6f95', 62, 'chirp') +
   sfx('BOING', 520, 300, 4.4, 0.7, -10, '#ffb84d', 60, 'boing') +
-  say('rab', 'Top chrono !', 5.85, 1.0, { bx: 1130, by: 150, tips: [[1150, 345]] }) +
+  say('rab', 'Top chrono !', 5.85, 1.0, { bx: 1040, by: 150, tips: [[1075, 345]] }) +
   sfx('ZOUM !', 1000, 200, 6.95, 0.8, -8, '#ffd23f', 66, 'whoosh') +
   sfx('ZOUM !', 980, 360, 9.2, 0.8, 8, '#ffd23f', 66, 'whoosh') +
   say('rab', 'Deux tours ! Record !', 11.3, 1.35, { bx: 760, by: 130, tips: [[900, 330]] }) +
@@ -277,7 +277,7 @@ const fx =
   say('coin', 'Mon château !', 19.45, 1.0, { bx: 900, by: 270, tips: [[805, 425]], shout: true, fs: 46 }) +
   say('fox', 'Pardon...', 20.75, 1.05, { bx: 470, by: 180, tips: [[640, 250]] }) +
   say('rab', 'Ça va, Roussin ?', 22.6, 0.9, { bx: 1040, by: 320, tips: [[960, 425]] }) +
-  say('fox', 'Il est là-haut !', 23.6, 1.1, { bx: 860, by: 60, tips: [[800, 200]] }) +
+  say('fox', 'Il est tout en haut !', 23.6, 1.3, { bx: 430, by: 400, tips: [[535, 585]] }) +
   sfx('CUI CUI !', 820, 120, 25.0, 0.8, -8, '#ff6f95', 64, 'chirp') +
   sfx('DRING !', 170, 170, 27.0, 1.2, -8, '#ffd23f', 50, 'handbell') +
   say('rab', 'La cloche ! On rentre !', 27.1, 0.95, { bx: 1040, by: 320, tips: [[960, 425]], shout: true }) +
@@ -287,6 +287,7 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" wid
 <style>${style()}</style>
 <rect width="${W}" height="${H}" fill="#7cc8ff"/>
 <g style="${camStyle}">${world}</g>
+${timeBadge(10, 0)}
 ${fx}
 </svg>`;
 sfxEv.push({ name: 'chirp', t: 0.4 }, { name: 'chirp', t: 13.0 }, { name: 'chirp', t: 16.95 }, { name: 'click', t: 5.85 }, { name: 'click', t: 11.25 },

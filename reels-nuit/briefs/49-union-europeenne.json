@@ -1,0 +1,1110 @@
+{
+ "format": "atlas",
+ "id": "atlas-union-europeenne",
+ "base": {
+  "countries": [
+   "Belgium",
+   "France",
+   "Germany",
+   "Italy",
+   "Luxembourg",
+   "Netherlands",
+   "United Kingdom",
+   "Ireland",
+   "Denmark",
+   "Greece",
+   "Spain",
+   "Portugal",
+   "Austria",
+   "Finland",
+   "Sweden",
+   "Cyprus",
+   "Czechia",
+   "Estonia",
+   "Hungary",
+   "Latvia",
+   "Lithuania",
+   "Malta",
+   "Poland",
+   "Slovakia",
+   "Slovenia",
+   "Bulgaria",
+   "Romania",
+   "Croatia"
+  ]
+ },
+ "terrain": [
+  {
+   "box": [
+    -15,
+    27,
+    40,
+    76
+   ],
+   "px": 3000,
+   "z": 6
+  },
+  {
+   "box": [
+    -12.4,
+    31.6,
+    37.4,
+    68.4
+   ],
+   "px": 2800,
+   "z": 8
+  }
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "text": "De 6 à 27 pays",
+   "sub": "L’Union européenne",
+   "focus": {
+    "box": [
+     -11,
+     34,
+     34,
+     62
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Belgium",
+      "France",
+      "Germany",
+      "Italy",
+      "Luxembourg",
+      "Netherlands"
+     ],
+     "color": "#4FA3E0",
+     "at": {
+      "line": 0,
+      "d": 1
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Ireland",
+      "Denmark"
+     ],
+     "color": "#E8503A",
+     "at": {
+      "line": 0,
+      "d": 1.5
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Greece",
+      "Spain",
+      "Portugal"
+     ],
+     "color": "#FFD83C",
+     "at": {
+      "line": 0,
+      "d": 2
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Austria",
+      "Finland",
+      "Sweden"
+     ],
+     "color": "#3E9A63",
+     "at": {
+      "line": 0,
+      "d": 2.5
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Cyprus",
+      "Czechia",
+      "Estonia",
+      "Hungary",
+      "Latvia",
+      "Lithuania",
+      "Malta",
+      "Poland",
+      "Slovakia",
+      "Slovenia"
+     ],
+     "color": "#8E6CC8",
+     "at": {
+      "line": 0,
+      "d": 3
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Bulgaria",
+      "Romania",
+      "Croatia"
+     ],
+     "color": "#FF9A3C",
+     "at": {
+      "line": 0,
+      "d": 3.5
+     },
+     "keep": false
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      4.35,
+      50.85
+     ],
+     "title": "Bruxelles",
+     "side": "l",
+     "when": {
+      "line": 0,
+      "word": "Union",
+      "d": 0.2
+     }
+    }
+   ],
+   "say": [
+    "Pourquoi l’Europe unie est-elle passée de 6 à 27 pays ?",
+    "Elle compte 27 États, 24 langues et environ 450 millions d’habitants."
+   ],
+   "art": [
+    {
+     "kind": "stats",
+     "at": {
+      "line": 1,
+      "d": 0
+     },
+     "dur": 3.5,
+     "title": "L’Union en 2026",
+     "items": [
+      {
+       "value": 27,
+       "decimals": 0,
+       "label": "États membres",
+       "color": "#4FA3E0"
+      },
+      {
+       "value": 24,
+       "decimals": 0,
+       "label": "langues officielles",
+       "color": "#FFD83C"
+      },
+      {
+       "value": 450,
+       "decimals": 0,
+       "suffix": " M",
+       "label": "habitants",
+       "color": "#E8503A"
+      },
+      {
+       "value": 6,
+       "decimals": 0,
+       "label": "pays fondateurs",
+       "color": "#3E9A63"
+      }
+     ]
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      4.35,
+      50.85
+     ],
+     "when": 0.4
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1951 · 1957",
+   "text": "Six pays fondateurs",
+   "focus": {
+    "box": [
+     -1.5,
+     40.5,
+     15,
+     54.5
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Belgium",
+      "France",
+      "Germany",
+      "Italy",
+      "Luxembourg",
+      "Netherlands"
+     ],
+     "color": "#4FA3E0",
+     "at": {
+      "line": 0,
+      "d": 0.2
+     },
+     "keep": true
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      2.35,
+      48.86
+     ],
+     "title": "Paris",
+     "side": "t",
+     "when": {
+      "line": 0,
+      "word": "CECA",
+      "d": 0.6
+     }
+    },
+    {
+     "at": [
+      12.5,
+      41.9
+     ],
+     "title": "Rome",
+     "side": "l",
+     "when": {
+      "line": 1,
+      "word": "Rome",
+      "d": 0.3
+     }
+    }
+   ],
+   "moves": [],
+   "labels": [
+    {
+     "text": "Allemagne",
+     "at": [
+      10.3,
+      51.2
+     ],
+     "size": 34,
+     "when": {
+      "line": 0,
+      "d": 1
+     }
+    },
+    {
+     "text": "France",
+     "at": [
+      2.5,
+      46.6
+     ],
+     "size": 34,
+     "when": {
+      "line": 0,
+      "d": 1.3
+     }
+    },
+    {
+     "text": "Italie",
+     "at": [
+      11.5,
+      44.2
+     ],
+     "size": 34,
+     "when": {
+      "line": 0,
+      "d": 1.6
+     }
+    },
+    {
+     "text": "Belgique",
+     "at": [
+      4.6,
+      50.5
+     ],
+     "size": 34,
+     "when": {
+      "line": 0,
+      "d": 1.9
+     }
+    }
+   ],
+   "say": [
+    "En 1951, six pays créent la CECA, pour le charbon et l’acier.",
+    "En 1957, le traité de Rome fonde la Communauté économique, pour rendre la guerre impossible."
+   ],
+   "beacon": [
+    {
+     "at": [
+      6.13,
+      49.61
+     ],
+     "when": 0.4
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1973",
+   "text": "Le Royaume-Uni, l’Irlande, le Danemark",
+   "focus": {
+    "box": [
+     -11,
+     48,
+     17,
+     60
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "United Kingdom",
+      "Ireland",
+      "Denmark"
+     ],
+     "color": "#E8503A",
+     "at": {
+      "line": 0,
+      "word": "Royaume-Uni",
+      "d": 0.4
+     },
+     "keep": true
+    }
+   ],
+   "moves": [],
+   "pills": [
+    {
+     "at": [
+      -0.13,
+      51.5
+     ],
+     "title": "Londres",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "Royaume-Uni",
+      "d": 0.4
+     }
+    },
+    {
+     "at": [
+      -6.26,
+      53.35
+     ],
+     "title": "Dublin",
+     "side": "l",
+     "when": {
+      "line": 0,
+      "word": "Irlande",
+      "d": 0.3
+     }
+    },
+    {
+     "at": [
+      12.57,
+      55.68
+     ],
+     "title": "Copenhague",
+     "side": "t",
+     "when": {
+      "line": 0,
+      "word": "Danemark",
+      "d": 0.3
+     }
+    }
+   ],
+   "say": [
+    "En 1973, le Royaume-Uni, l’Irlande et le Danemark rejoignent la Communauté.",
+    "Elle passe de six à neuf membres."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1981 · 1986",
+   "text": "La Grèce, l’Espagne, le Portugal",
+   "focus": {
+    "box": [
+     -12,
+     34,
+     29,
+     46
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Greece",
+      "Spain",
+      "Portugal"
+     ],
+     "color": "#FFD83C",
+     "at": {
+      "line": 0,
+      "word": "Grèce",
+      "d": 0.2
+     },
+     "keep": true
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      23.73,
+      37.98
+     ],
+     "title": "Athènes",
+     "side": "t",
+     "when": {
+      "line": 0,
+      "word": "Grèce",
+      "d": 0.6
+     }
+    },
+    {
+     "at": [
+      -3.7,
+      40.4
+     ],
+     "title": "Madrid",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "Espagne",
+      "d": 0.3
+     }
+    },
+    {
+     "at": [
+      -9.14,
+      38.72
+     ],
+     "title": "Lisbonne",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "Portugal",
+      "d": 0.3
+     }
+    }
+   ],
+   "say": [
+    "La Grèce entre en 1981, puis l’Espagne et le Portugal en 1986, après la fin de leurs dictatures.",
+    "Elle compte alors douze membres."
+   ],
+   "beacon": [
+    {
+     "at": [
+      23.73,
+      37.98
+     ],
+     "when": 0.4
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1995",
+   "text": "L’Autriche, la Finlande, la Suède",
+   "focus": {
+    "box": [
+     4,
+     42,
+     34,
+     68
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Austria",
+      "Finland",
+      "Sweden"
+     ],
+     "color": "#3E9A63",
+     "at": {
+      "line": 0,
+      "d": 0.2
+     },
+     "keep": true
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      16.37,
+      48.2
+     ],
+     "title": "Vienne",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "Autriche",
+      "d": 0.6
+     }
+    },
+    {
+     "at": [
+      24.94,
+      60.17
+     ],
+     "title": "Helsinki",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "Finlande",
+      "d": 1.4
+     }
+    },
+    {
+     "at": [
+      18.07,
+      59.33
+     ],
+     "title": "Stockholm",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "Suède",
+      "d": 2.2
+     }
+    }
+   ],
+   "moves": [],
+   "say": [
+    "En 1995, l’Autriche, la Finlande et la Suède adhèrent.",
+    "L’Union, née en 1993, compte quinze membres."
+   ],
+   "beacon": [
+    {
+     "at": [
+      18.07,
+      59.33
+     ],
+     "when": 0.6
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "2004",
+   "text": "Dix pays d’un coup",
+   "focus": {
+    "box": [
+     9,
+     32,
+     37,
+     60.5
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Cyprus",
+      "Czechia",
+      "Estonia",
+      "Hungary",
+      "Latvia",
+      "Lithuania",
+      "Malta",
+      "Poland",
+      "Slovakia",
+      "Slovenia"
+     ],
+     "color": "#8E6CC8",
+     "at": {
+      "line": 0,
+      "word": "dix",
+      "d": 0.5
+     },
+     "keep": true
+    }
+   ],
+   "moves": [],
+   "pills": [
+    {
+     "at": [
+      14.51,
+      35.9
+     ],
+     "title": "Malte",
+     "side": "t",
+     "when": {
+      "line": 1,
+      "word": "élargissement",
+      "d": 0.3
+     }
+    },
+    {
+     "at": [
+      33.38,
+      35.17
+     ],
+     "title": "Chypre",
+     "side": "l",
+     "when": {
+      "line": 1,
+      "word": "élargissement",
+      "d": 0.5
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Pologne",
+     "at": [
+      19.2,
+      51.6
+     ],
+     "size": 36,
+     "when": {
+      "line": 0,
+      "d": 1.2
+     }
+    },
+    {
+     "text": "Hongrie",
+     "at": [
+      19.5,
+      47.2
+     ],
+     "size": 34,
+     "when": {
+      "line": 0,
+      "d": 1.6
+     }
+    }
+   ],
+   "say": [
+    "En 2004, dix pays entrent d’un coup, surtout à l’Est, après la chute du mur de Berlin.",
+    "C’est le plus grand élargissement : de 15 à 25 États."
+   ],
+   "beacon": [
+    {
+     "at": [
+      14.51,
+      35.9
+     ],
+     "when": {
+      "line": 1,
+      "word": "élargissement",
+      "d": 0.3
+     }
+    },
+    {
+     "at": [
+      33.38,
+      35.17
+     ],
+     "when": {
+      "line": 1,
+      "word": "élargissement",
+      "d": 0.5
+     }
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "2007 · 2013",
+   "text": "La Bulgarie, la Roumanie, la Croatie",
+   "focus": {
+    "box": [
+     12,
+     39.5,
+     31,
+     49.5
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Bulgaria",
+      "Romania"
+     ],
+     "color": "#FF9A3C",
+     "at": {
+      "line": 0,
+      "word": "Bulgarie",
+      "d": 0.3
+     },
+     "keep": true
+    },
+    {
+     "countries": [
+      "Croatia"
+     ],
+     "color": "#FF9A3C",
+     "at": {
+      "line": 1,
+      "word": "Croatie",
+      "d": 0.2
+     },
+     "keep": true
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      23.32,
+      42.7
+     ],
+     "title": "Sofia",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "Bulgarie",
+      "d": 0.8
+     }
+    },
+    {
+     "at": [
+      26.1,
+      44.43
+     ],
+     "title": "Bucarest",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "Roumanie",
+      "d": 1.6
+     }
+    },
+    {
+     "at": [
+      15.98,
+      45.81
+     ],
+     "title": "Zagreb",
+     "side": "l",
+     "when": {
+      "line": 1,
+      "word": "Croatie",
+      "d": 0.8
+     }
+    }
+   ],
+   "say": [
+    "En 2007, la Bulgarie et la Roumanie rejoignent l’Union.",
+    "En 2013, la Croatie devient le 28e État membre."
+   ],
+   "beacon": [
+    {
+     "at": [
+      23.32,
+      42.7
+     ],
+     "when": 0.4
+    },
+    {
+     "at": [
+      15.98,
+      45.81
+     ],
+     "when": 4
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "2020",
+   "text": "Le Brexit",
+   "focus": {
+    "box": [
+     -12,
+     47,
+     12,
+     60
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "United Kingdom"
+     ],
+     "color": "#8A8F98",
+     "at": {
+      "line": 0,
+      "word": "quitte",
+      "d": 0.6
+     },
+     "keep": true
+    }
+   ],
+   "moves": [],
+   "pills": [
+    {
+     "at": [
+      -0.13,
+      51.5
+     ],
+     "title": "Londres",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "quitte",
+      "d": 0.2
+     }
+    }
+   ],
+   "say": [
+    "En 2020, le Royaume-Uni quitte l’Union, après un référendum en 2016.",
+    "L’Union revient ainsi de 28 à 27 États."
+   ],
+   "art": [
+    {
+     "kind": "timeline",
+     "at": {
+      "line": 1,
+      "d": 0
+     },
+     "dur": 3.2,
+     "title": "Combien de membres ?",
+     "items": [
+      {
+       "year": "1957",
+       "text": "6 pays"
+      },
+      {
+       "year": "1986",
+       "text": "12 pays"
+      },
+      {
+       "year": "2004",
+       "text": "25 pays"
+      },
+      {
+       "year": "2007",
+       "text": "27 pays"
+      },
+      {
+       "year": "2013",
+       "text": "28 pays"
+      },
+      {
+       "year": "2020",
+       "text": "27 pays"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "2002 · 2026",
+   "text": "Une monnaie, des frontières ouvertes",
+   "focus": {
+    "box": [
+     -11,
+     34,
+     30,
+     62
+    ]
+   },
+   "pills": [
+    {
+     "at": [
+      8.68,
+      50.11
+     ],
+     "title": "Francfort",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "euro",
+      "d": 0.4
+     }
+    },
+    {
+     "at": [
+      23.32,
+      42.7
+     ],
+     "title": "Sofia",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "aujourd’hui",
+      "d": 0
+     }
+    }
+   ],
+   "say": [
+    "L’euro circule en 2002 ; 21 États l’utilisent aujourd’hui.",
+    "L’espace Schengen, sans contrôle aux frontières, réunit 29 pays, dont quatre hors de l’Union."
+   ],
+   "art": [
+    {
+     "kind": "bars",
+     "at": {
+      "line": 1,
+      "d": 0
+     },
+     "dur": 3.2,
+     "title": "Trois espaces",
+     "sub": "nombre d’États, pas tous dans l’Union",
+     "items": [
+      {
+       "label": "Union",
+       "value": "27",
+       "h": 0.93,
+       "color": "#4FA3E0"
+      },
+      {
+       "label": "Euro",
+       "value": "21",
+       "h": 0.72,
+       "color": "#2EC4B6"
+      },
+      {
+       "label": "Schengen",
+       "value": "29",
+       "h": 1,
+       "color": "#3E9A63"
+      }
+     ]
+    }
+   ],
+   "highlight": [
+    {
+     "countries": [
+      "Austria",
+      "Belgium",
+      "Croatia",
+      "Cyprus",
+      "Estonia",
+      "Finland",
+      "France",
+      "Germany",
+      "Greece",
+      "Ireland",
+      "Italy",
+      "Latvia",
+      "Lithuania",
+      "Luxembourg",
+      "Malta",
+      "Netherlands",
+      "Portugal",
+      "Slovakia",
+      "Slovenia",
+      "Spain",
+      "Bulgaria"
+     ],
+     "color": "#2EC4B6",
+     "at": {
+      "line": 0,
+      "word": "euro",
+      "d": 0.3
+     },
+     "keep": true
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "Aujourd’hui",
+   "text": "24 langues officielles",
+   "focus": {
+    "box": [
+     -11,
+     34,
+     34,
+     62
+    ]
+   },
+   "labels": [],
+   "pills": [
+    {
+     "at": [
+      4.35,
+      50.85
+     ],
+     "title": "Bruxelles",
+     "side": "l",
+     "when": {
+      "line": 0,
+      "word": "langues",
+      "d": 0.4
+     }
+    }
+   ],
+   "say": [
+    "L’Union a 24 langues officielles, du bulgare au suédois.",
+    "Ses lois existent dans chacune."
+   ],
+   "art": [
+    {
+     "kind": "languages",
+     "at": {
+      "line": 0,
+      "word": "bulgare",
+      "d": 0
+     },
+     "dur": 3.5,
+     "title": "24 langues, 27 États",
+     "items": [
+      {
+       "icon": "book",
+       "where": "Bulgarie",
+       "lang": "Bulgare",
+       "note": "cyrillique",
+       "color": "#FF9A3C"
+      },
+      {
+       "icon": "book",
+       "where": "Irlande",
+       "lang": "Irlandais",
+       "note": "celtique",
+       "color": "#E8503A"
+      },
+      {
+       "icon": "book",
+       "where": "Malte",
+       "lang": "Maltais",
+       "note": "sémitique",
+       "color": "#8E6CC8"
+      },
+      {
+       "icon": "book",
+       "where": "Suède",
+       "lang": "Suédois",
+       "note": "germanique",
+       "color": "#3E9A63"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "final",
+   "text": "De 6 à 27 pays",
+   "sub": "L’Union européenne",
+   "focus": {
+    "box": [
+     -6,
+     38,
+     26,
+     58
+    ]
+   },
+   "say": [
+    "Voilà pourquoi l’Union est passée de 6 à 27 États, pour la paix !",
+    "Voilà la réponse à la question qui nous a ouverts :"
+   ],
+   "pills": [
+    {
+     "at": [
+      4.35,
+      50.85
+     ],
+     "title": "Bruxelles",
+     "side": "l",
+     "when": 0.8
+    }
+   ]
+  }
+ ]
+}

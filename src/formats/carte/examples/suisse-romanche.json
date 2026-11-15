@@ -4,11 +4,17 @@
   "theme": "paper",
   "brand": { "name": "La Suisse en cartes", "color": "#E4572E" },
   "scenes": [
-    { "type": "hook", "text": "Une langue suisse que presque personne ne connaît.", "sub": "Le romanche." },
-    { "type": "map", "text": "Elle se parle dans les Grisons, au centre des Alpes.", "focus": { "cantons": ["GR"] }, "highlight": { "cantons": ["GR"], "color": "#F5B84B", "keep": false }, "pins": [{ "city": "Coire", "side": "t" }] },
-    { "type": "map", "text": "Trois régions la gardent vivante.", "highlight": { "langs": ["rm"] }, "pins": [{ "city": "Disentis", "side": "t" }, { "city": "Scuol", "side": "b" }] },
-    { "type": "map", "text": "Une langue née du latin, comme le français.", "sub": "Bonjour se dit « Allegra ».", "highlight": { "langs": ["rm"] }, "word": { "text": "Allegra", "lang": "rm" } },
-    { "type": "map", "text": "Elle compte environ 0,5 % des habitants.", "focus": "all", "highlight": { "langs": ["de", "fr", "it"] }, "stat": { "value": "0,5 %", "label": "des habitants", "lang": "rm" } },
-    { "type": "final", "text": "Quatre langues nationales. Une seule minuscule.", "sub": "Abonne-toi pour la suite" }
+    { "type": "hook", "text": "Une langue suisse que presque personne ne connaît.", "sub": "Le romanche.",
+      "say": ["Salut ! Connais-tu la plus petite langue de Suisse ? Le romanche !"] },
+    { "type": "map", "text": "Elle se parle dans les Grisons, au centre des Alpes.", "focus": { "cantons": ["GR"] }, "highlight": { "cantons": ["GR"], "color": "#F5B84B", "keep": false }, "pins": [{ "city": "Coire", "side": "t" }],
+      "say": ["Elle se parle dans les Grisons, au centre des Alpes."] },
+    { "type": "map", "text": "Trois régions la gardent vivante.", "highlight": { "langs": ["rm"] }, "pins": [{ "city": "Disentis", "side": "t" }, { "city": "Scuol", "side": "b" }],
+      "say": ["Trois régions la gardent vivante, comme Disentis et Scuol."] },
+    { "type": "map", "text": "Une langue née du latin, comme le français.", "sub": "Bonjour se dit « Allegra ».", "highlight": { "langs": ["rm"] }, "word": { "text": "Allegra", "lang": "rm", "at": { "line": 1, "d": 1.0 } },
+      "say": ["Elle est née du latin, comme le français !", "Là-bas, on dit : Allégra ! Répète avec moi : Allégra !"] },
+    { "type": "map", "text": "Vrai ou faux : c’est une langue nationale ?", "focus": "all", "choices": ["Vrai", "Faux"], "answer": 0, "stat": { "value": "1938", "label": "langue nationale depuis", "lang": "rm" },
+      "say": { "ask": ["Vrai ou faux ? Le romanche est une langue nationale de la Suisse."], "answer": ["Vrai ! Depuis mille neuf cent trente-huit !"] } },
+    { "type": "final", "text": "Quatre langues nationales. Une seule minuscule.", "sub": "Abonne-toi pour la suite",
+      "say": ["Quatre langues nationales, et une seule minuscule. Abonne-toi pour la suite !"] }
   ]
 }

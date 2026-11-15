@@ -1,0 +1,1678 @@
+{
+  "format": "atlas",
+  "suisse": false,
+  "id": "empires-01-grecs",
+  "world": true,
+  "base": {
+    "countries": [
+      "France",
+      "Spain",
+      "Italy",
+      "Greece",
+      "Turkey",
+      "Bulgaria",
+      "Romania",
+      "Ukraine",
+      "Russia",
+      "Georgia",
+      "Libya",
+      "Tunisia",
+      "Egypt",
+      "Albania"
+    ]
+  },
+  "open": {
+    "box": [
+      -3,
+      27.5,
+      46,
+      50.5
+    ]
+  },
+  "terrain": [
+    {
+      "box": [
+        -14,
+        4.3,
+        52,
+        76
+      ],
+      "px": 3000,
+      "z": 5
+    },
+    {
+      "box": [
+        -3.4,
+        27.1,
+        46.4,
+        50.9
+      ],
+      "px": 2800,
+      "z": 6
+    },
+    {
+      "box": [
+        3.6,
+        29.6,
+        29.4,
+        46.4
+      ],
+      "px": 2800,
+      "z": 8
+    }
+  ],
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "Comment des Grecs ont-ils fondé des villes de Marseille à la mer Noire ?",
+      "sub": "Massalia, la future Marseille",
+      "focus": {
+        "box": [
+          -3,
+          27.5,
+          46,
+          50.5
+        ]
+      },
+      "suisse": false,
+      "line": {
+        "points": [
+          [
+            5.4,
+            43.05
+          ],
+          [
+            8.6,
+            42.3
+          ],
+          [
+            10.6,
+            41.3
+          ],
+          [
+            15.6,
+            38.2
+          ],
+          [
+            17.3,
+            39.6
+          ],
+          [
+            18.9,
+            39.9
+          ],
+          [
+            20.3,
+            38.6
+          ],
+          [
+            21.3,
+            37
+          ],
+          [
+            23.2,
+            36.3
+          ],
+          [
+            25.4,
+            39.4
+          ],
+          [
+            26.2,
+            40.1
+          ],
+          [
+            28,
+            40.75
+          ],
+          [
+            29.2,
+            41.35
+          ],
+          [
+            29.9,
+            43.4
+          ],
+          [
+            31.2,
+            46.2
+          ],
+          [
+            33.4,
+            45.7
+          ],
+          [
+            35.5,
+            44.4
+          ],
+          [
+            38.4,
+            44.1
+          ],
+          [
+            41.4,
+            42.3
+          ],
+          [
+            38.5,
+            41.6
+          ],
+          [
+            35.1,
+            42.25
+          ],
+          [
+            30,
+            41.45
+          ],
+          [
+            28.6,
+            40.85
+          ],
+          [
+            26.6,
+            40.25
+          ],
+          [
+            25.9,
+            38.6
+          ],
+          [
+            26.6,
+            36.9
+          ],
+          [
+            22.3,
+            33.2
+          ],
+          [
+            15.4,
+            36.4
+          ],
+          [
+            9.2,
+            38.8
+          ],
+          [
+            5.4,
+            43.05
+          ]
+        ],
+        "color": "#A77BE0",
+        "width": 9,
+        "at": 0.3,
+        "draw": 2.4
+      },
+      "beacon": [
+        {
+          "at": [
+            5.37,
+            43.3
+          ],
+          "when": 0.2
+        }
+      ],
+      "pills": [
+        {
+          "at": [
+            5.37,
+            43.3
+          ],
+          "title": "Massalia",
+          "sub": "vers 600 av. J.-C.",
+          "side": "b",
+          "when": {
+            "line": 0,
+            "word": "Marseille",
+            "d": 0.1
+          }
+        }
+      ],
+      "labels": [
+        {
+          "text": "Mer Noire",
+          "at": [
+            34,
+            43.4
+          ],
+          "size": 38,
+          "when": {
+            "line": 0,
+            "word": "Noire",
+            "d": 0
+          }
+        }
+      ],
+      "people": [
+        {
+          "who": "marin",
+          "at": [
+            3.2,
+            45.6
+          ],
+          "size": 220,
+          "say": "Terre en vue !",
+          "mood": "happy",
+          "when": {
+            "line": 1,
+            "word": "ports",
+            "d": -0.3
+          }
+        }
+      ],
+      "say": [
+        "Comment des Grecs ont-ils fondé des villes de Marseille à la mer Noire ?",
+        "Des cités à l’étroit, des ports partout, puis Rome."
+      ]
+    },
+    {
+      "type": "map",
+      "year": "Vers 733 av. J.-C.",
+      "text": "À l’étroit, ils partent",
+      "focus": {
+        "box": [
+          12.5,
+          34.5,
+          29,
+          42.5
+        ]
+      },
+      "suisse": false,
+      "note": "Contours approximatifs",
+      "highlight": {
+        "area": [
+          [
+            20.2,
+            39.6
+          ],
+          [
+            21.5,
+            40.3
+          ],
+          [
+            23,
+            40.5
+          ],
+          [
+            24.5,
+            41
+          ],
+          [
+            26.5,
+            40.7
+          ],
+          [
+            27.6,
+            39.9
+          ],
+          [
+            27.4,
+            38
+          ],
+          [
+            28.1,
+            37
+          ],
+          [
+            27.3,
+            36.3
+          ],
+          [
+            24,
+            35
+          ],
+          [
+            22.4,
+            36.2
+          ],
+          [
+            21.1,
+            36.7
+          ],
+          [
+            20.5,
+            38.2
+          ],
+          [
+            19.9,
+            39.2
+          ]
+        ],
+        "color": "#2F6FD6",
+        "at": {
+          "line": 0,
+          "word": "étroit",
+          "d": -0.1
+        },
+        "keep": false
+      },
+      "people": [
+        {
+          "who": "paysan",
+          "at": [
+            22,
+            39.6
+          ],
+          "size": 200,
+          "say": "Trop peu de champs !",
+          "mood": "sad",
+          "when": {
+            "line": 0,
+            "word": "montagnes",
+            "d": -0.2
+          }
+        }
+      ],
+      "moves": [
+        {
+          "from": [
+            22.93,
+            37.91
+          ],
+          "to": [
+            15.29,
+            37.08
+          ],
+          "n": 3,
+          "color": "#2F6FD6",
+          "label": "Corinthiens",
+          "at": {
+            "line": 0,
+            "word": "Corinthiens",
+            "d": -0.3
+          },
+          "dur": 2
+        }
+      ],
+      "beacon": [
+        {
+          "at": [
+            22.93,
+            37.91
+          ],
+          "when": {
+            "line": 0,
+            "word": "Corinthiens",
+            "d": -0.2
+          }
+        },
+        {
+          "at": [
+            15.29,
+            37.08
+          ],
+          "when": {
+            "line": 0,
+            "word": "Syracuse"
+          }
+        }
+      ],
+      "pills": [
+        {
+          "at": [
+            15.29,
+            37.08
+          ],
+          "title": "Colonie",
+          "sub": "ville fondée au loin par une cité",
+          "side": "b",
+          "when": {
+            "line": 0,
+            "word": "colonie",
+            "d": -0.1
+          }
+        }
+      ],
+      "labels": [
+        {
+          "text": "Sicile",
+          "at": [
+            14.1,
+            37.6
+          ],
+          "size": 38,
+          "when": {
+            "line": 0,
+            "word": "Syracuse"
+          }
+        },
+        {
+          "text": "Grèce",
+          "at": [
+            22.3,
+            38.6
+          ],
+          "size": 38,
+          "when": {
+            "line": 0,
+            "word": "étroit",
+            "d": 0.2
+          }
+        }
+      ],
+      "say": [
+        "Vers 733, à l’étroit entre mer et montagnes, des Corinthiens fondent Syracuse : une colonie."
+      ]
+    },
+    {
+      "type": "map",
+      "year": "Vers 660 – 600 av. J.-C.",
+      "text": "Jusqu’à la mer Noire",
+      "focus": {
+        "box": [
+          22.5,
+          36.5,
+          44,
+          48.5
+        ]
+      },
+      "moves": [
+        {
+          "from": [
+            23.35,
+            38
+          ],
+          "to": [
+            28.98,
+            41.01
+          ],
+          "n": 2,
+          "color": "#2F6FD6",
+          "label": "Mégariens",
+          "at": {
+            "line": 0,
+            "word": "Mégare",
+            "d": -0.2
+          },
+          "dur": 1.8
+        },
+        {
+          "from": [
+            29.2,
+            41.4
+          ],
+          "to": [
+            31.9,
+            46.69
+          ],
+          "n": 2,
+          "color": "#2F6FD6",
+          "at": {
+            "line": 1,
+            "word": "Olbia",
+            "d": -0.5
+          },
+          "dur": 1.6
+        },
+        {
+          "from": [
+            29.4,
+            41.5
+          ],
+          "to": [
+            41.67,
+            42.15
+          ],
+          "n": 3,
+          "color": "#2F6FD6",
+          "label": "Milésiens",
+          "at": {
+            "line": 1,
+            "word": "Phasis",
+            "d": -0.8
+          },
+          "dur": 2
+        }
+      ],
+      "beacon": [
+        {
+          "at": [
+            28.98,
+            41.01
+          ],
+          "when": {
+            "line": 0,
+            "word": "Byzance"
+          }
+        },
+        {
+          "at": [
+            31.9,
+            46.69
+          ],
+          "when": {
+            "line": 1,
+            "word": "Olbia"
+          }
+        },
+        {
+          "at": [
+            41.67,
+            42.15
+          ],
+          "when": {
+            "line": 1,
+            "word": "Phasis"
+          }
+        }
+      ],
+      "pills": [
+        {
+          "at": [
+            28.98,
+            41.01
+          ],
+          "title": "Byzance",
+          "sub": "vers 660 av. J.-C.",
+          "side": "b",
+          "when": {
+            "line": 0,
+            "word": "Byzance",
+            "d": 0.1
+          }
+        },
+        {
+          "at": [
+            31.9,
+            46.69
+          ],
+          "title": "Olbia",
+          "sub": "actuelle Ukraine",
+          "side": "t",
+          "when": {
+            "line": 1,
+            "word": "Olbia",
+            "d": 0.1
+          }
+        },
+        {
+          "at": [
+            41.67,
+            42.15
+          ],
+          "title": "Phasis",
+          "sub": "Colchide, actuelle Géorgie",
+          "side": "b",
+          "when": {
+            "line": 1,
+            "word": "Phasis",
+            "d": 0.1
+          }
+        },
+        {
+          "at": [
+            34.0,
+            45.3
+          ],
+          "title": "Blé",
+          "sub": "vendu aux cités de Grèce",
+          "side": "b",
+          "when": {
+            "line": 1,
+            "word": "blé",
+            "d": -0.1
+          }
+        }
+      ],
+      "labels": [
+        {
+          "text": "Mer Noire",
+          "at": [
+            34.5,
+            43.2
+          ],
+          "size": 38,
+          "when": {
+            "line": 0,
+            "word": "Noire"
+          }
+        },
+        {
+          "text": "Milet",
+          "at": [
+            27.3,
+            37.8
+          ],
+          "size": 34,
+          "when": {
+            "line": 1,
+            "word": "Milet"
+          }
+        }
+      ],
+      "say": [
+        "Vers 660, Mégare fonde Byzance, porte de la mer Noire.",
+        "Puis Milet y sème des ports, d’Olbia à Phasis, pour le commerce du blé."
+      ]
+    },
+    {
+      "type": "map",
+      "year": "Vers 631 – 600 av. J.-C.",
+      "text": "Cyrène, puis Massalia",
+      "focus": {
+        "box": [
+          -1,
+          30,
+          28.5,
+          45.5
+        ]
+      },
+      "moves": [
+        {
+          "from": [
+            25.43,
+            36.42
+          ],
+          "to": [
+            21.86,
+            32.82
+          ],
+          "n": 2,
+          "color": "#2F6FD6",
+          "label": "Théréens",
+          "at": {
+            "line": 0,
+            "word": "Théra",
+            "d": -0.1
+          },
+          "dur": 1.6
+        },
+        {
+          "from": [
+            26.75,
+            38.67
+          ],
+          "to": [
+            5.37,
+            43.3
+          ],
+          "n": 3,
+          "color": "#2F6FD6",
+          "label": "Phocéens",
+          "at": {
+            "line": 0,
+            "word": "Phocéens",
+            "d": -0.3
+          },
+          "dur": 2.6
+        }
+      ],
+      "beacon": [
+        {
+          "at": [
+            21.86,
+            32.82
+          ],
+          "when": {
+            "line": 0,
+            "word": "Cyrène"
+          }
+        },
+        {
+          "at": [
+            5.37,
+            43.3
+          ],
+          "when": {
+            "line": 0,
+            "word": "Massalia"
+          }
+        }
+      ],
+      "pills": [
+        {
+          "at": [
+            21.86,
+            32.82
+          ],
+          "title": "Cyrène",
+          "sub": "actuelle Libye",
+          "side": "b",
+          "when": {
+            "line": 0,
+            "word": "Cyrène",
+            "d": 0.1
+          }
+        },
+        {
+          "at": [
+            26.75,
+            38.67
+          ],
+          "title": "Phocée",
+          "sub": "actuelle Turquie",
+          "side": "t",
+          "when": {
+            "line": 0,
+            "word": "Phocéens",
+            "d": 0.1
+          }
+        },
+        {
+          "at": [
+            5.37,
+            43.3
+          ],
+          "title": "Massalia",
+          "sub": "vers 600 av. J.-C.",
+          "side": "b",
+          "when": {
+            "line": 0,
+            "word": "Massalia",
+            "d": 0.1
+          }
+        }
+      ],
+      "say": [
+        "Vers 631, Théra fonde Cyrène ; vers 600, les Phocéens fondent Massalia : Marseille !"
+      ]
+    },
+    {
+      "type": "map",
+      "year": "Vers 550 av. J.-C.",
+      "text": "À son apogée",
+      "focus": {
+        "box": [
+          -3,
+          27.5,
+          46,
+          50.5
+        ]
+      },
+      "suisse": false,
+      "note": "Contours approximatifs",
+      "line": {
+        "points": [
+          [
+            5.4,
+            43.05
+          ],
+          [
+            8.6,
+            42.3
+          ],
+          [
+            10.6,
+            41.3
+          ],
+          [
+            15.6,
+            38.2
+          ],
+          [
+            17.3,
+            39.6
+          ],
+          [
+            18.9,
+            39.9
+          ],
+          [
+            20.3,
+            38.6
+          ],
+          [
+            21.3,
+            37
+          ],
+          [
+            23.2,
+            36.3
+          ],
+          [
+            25.4,
+            39.4
+          ],
+          [
+            26.2,
+            40.1
+          ],
+          [
+            28,
+            40.75
+          ],
+          [
+            29.2,
+            41.35
+          ],
+          [
+            29.9,
+            43.4
+          ],
+          [
+            31.2,
+            46.2
+          ],
+          [
+            33.4,
+            45.7
+          ],
+          [
+            35.5,
+            44.4
+          ],
+          [
+            38.4,
+            44.1
+          ],
+          [
+            41.4,
+            42.3
+          ],
+          [
+            38.5,
+            41.6
+          ],
+          [
+            35.1,
+            42.25
+          ],
+          [
+            30,
+            41.45
+          ],
+          [
+            28.6,
+            40.85
+          ],
+          [
+            26.6,
+            40.25
+          ],
+          [
+            25.9,
+            38.6
+          ],
+          [
+            26.6,
+            36.9
+          ],
+          [
+            22.3,
+            33.2
+          ],
+          [
+            15.4,
+            36.4
+          ],
+          [
+            9.2,
+            38.8
+          ],
+          [
+            5.4,
+            43.05
+          ]
+        ],
+        "color": "#A77BE0",
+        "width": 10,
+        "at": {
+          "line": 0,
+          "word": "centaines",
+          "d": -0.2
+        },
+        "draw": 2.6
+      },
+      "beacon": [
+        {
+          "at": [
+            5.37,
+            43.3
+          ],
+          "when": 0.3
+        }
+      ],
+      "pills": [
+        {
+          "at": [
+            5.37,
+            43.3
+          ],
+          "title": "Massalia",
+          "side": "t",
+          "when": {
+            "line": 0,
+            "word": "cités",
+            "d": -0.2
+          }
+        },
+        {
+          "at": [
+            15.29,
+            37.08
+          ],
+          "title": "Syracuse",
+          "side": "b",
+          "when": {
+            "line": 0,
+            "word": "cités",
+            "d": 0
+          }
+        },
+        {
+          "at": [
+            21.86,
+            32.82
+          ],
+          "title": "Cyrène",
+          "side": "b",
+          "when": {
+            "line": 0,
+            "word": "grecques",
+            "d": 0
+          }
+        },
+        {
+          "at": [
+            28.98,
+            41.01
+          ],
+          "title": "Byzance",
+          "side": "b",
+          "when": {
+            "line": 0,
+            "word": "bordent"
+          }
+        },
+        {
+          "at": [
+            31.9,
+            46.69
+          ],
+          "title": "Olbia",
+          "side": "t",
+          "when": {
+            "line": 0,
+            "word": "mer",
+            "d": 0
+          }
+        },
+        {
+          "at": [
+            41.67,
+            42.15
+          ],
+          "title": "Phasis",
+          "side": "b",
+          "when": {
+            "line": 0,
+            "word": "Noire"
+          }
+        }
+      ],
+      "art": [
+        {
+          "kind": "stats",
+          "at": {
+            "line": 1,
+            "word": "environ",
+            "d": -0.2
+          },
+          "dur": 4.4,
+          "title": "D’un bout à l’autre",
+          "items": [
+            {
+              "value": 3000,
+              "label": "km de Marseille à Phasis, à vol d’oiseau",
+              "color": "#A77BE0"
+            },
+            {
+              "value": 4,
+              "prefix": "+ de ",
+              "suffix": " fois",
+              "label": "la distance Paris – Marseille",
+              "color": "#FFFFFF"
+            }
+          ]
+        }
+      ],
+      "say": [
+        "Vers 550, des centaines de cités grecques bordent la Méditerranée et la mer Noire.",
+        "De Marseille à la Géorgie, environ 3000 kilomètres : plus de 4 fois Paris-Marseille."
+      ]
+    },
+    {
+      "type": "map",
+      "year": "212 – 49 av. J.-C.",
+      "text": "Rome les prend une à une",
+      "focus": {
+        "box": [
+          -1,
+          33,
+          26,
+          46
+        ]
+      },
+      "suisse": false,
+      "moves": [
+        {
+          "from": [
+            12.48,
+            41.9
+          ],
+          "to": [
+            15.29,
+            37.08
+          ],
+          "n": 2,
+          "color": "#8A93A8",
+          "label": "Rome",
+          "at": {
+            "line": 1,
+            "word": "Syracuse",
+            "d": -0.4
+          },
+          "dur": 1.4
+        },
+        {
+          "from": [
+            12.48,
+            41.9
+          ],
+          "to": [
+            22.93,
+            37.91
+          ],
+          "n": 2,
+          "color": "#8A93A8",
+          "at": {
+            "line": 1,
+            "word": "Corinthe",
+            "d": -0.4
+          },
+          "dur": 1.6
+        },
+        {
+          "from": [
+            12.48,
+            41.9
+          ],
+          "to": [
+            5.37,
+            43.3
+          ],
+          "n": 2,
+          "color": "#8A93A8",
+          "at": {
+            "line": 1,
+            "word": "Marseille",
+            "d": -0.5
+          },
+          "dur": 1.6
+        }
+      ],
+      "labels": [
+        {
+          "text": "Rome",
+          "at": [
+            12.5,
+            42.5
+          ],
+          "size": 40,
+          "when": {
+            "line": 0,
+            "word": "Rome"
+          }
+        }
+      ],
+      "beacon": [
+        {
+          "at": [
+            12.48,
+            41.9
+          ],
+          "when": {
+            "line": 0,
+            "word": "Rome"
+          }
+        }
+      ],
+      "pills": [
+        {
+          "at": [
+            15.29,
+            37.08
+          ],
+          "title": "212 av. J.-C.",
+          "sub": "Syracuse",
+          "side": "b",
+          "when": {
+            "line": 1,
+            "word": "Syracuse",
+            "d": 0.2
+          }
+        },
+        {
+          "at": [
+            22.93,
+            37.91
+          ],
+          "title": "146 av. J.-C.",
+          "sub": "Corinthe rasée",
+          "side": "b",
+          "when": {
+            "line": 1,
+            "word": "Corinthe",
+            "d": 0.2
+          }
+        },
+        {
+          "at": [
+            5.37,
+            43.3
+          ],
+          "title": "49 av. J.-C.",
+          "sub": "Marseille, par César",
+          "side": "b",
+          "when": {
+            "line": 1,
+            "word": "Marseille",
+            "d": 0.2
+          }
+        }
+      ],
+      "say": [
+        "Mais ces cités restent divisées : Rome les avale une à une.",
+        "Syracuse tombe en 212, Corinthe en 146 avant J.-C., Marseille en 49."
+      ]
+    },
+    {
+      "type": "map",
+      "text": "Environ six siècles",
+      "focus": {
+        "box": [
+          4.4,
+          42.6,
+          6.4,
+          43.9
+        ]
+      },
+      "beacon": [
+        {
+          "at": [
+            5.37,
+            43.3
+          ],
+          "when": 0.2
+        }
+      ],
+      "art": [
+        {
+          "kind": "timeline",
+          "at": {
+            "line": 0,
+            "d": 0.1
+          },
+          "dur": 4.8,
+          "title": "Les colonies grecques",
+          "items": [
+            {
+              "year": "8e s. av. J.-C.",
+              "text": "Naissance : colonies",
+              "color": "#2F6FD6"
+            },
+            {
+              "year": "Vers 550 av. J.-C.",
+              "text": "Apogée : deux mers",
+              "color": "#A77BE0"
+            },
+            {
+              "year": "146 av. J.-C.",
+              "text": "Chute : Corinthe",
+              "color": "#8A93A8"
+            },
+            {
+              "year": "Aujourd’hui",
+              "text": "Des noms de villes",
+              "color": "#FFFFFF"
+            }
+          ]
+        }
+      ],
+      "labels": [
+        {
+          "text": "Marseille",
+          "at": [
+            5.4,
+            43.55
+          ],
+          "size": 38,
+          "when": {
+            "line": 0,
+            "word": "six"
+          }
+        }
+      ],
+      "say": [
+        "Des premières colonies, au 8e siècle, à la Grèce romaine en 146 : environ six siècles."
+      ]
+    },
+    {
+      "type": "map",
+      "year": "Aujourd’hui",
+      "text": "Ce qu’il en reste : l’alphabet",
+      "focus": {
+        "box": [
+          9.5,
+          38.8,
+          16.5,
+          44
+        ]
+      },
+      "beacon": [
+        {
+          "at": [
+            14.05,
+            40.85
+          ],
+          "when": {
+            "line": 0,
+            "word": "Cumes"
+          }
+        }
+      ],
+      "pills": [
+        {
+          "at": [
+            14.05,
+            40.85
+          ],
+          "title": "Cumes",
+          "sub": "colonie grecque",
+          "side": "b",
+          "when": {
+            "line": 0,
+            "word": "Cumes",
+            "d": 0.1
+          }
+        },
+        {
+          "at": [
+            11.6,
+            42.9
+          ],
+          "title": "Alphabet",
+          "sub": "du grec à l’étrusque, puis au latin",
+          "side": "t",
+          "when": {
+            "line": 0,
+            "word": "Étrusques",
+            "d": 0.2
+          }
+        }
+      ],
+      "moves": [
+        {
+          "from": [
+            14.05,
+            40.85
+          ],
+          "to": [
+            11.6,
+            42.7
+          ],
+          "n": 0,
+          "color": "#2F6FD6",
+          "label": "Étrusques",
+          "at": {
+            "line": 0,
+            "word": "Étrusques",
+            "d": -0.3
+          },
+          "dur": 1.6
+        },
+        {
+          "from": [
+            11.6,
+            42.6
+          ],
+          "to": [
+            12.48,
+            41.95
+          ],
+          "n": 0,
+          "color": "#8A93A8",
+          "at": {
+            "line": 0,
+            "word": "Romains",
+            "d": -0.2
+          },
+          "dur": 1
+        }
+      ],
+      "labels": [
+        {
+          "text": "Naples",
+          "at": [
+            14.6,
+            40.6
+          ],
+          "size": 34,
+          "when": {
+            "line": 0,
+            "word": "Cumes",
+            "d": 0.3
+          }
+        },
+        {
+          "text": "Rome",
+          "at": [
+            12.6,
+            41.6
+          ],
+          "size": 36,
+          "when": {
+            "line": 0,
+            "word": "Romains"
+          }
+        }
+      ],
+      "say": [
+        "Il reste notre alphabet : celui des Grecs de Cumes, repris par les Étrusques, puis les Romains."
+      ]
+    },
+    {
+      "type": "map",
+      "year": "Aujourd’hui",
+      "text": "Et des noms de villes",
+      "focus": {
+        "box": [
+          3.5,
+          39.5,
+          16,
+          45
+        ]
+      },
+      "beacon": [
+        {
+          "at": [
+            7.27,
+            43.7
+          ],
+          "when": {
+            "line": 0,
+            "word": "Nice"
+          }
+        },
+        {
+          "at": [
+            14.25,
+            40.85
+          ],
+          "when": {
+            "line": 0,
+            "word": "Naples"
+          }
+        }
+      ],
+      "pills": [
+        {
+          "at": [
+            7.27,
+            43.7
+          ],
+          "title": "Nice",
+          "side": "t",
+          "when": {
+            "line": 0,
+            "word": "Nice",
+            "d": 0.1
+          }
+        },
+        {
+          "at": [
+            7.12,
+            43.58
+          ],
+          "title": "Antibes",
+          "side": "b",
+          "when": {
+            "line": 0,
+            "word": "Antibes",
+            "d": 0.1
+          }
+        },
+        {
+          "at": [
+            14.25,
+            40.85
+          ],
+          "title": "Naples",
+          "side": "b",
+          "when": {
+            "line": 0,
+            "word": "Naples",
+            "d": 0.1
+          }
+        }
+      ],
+      "art": [
+        {
+          "kind": "languages",
+          "at": {
+            "line": 0,
+            "word": "Nice",
+            "d": -0.1
+          },
+          "dur": 4.6,
+          "title": "Des noms grecs",
+          "sub": "polis : la ville",
+          "items": [
+            {
+              "icon": "house",
+              "where": "Nice",
+              "lang": "Nikaia",
+              "note": "la victoire",
+              "color": "#2F6FD6"
+            },
+            {
+              "icon": "house",
+              "where": "Antibes",
+              "lang": "Antipolis",
+              "note": "la ville d’en face",
+              "color": "#2F6FD6"
+            },
+            {
+              "icon": "house",
+              "where": "Naples",
+              "lang": "Neapolis",
+              "note": "la ville nouvelle",
+              "color": "#2F6FD6"
+            }
+          ]
+        }
+      ],
+      "say": [
+        {
+          "say": "Et des noms : Nice vient de Nikaïa, Antibes d’Antipolis, Naples de Néapolis, la « ville nouvelle ».",
+          "show": "Et des noms : Nice vient de Nikaia, Antibes d’Antipolis, Naples de Neapolis, la « ville nouvelle »."
+        }
+      ]
+    },
+    {
+      "type": "final",
+      "text": "Comment des Grecs ont-ils fondé des villes de Marseille à la mer Noire ?",
+      "sub": "Faute de terres, par la mer",
+      "focus": {
+        "box": [
+          -3,
+          27.5,
+          46,
+          50.5
+        ]
+      },
+      "suisse": false,
+      "note": "Contour approximatif, frontières d’aujourd’hui",
+      "line": {
+        "points": [
+          [
+            5.4,
+            43.05
+          ],
+          [
+            8.6,
+            42.3
+          ],
+          [
+            10.6,
+            41.3
+          ],
+          [
+            15.6,
+            38.2
+          ],
+          [
+            17.3,
+            39.6
+          ],
+          [
+            18.9,
+            39.9
+          ],
+          [
+            20.3,
+            38.6
+          ],
+          [
+            21.3,
+            37
+          ],
+          [
+            23.2,
+            36.3
+          ],
+          [
+            25.4,
+            39.4
+          ],
+          [
+            26.2,
+            40.1
+          ],
+          [
+            28,
+            40.75
+          ],
+          [
+            29.2,
+            41.35
+          ],
+          [
+            29.9,
+            43.4
+          ],
+          [
+            31.2,
+            46.2
+          ],
+          [
+            33.4,
+            45.7
+          ],
+          [
+            35.5,
+            44.4
+          ],
+          [
+            38.4,
+            44.1
+          ],
+          [
+            41.4,
+            42.3
+          ],
+          [
+            38.5,
+            41.6
+          ],
+          [
+            35.1,
+            42.25
+          ],
+          [
+            30,
+            41.45
+          ],
+          [
+            28.6,
+            40.85
+          ],
+          [
+            26.6,
+            40.25
+          ],
+          [
+            25.9,
+            38.6
+          ],
+          [
+            26.6,
+            36.9
+          ],
+          [
+            22.3,
+            33.2
+          ],
+          [
+            15.4,
+            36.4
+          ],
+          [
+            9.2,
+            38.8
+          ],
+          [
+            5.4,
+            43.05
+          ]
+        ],
+        "color": "#A77BE0",
+        "width": 9,
+        "at": {
+          "line": 0,
+          "word": "Voilà",
+          "d": 0
+        },
+        "draw": 2.2
+      },
+      "beacon": [
+        {
+          "at": [
+            5.37,
+            43.3
+          ],
+          "when": 0.2
+        }
+      ],
+      "pills": [
+        {
+          "at": [
+            5.37,
+            43.3
+          ],
+          "title": "Marseille",
+          "side": "b",
+          "when": {
+            "line": 0,
+            "word": "Marseille"
+          }
+        },
+        {
+          "at": [
+            41.67,
+            42.15
+          ],
+          "title": "Géorgie",
+          "side": "b",
+          "when": {
+            "line": 0,
+            "word": "Noire"
+          }
+        }
+      ],
+      "say": [
+        "Voilà comment des Grecs ont fondé des villes de Marseille à la mer Noire : faute de terres, par la mer."
+      ]
+    }
+  ]
+}

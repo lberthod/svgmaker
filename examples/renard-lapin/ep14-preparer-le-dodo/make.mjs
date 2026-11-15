@@ -2,7 +2,7 @@
 //
 // Découpage :
 //  0.0– 3.5  salle de bain   ils se brossent les dents (mousse, jamais de dents) : « On se brosse les dents ! »
-//  3.5– 6.5  Roussin          une barbe de mousse ! Lino : « Hi hi ! Une barbe ! »
+//  3.5– 6.5  Roussin          une barbe de mousse ! Lino : « Une barbe ! »
 //  6.5– 9.5  le miroir       Roussin : « Je suis Papi Roussin ! » — ils rient ; GLOU GLOU
 //  9.5–12.5  la chambre      bonnets de nuit : « En pyjama ! »
 // 12.5–17.5  la chambre      bataille d'oreillers : POUF ! POUF ! plumes
@@ -11,6 +11,7 @@
 // 24.5–27.6  le noir         deux paires d'yeux qui clignent ; « hi hi... »
 // 27.6–30.0  le noir         carton
 import { writeFileSync } from 'node:fs';
+import { timeBadge } from '../lib/badge.mjs';
 import { W, H, INK, lines, sfxEv, an, ao, vis, sfx, fox, rabbit, put, style, addKF, track, ss } from '../lib/kit.mjs';
 import { makeCam, say, card } from '../lib/props.mjs';
 
@@ -21,7 +22,7 @@ const SHOTS = [
   [6.5, 9.5, 640, 420, 1.35, 1.38],
   [9.5, 12.5, 640, 450, 1.3, 1.33],
   [12.5, 17.5, 640, 450, 1.35, 1.38],
-  [17.5, 21.0, 600, 470, 1.9, 1.95],
+  [17.5, 21.0, 585, 470, 1.45, 1.48],
   [21.0, 24.5, 600, 450, 1.3, 1.33],
   [24.5, 30, 600, 450, 1.3, 1.31],
 ];
@@ -121,17 +122,17 @@ const world = `${vis(0, 9.5, bath + mirrorRefl + foxBath + rabBath + bathFx + br
 const fx =
   say('rab', 'On se brosse les dents !', 0.6, 1.8, { bx: 900, by: 170, tips: [[760, 330]] }) +
   sfx('Brosse brosse !', 560, 120, 0.8, 2.4, -6, '#7cc8ff', 52, 'brush') +
-  say('rab', 'Hi hi ! Une barbe !', 4.2, 1.5, { bx: 900, by: 140, tips: [[1000, 300]] }) +
+  say('rab', 'Une barbe !', 4.2, 1.5, { bx: 900, by: 140, tips: [[1000, 300]] }) +
   say('fox', 'Je suis Papi Roussin !', 6.8, 1.5, { bx: 350, by: 275, tips: [[520, 455]], shout: true }) +
   sfx('GLOU GLOU', 640, 320, 8.6, 0.75, 6, '#1e8fe0', 50, 'splash') +
   say('rab', 'En pyjama !', 9.8, 1.2, { bx: 960, by: 160, tips: [[880, 300]], shout: true }) +
   sfx('POUF !', 520, 300, 13.4, 0.6, -10, '#fff', 70, 'poof') + sfx('POUF !', 800, 290, 14.6, 0.6, 10, '#fff', 70, 'poof') + sfx('POUF POUF !', 640, 120, 16.0, 0.9, -6, '#fff', 66, 'poof') +
-  sfx('Ha ha ha !', 1010, 130, 16.5, 0.85, 4, '#ffd23f', 56, 'laugh') +
-  say('rab', 'Réveil à sept heures !', 18.0, 1.5, { bx: 820, by: 100, tips: [[820, 260]] }) +
-  say('fox', 'Comme ce matin !', 19.6, 1.1, { bx: 280, by: 230, tips: [[345, 440]] }) +
+  sfx('rires !', 1010, 130, 16.5, 0.85, 4, '#ffd23f', 56, 'laugh') +
+  say('rab', 'Réveil à sept heures !', 18.0, 1.5, { bx: 900, by: 120, tips: [[1010, 330]] }) +
+  say('fox', 'Comme ce matin !', 19.6, 1.1, { bx: 330, by: 230, tips: [[280, 390]] }) +
   say('rab', 'On éteint ?', 22.6, 1.0, { bx: 900, by: 250, tips: [[860, 350]] }) +
   sfx('CLIC', 560, 230, 24.0, 0.5, 0, '#ffd23f', 54, 'click') +
-  sfx('hi hi...', 620, 330, 25.6, 1.8, -4, '#ffffff', 36, 'laugh') +
+  sfx('rires...', 620, 330, 25.6, 1.8, -4, '#ffffff', 36, 'laugh') +
   card(27.6, 'Préparer le dodo !', 'Dodo, le dernier', 640, 150);
 
 const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" data-duration="${DUR}" data-fps="30">
@@ -139,6 +140,7 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" wid
 <rect width="${W}" height="${H}" fill="#5f6fb8"/>
 <g style="${camStyle}">${world}</g>
 ${darkness}${eyes}
+${timeBadge(20, 0)}
 ${fx}
 </svg>`;
 sfxEv.push({ name: 'whoosh', t: 13.0 }, { name: 'whoosh', t: 14.2 }, { name: 'whoosh', t: 15.6 }, { name: 'click', t: 18.6 }, { name: 'chime', t: 19.3 });

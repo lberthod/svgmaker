@@ -6,6 +6,7 @@ import { test } from 'node:test'
 import { createScene } from '../src/kit/actors/scene.mjs'
 import { textWidth, wrapLines, fitBlock } from '../src/kit/text.mjs'
 import { FORMATS, buildBrief } from '../src/formats/index.mjs'
+import { nombreEnLettres, phon } from '../src/formats/atlas/format.mjs'
 
 const here = path.dirname(new URL(import.meta.url).pathname)
 const FDIR = path.join(here, '..', 'src', 'formats')
@@ -86,4 +87,68 @@ test('carte : erreurs de brief explicites et carte cohérente', () => {
   assert.match(r.svg, /@keyframes mapcam\{/)
   assert.equal((r.svg.match(/id="m-c\d+"/g) ?? []).length, 26, '26 cantons')
   assert.equal((r.svg.match(/id="m-d\d+"/g) ?? []).length, 143, '143 districts')
+})
+
+test('carte : narration, question à décompte et minutage suivent la voix', () => {
+  const carte = load(examples.find((f) => f.includes('suisse-4-langues')))
+  const quiz = carte.scenes[0]
+  const voice = { 'guide|Quatre ! En route !': { dur: 5, env: [0.5, 1, 0.4] } }
+  const slow = buildBrief(carte, voice), fast = buildBrief(carte)
+  assert.notEqual(slow.duration, fast.duration, 'la durée suit voice.json')
+  assert.ok(slow.script.lines.every((l) => l.role === 'guide' && l.text))
+  assert.ok(slow.script.lines.every((l, i, a) => !i || a[i - 1].t < l.t), 'répliques dans l’ordre')
+  assert.equal(slow.script.sfx.filter((e) => e.kind === 'tick').length, 3 * carte.scenes.filter((s) => s.choices).length, '3 ticks par question')
+  assert.equal(slow.script.sfx.filter((e) => e.kind === 'ding').length, carte.scenes.filter((s) => s.choices).length)
+  assert.throws(() => buildBrief({ ...carte, scenes: [{ ...quiz, answer: 7 }, ...carte.scenes.slice(1)] }), /index du bon choix/)
+  assert.throws(() => buildBrief({ ...carte, scenes: [{ ...quiz, choices: ['a'] }, ...carte.scenes.slice(1)] }), /2 ou 3 choix/)
+  assert.throws(() => buildBrief({ ...carte, scenes: [{ ...quiz, word: { text: 'x' }, stat: { value: '1' } }, ...carte.scenes.slice(1)] }), /un mot ou un chiffre/)
+})
+
+test('atlas : sous-titres, questions, pictogramme et erreurs de brief explicites', () => {
+  const atlas = load(examples.find((f) => f.includes('/atlas/') && f.includes('suisse-4-langues')))
+  const sc = atlas.scenes
+  const r = buildBrief(atlas)
+  assert.match(r.svg, /@keyframes mapcam\{/)
+  assert.equal((r.svg.match(/id="m-d\d+"/g) ?? []).length, 143, '143 districts')
+  assert.ok(r.script.lines.length >= 10 && r.script.lines.every((l) => l.role === (atlas.voice ?? 'guide')), 'une seule voix, sans prénom')
+  assert.doesNotMatch(JSON.stringify(r.script.lines), /Heidi/, 'pas de personnage récurrent dans la narration')
+  assert.ok(!r.svg.includes('ABONNER') && !r.svg.includes('ABONN'), 'aucun appel à l’action par défaut')
+  const rc = buildBrief({ ...atlas, scenes: [...sc.slice(0, -1), { ...sc.at(-1), cta: true }] })
+  assert.ok(rc.svg.includes('S&#39;ABONNER') || rc.svg.includes("S'ABONNER"), 'bouton abonné seulement si cta: true')
+  // le sous-titre affiche le vrai mot (« Grüezi »), pas la phonétique lue (« Grüétsi »)
+  assert.match(r.svg, /Grüezi/); assert.doesNotMatch(r.svg, />[^<]*Grüétsi[^<]*</)
+  assert.equal(r.script.sfx.filter((e) => e.kind === 'ding').length, sc.filter((s) => s.choices).length, 'un ding par question (le clic « abonné » n’existe que si cta: true)')
+  assert.throws(() => buildBrief({ ...atlas, scenes: [sc[0], { type: 'map', text: 'x', crowd: { groups: [{ lang: 'de', n: 80 }, { lang: 'fr', n: 40 }] } }, sc.at(-1)] }), /100 personnes au plus/)
+  assert.throws(() => buildBrief({ ...atlas, scenes: [sc[0], { type: 'map', text: 'x', people: [{ who: 'licorne', at: 'Berne' }] }, sc.at(-1)] }), /who/)
+  assert.throws(() => buildBrief({ ...atlas, scenes: [sc[0], { type: 'map', text: 'x', people: [{ at: 'Atlantide' }] }, sc.at(-1)] }), /ville connue/)
+  assert.throws(() => buildBrief({ ...atlas, scenes: sc.slice(1) }), /première scène est une accroche/)
+})
+
+test('atlas : aucune fenêtre d’animation ne démarre après la fin de la vidéo, le calage suit les mots, les erreurs de calage sont signalées', () => {
+  const atlas = load(examples.find((f) => f.includes('/atlas/') && f.includes('suisse-4-langues')))
+  const r = buildBrief(atlas)
+  const D = r.duration
+  // régression : le délai d'une étiquette « until » était compté deux fois (étiquettes invisibles dans le MP4)
+  for (const m of r.svg.matchAll(/animation:win [\d.]+s linear ([\d.]+)s/g)) assert.ok(+m[1] < D, `fenêtre à ${m[1]} s, vidéo de ${D} s`)
+  // calage sur un mot : un mot mesuré à +2 s décale l'élément de 2 s par rapport au début de la réplique
+  const sc = atlas.scenes.findIndex((s) => s.year === '1481 – 1815')
+  const line = phon(typeof [].concat(atlas.scenes[sc].say)[0] === 'string' ? [].concat(atlas.scenes[sc].say)[0] : [].concat(atlas.scenes[sc].say)[0].say), key = `${atlas.voice ?? 'guide'}|${line}`
+  const base = buildBrief(atlas, { [key]: { dur: 9, env: [1, 1], words: [{ w: 'Fribourg', t: 0.5 }] } })
+  const moved = buildBrief(atlas, { [key]: { dur: 9, env: [1, 1], words: [{ w: 'Fribourg', t: 3.5 }] } })
+  assert.notEqual(base.svg, moved.svg, 'le mot « Fribourg » déplace la pastille')
+  const scenes = (n) => atlas.scenes.map((s, i) => (i === 2 ? { ...s, ...n } : s))
+  assert.throws(() => buildBrief({ ...atlas, scenes: scenes({ pills: [{ at: 'Rome', title: 'x', when: { line: 9 } }] }) }), /réplique n° 9 inexistante/)
+  assert.throws(() => buildBrief({ ...atlas, scenes: scenes({ people: [{ at: 'Berne', outfit: '"><x' }] }) }), /#RRGGBB/)
+  assert.throws(() => buildBrief({ ...atlas, scenes: scenes({ moves: [{ from: 'Rome', to: 'Rome' }] }) }), /identiques/)
+  assert.throws(() => buildBrief({ ...atlas, scenes: scenes({ focus: { box: [1, 2, 3, 'a'] } }) }), /lon0/)
+})
+
+test('atlas : les nombres sont dits en toutes lettres (la voix lit « 660 000 » chiffre par chiffre) et le sous-titre garde les chiffres', () => {
+  assert.equal(nombreEnLettres(1815), 'mille huit cent quinze')
+  assert.equal(nombreEnLettres(660000), 'six cent soixante mille')
+  assert.equal(nombreEnLettres(80), 'quatre-vingts')
+  assert.equal(nombreEnLettres(71), 'soixante et onze')
+  assert.equal(phon('Environ 660 000 habitants, 47 % d’étrangers, 2 586 km².'), 'Environ six cent soixante mille habitants, quarante-sept pour cent d’étrangers, deux mille cinq cent quatre-vingt-six kilomètres carrés.')
+  assert.equal(phon('0,5 % parlent romanche'), 'zéro virgule cinq pour cent parlent romanche')
+  assert.equal(phon('En 1291, Ier siècle'), 'En mille deux cent quatre-vingt-onze, premier siècle')
 })

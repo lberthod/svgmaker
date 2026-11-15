@@ -1,0 +1,1627 @@
+{
+ "format": "atlas",
+ "id": "atlas-tchequie",
+ "base": {
+  "countries": [
+   "Czechia",
+   "Slovakia",
+   "Germany",
+   "Poland",
+   "Austria",
+   "Hungary"
+  ]
+ },
+ "scenes": [
+  {
+   "type": "hook",
+   "text": "Une séparation sans violence",
+   "sub": "La Tchéquie",
+   "focus": {
+    "box": [
+     10.4,
+     47.0,
+     22.8,
+     52.2
+    ]
+   },
+   "highlight": [
+    {
+     "color": "#FFD83C",
+     "at": 0.7,
+     "keep": false,
+     "countries": [
+      "Czechia"
+     ]
+    },
+    {
+     "color": "#4FA3E0",
+     "at": {
+      "line": 0,
+      "word": "Slovaquie",
+      "d": -0.1
+     },
+     "keep": false,
+     "countries": [
+      "Slovakia"
+     ]
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      14.42,
+      50.09
+     ],
+     "title": "Prague",
+     "side": "t",
+     "when": {
+      "line": 0,
+      "word": "Tchéquie",
+      "d": 0.2
+     },
+     "sub": "la capitale"
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      14.42,
+      50.09
+     ],
+     "when": 0.4
+    }
+   ],
+   "labels": [
+    {
+     "text": "Allemagne",
+     "at": [
+      10.0,
+      50.1
+     ],
+     "size": 36,
+     "when": {
+      "line": 0,
+      "d": 1.0
+     }
+    },
+    {
+     "text": "Pologne",
+     "at": [
+      18.0,
+      51.6
+     ],
+     "size": 36,
+     "when": {
+      "line": 0,
+      "d": 1.3
+     }
+    },
+    {
+     "text": "Autriche",
+     "at": [
+      14.0,
+      48.2
+     ],
+     "size": 36,
+     "when": {
+      "line": 0,
+      "d": 1.6
+     }
+    },
+    {
+     "text": "Slovaquie",
+     "at": [
+      19.3,
+      48.8
+     ],
+     "size": 36,
+     "when": {
+      "line": 0,
+      "d": 1.9
+     }
+    },
+    {
+     "text": "Hongrie",
+     "at": [
+      19.3,
+      47.4
+     ],
+     "size": 36,
+     "when": {
+      "line": 0,
+      "d": 2.2
+     }
+    }
+   ],
+   "art": [
+    {
+     "kind": "stats",
+     "at": {
+      "line": 1,
+      "d": 0.0
+     },
+     "dur": 4.2,
+     "title": "La Tchéquie en bref",
+     "items": [
+      {
+       "value": 11,
+       "suffix": " millions",
+       "label": "d’habitants",
+       "color": "#FFD83C"
+      },
+      {
+       "value": 4,
+       "label": "pays voisins",
+       "color": "#E8503A"
+      },
+      {
+       "value": 3,
+       "label": "régions historiques",
+       "color": "#4FA3E0"
+      }
+     ]
+    }
+   ],
+   "say": [
+    "Pourquoi la Tchéquie s’est-elle séparée de la Slovaquie sans violence ?",
+    "Onze millions d’habitants, quatre voisins, trois régions."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1198 · 1355",
+   "text": "Le royaume de Bohême",
+   "focus": {
+    "box": [
+     10.2,
+     47.6,
+     19.8,
+     51.8
+    ]
+   },
+   "highlight": [
+    {
+     "color": "#FFD83C",
+     "at": 0.2,
+     "keep": false,
+     "countries": [
+      "Czechia"
+     ]
+    }
+   ],
+   "people": [
+    {
+     "who": "roi",
+     "at": [
+      16.6,
+      49.9
+     ],
+     "size": 230,
+     "say": "Prague, capitale !",
+     "label": {
+      "title": "Charles IV",
+      "sub": "empereur en 1355"
+     },
+     "when": {
+      "line": 1,
+      "word": "Charles",
+      "d": 0.0
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      14.42,
+      50.09
+     ],
+     "title": "Prague",
+     "side": "t",
+     "when": {
+      "line": 1,
+      "word": "Prague",
+      "d": 0.0
+     },
+     "sub": "capitale impériale"
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      14.42,
+      50.09
+     ],
+     "when": 0.4
+    }
+   ],
+   "labels": [
+    {
+     "text": "Allemagne",
+     "at": [
+      10.0,
+      49.9
+     ],
+     "size": 36,
+     "when": {
+      "line": 0,
+      "d": 0.8
+     }
+    },
+    {
+     "text": "Pologne",
+     "at": [
+      17.2,
+      51.5
+     ],
+     "size": 36,
+     "when": {
+      "line": 0,
+      "d": 1.1
+     }
+    },
+    {
+     "text": "Autriche",
+     "at": [
+      14.2,
+      48.3
+     ],
+     "size": 36,
+     "when": {
+      "line": 0,
+      "d": 1.4
+     }
+    }
+   ],
+   "art": [
+    {
+     "kind": "timeline",
+     "at": {
+      "line": 1,
+      "d": 0.0
+     },
+     "dur": 3.2,
+     "title": "Prague, ville de Charles IV",
+     "items": [
+      {
+       "year": "1198",
+       "text": "Royaume de Bohême"
+      },
+      {
+       "year": "1355",
+       "text": "Charles IV empereur"
+      }
+     ]
+    }
+   ],
+   "say": [
+    "Dès 1198, la Bohême est un royaume au centre de l’Europe.",
+    "En 1355, Charles IV devient empereur, et Prague, capitale impériale."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1415 · 1419",
+   "text": "Jan Hus, un prêtre tchèque",
+   "focus": {
+    "box": [
+     8.4,
+     46.8,
+     19.2,
+     51.6
+    ]
+   },
+   "highlight": [
+    {
+     "color": "#FFD83C",
+     "at": 0.1,
+     "keep": false,
+     "countries": [
+      "Czechia"
+     ]
+    }
+   ],
+   "people": [
+    {
+     "who": "rebelle",
+     "at": [
+      15.4,
+      49.5
+     ],
+     "size": 230,
+     "say": "Prêchons en tchèque !",
+     "label": {
+      "title": "Jan Hus",
+      "sub": "brûlé en 1415"
+     },
+     "when": {
+      "line": 0,
+      "word": "Hus",
+      "d": 0.0
+     }
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      14.42,
+      50.09
+     ],
+     "to": [
+      9.17,
+      47.66
+     ],
+     "n": 1,
+     "color": "#E8503A",
+     "at": {
+      "line": 1,
+      "word": "Constance",
+      "d": -0.6
+     },
+     "dur": 1.9
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      14.42,
+      50.09
+     ],
+     "title": "Prague",
+     "side": "t",
+     "when": {
+      "line": 0,
+      "word": "prêche",
+      "d": 0.0
+     }
+    },
+    {
+     "at": [
+      9.17,
+      47.66
+     ],
+     "title": "Constance",
+     "side": "r",
+     "when": {
+      "line": 1,
+      "word": "Constance",
+      "d": 0.0
+     },
+     "sub": "Hus y est brûlé"
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      14.42,
+      50.09
+     ],
+     "when": 0.4
+    }
+   ],
+   "labels": [
+    {
+     "text": "Allemagne",
+     "at": [
+      10.0,
+      50.6
+     ],
+     "size": 36,
+     "when": {
+      "line": 0,
+      "d": 1.0
+     }
+    },
+    {
+     "text": "Autriche",
+     "at": [
+      13.6,
+      47.4
+     ],
+     "size": 36,
+     "when": {
+      "line": 0,
+      "d": 1.5
+     }
+    }
+   ],
+   "say": [
+    "Jan Hus prêche en tchèque et critique l’Église.",
+    "Brûlé à Constance en 1415, ses fidèles se révoltent quatre ans plus tard."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1620",
+   "text": "La Montagne Blanche",
+   "focus": {
+    "box": [
+     10.6,
+     47.4,
+     19.8,
+     51.4
+    ]
+   },
+   "highlight": [
+    {
+     "color": "#FFD83C",
+     "at": 0.1,
+     "keep": false,
+     "countries": [
+      "Czechia"
+     ]
+    },
+    {
+     "color": "#E8503A",
+     "at": 0.1,
+     "keep": false,
+     "countries": [
+      "Austria"
+     ]
+    }
+   ],
+   "people": [
+    {
+     "who": "soldat",
+     "at": [
+      14.0,
+      50.0
+     ],
+     "size": 230,
+     "say": "Défaite !",
+     "label": {
+      "title": "Montagne Blanche",
+      "sub": "8 novembre 1620"
+     },
+     "when": {
+      "line": 0,
+      "word": "armée",
+      "d": 0.0
+     }
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      16.37,
+      48.21
+     ],
+     "to": [
+      14.42,
+      50.09
+     ],
+     "n": 4,
+     "color": "#E8503A",
+     "at": {
+      "line": 0,
+      "word": "écrasée",
+      "d": -0.6
+     },
+     "dur": 1.9
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      14.42,
+      50.09
+     ],
+     "title": "Prague",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "Montagne",
+      "d": 0.0
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      14.42,
+      50.09
+     ],
+     "when": 0.4
+    }
+   ],
+   "labels": [
+    {
+     "text": "Allemagne",
+     "at": [
+      10.0,
+      50.4
+     ],
+     "size": 36,
+     "when": {
+      "line": 0,
+      "d": 0.9
+     }
+    },
+    {
+     "text": "Pologne",
+     "at": [
+      17.3,
+      51.2
+     ],
+     "size": 36,
+     "when": {
+      "line": 0,
+      "d": 1.2
+     }
+    },
+    {
+     "text": "Autriche (Habsbourg)",
+     "at": [
+      14.3,
+      47.9
+     ],
+     "size": 34,
+     "when": {
+      "line": 0,
+      "d": 1.5
+     }
+    }
+   ],
+   "say": [
+    "En 1620, l’armée tchèque est écrasée à la Montagne Blanche, à Prague.",
+    "Les Habsbourg régneront trois siècles sur la Bohême."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "19e siècle",
+   "text": "Le tchèque renaît",
+   "focus": {
+    "box": [
+     10.6,
+     47.6,
+     19.8,
+     51.6
+    ]
+   },
+   "highlight": [
+    {
+     "color": "#FFD83C",
+     "at": 0.1,
+     "keep": false,
+     "countries": [
+      "Czechia"
+     ]
+    },
+    {
+     "color": "#E8503A",
+     "at": {
+      "line": 0,
+      "word": "allemand",
+      "d": 0.0
+     },
+     "keep": false,
+     "countries": [
+      "Austria"
+     ]
+    }
+   ],
+   "people": [
+    {
+     "who": "savant",
+     "at": [
+      16.3,
+      49.9
+     ],
+     "size": 230,
+     "say": "Le tchèque vivra !",
+     "label": {
+      "title": "Josef Jungmann",
+      "sub": "dictionnaire"
+     },
+     "when": {
+      "line": 0,
+      "word": "savants",
+      "d": 0.0
+     }
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      16.37,
+      48.21
+     ],
+     "to": [
+      14.42,
+      50.09
+     ],
+     "n": 3,
+     "color": "#E8503A",
+     "at": {
+      "line": 0,
+      "word": "domine",
+      "d": -0.3
+     },
+     "dur": 1.9,
+     "label": "Allemand"
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      14.42,
+      50.09
+     ],
+     "title": "Prague",
+     "side": "t",
+     "when": {
+      "line": 1,
+      "word": "théâtre",
+      "d": 0.0
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      14.42,
+      50.09
+     ],
+     "when": {
+      "line": 1,
+      "word": "théâtre"
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Allemagne",
+     "at": [
+      9.9,
+      50.9
+     ],
+     "size": 36,
+     "when": {
+      "line": 0,
+      "d": 1.0
+     }
+    },
+    {
+     "text": "Pologne",
+     "at": [
+      17.4,
+      51.3
+     ],
+     "size": 36,
+     "when": {
+      "line": 0,
+      "d": 1.3
+     }
+    },
+    {
+     "text": "Autriche (Habsbourg)",
+     "at": [
+      14.3,
+      47.9
+     ],
+     "size": 34,
+     "when": {
+      "line": 0,
+      "d": 1.4
+     }
+    }
+   ],
+   "say": [
+    "Au 19e siècle, l’allemand domine, mais des savants relancent le tchèque.",
+    "Dictionnaire, théâtre national : la langue tchèque renaît."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1918",
+   "text": "La Tchécoslovaquie naît",
+   "focus": {
+    "box": [
+     10.2,
+     47.4,
+     23.0,
+     52.0
+    ]
+   },
+   "highlight": [
+    {
+     "color": "#FFD83C",
+     "at": 0.1,
+     "keep": false,
+     "countries": [
+      "Czechia"
+     ]
+    },
+    {
+     "color": "#4FA3E0",
+     "at": 0.5,
+     "keep": false,
+     "countries": [
+      "Slovakia"
+     ]
+    }
+   ],
+   "people": [
+    {
+     "who": "confedere",
+     "at": [
+      15.8,
+      49.8
+     ],
+     "size": 230,
+     "say": "Un État à nous !",
+     "label": {
+      "title": "Tomas Masaryk",
+      "sub": "premier président"
+     },
+     "when": {
+      "line": 1,
+      "word": "Masaryk",
+      "d": 0.0
+     }
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      14.42,
+      50.09
+     ],
+     "to": [
+      17.11,
+      48.15
+     ],
+     "n": 2,
+     "color": "#FFFFFF",
+     "at": {
+      "line": 0,
+      "word": "ensemble",
+      "d": 0.0
+     },
+     "dur": 1.7
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      14.42,
+      50.09
+     ],
+     "title": "Prague",
+     "side": "t",
+     "when": {
+      "line": 1,
+      "word": "Prague",
+      "d": 0.0
+     },
+     "sub": "capitale"
+    },
+    {
+     "at": [
+      17.11,
+      48.15
+     ],
+     "title": "Bratislava",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "Slovaques",
+      "d": 0.3
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      14.42,
+      50.09
+     ],
+     "when": 0.4
+    }
+   ],
+   "labels": [
+    {
+     "text": "Allemagne",
+     "at": [
+      10.3,
+      50.9
+     ],
+     "size": 36,
+     "when": {
+      "line": 0,
+      "d": 1.0
+     }
+    },
+    {
+     "text": "Pologne",
+     "at": [
+      19.0,
+      51.3
+     ],
+     "size": 36,
+     "when": {
+      "line": 0,
+      "d": 1.3
+     }
+    },
+    {
+     "text": "Hongrie",
+     "at": [
+      19.3,
+      47.0
+     ],
+     "size": 36,
+     "when": {
+      "line": 1,
+      "d": 1.0
+     }
+    }
+   ],
+   "say": [
+    "En 1918, Tchèques et Slovaques fondent ensemble la Tchécoslovaquie.",
+    "Prague en est la capitale, Tomas Masaryk le premier président."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1938 · 1939",
+   "text": "Munich, puis l’occupation",
+   "focus": {
+    "box": [
+     10.0,
+     47.4,
+     19.8,
+     52.8
+    ]
+   },
+   "highlight": [
+    {
+     "color": "#FFD83C",
+     "at": 0.1,
+     "keep": false,
+     "countries": [
+      "Czechia"
+     ]
+    },
+    {
+     "color": "#E8503A",
+     "at": {
+      "line": 0,
+      "word": "Sudètes",
+      "d": -0.2
+     },
+     "keep": false,
+     "regions": [
+      {
+       "c": "Czechia",
+       "n": "Ústecký"
+      },
+      {
+       "c": "Czechia",
+       "n": "Liberecký"
+      },
+      {
+       "c": "Czechia",
+       "n": "Karlovarský"
+      },
+      {
+       "c": "Czechia",
+       "n": "Plzeňský"
+      },
+      {
+       "c": "Czechia",
+       "n": "Jihočeský"
+      },
+      {
+       "c": "Czechia",
+       "n": "Královéhradecký"
+      },
+      {
+       "c": "Czechia",
+       "n": "Olomoucký"
+      },
+      {
+       "c": "Czechia",
+       "n": "Moravskoslezský"
+      },
+      {
+       "c": "Czechia",
+       "n": "Jihomoravský"
+      }
+     ]
+    },
+    {
+     "color": "#DDE3F0",
+     "at": {
+      "line": 1,
+      "word": "occupe",
+      "d": 0.0
+     },
+     "keep": false,
+     "countries": [
+      "Czechia"
+     ]
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      13.74,
+      51.05
+     ],
+     "to": [
+      14.42,
+      50.09
+     ],
+     "n": 3,
+     "color": "#DDE3F0",
+     "at": {
+      "line": 1,
+      "word": "occupe",
+      "d": -0.4
+     },
+     "dur": 1.8
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      11.58,
+      48.14
+     ],
+     "title": "Munich",
+     "side": "l",
+     "when": {
+      "line": 0,
+      "word": "Munich",
+      "d": 0.0
+     },
+     "sub": "30 septembre 1938"
+    },
+    {
+     "at": [
+      14.42,
+      50.09
+     ],
+     "title": "Prague",
+     "side": "r",
+     "when": {
+      "line": 1,
+      "word": "pays",
+      "d": 0.0
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      11.58,
+      48.14
+     ],
+     "when": {
+      "line": 0,
+      "word": "Munich"
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Sudètes",
+     "at": [
+      14.2,
+      50.75
+     ],
+     "size": 34,
+     "when": {
+      "line": 0,
+      "word": "Sudètes",
+      "d": 0.3
+     }
+    },
+    {
+     "text": "Pologne",
+     "at": [
+      18.2,
+      51.9
+     ],
+     "size": 36,
+     "when": {
+      "line": 0,
+      "d": 1.0
+     }
+    },
+    {
+     "text": "Autriche",
+     "at": [
+      14.5,
+      47.9
+     ],
+     "size": 36,
+     "when": {
+      "line": 1,
+      "d": 1.0
+     }
+    },
+    {
+     "text": "Allemagne",
+     "at": [
+      10.0,
+      51.3
+     ],
+     "size": 36,
+     "when": {
+      "line": 0,
+      "d": 1.0
+     }
+    }
+   ],
+   "say": [
+    "En 1938, à Munich, la France et le Royaume-Uni laissent Hitler prendre les Sudètes.",
+    "En 1939, l’Allemagne occupe la Bohême et la Moravie."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1948 · 1968",
+   "text": "Le communisme, les chars",
+   "focus": {
+    "box": [
+     10.0,
+     47.4,
+     22.8,
+     52.4
+    ]
+   },
+   "highlight": [
+    {
+     "color": "#FFD83C",
+     "at": 0.1,
+     "keep": false,
+     "countries": [
+      "Czechia"
+     ]
+    },
+    {
+     "color": "#4FA3E0",
+     "at": 0.5,
+     "keep": false,
+     "countries": [
+      "Slovakia"
+     ]
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      20.5,
+      50.2
+     ],
+     "to": [
+      14.42,
+      50.09
+     ],
+     "n": 5,
+     "color": "#E8503A",
+     "at": {
+      "line": 1,
+      "word": "chars",
+      "d": -0.3
+     },
+     "dur": 1.8
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      14.42,
+      50.09
+     ],
+     "title": "Prague",
+     "sub": "Coup de Prague",
+     "side": "t",
+     "when": {
+      "line": 0,
+      "word": "communistes",
+      "d": 0.0
+     }
+    },
+    {
+     "at": [
+      14.42,
+      50.09
+     ],
+     "title": "Printemps de Prague",
+     "side": "b",
+     "when": {
+      "line": 1,
+      "word": "Printemps",
+      "d": 0.0
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      14.42,
+      50.09
+     ],
+     "when": 0.6
+    }
+   ],
+   "labels": [
+    {
+     "text": "Allemagne",
+     "at": [
+      10.0,
+      51.2
+     ],
+     "size": 34,
+     "when": {
+      "line": 0,
+      "d": 1.0
+     }
+    },
+    {
+     "text": "Pologne",
+     "at": [
+      19.2,
+      51.7
+     ],
+     "size": 36,
+     "when": {
+      "line": 0,
+      "d": 1.4
+     }
+    },
+    {
+     "text": "Hongrie",
+     "at": [
+      19.3,
+      47.4
+     ],
+     "size": 36,
+     "when": {
+      "line": 0,
+      "d": 1.8
+     }
+    }
+   ],
+   "say": [
+    "En 1948, les communistes prennent le pouvoir.",
+    "En 1968, les chars écrasent le Printemps de Prague."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1989",
+   "text": "La Révolution de velours",
+   "focus": {
+    "box": [
+     10.4,
+     47.0,
+     22.8,
+     52.2
+    ]
+   },
+   "highlight": [
+    {
+     "color": "#FFD83C",
+     "at": 0.1,
+     "keep": false,
+     "countries": [
+      "Czechia"
+     ]
+    },
+    {
+     "color": "#4FA3E0",
+     "at": 0.5,
+     "keep": false,
+     "countries": [
+      "Slovakia"
+     ]
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      14.42,
+      50.09
+     ],
+     "title": "Prague",
+     "side": "t",
+     "when": {
+      "line": 1,
+      "word": "Havel",
+      "d": -0.5
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      14.42,
+      50.09
+     ],
+     "when": 0.6
+    }
+   ],
+   "labels": [
+    {
+     "text": "Allemagne",
+     "at": [
+      10.0,
+      50.4
+     ],
+     "size": 34,
+     "when": {
+      "line": 0,
+      "d": 1.0
+     }
+    },
+    {
+     "text": "Pologne",
+     "at": [
+      18.6,
+      51.6
+     ],
+     "size": 36,
+     "when": {
+      "line": 0,
+      "d": 1.4
+     }
+    }
+   ],
+   "art": [
+    {
+     "kind": "timeline",
+     "at": {
+      "line": 0,
+      "d": 0.3
+     },
+     "dur": 3.4,
+     "title": "Plus de 40 ans de communisme",
+     "items": [
+      {
+       "year": "1948",
+       "text": "Prise du pouvoir"
+      },
+      {
+       "year": "1968",
+       "text": "Printemps écrasé"
+      },
+      {
+       "year": "1989",
+       "text": "Révolution de velours"
+      }
+     ]
+    }
+   ],
+   "say": [
+    "Après quarante ans, la Révolution de velours éclate en 1989.",
+    "Václav Havel arrive au pouvoir."
+   ],
+   "people": [
+    {
+     "who": "rebelle",
+     "at": [
+      16.3,
+      49.7
+     ],
+     "size": 230,
+     "say": "Liberté !",
+     "label": {
+      "title": "Václav Havel",
+      "sub": "président en 1989"
+     },
+     "when": {
+      "line": 1,
+      "d": 0.3
+     }
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1993",
+   "text": "Le divorce de velours",
+   "focus": {
+    "box": [
+     10.4,
+     47.0,
+     22.8,
+     52.2
+    ]
+   },
+   "highlight": [
+    {
+     "color": "#DDE3F0",
+     "at": 0.1,
+     "keep": false,
+     "countries": [
+      "Czechia",
+      "Slovakia"
+     ]
+    },
+    {
+     "color": "#FFD83C",
+     "at": {
+      "line": 0,
+      "word": "sépare",
+      "d": -0.2
+     },
+     "keep": false,
+     "countries": [
+      "Czechia"
+     ]
+    },
+    {
+     "color": "#4FA3E0",
+     "at": {
+      "line": 0,
+      "word": "sépare",
+      "d": -0.2
+     },
+     "keep": false,
+     "countries": [
+      "Slovakia"
+     ]
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      16.61,
+      49.19
+     ],
+     "to": [
+      14.42,
+      50.09
+     ],
+     "n": 2,
+     "color": "#FFD83C",
+     "at": {
+      "line": 0,
+      "word": "sépare",
+      "d": 0.0
+     },
+     "dur": 1.6
+    },
+    {
+     "from": [
+      16.61,
+      49.19
+     ],
+     "to": [
+      17.11,
+      48.15
+     ],
+     "n": 2,
+     "color": "#4FA3E0",
+     "at": {
+      "line": 0,
+      "word": "sépare",
+      "d": 0.0
+     },
+     "dur": 1.6
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      14.42,
+      50.09
+     ],
+     "title": "Prague",
+     "side": "t",
+     "when": {
+      "line": 0,
+      "word": "Tchéquie",
+      "d": 0.2
+     }
+    },
+    {
+     "at": [
+      17.11,
+      48.15
+     ],
+     "title": "Bratislava",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "Slovaquie",
+      "d": 0.2
+     }
+    },
+    {
+     "at": [
+      16.61,
+      49.19
+     ],
+     "title": "Brno",
+     "sub": "accord du 26 août 1992",
+     "side": "l",
+     "when": {
+      "line": 1,
+      "word": "accord",
+      "d": 0.0
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      14.42,
+      50.09
+     ],
+     "when": 0.4
+    },
+    {
+     "at": [
+      17.11,
+      48.15
+     ],
+     "when": {
+      "line": 0,
+      "word": "Slovaquie"
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Allemagne",
+     "at": [
+      10.0,
+      50.5
+     ],
+     "size": 36,
+     "when": {
+      "line": 0,
+      "d": 1.0
+     }
+    },
+    {
+     "text": "Pologne",
+     "at": [
+      18.4,
+      51.6
+     ],
+     "size": 36,
+     "when": {
+      "line": 1,
+      "d": 0.3
+     }
+    },
+    {
+     "text": "Hongrie",
+     "at": [
+      19.0,
+      47.4
+     ],
+     "size": 36,
+     "when": {
+      "line": 1,
+      "d": 0.6
+     }
+    }
+   ],
+   "art": [
+    {
+     "kind": "compare",
+     "at": {
+      "line": 2,
+      "d": 0.0
+     },
+     "dur": 3.4,
+     "title": "Deux pays voisins",
+     "sub": "même échelle",
+     "items": [
+      {
+       "country": "Czechia",
+       "label": "Tchéquie",
+       "value": "79 000 km²",
+       "color": "#FFD83C"
+      },
+      {
+       "country": "Slovakia",
+       "label": "Slovaquie",
+       "value": "49 000 km²",
+       "color": "#4FA3E0"
+      }
+     ]
+    }
+   ],
+   "say": [
+    "En 1993, la Tchécoslovaquie se sépare : la Tchéquie et la Slovaquie naissent.",
+    "Par accord entre leurs dirigeants, sans combat : c’est le divorce de velours.",
+    "Aujourd’hui, deux voisins en paix."
+   ]
+  },
+  {
+   "type": "final",
+   "text": "Du royaume de Bohême à la Tchéquie",
+   "sub": "La Tchéquie",
+   "focus": {
+    "box": [
+     10.8,
+     47.6,
+     21.8,
+     52.0
+    ]
+   },
+   "highlight": [
+    {
+     "color": "#FFD83C",
+     "at": 0.2,
+     "keep": false,
+     "countries": [
+      "Czechia"
+     ]
+    },
+    {
+     "color": "#4FA3E0",
+     "at": 1.2,
+     "keep": false,
+     "countries": [
+      "Slovakia"
+     ]
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      14.42,
+      50.09
+     ],
+     "title": "Prague",
+     "side": "t",
+     "when": 2.0,
+     "sub": "capitale"
+    },
+    {
+     "at": [
+      17.11,
+      48.15
+     ],
+     "title": "Bratislava",
+     "side": "b",
+     "when": 2.6
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      14.42,
+      50.09
+     ],
+     "when": 1.5
+    }
+   ],
+   "say": [
+    "Voilà pourquoi : deux peuples, un accord, aucun combat.",
+    "Et voici la réponse à la question qui nous a ouverts :"
+   ]
+  }
+ ],
+ "terrain": [
+  {
+   "box": [
+    -14,
+    27,
+    40,
+    76
+   ],
+   "px": 3000,
+   "z": 6
+  },
+  {
+   "box": [
+    8.0,
+    46.4,
+    23.4,
+    53.2
+   ],
+   "px": 2800,
+   "z": 8
+  }
+ ]
+}

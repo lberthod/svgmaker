@@ -1,0 +1,7 @@
+- Faits : 1569 Lituanie/Biélorussie en orange, régions ukrainiennes passées en jaune (Couronne), label Lituanie avancé.
+- Hook : « État indépendant » ; 1918 : « redevient indépendante, après la chute des trois empires ».
+- 1945 : chiffres km² dits ; 1939 ajouté ; régions Brest/Volyn/Rivne/Ternopil' en URSS ; flèches avant l'art bars.
+- Keep : tous les highlights keep false (1772/1793 réintroduits dans la scène 1793).
+- Scène 123 ans : art stats supprimé, labels des trois empires, phrase sur la langue.
+- Positions : Autriche, Prusse, Kościuszko, Piłsudski, soldat final, pastilles Cracovie/Varsovie retirées ou déplacées ; frise 4 dates.
+- Terrain recalculé. Pas de nouveau fait web (connaissances).

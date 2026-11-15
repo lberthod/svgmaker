@@ -1,0 +1,647 @@
+{
+ "format": "atlas",
+ "id": "atlas-islande",
+ "scenes": [
+  {
+   "type": "hook",
+   "text": "Une île, une langue de mille ans",
+   "sub": "L’Islande",
+   "focus": {
+    "box": [
+     -25.2,
+     62.8,
+     -12.8,
+     67.2
+    ]
+   },
+   "pills": [
+    {
+     "at": [
+      -21.94,
+      64.15
+     ],
+     "title": "Reykjavik",
+     "sub": "la capitale",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "île"
+     }
+    }
+   ],
+   "say": [
+    "Une île volcanique près du cercle polaire, où l’on parle une langue très proche de celle d’il y a mille ans.",
+    "Environ 394 000 habitants y vivent, sur une île deux fois et demie plus grande que la Suisse."
+   ],
+   "art": [
+    {
+     "kind": "stats",
+     "at": {
+      "line": 1,
+      "word": "habitants",
+      "d": -0.6
+     },
+     "dur": 5,
+     "title": "Une île presque vide",
+     "items": [
+      {
+       "value": 103000,
+       "suffix": " km²",
+       "label": "de superficie",
+       "color": "#FFD83C",
+       "size": 56
+      },
+      {
+       "value": 394000,
+       "label": "habitants, environ",
+       "color": "#4FA3E0",
+       "size": 56
+      },
+      {
+       "value": 4,
+       "label": "hab. par km²",
+       "color": "#3E9A63"
+      }
+     ]
+    }
+   ],
+   "highlight": {
+    "countries": [
+     "Iceland"
+    ],
+    "color": "#FFD83C",
+    "at": 0.7,
+    "keep": false
+   }
+  },
+  {
+   "type": "map",
+   "year": "874",
+   "text": "Des Vikings norvégiens arrivent",
+   "focus": {
+    "box": [
+     -28,
+     59.5,
+     9,
+     67.5
+    ]
+   },
+   "moves": [
+    {
+     "from": [
+      5.3,
+      60.4
+     ],
+     "to": [
+      -21.94,
+      64.15
+     ],
+     "n": 5,
+     "color": "#E8503A",
+     "label": "Colons norvégiens, celtes",
+     "at": {
+      "line": 0,
+      "word": "installent",
+      "d": 0
+     },
+     "dur": 2.6
+    }
+   ],
+   "people": [
+    {
+     "who": "marin",
+     "at": [
+      -16,
+      61.8
+     ],
+     "size": 230,
+     "say": "Terre en vue !",
+     "label": {
+      "title": "Ingólfur Arnarson",
+      "sub": "874"
+     },
+     "when": {
+      "line": 0,
+      "word": "Ingólfur"
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      -21.94,
+      64.15
+     ],
+     "title": "Reykjavik",
+     "sub": "la première ferme",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "Reykjavik"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      -21.94,
+      64.15
+     ],
+     "when": 0.4
+    }
+   ],
+   "labels": [
+    {
+     "text": "Norvège",
+     "at": [
+      5.0,
+      63.0
+     ],
+     "size": 42,
+     "when": {
+      "line": 1,
+      "d": 0.5
+     }
+    }
+   ],
+   "say": [
+    "Vers 874, des Norvégiens s’installent ici, et Ingólfur Arnarson fonde sa ferme à Reykjavik.",
+    "Ils arrivent en bateau avec leurs familles, leurs moutons et leurs chevaux."
+   ],
+   "highlight": {
+    "countries": [
+     "Iceland"
+    ],
+    "color": "#FFD83C",
+    "at": 0.3,
+    "keep": false
+   }
+  },
+  {
+   "type": "map",
+   "year": "930",
+   "text": "L’Althing, parlement en plein air",
+   "focus": {
+    "box": [
+     -24.6,
+     63.4,
+     -17.6,
+     66.0
+    ]
+   },
+   "people": [
+    {
+     "who": "paysan",
+     "at": [
+      -20.0,
+      64.9
+     ],
+     "size": 230,
+     "say": "Voici la loi !",
+     "label": {
+      "title": "Un chef islandais",
+      "sub": "930"
+     },
+     "when": {
+      "line": 1,
+      "d": 0.3
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      -21.1,
+      64.26
+     ],
+     "title": "Thingvellir",
+     "side": "t",
+     "when": {
+      "line": 0,
+      "word": "Thingvellir",
+      "d": -0.2
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      -21.1,
+      64.26
+     ],
+     "when": 0.4
+    }
+   ],
+   "labels": [
+    {
+     "text": "Océan Atlantique",
+     "at": [
+      -24.4,
+      63.3
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "d": 0.6
+     }
+    }
+   ],
+   "say": [
+    "En 930, les chefs fondent l’Althing, une assemblée en plein air, à Thingvellir.",
+    "C’est l’un des plus anciens parlements du monde : on y vote les lois."
+   ],
+   "highlight": {
+    "countries": [
+     "Iceland"
+    ],
+    "color": "#FFD83C",
+    "at": 0.3,
+    "keep": false
+   }
+  },
+  {
+   "type": "map",
+   "year": "12e – 13e siècles",
+   "text": "Les sagas, mémoire de l’île",
+   "focus": {
+    "box": [
+     -25.2,
+     63.0,
+     -12.8,
+     67.0
+    ]
+   },
+   "people": [
+    {
+     "who": "savant",
+     "at": [
+      -19.0,
+      65.4
+     ],
+     "size": 230,
+     "say": "J’écris !",
+     "label": {
+      "title": "Un auteur de sagas",
+      "sub": "13e siècle"
+     },
+     "when": {
+      "line": 0,
+      "d": 0.8
+     }
+    }
+   ],
+   "pills": [],
+   "beacon": [
+    {
+     "at": [
+      -21.94,
+      64.15
+     ],
+     "when": 0.4
+    }
+   ],
+   "say": [
+    "Aux 12e et 13e siècles, les Islandais écrivent les sagas, récits de leurs ancêtres.",
+    "Aujourd’hui, on peut encore les lire assez facilement, huit siècles plus tard."
+   ],
+   "highlight": {
+    "countries": [
+     "Iceland"
+    ],
+    "color": "#FFD83C",
+    "at": 0.3,
+    "keep": false
+   }
+  },
+  {
+   "type": "map",
+   "year": "1262 – 1918",
+   "text": "Norvège, puis Danemark",
+   "focus": {
+    "box": [
+     -28,
+     54,
+     18.5,
+     67.8
+    ]
+   },
+   "moves": [
+    {
+     "from": [
+      -20.0,
+      64.5
+     ],
+     "to": [
+      3.0,
+      61.8
+     ],
+     "n": 3,
+     "color": "#4FA3E0",
+     "at": {
+      "line": 0,
+      "word": "chefs",
+      "d": 0
+     },
+     "dur": 3.0
+    },
+    {
+     "from": [
+      -19.0,
+      63.9
+     ],
+     "to": [
+      11.5,
+      55.8
+     ],
+     "n": 3,
+     "color": "#E8503A",
+     "label": "Roi du Danemark",
+     "at": {
+      "line": 1,
+      "word": "couronne",
+      "d": -0.2
+     },
+     "dur": 2.6
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      12.57,
+      55.68
+     ],
+     "title": "Copenhague",
+     "side": "r",
+     "when": {
+      "line": 1,
+      "word": "Danemark",
+      "d": 0.6
+     }
+    },
+    {
+     "at": [
+      -21.94,
+      64.15
+     ],
+     "title": "Reykjavik",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "d": 0.3
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      -21.94,
+      64.15
+     ],
+     "when": 0.4
+    }
+   ],
+   "labels": [
+    {
+     "text": "Norvège",
+     "at": [
+      8.0,
+      63.4
+     ],
+     "size": 40,
+     "when": {
+      "line": 0,
+      "word": "Norvège",
+      "d": 0.4
+     }
+    },
+    {
+     "text": "Danemark",
+     "at": [
+      9.6,
+      55.4
+     ],
+     "size": 38,
+     "when": {
+      "line": 1,
+      "word": "Danemark",
+      "d": 0.4
+     }
+    }
+   ],
+   "say": [
+    "De 1262 à 1264, les chefs islandais acceptent le roi de Norvège.",
+    "À la fin du 14e siècle, la couronne passe au Danemark, pour plus de cinq siècles."
+   ],
+   "highlight": {
+    "countries": [
+     "Iceland"
+    ],
+    "color": "#FFD83C",
+    "at": 0.3,
+    "keep": false
+   }
+  },
+  {
+   "type": "map",
+   "year": "1918 · 1944",
+   "text": "Du royaume à la république",
+   "focus": {
+    "box": [
+     -25.2,
+     62.8,
+     -12.8,
+     67.2
+    ]
+   },
+   "people": [
+    {
+     "who": "paysan",
+     "at": [
+      -18.5,
+      64.9
+     ],
+     "size": 230,
+     "say": "Nous sommes libres !",
+     "label": {
+      "title": "Fête nationale",
+      "sub": "17 juin"
+     },
+     "when": {
+      "line": 1,
+      "d": 0.0
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      -21.94,
+      64.15
+     ],
+     "title": "Reykjavik",
+     "sub": "capitale",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "d": 0.5
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      -21.94,
+      64.15
+     ],
+     "when": 0.4
+    }
+   ],
+   "say": [
+    "Le 1er décembre 1918, l’Islande devient un royaume souverain, uni au Danemark.",
+    "Le 17 juin 1944, après un vote massif, elle devient une république."
+   ],
+   "highlight": {
+    "countries": [
+     "Iceland"
+    ],
+    "color": "#FFD83C",
+    "at": 0.3,
+    "keep": false
+   }
+  },
+  {
+   "type": "map",
+   "text": "Une langue qui change très peu",
+   "focus": {
+    "box": [
+     -25.2,
+     62.8,
+     -12.8,
+     67.2
+    ]
+   },
+   "beacon": [
+    {
+     "at": [
+      -21.94,
+      64.15
+     ],
+     "when": 0.4
+    }
+   ],
+   "art": [
+    {
+     "kind": "bars",
+     "at": {
+      "line": 0,
+      "d": 0.2
+     },
+     "dur": 7,
+     "title": "Une langue très stable",
+     "items": [
+      {
+       "h": 0.7,
+       "value": "þ  ð",
+       "label": "lettres anciennes",
+       "color": "#FFD83C"
+      },
+      {
+       "h": 0.7,
+       "value": "tölva",
+       "label": "ordinateur, mot créé",
+       "color": "#4FA3E0"
+      }
+     ]
+    }
+   ],
+   "say": [
+    "L’islandais garde les lettres þ et ð et une grammaire proche du vieux norrois.",
+    "Pour un mot nouveau, on invente : l’ordinateur se dit tölva, créé dans les années 1960."
+   ],
+   "highlight": {
+    "countries": [
+     "Iceland"
+    ],
+    "color": "#FFD83C",
+    "at": 0.3,
+    "keep": false
+   }
+  },
+  {
+   "type": "final",
+   "text": "Une petite île, une langue ancienne",
+   "sub": "L’Islande",
+   "focus": {
+    "box": [
+     -25.2,
+     62.8,
+     -12.8,
+     67.2
+    ]
+   },
+   "people": [
+    {
+     "who": "marin",
+     "at": [
+      -19.0,
+      65.0
+     ],
+     "size": 250,
+     "say": "Islande !",
+     "wave": true,
+     "when": 2.8
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      -21.94,
+      64.15
+     ],
+     "title": "Reykjavik",
+     "sub": "capitale",
+     "side": "b",
+     "when": 2.0
+    }
+   ],
+   "say": [
+    "Voilà pourquoi l’Islande, peuplée vers 874 par des Norvégiens, parle une langue très proche de celle d’il y a mille ans."
+   ],
+   "highlight": {
+    "countries": [
+     "Iceland"
+    ],
+    "color": "#FFD83C",
+    "at": 0.3,
+    "keep": false
+   }
+  }
+ ],
+ "terrain": [
+  {
+   "box": [
+    -31,
+    27,
+    40,
+    76
+   ],
+   "px": 3000,
+   "z": 6
+  },
+  {
+   "box": [
+    -28.4,
+    53.6,
+    18.9,
+    68.2
+   ],
+   "px": 2800,
+   "z": 8
+  }
+ ],
+ "base": {
+  "countries": [
+   "Iceland"
+  ]
+ }
+}

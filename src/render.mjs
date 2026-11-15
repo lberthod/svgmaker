@@ -1,10 +1,10 @@
 import { createHash } from 'node:crypto'
 import { existsSync, readFileSync } from 'node:fs'
-import { mkdir, readFile, rm, rmdir, stat, writeFile } from 'node:fs/promises'
+import { mkdir, readFile, readdir, rm, rmdir, stat, writeFile } from 'node:fs/promises'
 import os from 'node:os'
 import path from 'node:path'
 import { chromium } from 'playwright'
-import { analyse } from './audit.mjs'
+import { analyse, coverIssues, pickCover, textsAt } from './audit.mjs'
 import * as ff from './ffmpeg.mjs'
 import { fitViewport, seek, setupPage, visibleActors, visibleTexts } from './page-fns.mjs'
 
@@ -117,6 +117,7 @@ export async function renderAll(files, opts, log = console.log) {
 
   // 1) tri incrémental -------------------------------------------------------
   const tasks = []
+  const batchCovers = [] // empreintes des couvertures de ce lot, pour repérer les couvertures identiques
   let skipped = 0
   for (const file of files) {
     const outDir = opts.outDir ? path.resolve(opts.outDir) : path.dirname(file)
@@ -127,11 +128,14 @@ export async function renderAll(files, opts, log = console.log) {
     const dm = /<svg\b[^>]*\sdata-music="([^"]+)"/.exec(buf.toString('utf8', 0, 4096))
     const music = dm ? path.resolve(path.dirname(file), dm[1]) : opts.music
     if (dm && !existsSync(music)) { log(`✗ ${base} : data-music introuvable (${dm[1]})`); continue }
+    // instant de couverture déclaré par le gabarit : <svg data-cover-at="7">
+    const dc = /<svg\b[^>]*\sdata-cover-at="([\d.]+)"/.exec(buf.toString('utf8', 0, 4096))
+    const coverDeclared = dc ? Number(dc[1]) : null
     const hash = hashOf(buf, { ...opts, music })
     const m = manifestFor(outDir)
     const prev = (await m.load()).files[base]
     if (!opts.force && !opts.probeOnly && !opts.auditOnly && prev?.hash === hash && existsSync(out)) { skipped++; continue }
-    tasks.push({ file, base, outDir, out, hash, music, manifest: m, audit_store: auditFor(outDir) })
+    tasks.push({ file, base, outDir, out, hash, music, coverDeclared, prevCoverAt: prev?.coverAt, manifest: m, audit_store: auditFor(outDir), batchCovers })
   }
   if (skipped) log(`= ${skipped} fichier(s) déjà à jour (empreinte identique), ignoré(s). --force pour tout refaire.`)
   if (!tasks.length) return { results: [], skipped, failed: 0 }
@@ -179,7 +183,7 @@ export async function renderAll(files, opts, log = console.log) {
         if (seg.from < seg.to) { t.segs.push(seg); queue.push(seg) }
       }
       t.pending = t.segs.length
-      if (opts.audit || opts.sheet || opts.auditOnly) { t.pending++; queue.push({ task: t, extras: true }) }
+      if (opts.audit || opts.sheet || opts.auditOnly || autoCover(t, opts)) { t.pending++; queue.push({ task: t, extras: true }) }
     }
 
     const finals = []
@@ -223,14 +227,19 @@ export async function renderAll(files, opts, log = console.log) {
   return { results, skipped, failed, secs }
 }
 
+/** La couverture est choisie automatiquement (ni --cover-at ni data-cover-at). */
+const autoCover = (t, opts) => !!opts.cover && !opts.auditOnly && opts.coverAt == null && t.coverDeclared == null
+
 async function extras(w, page, t, opts) {
-  if (opts.audit || opts.auditOnly) {
+  if (opts.audit || opts.auditOnly || autoCover(t, opts)) {
     const samples = []
     for (let s = 0; s < t.duration; s += 0.25) {
       await page.page.evaluate(seek, s)
       samples.push({ t: s, texts: await page.page.evaluate(visibleTexts), actors: await page.page.evaluate(visibleActors) })
     }
-    t.audit = analyse(samples, { width: t.width, height: t.height, duration: t.duration, minFinal: opts.minFinal ?? 2.8 })
+    t.samples = samples
+    t.coverAuto = pickCover(samples, { width: t.width, height: t.height, duration: t.duration })
+    if (opts.audit || opts.auditOnly) t.audit = analyse(samples, { width: t.width, height: t.height, duration: t.duration, minFinal: opts.minFinal ?? 2.8 })
   }
   if (opts.sheet) {
     const shots = []
@@ -254,8 +263,19 @@ async function finish(t, opts, log) {
       duration: t.duration, music: t.music, musicVolume: opts.musicVolume ?? 0.55, loudnorm: opts.loudnorm ?? (t.music && opts.musicVolume == null),
     })
     files.push(t.out)
-    if (opts.cover) { const c = path.join(t.outDir, `${t.base}-cover.jpg`); await ff.cover(t.out, c, opts.coverAt ?? 0); files.push(c) }
+    if (opts.cover) {
+      t.coverAt = coverTime(t, opts)
+      const c = path.join(t.outDir, `${t.base}-cover.jpg`)
+      await ff.cover(t.out, c, t.coverAt.toFixed(3))
+      files.push(c)
+      if (t.audit) await checkCover(t, c, t.coverAt)
+    }
     if (opts.gif) { const g = path.join(t.outDir, `${t.base}.gif`); await ff.gif(t.out, g); files.push(g) }
+  }
+  if (opts.auditOnly && t.audit) {
+    // svgmaker audit : contrôle la couverture déjà rendue, à l'instant noté dans le manifeste (0 avant cette version)
+    const c = path.join(t.outDir, `${t.base}-cover.jpg`)
+    if (existsSync(c)) await checkCover(t, c, t.prevCoverAt ?? 0)
   }
   if (t.sheetFile) files.push(t.sheetFile)
   await rm(t.tmp, { recursive: true, force: true })
@@ -269,7 +289,7 @@ async function finish(t, opts, log) {
   if (!opts.auditOnly) {
     await t.manifest.set(t.base, {
       hash: t.hash, svg: path.relative(t.outDir, t.file), duration: t.duration, fps: t.fps, frames: t.frames,
-      size: `${t.width}x${t.height}`, audio: t.music ? path.relative(t.outDir, t.music) : false, renderedAt: new Date().toISOString(), tool: `svgmaker ${VERSION}`,
+      size: `${t.width}x${t.height}`, ...(t.coverAt != null ? { coverAt: t.coverAt } : {}), audio: t.music ? path.relative(t.outDir, t.music) : false, renderedAt: new Date().toISOString(), tool: `svgmaker ${VERSION}`,
     })
   }
   const parts = [`${t.duration.toFixed(1)} s`, `${t.width}×${t.height} ${t.fps} i/s`]
@@ -283,4 +303,41 @@ async function finish(t, opts, log) {
     await t.audit_store.set(t.base, { svg: path.relative(t.outDir, t.file), checkedAt: new Date().toISOString(), ...t.audit })
   }
   return r
+}
+
+/**
+ * Instant de la couverture, par ordre de priorité : --cover-at, data-cover-at du SVG, choix automatique
+ * (dans le début de la vidéo, la plus grande surface de textes lisibles, voir pickCover), l'accroche de l'audit, 0.
+ */
+function coverTime(t, opts) {
+  const at = opts.coverAt ?? t.coverDeclared ?? t.coverAuto ?? t.audit?.hookAt ?? 0
+  return Math.max(0, Math.min(at, t.duration - 1 / t.fps))
+}
+
+/** Ajoute à l'audit les alertes de couverture (vide, unie, identique à celle d'une autre vidéo). */
+async function checkCover(t, file, at) {
+  const sig = await ff.fingerprint(file)
+  const texts = t.samples ? textsAt(t.samples, at, { width: t.width, height: t.height }) : null
+  const others = new Map()
+  for (const o of await storedCovers(t.outDir)) if (o.name !== t.base) others.set(o.name, o.sig)
+  for (const o of t.batchCovers) if (o.name !== t.base) others.set(o.name, o.sig)
+  const issues = coverIssues({ at, texts, sig }, [...others].map(([name, s]) => ({ name, sig: s })))
+  t.batchCovers.push({ name: t.base, sig })
+  t.audit.issues.push(...issues)
+  t.audit.cover = { at, texts, suggest: t.coverAuto ?? null, sig: sig.toString('base64') }
+}
+
+/** Couvertures notées dans svgmaker-audit.json du dossier et des dossiers voisins (une vidéo par thème, par ex.). */
+async function storedCovers(dir) {
+  const parent = path.dirname(dir)
+  const dirs = [dir]
+  const ents = await readdir(parent, { withFileTypes: true }).catch(() => [])
+  if (ents.length <= 300) for (const e of ents) if (e.isDirectory() && !e.name.startsWith('.')) dirs.push(path.join(parent, e.name))
+  const out = []
+  for (const d of new Set(dirs)) {
+    const j = await readFile(path.join(d, 'svgmaker-audit.json'), 'utf8').then(JSON.parse, () => null)
+    for (const [name, e] of Object.entries(j?.files ?? {}))
+      if (e?.cover?.sig) out.push({ name, sig: Buffer.from(e.cover.sig, 'base64') })
+  }
+  return out
 }

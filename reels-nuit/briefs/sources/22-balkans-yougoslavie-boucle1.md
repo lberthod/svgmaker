@@ -1,0 +1,21 @@
+# 22 Balkans / Yougoslavie, boucle 1
+
+- Faits 1 : final « l'ex-Yougoslavie compte sept pays » ; bulle « Ex-Yougoslavie ».
+- Faits 2 / Compo 2 : 4 langues remplacé par 3 langues (hook, compteur 3) ; cohérent avec le titre scène 4.
+- Faits 3 / Carto 5 / Compo 7 : split scène 6, part `North Macedonia` lost (4 parts lost).
+- Faits 4 / Carto 1 / Compo 1 : North Macedonia ajoutée aux highlights scènes 1, 2 ; scène 3 (jaune sur « Macédoine ») + pastille Skopje ; scène 4 (jaune sur « macédonien »).
+- Faits 5 : compteurs stats : non appliqué (défaut générateur).
+- Faits 6 / Carto 7 / Compo 5 : roi à [19.7,44.5] (région de Belgrade), `when` sur « royaume » (Caméra 8).
+- Faits 7 / Carto 6 / Compo 7 : pastille Sarajevo scène 6, highlights par pays au départ.
+- Faits 8 : 17 février 2008 pour le Kosovo.
+- Lisibilité 1 : sub du stats scène 1 retiré. Lisibilité 2 / Compo 3 : notes de l'art alphabets retirées.
+- Lisibilité 3 : labels scène 8 raccourcis. Lisibilité 5 / Compo 5 : label du déplacement retiré, Zagreb `side` b, départ de la flèche à Ljubljana.
+- Lisibilité 6 : Pristina `side` b (scène 7), Belgrade `side` l (scènes 1 et 9), sub « ex-capitale ».
+- Carto 2 / Compo 4 : Tito à [19.2,45.7], `when` « dirigée » (Caméra 3), highlight global à « 1945 ».
+- Carto 3 : Albanie [20.2,40.7] (scène 3), [20.0,40.6] (scène 6 bis, scène 7). Carto 4 : focus.box scène 7 [15.5,40.6,24,46.8].
+- Carto 5 / Compo 3 : alphabets, highlights cyrillique rouge / latin bleu, art dur 4,5 ; scène 8 : 7 pays colorés, art déclenché à la ligne 1, dur 6 ; final : 7 pays colorés sur « sept ». Caméra 2 : art hook dur 5.
+- Carto 8 / Compo 6 : macédonien jaune (cohérent avec la Macédoine de la scène 3), serbo-croate calé sur le mot dit (Caméra 4).
+- Couleurs : Yougoslavie jaune en scènes 1, 2, 3, 8 ; Kosovo rose en 2006 (violet = Bosnie).
+- Caméra 5 : focus.box propre à chaque scène. Caméra 6 : flèches `at` d -0,4, dur 1,4. Caméra 8 : balise Kosovo sur « Kosovo ».
+- Terrain : [0] = [-14,27,40,76] px 3000 z 6 ; [1] = union des focus.box + 0,4°.
+- Non appliqué : Lisibilité 7/8 et Caméra 7 (générateur), Compo 2 (rupture non expliquée : pas de scène ajoutée, durée), icônes court/house/school (conservées).

@@ -1,0 +1,6 @@
+- Faits : Collectivité de Corse 2018 (remplace région + conseils des 2 départements) ; Bastia retirée de 1284 (fondée vers 1380) ; Rome « à l'origine du corse ».
+- 5 : dernière phrase « Et voilà ce qui nous ramène à la question du début : » ; final « île pisane puis génoise ».
+- 2 : hook stats = distances (90 km Toscane, 170 km Nice, 400 km Marseille, ordres de grandeur) ; timeline « 3e s. av. J.-C. » / Rome ; languages « Lois », dur 5 s.
+- 6 : focus.box hook élargi (Marseille visible + pill), 1768 box x 10.8 ; France entière en bleu, armée calée sur « cède », Corse bleue en fin ; terrain recalculé.
+- 3/6 : Paoli scindé en 2 scènes (République / Constitution à Corte) ; Ponte-Novu allégé (Porto-Vecchio retiré, exil vers la mer) ; Napoléon sprite savant, pill Ajaccio side t ; label toscan ; debuts de scènes calés (highlight 0,3 s).
+- Non fait : icône school ressemble à house (générateur).

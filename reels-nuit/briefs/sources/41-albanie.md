@@ -1,0 +1,11 @@
+# 41-albanie : sources (faits écrits de mémoire, recherche web non disponible : à re-vérifier)
+- Albanais = branche indo-européenne à part, environ 7 millions de locuteurs -> https://fr.wikipedia.org/wiki/Albanais
+- Illyriens, origine possible de l'albanais (débattue, d'où « ancêtres possibles ») -> https://fr.wikipedia.org/wiki/Illyriens
+- 168 av. J.-C. : Rome vainc le roi Gentius, conquête de l'Illyrie ; Durres (Dyrrachium), port romain -> https://fr.wikipedia.org/wiki/Illyrie
+- 395 : division de l'Empire, région byzantine -> https://fr.wikipedia.org/wiki/Histoire_de_l%27Albanie
+- Skanderbeg : révolte 1443 (Kruje), mort 1468 -> https://fr.wikipedia.org/wiki/Skanderbeg
+- Ottomans de 1479 (fin des places de Shkodra) à 1912 ; conversions à l'islam -> https://fr.wikipedia.org/wiki/Albanie_ottomane
+- Indépendance proclamée à Vlora le 28 novembre 1912 par Ismail Qemali -> https://fr.wikipedia.org/wiki/Ismail_Qemali
+- Hoxha au pouvoir 1944-1985 ; régime communiste fini en 1991 -> https://fr.wikipedia.org/wiki/Enver_Hoxha
+- Albanais : Kosovo environ 90 % (92 % recensement 2011), Macédoine du Nord environ 25 % (24,3 % en 2021), Monténégro environ 5 % (4,9 % en 2011) -> pages Démographie de chaque pays
+- Guegue (nord) / tosque (sud), séparés par le Shkumbin ; standard de 1972 fondé surtout sur le tosque -> https://fr.wikipedia.org/wiki/Albanais

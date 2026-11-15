@@ -1,0 +1,640 @@
+10:54:27 début atlas-italie-1861
+10:57:57 ok    atlas-italie-1861  82.06s  0 alerte(s) d'audit
+10:57:57 début atlas-autriche-hongrie
+11:01:10 ok    atlas-autriche-hongrie  73.53s  0 alerte(s) d'audit
+11:01:10 début atlas-espagne-langues
+11:03:57 ok    atlas-espagne-langues  70.71s  0 alerte(s) d'audit
+11:03:57 début atlas-irlande-partition
+11:07:07 ok    atlas-irlande-partition  73.43s  0 alerte(s) d'audit
+11:07:07 début atlas-france-langue
+11:10:20 ok    atlas-france-langue  80.53s  1 alerte(s) d'audit
+11:10:20 lot terminé
+11:10:20 début atlas-suisse-4-langues
+11:15:57 ok    atlas-suisse-4-langues  93.43s  0 alerte(s) d'audit
+11:15:57 lot terminé
+TOUT FINI
+11:16:03 début atlas-france-langue
+11:20:06 ok    atlas-france-langue  80.53s  0 alerte(s) d'audit
+11:20:06 lot terminé
+11:36:49 début atlas-luxembourg-v2
+11:39:30 ok    atlas-luxembourg-v2  76.70s  0 alerte(s) d'audit
+11:39:30 lot terminé
+11:40:05 début atlas-luxembourg-v2
+11:42:02 ok    atlas-luxembourg-v2  76.70s  0 alerte(s) d'audit
+11:42:02 lot terminé
+11:50:49 début atlas-luxembourg-v2
+11:52:41 ok    atlas-luxembourg-v2  76.73s  1 alerte(s) d'audit
+11:52:41 lot terminé
+11:53:01 début atlas-luxembourg-v2
+11:54:31 ok    atlas-luxembourg-v2  76.73s  0 alerte(s) d'audit
+11:54:31 lot terminé
+11:54:51 début atlas-luxembourg-v2
+11:55:48 ok    atlas-luxembourg-v2  76.73s  1 alerte(s) d'audit
+11:55:48 lot terminé
+11:55:55 début atlas-luxembourg-v2
+11:56:43 ok    atlas-luxembourg-v2  76.73s  0 alerte(s) d'audit
+11:56:43 lot terminé
+12:16:11 début atlas-luxembourg-v3
+12:20:39 ok    atlas-luxembourg-v3  79.71s  0 alerte(s) d'audit
+12:20:39 lot terminé
+12:23:43 début atlas-luxembourg-v3
+12:30:54 ok    atlas-luxembourg-v3  79.71s  0 alerte(s) d'audit
+12:30:54 lot terminé
+12:35:28 début atlas-luxembourg-v4
+12:39:09 ok    atlas-luxembourg-v4  79.71s  0 alerte(s) d'audit
+12:39:09 lot terminé
+12:39:30 début atlas-luxembourg-v4
+12:42:55 ok    atlas-luxembourg-v4  79.71s  0 alerte(s) d'audit
+12:42:55 lot terminé
+12:46:59 début atlas-luxembourg-v4
+12:51:12 ok    atlas-luxembourg-v4  76.80s  0 alerte(s) d'audit
+12:51:12 lot terminé
+14:00:50 début atlas-luxembourg-v5
+14:03:42 ok    atlas-luxembourg-v5  76.80s  0 alerte(s) d'audit
+14:03:42 lot terminé
+14:04:12 début atlas-luxembourg-v5
+14:07:28 ok    atlas-luxembourg-v5  76.80s  0 alerte(s) d'audit
+14:07:28 lot terminé
+14:18:10 début atlas-belgique-3-langues
+14:24:44 ok    atlas-belgique-3-langues  90.76s  0 alerte(s) d'audit
+14:24:44 début atlas-italie-1861
+14:35:41 ok    atlas-italie-1861  81.20s  0 alerte(s) d'audit
+14:35:41 début atlas-pays-bas-sous-la-mer
+14:43:46 ok    atlas-pays-bas-sous-la-mer  75.34s  0 alerte(s) d'audit
+14:43:46 début atlas-portugal-independance
+15:08:11 ok    atlas-portugal-independance  89.54s  0 alerte(s) d'audit
+15:08:11 début atlas-autriche-hongrie
+15:14:00 ok    atlas-autriche-hongrie  71.91s  0 alerte(s) d'audit
+15:14:01 début atlas-scandinavie-kalmar
+15:20:23 ok    atlas-scandinavie-kalmar  65.20s  0 alerte(s) d'audit
+15:20:24 début atlas-espagne-langues
+15:33:37 ok    atlas-espagne-langues  69.56s  0 alerte(s) d'audit
+15:33:38 début atlas-irlande-partition
+15:46:06 ok    atlas-irlande-partition  72.56s  1 alerte(s) d'audit
+15:46:06 début atlas-france-langue
+15:51:01 ok    atlas-france-langue  78.53s  1 alerte(s) d'audit
+15:51:01 début atlas-allemagne-1871
+15:58:01 ok    atlas-allemagne-1871  91.03s  0 alerte(s) d'audit
+15:58:01 lot terminé
+20:03:12 début atlas-luxembourg-v5
+20:09:01 ok    atlas-luxembourg-v5  77.30s  0 alerte(s) d'audit
+20:09:01 début atlas-belgique-3-langues
+20:13:08 ok    atlas-belgique-3-langues  91.70s  0 alerte(s) d'audit
+20:13:08 début atlas-italie-1861
+20:13:08 ok    atlas-italie-1861  81.20s  audit ?
+20:13:08 début atlas-portugal-independance
+20:15:01 ok    atlas-portugal-independance  89.54s  0 alerte(s) d'audit
+20:15:01 début atlas-autriche-hongrie
+20:17:19 ok    atlas-autriche-hongrie  72.16s  0 alerte(s) d'audit
+20:17:19 début atlas-espagne-langues
+20:19:20 ok    atlas-espagne-langues  70.43s  0 alerte(s) d'audit
+20:19:20 début atlas-irlande-partition
+20:21:13 ok    atlas-irlande-partition  74.30s  1 alerte(s) d'audit
+20:21:13 début atlas-france-langue
+20:22:34 ok    atlas-france-langue  78.53s  1 alerte(s) d'audit
+20:22:34 début atlas-allemagne-1871
+20:24:24 ok    atlas-allemagne-1871  90.84s  0 alerte(s) d'audit
+20:24:24 lot terminé
+20:39:27 début atlas-italie-1861
+20:41:56 ok    atlas-italie-1861  82.91s  0 alerte(s) d'audit
+20:41:56 lot terminé
+21:31:01 début atlas-royaume-uni
+21:37:50 ok    atlas-royaume-uni  89.47s  2 alerte(s) d'audit
+21:37:50 début atlas-pologne
+21:44:00 ok    atlas-pologne  88.51s  0 alerte(s) d'audit
+21:44:00 début atlas-grece
+21:48:00 ok    atlas-grece  69.40s  0 alerte(s) d'audit
+21:48:01 début atlas-finlande
+21:52:53 ok    atlas-finlande  69.80s  2 alerte(s) d'audit
+21:52:53 début atlas-pays-baltes
+21:58:12 ok    atlas-pays-baltes  78.10s  0 alerte(s) d'audit
+21:58:12 début atlas-roumanie
+22:02:45 ok    atlas-roumanie  71.06s  1 alerte(s) d'audit
+22:02:45 début atlas-balkans-yougoslavie
+22:08:56 ok    atlas-balkans-yougoslavie  88.96s  0 alerte(s) d'audit
+22:08:56 début atlas-islande
+22:18:03 ok    atlas-islande  82.43s  2 alerte(s) d'audit
+22:18:03 début atlas-malte
+22:24:57 ok    atlas-malte  83.83s  0 alerte(s) d'audit
+22:24:57 début atlas-micro-etats
+22:35:36 ok    atlas-micro-etats  89.43s  3 alerte(s) d'audit
+22:35:36 lot terminé
+22:46:25 début atlas-royaume-uni
+22:50:23 ok    atlas-royaume-uni  94.40s  1 alerte(s) d'audit
+22:50:23 début atlas-pologne
+22:53:18 ok    atlas-pologne  72.26s  2 alerte(s) d'audit
+22:53:18 début atlas-grece
+22:55:22 ok    atlas-grece  72.16s  0 alerte(s) d'audit
+22:55:22 début atlas-finlande
+22:57:50 ok    atlas-finlande  79.20s  0 alerte(s) d'audit
+22:57:50 lot terminé
+22:57:53 début atlas-pays-baltes
+22:58:11 début atlas-malte
+23:02:54 ok    atlas-pays-baltes  79.13s  0 alerte(s) d'audit
+23:02:54 début atlas-roumanie
+23:06:15 ok    atlas-roumanie  76.50s  0 alerte(s) d'audit
+23:06:15 début atlas-balkans-yougoslavie
+23:07:21 ok    atlas-malte  90.27s  1 alerte(s) d'audit
+23:07:21 début atlas-micro-etats
+23:09:32 ok    atlas-balkans-yougoslavie  90.90s  0 alerte(s) d'audit
+23:09:32 début atlas-islande
+23:13:15 ok    atlas-islande  75.13s  1 alerte(s) d'audit
+23:13:15 lot terminé
+23:13:28 ok    atlas-micro-etats  93.80s  1 alerte(s) d'audit
+23:13:28 lot terminé
+11:33:03 début atlas-suisse-4-langues
+11:33:23 début atlas-suisse-4-langues
+11:37:49 début atlas-suisse-4-langues
+11:45:05 ok    atlas-suisse-4-langues  83.67s  3 alerte(s) d'audit
+11:45:05 début atlas-belgique-3-langues
+11:49:31 ok    atlas-belgique-3-langues  101.5s  2 alerte(s) d'audit
+11:49:31 début atlas-italie-1861
+11:53:22 ok    atlas-italie-1861  86.60s  3 alerte(s) d'audit
+11:53:22 début atlas-pays-bas-sous-la-mer
+11:55:45 ok    atlas-pays-bas-sous-la-mer  82.78s  3 alerte(s) d'audit
+11:55:45 début atlas-portugal-independance
+11:58:46 ok    atlas-portugal-independance  91.93s  2 alerte(s) d'audit
+11:58:46 début atlas-autriche-hongrie
+12:03:22 ok    atlas-autriche-hongrie  92.36s  2 alerte(s) d'audit
+12:03:22 début atlas-scandinavie-kalmar
+12:05:27 ok    atlas-scandinavie-kalmar  69.40s  1 alerte(s) d'audit
+12:05:27 début atlas-espagne-langues
+12:07:09 ok    atlas-espagne-langues  77.90s  3 alerte(s) d'audit
+12:07:09 début atlas-irlande-partition
+12:10:23 ok    atlas-irlande-partition  77.77s  1 alerte(s) d'audit
+12:10:23 début atlas-france-langue
+12:13:50 ok    atlas-france-langue  86.83s  4 alerte(s) d'audit
+12:13:50 début atlas-allemagne-1871
+12:20:01 ok    atlas-allemagne-1871  97.20s  1 alerte(s) d'audit
+12:20:02 début atlas-luxembourg-v5
+12:21:48 début atlas-suisse-4-langues
+12:26:31 ok    atlas-suisse-4-langues  84.77s  4 alerte(s) d'audit
+12:26:31 lot terminé
+12:26:31 début atlas-espagne-langues
+12:29:06 ok    atlas-espagne-langues  80.48s  2 alerte(s) d'audit
+12:29:06 lot terminé
+12:29:06 début atlas-france-langue
+12:35:20 ok    atlas-france-langue  82.23s  1 alerte(s) d'audit
+12:35:20 lot terminé
+12:35:20 début atlas-irlande-partition
+12:40:19 ok    atlas-irlande-partition  82.46s  1 alerte(s) d'audit
+12:40:19 lot terminé
+12:40:20 début atlas-autriche-hongrie
+12:45:35 ok    atlas-autriche-hongrie  84.07s  2 alerte(s) d'audit
+12:45:35 lot terminé
+12:45:36 début atlas-portugal-independance
+12:53:26 ok    atlas-portugal-independance  94.20s  3 alerte(s) d'audit
+12:53:26 lot terminé
+12:53:26 début atlas-scandinavie-kalmar
+12:58:08 ok    atlas-scandinavie-kalmar  75.17s  1 alerte(s) d'audit
+12:58:08 lot terminé
+12:58:08 début atlas-italie-1861
+13:03:26 ok    atlas-italie-1861  85.53s  3 alerte(s) d'audit
+13:03:26 lot terminé
+13:03:26 début atlas-belgique-3-langues
+13:07:50 ok    atlas-belgique-3-langues  76.13s  1 alerte(s) d'audit
+13:07:50 lot terminé
+13:07:50 début atlas-pays-bas-sous-la-mer
+13:11:21 ok    atlas-pays-bas-sous-la-mer  83.18s  2 alerte(s) d'audit
+13:11:21 lot terminé
+13:11:22 début atlas-allemagne-1871
+13:13:58 ok    atlas-allemagne-1871  97.20s  1 alerte(s) d'audit
+13:13:58 lot terminé
+13:13:58 début atlas-belgique-3-langues
+13:16:40 ok    atlas-belgique-3-langues  76.13s  1 alerte(s) d'audit
+13:16:40 lot terminé
+13:16:41 début atlas-suisse-4-langues
+13:20:29 ok    atlas-suisse-4-langues  84.40s  2 alerte(s) d'audit
+13:20:29 lot terminé
+13:20:29 début atlas-italie-1861
+13:24:04 ok    atlas-italie-1861  85.70s  1 alerte(s) d'audit
+13:24:04 lot terminé
+13:24:04 début atlas-portugal-independance
+13:27:26 ok    atlas-portugal-independance  93.63s  2 alerte(s) d'audit
+13:27:26 lot terminé
+13:27:26 début atlas-luxembourg-v5
+13:30:30 ok    atlas-luxembourg-v5  79.94s  2 alerte(s) d'audit
+13:30:30 lot terminé
+13:30:30 début atlas-suisse-4-langues
+13:34:23 ok    atlas-suisse-4-langues  84.40s  3 alerte(s) d'audit
+13:34:23 lot terminé
+13:34:23 début atlas-belgique-3-langues
+13:37:07 ok    atlas-belgique-3-langues  76.13s  2 alerte(s) d'audit
+13:37:07 lot terminé
+13:37:07 début atlas-italie-1861
+13:40:01 ok    atlas-italie-1861  85.70s  2 alerte(s) d'audit
+13:40:01 lot terminé
+13:40:02 début atlas-pays-bas-sous-la-mer
+13:43:23 ok    atlas-pays-bas-sous-la-mer  83.18s  3 alerte(s) d'audit
+13:43:23 lot terminé
+13:43:23 début atlas-portugal-independance
+13:46:23 ok    atlas-portugal-independance  93.63s  3 alerte(s) d'audit
+13:46:23 lot terminé
+13:46:24 début atlas-autriche-hongrie
+13:48:58 ok    atlas-autriche-hongrie  84.07s  3 alerte(s) d'audit
+13:48:58 lot terminé
+13:48:58 début atlas-scandinavie-kalmar
+13:51:37 ok    atlas-scandinavie-kalmar  75.17s  2 alerte(s) d'audit
+13:51:37 lot terminé
+13:51:37 début atlas-espagne-langues
+13:53:47 ok    atlas-espagne-langues  80.48s  3 alerte(s) d'audit
+13:53:47 lot terminé
+13:53:47 début atlas-irlande-partition
+13:56:51 ok    atlas-irlande-partition  82.46s  2 alerte(s) d'audit
+13:56:51 lot terminé
+13:56:51 début atlas-france-langue
+13:59:38 ok    atlas-france-langue  82.23s  2 alerte(s) d'audit
+13:59:38 lot terminé
+13:59:38 début atlas-royaume-uni
+14:03:49 ok    atlas-royaume-uni  97.43s  5 alerte(s) d'audit
+14:03:49 lot terminé
+14:03:50 début atlas-pologne
+14:07:13 ok    atlas-pologne  74.66s  5 alerte(s) d'audit
+14:07:13 lot terminé
+14:07:13 début atlas-grece
+14:11:27 ok    atlas-grece  74.06s  3 alerte(s) d'audit
+14:11:27 lot terminé
+14:11:27 début atlas-allemagne-1871
+14:14:01 ok    atlas-allemagne-1871  97.20s  2 alerte(s) d'audit
+14:14:01 lot terminé
+14:14:01 début atlas-luxembourg-v5
+14:16:50 ok    atlas-luxembourg-v5  79.94s  3 alerte(s) d'audit
+14:16:50 lot terminé
+14:16:50 début atlas-finlande
+14:20:10 ok    atlas-finlande  78.26s  2 alerte(s) d'audit
+14:20:10 lot terminé
+14:20:10 début atlas-pays-baltes
+14:22:32 ok    atlas-pays-baltes  86.26s  2 alerte(s) d'audit
+14:22:32 lot terminé
+14:22:32 début atlas-roumanie
+14:25:11 ok    atlas-roumanie  78.46s  2 alerte(s) d'audit
+14:25:11 lot terminé
+14:25:11 début atlas-balkans-yougoslavie
+14:28:01 ok    atlas-balkans-yougoslavie  92.87s  2 alerte(s) d'audit
+14:28:01 lot terminé
+14:28:01 début atlas-islande
+14:32:14 ok    atlas-islande  79.96s  3 alerte(s) d'audit
+14:32:14 lot terminé
+14:32:14 début atlas-malte
+14:39:40 ok    atlas-malte  92.06s  3 alerte(s) d'audit
+14:39:40 lot terminé
+14:39:40 début atlas-royaume-uni
+14:47:18 ok    atlas-royaume-uni  83.50s  3 alerte(s) d'audit
+14:47:18 lot terminé
+14:47:18 début atlas-pays-baltes
+14:54:29 ok    atlas-pays-baltes  95.48s  4 alerte(s) d'audit
+14:54:29 lot terminé
+14:54:29 début atlas-balkans-yougoslavie
+15:00:29 ok    atlas-balkans-yougoslavie  88.73s  2 alerte(s) d'audit
+15:00:29 lot terminé
+15:00:29 début atlas-islande
+15:08:01 ok    atlas-islande  85.34s  2 alerte(s) d'audit
+15:08:01 lot terminé
+15:08:02 début atlas-roumanie
+15:11:39 ok    atlas-roumanie  79.64s  4 alerte(s) d'audit
+15:11:39 lot terminé
+15:11:39 début atlas-finlande
+15:15:23 ok    atlas-finlande  80.10s  2 alerte(s) d'audit
+15:15:23 lot terminé
+15:15:24 début atlas-grece
+15:19:36 ok    atlas-grece  75.93s  4 alerte(s) d'audit
+15:19:36 lot terminé
+15:19:36 début atlas-luxembourg-v5
+15:22:27 ok    atlas-luxembourg-v5  80.36s  2 alerte(s) d'audit
+15:22:27 lot terminé
+15:22:27 début atlas-pologne
+15:27:33 ok    atlas-pologne  89.77s  6 alerte(s) d'audit
+15:27:33 lot terminé
+15:27:33 début atlas-allemagne-1871
+15:32:35 ok    atlas-allemagne-1871  88.23s  2 alerte(s) d'audit
+15:32:35 lot terminé
+15:32:35 début atlas-roumanie
+15:34:51 ok    atlas-roumanie  79.64s  3 alerte(s) d'audit
+15:34:51 lot terminé
+15:34:51 début atlas-pays-baltes
+15:37:26 ok    atlas-pays-baltes  95.48s  4 alerte(s) d'audit
+15:37:26 lot terminé
+15:37:26 début atlas-grece
+15:40:05 ok    atlas-grece  75.93s  3 alerte(s) d'audit
+15:40:05 lot terminé
+15:40:05 début atlas-pologne
+15:42:38 ok    atlas-pologne  89.77s  2 alerte(s) d'audit
+15:42:38 lot terminé
+15:42:38 début atlas-malte
+15:47:57 ok    atlas-malte  92.06s  3 alerte(s) d'audit
+15:47:57 lot terminé
+15:47:57 début atlas-pays-baltes
+15:49:54 ok    atlas-pays-baltes  95.48s  3 alerte(s) d'audit
+15:49:54 lot terminé
+15:49:54 début atlas-micro-etats
+15:56:00 ok    atlas-micro-etats  96.44s  3 alerte(s) d'audit
+15:56:00 lot terminé
+15:56:00 début atlas-hongrie
+16:03:52 ok    atlas-hongrie  85.46s  2 alerte(s) d'audit
+16:03:52 lot terminé
+16:03:53 début atlas-tchequie
+16:09:41 ok    atlas-tchequie  87.46s  3 alerte(s) d'audit
+16:09:41 lot terminé
+16:09:41 début atlas-bulgarie
+16:17:18 ok    atlas-bulgarie  79.40s  2 alerte(s) d'audit
+16:17:18 lot terminé
+16:17:18 début atlas-istanbul
+16:23:08 ok    atlas-istanbul  80.23s  2 alerte(s) d'audit
+16:23:08 lot terminé
+16:23:09 début atlas-chypre
+16:28:38 ok    atlas-chypre  85.46s  2 alerte(s) d'audit
+16:28:38 lot terminé
+16:28:38 début atlas-danemark
+16:37:28 ok    atlas-danemark  79.83s  3 alerte(s) d'audit
+16:37:28 lot terminé
+16:37:29 début atlas-norvege
+16:46:53 ok    atlas-norvege  90.76s  4 alerte(s) d'audit
+16:46:53 lot terminé
+16:46:53 début atlas-catalogne
+16:54:18 ok    atlas-catalogne  87.40s  2 alerte(s) d'audit
+16:54:18 lot terminé
+16:54:18 début atlas-pays-basque
+17:02:31 ok    atlas-pays-basque  80.20s  2 alerte(s) d'audit
+17:02:31 lot terminé
+17:02:32 début atlas-chypre
+17:05:07 ok    atlas-chypre  86.96s  3 alerte(s) d'audit
+17:05:07 lot terminé
+17:05:07 début atlas-catalogne
+17:09:53 ok    atlas-catalogne  94.14s  2 alerte(s) d'audit
+17:09:53 lot terminé
+17:09:53 début atlas-norvege
+17:15:15 ok    atlas-norvege  93.63s  2 alerte(s) d'audit
+17:15:15 lot terminé
+17:15:15 début atlas-danemark
+17:32:53 ok    atlas-danemark  76.27s  2 alerte(s) d'audit
+17:32:53 lot terminé
+17:32:53 début atlas-bulgarie
+17:36:55 ok    atlas-bulgarie  83.17s  2 alerte(s) d'audit
+17:36:55 lot terminé
+17:36:55 début atlas-istanbul
+17:42:13 ok    atlas-istanbul  81.33s  2 alerte(s) d'audit
+17:42:13 lot terminé
+17:42:13 début atlas-malte
+17:50:52 ok    atlas-malte  82.76s  4 alerte(s) d'audit
+17:50:52 lot terminé
+17:50:52 début atlas-tchequie
+17:54:14 ok    atlas-tchequie  93.16s  2 alerte(s) d'audit
+17:54:14 lot terminé
+17:54:14 début atlas-hongrie
+17:57:03 ok    atlas-hongrie  86.10s  2 alerte(s) d'audit
+17:57:03 lot terminé
+17:57:03 début atlas-micro-etats
+18:06:12 ok    atlas-micro-etats  88.43s  5 alerte(s) d'audit
+18:06:12 lot terminé
+18:06:13 début atlas-malte
+18:11:26 ok    atlas-malte  82.76s  4 alerte(s) d'audit
+18:11:26 lot terminé
+18:11:26 début atlas-chypre
+18:12:56 ok    atlas-chypre  86.96s  3 alerte(s) d'audit
+18:12:56 lot terminé
+18:12:56 début atlas-ecosse
+18:20:16 ok    atlas-ecosse  83.36s  3 alerte(s) d'audit
+18:20:16 lot terminé
+18:20:16 début atlas-malte
+18:25:33 ok    atlas-malte  82.76s  4 alerte(s) d'audit
+18:25:33 lot terminé
+18:25:33 début atlas-micro-etats
+18:31:42 ok    atlas-micro-etats  88.43s  3 alerte(s) d'audit
+18:31:42 lot terminé
+18:31:42 début atlas-bulgarie
+18:33:28 ok    atlas-bulgarie  83.17s  2 alerte(s) d'audit
+18:33:28 lot terminé
+18:33:28 début atlas-istanbul
+18:37:13 ok    atlas-istanbul  81.33s  2 alerte(s) d'audit
+18:37:13 lot terminé
+18:37:13 début atlas-corse
+18:44:42 ok    atlas-corse  85.14s  3 alerte(s) d'audit
+18:44:42 lot terminé
+18:44:42 début atlas-malte
+18:49:56 ok    atlas-malte  82.76s  4 alerte(s) d'audit
+18:49:56 lot terminé
+18:49:56 début atlas-bretagne
+18:56:02 ok    atlas-bretagne  83.01s  5 alerte(s) d'audit
+18:56:02 lot terminé
+18:56:03 début atlas-malte
+19:01:47 ok    atlas-malte  82.76s  3 alerte(s) d'audit
+19:01:47 lot terminé
+19:01:47 début atlas-alsace-lorraine
+19:08:01 ok    atlas-alsace-lorraine  78.87s  2 alerte(s) d'audit
+19:08:01 lot terminé
+19:08:02 début atlas-pays-basque
+19:09:56 ok    atlas-pays-basque  80.20s  2 alerte(s) d'audit
+19:09:56 lot terminé
+19:09:56 début atlas-savoie-nice
+19:17:01 ok    atlas-savoie-nice  82.80s  2 alerte(s) d'audit
+19:17:01 lot terminé
+19:17:01 début atlas-alsace-lorraine
+19:21:34 ok    atlas-alsace-lorraine  83.61s  2 alerte(s) d'audit
+19:21:34 lot terminé
+19:21:34 début atlas-pays-basque
+19:25:59 ok    atlas-pays-basque  84.76s  3 alerte(s) d'audit
+19:25:59 lot terminé
+19:26:00 début atlas-savoie-nice
+19:29:50 ok    atlas-savoie-nice  87.86s  2 alerte(s) d'audit
+19:29:50 lot terminé
+19:29:50 début atlas-bretagne
+19:32:59 ok    atlas-bretagne  88.46s  4 alerte(s) d'audit
+19:32:59 lot terminé
+19:33:00 début atlas-corse
+19:36:45 ok    atlas-corse  84.70s  3 alerte(s) d'audit
+19:36:45 lot terminé
+19:36:45 début atlas-ecosse
+19:40:51 ok    atlas-ecosse  85.20s  2 alerte(s) d'audit
+19:40:51 lot terminé
+19:40:51 début atlas-tyrol-du-sud
+19:47:13 ok    atlas-tyrol-du-sud  85.27s  2 alerte(s) d'audit
+19:47:13 lot terminé
+19:47:14 début atlas-bretagne
+19:49:28 ok    atlas-bretagne  88.46s  2 alerte(s) d'audit
+19:49:28 lot terminé
+19:49:29 début atlas-albanie
+19:57:32 ok    atlas-albanie  82.00s  2 alerte(s) d'audit
+19:57:32 lot terminé
+19:57:32 début atlas-bosnie
+20:03:00 ok    atlas-bosnie  81.14s  3 alerte(s) d'audit
+20:03:00 lot terminé
+20:03:01 début atlas-tyrol-du-sud
+20:07:05 ok    atlas-tyrol-du-sud  93.53s  2 alerte(s) d'audit
+20:07:05 lot terminé
+20:07:05 début atlas-bosnie
+20:07:05 ok    atlas-bosnie  81.14s  audit ?
+20:07:05 lot terminé
+20:07:05 début atlas-albanie
+20:11:48 ok    atlas-albanie  89.13s  2 alerte(s) d'audit
+20:11:48 lot terminé
+20:11:48 début atlas-slovenie
+20:17:41 ok    atlas-slovenie  81.96s  2 alerte(s) d'audit
+20:17:41 lot terminé
+20:17:41 début atlas-moldavie
+20:23:32 ok    atlas-moldavie  84.93s  3 alerte(s) d'audit
+20:23:32 lot terminé
+20:23:33 début atlas-bosnie
+20:28:33 ok    atlas-bosnie  90.76s  2 alerte(s) d'audit
+20:28:33 lot terminé
+20:28:33 début atlas-slovenie
+20:36:49 ok    atlas-slovenie  88.83s  3 alerte(s) d'audit
+20:36:49 lot terminé
+20:36:50 début atlas-charlemagne-verdun
+20:45:44 ok    atlas-charlemagne-verdun  74.53s  4 alerte(s) d'audit
+20:45:44 lot terminé
+20:45:44 début atlas-moldavie
+20:49:43 ok    atlas-moldavie  91.37s  2 alerte(s) d'audit
+20:49:43 lot terminé
+20:49:43 début atlas-westphalie
+20:54:59 ok    atlas-westphalie  84.03s  4 alerte(s) d'audit
+20:54:59 lot terminé
+20:54:59 début atlas-charlemagne-verdun
+20:58:01 ok    atlas-charlemagne-verdun  77.64s  4 alerte(s) d'audit
+20:58:01 lot terminé
+20:58:01 début atlas-suisse-4-langues
+21:01:28 ok    atlas-suisse-4-langues  85.06s  1 alerte(s) d'audit
+21:01:28 lot terminé
+21:01:29 début atlas-westphalie
+21:06:56 ok    atlas-westphalie  88.50s  1 alerte(s) d'audit
+21:06:56 lot terminé
+21:06:56 début atlas-charlemagne-verdun
+21:08:30 ok    atlas-charlemagne-verdun  77.64s  3 alerte(s) d'audit
+21:08:30 lot terminé
+21:08:30 début atlas-congres-de-vienne
+21:13:09 ok    atlas-congres-de-vienne  82.80s  1 alerte(s) d'audit
+21:13:09 lot terminé
+21:13:09 début atlas-rideau-de-fer
+21:20:58 ok    atlas-rideau-de-fer  82.31s  1 alerte(s) d'audit
+21:20:58 lot terminé
+21:20:58 début atlas-union-europeenne
+21:27:49 ok    atlas-union-europeenne  87.30s  1 alerte(s) d'audit
+21:27:49 lot terminé
+21:27:49 début atlas-danube
+21:36:52 ok    atlas-danube  91.17s  1 alerte(s) d'audit
+21:36:52 lot terminé
+22:06:34 début atlas-charlemagne-verdun
+22:08:12 ok    atlas-charlemagne-verdun  77.64s  1 alerte(s) d'audit
+22:08:12 lot terminé
+22:08:12 début atlas-danube
+22:14:10 ok    atlas-danube  98.10s  1 alerte(s) d'audit
+22:14:10 lot terminé
+22:14:10 début atlas-union-europeenne
+22:19:55 ok    atlas-union-europeenne  92.40s  1 alerte(s) d'audit
+22:19:55 lot terminé
+22:19:55 début atlas-rideau-de-fer
+22:27:11 ok    atlas-rideau-de-fer  89.73s  1 alerte(s) d'audit
+22:27:11 lot terminé
+22:27:11 début atlas-congres-de-vienne
+22:33:21 ok    atlas-congres-de-vienne  86.96s  2 alerte(s) d'audit
+22:33:21 lot terminé
+22:38:22 début traites-03-normandie
+22:49:58 ok    traites-03-normandie  72.00s  1 alerte(s) d'audit
+22:49:58 lot terminé
+22:49:58 début traites-34-trianon
+22:59:14 ok    traites-34-trianon  78.43s  1 alerte(s) d'audit
+22:59:14 lot terminé
+22:59:15 début traites-14-gibraltar
+23:15:27 ok    traites-14-gibraltar  81.00s  1 alerte(s) d'audit
+23:15:27 lot terminé
+23:15:28 début traites-11-westphalie
+23:33:47 ok    traites-11-westphalie  75.63s  1 alerte(s) d'audit
+23:33:47 lot terminé
+23:33:51 début traites-03-normandie
+23:51:02 ok    traites-03-normandie  72.53s  1 alerte(s) d'audit
+23:51:02 lot terminé
+23:51:05 début traites-34-trianon
+00:03:27 ok    traites-34-trianon  70.94s  2 alerte(s) d'audit
+00:03:27 lot terminé
+00:03:28 début traites-03-normandie
+00:06:24 ok    traites-03-normandie  72.50s  1 alerte(s) d'audit
+00:06:24 lot terminé
+00:06:24 début traites-14-gibraltar
+00:17:02 ok    traites-14-gibraltar  83.56s  5 alerte(s) d'audit
+00:17:02 lot terminé
+00:17:02 début geographie-14-mont-blanc
+00:23:15 ok    geographie-14-mont-blanc  79.87s  1 alerte(s) d'audit
+00:23:15 lot terminé
+00:23:16 début geographie-26-mediterranee
+00:30:36 ok    geographie-26-mediterranee  77.84s  1 alerte(s) d'audit
+00:30:36 lot terminé
+00:30:36 début empires-23-venise
+00:40:04 ok    empires-23-venise  79.84s  2 alerte(s) d'audit
+00:40:04 lot terminé
+00:40:04 début empires-26-mongols
+00:47:42 ok    empires-26-mongols  71.76s  1 alerte(s) d'audit
+00:47:42 lot terminé
+00:47:43 début empires-06-empire-romain
+00:58:03 ok    empires-06-empire-romain  79.93s  1 alerte(s) d'audit
+00:58:03 lot terminé
+00:58:03 début traites-11-westphalie
+01:01:34 ok    traites-11-westphalie  72.97s  1 alerte(s) d'audit
+01:01:34 lot terminé
+01:01:35 début traites-48-tchecoslovaquie
+01:08:48 ok    traites-48-tchecoslovaquie  74.60s  2 alerte(s) d'audit
+01:08:48 lot terminé
+01:08:48 début traites-13-pyrenees
+01:19:37 ok    traites-13-pyrenees  75.83s  1 alerte(s) d'audit
+01:19:37 lot terminé
+01:19:37 début traites-42-berlin-1945
+01:29:46 ok    traites-42-berlin-1945  75.34s  1 alerte(s) d'audit
+01:29:46 lot terminé
+01:29:46 début traites-12-roskilde
+01:40:18 ok    traites-12-roskilde  76.90s  1 alerte(s) d'audit
+01:40:18 lot terminé
+01:40:18 début traites-05-troyes
+01:47:34 ok    traites-05-troyes  74.36s  1 alerte(s) d'audit
+01:47:34 lot terminé
+08:39:08 début traites-03-normandie
+08:45:50 ok    traites-03-normandie  72.07s  2 alerte(s) d'audit
+08:45:50 lot terminé
+08:45:51 début empires-05-carthage
+08:54:50 ok    empires-05-carthage  76.63s  2 alerte(s) d'audit
+08:54:50 lot terminé
+08:54:50 début empires-06-empire-romain
+08:56:29 ok    empires-06-empire-romain  79.93s  audit ?
+08:56:29 lot terminé
+08:56:30 début traites-03-normandie
+08:58:27 ok    traites-03-normandie  72.07s  1 alerte(s) d'audit
+08:58:27 lot terminé
+08:58:29 début traites-34-trianon
+09:02:34 ok    traites-34-trianon  76.86s  1 alerte(s) d'audit
+09:02:34 lot terminé
+09:02:34 début traites-13-pyrenees
+09:12:01 ok    traites-13-pyrenees  78.54s  2 alerte(s) d'audit
+09:12:01 lot terminé
+09:12:01 début traites-48-tchecoslovaquie
+09:17:36 ok    traites-48-tchecoslovaquie  77.14s  6 alerte(s) d'audit
+09:17:36 lot terminé
+09:17:36 début traites-34-trianon
+09:26:13 ok    traites-34-trianon  76.60s  2 alerte(s) d'audit
+09:26:13 lot terminé
+09:26:13 début traites-13-pyrenees
+09:31:58 ok    traites-13-pyrenees  78.60s  1 alerte(s) d'audit
+09:31:58 lot terminé
+09:31:59 début traites-34-trianon
+09:35:21 ok    traites-34-trianon  76.60s  1 alerte(s) d'audit
+09:35:21 lot terminé
+09:35:21 début traites-14-gibraltar
+09:49:50 ok    traites-14-gibraltar  83.26s  1 alerte(s) d'audit
+09:49:50 lot terminé
+09:49:50 début geographie-01-danube
+09:54:19 ok    geographie-01-danube  76.93s  1 alerte(s) d'audit
+09:54:19 lot terminé
+09:54:19 début geographie-14-mont-blanc
+09:57:41 ok    geographie-14-mont-blanc  76.94s  1 alerte(s) d'audit
+09:57:41 lot terminé
+09:57:41 début geographie-26-mediterranee
+10:03:59 ok    geographie-26-mediterranee  83.63s  1 alerte(s) d'audit
+10:03:59 lot terminé
+16:29:43 début atlas-jura
+16:37:45 ok    atlas-jura  81.43s  2 alerte(s) d'audit
+16:37:45 lot terminé
+16:57:22 début atlas-jura
+17:00:12 ok    atlas-jura  81.43s  2 alerte(s) d'audit
+17:00:12 lot terminé
+17:26:50 début atlas-jura
+17:28:26 ok    atlas-jura  81.43s  5 alerte(s) d'audit
+17:28:26 lot terminé
+19:05:17 début atlas-jura
+19:06:48 ok    atlas-jura  81.43s  2 alerte(s) d'audit
+19:06:48 lot terminé

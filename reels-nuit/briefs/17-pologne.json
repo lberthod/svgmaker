@@ -1,0 +1,1304 @@
+{
+ "format": "atlas",
+ "id": "atlas-pologne",
+ "base": {
+  "countries": [
+   "Poland",
+   "Germany",
+   "Lithuania",
+   "Belarus",
+   "Ukraine",
+   "Czechia",
+   "Slovakia"
+  ]
+ },
+ "terrain": [
+  {
+   "box": [
+    -14,
+    27,
+    40,
+    76
+   ],
+   "px": 3000,
+   "z": 6
+  },
+  {
+   "box": [
+    7.6,
+    45.6,
+    34.4,
+    58.4
+   ],
+   "px": 2800,
+   "z": 8
+  }
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "text": "Un pays rayé de la carte pendant 123 ans",
+   "sub": "La Pologne",
+   "focus": {
+    "box": [
+     8,
+     47.5,
+     28,
+     57
+    ]
+   },
+   "highlight": {
+    "countries": [
+     "Poland"
+    ],
+    "color": "#FFD83C",
+    "keep": false,
+    "at": 0.7
+   },
+   "pills": [
+    {
+     "at": [
+      21.01,
+      52.23
+     ],
+     "title": "Varsovie",
+     "side": "r",
+     "when": {
+      "line": 1,
+      "word": "Pourtant"
+     }
+    }
+   ],
+   "say": [
+    "Pendant 123 ans, la Pologne n’a plus existé comme État indépendant sur aucune carte d’Europe.",
+    "Pourtant, elle est revenue."
+   ],
+   "beacon": [
+    {
+     "at": [
+      21.01,
+      52.23
+     ],
+     "when": 3.0
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1569",
+   "text": "Un immense royaume",
+   "focus": {
+    "box": [
+     12,
+     46,
+     34,
+     57.5
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Poland"
+     ],
+     "regions": [
+      {
+       "c": "Ukraine",
+       "n": "Volyn"
+      },
+      {
+       "c": "Ukraine",
+       "n": "Rivne"
+      },
+      {
+       "c": "Ukraine",
+       "n": "L'viv"
+      },
+      {
+       "c": "Ukraine",
+       "n": "Ternopil'"
+      },
+      {
+       "c": "Ukraine",
+       "n": "Khmel'nyts'kyy"
+      },
+      {
+       "c": "Ukraine",
+       "n": "Zhytomyr"
+      },
+      {
+       "c": "Ukraine",
+       "n": "Vinnytsya"
+      },
+      {
+       "c": "Ukraine",
+       "n": "Ivano-Frankivs'k"
+      }
+     ],
+     "color": "#FFD83C",
+     "keep": false,
+     "at": 0.5
+    },
+    {
+     "countries": [
+      "Lithuania",
+      "Belarus"
+     ],
+     "color": "#E8A33C",
+     "keep": false,
+     "at": {
+      "line": 0,
+      "word": "Lituanie",
+      "d": -0.3
+     }
+    }
+   ],
+   "people": [
+    {
+     "who": "roi",
+     "at": [
+      21.01,
+      52.23
+     ],
+     "size": 240,
+     "say": "Une seule couronne !",
+     "label": {
+      "title": "Pologne-Lituanie",
+      "sub": "1569"
+     },
+     "when": {
+      "line": 0,
+      "word": "Lituanie",
+      "d": 0.8
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      22.57,
+      51.25
+     ],
+     "title": "Lublin",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "Lublin",
+      "d": 0.0
+     }
+    },
+    {
+     "at": [
+      25.28,
+      54.69
+     ],
+     "title": "Vilnius",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "Lituanie",
+      "d": 0.2
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      21.01,
+      52.23
+     ],
+     "when": 0.4
+    }
+   ],
+   "say": [
+    "En 1569, l’union de Lublin réunit la Pologne et la Lituanie en un seul État immense."
+   ],
+   "labels": [
+    {
+     "text": "Grand-Duché de Lituanie",
+     "at": [
+      27,
+      56.6
+     ],
+     "size": 34,
+     "when": {
+      "line": 0,
+      "word": "Lituanie",
+      "d": 0.4
+     }
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1772",
+   "text": "Trois voisins se servent",
+   "focus": {
+    "box": [
+     11,
+     46.4,
+     33,
+     58
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Poland"
+     ],
+     "color": "#FFD83C",
+     "keep": false,
+     "at": 0.3
+    },
+    {
+     "regions": [
+      {
+       "c": "Belarus",
+       "n": "Vitebsk"
+      },
+      {
+       "c": "Belarus",
+       "n": "Mogilev"
+      }
+     ],
+     "color": "#E8503A",
+     "keep": false,
+     "at": {
+      "line": 0,
+      "word": "Russie",
+      "d": 0.2
+     }
+    },
+    {
+     "regions": [
+      {
+       "c": "Poland",
+       "n": "Pomeranian"
+      },
+      {
+       "c": "Poland",
+       "n": "Warmian-Masurian"
+      }
+     ],
+     "color": "#C9D6EE",
+     "keep": false,
+     "at": {
+      "line": 0,
+      "word": "Prusse",
+      "d": 0.2
+     }
+    },
+    {
+     "regions": [
+      {
+       "c": "Poland",
+       "n": "Lesser Poland"
+      },
+      {
+       "c": "Poland",
+       "n": "Subcarpathian"
+      },
+      {
+       "c": "Ukraine",
+       "n": "L'viv"
+      }
+     ],
+     "color": "#4FA3E0",
+     "keep": false,
+     "at": {
+      "line": 0,
+      "word": "Autriche",
+      "d": 0.2
+     }
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      29.5,
+      55.5
+     ],
+     "to": [
+      26.5,
+      53.5
+     ],
+     "n": 4,
+     "color": "#E8503A",
+     "at": {
+      "line": 0,
+      "word": "Russie",
+      "d": -0.8
+     },
+     "dur": 2.4
+    },
+    {
+     "from": [
+      14.5,
+      52.5
+     ],
+     "to": [
+      17.5,
+      53.4
+     ],
+     "n": 3,
+     "color": "#C9D6EE",
+     "at": {
+      "line": 0,
+      "word": "Prusse",
+      "d": -0.5
+     },
+     "dur": 2.4
+    },
+    {
+     "from": [
+      16.37,
+      48.21
+     ],
+     "to": [
+      21.2,
+      50.3
+     ],
+     "n": 3,
+     "color": "#4FA3E0",
+     "at": {
+      "line": 0,
+      "word": "Autriche",
+      "d": -0.2
+     },
+     "dur": 2.4
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      21.01,
+      52.23
+     ],
+     "title": "Varsovie",
+     "side": "b",
+     "when": {
+      "line": 1,
+      "word": "perd",
+      "d": -0.3
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Russie",
+     "at": [
+      29.5,
+      56.8
+     ],
+     "size": 42,
+     "when": {
+      "line": 0,
+      "word": "Russie",
+      "d": 0.8
+     }
+    },
+    {
+     "text": "Prusse",
+     "at": [
+      12.2,
+      55.3
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "word": "Prusse",
+      "d": 1.0
+     }
+    },
+    {
+     "text": "Autriche",
+     "at": [
+      19,
+      47.4
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "word": "Autriche",
+      "d": 1.2
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      21.01,
+      52.23
+     ],
+     "when": 0.4
+    }
+   ],
+   "say": [
+    "En 1772, la Russie, la Prusse et l’Autriche se partagent des régions du pays.",
+    "La Pologne perd environ 30 % de son territoire."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1791 – 1793",
+   "text": "Une constitution, puis un deuxième partage",
+   "focus": {
+    "box": [
+     12,
+     47.4,
+     33,
+     57
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Poland"
+     ],
+     "color": "#FFD83C",
+     "keep": false,
+     "at": 0.3
+    },
+    {
+     "regions": [
+      {
+       "c": "Belarus",
+       "n": "Vitebsk"
+      },
+      {
+       "c": "Belarus",
+       "n": "Mogilev"
+      }
+     ],
+     "color": "#E8503A",
+     "keep": false,
+     "at": 0.3
+    },
+    {
+     "regions": [
+      {
+       "c": "Poland",
+       "n": "Pomeranian"
+      },
+      {
+       "c": "Poland",
+       "n": "Warmian-Masurian"
+      }
+     ],
+     "color": "#C9D6EE",
+     "keep": false,
+     "at": 0.3
+    },
+    {
+     "regions": [
+      {
+       "c": "Poland",
+       "n": "Lesser Poland"
+      },
+      {
+       "c": "Poland",
+       "n": "Subcarpathian"
+      },
+      {
+       "c": "Ukraine",
+       "n": "L'viv"
+      }
+     ],
+     "color": "#4FA3E0",
+     "keep": false,
+     "at": 0.3
+    },
+    {
+     "regions": [
+      {
+       "c": "Belarus",
+       "n": "Minsk"
+      },
+      {
+       "c": "Ukraine",
+       "n": "Zhytomyr"
+      },
+      {
+       "c": "Ukraine",
+       "n": "Vinnytsya"
+      },
+      {
+       "c": "Ukraine",
+       "n": "Khmel'nyts'kyy"
+      }
+     ],
+     "color": "#E8503A",
+     "keep": false,
+     "at": {
+      "line": 1,
+      "word": "Russie",
+      "d": 0.2
+     }
+    },
+    {
+     "regions": [
+      {
+       "c": "Poland",
+       "n": "Greater Poland"
+      }
+     ],
+     "color": "#C9D6EE",
+     "keep": false,
+     "at": {
+      "line": 1,
+      "word": "Prusse",
+      "d": 0.2
+     }
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      31,
+      55.5
+     ],
+     "to": [
+      25.5,
+      52.5
+     ],
+     "n": 4,
+     "color": "#E8503A",
+     "at": {
+      "line": 1,
+      "word": "Russie",
+      "d": -1.0
+     },
+     "dur": 2.4
+    },
+    {
+     "from": [
+      14.5,
+      52.5
+     ],
+     "to": [
+      17.2,
+      52.5
+     ],
+     "n": 3,
+     "color": "#C9D6EE",
+     "at": {
+      "line": 1,
+      "word": "Prusse",
+      "d": -1.0
+     },
+     "dur": 2.4
+    }
+   ],
+   "people": [
+    {
+     "who": "roi",
+     "at": [
+      21.0,
+      53.1
+     ],
+     "size": 240,
+     "say": "Une loi commune !",
+     "label": {
+      "title": "Constitution du 3 mai",
+      "sub": "1791"
+     },
+     "when": 0.3
+    }
+   ],
+   "pills": [],
+   "beacon": [
+    {
+     "at": [
+      21.01,
+      52.23
+     ],
+     "when": 0.4
+    }
+   ],
+   "say": [
+    "Le 3 mai 1791, la Pologne adopte la première constitution moderne d’Europe.",
+    "En 1793, la Russie et la Prusse en prennent encore."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1795",
+   "text": "Le dernier partage",
+   "focus": {
+    "box": [
+     11,
+     47.4,
+     33,
+     57.5
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Poland"
+     ],
+     "color": "#8A93A8",
+     "keep": false,
+     "at": {
+      "line": 1,
+      "word": "disparaît",
+      "d": -1.0
+     }
+    },
+    {
+     "countries": [
+      "Lithuania",
+      "Belarus"
+     ],
+     "color": "#8A93A8",
+     "keep": false,
+     "at": {
+      "line": 1,
+      "word": "disparaît",
+      "d": -1.4
+     }
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      31,
+      55.5
+     ],
+     "to": [
+      24.5,
+      53.0
+     ],
+     "n": 4,
+     "color": "#E8503A",
+     "at": {
+      "line": 0,
+      "word": "partage",
+      "d": 0.2
+     },
+     "dur": 2.4
+    },
+    {
+     "from": [
+      13.4,
+      52.52
+     ],
+     "to": [
+      17.0,
+      51.5
+     ],
+     "n": 3,
+     "color": "#C9D6EE",
+     "at": {
+      "line": 0,
+      "word": "partage",
+      "d": 0.4
+     },
+     "dur": 2.4
+    },
+    {
+     "from": [
+      16.37,
+      48.21
+     ],
+     "to": [
+      22.6,
+      49.8
+     ],
+     "n": 3,
+     "color": "#4FA3E0",
+     "at": {
+      "line": 0,
+      "word": "partage",
+      "d": 0.6
+     },
+     "dur": 2.4
+    }
+   ],
+   "people": [
+    {
+     "who": "rebelle",
+     "at": [
+      20.0,
+      50.9
+     ],
+     "size": 180,
+     "say": "Nous nous battrons !",
+     "label": {
+      "title": "Kosciuszko",
+      "sub": "soulèvement de 1794"
+     },
+     "when": 0.3
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      19.94,
+      50.06
+     ],
+     "title": "Cracovie",
+     "side": "l",
+     "when": {
+      "line": 0,
+      "word": "soulèvement",
+      "d": -1.0
+     }
+    },
+    {
+     "at": [
+      21.01,
+      52.23
+     ],
+     "title": "Varsovie",
+     "side": "l",
+     "when": {
+      "line": 1,
+      "word": "disparaît",
+      "d": 0.0
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      21.01,
+      52.23
+     ],
+     "when": 0.4
+    }
+   ],
+   "say": [
+    {
+     "say": "En 1795, après le soulèvement de Kosciouchko, un troisième partage met fin à l’État polonais et lituanien.",
+     "show": "En 1795, après le soulèvement de Kosciuszko, un troisième partage met fin à l’État polonais et lituanien."
+    },
+    "La Pologne disparaît de la carte."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1795 – 1918",
+   "text": "123 ans sans pays",
+   "focus": {
+    "box": [
+     10,
+     47,
+     29,
+     56.5
+    ]
+   },
+   "say": [
+    "Pendant 123 ans, trois empires se partagent la Pologne.",
+    "Mais les Polonais gardent leur langue, leurs livres et leurs chansons."
+   ],
+   "highlight": [
+    {
+     "regions": [
+      {
+       "c": "Poland",
+       "n": "Masovian"
+      },
+      {
+       "c": "Poland",
+       "n": "Lublin"
+      },
+      {
+       "c": "Poland",
+       "n": "Łódź"
+      },
+      {
+       "c": "Poland",
+       "n": "Podlachian"
+      },
+      {
+       "c": "Poland",
+       "n": "Świętokrzyskie"
+      }
+     ],
+     "color": "#E8503A",
+     "keep": false,
+     "at": 0.3
+    },
+    {
+     "regions": [
+      {
+       "c": "Poland",
+       "n": "Greater Poland"
+      },
+      {
+       "c": "Poland",
+       "n": "Pomeranian"
+      },
+      {
+       "c": "Poland",
+       "n": "Lower Silesian"
+      },
+      {
+       "c": "Poland",
+       "n": "West Pomeranian"
+      },
+      {
+       "c": "Poland",
+       "n": "Opole"
+      },
+      {
+       "c": "Poland",
+       "n": "Lubusz"
+      }
+     ],
+     "color": "#C9D6EE",
+     "keep": false,
+     "at": 0.5
+    },
+    {
+     "regions": [
+      {
+       "c": "Poland",
+       "n": "Lesser Poland"
+      },
+      {
+       "c": "Poland",
+       "n": "Subcarpathian"
+      }
+     ],
+     "color": "#4FA3E0",
+     "keep": false,
+     "at": 0.7
+    }
+   ],
+   "labels": [
+    {
+     "text": "Russie",
+     "at": [
+      26.8,
+      54.2
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "word": "empires",
+      "d": 0.3
+     }
+    },
+    {
+     "text": "Prusse",
+     "at": [
+      14.0,
+      53.9
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "word": "empires",
+      "d": 0.7
+     }
+    },
+    {
+     "text": "Autriche",
+     "at": [
+      20.5,
+      49.3
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "word": "empires",
+      "d": 1.1
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      21.01,
+      52.23
+     ],
+     "when": 0.4
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1918",
+   "text": "La Pologne renaît",
+   "focus": {
+    "box": [
+     13,
+     48.4,
+     26,
+     55.6
+    ]
+   },
+   "highlight": {
+    "countries": [
+     "Poland"
+    ],
+    "color": "#FFD83C",
+    "keep": false,
+    "at": 0
+   },
+   "people": [
+    {
+     "who": "soldat",
+     "at": [
+      21.0,
+      53.1
+     ],
+     "size": 240,
+     "say": "Nous sommes libres !",
+     "label": {
+      "title": "Joseph Pilsudski",
+      "sub": "chef de l’État"
+     },
+     "when": {
+      "line": 0,
+      "word": "indépendante",
+      "d": 0.3
+     }
+    }
+   ],
+   "pills": [],
+   "beacon": [
+    {
+     "at": [
+      21.01,
+      52.23
+     ],
+     "when": 0.4
+    }
+   ],
+   "say": [
+    "En novembre 1918, la Pologne redevient indépendante, après la chute des trois empires.",
+    {
+     "say": "Joseph Pilsoudski devient chef de l’État.",
+     "show": "Joseph Pilsudski devient chef de l’État."
+    }
+   ],
+   "labels": []
+  },
+  {
+   "type": "map",
+   "year": "1945",
+   "text": "Un pays qui glisse vers l’ouest",
+   "focus": {
+    "box": [
+     10,
+     47.8,
+     29,
+     56.2
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Poland"
+     ],
+     "color": "#FFD83C",
+     "keep": false,
+     "at": 0.3
+    },
+    {
+     "regions": [
+      {
+       "c": "Ukraine",
+       "n": "L'viv"
+      },
+      {
+       "c": "Belarus",
+       "n": "Grodno"
+      },
+      {
+       "c": "Lithuania",
+       "n": "Vilniaus"
+      },
+      {
+       "c": "Belarus",
+       "n": "Brest"
+      },
+      {
+       "c": "Ukraine",
+       "n": "Volyn"
+      },
+      {
+       "c": "Ukraine",
+       "n": "Rivne"
+      },
+      {
+       "c": "Ukraine",
+       "n": "Ternopil'"
+      }
+     ],
+     "color": "#FF5A36",
+     "keep": false,
+     "at": {
+      "line": 1,
+      "word": "soviétique",
+      "d": -0.6
+     }
+    },
+    {
+     "regions": [
+      {
+       "c": "Poland",
+       "n": "Lower Silesian"
+      },
+      {
+       "c": "Poland",
+       "n": "Opole"
+      },
+      {
+       "c": "Poland",
+       "n": "Lubusz"
+      },
+      {
+       "c": "Poland",
+       "n": "West Pomeranian"
+      },
+      {
+       "c": "Poland",
+       "n": "Warmian-Masurian"
+      },
+      {
+       "c": "Poland",
+       "n": "Pomeranian"
+      }
+     ],
+     "color": "#3E9A63",
+     "keep": false,
+     "at": {
+      "line": 1,
+      "word": "ouest",
+      "d": -0.6
+     }
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      24.03,
+      49.84
+     ],
+     "to": [
+      17.04,
+      51.11
+     ],
+     "n": 4,
+     "color": "#E8A33C",
+     "at": {
+      "line": 1,
+      "word": "ouest",
+      "d": 0.3
+     },
+     "dur": 2.8,
+     "label": "Polonais déplacés"
+    },
+    {
+     "from": [
+      17.04,
+      51.11
+     ],
+     "to": [
+      13.4,
+      52.52
+     ],
+     "n": 3,
+     "color": "#C9D6EE",
+     "at": {
+      "line": 1,
+      "word": "ouest",
+      "d": 0.8
+     },
+     "dur": 2.8,
+     "label": "Allemands déplacés"
+    }
+   ],
+   "art": [
+    {
+     "kind": "bars",
+     "at": {
+      "line": 2,
+      "d": 0.3
+     },
+     "dur": 3.8,
+     "title": "Pologne : 1938 et aujourd’hui",
+     "items": [
+      {
+       "label": "1938",
+       "value": "389 000 km²",
+       "h": 1,
+       "color": "#E8A33C"
+      },
+      {
+       "label": "Aujourd’hui",
+       "value": "313 000 km²",
+       "h": 0.8,
+       "color": "#FFD83C"
+      }
+     ]
+    }
+   ],
+   "labels": [
+    {
+     "text": "URSS",
+     "at": [
+      24.5,
+      49.0
+     ],
+     "size": 38,
+     "when": {
+      "line": 1,
+      "word": "soviétique",
+      "d": 0.9
+     }
+    },
+    {
+     "text": "Allemagne",
+     "at": [
+      12.4,
+      51.6
+     ],
+     "size": 36,
+     "when": {
+      "line": 1,
+      "word": "ouest",
+      "d": 0.0
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      21.01,
+      52.23
+     ],
+     "when": 0.4
+    }
+   ],
+   "say": [
+    "En 1939, la guerre détruit le pays.",
+    "En 1945, l’est passe à l’Union soviétique, et la Pologne reçoit des terres allemandes à l’ouest.",
+    "Elle passe de trois cent quatre-vingt-neuf mille à trois cent treize mille kilomètres carrés, et des millions de personnes quittent leur maison."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1569 – 1945",
+   "text": "Effacée, puis revenue",
+   "focus": {
+    "box": [
+     10,
+     47.2,
+     29,
+     56.5
+    ]
+   },
+   "art": [
+    {
+     "kind": "timeline",
+     "at": {
+      "line": 0,
+      "d": 0.1
+     },
+     "dur": 4.5,
+     "title": "De 1569 à 1945",
+     "items": [
+      {
+       "year": "1569",
+       "text": "Un grand royaume"
+      },
+      {
+       "year": "1795",
+       "text": "Fin de l’État"
+      },
+      {
+       "year": "1918",
+       "text": "Renaissance"
+      },
+      {
+       "year": "1945",
+       "text": "Nouvelles frontières"
+      }
+     ]
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      21.01,
+      52.23
+     ],
+     "title": "Varsovie",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "d": 1.5
+     },
+     "sub": "la capitale"
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      21.01,
+      52.23
+     ],
+     "when": 0.4
+    }
+   ],
+   "say": [
+    "De 1569 à 1945, un royaume, trois partages, une renaissance.",
+    "Effacée en 1795, revenue en 1918."
+   ]
+  },
+  {
+   "type": "final",
+   "text": "Un pays effacé, puis revenu",
+   "sub": "La Pologne",
+   "focus": {
+    "box": [
+     12,
+     48.8,
+     26,
+     55.8
+    ]
+   },
+   "people": [
+    {
+     "who": "soldat",
+     "at": [
+      21.0,
+      53.0
+     ],
+     "size": 200,
+     "say": "On est revenus !",
+     "wave": true,
+     "when": 1.8
+    }
+   ],
+   "say": [
+    "Voilà comment un pays effacé pendant 123 ans a pu renaître, en gardant sa langue.",
+    "Voilà ce que nous disions au tout début :"
+   ],
+   "pills": [
+    {
+     "at": [
+      21.01,
+      52.23
+     ],
+     "title": "Varsovie",
+     "side": "l",
+     "when": 1.2,
+     "sub": "la capitale"
+    }
+   ],
+   "highlight": {
+    "countries": [
+     "Poland"
+    ],
+    "color": "#FFD83C",
+    "keep": false,
+    "at": 0
+   }
+  }
+ ]
+}

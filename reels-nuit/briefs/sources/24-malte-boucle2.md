@@ -1,0 +1,6 @@
+- Faits : scène 2004 « la seule langue sémitique officielle de l'Union » (rapport 1) ; art languages : « depuis 1964 » / « présente depuis 1800 ».
+- Surbrillance UE 2004 : liste de highlights conservée (gérée par le générateur), Malte jaune + 5 pays #2F7FE0, focus [8,33.5,24,53], label « Entrés en 2004 » sur terre.
+- Positions : Sicile/Tunisie/Gozo/Carthage, roi, chevalier, Napoléon, marin final déplacés ; Britanniques avec flèche depuis Gibraltar (focus élargi).
+- Arts : stats raccourci (avant « entre la Sicile »), timeline 1964/1974, bars 4 s, mots maltais en stats (pas d'icône adaptée dans languages).
+- Final : « À bientôt ! » remplacé par « Ktieb, Xemx » ; dernier say amène le hook.
+- Durée : phrases raccourcies ; terrain recalculé.

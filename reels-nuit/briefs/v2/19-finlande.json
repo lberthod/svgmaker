@@ -1,0 +1,823 @@
+{
+ "format": "atlas",
+ "id": "atlas-finlande",
+ "terrain": [
+  {
+   "box": [
+    -14,
+    27,
+    40,
+    76
+   ],
+   "px": 3000,
+   "z": 6
+  },
+  {
+   "box": [
+    14.1,
+    57.2,
+    34.9,
+    70.6
+   ],
+   "px": 2800,
+   "z": 8
+  }
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "text": "Le finnois : une langue à part !",
+   "sub": "Entre la Suède et la Russie",
+   "focus": {
+    "box": [
+     15.5,
+     57.6,
+     33.0,
+     70.2
+    ]
+   },
+   "beacon": [
+    {
+     "at": [
+      24.94,
+      60.17
+     ],
+     "when": 0.8
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      24.94,
+      60.17
+     ],
+     "stack": [
+      {
+       "text": "Suomi",
+       "color": "#4FA3E0"
+      },
+      {
+       "text": "Svenska",
+       "color": "#FFD83C"
+      },
+      {
+       "text": "Venäjä",
+       "color": "#E8503A"
+      }
+     ],
+     "when": {
+      "line": 0,
+      "word": "suédois",
+      "d": -0.3
+     }
+    }
+   ],
+   "say": [
+    "Le finnois ne ressemble ni au suédois, ni au russe.",
+    "Il n’est pas de la famille indo-européenne, contrairement au français.",
+    "Il est ouralien, cousin de l’estonien et du hongrois."
+   ],
+   "art": [
+    {
+     "kind": "stats",
+     "at": {
+      "line": 2,
+      "d": 0.8
+     },
+     "dur": 4.5,
+     "title": "La Finlande en chiffres",
+     "items": [
+      {
+       "value": 5.6,
+       "decimals": 1,
+       "suffix": " M",
+       "label": "habitants",
+       "color": "#4FA3E0"
+      },
+      {
+       "value": 338145,
+       "suffix": " km²",
+       "label": "de superficie",
+       "color": "#FFD83C",
+       "size": 56
+      }
+     ]
+    }
+   ],
+   "labels": [
+    {
+     "text": "Estonie",
+     "at": [
+      25.2,
+      58.2
+     ],
+     "size": 34,
+     "when": {
+      "line": 2,
+      "word": "estonien",
+      "d": 0.0
+     }
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "12e siècle",
+   "text": "La Suède prend la Finlande",
+   "focus": {
+    "box": [
+     14.5,
+     58.4,
+     32.5,
+     66.0
+    ]
+   },
+   "highlight": {
+    "countries": [
+     "Sweden"
+    ],
+    "color": "#FFD83C",
+    "at": {
+     "line": 0,
+     "d": 0.2
+    },
+    "keep": true
+   },
+   "moves": [
+    {
+     "from": [
+      18.07,
+      59.33
+     ],
+     "to": [
+      22.27,
+      60.45
+     ],
+     "n": 4,
+     "color": "#FFD83C",
+     "label": "Suédois",
+     "at": {
+      "line": 0,
+      "word": "conquiert",
+      "d": -0.2
+     },
+     "dur": 2.6
+    }
+   ],
+   "people": [
+    {
+     "who": "roi",
+     "at": [
+      17.2,
+      60.6
+     ],
+     "size": 230,
+     "say": "Une croisade !",
+     "when": {
+      "line": 0,
+      "word": "Suède",
+      "d": 0.6
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      18.07,
+      59.33
+     ],
+     "title": "Stockholm",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "Suède"
+     }
+    },
+    {
+     "at": [
+      22.27,
+      60.45
+     ],
+     "title": "Turku",
+     "sub": "grande ville",
+     "side": "b",
+     "when": {
+      "line": 1,
+      "word": "Turku"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      22.27,
+      60.45
+     ],
+     "when": {
+      "line": 1,
+      "word": "Turku"
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Suède",
+     "at": [
+      16.2,
+      62.5
+     ],
+     "size": 42,
+     "when": {
+      "line": 0,
+      "d": 0.4
+     }
+    },
+    {
+     "text": "Novgorod",
+     "at": [
+      31.5,
+      62.5
+     ],
+     "size": 42,
+     "when": {
+      "line": 0,
+      "d": 0.8
+     }
+    }
+   ],
+   "say": [
+    "Dès le 12e siècle, la Suède conquiert la Finlande.",
+    "Turku devient la grande ville, et le suédois la langue du pouvoir."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1809",
+   "text": "Le tsar en fait un grand-duché",
+   "focus": {
+    "box": [
+     19.0,
+     58.8,
+     34.5,
+     66.0
+    ]
+   },
+   "moves": [
+    {
+     "from": [
+      30.34,
+      59.93
+     ],
+     "to": [
+      24.94,
+      60.17
+     ],
+     "n": 4,
+     "color": "#E8503A",
+     "label": "La Russie",
+     "at": {
+      "line": 0,
+      "word": "perd",
+      "d": 0.0
+     },
+     "dur": 2.6
+    }
+   ],
+   "people": [
+    {
+     "who": "roi",
+     "at": [
+      32.3,
+      61.8
+     ],
+     "size": 230,
+     "say": "Un grand-duché !",
+     "label": {
+      "title": "Le tsar Alexandre Ier"
+     },
+     "when": {
+      "line": 0,
+      "word": "tsar",
+      "d": 0.2
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      24.94,
+      60.17
+     ],
+     "title": "Helsinki",
+     "sub": "capitale en 1812",
+     "side": "b",
+     "when": {
+      "line": 1,
+      "word": "Helsinki",
+      "d": 0.2
+     }
+    },
+    {
+     "at": [
+      30.34,
+      59.93
+     ],
+     "title": "Saint-Pétersbourg",
+     "side": "t",
+     "when": {
+      "line": 0,
+      "word": "Saint-Pétersbourg",
+      "d": 0.0
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      24.94,
+      60.17
+     ],
+     "when": {
+      "line": 1,
+      "word": "Helsinki",
+      "d": -0.2
+     }
+    }
+   ],
+   "say": [
+    "En 1809, la Suède perd la guerre : le tsar, depuis Saint-Pétersbourg, fait de la Finlande un grand-duché.",
+    "Helsinki devient la capitale en 1812."
+   ],
+   "labels": [
+    {
+     "text": "Russie",
+     "at": [
+      32.8,
+      64.0
+     ],
+     "size": 42,
+     "when": {
+      "line": 0,
+      "d": 0.8
+     }
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1835 – 1863",
+   "text": "Le finnois se réveille",
+   "focus": {
+    "box": [
+     19.5,
+     59.2,
+     33.5,
+     64.0
+    ]
+   },
+   "pills": [
+    {
+     "at": [
+      30.0,
+      63.0
+     ],
+     "title": "Kalevala",
+     "sub": "Carélie",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "Kalevala"
+     }
+    }
+   ],
+   "art": [
+    {
+     "kind": "languages",
+     "at": {
+      "line": 1,
+      "d": -0.8
+     },
+     "dur": 7,
+     "title": "Une langue qui monte",
+     "items": [
+      {
+       "icon": "court",
+       "where": "Avant 1863",
+       "lang": "Suédois",
+       "note": "langue de l’État",
+       "color": "#FFD83C"
+      },
+      {
+       "icon": "house",
+       "where": "Au village",
+       "lang": "Finnois",
+       "note": "langue du peuple",
+       "color": "#4FA3E0"
+      },
+      {
+       "icon": "school",
+       "where": "Dès 1863",
+       "lang": "Finnois",
+       "note": "langue officielle",
+       "color": "#4FA3E0"
+      }
+     ]
+    }
+   ],
+   "say": [
+    "En 1835, le Kalevala, recueil de chants populaires, réveille la fierté finlandaise.",
+    "En 1863, le finnois devient langue officielle, comme le suédois."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "6 décembre 1917",
+   "text": "La Finlande est indépendante",
+   "focus": {
+    "box": [
+     18.5,
+     57.6,
+     33.5,
+     70.0
+    ]
+   },
+   "people": [
+    {
+     "who": "rebelle",
+     "at": [
+      24.94,
+      60.17
+     ],
+     "size": 240,
+     "say": "Indépendance !",
+     "when": {
+      "line": 0,
+      "word": "déclare",
+      "d": 0.0
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      24.94,
+      60.17
+     ],
+     "title": "Helsinki",
+     "sub": "6 décembre 1917",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "déclare",
+      "d": 0.4
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      24.94,
+      60.17
+     ],
+     "when": 0.5
+    }
+   ],
+   "labels": [
+    {
+     "text": "Suède",
+     "at": [
+      18.8,
+      65.0
+     ],
+     "size": 42,
+     "when": {
+      "line": 0,
+      "d": 0.3
+     }
+    },
+    {
+     "text": "Russie",
+     "at": [
+      32.0,
+      64.5
+     ],
+     "size": 42,
+     "when": {
+      "line": 0,
+      "d": 0.6
+     }
+    },
+    {
+     "text": "Estonie",
+     "at": [
+      25.2,
+      58.2
+     ],
+     "size": 34,
+     "when": {
+      "line": 0,
+      "d": 0.9
+     }
+    }
+   ],
+   "say": [
+    "Le 6 décembre 1917, la Finlande déclare son indépendance.",
+    "Une guerre civile éclate en 1918, mais le pays reste libre."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "30 novembre 1939",
+   "text": "La guerre d’Hiver",
+   "focus": {
+    "box": [
+     20.0,
+     59.2,
+     33.5,
+     66.0
+    ]
+   },
+   "moves": [
+    {
+     "from": [
+      32.0,
+      60.4
+     ],
+     "to": [
+      28.75,
+      60.71
+     ],
+     "n": 6,
+     "color": "#E8503A",
+     "label": "Armée rouge",
+     "at": {
+      "line": 0,
+      "word": "attaque",
+      "d": -0.3
+     },
+     "dur": 2.6
+    }
+   ],
+   "people": [
+    {
+     "who": "soldat",
+     "at": [
+      27.2,
+      61.6
+     ],
+     "size": 230,
+     "say": "On tient !",
+     "when": {
+      "line": 1,
+      "word": "résistent",
+      "d": 0.0
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      28.75,
+      60.71
+     ],
+     "title": "Vyborg",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "attaque",
+      "d": 0.6
+     }
+    },
+    {
+     "at": [
+      24.94,
+      60.17
+     ],
+     "title": "Helsinki",
+     "side": "b",
+     "when": {
+      "line": 1,
+      "word": "résistent",
+      "d": 0.4
+     }
+    }
+   ],
+   "say": [
+    "Le 30 novembre 1939, l’Union soviétique attaque la Finlande.",
+    "Les Finlandais résistent plus de trois mois, jusqu’au 13 mars 1940, après la signature du traité de Moscou le 12 mars."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "12 mars 1940",
+   "text": "Le prix de la liberté",
+   "focus": {
+    "box": [
+     20.0,
+     59.2,
+     33.5,
+     66.0
+    ]
+   },
+   "pills": [
+    {
+     "at": [
+      28.75,
+      60.71
+     ],
+     "title": "Vyborg",
+     "sub": "cédée",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "Carélie"
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Carélie",
+     "at": [
+      30.9,
+      61.4
+     ],
+     "size": 40,
+     "when": {
+      "line": 0,
+      "d": 0.6
+     }
+    }
+   ],
+   "art": [
+    {
+     "kind": "stats",
+     "at": {
+      "line": 1,
+      "d": 0.2
+     },
+     "dur": 6,
+     "title": "Un lourd bilan",
+     "items": [
+      {
+       "value": 9,
+       "suffix": " %",
+       "label": "environ du territoire cédé",
+       "color": "#E8503A",
+       "ring": 9
+      },
+      {
+       "value": 26000,
+       "label": "soldats finlandais tués",
+       "color": "#FFD83C"
+      }
+     ]
+    }
+   ],
+   "say": [
+    "Le traité de Moscou coûte environ 9 % du territoire, dont la Carélie.",
+    "Mais la Finlande reste indépendante, au prix de 26 000 soldats tués."
+   ],
+   "line": {
+    "points": [
+     [
+      27.7,
+      60.5
+     ],
+     [
+      28.8,
+      61.2
+     ],
+     [
+      29.6,
+      61.5
+     ],
+     [
+      30.1,
+      61.85
+     ]
+    ],
+    "color": "#E8503A",
+    "label": "Zone cédée",
+    "at": {
+     "line": 0,
+     "d": 0.2
+    }
+   }
+  },
+  {
+   "type": "map",
+   "year": "12e siècle – 1940",
+   "text": "Des siècles entre deux géants",
+   "focus": {
+    "box": [
+     18.0,
+     59.0,
+     33.0,
+     70.0
+    ]
+   },
+   "art": [
+    {
+     "kind": "timeline",
+     "at": {
+      "line": 0,
+      "d": 0.0
+     },
+     "dur": 3.6,
+     "title": "Entre l’Est et l’Ouest",
+     "items": [
+      {
+       "year": "12e s.",
+       "text": "La Suède"
+      },
+      {
+       "year": "1809",
+       "text": "Grand-duché"
+      },
+      {
+       "year": "1863",
+       "text": "Finnois officiel"
+      },
+      {
+       "year": "1917",
+       "text": "Indépendance"
+      },
+      {
+       "year": "1939-40",
+       "text": "Guerre d’Hiver"
+      }
+     ]
+    },
+    {
+     "kind": "stats",
+     "at": {
+      "line": 1,
+      "d": 0.3
+     },
+     "dur": 4,
+     "title": "Aujourd’hui",
+     "items": [
+      {
+       "value": 84,
+       "suffix": " %",
+       "label": "parlent finnois",
+       "color": "#4FA3E0",
+       "ring": 84
+      }
+     ]
+    }
+   ],
+   "say": [
+    "Entre deux géants, la Finlande a gardé sa langue.",
+    "Aujourd’hui, environ 91 % ont le finnois pour langue maternelle."
+   ]
+  },
+  {
+   "type": "final",
+   "text": "Une langue à part en Europe",
+   "sub": "La Finlande",
+   "focus": {
+    "box": [
+     18.0,
+     59.4,
+     33.0,
+     70.2
+    ]
+   },
+   "people": [
+    {
+     "who": "paysan",
+     "at": [
+      24.94,
+      60.17
+     ],
+     "size": 240,
+     "say": "À bientôt !",
+     "wave": true,
+     "mood": "happy",
+     "when": 1.5
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      24.94,
+      60.17
+     ],
+     "title": "Helsinki",
+     "sub": "Suomi",
+     "side": "b",
+     "when": 0.8
+    }
+   ],
+   "say": [
+    "Voilà pourquoi la Finlande, entre Suède et Russie, parle une langue ouralienne à part !"
+   ]
+  }
+ ],
+ "base": {
+  "countries": [
+   "Finland"
+  ]
+ }
+}

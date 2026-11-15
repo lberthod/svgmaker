@@ -1,0 +1,1057 @@
+{
+ "format": "atlas",
+ "id": "atlas-luxembourg-v5",
+ "base": {
+  "countries": [
+   "Luxembourg"
+  ]
+ },
+ "terrain": [
+  {
+   "box": [
+    -14,
+    27,
+    40,
+    76
+   ],
+   "px": 3000,
+   "z": 6
+  },
+  {
+   "box": [
+    1.1,
+    47.8,
+    9.8,
+    51.8
+   ],
+   "px": 2800,
+   "z": 9
+  }
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "text": "Un si petit pays, trois langues officielles !",
+   "sub": "47 % d’étrangers sur 100 habitants",
+   "focus": {
+    "box": [
+     3.8,
+     48.7,
+     8.4,
+     50.8
+    ]
+   },
+   "highlight": {
+    "countries": [
+     "Luxembourg"
+    ],
+    "color": "#FFD83C",
+    "at": 0.3,
+    "keep": false
+   },
+   "pills": [
+    {
+     "at": [
+      6.13,
+      49.61
+     ],
+     "stack": [
+      {
+       "text": "Lëtzebuergesch",
+       "color": "#4FA3E0"
+      },
+      {
+       "text": "Français",
+       "lang": "fr"
+      },
+      {
+       "text": "Deutsch",
+       "lang": "de"
+      }
+     ],
+     "when": {
+      "line": 0,
+      "word": "langues"
+     }
+    }
+   ],
+   "crowd": {
+    "at": {
+     "line": 1,
+     "word": "Environ",
+     "d": 0.3
+    },
+    "groups": [
+     {
+      "color": "#FFD83C",
+      "n": 53,
+      "label": "53 % luxembourgeois"
+     },
+     {
+      "color": "#FF7A3C",
+      "n": 47,
+      "label": "47 % étrangers"
+     }
+    ]
+   },
+   "say": [
+    "Un des plus petits pays d’Europe, et pourtant trois langues officielles !",
+    "Environ 680 000 habitants vivent ici, et près de la moitié viennent de l’étranger."
+   ],
+   "art": [
+    {
+     "kind": "compare",
+     "at": {
+      "line": 0,
+      "word": "petits",
+      "d": -0.2
+     },
+     "dur": 3.6,
+     "title": "Petit, vraiment ?",
+     "sub": "même échelle",
+     "ratio": "16×",
+     "items": [
+      {
+       "country": "Switzerland",
+       "label": "Suisse",
+       "value": "41 285 km²",
+       "color": "#E8503A"
+      },
+      {
+       "country": "Luxembourg",
+       "label": "Luxembourg",
+       "value": "2 586 km²",
+       "color": "#FFD83C"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "963",
+   "text": "Un petit château sur un rocher",
+   "focus": {
+    "box": [
+     4.2,
+     49.1,
+     7.9,
+     50.2
+    ]
+   },
+   "art": [
+    {
+     "kind": "castle",
+     "at": {
+      "line": 0,
+      "word": "petit",
+      "d": -0.1
+     },
+     "dur": 2.6,
+     "title": "963 · Lucilinburhuc"
+    }
+   ],
+   "people": [
+    {
+     "who": "alaman",
+     "at": [
+      6.13,
+      49.61
+     ],
+     "size": 260,
+     "say": "Un château !",
+     "label": {
+      "title": "Le comte Sigefroid",
+      "sub": "963"
+     },
+     "when": {
+      "line": 1,
+      "word": "Autour",
+      "d": -0.5
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      6.13,
+      49.61
+     ],
+     "title": "Luxembourg",
+     "sub": "la ville naît",
+     "side": "l",
+     "when": {
+      "line": 1,
+      "word": "naît"
+     }
+    }
+   ],
+   "say": [
+    "En 963, le comte Sigefroid acquiert un petit château sur un rocher, au bord de l’Alzette.",
+    "Autour de lui naît la ville de Luxembourg."
+   ],
+   "beacon": [
+    {
+     "at": [
+      6.13,
+      49.61
+     ],
+     "when": 0.4
+    }
+   ],
+   "labels": [
+    {
+     "text": "France",
+     "at": [
+      4.7,
+      49.4
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "d": 0.4
+     }
+    },
+    {
+     "text": "Allemagne",
+     "at": [
+      7.1,
+      49.9
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "d": 0.8
+     }
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "14e – 15e siècles",
+   "text": "Une frontière entre deux mondes",
+   "focus": {
+    "box": [
+     3.4,
+     48.7,
+     8.4,
+     51.0
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Luxembourg"
+     ],
+     "color": "#FFD83C",
+     "keep": false,
+     "at": {
+      "line": 0,
+      "d": 0.2
+     }
+    },
+    {
+     "regions": [
+      {
+       "c": "Belgium",
+       "n": "Hainaut"
+      },
+      {
+       "c": "Belgium",
+       "n": "Namur"
+      },
+      {
+       "c": "Belgium",
+       "n": "Luxembourg"
+      },
+      {
+       "c": "Belgium",
+       "n": "Liege"
+      },
+      {
+       "c": "Belgium",
+       "n": "Walloon Brabant"
+      },
+      {
+       "c": "France",
+       "n": "Meuse"
+      },
+      {
+       "c": "France",
+       "n": "Ardennes"
+      },
+      {
+       "c": "France",
+       "n": "Meurthe-et-Moselle"
+      }
+     ],
+     "color": "#4FA3E0",
+     "at": {
+      "line": 0,
+      "word": "roman"
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Luxembourg"
+     ],
+     "regions": [
+      {
+       "c": "Germany",
+       "n": "Rheinland-Pfalz"
+      },
+      {
+       "c": "Germany",
+       "n": "Saarland"
+      }
+     ],
+     "color": "#E8A33C",
+     "at": {
+      "line": 0,
+      "word": "germanique"
+     },
+     "keep": false
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      7.7,
+      50.2
+     ],
+     "to": [
+      6.5,
+      49.7
+     ],
+     "n": 3,
+     "color": "#E8A33C",
+     "label": "Monde roman",
+     "at": {
+      "line": 0,
+      "word": "germanique",
+      "d": 0.3
+     },
+     "dur": 2.2
+    },
+    {
+     "from": [
+      4.2,
+      49.5
+     ],
+     "to": [
+      5.75,
+      49.6
+     ],
+     "n": 3,
+     "color": "#4FA3E0",
+     "label": "Monde germanique",
+     "at": {
+      "line": 0,
+      "word": "roman",
+      "d": 0.3
+     },
+     "dur": 2.2
+    }
+   ],
+   "people": [
+    {
+     "who": "alaman",
+     "at": [
+      6.9,
+      50.35
+     ],
+     "size": 230,
+     "say": "Dialecte germanique",
+     "when": {
+      "line": 1,
+      "word": "dialecte"
+     }
+    },
+    {
+     "who": "fr",
+     "at": [
+      5.0,
+      49.95
+     ],
+     "size": 230,
+     "say": "Latin, puis français",
+     "when": {
+      "line": 1,
+      "word": "latin"
+     }
+    }
+   ],
+   "say": [
+    "Le comté, devenu duché, est à la frontière du monde germanique et du monde roman.",
+    "On y parle un dialecte germanique, et on y écrit en latin, puis en français et en allemand."
+   ],
+   "labels": [
+    {
+     "text": "Pays romans",
+     "at": [
+      4.3,
+      50.2
+     ],
+     "size": 40,
+     "when": {
+      "line": 0,
+      "word": "roman",
+      "d": 0.6
+     }
+    },
+    {
+     "text": "Pays germaniques",
+     "at": [
+      7.6,
+      49.2
+     ],
+     "size": 40,
+     "when": {
+      "line": 0,
+      "word": "germanique",
+      "d": 0.6
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      6.13,
+      49.61
+     ],
+     "when": 0.4
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1815",
+   "text": "Un grand-duché",
+   "focus": {
+    "box": [
+     4.2,
+     49.0,
+     7.8,
+     51.0
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Luxembourg"
+     ],
+     "color": "#FFD83C",
+     "keep": false,
+     "at": {
+      "line": 0,
+      "d": 0.2
+     }
+    },
+    {
+     "countries": [
+      "Luxembourg"
+     ],
+     "regions": [
+      {
+       "c": "Belgium",
+       "n": "Luxembourg"
+      }
+     ],
+     "color": "#E8A33C",
+     "at": {
+      "line": 0,
+      "word": "grand-duché",
+      "d": -0.4
+     },
+     "keep": false
+    }
+   ],
+   "people": [
+    {
+     "who": "roi",
+     "at": [
+      6.13,
+      49.61
+     ],
+     "size": 240,
+     "say": "Le roi !",
+     "when": {
+      "line": 0,
+      "word": "roi",
+      "d": 0.2
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Plus grand qu’aujourd’hui",
+     "at": [
+      5.2,
+      49.75
+     ],
+     "size": 40,
+     "when": {
+      "line": 1,
+      "word": "alors"
+     }
+    },
+    {
+     "text": "France",
+     "at": [
+      4.7,
+      49.3
+     ],
+     "size": 38,
+     "when": {
+      "line": 1,
+      "word": "grand",
+      "d": 0.6
+     }
+    },
+    {
+     "text": "Allemagne",
+     "at": [
+      7.4,
+      49.9
+     ],
+     "size": 38,
+     "when": {
+      "line": 1,
+      "word": "grand",
+      "d": 1.0
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      6.13,
+      49.61
+     ],
+     "title": "Luxembourg",
+     "sub": "aujourd’hui",
+     "side": "b",
+     "when": {
+      "line": 1,
+      "word": "plus"
+     }
+    }
+   ],
+   "say": [
+    "En 1815, le congrès de Vienne en fait un grand-duché, dirigé par le roi des Pays-Bas.",
+    "Il est alors plus grand qu’aujourd’hui."
+   ],
+   "beacon": [
+    {
+     "at": [
+      6.13,
+      49.61
+     ],
+     "when": 0.4
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1839",
+   "text": "Le pays est coupé en deux",
+   "focus": {
+    "box": [
+     3.9,
+     49.1,
+     7.5,
+     51.0
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Luxembourg"
+     ],
+     "color": "#FFD83C",
+     "keep": false,
+     "at": {
+      "line": 0,
+      "d": 0.2
+     }
+    },
+    {
+     "regions": [
+      {
+       "c": "Belgium",
+       "n": "Luxembourg"
+      }
+     ],
+     "color": "#E8A33C",
+     "at": {
+      "line": 0,
+      "word": "indépendance"
+     },
+     "keep": false
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      5.95,
+      49.65
+     ],
+     "to": [
+      5.2,
+      49.85
+     ],
+     "n": 3,
+     "color": "#E8A33C",
+     "label": "Cédée à la Belgique",
+     "at": {
+      "line": 0,
+      "word": "belge",
+      "d": 0.2
+     },
+     "dur": 2.4
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      5.72,
+      50.0
+     ],
+     "title": "Bastogne",
+     "side": "t",
+     "when": {
+      "line": 0,
+      "word": "francophone",
+      "d": -1.0
+     }
+    }
+   ],
+   "art": [
+    {
+     "kind": "split",
+     "at": {
+      "line": 0,
+      "word": "ouest",
+      "d": -0.3
+     },
+     "dur": 3.6,
+     "title": "Le pays coupé en deux",
+     "sub": "même échelle",
+     "before": "Avant 1839",
+     "after": "Après 1839",
+     "badge": "Un tiers reste",
+     "parts": [
+      {
+       "country": "Luxembourg",
+       "color": "#FFD83C"
+      },
+      {
+       "region": {
+        "c": "Belgium",
+        "n": "Luxembourg"
+       },
+       "color": "#E8A33C",
+       "lost": true
+      }
+     ]
+    }
+   ],
+   "say": [
+    "En 1839, après l’indépendance de la Belgique, l’ouest du grand-duché, surtout francophone, devient belge.",
+    "Le Luxembourg perd près des deux tiers de son territoire."
+   ],
+   "labels": [
+    {
+     "text": "Belgique",
+     "at": [
+      4.5,
+      50.55
+     ],
+     "size": 44,
+     "when": {
+      "line": 0,
+      "word": "Belgique",
+      "d": 0.4
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      6.13,
+      49.61
+     ],
+     "when": 0.4
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1867 · 1890",
+   "text": "Neutre, puis son grand-duc",
+   "focus": {
+    "box": [
+     2.8,
+     48.2,
+     9.4,
+     51.2
+    ]
+   },
+   "art": [
+    {
+     "kind": "neutral",
+     "at": {
+      "line": 0,
+      "d": 0.1
+     },
+     "dur": 10.5,
+     "phase2": 4.6
+    }
+   ],
+   "say": [
+    "La France et la Prusse convoitent le pays : en 1867, le traité de Londres le déclare neutre.",
+    "En 1890, le roi des Pays-Bas meurt sans fils : sa fille ne peut pas régner ici, et le Luxembourg a son propre grand-duc."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "Aujourd’hui",
+   "text": "Trois langues, trois usages",
+   "focus": {
+    "box": [
+     5.1,
+     49.2,
+     7.3,
+     50.2
+    ]
+   },
+   "art": [
+    {
+     "kind": "languages",
+     "at": {
+      "line": 0,
+      "d": 0.2
+     },
+     "dur": 8,
+     "title": "Trois langues, trois usages",
+     "items": [
+      {
+       "icon": "house",
+       "where": "Chez soi",
+       "lang": "Luxembourgeois",
+       "note": "nationale et officielle",
+       "color": "#4FA3E0"
+      },
+      {
+       "icon": "court",
+       "where": "Lois et État",
+       "lang": "Français",
+       "note": "administration",
+       "color": "#3E9A63"
+      },
+      {
+       "icon": "school",
+       "where": "École, presse",
+       "lang": "Allemand",
+       "note": "puis le français",
+       "color": "#E8503A"
+      }
+     ]
+    }
+   ],
+   "say": [
+    "Le luxembourgeois est la langue nationale depuis 1984.",
+    "Le français sert pour les lois et l’administration, l’allemand pour la presse et l’école."
+   ],
+   "highlight": {
+    "countries": [
+     "Luxembourg"
+    ],
+    "color": "#FFD83C",
+    "keep": false,
+    "at": 0.3
+   },
+   "labels": [
+    {
+     "text": "France",
+     "at": [
+      5.35,
+      49.4
+     ],
+     "size": 38,
+     "when": {
+      "line": 1,
+      "d": 0.2
+     }
+    },
+    {
+     "text": "Allemagne",
+     "at": [
+      6.85,
+      49.8
+     ],
+     "size": 38,
+     "when": {
+      "line": 1,
+      "d": 0.5
+     }
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "963 – 1984",
+   "text": "Mille ans, trois langues",
+   "focus": {
+    "box": [
+     1.5,
+     48.2,
+     8.6,
+     51.4
+    ]
+   },
+   "art": [
+    {
+     "kind": "timeline",
+     "at": {
+      "line": 0,
+      "d": 0.2
+     },
+     "dur": 4.2,
+     "title": "Mille ans d’histoire",
+     "items": [
+      {
+       "year": "963",
+       "text": "Le château"
+      },
+      {
+       "year": "1815",
+       "text": "Grand-duché"
+      },
+      {
+       "year": "1839",
+       "text": "Le partage"
+      },
+      {
+       "year": "1867",
+       "text": "Neutre"
+      },
+      {
+       "year": "1890",
+       "text": "Grand-duc propre"
+      },
+      {
+       "year": "1984",
+       "text": "Langue nationale"
+      }
+     ]
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      2.35,
+      48.86
+     ],
+     "to": [
+      6.13,
+      49.61
+     ],
+     "n": 1,
+     "color": "#8FD0EE",
+     "at": {
+      "line": 1,
+      "word": "carrefour"
+     },
+     "dur": 2.4
+    },
+    {
+     "from": [
+      4.35,
+      50.85
+     ],
+     "to": [
+      6.13,
+      49.61
+     ],
+     "n": 1,
+     "color": "#8FD0EE",
+     "at": {
+      "line": 1,
+      "word": "carrefour",
+      "d": 0.2
+     },
+     "dur": 2.4
+    },
+    {
+     "from": [
+      6.96,
+      50.94
+     ],
+     "to": [
+      6.13,
+      49.61
+     ],
+     "n": 1,
+     "color": "#FFB347",
+     "at": {
+      "line": 1,
+      "word": "carrefour",
+      "d": 0.4
+     },
+     "dur": 2.4
+    },
+    {
+     "from": [
+      7.75,
+      48.58
+     ],
+     "to": [
+      6.13,
+      49.61
+     ],
+     "n": 1,
+     "color": "#FFB347",
+     "at": {
+      "line": 1,
+      "word": "carrefour",
+      "d": 0.6
+     },
+     "dur": 2.4
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      2.35,
+      48.86
+     ],
+     "title": "Paris",
+     "side": "r",
+     "when": {
+      "line": 1,
+      "word": "carrefour"
+     }
+    },
+    {
+     "at": [
+      4.35,
+      50.85
+     ],
+     "title": "Bruxelles",
+     "side": "r",
+     "when": {
+      "line": 1,
+      "word": "carrefour",
+      "d": 0.2
+     }
+    },
+    {
+     "at": [
+      6.96,
+      50.94
+     ],
+     "title": "Cologne",
+     "side": "l",
+     "when": {
+      "line": 1,
+      "word": "carrefour",
+      "d": 0.4
+     }
+    },
+    {
+     "at": [
+      7.75,
+      48.58
+     ],
+     "title": "Strasbourg",
+     "side": "l",
+     "when": {
+      "line": 1,
+      "word": "carrefour",
+      "d": 0.6
+     }
+    },
+    {
+     "at": [
+      6.13,
+      49.61
+     ],
+     "title": "Luxembourg",
+     "side": "r",
+     "when": {
+      "line": 1,
+      "word": "carrefour",
+      "d": 0.6
+     }
+    }
+   ],
+   "say": [
+    "Du château de 963 à la loi de 1984, le petit pays a gardé ses trois langues.",
+    "Un carrefour entre deux mondes : voilà sa vraie force."
+   ],
+   "highlight": {
+    "countries": [
+     "Luxembourg"
+    ],
+    "color": "#FFD83C",
+    "keep": false,
+    "at": 0.3
+   }
+  },
+  {
+   "type": "final",
+   "text": "Un petit pays, trois langues",
+   "sub": "Le Luxembourg",
+   "focus": {
+    "box": [
+     4.6,
+     49.0,
+     7.8,
+     50.5
+    ]
+   },
+   "people": [
+    {
+     "who": "roi",
+     "at": [
+      6.13,
+      49.61
+     ],
+     "size": 260,
+     "say": "Trois langues !",
+     "wave": true,
+     "when": 1.0
+    }
+   ],
+   "say": [
+    "Voilà pourquoi le Luxembourg parle trois langues !",
+    "Et c’est ce que nous disions tout au début :"
+   ],
+   "pills": [
+    {
+     "at": [
+      6.13,
+      49.45
+     ],
+     "stack": [
+      {
+       "text": "Lëtzebuergesch",
+       "color": "#4FA3E0"
+      },
+      {
+       "text": "Français",
+       "lang": "fr"
+      },
+      {
+       "text": "Deutsch",
+       "lang": "de"
+      }
+     ],
+     "when": 2.0
+    }
+   ]
+  }
+ ]
+}

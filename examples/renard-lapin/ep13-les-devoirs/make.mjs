@@ -12,6 +12,7 @@
 // 25.0–27.6  plan à deux     Roussin : « Et quatre croissants ! » ; Rouge-Gorge salue à la fenêtre
 // 27.6–30.0  plan large      carton
 import { writeFileSync } from 'node:fs';
+import { timeBadge } from '../lib/badge.mjs';
 import { W, H, INK, lines, sfxEv, an, ao, vis, sfx, fox, rabbit, put, style, addKF, track, ss } from '../lib/kit.mjs';
 import { makeCam, say, card, bird, croissant } from '../lib/props.mjs';
 import { wallClock } from '../lib/classroom.mjs';
@@ -131,12 +132,12 @@ const world = `${bg}${birdWin}${knockNums}${chairs}
 const fx =
   say('rab', 'Les devoirs !', 0.6, 1.2, { bx: 900, by: 290, tips: [[860, 400]] }) +
   say('rab', 'Deux plus deux...', 4.0, 1.6, { bx: 1060, by: 160, tips: [[900, 300]] }) +
-  say('rab', 'Euh... trois ? Cinq ?', 6.9, 2.0, { bx: 900, by: 265, tips: [[700, 470]] }) +
+  say('rab', 'Trois ? Cinq ?', 6.9, 2.0, { bx: 900, by: 265, tips: [[700, 470]] }) +
   say('fox', 'Quatre croissants !', 9.8, 1.6, { bx: 930, by: 420, tips: [[700, 520]], shout: true }) +
   say('rab', 'Des croissants ?!', 12.7, 0.9, { bx: 1000, by: 330, tips: [[755, 490]] }) +
-  sfx('Ha ha !', 560, 160, 13.7, 1.4, -6, '#e8434e', 56, 'laugh') +
+  sfx('rires !', 560, 160, 13.7, 1.4, -6, '#e8434e', 56, 'laugh') +
   knocks.map((t, i) => sfx('TOC', 860, 450, t, 0.5, i % 2 ? 8 : -8, '#ffffff', 56, 'knock')).join('') +
-  ['Un,', 'deux,', 'trois,', 'quatre... Quatre !'].map((w, i) => say('rab', w, 19.3 + i * 0.5, i === 3 ? 1.0 : 0.48, { bx: 900, by: 265, tips: [[700, 470]] })).join('') +
+  say('rab', 'Un, deux, trois, quatre !', 19.3, 2.6, { bx: 900, by: 265, tips: [[700, 470]] }) +
   say('rab', "C'est juste !", 23.0, 1.2, { bx: 1060, by: 280, tips: [[820, 385]], shout: true }) +
   say('fox', 'Et quatre croissants !', 25.2, 1.6, { bx: 260, by: 300, tips: [[400, 345]] }) +
   sfx('CUI !', 1120, 60, 25.5, 1.9, 8, '#ff6f95', 54, 'chirp') +
@@ -146,6 +147,7 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" wid
 <style>${style()}</style>
 <rect width="${W}" height="${H}" fill="#dfe9ff"/>
 <g style="${camStyle}">${world}</g>
+${timeBadge(19, 15)}
 ${fx}
 </svg>`;
 sfxEv.push({ name: 'chalk', t: 20.6 }, { name: 'chime', t: 22.3 }, { name: 'chime', t: 23.0 });

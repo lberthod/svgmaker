@@ -98,7 +98,152 @@ def eventsfx(n, t0):
     elif n == 'yawn': add(sweep(380, 160, 1.2, 0.35), t0); add(noise(1.0, 0.12), t0 + 0.1)
     elif n == 'handbell':
         for k in range(8): add(bell(0.9) * 0.8, t0 + k * 0.18)
-for e in tl['sfx']: eventsfx(e['name'], e['t'])
+
+# ── bruitages d'ambiance (saisons 6-10) : doux, pic ≤ 0,5, 0,3 à 3 s ───────────
+# Générateur local par son : ne touche pas au rng partagé, les anciens sfx restent identiques.
+def _lp(x, k):
+    return np.convolve(x, np.ones(k) / k, 'same')
+def _wn(r, d):
+    return r.standard_normal(int(SR * d))
+def _tt(d):
+    return np.arange(int(SR * d)) / SR
+def _fade(x, a=0.05, b=0.15):
+    n = len(x); x = x.copy(); na = max(1, int(a * SR)); nb = max(1, int(b * SR))
+    x[:na] *= np.linspace(0, 1, na); x[-nb:] *= np.linspace(1, 0, nb); return x
+def _pulses(d, times, f, dec, vol=1.0, r=None):
+    y = np.zeros(int(SR * d))
+    for tp in times:
+        s0 = int(tp * SR); tt = _tt(0.25)
+        v = np.sin(2 * np.pi * f * tt) * np.exp(-tt * dec) * vol
+        v = v[: len(y) - s0]; y[s0:s0 + len(v)] += v
+    return y
+def _nsfx(n):
+    r = np.random.default_rng(sum(map(ord, n)) + 1000)
+    if n == 'wind':
+        d = 2.8; x = _lp(_wn(r, d), 60); t = _tt(d)
+        x = x * (0.55 + 0.45 * np.sin(2 * np.pi * 0.45 * t + 1)) ; return _fade(x, 0.5, 0.7)
+    if n == 'leaves':  # vent dans les feuilles : souffle + froissements
+        d = 2.4; t = _tt(d); x = _lp(_wn(r, d), 25) * (0.5 + 0.5 * np.sin(2 * np.pi * 0.6 * t))
+        y = _lp(_wn(r, d), 4) * (r.random(len(t)) > 0.995) * 3
+        y = _lp(y, 6); return _fade(x + _lp(_wn(r, d), 5) * 0.15 * (0.5 + 0.5 * np.sin(2 * np.pi * 1.3 * t)), 0.4, 0.6)
+    if n == 'footleaves':  # pas dans les feuilles mortes
+        d = 1.6; y = np.zeros(int(SR * d))
+        for k in range(6):
+            s0 = int((0.05 + k * 0.26) * SR); g = _wn(r, 0.2); g = np.diff(g, prepend=0) * np.exp(-_tt(0.2) * 14) * (0.8 + 0.4 * r.random())
+            g = _lp(g, 3); y[s0:s0 + len(g)] += g[: len(y) - s0]
+        return y
+    if n == 'crickets':
+        d = 3.0; t = _tt(d); y = np.zeros(len(t))
+        for f, ph in ((4300, 0), (4700, 0.37)):
+            gate = (((t + ph) * 5.5) % 1 < 0.45) * ((t * 5.5 * 6 % 1) < 0.7) * 1.0
+            gate = _lp(gate, 90); y += np.sin(2 * np.pi * f * t) * gate * (0.8 if ph == 0 else 0.5)
+        return _fade(y, 0.3, 0.4)
+    if n == 'traffic':  # trafic doux, lointain
+        d = 3.0; t = _tt(d); x = _lp(_wn(r, d), 40) * (0.7 + 0.3 * np.sin(2 * np.pi * 0.3 * t))
+        x += np.sin(2 * np.pi * 70 * t) * 0.35 * (0.6 + 0.4 * np.sin(2 * np.pi * 0.5 * t + 2))
+        v = np.sin(2 * np.pi * np.cumsum(180 + 40 * np.sin(2 * np.pi * 0.35 * t)) / SR) * np.hanning(len(t)) * 0.12
+        return _fade(x + v, 0.5, 0.6)
+    if n == 'siren':  # sirène de pompier lointaine, deux tons
+        d = 2.8; t = _tt(d); f = np.where((t * 1.25) % 1 < 0.5, 660, 880).astype(float); f = _lp(f, 2400)
+        y = (np.sin(2 * np.pi * np.cumsum(f) / SR) + 0.25 * np.sin(4 * np.pi * np.cumsum(f) / SR)) * np.hanning(len(t)) ** 0.7
+        return _lp(y, 4)
+    if n == 'tram':  # frein de tram : chuintement doux + grincement
+        d = 1.8; t = _tt(d); x = _lp(_wn(r, d), 5) * np.hanning(len(t)) ** 1.5 * 0.7
+        f = np.linspace(2300, 1500, len(t)); sq = np.sin(2 * np.pi * np.cumsum(f) / SR) * np.hanning(len(t)) ** 3 * 0.18
+        return x + sq
+    if n == 'station':  # annonce de gare : ding-dong-ding
+        d = 2.3; y = np.zeros(int(SR * d))
+        for k, nn in enumerate([79, 74, 79, 72]):
+            v = tone(m(nn), 0.8, 0.6, (1, .3, .1)); s0 = int(k * 0.42 * SR); y[s0:s0 + len(v)] += v[: len(y) - s0]
+        return y
+    if n == 'train':  # train qui part : chuf-chuf accéléré + sifflet
+        d = 3.0; y = np.zeros(int(SR * d)); tp = 0.1; gap = 0.5
+        while tp < d - 0.3:
+            s0 = int(tp * SR); g = _lp(_wn(r, 0.22), 30) * np.exp(-_tt(0.22) * 16)
+            y[s0:s0 + len(g)] += g[: len(y) - s0] * 1.0; tp += gap; gap = max(0.2, gap * 0.9)
+        t = _tt(0.6); w = (np.sin(2 * np.pi * 740 * t) + 0.4 * np.sin(2 * np.pi * 1110 * t)) * np.hanning(len(t)) * 0.25
+        y[: len(w)] += w
+        return y
+    if n == 'fanfare':
+        d = 2.2; y = np.zeros(int(SR * d))
+        for k, (nn, dd) in enumerate([(67, .25), (72, .25), (76, .25), (79, .9)]):
+            v = tone(m(nn), dd + 0.3, 0.5, (1, .5, .35, .2)); s0 = int([0, .28, .56, .84][k] * SR)
+            y[s0:s0 + len(v)] += v[: len(y) - s0]
+        return y
+    if n == 'whistle':  # sifflet d'arbitre : deux coups, pas trop aigu
+        d = 1.0; y = np.zeros(int(SR * d))
+        for s0, dd in ((0.0, 0.3), (0.4, 0.5)):
+            t = _tt(dd); tr = np.sin(2 * np.pi * 36 * t); f = 2200 + 40 * tr
+            v = np.sin(2 * np.pi * np.cumsum(f) / SR) * (0.8 + 0.2 * tr) * np.hanning(len(t)) ** 0.5
+            i = int(s0 * SR); y[i:i + len(v)] += v
+        return y
+    if n == 'applause':
+        d = 3.0; t = _tt(d); y = np.zeros(len(t))
+        for k in range(110):
+            s0 = int(r.random() * (len(t) - 2500)); c = np.diff(_wn(r, 0.05), prepend=0) * np.exp(-_tt(0.05) * 120)
+            y[s0:s0 + len(c)] += c * (0.4 + r.random())
+        y = _lp(y, 3) * np.hanning(len(t)) ** 0.5
+        return y
+    if n == 'oven':  # ding de four
+        t = _tt(1.6); return (np.sin(2 * np.pi * 2093 * t) + 0.3 * np.sin(2 * np.pi * 4186 * t)) * np.exp(-t * 3.5)
+    if n == 'owl':  # hulotte : hou ... hou-hou-hou
+        d = 2.6; y = np.zeros(int(SR * d))
+        for s0, dd, f0 in ((0.0, 0.7, 400), (1.0, 0.25, 380), (1.35, 0.25, 380), (1.7, 0.7, 340)):
+            t = _tt(dd); f = f0 * (1 - 0.12 * t / dd)
+            v = (np.sin(2 * np.pi * np.cumsum(f) / SR) + 0.2 * np.sin(4 * np.pi * np.cumsum(f) / SR)) * np.hanning(len(t)) ** 1.5
+            i = int(s0 * SR); y[i:i + len(v)] += v
+        return y
+    if n == 'fire':  # crépitement de feu
+        d = 2.6; t = _tt(d); y = _lp(_wn(r, d), 12) * 0.25 * (0.6 + 0.4 * np.sin(2 * np.pi * 0.7 * t))
+        for _ in range(28):
+            s0 = int(r.random() * (len(t) - 2000)); L = int(SR * (0.004 + 0.012 * r.random()))
+            c = np.diff(_wn(r, 0.02), prepend=0)[:L] * np.exp(-np.arange(L) / (L / 4)) * (0.3 + 1.2 * r.random())
+            y[s0:s0 + L] += _lp(c, 2)
+        return _fade(y, 0.2, 0.3)
+    if n == 'lapping':  # clapotis
+        d = 2.4; t = _tt(d); y = np.zeros(len(t))
+        for _ in range(16):
+            s0 = int(r.random() * (len(t) - 9000)); f0 = 500 + 700 * r.random(); u = _tt(0.15)
+            v = np.sin(2 * np.pi * np.cumsum(f0 + 1500 * u) / SR) * np.exp(-u * 30) * 0.5
+            y[s0:s0 + len(v)] += v
+        return _fade(y + _lp(_wn(r, d), 20) * 0.2, 0.2, 0.4)
+    if n == 'departbell':  # cloche de départ : trois coups
+        d = 2.2; y = np.zeros(int(SR * d))
+        for k in range(3):
+            v = bell(1.2); s0 = int(k * 0.5 * SR); y[s0:s0 + len(v)] += v[: len(y) - s0]
+        return y
+    if n == 'market':  # ambiance de marché : murmure + tintements
+        d = 3.0; t = _tt(d); y = _lp(_wn(r, d), 14) * 0.5 * (0.6 + 0.4 * np.sin(2 * np.pi * 0.9 * t))
+        for s0 in (0.5, 1.4, 2.2):
+            v = tone(2600, 0.25, 0.3, (1, .3)); i = int(s0 * SR); y[i:i + len(v)] += v
+        return _fade(y, 0.3, 0.4)
+    if n == 'firecrackers':  # pétards lointains et sourds
+        d = 1.6; y = np.zeros(int(SR * d))
+        for s0 in (0.0, 0.12, 0.2, 0.55, 0.62, 0.7, 0.78, 1.1):
+            L = int(0.06 * SR); c = _lp(_wn(r, 0.06), 6)[:L] * np.exp(-np.arange(L) / (L / 5)); i = int(s0 * SR); y[i:i + L] += c * 1.3
+        return y
+    if n == 'rocket':  # ronronnement de fusée
+        d = 3.0; t = _tt(d); x = _lp(_wn(r, d), 30) * 0.6 + np.sin(2 * np.pi * 55 * t) * 0.4 + np.sin(2 * np.pi * 110 * t) * 0.15
+        return _fade(x * (0.8 + 0.2 * np.sin(2 * np.pi * 7 * t)), 0.4, 0.5)
+    if n == 'countdown':  # bips de compte à rebours
+        d = 2.2; y = _pulses(d, [0, 0.5, 1.0], 880, 9, 0.8); y += _pulses(d, [1.5], 1320, 5, 0.8); return y
+    if n == 'space':  # souffle d'ambiance spatiale
+        d = 3.0; t = _tt(d); x = _lp(_wn(r, d), 80) * 0.7 + np.sin(2 * np.pi * 220 * t) * 0.15 * (0.5 + 0.5 * np.sin(2 * np.pi * 0.3 * t))
+        x += np.sin(2 * np.pi * 330.5 * t) * 0.1; return _fade(x, 0.8, 0.9)
+    if n == 'moonchime':  # tintement de la lune
+        d = 2.2; y = np.zeros(int(SR * d))
+        for k, nn in enumerate([96, 100, 103, 108]):
+            v = tone(m(nn), 1.2, 0.4, (1, .15)); i = int(k * 0.2 * SR); y[i:i + len(v)] += v[: len(y) - i]
+        return y
+    return None
+NEWSFX = ('wind leaves footleaves crickets traffic siren tram station train fanfare whistle applause oven owl fire '
+          'lapping departbell market firecrackers rocket countdown space moonchime').split()
+def newsfx(n, t0):
+    if n not in NEWSFX: return
+    y = np.nan_to_num(_nsfx(n)); pk = np.max(np.abs(y))
+    if pk > 0: y = y / pk * 0.5
+    add(y, t0)
+for e in tl['sfx']: eventsfx(e['name'], e['t']); newsfx(e['name'], e['t'])
 
 # ── voix (Kokoro, voir voix.py) ───────────────────────────────────────────────
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))

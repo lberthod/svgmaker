@@ -1,0 +1,9 @@
+# 51-jura : fait -> source
+- 1815, Congrès de Vienne attribue l'ancien Évêché de Bâle à Berne; Nord catholique, Sud réformé; 9 articles sur 25 de l'Acte de réunion garantissent le catholicisme : https://fr.wikipedia.org/wiki/Question_jurassienne
+- 1947, affaire Moeckli (Grand Conseil bernois refuse les Travaux publics au Jurassien Georges Moeckli; mouvement séparatiste fondé à Moutier le 30 nov. 1947) : https://hls-dhs-dss.ch/fr/articles/017345/ (via recherche) et https://fr.wikipedia.org/wiki/Question_jurassienne
+- 23 juin 1974 : 51,93 % de oui, 3 districts sur 7 (Delémont, Porrentruy, Franches-Montagnes oui; Courtelary, La Neuveville, Moutier, Laufon non) : https://fr.wikipedia.org/wiki/Canton_du_Jura et https://en.wikipedia.org/wiki/Jura_separatism
+- 16 mars 1975 : Courtelary, La Neuveville, Moutier, Laufon restent bernois : https://en.wikipedia.org/wiki/Jura_separatism
+- 24 sept. 1978 : 82,3 % de oui; 1er janvier 1979 : souveraineté; chef-lieu Delémont : https://fr.wikipedia.org/wiki/Canton_du_Jura
+- Laufon : vote du 12 nov. 1989 pour Bâle-Campagne, rattachement le 1er janvier 1994 : https://fr.wikipedia.org/wiki/Question_jurassienne
+- Moutier : vote annulé de 2017, nouveau vote 2021 par 54,9 % de oui; passage au Jura le 1er janvier 2026 (minuit 31 déc. 2025) : https://www.swissinfo.ch/eng/swiss-politics/swiss-town-of-moutier-celebrates-move-from-bern-to-jura/90714704 et https://fr.wikipedia.org/wiki/Canton_du_Jura
+- Non confirmé : nom exact de la fondation du Rassemblement jurassien (1949/1951 selon sources, non écrit à l'écran); date du vote 2021 (28 mars FR vs 23 mars EN, seule l'année est dite); source HLS directe 403 (non lue); 1983 Laufon (sources contradictoires, omis); polygones : Moutier absent du district Jura bernois sur la carte, balise placée à la main.

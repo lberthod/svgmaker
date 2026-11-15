@@ -1,0 +1,1268 @@
+{
+ "format": "atlas",
+ "id": "atlas-norvege",
+ "base": {
+  "countries": [
+   "Norway",
+   "Sweden",
+   "Denmark",
+   "Finland"
+  ]
+ },
+ "terrain": [
+  {
+   "box": [
+    -14,
+    27,
+    40,
+    76
+   ],
+   "px": 3000,
+   "z": 6
+  },
+  {
+   "box": [
+    -0.4,
+    53.2,
+    22.4,
+    71.4
+   ],
+   "px": 2800,
+   "z": 8
+  }
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "text": "Une langue, deux écritures",
+   "sub": "La Norvège",
+   "focus": {
+    "box": [
+     0,
+     57.5,
+     22,
+     71
+    ]
+   },
+   "highlight": [
+    {
+     "color": "#4FA3E0",
+     "at": {
+      "line": 0,
+      "word": "Norvège",
+      "d": 0.1
+     },
+     "keep": false,
+     "countries": [
+      "Norway"
+     ]
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      10.75,
+      59.91
+     ],
+     "title": "Bokmål",
+     "side": "r",
+     "when": {
+      "line": 1,
+      "word": "boukmol",
+      "d": 0
+     }
+    },
+    {
+     "at": [
+      6.15,
+      62.2
+     ],
+     "title": "Nynorsk",
+     "side": "l",
+     "when": {
+      "line": 1,
+      "word": "nunorsk",
+      "d": 0
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      10.75,
+      59.91
+     ],
+     "when": 0.5
+    },
+    {
+     "at": [
+      6.15,
+      62.2
+     ],
+     "when": 0.9
+    }
+   ],
+   "say": [
+    "Pourquoi la Norvège écrit-elle sa langue de deux façons ?",
+    {
+     "say": "Le boukmol et le nunorsk sont officiels, et chaque élève apprend les deux.",
+     "show": "Le bokmål et le nynorsk sont officiels, et chaque élève apprend les deux."
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "Vers l’an 900",
+   "text": "Le vieux norrois des Vikings",
+   "focus": {
+    "box": [
+     2,
+     58,
+     17,
+     66.5
+    ]
+   },
+   "highlight": [
+    {
+     "color": "#4FA3E0",
+     "at": {
+      "line": 0,
+      "word": "Norvège",
+      "d": 0
+     },
+     "keep": false,
+     "countries": [
+      "Norway"
+     ]
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      6.2,
+      62.6
+     ],
+     "to": [
+      1.5,
+      62
+     ],
+     "n": 4,
+     "color": "#E8503A",
+     "label": "Navires vikings",
+     "at": {
+      "line": 0,
+      "word": "royaume",
+      "d": 0
+     },
+     "dur": 2.6
+    }
+   ],
+   "people": [
+    {
+     "who": "marin",
+     "at": [
+      9.2,
+      61.8
+     ],
+     "size": 230,
+     "say": "Cap à l’ouest !",
+     "when": {
+      "line": 1,
+      "word": "norrois",
+      "d": -0.3
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Suède",
+     "at": [
+      14.3,
+      62.5
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "word": "Norvège",
+      "d": 0.4
+     }
+    },
+    {
+     "text": "Mer du Nord",
+     "at": [
+      2.5,
+      58.6
+     ],
+     "size": 34,
+     "when": {
+      "line": 1,
+      "word": "langue",
+      "d": 0
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      6.15,
+      62.2
+     ],
+     "when": 0.5
+    }
+   ],
+   "say": [
+    "Vers l’an 900, la Norvège est un royaume viking.",
+    "On y parle le vieux norrois, ancêtre du norvégien."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1380 – 1814",
+   "text": "Sous la couronne danoise",
+   "focus": {
+    "box": [
+     4,
+     53.6,
+     16,
+     63.2
+    ]
+   },
+   "highlight": [
+    {
+     "color": "#4FA3E0",
+     "at": {
+      "line": 0,
+      "word": "Norvège",
+      "d": 0
+     },
+     "keep": false,
+     "countries": [
+      "Norway"
+     ]
+    },
+    {
+     "color": "#E8503A",
+     "at": {
+      "line": 0,
+      "word": "Danemark",
+      "d": 0
+     },
+     "keep": false,
+     "countries": [
+      "Denmark"
+     ]
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      12.57,
+      55.68
+     ],
+     "to": [
+      10.75,
+      59.91
+     ],
+     "n": 3,
+     "color": "#E8503A",
+     "label": "Ordres du roi",
+     "at": {
+      "line": 1,
+      "word": "règne",
+      "d": 0
+     },
+     "dur": 1.8
+    }
+   ],
+   "people": [
+    {
+     "who": "roi",
+     "at": [
+      12.57,
+      55.68
+     ],
+     "size": 220,
+     "say": "Je règne !",
+     "label": {
+      "title": "Roi du Danemark"
+     },
+     "when": {
+      "line": 1,
+      "word": "roi",
+      "d": -0.2
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      12.57,
+      55.68
+     ],
+     "title": "Copenhague",
+     "side": "l",
+     "when": {
+      "line": 1,
+      "word": "Copenhague",
+      "d": 0
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Suède",
+     "at": [
+      15.8,
+      60.5
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "word": "Norvège",
+      "d": 0.5
+     }
+    }
+   ],
+   "say": [
+    "En 1380, la Norvège a le même roi que le Danemark.",
+    "Pendant plus de quatre siècles, il règne depuis Copenhague."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "16e siècle",
+   "text": "Le danois devient la langue écrite",
+   "focus": {
+    "box": [
+     4,
+     54,
+     16,
+     63.4
+    ]
+   },
+   "highlight": [
+    {
+     "color": "#4FA3E0",
+     "at": {
+      "line": 0,
+      "word": "Réforme",
+      "d": 0
+     },
+     "keep": false,
+     "countries": [
+      "Norway"
+     ]
+    },
+    {
+     "color": "#E8503A",
+     "at": {
+      "line": 0,
+      "word": "Réforme",
+      "d": 0.4
+     },
+     "keep": false,
+     "countries": [
+      "Denmark"
+     ]
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      12.57,
+      55.68
+     ],
+     "to": [
+      10.75,
+      59.91
+     ],
+     "n": 3,
+     "color": "#E8503A",
+     "label": "Écrits danois",
+     "at": {
+      "line": 0,
+      "word": "Bible",
+      "d": 0
+     },
+     "dur": 2.4
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      10.75,
+      59.91
+     ],
+     "title": "Oslo",
+     "side": "r",
+     "when": {
+      "line": 1,
+      "word": "écrivent",
+      "d": 0.1
+     }
+    }
+   ],
+   "art": [
+    {
+     "kind": "languages",
+     "at": {
+      "line": 1,
+      "d": 0
+     },
+     "dur": 3.5,
+     "title": "Qui parle quoi ?",
+     "items": [
+      {
+       "icon": "house",
+       "where": "À la maison",
+       "lang": "Dialectes",
+       "note": "norvégien parlé",
+       "color": "#4FA3E0"
+      },
+      {
+       "icon": "school",
+       "where": "À l’école",
+       "lang": "Danois",
+       "note": "langue écrite",
+       "color": "#E8503A"
+      },
+      {
+       "icon": "admin",
+       "where": "À l’église",
+       "lang": "Danois",
+       "note": "Bible et lois",
+       "color": "#E8503A"
+      }
+     ]
+    }
+   ],
+   "say": [
+    "Après la Réforme, vers 1537, la Bible et l’école passent au danois.",
+    "Les Norvégiens parlent leur langue, mais ils écrivent en danois."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1814 – 1905",
+   "text": "Une constitution, puis une langue à trouver",
+   "focus": {
+    "box": [
+     4,
+     58.5,
+     15,
+     64.5
+    ]
+   },
+   "highlight": [
+    {
+     "color": "#4FA3E0",
+     "at": {
+      "line": 0,
+      "word": "constitution",
+      "d": 0
+     },
+     "keep": false,
+     "countries": [
+      "Norway"
+     ]
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      11.26,
+      60.32
+     ],
+     "title": "Eidsvoll",
+     "sub": "1814",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "Eidsvoll",
+      "d": -0.7
+     }
+    }
+   ],
+   "people": [
+    {
+     "who": "rebelle",
+     "at": [
+      9.4,
+      61.3
+     ],
+     "size": 210,
+     "say": "Écrivons norvégien !",
+     "when": {
+      "line": 1,
+      "word": "ancêtre",
+      "d": -0.8
+     }
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      11.26,
+      60.32
+     ],
+     "to": [
+      6.15,
+      62.2
+     ],
+     "n": 3,
+     "color": "#FFFFFF",
+     "label": "Danois norvégianisé",
+     "at": {
+      "line": 1,
+      "word": "norvégianise",
+      "d": -0.2
+     },
+     "dur": 2.6
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      11.26,
+      60.32
+     ],
+     "when": 0.4
+    }
+   ],
+   "say": [
+    "En 1814, constitution à Eidsvoll ; en 1905, indépendance : il faut une langue nationale.",
+    {
+     "say": "Le danois se norvégianise peu à peu : c’est l’ancêtre du boukmol.",
+     "show": "Le danois se norvégianise peu à peu : c’est l’ancêtre du bokmål."
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "Vers 1850",
+   "text": "Ivar Aasen parcourt le pays",
+   "focus": {
+    "box": [
+     4,
+     58.8,
+     14,
+     65
+    ]
+   },
+   "highlight": [
+    {
+     "color": "#4FA3E0",
+     "at": {
+      "line": 0,
+      "word": "Aasen",
+      "d": 0
+     },
+     "keep": false,
+     "countries": [
+      "Norway"
+     ]
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      6.15,
+      62.2
+     ],
+     "to": [
+      10.4,
+      63.43
+     ],
+     "n": 3,
+     "color": "#3E9A63",
+     "label": "Mots recueillis",
+     "at": {
+      "line": 0,
+      "word": "note",
+      "d": 0
+     },
+     "dur": 3.2
+    },
+    {
+     "from": [
+      6.15,
+      62.2
+     ],
+     "to": [
+      8.6,
+      60.6
+     ],
+     "n": 3,
+     "color": "#3E9A63",
+     "at": {
+      "line": 0,
+      "word": "note",
+      "d": 0.5
+     },
+     "dur": 3.2
+    }
+   ],
+   "people": [
+    {
+     "who": "savant",
+     "at": [
+      8.4,
+      62.9
+     ],
+     "size": 230,
+     "say": "Quel mot, ici ?",
+     "label": {
+      "title": "Ivar Aasen",
+      "sub": "1813 – 1896"
+     },
+     "when": {
+      "line": 0,
+      "word": "Aasen",
+      "d": 0.1
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      6.15,
+      62.2
+     ],
+     "title": "Ørsta",
+     "sub": "sa ville natale",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "paysans",
+      "d": -0.3
+     }
+    }
+   ],
+   "art": [
+    {
+     "kind": "timeline",
+     "at": {
+      "line": 1,
+      "word": "Grammaire",
+      "d": 0
+     },
+     "dur": 4.2,
+     "title": "Ivar Aasen",
+     "items": [
+      {
+       "year": "1813",
+       "text": "Naissance à Ørsta",
+       "color": "#3E9A63"
+      },
+      {
+       "year": "1848",
+       "text": "Grammaire",
+       "color": "#3E9A63"
+      },
+      {
+       "year": "1850",
+       "text": "Dictionnaire",
+       "color": "#3E9A63"
+      }
+     ]
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      6.15,
+      62.2
+     ],
+     "when": 0.4
+    }
+   ],
+   "say": [
+    "Dès 1842, Ivar Aasen, fils de paysans, note les mots des dialectes.",
+    "Grammaire en 1848, dictionnaire en 1850."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1850 – 1885",
+   "text": "Le landsmål, langue des dialectes",
+   "focus": {
+    "box": [
+     3.5,
+     58,
+     14.5,
+     64.5
+    ]
+   },
+   "highlight": [
+    {
+     "color": "#4FA3E0",
+     "at": 0,
+     "keep": false,
+     "countries": [
+      "Norway"
+     ]
+    },
+    {
+     "color": "#3E9A63",
+     "at": {
+      "line": 0,
+      "word": "ouest",
+      "d": 0
+     },
+     "keep": false,
+     "regions": [
+      {
+       "c": "Norway",
+       "n": "Hordaland"
+      },
+      {
+       "c": "Norway",
+       "n": "Sogn og Fjordane"
+      },
+      {
+       "c": "Norway",
+       "n": "Møre og Romsdal"
+      }
+     ]
+    }
+   ],
+   "labels": [
+    {
+     "text": "Surtout à l’ouest",
+     "at": [
+      7.2,
+      60.7
+     ],
+     "size": 34,
+     "when": {
+      "line": 0,
+      "word": "ouest",
+      "d": 0.2
+     }
+    }
+   ],
+   "people": [
+    {
+     "who": "paysan",
+     "at": [
+      7.4,
+      61.5
+     ],
+     "size": 210,
+     "say": "Notre langue !",
+     "mood": "happy",
+     "when": {
+      "line": 1,
+      "word": "Parlement",
+      "d": 0.2
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      10.75,
+      59.91
+     ],
+     "title": "Parlement",
+     "sub": "1885",
+     "side": "r",
+     "when": {
+      "line": 1,
+      "word": "Parlement",
+      "d": -0.8
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      10.75,
+      59.91
+     ],
+     "when": 0.4
+    }
+   ],
+   "say": [
+    {
+     "say": "Il bâtit le landsmol sur les dialectes, surtout ceux de l’ouest, proches du vieux norrois.",
+     "show": "Il bâtit le landsmål sur les dialectes, surtout ceux de l’ouest, proches du vieux norrois."
+    },
+    "En 1885, le Parlement l’égale au danois norvégianisé."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1929",
+   "text": "Deux noms officiels",
+   "focus": {
+    "box": [
+     3.5,
+     58.5,
+     15,
+     65
+    ]
+   },
+   "highlight": [
+    {
+     "color": "#4FA3E0",
+     "at": 0,
+     "keep": false,
+     "countries": [
+      "Norway"
+     ]
+    },
+    {
+     "color": "#3E9A63",
+     "at": {
+      "line": 0,
+      "word": "nunorsk",
+      "d": 0
+     },
+     "keep": false,
+     "regions": [
+      {
+       "c": "Norway",
+       "n": "Hordaland"
+      },
+      {
+       "c": "Norway",
+       "n": "Sogn og Fjordane"
+      },
+      {
+       "c": "Norway",
+       "n": "Møre og Romsdal"
+      }
+     ]
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      10.75,
+      59.91
+     ],
+     "title": "Bokmål",
+     "sub": "langue des livres",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "boukmol",
+      "d": 0
+     }
+    },
+    {
+     "at": [
+      6.15,
+      62.2
+     ],
+     "title": "Nynorsk",
+     "sub": "nouveau norvégien",
+     "side": "t",
+     "when": {
+      "line": 0,
+      "word": "nunorsk",
+      "d": 0
+     }
+    }
+   ],
+   "art": [
+    {
+     "kind": "languages",
+     "at": {
+      "line": 1,
+      "word": "Ola",
+      "d": 0
+     },
+     "dur": 4,
+     "title": "Je m’appelle Ola",
+     "items": [
+      {
+       "icon": "school",
+       "where": "En bokmål",
+       "lang": "Bokmål",
+       "note": "Jeg heter Ola",
+       "color": "#4FA3E0"
+      },
+      {
+       "icon": "house",
+       "where": "En nynorsk",
+       "lang": "Nynorsk",
+       "note": "Eg heiter Ola",
+       "color": "#3E9A63"
+      }
+     ]
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      10.75,
+      59.91
+     ],
+     "when": 0.4
+    },
+    {
+     "at": [
+      6.15,
+      62.2
+     ],
+     "when": 0.9
+    }
+   ],
+   "say": [
+    {
+     "say": "En 1929, les deux reçoivent leurs noms : boukmol, « langue des livres », et nunorsk, « nouveau norvégien ».",
+     "show": "En 1929, les deux reçoivent leurs noms : bokmål, « langue des livres », et nynorsk, « nouveau norvégien »."
+    },
+    {
+     "say": "Pour dire « Je m’appelle Ola » : yaï héter Ola en boukmol, èg haïter Ola en nunorsk.",
+     "show": "« Je m’appelle Ola » : jeg heter Ola en bokmål, eg heiter Ola en nynorsk."
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "Aujourd’hui",
+   "text": "Qui écrit en nynorsk ?",
+   "focus": {
+    "box": [
+     3.5,
+     58,
+     14.5,
+     65
+    ]
+   },
+   "highlight": [
+    {
+     "color": "#4FA3E0",
+     "at": 0,
+     "keep": false,
+     "countries": [
+      "Norway"
+     ]
+    },
+    {
+     "color": "#3E9A63",
+     "at": {
+      "line": 0,
+      "word": "ouest",
+      "d": 0
+     },
+     "keep": false,
+     "regions": [
+      {
+       "c": "Norway",
+       "n": "Hordaland"
+      },
+      {
+       "c": "Norway",
+       "n": "Sogn og Fjordane"
+      },
+      {
+       "c": "Norway",
+       "n": "Møre og Romsdal"
+      }
+     ]
+    }
+   ],
+   "labels": [
+    {
+     "text": "Nynorsk",
+     "at": [
+      6.6,
+      60.9
+     ],
+     "size": 36,
+     "when": {
+      "line": 0,
+      "word": "ouest",
+      "d": 0
+     }
+    },
+    {
+     "text": "Bokmål",
+     "at": [
+      11,
+      61.6
+     ],
+     "size": 36,
+     "when": {
+      "line": 1,
+      "word": "commune",
+      "d": 0
+     }
+    }
+   ],
+   "art": [
+    {
+     "kind": "stats",
+     "at": {
+      "line": 0,
+      "word": "onze",
+      "d": -0.1
+     },
+     "dur": 2.6,
+     "title": "Le nynorsk aujourd’hui",
+     "items": [
+      {
+       "value": 11,
+       "decimals": 0,
+       "suffix": " %",
+       "label": "des élèves, environ",
+       "color": "#3E9A63"
+      },
+      {
+       "value": 25,
+       "decimals": 0,
+       "suffix": " %",
+       "label": "des communes, environ",
+       "color": "#3E9A63"
+      }
+     ]
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      10.4,
+      61
+     ],
+     "to": [
+      7,
+      61
+     ],
+     "n": 3,
+     "color": "#3E9A63",
+     "label": "Surtout à l’ouest",
+     "at": {
+      "line": 0,
+      "word": "surtout",
+      "d": 0
+     },
+     "dur": 2.4
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      6.15,
+      62.2
+     ],
+     "when": 0.4
+    }
+   ],
+   "say": [
+    "Aujourd’hui, environ 11 % des élèves écrivent d’abord en nynorsk, surtout à l’ouest.",
+    "Environ une commune sur quatre l’a choisi."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "Pourquoi les deux ?",
+   "text": "Aucune n’a gagné",
+   "focus": {
+    "box": [
+     3.5,
+     58.5,
+     15,
+     64.5
+    ]
+   },
+   "highlight": [
+    {
+     "color": "#4FA3E0",
+     "at": 0,
+     "keep": false,
+     "countries": [
+      "Norway"
+     ]
+    },
+    {
+     "color": "#3E9A63",
+     "at": {
+      "line": 0,
+      "word": "ouest",
+      "d": 0
+     },
+     "keep": false,
+     "regions": [
+      {
+       "c": "Norway",
+       "n": "Hordaland"
+      },
+      {
+       "c": "Norway",
+       "n": "Sogn og Fjordane"
+      },
+      {
+       "c": "Norway",
+       "n": "Møre og Romsdal"
+      }
+     ]
+    }
+   ],
+   "people": [
+    {
+     "who": "paysan",
+     "at": [
+      7,
+      61.5
+     ],
+     "size": 200,
+     "say": "Nos dialectes !",
+     "when": {
+      "line": 0,
+      "word": "ouest",
+      "d": 0
+     }
+    },
+    {
+     "who": "savant",
+     "at": [
+      10.6,
+      60.3
+     ],
+     "size": 200,
+     "say": "Notre écriture !",
+     "when": {
+      "line": 0,
+      "word": "est",
+      "d": 0.3
+     }
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      7,
+      61
+     ],
+     "to": [
+      9,
+      61
+     ],
+     "n": 3,
+     "color": "#FFFFFF",
+     "label": "Compromis",
+     "at": {
+      "line": 1,
+      "word": "apprend",
+      "d": 0
+     },
+     "dur": 2.4
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      10.75,
+      59.91
+     ],
+     "when": 0.4
+    },
+    {
+     "at": [
+      6.15,
+      62.2
+     ],
+     "when": 0.8
+    }
+   ],
+   "say": [
+    "Aucune n’a gagné : l’ouest aimait ses dialectes, l’est son écriture danoise.",
+    "Les deux gardent leur place."
+   ]
+  },
+  {
+   "type": "final",
+   "text": "Une langue, deux écritures",
+   "sub": "La Norvège",
+   "focus": {
+    "box": [
+     0,
+     57.5,
+     22,
+     71
+    ]
+   },
+   "people": [
+    {
+     "who": "marin",
+     "at": [
+      9.6,
+      64
+     ],
+     "size": 250,
+     "say": "Deux écritures !",
+     "wave": true,
+     "when": 1.8
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      10.75,
+      59.91
+     ],
+     "title": "Bokmål",
+     "side": "r",
+     "when": 0.6
+    },
+    {
+     "at": [
+      6.15,
+      62.2
+     ],
+     "title": "Nynorsk",
+     "side": "t",
+     "when": 1
+    }
+   ],
+   "say": [
+    {
+     "say": "Voilà pourquoi la Norvège écrit de deux façons : le boukmol, héritier du danois, et le nunorsk, bâti sur les dialectes.",
+     "show": "Voilà pourquoi la Norvège écrit de deux façons : le bokmål, héritier du danois, et le nynorsk, bâti sur les dialectes."
+    },
+    "Et c’est la réponse à la question du début :"
+   ],
+   "highlight": [
+    {
+     "color": "#4FA3E0",
+     "at": {
+      "line": 0,
+      "word": "Norvège",
+      "d": 0
+     },
+     "keep": false,
+     "countries": [
+      "Norway"
+     ]
+    },
+    {
+     "color": "#3E9A63",
+     "at": {
+      "line": 0,
+      "word": "dialectes",
+      "d": 0
+     },
+     "keep": false,
+     "regions": [
+      {
+       "c": "Norway",
+       "n": "Hordaland"
+      },
+      {
+       "c": "Norway",
+       "n": "Sogn og Fjordane"
+      },
+      {
+       "c": "Norway",
+       "n": "Møre og Romsdal"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

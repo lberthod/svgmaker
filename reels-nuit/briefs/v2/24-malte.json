@@ -1,0 +1,1009 @@
+{
+ "format": "atlas",
+ "id": "atlas-malte",
+ "base": {
+  "countries": [
+   "Malta"
+  ]
+ },
+ "terrain": [
+  {
+   "box": [
+    -14,
+    27,
+    40,
+    76
+   ],
+   "px": 2800,
+   "z": 6
+  },
+  {
+   "box": [
+    3.6,
+    29.5,
+    21.0,
+    47.0
+   ],
+   "px": 2800,
+   "z": 8
+  }
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "text": "Une langue d’origine arabe écrite en lettres latines !",
+   "sub": "Voici le maltais",
+   "focus": {
+    "box": [
+     11.8,
+     34.2,
+     16.4,
+     38.4
+    ]
+   },
+   "highlight": {
+    "countries": [
+     "Malta"
+    ],
+    "color": "#FFD83C",
+    "at": 0.7,
+    "keep": false
+   },
+   "pills": [],
+   "beacon": [
+    {
+     "at": [
+      14.514,
+      35.899
+     ],
+     "when": 0.6
+    }
+   ],
+   "art": [
+    {
+     "kind": "stats",
+     "at": {
+      "line": 1,
+      "word": "archipel",
+      "d": 0.2
+     },
+     "dur": 2.5,
+     "title": "Un petit archipel",
+     "sub": "Malte en chiffres",
+     "items": [
+      {
+       "value": 316,
+       "suffix": " km²",
+       "label": "de superficie",
+       "color": "#FFD83C"
+      },
+      {
+       "value": 560000,
+       "label": "habitants, environ",
+       "color": "#8FD0EE"
+      }
+     ]
+    }
+   ],
+   "say": [
+    "Le maltais est une langue sémitique, de la famille de l’arabe, mais écrite en alphabet latin.",
+    "Elle est née sur un petit archipel de la Méditerranée, entre la Sicile et l’Afrique."
+   ],
+   "labels": [
+    {
+     "text": "Sicile",
+     "at": [
+      13.6,
+      37.5
+     ],
+     "size": 40,
+     "when": 0.8
+    },
+    {
+     "text": "Tunisie",
+     "at": [
+      11.9,
+      34.6
+     ],
+     "size": 40,
+     "when": 1.0
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "800 · 218 av. J.-C.",
+   "text": "Phéniciens, puis Romains",
+   "focus": {
+    "box": [
+     9.0,
+     33.4,
+     17.0,
+     43.6
+    ]
+   },
+   "moves": [
+    {
+     "from": [
+      10.3,
+      36.8
+     ],
+     "to": [
+      14.514,
+      35.899
+     ],
+     "n": 3,
+     "color": "#B45AE0",
+     "label": "Phéniciens",
+     "at": {
+      "line": 0,
+      "word": "phéniciens",
+      "d": 0.2
+     },
+     "dur": 2.4
+    },
+    {
+     "from": [
+      15.3,
+      37.1
+     ],
+     "to": [
+      14.514,
+      35.899
+     ],
+     "n": 3,
+     "color": "#E8503A",
+     "label": "Romains",
+     "at": {
+      "line": 1,
+      "word": "romains",
+      "d": 0.1
+     },
+     "dur": 2.4
+    }
+   ],
+   "people": [
+    {
+     "who": "marin",
+     "at": [
+      12.4,
+      34.4
+     ],
+     "size": 230,
+     "say": "Colonie phénicienne",
+     "when": {
+      "line": 0,
+      "word": "phéniciens",
+      "d": 0.4
+     }
+    },
+    {
+     "who": "romain",
+     "at": [
+      13.0,
+      37.6
+     ],
+     "size": 230,
+     "say": "Malte est romaine",
+     "when": {
+      "line": 1,
+      "word": "romains",
+      "d": 0.3
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Sicile",
+     "at": [
+      13.9,
+      37.0
+     ],
+     "size": 38,
+     "when": 0.8
+    },
+    {
+     "text": "Tunisie",
+     "at": [
+      9.7,
+      34.6
+     ],
+     "size": 38,
+     "when": 1.0
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      14.514,
+      35.899
+     ],
+     "title": "Malte",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "phéniciens",
+      "d": 0.5
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      14.514,
+      35.899
+     ],
+     "when": 0.4
+    }
+   ],
+   "say": [
+    "Vers 800 avant Jésus-Christ, des marins phéniciens s’installent à Malte.",
+    "En 218 avant Jésus-Christ, les Romains prennent l’archipel pendant leur guerre contre Carthage."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "870 · 1091",
+   "text": "Arabes, puis Normands",
+   "focus": {
+    "box": [
+     8.2,
+     31.8,
+     18.0,
+     38.8
+    ]
+   },
+   "moves": [
+    {
+     "from": [
+      10.2,
+      35.6
+     ],
+     "to": [
+      14.514,
+      35.899
+     ],
+     "n": 4,
+     "color": "#3E9A63",
+     "at": {
+      "line": 0,
+      "word": "870",
+      "d": 0.3
+     },
+     "dur": 2.6
+    },
+    {
+     "from": [
+      13.36,
+      38.12
+     ],
+     "to": [
+      14.514,
+      35.899
+     ],
+     "n": 3,
+     "color": "#E8A33C",
+     "at": {
+      "line": 1,
+      "word": "1091",
+      "d": 0.3
+     },
+     "dur": 2.4
+    }
+   ],
+   "people": [
+    {
+     "who": "savant",
+     "at": [
+      11.4,
+      34.1
+     ],
+     "size": 220,
+     "outfit": "#3E9A63",
+     "say": "Une langue arabe",
+     "label": {
+      "title": "Arabes",
+      "sub": "870"
+     },
+     "when": {
+      "line": 0,
+      "word": "arabe",
+      "d": 0.3
+     }
+    },
+    {
+     "who": "roi",
+     "at": [
+      15.0,
+      37.2
+     ],
+     "size": 220,
+     "say": "Malte est normande",
+     "label": {
+      "title": "Roger Ier",
+      "sub": "comte de Sicile, 1091"
+     },
+     "when": {
+      "line": 1,
+      "word": "Normands"
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Tunisie",
+     "at": [
+      8.9,
+      33.9
+     ],
+     "size": 38,
+     "when": 0.6
+    },
+    {
+     "text": "Sicile",
+     "at": [
+      13.6,
+      37.9
+     ],
+     "size": 38,
+     "when": 0.9
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      14.514,
+      35.899
+     ],
+     "title": "Malte",
+     "side": "t",
+     "when": {
+      "line": 1,
+      "word": "1091",
+      "d": 0.6
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      14.514,
+      35.899
+     ],
+     "when": 0.4
+    }
+   ],
+   "say": [
+    "En 870, des Arabes venus d’Afrique du Nord prennent l’île, et leur langue s’y installe.",
+    "En 1091, les Normands de Sicile prennent l’île à leur tour, mais le parler arabe reste vivant."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1530",
+   "text": "Les chevaliers de Saint-Jean",
+   "focus": {
+    "box": [
+     12.6,
+     34.8,
+     16.4,
+     37.4
+    ]
+   },
+   "highlight": {
+    "countries": [
+     "Malta"
+    ],
+    "color": "#E8503A",
+    "at": {
+     "line": 0,
+     "word": "chevaliers",
+     "d": -0.3
+    },
+    "keep": false
+   },
+   "people": [
+    {
+     "who": "soldat",
+     "at": [
+      13.8,
+      36.3
+     ],
+     "size": 240,
+     "outfit": "#B53A22",
+     "say": "Je défends l’île",
+     "label": {
+      "title": "Chevalier de Saint-Jean",
+      "sub": "1530"
+     },
+     "when": {
+      "line": 0,
+      "word": "chevaliers"
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      14.514,
+      35.899
+     ],
+     "title": "La Valette",
+     "sub": "fondée en 1566",
+     "side": "b",
+     "when": {
+      "line": 1,
+      "word": "bâtissent"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      14.514,
+      35.899
+     ],
+     "when": {
+      "line": 1,
+      "word": "siège"
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Gozo",
+     "at": [
+      14.25,
+      36.15
+     ],
+     "size": 36,
+     "when": 0.8
+    }
+   ],
+   "say": [
+    "En 1530, Charles Quint donne Malte aux chevaliers de l’Ordre de Saint-Jean.",
+    "Après leur victoire au grand siège de 1565, ils bâtissent La Valette, la nouvelle capitale."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1798 · 1800",
+   "text": "Napoléon, puis les Britanniques",
+   "focus": {
+    "box": [
+     4.0,
+     33.6,
+     18.0,
+     45.4
+    ]
+   },
+   "moves": [
+    {
+     "from": [
+      5.93,
+      43.12
+     ],
+     "to": [
+      14.514,
+      35.899
+     ],
+     "n": 4,
+     "color": "#4FA3E0",
+     "label": "Flotte française",
+     "at": {
+      "line": 0,
+      "word": "napoléon",
+      "d": -0.3
+     },
+     "dur": 2.8
+    }
+   ],
+   "people": [
+    {
+     "who": "soldat",
+     "at": [
+      12.0,
+      38.4
+     ],
+     "size": 240,
+     "outfit": "#2F5D9B",
+     "say": "Malte est française",
+     "when": {
+      "line": 0,
+      "word": "1798",
+      "d": 0.6
+     },
+     "label": {
+      "title": "Napoléon",
+      "sub": "1798"
+     }
+    },
+    {
+     "who": "marin",
+     "at": [
+      15.4,
+      36.7
+     ],
+     "size": 230,
+     "outfit": "#C62828",
+     "say": "Malte est britannique",
+     "label": {
+      "title": "Britannique",
+      "sub": "1800"
+     },
+     "when": {
+      "line": 1,
+      "word": "britanniques"
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      5.93,
+      43.12
+     ],
+     "title": "Toulon",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "napoléon"
+     }
+    },
+    {
+     "at": [
+      14.514,
+      35.899
+     ],
+     "title": "Malte",
+     "side": "b",
+     "when": {
+      "line": 1,
+      "word": "britanniques"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      14.514,
+      35.899
+     ],
+     "when": 0.4
+    }
+   ],
+   "labels": [
+    {
+     "text": "France",
+     "at": [
+      4.6,
+      44.6
+     ],
+     "size": 38,
+     "when": 0.6
+    },
+    {
+     "text": "Italie",
+     "at": [
+      11.5,
+      42.9
+     ],
+     "size": 38,
+     "when": 0.9
+    }
+   ],
+   "say": [
+    "En 1798, Napoléon s’arrête à Malte avec sa flotte et prend l’île aux chevaliers.",
+    "Deux ans plus tard, les Britanniques la contrôlent, et l’anglais arrive avec eux."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1964 · 1974",
+   "text": "Indépendante, puis république",
+   "focus": {
+    "box": [
+     13.6,
+     35.6,
+     15.2,
+     36.3
+    ]
+   },
+   "highlight": {
+    "countries": [
+     "Malta"
+    ],
+    "color": "#FFD83C",
+    "at": {
+     "line": 0,
+     "word": "1964",
+     "d": -0.4
+    },
+    "keep": false
+   },
+   "art": [
+    {
+     "kind": "timeline",
+     "at": {
+      "line": 1,
+      "word": "Dix",
+      "d": -0.3
+     },
+     "dur": 3.6,
+     "title": "Des siècles d’histoire",
+     "items": [
+      {
+       "year": "1800",
+       "text": "Les Britanniques"
+      },
+      {
+       "year": "1964",
+       "text": "Indépendance"
+      },
+      {
+       "year": "1974",
+       "text": "République"
+      }
+     ]
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      14.514,
+      35.899
+     ],
+     "title": "La Valette",
+     "side": "b",
+     "when": {
+      "line": 1,
+      "word": "république"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      14.514,
+      35.899
+     ],
+     "when": 0.4
+    }
+   ],
+   "say": [
+    "Le 21 septembre 1964, Malte devient indépendante, et le maltais est proclamé langue nationale.",
+    "Dix ans plus tard, en 1974, le pays devient une république."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "2004",
+   "text": "Dans l’Union européenne",
+   "focus": {
+    "box": [
+     8.0,
+     33.5,
+     20.0,
+     46.5
+    ]
+   },
+   "art": [
+    {
+     "kind": "languages",
+     "at": {
+      "line": 1,
+      "word": "maltais",
+      "d": -0.2
+     },
+     "dur": 3.8,
+     "title": "Deux langues officielles",
+     "items": [
+      {
+       "icon": "court",
+       "where": "Langue nationale",
+       "lang": "Maltais",
+       "note": "nationale depuis 1964",
+       "color": "#3E9A63"
+      },
+      {
+       "icon": "school",
+       "where": "Héritage britannique",
+       "lang": "Anglais",
+       "note": "aussi officielle",
+       "color": "#E8503A"
+      }
+     ]
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      14.514,
+      35.899
+     ],
+     "title": "Malte",
+     "sub": "2004",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "2004"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      14.514,
+      35.899
+     ],
+     "when": 0.4
+    }
+   ],
+   "say": [
+    "En 2004, Malte entre dans l’Union européenne, et le maltais devient sa seule langue sémitique officielle.",
+    "Le maltais et l’anglais sont aujourd’hui les deux langues officielles du pays."
+   ],
+   "highlight": [
+    {
+     "countries": [
+      "Malta"
+     ],
+     "color": "#FFD83C",
+     "at": {
+      "line": 0,
+      "word": "2004",
+      "d": -0.2
+     },
+     "keep": true
+    },
+    {
+     "countries": [
+      "Slovenia",
+      "Hungary",
+      "Czechia",
+      "Slovakia",
+      "Poland"
+     ],
+     "color": "#4FA3E0",
+     "at": {
+      "line": 0,
+      "word": "2004",
+      "d": 0.2
+     },
+     "keep": true
+    }
+   ],
+   "labels": [
+    {
+     "text": "Union européenne",
+     "at": [
+      16.2,
+      47.6
+     ],
+     "size": 42,
+     "when": {
+      "line": 0,
+      "word": "Union"
+     }
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "Aujourd’hui",
+   "text": "Un mélange unique",
+   "focus": {
+    "box": [
+     12.0,
+     34.4,
+     16.8,
+     37.6
+    ]
+   },
+   "art": [
+    {
+     "kind": "bars",
+     "at": {
+      "line": 0,
+      "word": "tiers",
+      "d": -0.3
+     },
+     "dur": 5.6,
+     "title": "D’où viennent les mots ?",
+     "sub": "vocabulaire du maltais, part des mots",
+     "items": [
+      {
+       "label": "Arabe",
+       "value": "32 %",
+       "h": 0.6,
+       "color": "#3E9A63"
+      },
+      {
+       "label": "Italien, sicilien",
+       "value": "52 %",
+       "h": 0.98,
+       "color": "#4FA3E0"
+      },
+      {
+       "label": "Anglais",
+       "value": "6 %",
+       "h": 0.12,
+       "color": "#E8503A"
+      }
+     ]
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      10.2,
+      35.6
+     ],
+     "to": [
+      14.514,
+      35.899
+     ],
+     "n": 2,
+     "color": "#3E9A63",
+     "label": "Arabe",
+     "at": {
+      "line": 1,
+      "word": "Malte"
+     },
+     "dur": 2.2
+    },
+    {
+     "from": [
+      13.9,
+      37.3
+     ],
+     "to": [
+      14.514,
+      35.899
+     ],
+     "n": 2,
+     "color": "#4FA3E0",
+     "label": "Italien",
+     "at": {
+      "line": 1,
+      "word": "Malte",
+      "d": 0.2
+     },
+     "dur": 2.2
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      14.514,
+      35.899
+     ],
+     "title": "Malte",
+     "sub": "carrefour de langues",
+     "side": "r",
+     "when": {
+      "line": 1,
+      "word": "carrefour",
+      "d": -0.3
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      14.514,
+      35.899
+     ],
+     "when": 0.4
+    }
+   ],
+   "say": [
+    "Environ un tiers des mots vient de l’arabe, et plus de la moitié de l’italien et du sicilien.",
+    "Malte, carrefour de la Méditerranée, a mélangé tout cela dans une seule langue."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "Des mots maltais",
+   "text": "Ktieb et Xemx",
+   "focus": {
+    "box": [
+     13.8,
+     35.7,
+     15.0,
+     36.2
+    ]
+   },
+   "art": [
+    {
+     "kind": "languages",
+     "at": {
+      "line": 0,
+      "d": 0.2
+     },
+     "dur": 4.5,
+     "title": "Des mots venus de l’arabe",
+     "items": [
+      {
+       "icon": "school",
+       "where": "Livre",
+       "lang": "Ktieb",
+       "note": "arabe : kitab",
+       "color": "#3E9A63"
+      },
+      {
+       "icon": "house",
+       "where": "Soleil",
+       "lang": "Xemx",
+       "note": "arabe : shams",
+       "color": "#E8A33C"
+      }
+     ]
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      14.514,
+      35.899
+     ],
+     "when": 0.4
+    }
+   ],
+   "say": [
+    {
+     "say": "Ktiéb veut dire livre, et chèmch veut dire soleil, comme en arabe.",
+     "show": "Ktieb veut dire livre, et Xemx veut dire soleil, comme en arabe."
+    }
+   ]
+  },
+  {
+   "type": "final",
+   "text": "Une langue d’origine arabe aux lettres latines",
+   "sub": "Malte",
+   "focus": {
+    "box": [
+     13.8,
+     35.7,
+     15.0,
+     36.2
+    ]
+   },
+   "people": [
+    {
+     "who": "marin",
+     "at": [
+      14.1,
+      36.1
+     ],
+     "size": 260,
+     "say": "À bientôt !",
+     "wave": true,
+     "when": 1.8
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      14.514,
+      35.899
+     ],
+     "stack": [
+      {
+       "text": "Maltais",
+       "color": "#3E9A63"
+      },
+      {
+       "text": "Anglais",
+       "color": "#E8503A"
+      }
+     ],
+     "when": 1.0
+    }
+   ],
+   "say": [
+    "Voilà pourquoi, à Malte, on parle une langue d’origine arabe écrite en lettres latines !"
+   ]
+  }
+ ]
+}

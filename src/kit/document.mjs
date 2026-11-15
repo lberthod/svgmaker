@@ -10,7 +10,7 @@ const f = fixed(3)
 
 export const BASE_CSS = `
 text{font-weight:700;paint-order:stroke;stroke-linejoin:round}
-.en{font-family:${EN_FONT}}.th{font-family:${TH_FONT}}
+.en{font-family:${EN_FONT};word-spacing:.14em;letter-spacing:.012em}.th{font-family:${TH_FONT}}
 .sc{opacity:0}
 .pop,.fx{transform-box:fill-box;transform-origin:center}
 @keyframes win{0%{opacity:0}3%{opacity:1}97%{opacity:1}100%{opacity:0}}

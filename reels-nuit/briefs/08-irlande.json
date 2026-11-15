@@ -1,0 +1,1338 @@
+{
+ "format": "atlas",
+ "id": "atlas-irlande-partition",
+ "scenes": [
+  {
+   "type": "hook",
+   "text": "Une île, deux pays : pourquoi l’Irlande est-elle divisée ?",
+   "focus": {
+    "box": [
+     -11.5,
+     51,
+     -3.5,
+     56
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Ireland"
+     ],
+     "color": "#FFD83C",
+     "keep": false,
+     "at": {
+      "line": 0,
+      "word": "Irlande",
+      "d": 0
+     }
+    },
+    {
+     "regions": [
+      {
+       "c": "United Kingdom",
+       "n": "Derry"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Strabane"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Fermanagh"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Dungannon"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Armagh"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Newry and Mourne"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Limavady"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Coleraine"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Moyle"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Larne"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Carrickfergus"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Newtownabbey"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Belfast"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "North Down"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Ards"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Down"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Magherafelt"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Omagh"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Mid Ulster"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Craigavon"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Banbridge"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Antrim"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Lisburn"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Ballymoney"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Ballymena"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Castlereagh"
+      }
+     ],
+     "color": "#6A7F9A",
+     "keep": false,
+     "at": {
+      "line": 0,
+      "word": "deux",
+      "d": 0.3
+     }
+    }
+   ],
+   "say": [
+    "Une île, deux pays : pourquoi l’Irlande est-elle divisée ?"
+   ],
+   "people": [
+    {
+     "who": "paysan",
+     "at": [
+      -8.0,
+      53.0
+     ],
+     "size": 230,
+     "say": "Une île !",
+     "when": {
+      "line": 0,
+      "word": "île",
+      "d": 0.2
+     },
+     "mood": "wow"
+    }
+   ],
+   "pills": [
+    {
+     "at": "Dublin",
+     "title": "Dublin",
+     "side": "l",
+     "when": {
+      "line": 0,
+      "word": "deux",
+      "d": 0.1
+     }
+    },
+    {
+     "at": "Belfast",
+     "title": "Belfast",
+     "side": "t",
+     "when": {
+      "line": 0,
+      "word": "deux",
+      "d": 0.9
+     }
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1609",
+   "text": "Des colons venus d’Écosse et d’Angleterre",
+   "focus": {
+    "box": [
+     -11.5,
+     51,
+     -3.5,
+     56.2
+    ]
+   },
+   "moves": [
+    {
+     "from": [
+      -5.2,
+      55.1
+     ],
+     "to": "Belfast",
+     "n": 5,
+     "color": "#C62828",
+     "label": "La plantation d’Ulster",
+     "at": {
+      "line": 0,
+      "word": "Couronne",
+      "d": 0
+     },
+     "dur": 2.6
+    }
+   ],
+   "say": [
+    "Dès 1609, la Couronne installe des colons, surtout protestants, venus d’Écosse et d’Angleterre, dans le nord de l’île, en Ulster.",
+    "Dans le reste de l’île, la majorité reste catholique."
+   ],
+   "people": [
+    {
+     "who": "soldat",
+     "at": [
+      -6.2,
+      54.2
+     ],
+     "size": 240,
+     "when": {
+      "line": 0,
+      "word": "Ulster",
+      "d": 0.2
+     },
+     "label": {
+      "title": "Un colon",
+      "sub": "surtout protestant"
+     }
+    },
+    {
+     "who": "paysan",
+     "at": [
+      -8.0,
+      52.0
+     ],
+     "size": 210,
+     "when": {
+      "line": 1,
+      "word": "catholique"
+     },
+     "label": {
+      "title": "Un paysan irlandais",
+      "sub": "catholique"
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Ulster",
+     "at": [
+      -7.3,
+      54.9
+     ],
+     "size": 46,
+     "when": {
+      "line": 0,
+      "word": "Ulster"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": "Belfast",
+     "when": 0.4
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1801",
+   "text": "L’Irlande entre dans le Royaume-Uni",
+   "focus": {
+    "box": [
+     -11.5,
+     50,
+     2,
+     56.5
+    ]
+   },
+   "highlight": {
+    "countries": [
+     "United Kingdom",
+     "Ireland"
+    ],
+    "color": "#6A7F9A",
+    "keep": false,
+    "at": {
+     "line": 0,
+     "word": "1801",
+     "d": -0.2
+    }
+   },
+   "say": [
+    "En 1801, l’Irlande est officiellement unie à la Grande-Bretagne.",
+    "Désormais, les lois de l’île sont votées à Londres."
+   ],
+   "people": [
+    {
+     "who": "roi",
+     "at": "Londres",
+     "size": 230,
+     "when": {
+      "line": 1,
+      "word": "Désormais",
+      "d": 0.2
+     },
+     "label": {
+      "title": "Londres",
+      "sub": "vote les lois"
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": "Dublin",
+     "title": "Dublin",
+     "side": "l",
+     "sub": "1801",
+     "when": {
+      "line": 0,
+      "word": "1801",
+      "d": 0.1
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": "Dublin",
+     "when": 0.4
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1845 – 1852",
+   "text": "La Grande Famine",
+   "focus": {
+    "box": [
+     -11.5,
+     51,
+     -3.5,
+     56
+    ]
+   },
+   "say": [
+    "De 1845 à 1852, le mildiou détruit les pommes de terre, la nourriture de beaucoup d’Irlandais.",
+    "Environ un million de personnes meurent, et un million d’autres quittent l’île."
+   ],
+   "people": [
+    {
+     "who": "paysan",
+     "at": [
+      -8.7,
+      53.3
+     ],
+     "size": 220,
+     "when": {
+      "line": 0,
+      "word": "mildiou",
+      "d": 0.1
+     },
+     "mood": "sad"
+    }
+   ],
+   "moves": [
+    {
+     "from": "Cork",
+     "to": [
+      -11.3,
+      52.5
+     ],
+     "n": 4,
+     "color": "#FFFFFF",
+     "label": "Vers l’Amérique",
+     "at": {
+      "line": 1,
+      "word": "quittent",
+      "d": 0.3
+     },
+     "dur": 2.4
+    }
+   ],
+   "beacon": [
+    {
+     "at": "Dublin",
+     "when": 0.4
+    }
+   ],
+   "art": [
+    {
+     "kind": "stats",
+     "at": {
+      "line": 0,
+      "word": "terre",
+      "d": 0.2
+     },
+     "dur": 5,
+     "title": "En chiffres",
+     "items": [
+      {
+       "value": 8.2,
+       "decimals": 1,
+       "suffix": " M",
+       "label": "habitants en 1841",
+       "color": "#FFD83C"
+      },
+      {
+       "value": 1,
+       "suffix": " M",
+       "label": "morts environ",
+       "color": "#FF5A36"
+      },
+      {
+       "value": 1,
+       "suffix": " M",
+       "label": "exilés environ",
+       "color": "#FFFFFF"
+      },
+      {
+       "value": 6.6,
+       "decimals": 1,
+       "suffix": " M",
+       "label": "habitants en 1851",
+       "color": "#8FD0EE"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1916",
+   "text": "L’insurrection de Pâques",
+   "focus": {
+    "box": [
+     -9.5,
+     52.3,
+     -4.5,
+     55
+    ]
+   },
+   "people": [
+    {
+     "who": "rebelle",
+     "at": "Dublin",
+     "size": 220,
+     "say": "République !",
+     "when": {
+      "line": 0,
+      "word": "rebelles",
+      "d": 0
+     }
+    },
+    {
+     "who": "rebelle",
+     "at": [
+      -7.0,
+      53.1
+     ],
+     "size": 230,
+     "say": "Liberté !",
+     "when": {
+      "line": 1,
+      "word": "idée",
+      "d": -0.2
+     }
+    }
+   ],
+   "say": [
+    "En 1916, des rebelles prennent les armes à Dublin, à Pâques.",
+    "L’insurrection est écrasée, mais l’idée d’indépendance grandit."
+   ],
+   "pills": [
+    {
+     "at": "Dublin",
+     "title": "Poste centrale",
+     "side": "l",
+     "sub": "Pâques 1916",
+     "when": {
+      "line": 0,
+      "word": "Dublin"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": "Dublin",
+     "when": 0.4
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1920 – 1922",
+   "text": "L’île est partagée",
+   "focus": {
+    "box": [
+     -9.5,
+     51.5,
+     -4.5,
+     55.5
+    ]
+   },
+   "line": {
+    "points": [
+     [
+      -7.25,
+      55.05
+     ],
+     [
+      -7.45,
+      54.65
+     ],
+     [
+      -8.1,
+      54.45
+     ],
+     [
+      -7.85,
+      54.25
+     ],
+     [
+      -7.4,
+      54.15
+     ],
+     [
+      -7,
+      54.1
+     ],
+     [
+      -6.6,
+      54.07
+     ],
+     [
+      -6.4,
+      54.1
+     ],
+     [
+      -6.2,
+      54.05
+     ]
+    ],
+    "color": "#FFD83C",
+    "at": {
+     "line": 1,
+     "d": 0
+    }
+   },
+   "labels": [
+    {
+     "text": "État libre",
+     "at": [
+      -8.2,
+      53.2
+     ],
+     "size": 50,
+     "when": {
+      "line": 1,
+      "word": "libre"
+     }
+    },
+    {
+     "text": "Irlande du Nord",
+     "at": [
+      -6.8,
+      54.75
+     ],
+     "size": 44,
+     "when": {
+      "line": 1,
+      "word": "Nord"
+     }
+    }
+   ],
+   "say": [
+    "Entre 1920 et 1922, l’île est partagée en deux par une frontière.",
+    "Vingt-six comtés forment l’État libre d’Irlande, et six comtés du nord, l’Irlande du Nord, restent britanniques."
+   ],
+   "pills": [
+    {
+     "at": "Dublin",
+     "title": "Dublin",
+     "side": "l",
+     "sub": "État libre",
+     "when": {
+      "line": 1,
+      "word": "Vingt-six"
+     }
+    },
+    {
+     "at": "Belfast",
+     "title": "Belfast",
+     "side": "b",
+     "when": {
+      "line": 1,
+      "word": "six",
+      "d": 0.4
+     }
+    }
+   ],
+   "people": [
+    {
+     "who": "paysan",
+     "at": [
+      -8.9,
+      52.4
+     ],
+     "size": 210,
+     "when": {
+      "line": 1,
+      "word": "Vingt-six",
+      "d": 0.3
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": "Dublin",
+     "when": 0.4
+    }
+   ],
+   "highlight": [
+    {
+     "countries": [
+      "Ireland"
+     ],
+     "color": "#FFD83C",
+     "keep": false,
+     "at": {
+      "line": 1,
+      "word": "Vingt-six"
+     }
+    },
+    {
+     "regions": [
+      {
+       "c": "United Kingdom",
+       "n": "Derry"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Strabane"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Fermanagh"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Dungannon"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Armagh"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Newry and Mourne"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Limavady"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Coleraine"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Moyle"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Larne"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Carrickfergus"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Newtownabbey"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Belfast"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "North Down"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Ards"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Down"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Magherafelt"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Omagh"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Mid Ulster"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Craigavon"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Banbridge"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Antrim"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Lisburn"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Ballymoney"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Ballymena"
+      },
+      {
+       "c": "United Kingdom",
+       "n": "Castlereagh"
+      }
+     ],
+     "color": "#6A7F9A",
+     "keep": false,
+     "at": {
+      "line": 1,
+      "word": "six",
+      "d": 0.4
+     }
+    }
+   ],
+   "art": [
+    {
+     "kind": "split",
+     "at": {
+      "line": 0,
+      "word": "partagée",
+      "d": -0.3
+     },
+     "dur": 4.0,
+     "title": "Une île, deux États",
+     "sub": "même échelle",
+     "before": "Avant 1920",
+     "after": "Après 1922",
+     "badge": "26 + 6 comtés",
+     "parts": [
+      {
+       "country": "Ireland",
+       "color": "#FFD83C"
+      },
+      {
+       "region": {
+        "c": "United Kingdom",
+        "n": "Derry"
+       },
+       "color": "#E8A33C",
+       "lost": true
+      },
+      {
+       "region": {
+        "c": "United Kingdom",
+        "n": "Strabane"
+       },
+       "color": "#E8A33C",
+       "lost": true
+      },
+      {
+       "region": {
+        "c": "United Kingdom",
+        "n": "Fermanagh"
+       },
+       "color": "#E8A33C",
+       "lost": true
+      },
+      {
+       "region": {
+        "c": "United Kingdom",
+        "n": "Dungannon"
+       },
+       "color": "#E8A33C",
+       "lost": true
+      },
+      {
+       "region": {
+        "c": "United Kingdom",
+        "n": "Armagh"
+       },
+       "color": "#E8A33C",
+       "lost": true
+      },
+      {
+       "region": {
+        "c": "United Kingdom",
+        "n": "Newry and Mourne"
+       },
+       "color": "#E8A33C",
+       "lost": true
+      },
+      {
+       "region": {
+        "c": "United Kingdom",
+        "n": "Limavady"
+       },
+       "color": "#E8A33C",
+       "lost": true
+      },
+      {
+       "region": {
+        "c": "United Kingdom",
+        "n": "Coleraine"
+       },
+       "color": "#E8A33C",
+       "lost": true
+      },
+      {
+       "region": {
+        "c": "United Kingdom",
+        "n": "Moyle"
+       },
+       "color": "#E8A33C",
+       "lost": true
+      },
+      {
+       "region": {
+        "c": "United Kingdom",
+        "n": "Larne"
+       },
+       "color": "#E8A33C",
+       "lost": true
+      },
+      {
+       "region": {
+        "c": "United Kingdom",
+        "n": "Carrickfergus"
+       },
+       "color": "#E8A33C",
+       "lost": true
+      },
+      {
+       "region": {
+        "c": "United Kingdom",
+        "n": "Newtownabbey"
+       },
+       "color": "#E8A33C",
+       "lost": true
+      },
+      {
+       "region": {
+        "c": "United Kingdom",
+        "n": "Belfast"
+       },
+       "color": "#E8A33C",
+       "lost": true
+      },
+      {
+       "region": {
+        "c": "United Kingdom",
+        "n": "North Down"
+       },
+       "color": "#E8A33C",
+       "lost": true
+      },
+      {
+       "region": {
+        "c": "United Kingdom",
+        "n": "Ards"
+       },
+       "color": "#E8A33C",
+       "lost": true
+      },
+      {
+       "region": {
+        "c": "United Kingdom",
+        "n": "Down"
+       },
+       "color": "#E8A33C",
+       "lost": true
+      },
+      {
+       "region": {
+        "c": "United Kingdom",
+        "n": "Magherafelt"
+       },
+       "color": "#E8A33C",
+       "lost": true
+      },
+      {
+       "region": {
+        "c": "United Kingdom",
+        "n": "Omagh"
+       },
+       "color": "#E8A33C",
+       "lost": true
+      },
+      {
+       "region": {
+        "c": "United Kingdom",
+        "n": "Mid Ulster"
+       },
+       "color": "#E8A33C",
+       "lost": true
+      },
+      {
+       "region": {
+        "c": "United Kingdom",
+        "n": "Craigavon"
+       },
+       "color": "#E8A33C",
+       "lost": true
+      },
+      {
+       "region": {
+        "c": "United Kingdom",
+        "n": "Banbridge"
+       },
+       "color": "#E8A33C",
+       "lost": true
+      },
+      {
+       "region": {
+        "c": "United Kingdom",
+        "n": "Antrim"
+       },
+       "color": "#E8A33C",
+       "lost": true
+      },
+      {
+       "region": {
+        "c": "United Kingdom",
+        "n": "Lisburn"
+       },
+       "color": "#E8A33C",
+       "lost": true
+      },
+      {
+       "region": {
+        "c": "United Kingdom",
+        "n": "Ballymoney"
+       },
+       "color": "#E8A33C",
+       "lost": true
+      },
+      {
+       "region": {
+        "c": "United Kingdom",
+        "n": "Ballymena"
+       },
+       "color": "#E8A33C",
+       "lost": true
+      },
+      {
+       "region": {
+        "c": "United Kingdom",
+        "n": "Castlereagh"
+       },
+       "color": "#E8A33C",
+       "lost": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "text": "Pourquoi ces six comtés ?",
+   "focus": {
+    "box": [
+     -9.5,
+     53.5,
+     -4.2,
+     55.5
+    ]
+   },
+   "labels": [
+    {
+     "text": "Majorité protestante",
+     "at": [
+      -6.6,
+      54.65
+     ],
+     "size": 42,
+     "when": {
+      "line": 0,
+      "word": "protestants"
+     }
+    }
+   ],
+   "say": [
+    "En 1920, dans ces six comtés pris ensemble, les protestants, souvent descendants des colons, étaient majoritaires.",
+    "Les unionistes, qui voulaient rester britanniques, ont gardé six des neuf comtés de l’Ulster pour garder cette majorité."
+   ],
+   "people": [
+    {
+     "who": "paysan",
+     "at": [
+      -5.9,
+      54
+     ],
+     "size": 230,
+     "when": {
+      "line": 0,
+      "word": "protestants",
+      "d": 0.1
+     },
+     "label": {
+      "title": "Un protestant",
+      "sub": "souvent unioniste"
+     }
+    },
+    {
+     "who": "paysan",
+     "at": [
+      -7.6,
+      54.4
+     ],
+     "size": 210,
+     "when": {
+      "line": 0,
+      "word": "majoritaires",
+      "d": 0.2
+     },
+     "label": {
+      "title": "Un catholique",
+      "sub": "minorité, surtout à l’ouest"
+     }
+    }
+   ],
+   "pills": [],
+   "beacon": [
+    {
+     "at": "Belfast",
+     "when": 0.4
+    }
+   ],
+   "highlight": {
+    "regions": [
+     {
+      "c": "United Kingdom",
+      "n": "Derry"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Strabane"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Fermanagh"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Dungannon"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Armagh"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Newry and Mourne"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Limavady"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Coleraine"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Moyle"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Larne"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Carrickfergus"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Newtownabbey"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Belfast"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "North Down"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Ards"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Down"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Magherafelt"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Omagh"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Mid Ulster"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Craigavon"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Banbridge"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Antrim"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Lisburn"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Ballymoney"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Ballymena"
+     },
+     {
+      "c": "United Kingdom",
+      "n": "Castlereagh"
+     }
+    ],
+    "color": "#6A7F9A",
+    "keep": false,
+    "at": 0.3
+   }
+  },
+  {
+   "type": "map",
+   "year": "1949 – 1998",
+   "text": "De la République à la paix",
+   "focus": {
+    "box": [
+     -11.5,
+     51,
+     -3.5,
+     56
+    ]
+   },
+   "pills": [
+    {
+     "at": "Belfast",
+     "title": "Accord du Vendredi saint",
+     "sub": "1998",
+     "side": "t",
+     "when": {
+      "line": 1,
+      "word": "1998",
+      "d": -0.4
+     }
+    }
+   ],
+   "say": [
+    "En 1949, l’Irlande indépendante devient officiellement une république.",
+    "Après trente ans de violences, commencées en 1968, l’accord du Vendredi saint ouvre la voie à la paix en 1998."
+   ],
+   "people": [
+    {
+     "who": "paysan",
+     "at": "Dublin",
+     "size": 220,
+     "say": "Paix !",
+     "when": {
+      "line": 1,
+      "word": "paix"
+     },
+     "mood": "happy",
+     "wave": true
+    }
+   ],
+   "beacon": [
+    {
+     "at": "Dublin",
+     "when": 0.4
+    }
+   ],
+   "art": [
+    {
+     "kind": "timeline",
+     "at": {
+      "line": 0,
+      "word": "1949",
+      "d": -0.8
+     },
+     "dur": 6.5,
+     "title": "Quatre siècles en sept dates",
+     "items": [
+      {
+       "year": "1609",
+       "text": "Plantation d’Ulster"
+      },
+      {
+       "year": "1801",
+       "text": "Union avec Londres"
+      },
+      {
+       "year": "1845",
+       "text": "Grande Famine"
+      },
+      {
+       "year": "1916",
+       "text": "Pâques à Dublin"
+      },
+      {
+       "year": "1922",
+       "text": "Partage de l’île"
+      },
+      {
+       "year": "1949",
+       "text": "République"
+      },
+      {
+       "year": "1998",
+       "text": "Accord de paix"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "final",
+   "text": "Une île partagée",
+   "sub": "L’Irlande",
+   "focus": {
+    "box": [
+     -11.5,
+     51,
+     -3.5,
+     56
+    ]
+   },
+   "say": [
+    "Voilà pourquoi l’Irlande est une île divisée.",
+    "Et voici la question qui nous a ouverts :"
+   ],
+   "people": [
+    {
+     "who": "paysan",
+     "at": "Dublin",
+     "size": 240,
+     "say": "Santé !",
+     "when": {
+      "line": 0,
+      "d": 0.3
+     },
+     "wave": true,
+     "mood": "happy"
+    }
+   ],
+   "pills": [
+    {
+     "at": "Dublin",
+     "title": "Dublin",
+     "side": "l",
+     "when": {
+      "line": 0,
+      "d": 0
+     }
+    }
+   ]
+  }
+ ],
+ "base": {
+  "countries": [
+   "Ireland",
+   "United Kingdom"
+  ]
+ },
+ "terrain": [
+  {
+   "box": [
+    -14.5,
+    27,
+    40,
+    76
+   ],
+   "px": 3000,
+   "z": 6
+  },
+  {
+   "box": [
+    -11.9,
+    49.6,
+    2.4,
+    56.9
+   ],
+   "px": 2800,
+   "z": 8
+  }
+ ]
+}

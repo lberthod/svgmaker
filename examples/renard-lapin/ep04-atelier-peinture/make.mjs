@@ -9,10 +9,11 @@
 // 15.0–17.25 le tableau      il pique le croissant peint (TOC TOC), perplexe (?) ; Roussin rit : « Il est en peinture ! »
 // 17.25–18.25 plan moyen     l'oiseau repart en rasant la table, heurte le pot bleu qui s'envole… « Attention ! »
 // 18.25–21.0 la maîtresse    SPLASH : elle est toute bleue, le pot sur la tête ; silence
-// 21.0–24.0  plan large      elle éclate de rire : « Ha ha ha ! » ; tout le monde rit
+// 21.0–24.0  plan large      elle éclate de rire : « C'est très réussi ! » ; tout le monde rit
 // 24.0–26.5  plan moyen      Lino : « Une chouette bleue ! » ; Roussin ajoute une chouette bleue à son tableau
 // 26.5–30.0  plan large      coucou de la maîtresse bleue ; carton
 import { writeFileSync } from 'node:fs';
+import { timeBadge } from '../lib/badge.mjs';
 import { W, H, INK, lines, sfxEv, an, ao, vis, sfx, fox, rabbit, owl, put, style, addKF, track, ss } from '../lib/kit.mjs';
 import { makeCam, say, card, bird, croissant } from '../lib/props.mjs';
 import { FLOOR, wall, banner, board, wallClock, windowEl, openSash, radiator, WIN } from '../lib/classroom.mjs';
@@ -154,23 +155,24 @@ const fx =
   say('owl', "Aujourd'hui : peinture !", 0.5, 1.8, { bx: 690, by: 240, tips: [[690, 440]] }) +
   say('rab', 'Une horloge !', 5.8, 1.1, { bx: 1080, by: 300, tips: [[880, 560]] }) +
   sfx('FLIC FLAC FLOC !', 340, 250, 7.2, 1.4, -8, '#ffd23f', 58) +
-  say('fox', 'Un croissant géant !', 8.8, 1.2, { bx: 330, by: 90, tips: [[470, 290]] }) +
+  say('fox', 'Un croissant géant !', 8.8, 1.2, { bx: 330, by: 150, tips: [[470, 290]] }) +
   say('owl', 'Très joli !', 10.8, 1.5, { bx: 690, by: 240, tips: [[690, 440]] }) +
   sfx('!', 1150, 270, 13.55, 0.7, 0, '#ffd23f', 120, 'chirp') +
   sfx('TOC TOC !', 420, 140, 15.55, 0.9, 8, '#ffd23f', 66, 'knock') +
   sfx('?', 780, 170, 15.95, 0.8, 0, '#ffd23f', 130) +
-  say('fox', 'Il est en peinture !', 16.45, 0.8, { bx: 250, by: 250, tips: [[420, 360]] }) +
+  say('fox', 'C’est de la peinture !', 16.3, 0.95, { bx: 250, by: 250, tips: [[420, 360]] }) +
   sfx('TING !', 170, 320, 17.6, 0.6, -10, '#ffd23f', 84, 'clink') +
   say('rab', 'Attention !', 17.3, 1.0, { bx: 760, by: 120, tips: [[780, 260]], shout: true }) +
   sfx('SPLASH !', 1010, 160, 18.55, 1.2, -8, '#ffd23f', 92, 'splash') +
-  say('owl', 'Ha ha ha !', 21.0, 1.4, { bx: 690, by: 210, tips: [[690, 400]] }) +
+  say('owl', 'C’est très réussi !', 21.0, 1.4, { bx: 690, by: 210, tips: [[690, 400]] }) +
   say('rab', 'Une chouette bleue !', 24.2, 1.2, { bx: 880, by: 260, tips: [[1110, 430]] }) +
-  card(27.3, "L'atelier peinture !", 'en route pour la cantine', 640, 160);
+  card(27.3, 'À vos pinceaux !', 'en route pour la cantine', 640, 160);
 
 const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" data-duration="${DUR}" data-fps="30">
 <style>${style()}</style>
 <rect width="${W}" height="${H}" fill="#ffe9bd"/>
 <g style="${camStyle}">${world}</g>
+${timeBadge(10, 20)}
 ${fx}
 </svg>`;
 sfxEv.push({ name: 'wave', t: 0.3 }, { name: 'brush', t: 1.0 }, { name: 'brush', t: 3.9 }, { name: 'brush', t: 7.2 }, { name: 'brush', t: 25.5 }, { name: 'chirp', t: 12.95 },

@@ -1,9 +1,11 @@
 """Bande son de « Learn English with Mali » à partir de script.json.
 
 Voix
-- anglais : Kokoro-82M (MLX, local) — narrateur « am_michael », Mali « af_heart » rendue plus aiguë ;
-  repli automatique sur la voix macOS Samantha si Kokoro est indisponible ;
-- thaï : voix macOS Kanya (Kokoro ne parle pas thaï), rendue plus aiguë pour Mali.
+- anglais : Kokoro-82M (MLX, local, Apache 2.0) — narrateur « am_michael », Mali « af_heart » rendue plus aiguë ;
+- thaï : VoxCPM2 (MLX, local, Apache 2.0, tools/tts_voxcpm_th.py) avec la voix INVENTÉE de Mali
+  (voix-ref/mali_th.wav, conçue par description, personne n'est cloné) ; Whisper choisit la meilleure prise.
+Jamais de voix macOS `say` (licence personnelle, non commerciale, règle 1 de MARMOTOONS) : si une voix
+manque, le script s'arrête avec une erreur au lieu de se rabattre sur une autre voix.
 Bruitages synthétisés, petite musique de xylophone qui baisse sous les voix.
 
 Sorties
@@ -44,10 +46,17 @@ rng = np.random.default_rng(11)
 ROLES = {
     "narrator": ("kokoro", "am_michael", 0.9, 1.0),
     "mali_en": ("kokoro", "af_heart", 1.0, 1.17),
-    "mali_th": ("say", "Kanya", 170, 1.14),
+    "mali_th": ("voxcpm", "mali_th", None, 0.92),  # 1,5 demi-ton plus bas : plus proche de Mali en anglais
 }
-SAY_FALLBACK = ("say", "Samantha", 150)
 PRONOUNCE = {"Mali": "Mah-lee"}  # orthographe pour la synthèse uniquement
+# thaï : écriture de synthèse par réplique entière (l'affichage et le contrôle Whisper gardent le texte d'origine)
+# (choisies le 14.11.2026 après relecture de svg-localisateur-th et essai de 3 prises chacune : espacer les
+#  couleurs ou les fruits rendait la lecture pire, on ne l'a donc fait que pour ces trois répliques)
+TH_PRONOUNCE = {
+    "เก่งมาก!": "เก่ง มาก!",  # sinon entendu « กินมาก » (« mange beaucoup ») dans les 3 vidéos
+    "บ๊ายบาย แล้วเจอกันนะ": "บ๊ายบาย แล้ว เจอ กัน นะ",  # voyelle de เจอ raccourcie
+    "สวัสดีจ้า ฉันชื่อมะลิ": "สวัสดีจ้า ฉันชื่อ มะ-ลิ",  # voyelle courte de มะลิ (sinon « มาลี »)
+}
 ENV = dict(os.environ, HF_HUB_OFFLINE="1")
 
 
@@ -94,24 +103,33 @@ final = [os.path.join(tmp, f"v{i}.wav") for i in range(len(lines))]
 # --- synthèse -------------------------------------------------------------------
 jobs = [{"out": raw[i], "text": tts_text(l["text"]), "voice": ROLES[l["role"]][1], "speed": ROLES[l["role"]][2]}
         for i, l in enumerate(lines) if ROLES[l["role"]][0] == "kokoro"]
-kokoro_ok = False
-if jobs and os.path.exists(VENV_PY):
-    jf = os.path.join(tmp, "jobs.json")
-    json.dump(jobs, open(jf, "w", encoding="utf-8"), ensure_ascii=False)
-    r = subprocess.run([VENV_PY, os.path.join(TOOLS, "tts_kokoro.py"), jf], env=ENV, capture_output=True, text=True)
-    kokoro_ok = r.returncode == 0
-    if not kokoro_ok:
-        print("⚠ Kokoro indisponible, repli sur Samantha :", r.stderr.strip().splitlines()[-1:] or "")
+th_jobs = [{"out": raw[i], "text": TH_PRONOUNCE.get(l["text"], l["text"]), "check": l["text"], "takes": 3, "max_takes": 6}
+           for i, l in enumerate(lines) if ROLES[l["role"]][0] == "voxcpm"]
+if (jobs or th_jobs) and not os.path.exists(VENV_PY):
+    sys.exit(f"✗ {VENV_PY} introuvable : pas de voix (Kokoro, VoxCPM2). Aucun repli sur les voix macOS.")
+
+
+def run_tts(script, jobs_, tag, stream=False):
+    """Lance un moteur de voix ; s'arrête net (pas de repli) s'il échoue."""
+    jf = os.path.join(tmp, f"jobs_{tag}.json")
+    json.dump(jobs_, open(jf, "w", encoding="utf-8"), ensure_ascii=False)
+    r = subprocess.run([VENV_PY, os.path.join(TOOLS, script), jf], env=ENV, text=True,
+                       stdout=None if stream else subprocess.PIPE, stderr=subprocess.PIPE)
+    if r.returncode:
+        sys.exit(f"✗ voix {tag} impossible ({script}) : {r.stderr.strip()[-400:]}")
+
+
+if jobs:
+    run_tts("tts_kokoro.py", jobs, "anglais (Kokoro)")
+kokoro_ok = bool(jobs)
+if th_jobs:
+    print(f"voix thaïe (VoxCPM2) : {len(th_jobs)} réplique(s), la meilleure de 3 à 6 prises selon Whisper")
+    run_tts("tts_voxcpm_th.py", th_jobs, "thaïe (VoxCPM2)", stream=True)
 for i, l in enumerate(lines):
     eng, v, rate, pitch = ROLES[l["role"]]
-    if eng == "kokoro" and not kokoro_ok:
-        eng, v, rate = SAY_FALLBACK
-    if eng == "say":
-        aiff = os.path.join(tmp, f"raw{i}.aiff")
-        subprocess.run(["say", "-v", v, "-r", str(rate), "-o", aiff, tts_text(l["text"])], check=True)
-        post(aiff, final[i], pitch)
-    else:
-        post(raw[i], final[i], pitch)
+    if eng not in ("kokoro", "voxcpm") or not os.path.exists(raw[i]):
+        sys.exit(f"✗ pas de voix pour « {l['text']} » (rôle {l['role']}, moteur {eng})")
+    post(raw[i], final[i], pitch)
 
 # --- contrôle Whisper, puis réparation des mots anglais mal prononcés ----------------
 def qa(idx, tag):
@@ -175,7 +193,7 @@ for i, l in enumerate(lines):
     voices[f"{l['role']}|{l['text']}"] = {"dur": round(d, 3), "env": [round(float(x), 2) for x in env]}
     ends.append((l["t"], l["t"] + d, l["text"]))
 warn = [f"« {a} » (fin {a1:.2f} s) chevauche « {b} » ({b0:.2f} s)" for (_, a1, a), (b0, _, b) in zip(ends, ends[1:]) if a1 > b0 + 0.03]
-warn += [f"« {t} » dépasse la fin" for _, e, t in ends if e > D - 0.2]
+warn += [f"« {t} » dépasse la fin (fondu de rendu de 1,2 s)" for _, e, t in ends if e > D - 1.2]
 
 
 # --- bruitages ------------------------------------------------------------------
@@ -341,7 +359,7 @@ with wave.open(os.path.join(OUT, "audio.wav"), "wb") as w:
     w.setframerate(SR)
     w.writeframes(pcm.tobytes())
 json.dump(voices, open(os.path.join(OUT, "voice.json"), "w", encoding="utf-8"), ensure_ascii=False)
-print(f"audio.wav · {D} s · {len(lines)} répliques (anglais : {'Kokoro' if kokoro_ok else 'Samantha'}) · {len(cfg['sfx'])} bruitages")
+print(f"audio.wav · {D} s · {len(lines)} répliques (anglais : Kokoro, thaï : VoxCPM2) · {len(cfg['sfx'])} bruitages")
 for m in warn:
     print("⚠", m)
 

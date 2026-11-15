@@ -1,0 +1,1493 @@
+{
+ "format": "atlas",
+ "id": "traites-43-rideau-de-fer",
+ "base": {
+  "countries": [
+   "Albania",
+   "Austria",
+   "Belgium",
+   "Bulgaria",
+   "Czechia",
+   "Denmark",
+   "France",
+   "Germany",
+   "Greece",
+   "Hungary",
+   "Iceland",
+   "Italy",
+   "Luxembourg",
+   "Netherlands",
+   "Norway",
+   "Poland",
+   "Portugal",
+   "Romania",
+   "Slovakia",
+   "Spain",
+   "Sweden",
+   "Switzerland",
+   "United Kingdom"
+  ]
+ },
+ "open": {
+  "box": [
+   4,
+   39.5,
+   30,
+   57
+  ]
+ },
+ "scenes": [
+  {
+   "type": "hook",
+   "year": "1955",
+   "text": "Comment l’Europe a-t-elle été coupée en deux ?",
+   "sub": "Traité de Varsovie",
+   "focus": {
+    "box": [
+     4,
+     39.5,
+     30,
+     57
+    ]
+   },
+   "highlight": {
+    "countries": [
+     "Poland",
+     "Czechia",
+     "Slovakia",
+     "Hungary",
+     "Romania",
+     "Bulgaria",
+     "Albania"
+    ],
+    "regions": [
+     {
+      "c": "Germany",
+      "n": "Mecklenburg-Vorpommern"
+     },
+     {
+      "c": "Germany",
+      "n": "Brandenburg"
+     },
+     {
+      "c": "Germany",
+      "n": "Sachsen-Anhalt"
+     },
+     {
+      "c": "Germany",
+      "n": "Sachsen"
+     },
+     {
+      "c": "Germany",
+      "n": "Thüringen"
+     }
+    ],
+    "color": "#FF2E88",
+    "at": 0,
+    "keep": false
+   },
+   "beacon": [
+    {
+     "at": [
+      21.01,
+      52.23
+     ],
+     "when": 0
+    }
+   ],
+   "labels": [
+    {
+     "text": "Ouest",
+     "at": [
+      7.2,
+      48.6
+     ],
+     "size": 44,
+     "when": {
+      "line": 1,
+      "word": "camps",
+      "d": -0.2
+     }
+    },
+    {
+     "text": "Est",
+     "at": [
+      19.2,
+      52.6
+     ],
+     "size": 44,
+     "when": {
+      "line": 1,
+      "word": "camps",
+      "d": 0.3
+     }
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      27.5,
+      52.8
+     ],
+     "to": [
+      13.4,
+      51.8
+     ],
+     "n": 3,
+     "color": "#8E2A2A",
+     "label": "Armée rouge",
+     "at": {
+      "line": 1,
+      "word": "l’Armée",
+      "d": -0.2
+     },
+     "dur": 2.0
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      24.8,
+      45.6
+     ],
+     "title": "Contours actuels",
+     "side": "b",
+     "when": {
+      "line": 1,
+      "d": 0.2
+     }
+    }
+   ],
+   "say": [
+    "Comment l’Europe a-t-elle été coupée en deux, de la Baltique à l’Adriatique ?",
+    "Là où l’Armée rouge s’arrête, une ligne de barbelés sépare bientôt deux camps."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "5 mars 1946",
+   "text": "Churchill parle d’un rideau de fer",
+   "focus": {
+    "box": [
+     4,
+     40.5,
+     26,
+     57
+    ]
+   },
+   "people": [
+    {
+     "who": "savant",
+     "beard": false,
+     "moustache": false,
+     "outfit": "#2F3A4F",
+     "at": [
+      7.0,
+      51.3
+     ],
+     "size": 170,
+     "say": "Un rideau de fer !",
+     "label": {
+      "title": "Winston Churchill"
+     },
+     "when": {
+      "line": 0,
+      "word": "Churchill",
+      "d": -0.4
+     }
+    }
+   ],
+   "line": {
+    "points": [
+     [
+      14.55,
+      53.43
+     ],
+     [
+      13.77,
+      45.65
+     ]
+    ],
+    "color": "#FFFFFF",
+    "width": 10,
+    "draw": 2.0,
+    "at": {
+     "line": 1,
+     "word": "Stettin",
+     "d": -0.1
+    }
+   },
+   "pills": [
+    {
+     "at": [
+      14.55,
+      53.43
+     ],
+     "title": "Stettin",
+     "sub": "aujourd’hui Szczecin",
+     "side": "r",
+     "when": {
+      "line": 1,
+      "word": "Stettin",
+      "d": 0.3
+     }
+    },
+    {
+     "at": [
+      13.77,
+      45.65
+     ],
+     "title": "Trieste",
+     "sub": "sur l’Adriatique",
+     "side": "r",
+     "when": {
+      "line": 1,
+      "word": "Trieste",
+      "d": 0.2
+     }
+    }
+   ],
+   "say": [
+    "Le 5 mars 1946, aux États-Unis, Churchill parle d’un rideau de fer.",
+    "Il le voit tomber de Stettin, sur la Baltique, à Trieste, sur l’Adriatique."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1946 – 1949",
+   "text": "L’Est passe aux communistes",
+   "focus": {
+    "box": [
+     10,
+     39.5,
+     30,
+     55.5
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Albania",
+      "Bulgaria"
+     ],
+     "color": "#E8503A",
+     "at": {
+      "line": 0,
+      "d": 0.3
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Poland",
+      "Romania"
+     ],
+     "color": "#E8503A",
+     "at": {
+      "line": 0,
+      "d": 0.7
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Hungary"
+     ],
+     "color": "#E8503A",
+     "at": {
+      "line": 0,
+      "d": 1.1
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Czechia",
+      "Slovakia"
+     ],
+     "color": "#E8503A",
+     "at": {
+      "line": 1,
+      "word": "Prague",
+      "d": 0.0
+     },
+     "keep": false
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      14.42,
+      50.08
+     ],
+     "title": "Prague",
+     "sub": "février 1948",
+     "side": "t",
+     "when": {
+      "line": 1,
+      "word": "Prague",
+      "d": 0.1
+     }
+    }
+   ],
+   "art": [
+    {
+     "kind": "timeline",
+     "at": {
+      "line": 0,
+      "word": "communistes",
+      "d": 0.3
+     },
+     "dur": 4.0,
+     "spread": true,
+     "title": "Un pays après l’autre",
+     "items": [
+      {
+       "year": "1946",
+       "text": "Albanie, Bulgarie",
+       "color": "#E8503A"
+      },
+      {
+       "year": "1947",
+       "text": "Pologne, Roumanie",
+       "color": "#E8503A"
+      },
+      {
+       "year": "1948",
+       "text": "Tchécoslovaquie",
+       "color": "#E8503A"
+      },
+      {
+       "year": "1949",
+       "text": "Hongrie",
+       "color": "#E8503A"
+      }
+     ]
+    }
+   ],
+   "say": [
+    "En quelques années, des partis communistes prennent le pouvoir dans les pays de l’Est.",
+    "À Prague, en février 1948, ils écartent tous les autres partis."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1949",
+   "text": "L’OTAN, puis deux Allemagnes",
+   "focus": {
+    "box": [
+     -10,
+     36,
+     26,
+     60
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Poland",
+      "Czechia",
+      "Slovakia",
+      "Hungary",
+      "Romania",
+      "Bulgaria",
+      "Albania"
+     ],
+     "color": "#E8503A",
+     "at": 0,
+     "keep": false
+    },
+    {
+     "countries": [
+      "France",
+      "United Kingdom",
+      "Italy",
+      "Belgium",
+      "Netherlands",
+      "Luxembourg",
+      "Norway",
+      "Denmark",
+      "Iceland",
+      "Portugal"
+     ],
+     "color": "#4FA3E0",
+     "at": {
+      "line": 0,
+      "word": "l’OTAN",
+      "d": -0.6
+     },
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "Germany",
+       "n": "Schleswig-Holstein"
+      },
+      {
+       "c": "Germany",
+       "n": "Hamburg"
+      },
+      {
+       "c": "Germany",
+       "n": "Niedersachsen"
+      },
+      {
+       "c": "Germany",
+       "n": "Bremen"
+      },
+      {
+       "c": "Germany",
+       "n": "Nordrhein-Westfalen"
+      },
+      {
+       "c": "Germany",
+       "n": "Hessen"
+      },
+      {
+       "c": "Germany",
+       "n": "Rheinland-Pfalz"
+      },
+      {
+       "c": "Germany",
+       "n": "Baden-Württemberg"
+      },
+      {
+       "c": "Germany",
+       "n": "Bayern"
+      }
+     ],
+     "color": "#8EC3EA",
+     "at": {
+      "line": 1,
+      "word": "RFA",
+      "d": 0.0
+     },
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "Germany",
+       "n": "Mecklenburg-Vorpommern"
+      },
+      {
+       "c": "Germany",
+       "n": "Brandenburg"
+      },
+      {
+       "c": "Germany",
+       "n": "Sachsen-Anhalt"
+      },
+      {
+       "c": "Germany",
+       "n": "Sachsen"
+      },
+      {
+       "c": "Germany",
+       "n": "Thüringen"
+      }
+     ],
+     "color": "#E8503A",
+     "at": {
+      "line": 1,
+      "word": "RDA",
+      "d": 0.0
+     },
+     "keep": false
+    }
+   ],
+   "labels": [
+    {
+     "text": "OTAN",
+     "at": [
+      2.4,
+      46.8
+     ],
+     "size": 46,
+     "when": {
+      "line": 0,
+      "word": "l’OTAN",
+      "d": 0.2
+     }
+    },
+    {
+     "text": "RFA",
+     "at": [
+      9.2,
+      49.6
+     ],
+     "size": 40,
+     "when": {
+      "line": 1,
+      "word": "RFA",
+      "d": 0.3
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      12.3,
+      52.0
+     ],
+     "title": "RDA",
+     "sub": "contours actuels",
+     "side": "r",
+     "when": {
+      "line": 1,
+      "word": "RDA",
+      "d": 0.3
+     }
+    }
+   ],
+   "say": [
+    "En avril 1949, douze pays occidentaux fondent une alliance militaire : l’OTAN.",
+    "La même année naissent deux États allemands : la RFA à l’Ouest, la RDA à l’Est."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "Mai 1955",
+   "text": "À Varsovie, l’Est s’allie",
+   "focus": {
+    "box": [
+     4,
+     39.5,
+     30,
+     57
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Poland",
+      "Czechia",
+      "Slovakia",
+      "Hungary",
+      "Romania",
+      "Bulgaria",
+      "Albania"
+     ],
+     "regions": [
+      {
+       "c": "Germany",
+       "n": "Mecklenburg-Vorpommern"
+      },
+      {
+       "c": "Germany",
+       "n": "Brandenburg"
+      },
+      {
+       "c": "Germany",
+       "n": "Sachsen-Anhalt"
+      },
+      {
+       "c": "Germany",
+       "n": "Sachsen"
+      },
+      {
+       "c": "Germany",
+       "n": "Thüringen"
+      }
+     ],
+     "color": "#FF2E88",
+     "at": 0,
+     "keep": false
+    },
+    {
+     "countries": [
+      "France",
+      "United Kingdom",
+      "Italy",
+      "Belgium",
+      "Netherlands",
+      "Luxembourg",
+      "Norway",
+      "Denmark",
+      "Iceland",
+      "Portugal"
+     ],
+     "color": "#4FA3E0",
+     "at": 0,
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "Germany",
+       "n": "Schleswig-Holstein"
+      },
+      {
+       "c": "Germany",
+       "n": "Hamburg"
+      },
+      {
+       "c": "Germany",
+       "n": "Niedersachsen"
+      },
+      {
+       "c": "Germany",
+       "n": "Bremen"
+      },
+      {
+       "c": "Germany",
+       "n": "Nordrhein-Westfalen"
+      },
+      {
+       "c": "Germany",
+       "n": "Hessen"
+      },
+      {
+       "c": "Germany",
+       "n": "Rheinland-Pfalz"
+      },
+      {
+       "c": "Germany",
+       "n": "Baden-Württemberg"
+      },
+      {
+       "c": "Germany",
+       "n": "Bayern"
+      }
+     ],
+     "color": "#8EC3EA",
+     "at": 0,
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "Germany",
+       "n": "Schleswig-Holstein"
+      },
+      {
+       "c": "Germany",
+       "n": "Hamburg"
+      },
+      {
+       "c": "Germany",
+       "n": "Niedersachsen"
+      },
+      {
+       "c": "Germany",
+       "n": "Bremen"
+      },
+      {
+       "c": "Germany",
+       "n": "Nordrhein-Westfalen"
+      },
+      {
+       "c": "Germany",
+       "n": "Hessen"
+      },
+      {
+       "c": "Germany",
+       "n": "Rheinland-Pfalz"
+      },
+      {
+       "c": "Germany",
+       "n": "Baden-Württemberg"
+      },
+      {
+       "c": "Germany",
+       "n": "Bayern"
+      }
+     ],
+     "color": "#4FA3E0",
+     "at": {
+      "line": 0,
+      "word": "RFA",
+      "d": 0.2
+     },
+     "keep": false
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      21.01,
+      52.23
+     ],
+     "when": {
+      "line": 0,
+      "word": "Varsovie",
+      "d": 0.0
+     }
+    }
+   ],
+   "art": [
+    {
+     "kind": "treaty",
+     "at": {
+      "line": 0,
+      "word": "signe",
+      "d": -0.2
+     },
+     "dur": 3.6,
+     "title": "Traité de Varsovie",
+     "sub": "14 mai 1955",
+     "signers": [
+      "URSS",
+      "Pologne",
+      "RDA",
+      "Tchécoslovaquie"
+     ],
+     "year": "1955"
+    },
+    {
+     "kind": "split",
+     "at": {
+      "line": 1,
+      "word": "face",
+      "d": 0.0
+     },
+     "dur": 4,
+     "title": "Deux alliances",
+     "sub": "contours actuels",
+     "before": "Avant 1955",
+     "after": "Après 1955",
+     "legend": [
+      {
+       "color": "#FF2E88",
+       "text": "signataires"
+      },
+      {
+       "color": "#E8503A",
+       "text": "Pacte de Varsovie"
+      },
+      {
+       "color": "#4FA3E0",
+       "text": "OTAN"
+      }
+     ],
+     "parts": [
+      {
+       "country": "Poland",
+       "color": "#FF2E88",
+       "to": "#E8503A"
+      },
+      {
+       "country": "Czechia",
+       "color": "#FF2E88",
+       "to": "#E8503A"
+      },
+      {
+       "country": "Slovakia",
+       "color": "#FF2E88",
+       "to": "#E8503A"
+      },
+      {
+       "country": "Hungary",
+       "color": "#FF2E88",
+       "to": "#E8503A"
+      },
+      {
+       "country": "Romania",
+       "color": "#FF2E88",
+       "to": "#E8503A"
+      },
+      {
+       "country": "Bulgaria",
+       "color": "#FF2E88",
+       "to": "#E8503A"
+      },
+      {
+       "country": "Albania",
+       "color": "#FF2E88",
+       "to": "#E8503A"
+      },
+      {
+       "region": {
+        "c": "Germany",
+        "n": "Mecklenburg-Vorpommern"
+       },
+       "color": "#FF2E88",
+       "to": "#E8503A"
+      },
+      {
+       "region": {
+        "c": "Germany",
+        "n": "Brandenburg"
+       },
+       "color": "#FF2E88",
+       "to": "#E8503A"
+      },
+      {
+       "region": {
+        "c": "Germany",
+        "n": "Sachsen-Anhalt"
+       },
+       "color": "#FF2E88",
+       "to": "#E8503A"
+      },
+      {
+       "region": {
+        "c": "Germany",
+        "n": "Sachsen"
+       },
+       "color": "#FF2E88",
+       "to": "#E8503A"
+      },
+      {
+       "region": {
+        "c": "Germany",
+        "n": "Thüringen"
+       },
+       "color": "#FF2E88",
+       "to": "#E8503A"
+      },
+      {
+       "region": {
+        "c": "Germany",
+        "n": "Schleswig-Holstein"
+       },
+       "color": "#8EC3EA",
+       "to": "#4FA3E0"
+      },
+      {
+       "region": {
+        "c": "Germany",
+        "n": "Hamburg"
+       },
+       "color": "#8EC3EA",
+       "to": "#4FA3E0"
+      },
+      {
+       "region": {
+        "c": "Germany",
+        "n": "Niedersachsen"
+       },
+       "color": "#8EC3EA",
+       "to": "#4FA3E0"
+      },
+      {
+       "region": {
+        "c": "Germany",
+        "n": "Bremen"
+       },
+       "color": "#8EC3EA",
+       "to": "#4FA3E0"
+      },
+      {
+       "region": {
+        "c": "Germany",
+        "n": "Nordrhein-Westfalen"
+       },
+       "color": "#8EC3EA",
+       "to": "#4FA3E0"
+      },
+      {
+       "region": {
+        "c": "Germany",
+        "n": "Hessen"
+       },
+       "color": "#8EC3EA",
+       "to": "#4FA3E0"
+      },
+      {
+       "region": {
+        "c": "Germany",
+        "n": "Rheinland-Pfalz"
+       },
+       "color": "#8EC3EA",
+       "to": "#4FA3E0"
+      },
+      {
+       "region": {
+        "c": "Germany",
+        "n": "Baden-Württemberg"
+       },
+       "color": "#8EC3EA",
+       "to": "#4FA3E0"
+      },
+      {
+       "region": {
+        "c": "Germany",
+        "n": "Bayern"
+       },
+       "color": "#8EC3EA",
+       "to": "#4FA3E0"
+      },
+      {
+       "country": "Denmark",
+       "color": "#4FA3E0"
+      },
+      {
+       "country": "Netherlands",
+       "color": "#4FA3E0"
+      },
+      {
+       "country": "Belgium",
+       "color": "#4FA3E0"
+      },
+      {
+       "country": "Luxembourg",
+       "color": "#4FA3E0"
+      },
+      {
+       "country": "France",
+       "color": "#4FA3E0"
+      },
+      {
+       "country": "Italy",
+       "color": "#4FA3E0"
+      },
+      {
+       "country": "Austria",
+       "color": "#E8E2D0"
+      }
+     ]
+    }
+   ],
+   "say": [
+    "En mai 1955, la RFA entre dans l’OTAN, et l’URSS signe un traité à Varsovie.",
+    "Huit États s’y lient : face à l’OTAN, l’Est forme désormais une alliance armée."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "15 mai 1955",
+   "text": "L’Autriche choisit la neutralité",
+   "focus": {
+    "box": [
+     8.5,
+     45,
+     20.5,
+     50.5
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Czechia",
+      "Slovakia",
+      "Hungary",
+      "Poland"
+     ],
+     "regions": [
+      {
+       "c": "Germany",
+       "n": "Mecklenburg-Vorpommern"
+      },
+      {
+       "c": "Germany",
+       "n": "Brandenburg"
+      },
+      {
+       "c": "Germany",
+       "n": "Sachsen-Anhalt"
+      },
+      {
+       "c": "Germany",
+       "n": "Sachsen"
+      },
+      {
+       "c": "Germany",
+       "n": "Thüringen"
+      }
+     ],
+     "color": "#E8503A",
+     "at": 0,
+     "keep": false
+    },
+    {
+     "countries": [
+      "Italy",
+      "France"
+     ],
+     "regions": [
+      {
+       "c": "Germany",
+       "n": "Schleswig-Holstein"
+      },
+      {
+       "c": "Germany",
+       "n": "Hamburg"
+      },
+      {
+       "c": "Germany",
+       "n": "Niedersachsen"
+      },
+      {
+       "c": "Germany",
+       "n": "Bremen"
+      },
+      {
+       "c": "Germany",
+       "n": "Nordrhein-Westfalen"
+      },
+      {
+       "c": "Germany",
+       "n": "Hessen"
+      },
+      {
+       "c": "Germany",
+       "n": "Rheinland-Pfalz"
+      },
+      {
+       "c": "Germany",
+       "n": "Baden-Württemberg"
+      },
+      {
+       "c": "Germany",
+       "n": "Bayern"
+      }
+     ],
+     "color": "#4FA3E0",
+     "at": 0,
+     "keep": false
+    },
+    {
+     "countries": [
+      "Austria"
+     ],
+     "color": "#E8E2D0",
+     "at": {
+      "line": 1,
+      "word": "neutre",
+      "d": -0.3
+     },
+     "keep": false
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      16.37,
+      48.21
+     ],
+     "when": {
+      "line": 0,
+      "word": "Vienne",
+      "d": 0.0
+     }
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      16.0,
+      48.0
+     ],
+     "to": [
+      20.0,
+      48.3
+     ],
+     "n": 3,
+     "color": "#8E2A2A",
+     "at": {
+      "line": 1,
+      "word": "partent",
+      "d": -0.3
+     },
+     "dur": 1.6
+    },
+    {
+     "from": [
+      13.0,
+      47.6
+     ],
+     "to": [
+      9.6,
+      48.0
+     ],
+     "n": 3,
+     "color": "#4FA3E0",
+     "at": {
+      "line": 1,
+      "word": "partent",
+      "d": -0.1
+     },
+     "dur": 1.6
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      16.37,
+      48.21
+     ],
+     "title": "Vienne",
+     "sub": "15 mai 1955",
+     "side": "t",
+     "when": {
+      "line": 0,
+      "word": "Vienne",
+      "d": 0.3
+     }
+    },
+    {
+     "at": [
+      14.0,
+      47.35
+     ],
+     "title": "Autriche",
+     "sub": "neutre",
+     "side": "b",
+     "when": {
+      "line": 1,
+      "word": "neutre",
+      "d": 0.3
+     }
+    }
+   ],
+   "say": [
+    "Le lendemain, à Vienne, l’Autriche signe un traité avec ses quatre occupants.",
+    "En octobre, les armées partent, et le pays se déclare neutre, entre les deux blocs."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "Aujourd’hui",
+   "text": "Une ligne effacée",
+   "focus": {
+    "box": [
+     5,
+     45,
+     25,
+     56
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Poland",
+      "Czechia",
+      "Slovakia",
+      "Hungary"
+     ],
+     "regions": [
+      {
+       "c": "Germany",
+       "n": "Mecklenburg-Vorpommern"
+      },
+      {
+       "c": "Germany",
+       "n": "Brandenburg"
+      },
+      {
+       "c": "Germany",
+       "n": "Sachsen-Anhalt"
+      },
+      {
+       "c": "Germany",
+       "n": "Sachsen"
+      },
+      {
+       "c": "Germany",
+       "n": "Thüringen"
+      }
+     ],
+     "color": "#FF2E88",
+     "at": 0,
+     "keep": false
+    }
+   ],
+   "line": {
+    "points": [
+     [
+      10.88,
+      53.96
+     ],
+     [
+      10.75,
+      53.7
+     ],
+     [
+      10.6,
+      53.37
+     ],
+     [
+      11.57,
+      53.04
+     ],
+     [
+      10.9,
+      52.7
+     ],
+     [
+      11.0,
+      52.23
+     ],
+     [
+      10.6,
+      51.73
+     ],
+     [
+      10.0,
+      51.2
+     ],
+     [
+      9.96,
+      50.84
+     ],
+     [
+      10.1,
+      50.6
+     ],
+     [
+      11.0,
+      50.35
+     ],
+     [
+      11.85,
+      50.4
+     ],
+     [
+      12.1,
+      50.32
+     ],
+     [
+      12.3,
+      50.1
+     ],
+     [
+      12.5,
+      49.65
+     ],
+     [
+      12.85,
+      49.3
+     ],
+     [
+      13.5,
+      48.95
+     ],
+     [
+      13.84,
+      48.77
+     ],
+     [
+      14.7,
+      48.6
+     ],
+     [
+      15.0,
+      48.77
+     ],
+     [
+      15.6,
+      48.86
+     ],
+     [
+      16.0,
+      48.75
+     ],
+     [
+      16.65,
+      48.73
+     ],
+     [
+      16.94,
+      48.62
+     ],
+     [
+      17.0,
+      48.15
+     ],
+     [
+      17.1,
+      47.95
+     ],
+     [
+      16.85,
+      47.7
+     ],
+     [
+      16.7,
+      47.6
+     ],
+     [
+      16.45,
+      47.4
+     ],
+     [
+      16.2,
+      47.0
+     ],
+     [
+      16.11,
+      46.87
+     ]
+    ],
+    "color": "#FFFFFF",
+    "width": 12,
+    "draw": 2.6,
+    "at": {
+     "line": 0,
+     "word": "ligne",
+     "d": -0.3
+    }
+   },
+   "labels": [
+    {
+     "text": "Allemagne",
+     "at": [
+      8.6,
+      50.4
+     ],
+     "size": 36,
+     "when": 0.8
+    },
+    {
+     "text": "Pologne",
+     "at": [
+      19.4,
+      52.2
+     ],
+     "size": 36,
+     "when": 1.0
+    },
+    {
+     "text": "Tchéquie",
+     "at": [
+      15.3,
+      49.9
+     ],
+     "size": 34,
+     "when": 1.2
+    },
+    {
+     "text": "Autriche",
+     "at": [
+      14.0,
+      47.4
+     ],
+     "size": 34,
+     "when": 1.4
+    },
+    {
+     "text": "Hongrie",
+     "at": [
+      19.4,
+      46.9
+     ],
+     "size": 34,
+     "when": 1.6
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      10.9,
+      52.6
+     ],
+     "title": "Ligne Est-Ouest",
+     "sub": "effacée en 1989",
+     "side": "l",
+     "when": {
+      "line": 0,
+      "word": "effacée",
+      "d": 0.0
+     }
+    },
+    {
+     "at": [
+      12.7,
+      49.5
+     ],
+     "title": "Sentier du rideau de fer",
+     "sub": "EuroVelo 13, 20 pays",
+     "side": "l",
+     "when": {
+      "line": 1,
+      "word": "vélo",
+      "d": 0.0
+     }
+    }
+   ],
+   "say": [
+    "Aujourd’hui, cette ligne n’est plus une frontière : elle s’est effacée en 1989.",
+    "Un sentier à vélo la suit, sur plus de 10 000 kilomètres et 20 pays."
+   ]
+  },
+  {
+   "type": "final",
+   "text": "Deux alliances face à face",
+   "sub": "Traité de Varsovie, 1955",
+   "focus": {
+    "box": [
+     4,
+     39.5,
+     30,
+     57
+    ]
+   },
+   "highlight": {
+    "countries": [
+     "Poland",
+     "Czechia",
+     "Slovakia",
+     "Hungary",
+     "Romania",
+     "Bulgaria",
+     "Albania"
+    ],
+    "regions": [
+     {
+      "c": "Germany",
+      "n": "Mecklenburg-Vorpommern"
+     },
+     {
+      "c": "Germany",
+      "n": "Brandenburg"
+     },
+     {
+      "c": "Germany",
+      "n": "Sachsen-Anhalt"
+     },
+     {
+      "c": "Germany",
+      "n": "Sachsen"
+     },
+     {
+      "c": "Germany",
+      "n": "Thüringen"
+     }
+    ],
+    "color": "#FF2E88",
+    "at": 0,
+    "keep": false
+   },
+   "beacon": [
+    {
+     "at": [
+      21.01,
+      52.23
+     ],
+     "when": {
+      "line": 0,
+      "word": "alliances"
+     }
+    }
+   ],
+   "say": [
+    "Voilà pourquoi, dès 1955, deux alliances armées se font face au centre de l’Europe.",
+    "Et tout part de cette question :"
+   ]
+  }
+ ],
+ "terrain": [
+  {
+   "box": [
+    -14,
+    27,
+    40,
+    76
+   ],
+   "px": 3000,
+   "z": 6
+  },
+  {
+   "box": [
+    -10.4,
+    35.1,
+    30.4,
+    61.4
+   ],
+   "px": 2800,
+   "z": 8
+  }
+ ]
+}

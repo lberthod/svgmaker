@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-500 -1050 1000 1100" width="545" height="600" data-art="test-figure--arms-up" data-kind="pose" data-height="1000">
+<title>test-figure--arms-up</title>
+<!-- art --><ellipse cx="0" cy="0" rx="190" ry="26" fill="#140F1E" opacity=".35"/>
+<path d="M -120 0 L -90 -60 L -40 -60 L -40 0 Z M 40 0 L 40 -60 L 100 -60 L 140 0 Z" fill="#3A2A24" stroke="#2A1D17" stroke-width="7" vector-effect="non-scaling-stroke" stroke-linejoin="round"/>
+<path d="M -170 -60 L -120 -560 Q 0 -620 120 -560 L 170 -60 Z" fill="#6E2B2B" stroke="#2A1D17" stroke-width="7" vector-effect="non-scaling-stroke" stroke-linejoin="round"/>
+<path d="M 110 -540 Q 200 -700 230 -860" fill="none" stroke="#6E2B2B" stroke-width="56" stroke-linecap="round"/><circle cx="235" cy="-875" r="34" fill="#F1C9A0" stroke="#2A1D17" stroke-width="7" vector-effect="non-scaling-stroke"/><circle data-part="grip-r" cx="235" cy="-875" r="0"/><path d="M -110 -540 Q -200 -700 -230 -860" fill="none" stroke="#6E2B2B" stroke-width="56" stroke-linecap="round"/><circle cx="-235" cy="-875" r="34" fill="#F1C9A0" stroke="#2A1D17" stroke-width="7" vector-effect="non-scaling-stroke"/>
+<circle cx="10" cy="-720" r="150" fill="#F1C9A0" stroke="#2A1D17" stroke-width="7" vector-effect="non-scaling-stroke"/>
+<path d="M -150 -760 Q 10 -980 170 -760 Z" fill="#4A2E2A" stroke="#2A1D17" stroke-width="7" vector-effect="non-scaling-stroke"/>
+<path d="M -60 -640 Q 10 -520 90 -640 Q 10 -600 -60 -640 Z" fill="#8E8378" stroke="#2A1D17" stroke-width="4" vector-effect="non-scaling-stroke"/>
+<g data-part="eyes-open"><circle cx="-30" cy="-720" r="13" fill="#2A1D17"/><circle cx="60" cy="-720" r="13" fill="#2A1D17"/></g>
+<g data-part="eyes-closed"><path d="M -48 -718 Q -30 -706 -12 -718 M 42 -718 Q 60 -706 78 -718" fill="none" stroke="#2A1D17" stroke-width="4" vector-effect="non-scaling-stroke" stroke-linecap="round"/></g>
+<g data-part="mouth-closed"><path d="M -5 -652 Q 15 -642 35 -652" fill="none" stroke="#2A1D17" stroke-width="4" vector-effect="non-scaling-stroke" stroke-linecap="round"/></g>
+<g data-part="mouth-open"><ellipse cx="15" cy="-648" rx="22" ry="18" fill="#7A1F2B" stroke="#2A1D17" stroke-width="4" vector-effect="non-scaling-stroke"/></g><!-- /art -->
+</svg>

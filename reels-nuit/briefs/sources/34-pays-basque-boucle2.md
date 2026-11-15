@@ -1,0 +1,4 @@
+- 5 : final = « Voilà pourquoi l’euskara, isolé et ancien, n’a aucune parente connue » ; cause de l’isolat dite en scène 3.
+- 2/5 : fueros 1876 expliqués ; Navarre co-officielle 1986 (Wikipédia, statut de la Navarre 1982/1986) ; Vascons = Navarre seule.
+- 2 : art bars supprimé et chiffres 22/27/31 % retirés (non vérifiés) ; « centaines de milliers » à la place de 800 000.
+- 6 : beacon Bilbao, timeline calée tôt, flèches de dialectes étiquetées, soldat « rebelle », focus variés, terrain recalculé.

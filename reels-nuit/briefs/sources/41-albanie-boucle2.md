@@ -1,0 +1,5 @@
+- Faits : scène 1 cause (branche indo-européenne isolée dans les montagnes), reprise au final.
+- Scène 2 : Croatie + Kosovo ajoutés. Scène 3 : Gentius, Albanie+Monténégro seulement, Durrës. Scène 4 : Krujë.
+- Scène 5 : « Plus de quatre siècles ottomans ». Scène 6 : Qemali nommé, sprite savant. Scène 7 : Hoxha sprite ouvrier, titre « Hoxha isole le pays ».
+- Bars : 92 % Kosovo, titre « Albanais dans la population ». Shkumbin #1B5FD6.
+- Arts recalés (at/duration), focus.box variés, labels hook avant l'art, final « Et voici la question qui nous a ouverts : ».

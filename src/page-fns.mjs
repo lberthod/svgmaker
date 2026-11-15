@@ -217,8 +217,31 @@ export function poseStates() {
     let op = 1
     for (let e = a; e && e.nodeType === 1; e = e.parentElement) op *= parseFloat(getComputedStyle(e).opacity)
     if (op < 0.6) continue
+    // V2 (personnage articulé) : ouverture = opacité effective la plus forte d'une bouche ouverte (pose visible comprise)
+    const mouths = a.querySelectorAll('[data-part="mouth-open"]')
+    if (mouths.length) {
+      let best = 0
+      for (const m of mouths) {
+        let o = 1
+        for (let e = m; e && e !== a; e = e.parentElement) o *= parseFloat(getComputedStyle(e).opacity)
+        best = Math.max(best, o)
+      }
+      out[a.getAttribute('data-actor')] = { hasTalk: true, talk: best }
+      continue
+    }
     const talk = a.querySelector('[data-pose="talk"]')
     out[a.getAttribute('data-actor')] = { hasTalk: !!talk, talk: talk ? parseFloat(getComputedStyle(talk).opacity) : 0 }
+  }
+  return out
+}
+
+/** Indices des sous-titres visibles ([data-sub], opacité effective ≥ 0,9). */
+export function visibleSubs() {
+  const out = []
+  for (const g of document.querySelectorAll('[data-sub]')) {
+    let op = 1
+    for (let e = g; e && e.nodeType === 1; e = e.parentElement) op *= parseFloat(getComputedStyle(e).opacity)
+    if (op >= 0.9) out.push(+g.getAttribute('data-sub'))
   }
   return out
 }

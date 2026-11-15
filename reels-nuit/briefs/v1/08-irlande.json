@@ -1,0 +1,616 @@
+{
+  "format": "atlas",
+  "id": "atlas-irlande-partition",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "Une île, deux pays : pourquoi l’Irlande est-elle divisée ?",
+      "focus": {
+        "box": [
+          -11.5,
+          51.0,
+          -4.5,
+          56.0
+        ]
+      },
+      "highlight": {
+        "countries": [
+          "Ireland"
+        ],
+        "color": "#FFD83C",
+        "keep": false,
+        "at": {
+          "line": 0,
+          "word": "Irlande",
+          "d": 0.0
+        }
+      },
+      "say": [
+        "Une île, deux pays : pourquoi l’Irlande est-elle divisée ?"
+      ],
+      "people": [
+        {
+          "who": "paysan",
+          "at": "Dublin",
+          "size": 230,
+          "say": "Une île !",
+          "when": {
+            "line": 0,
+            "word": "île",
+            "d": 0.2
+          },
+          "mood": "wow"
+        }
+      ],
+      "pills": [
+        {
+          "at": "Dublin",
+          "title": "Dublin",
+          "side": "l",
+          "when": {
+            "line": 0,
+            "word": "deux",
+            "d": 0.1
+          }
+        },
+        {
+          "at": "Belfast",
+          "title": "Belfast",
+          "side": "r",
+          "when": {
+            "line": 0,
+            "word": "deux",
+            "d": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "type": "map",
+      "year": "1609",
+      "text": "Des colons venus d’Écosse et d’Angleterre",
+      "focus": {
+        "box": [
+          -11.5,
+          51.0,
+          -4.5,
+          56.0
+        ]
+      },
+      "moves": [
+        {
+          "from": [
+            -5.0,
+            55.5
+          ],
+          "to": "Belfast",
+          "n": 5,
+          "color": "#C62828",
+          "label": "La plantation d’Ulster",
+          "at": {
+            "line": 0,
+            "word": "colons",
+            "d": -0.2
+          },
+          "dur": 2.6
+        }
+      ],
+      "say": [
+        "Au XVIIe siècle, la Couronne installe des colons, surtout protestants, venus d’Écosse et d’Angleterre, dans le nord de l’île, en Ulster.",
+        "Dans le reste de l’île, la majorité reste catholique."
+      ],
+      "people": [
+        {
+          "who": "paysan",
+          "at": "Belfast",
+          "size": 240,
+          "when": {
+            "line": 0,
+            "word": "Ulster",
+            "d": 0.2
+          },
+          "label": {
+            "title": "Un colon",
+            "sub": "surtout protestant"
+          }
+        },
+        {
+          "who": "paysan",
+          "at": "Cork",
+          "size": 210,
+          "when": {
+            "line": 1,
+            "word": "catholique"
+          },
+          "label": {
+            "title": "Un paysan irlandais",
+            "sub": "catholique"
+          }
+        }
+      ],
+      "labels": [
+        {
+          "text": "Ulster",
+          "at": [
+            -7.3,
+            54.9
+          ],
+          "size": 46,
+          "when": {
+            "line": 0,
+            "word": "Ulster"
+          }
+        }
+      ]
+    },
+    {
+      "type": "map",
+      "year": "1801",
+      "text": "L’Irlande entre dans le Royaume-Uni",
+      "focus": {
+        "box": [
+          -11.5,
+          50.0,
+          2.0,
+          56.5
+        ]
+      },
+      "highlight": {
+        "countries": [
+          "United Kingdom"
+        ],
+        "color": "#6A7F9A",
+        "keep": false,
+        "at": {
+          "line": 0,
+          "word": "1801",
+          "d": -0.2
+        }
+      },
+      "say": [
+        "En 1801, l’Irlande est officiellement unie à la Grande-Bretagne.",
+        "Désormais, les lois de l’île sont votées à Londres."
+      ],
+      "people": [
+        {
+          "who": "roi",
+          "at": "Londres",
+          "size": 230,
+          "when": {
+            "line": 1,
+            "word": "Londres"
+          },
+          "label": {
+            "title": "Londres",
+            "sub": "vote les lois"
+          }
+        }
+      ],
+      "pills": [
+        {
+          "at": "Dublin",
+          "title": "Dublin",
+          "side": "l",
+          "sub": "1801",
+          "when": {
+            "line": 0,
+            "word": "1801",
+            "d": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "type": "map",
+      "year": "1845 – 1852",
+      "text": "La Grande Famine",
+      "focus": {
+        "box": [
+          -11.5,
+          51.0,
+          -4.5,
+          56.0
+        ]
+      },
+      "big": {
+        "value": "1 000 000",
+        "sub": "de morts environ, autant d’exilés",
+        "at": {
+          "line": 1,
+          "word": "million",
+          "d": -0.3
+        },
+        "dur": 2.6
+      },
+      "say": [
+        "De 1845 à 1852, le mildiou détruit les pommes de terre, la nourriture de beaucoup d’Irlandais.",
+        "Environ un million de personnes meurent, et un million d’autres quittent l’île."
+      ],
+      "people": [
+        {
+          "who": "paysan",
+          "at": [
+            -8.7,
+            53.3
+          ],
+          "size": 220,
+          "when": {
+            "line": 0,
+            "word": "mildiou",
+            "d": 0.1
+          },
+          "mood": "sad"
+        }
+      ],
+      "moves": [
+        {
+          "from": "Cork",
+          "to": [
+            -11.3,
+            51.2
+          ],
+          "n": 4,
+          "color": "#FFFFFF",
+          "label": "Exilés",
+          "at": {
+            "line": 1,
+            "word": "quittent",
+            "d": -0.3
+          },
+          "dur": 2.4
+        }
+      ]
+    },
+    {
+      "type": "map",
+      "year": "1916",
+      "text": "L’insurrection de Pâques",
+      "focus": {
+        "box": [
+          -8.5,
+          52.5,
+          -4.5,
+          54.5
+        ]
+      },
+      "people": [
+        {
+          "who": "rebelle",
+          "at": "Dublin",
+          "size": 270,
+          "say": "République !",
+          "when": {
+            "line": 0,
+            "word": "Dublin",
+            "d": 0.4
+          }
+        },
+        {
+          "who": "rebelle",
+          "at": [
+            -6.6,
+            53.0
+          ],
+          "size": 230,
+          "say": "Liberté !",
+          "when": {
+            "line": 1,
+            "word": "idée"
+          }
+        }
+      ],
+      "say": [
+        "En 1916, des rebelles prennent les armes à Dublin, à Pâques.",
+        "L’insurrection est écrasée, mais l’idée d’indépendance grandit."
+      ],
+      "pills": [
+        {
+          "at": "Dublin",
+          "title": "Poste centrale",
+          "side": "l",
+          "sub": "Pâques 1916",
+          "when": {
+            "line": 0,
+            "word": "Dublin"
+          }
+        }
+      ]
+    },
+    {
+      "type": "map",
+      "year": "1920 – 1922",
+      "text": "L’île est partagée",
+      "focus": {
+        "box": [
+          -9.5,
+          51.5,
+          -4.5,
+          55.5
+        ]
+      },
+      "line": {
+        "points": [
+          [
+            -7.25,
+            55.05
+          ],
+          [
+            -7.45,
+            54.65
+          ],
+          [
+            -7.8,
+            54.3
+          ],
+          [
+            -7.4,
+            54.15
+          ],
+          [
+            -7.0,
+            54.1
+          ],
+          [
+            -6.95,
+            54.3
+          ]
+        ],
+        "label": "Frontière (tracé simplifié)",
+        "color": "#FFD83C",
+        "at": {
+          "line": 0,
+          "word": "frontière",
+          "d": -0.3
+        }
+      },
+      "labels": [
+        {
+          "text": "État libre",
+          "at": [
+            -8.2,
+            53.2
+          ],
+          "size": 50,
+          "when": {
+            "line": 1,
+            "word": "libre"
+          }
+        },
+        {
+          "text": "Irlande du Nord",
+          "at": [
+            -6.8,
+            54.75
+          ],
+          "size": 44,
+          "when": {
+            "line": 1,
+            "word": "Nord"
+          }
+        }
+      ],
+      "say": [
+        "Entre 1920 et 1922, l’île est partagée.",
+        "Vingt-six comtés forment l’État libre d’Irlande, et six comtés du nord, l’Irlande du Nord, restent britanniques."
+      ],
+      "pills": [
+        {
+          "at": "Dublin",
+          "title": "Dublin",
+          "side": "l",
+          "sub": "État libre",
+          "when": {
+            "line": 1,
+            "word": "Vingt-six"
+          }
+        },
+        {
+          "at": "Belfast",
+          "title": "Belfast",
+          "side": "r",
+          "sub": "Irlande du Nord",
+          "when": {
+            "line": 1,
+            "word": "six",
+            "d": 0.4
+          }
+        }
+      ],
+      "people": [
+        {
+          "who": "paysan",
+          "at": [
+            -8.9,
+            52.4
+          ],
+          "size": 210,
+          "when": {
+            "line": 1,
+            "word": "Vingt-six",
+            "d": 0.3
+          }
+        }
+      ]
+    },
+    {
+      "type": "map",
+      "text": "Pourquoi ces six comtés ?",
+      "focus": {
+        "box": [
+          -9.5,
+          53.5,
+          -5.0,
+          55.5
+        ]
+      },
+      "labels": [
+        {
+          "text": "Majorité protestante (globale)",
+          "at": [
+            -6.7,
+            54.6
+          ],
+          "size": 42,
+          "when": {
+            "line": 0,
+            "word": "protestants"
+          }
+        }
+      ],
+      "say": [
+        "Dans l’ensemble de ces six comtés, les protestants, souvent descendants des colons, sont majoritaires.",
+        "La plupart veulent rester dans le Royaume-Uni."
+      ],
+      "people": [
+        {
+          "who": "paysan",
+          "at": [
+            -5.9,
+            54.0
+          ],
+          "size": 230,
+          "when": {
+            "line": 0,
+            "word": "protestants",
+            "d": 0.1
+          },
+          "label": {
+            "title": "Un protestant",
+            "sub": "souvent unioniste"
+          }
+        },
+        {
+          "who": "paysan",
+          "at": [
+            -8.0,
+            54.3
+          ],
+          "size": 210,
+          "when": {
+            "line": 1,
+            "word": "rester",
+            "d": 0.2
+          },
+          "label": {
+            "title": "Un catholique",
+            "sub": "minorité, surtout à l’ouest"
+          }
+        }
+      ],
+      "pills": [
+        {
+          "at": "Belfast",
+          "title": "Belfast",
+          "side": "t",
+          "sub": "six comtés",
+          "when": {
+            "line": 0,
+            "word": "six"
+          }
+        }
+      ]
+    },
+    {
+      "type": "map",
+      "year": "1949 – 1998",
+      "text": "De la République à la paix",
+      "focus": {
+        "box": [
+          -11.5,
+          51.0,
+          -4.5,
+          56.0
+        ]
+      },
+      "pills": [
+        {
+          "at": "Belfast",
+          "title": "Accord du Vendredi saint",
+          "sub": "1998",
+          "side": "t",
+          "when": {
+            "line": 1,
+            "word": "1998",
+            "d": -0.4
+          }
+        },
+        {
+          "at": "Dublin",
+          "title": "Dublin",
+          "side": "l",
+          "sub": "1949 : république",
+          "when": {
+            "line": 0,
+            "word": "1949"
+          }
+        }
+      ],
+      "say": [
+        "En 1949, l’Irlande indépendante devient officiellement une république.",
+        "Après trente ans de violences, l’accord du Vendredi saint ouvre la voie à la paix en 1998."
+      ],
+      "people": [
+        {
+          "who": "paysan",
+          "at": "Dublin",
+          "size": 220,
+          "say": "Paix !",
+          "when": {
+            "line": 1,
+            "word": "paix"
+          },
+          "mood": "happy",
+          "wave": true
+        }
+      ]
+    },
+    {
+      "type": "final",
+      "text": "Et toi, tu connais l’Irlande ?",
+      "sub": "Dis-le en commentaire !",
+      "focus": {
+        "box": [
+          -11.5,
+          51.0,
+          -4.5,
+          56.0
+        ]
+      },
+      "say": [
+        "Et toi, tu connais l’Irlande ? Dis-le en commentaire, et abonne-toi pour la suite !"
+      ],
+      "people": [
+        {
+          "who": "paysan",
+          "at": "Dublin",
+          "size": 240,
+          "say": "Sláinte !",
+          "when": {
+            "line": 0,
+            "word": "Et",
+            "d": 0.4
+          },
+          "wave": true,
+          "mood": "happy"
+        }
+      ],
+      "pills": [
+        {
+          "at": "Dublin",
+          "title": "Dublin",
+          "side": "l",
+          "when": {
+            "line": 0,
+            "word": "Irlande"
+          }
+        }
+      ]
+    }
+  ],
+  "base": {
+    "countries": [
+      "Ireland",
+      "United Kingdom"
+    ]
+  }
+}

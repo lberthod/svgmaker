@@ -1,0 +1,6 @@
+- Faits: Royaume-Uni retire du hook; frise Brexit 1957/1986/2004/2007/2013/2020; euro circule en 2002; Schengen dont quatre hors Union; euro colore (teal) 21 pays.
+- Cartographie: focus.box recadres (1957, 1981, 1995, 2004, 2007, 2013, final); terrain etendu; labels fondateurs; beacons Malte/Chypre/Sofia/Zagreb; Croatie en 2013 seulement.
+- Lisibilite: sub de pills supprimes; stats 4 items sans sub; moves supprimes; labels langues retires.
+- Camera: when/at calés sur mots; arts 3.2-3.5 s; languages bulgare/suédois.
+- Boucle: derniere phrase "Voilà la réponse à la question qui nous a ouverts :". Causes ajoutees (guerre, dictatures, mur de Berlin).
+- Validation: 112.7 s estimes.

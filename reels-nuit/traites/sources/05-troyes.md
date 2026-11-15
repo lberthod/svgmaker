@@ -1,0 +1,21 @@
+# 05 — Traité de Troyes (1420) : sources
+
+- Traité signé le 21 mai 1420 à Troyes (cathédrale Saint-Pierre-et-Saint-Paul) → https://fr.wikipedia.org/wiki/Traité_de_Troyes
+- Henri V devient héritier de Charles VI et régent du royaume → https://fr.wikipedia.org/wiki/Traité_de_Troyes
+- Le dauphin Charles déshérité (« soi-disant dauphin de Viennois »), accusé du meurtre de Montereau → https://fr.wikipedia.org/wiki/Traité_de_Troyes
+- Charles VI trop malade pour assister au scellement ; Isabeau de Bavière et Philippe le Bon, mandatés le 19 mai, agissent en son nom (d'où « au nom de ») → https://en.wikipedia.org/wiki/Treaty_of_Troyes
+- Crises de folie de Charles VI depuis 1392 → https://en.wikipedia.org/wiki/Treaty_of_Troyes
+- Mariage d'Henri V et de Catherine de Valois, 2 juin 1420, Troyes → https://fr.wikipedia.org/wiki/Traité_de_Troyes
+- Assassinat de Jean sans Peur sur le pont de Montereau, 10 septembre 1419 → https://fr.wikipedia.org/wiki/Traité_de_Troyes
+- Le dauphin, réfugié à Bourges, garde de fait le Sud → https://fr.wikipedia.org/wiki/Traité_de_Troyes ; https://en.wikipedia.org/wiki/Treaty_of_Troyes
+- Henri V meurt le 31 août 1422, Charles VI le 21 octobre 1422 (≈ 7 semaines) ; Henri VI, 10 mois, proclamé roi de France et d'Angleterre → https://fr.wikipedia.org/wiki/Traité_de_Troyes
+- Henri VI couronné roi de France à Notre-Dame de Paris le 16 décembre 1431 (non utilisé dans la voix) → https://fr.wikipedia.org/wiki/Henri_VI_(roi_d'Angleterre)
+- Siège de Rouen 31 juillet 1418 – 19 janvier 1419 ; conquête de la Normandie à partir d'août 1417 → https://fr.wikipedia.org/wiki/Siège_de_Rouen_(1418-1419) ; https://en.wikipedia.org/wiki/Treaty_of_Troyes
+- Azincourt, 25 octobre 1415, victoire d'Henri V → https://www.herodote.net/25_octobre_1415-evenement-14151025.php
+- Bourguignons maîtres de Paris (28-29 mai 1418), le dauphin fuit → https://www.herodote.net/histoire10250.php ; https://en.wikipedia.org/wiki/Charles_VII_of_France
+- Sacre de Charles VII à Reims, 17 juillet 1429, avec Jeanne d'Arc → https://en.wikipedia.org/wiki/Charles_VII_of_France
+- Fin de la guerre en 1453 : sur le continent, l'Angleterre ne garde que Calais (plus les îles Anglo-Normandes, hors continent) → https://en.wikipedia.org/wiki/English_claims_to_the_French_throne
+- Calais perdue en 1558 → https://en.wikipedia.org/wiki/English_claims_to_the_French_throne
+- Titre de « roi de France » abandonné en 1801 (George III, Acte d'Union ; renonciation définitive en 1802, paix d'Amiens) → https://en.wikipedia.org/wiki/English_claims_to_the_French_throne
+- Guyenne anglaise depuis le 12e siècle (Henri II Plantagenêt, 1154) → https://fr.wikipedia.org/wiki/Duché_d'Aquitaine
+- Carte 1420 (zones anglaise, bourguignonne, du dauphin) : frontières approximatives dessinées par départements actuels (Normandie + Gironde/Landes ; Bourgogne, Nivernais, Auxerrois, Flandre-Artois ; Paris, Île-de-France, Picardie, Champagne, Chartres sous contrôle anglo-bourguignon ; reste au sud et Maine/Anjou au dauphin ; Bretagne non coloriée) → https://fr.wikipedia.org/wiki/Royaume_de_Bourges

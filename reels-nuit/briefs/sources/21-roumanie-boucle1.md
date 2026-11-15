@@ -1,0 +1,22 @@
+# 21-roumanie, boucle 1 : journal des changements
+- Terrain[0] box [-14,27,40,76] px 3000 z 6 ; terrain[1] box [18.2,42.6,31,49.8] px 2800 : formule demandée
+- Palette unique : jaune Roumanie, bleu voisins slaves, vert Hongrie/Transylvanie, orange Valachie, violet Moldavie, jaune pâle Moldova (carto 3, caméra 2)
+- Tous les highlight en keep:false sauf S7 (aujourd'hui, repris par le final) : plus de couleurs anachroniques (carto 2, 4)
+- S1 voisins colorés (Ukraine, Serbie, Bulgarie, Hongrie, Moldova) avec noms ; labels Hongrie [19.6,47.4], Serbie [20.3,44.0], Bulgarie [25.3,43.2], Moldova [28.9,47.6] à « latine » ; focus [18.6,43,30.6,49.4] (carto 1, faits 5)
+- S1 stats : titre et sub « environ » retirés, 238 400 km², at line 1 d 0, dur 4.5, superficie ajoutée à la voix (faits 6, lisibilité 1 et 8, caméra 4, compo 3)
+- S2 Dacie romaine en 14 régions (faits 1, carto 5, compo 5) ; légions from [21.0,44.6] at « Trajan » -0,3 ; Trajan [21.4,47.4] à « Trajan » ; Décébale [25.0,47.3] ; Carpates [26.0,46.6] ; beacon retiré (caméra 5, compo 5)
+- S3 régions de Dacie en jaune, Ukraine et Bulgarie en bleu ; move rouge « Romains » [23.5,45.5] vers [20.4,44.0] à « Romains » ; Slaves from [26.0,48.4] et [25.0,43.9] à « Dès » ; beacon retiré (carto 8, caméra 6, compo 4)
+- S4 Moldavie en violet, Transylvanie verte avec Banat, Crișana, Maramureș (compo 7, carto 2) ; Ottomans from [25.0,43.6], libellé « Ottomans (15e-16e s.) » ; voix « Plus tard, les Ottomans les dominent… » (faits 2, carto 6)
+- S4 pastilles Bucarest et Iasi remplacées par Curtea de Arges et Suceava (faits 8, carto 6) ; beacon retiré
+- S5 highlight Valachie + Moldavie seulement (Banat, Dobrogée hors union) (faits 3, carto 2) ; Cuza [27.0,46.2] à « 1859 » +0,3 ; Carol [26.1,44.9] à « 1881 » ; flèche blanche ; Bucarest side l à « Valaques », Iasi à « Moldaves » -0,3 (faits 3, carto 7, caméra 2-3, compo 6)
+- S6 voix « la Bessarabie, la Bucovine puis la Transylvanie rejoignent la Roumanie » puis 1er décembre (faits 4) ; surlignages et pastilles recalés sur la ligne 1, Alba -0,5, paysan à « vote » (caméra 7) ; label Bucovine retiré (faits 4) ; Transylvanie orange non conservée (carto 4)
+- S7 voisins colorés et nommés (carto 3, compo 8), Moldova label à « Moldavie » (compo 2), art dur 4.5, titre « Qui parle quoi ? », icônes retirées (lisibilité 8, compo 2), voix « Environ 24 millions » (faits 7)
+- S8 timeline : « Vers 271 », « Vers 1330 », titre « Dix-huit siècles en six dates », art titre « Dates clés », dur 5.0, 3 pastilles et beacon retirés (faits 8, lisibilité 2 et 8, caméra 8, compo 1)
+- S9 focus [19.2,43,30.6,48.8], labels Ukraine, Bulgarie, Serbie, Hongrie à « Slaves » (caméra 1, compo 8)
+- Validation : 88,1 s estimées, 17 répliques, sans erreur
+## Non appliqué
+- Zoom lent permanent, silence de fin, opacité, tailles < 32 px, espaces « LaValachie » : générateur (caméra 1, lisibilité 1-7)
+- Titre « ARRIVENT » (lisibilité 4) : texte conservé (anomalie de police)
+- « Iași » avec ș et « Curtea de Argeș » : glyphe incertain, ASCII conservé (lisibilité 7)
+- « apă = aqua » (compo 8) : mot étranger non vérifiable en voix
+- Coupure de say de S5 (lisibilité 5) : traité par le générateur

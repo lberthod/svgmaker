@@ -1,0 +1,1471 @@
+{
+ "format": "atlas",
+ "id": "atlas-westphalie",
+ "base": {
+  "countries": [
+   "Germany",
+   "France",
+   "Netherlands",
+   "Switzerland",
+   "Sweden",
+   "Austria",
+   "Czechia",
+   "Poland",
+   "Denmark",
+   "Belgium",
+   "Luxembourg",
+   "Italy",
+   "Hungary"
+  ]
+ },
+ "terrain": [
+  {
+   "box": [
+    -14,
+    27,
+    40,
+    76
+   ],
+   "px": 3000,
+   "z": 6
+  },
+  {
+   "box": [
+    -3.4,
+    44.9,
+    20.9,
+    58.9
+   ],
+   "px": 2800,
+   "z": 8
+  }
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "text": "Westphalie, 1648",
+   "sub": "L’Europe des États naît",
+   "focus": {
+    "box": [
+     3.5,
+     50.0,
+     12.5,
+     54.0
+    ]
+   },
+   "highlight": {
+    "regions": [
+     {
+      "c": "Germany",
+      "n": "Nordrhein-Westfalen"
+     },
+     {
+      "c": "Germany",
+      "n": "Niedersachsen"
+     }
+    ],
+    "color": "#FFD83C",
+    "at": 0.7,
+    "keep": false
+   },
+   "pills": [
+    {
+     "at": [
+      7.63,
+      51.96
+     ],
+     "title": "Münster",
+     "side": "l",
+     "when": {
+      "line": 0,
+      "word": "Westphalie"
+     }
+    },
+    {
+     "at": [
+      8.05,
+      52.28
+     ],
+     "title": "Osnabrück",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "Westphalie",
+      "d": 0.3
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      7.85,
+      52.1
+     ],
+     "when": 0.4
+    }
+   ],
+   "labels": [
+    {
+     "text": "Pays-Bas",
+     "at": [
+      5.0,
+      52.6
+     ],
+     "size": 38,
+     "when": {
+      "line": 1,
+      "d": 0.3
+     }
+    },
+    {
+     "text": "Allemagne",
+     "at": [
+      10.6,
+      51.0
+     ],
+     "size": 38,
+     "when": {
+      "line": 1,
+      "d": 0.7
+     }
+    }
+   ],
+   "say": [
+    "Pourquoi les traités de Westphalie ont-ils changé l’Europe ?",
+    "Tout commence par 30 ans de guerre."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "Avant 1618",
+   "text": "Catholiques contre protestants",
+   "focus": {
+    "box": [
+     5.0,
+     46.5,
+     18.0,
+     55.0
+    ]
+   },
+   "highlight": [
+    {
+     "regions": [
+      {
+       "c": "Germany",
+       "n": "Bayern"
+      }
+     ],
+     "countries": [
+      "Austria"
+     ],
+     "color": "#E8A33C",
+     "at": {
+      "line": 1,
+      "word": "catholique",
+      "d": -0.1
+     },
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "Germany",
+       "n": "Niedersachsen"
+      },
+      {
+       "c": "Germany",
+       "n": "Schleswig-Holstein"
+      },
+      {
+       "c": "Germany",
+       "n": "Mecklenburg-Vorpommern"
+      },
+      {
+       "c": "Germany",
+       "n": "Brandenburg"
+      },
+      {
+       "c": "Germany",
+       "n": "Sachsen-Anhalt"
+      },
+      {
+       "c": "Germany",
+       "n": "Sachsen"
+      },
+      {
+       "c": "Germany",
+       "n": "Thüringen"
+      },
+      {
+       "c": "Germany",
+       "n": "Hessen"
+      }
+     ],
+     "color": "#C77DFF",
+     "at": {
+      "line": 1,
+      "word": "protestant",
+      "d": -0.1
+     },
+     "keep": false
+    }
+   ],
+   "labels": [
+    {
+     "text": "Saint-Empire",
+     "at": [
+      12.5,
+      50.2
+     ],
+     "size": 40,
+     "when": {
+      "line": 0,
+      "word": "Saint-Empire"
+     }
+    },
+    {
+     "text": "Pologne",
+     "at": [
+      17.0,
+      52.0
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "d": 1.0
+     }
+    },
+    {
+     "text": "France",
+     "at": [
+      6.0,
+      48.5
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "d": 1.4
+     }
+    },
+    {
+     "text": "Catholiques",
+     "at": [
+      11.6,
+      48.5
+     ],
+     "size": 40,
+     "when": {
+      "line": 1,
+      "word": "sud",
+      "d": 0.2
+     }
+    },
+    {
+     "text": "Protestants",
+     "at": [
+      10.3,
+      52.5
+     ],
+     "size": 40,
+     "when": {
+      "line": 1,
+      "word": "nord",
+      "d": 0.2
+     }
+    }
+   ],
+   "say": [
+    "Depuis la paix d’Augsbourg en 1555, le Saint-Empire est divisé entre catholiques et protestants.",
+    "Le sud est surtout catholique, le nord surtout protestant."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "23 mai 1618",
+   "text": "La défenestration de Prague",
+   "focus": {
+    "box": [
+     9.0,
+     47.5,
+     19.0,
+     52.0
+    ]
+   },
+   "highlight": {
+    "countries": [
+     "Czechia"
+    ],
+    "color": "#E8A33C",
+    "at": {
+     "line": 0,
+     "d": 0.2
+    },
+    "keep": false
+   },
+   "people": [
+    {
+     "who": "rebelle",
+     "at": [
+      13.0,
+      49.3
+     ],
+     "size": 230,
+     "when": {
+      "line": 0,
+      "word": "jettent"
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      14.42,
+      50.09
+     ],
+     "title": "Prague",
+     "side": "t",
+     "when": {
+      "line": 0,
+      "word": "Prague"
+     }
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      14.0,
+      50.3
+     ],
+     "to": [
+      8.5,
+      50.0
+     ],
+     "n": 3,
+     "color": "#E8503A",
+     "at": {
+      "line": 1,
+      "word": "guerre"
+     },
+     "dur": 2.2
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      14.42,
+      50.09
+     ],
+     "when": 0.4
+    }
+   ],
+   "labels": [
+    {
+     "text": "Autriche",
+     "at": [
+      14.6,
+      48.4
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "d": 0.8
+     }
+    },
+    {
+     "text": "Allemagne",
+     "at": [
+      10.4,
+      48.9
+     ],
+     "size": 38,
+     "when": {
+      "line": 1,
+      "d": 0.4
+     }
+    },
+    {
+     "text": "Pologne",
+     "at": [
+      17.8,
+      51.5
+     ],
+     "size": 38,
+     "when": {
+      "line": 1,
+      "d": 0.8
+     }
+    }
+   ],
+   "say": [
+    "Le 23 mai 1618, des protestants jettent deux envoyés de l’empereur par la fenêtre, à Prague.",
+    "La révolte éclate, et la guerre gagne l’Allemagne."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1618 – 1648",
+   "text": "Une guerre qui devient européenne",
+   "focus": {
+    "box": [
+     -3.0,
+     46.0,
+     20.0,
+     58.0
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Sweden"
+     ],
+     "color": "#4F7FD0",
+     "at": {
+      "line": 1,
+      "word": "Suède",
+      "d": -0.2
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "France"
+     ],
+     "color": "#E8503A",
+     "at": {
+      "line": 1,
+      "word": "France",
+      "d": -0.3
+     },
+     "keep": false
+    }
+   ],
+   "art": [
+    {
+     "kind": "timeline",
+     "at": {
+      "line": 0,
+      "d": 0.3
+     },
+     "dur": 3.6,
+     "title": "Trente ans de guerre",
+     "items": [
+      {
+       "year": "1618",
+       "text": "Prague, la révolte"
+      },
+      {
+       "year": "1630",
+       "text": "Entrée de la Suède"
+      },
+      {
+       "year": "1635",
+       "text": "La France s’engage"
+      },
+      {
+       "year": "1644",
+       "text": "Les négociations"
+      },
+      {
+       "year": "1648",
+       "text": "La paix"
+      }
+     ]
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      16.0,
+      56.7
+     ],
+     "to": [
+      13.5,
+      53.6
+     ],
+     "n": 3,
+     "color": "#4F7FD0",
+     "at": {
+      "line": 1,
+      "word": "Suède"
+     },
+     "dur": 2.2
+    },
+    {
+     "from": [
+      2.35,
+      48.86
+     ],
+     "to": [
+      8.0,
+      49.8
+     ],
+     "n": 3,
+     "color": "#E8503A",
+     "at": {
+      "line": 1,
+      "word": "France"
+     },
+     "dur": 2.2
+    }
+   ],
+   "people": [
+    {
+     "who": "soldat",
+     "at": [
+      11.0,
+      51.0
+     ],
+     "size": 220,
+     "when": {
+      "line": 1,
+      "word": "France",
+      "d": 0.8
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Allemagne",
+     "at": [
+      10.5,
+      50.0
+     ],
+     "size": 38,
+     "when": {
+      "line": 1,
+      "d": 0.2
+     }
+    },
+    {
+     "text": "Suède",
+     "at": [
+      15.5,
+      57.2
+     ],
+     "size": 38,
+     "when": {
+      "line": 1,
+      "word": "Suède",
+      "d": 0.1
+     }
+    },
+    {
+     "text": "France",
+     "at": [
+      1.8,
+      47.2
+     ],
+     "size": 38,
+     "when": {
+      "line": 1,
+      "word": "France",
+      "d": 0.1
+     }
+    }
+   ],
+   "say": [
+    "Pendant 30 ans l’Allemagne devient le champ de bataille de l’Europe.",
+    "La Suède entre en guerre en 1630, la France en 1635."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1618 – 1648",
+   "text": "Un désastre humain",
+   "focus": {
+    "box": [
+     5.5,
+     47.0,
+     15.5,
+     55.5
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Germany"
+     ],
+     "color": "#E8A33C",
+     "at": {
+      "line": 0,
+      "d": 0.2
+     },
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "Germany",
+       "n": "Mecklenburg-Vorpommern"
+      }
+     ],
+     "color": "#E8503A",
+     "at": {
+      "line": 1,
+      "word": "Poméranie"
+     },
+     "keep": false
+    }
+   ],
+   "art": [
+    {
+     "kind": "stats",
+     "at": {
+      "line": 1,
+      "d": 0.4
+     },
+     "dur": 3.2,
+     "title": "Les pertes de l’Allemagne",
+     "items": [
+      {
+       "value": 30,
+       "prefix": "jusqu’à ",
+       "suffix": " %",
+       "label": "de la population perdue",
+       "color": "#FFD83C",
+       "size": 84
+      },
+      {
+       "value": 50,
+       "prefix": "près de ",
+       "suffix": " %",
+       "label": "en Poméranie et Mecklembourg",
+       "color": "#E8503A",
+       "size": 84
+      }
+     ]
+    }
+   ],
+   "people": [
+    {
+     "who": "paysan",
+     "at": [
+      10.0,
+      51.3
+     ],
+     "size": 230,
+     "mood": "sad",
+     "when": {
+      "line": 0,
+      "word": "faim"
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Allemagne",
+     "at": [
+      9.6,
+      49.4
+     ],
+     "size": 40,
+     "when": {
+      "line": 0,
+      "d": 0.4
+     }
+    },
+    {
+     "text": "Mecklembourg",
+     "at": [
+      12.0,
+      53.5
+     ],
+     "size": 36,
+     "when": {
+      "line": 1,
+      "word": "Poméranie",
+      "d": 0.3
+     }
+    }
+   ],
+   "say": [
+    "La guerre et la faim tuent des millions de personnes.",
+    "L’Allemagne perd jusqu’à 30 % de ses habitants, et près de la moitié en Poméranie et en Mecklembourg."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1644 – 1648",
+   "text": "Münster et Osnabrück",
+   "focus": {
+    "box": [
+     6.0,
+     51.3,
+     9.8,
+     52.9
+    ]
+   },
+   "highlight": [
+    {
+     "regions": [
+      {
+       "c": "Germany",
+       "n": "Nordrhein-Westfalen"
+      }
+     ],
+     "color": "#E8A33C",
+     "at": {
+      "line": 0,
+      "d": 0.2
+     },
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "Germany",
+       "n": "Niedersachsen"
+      }
+     ],
+     "color": "#C77DFF",
+     "at": {
+      "line": 0,
+      "d": 0.4
+     },
+     "keep": false
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      7.63,
+      51.96
+     ],
+     "title": "Münster",
+     "side": "l",
+     "when": {
+      "line": 0,
+      "word": "Munster"
+     }
+    },
+    {
+     "at": [
+      8.05,
+      52.28
+     ],
+     "title": "Osnabrück",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "Osnabruck"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      7.63,
+      51.96
+     ],
+     "when": 0.4
+    },
+    {
+     "at": [
+      8.05,
+      52.28
+     ],
+     "when": 0.6
+    }
+   ],
+   "labels": [
+    {
+     "text": "Catholiques",
+     "at": [
+      7.2,
+      51.5
+     ],
+     "size": 38,
+     "when": {
+      "line": 1,
+      "word": "Catholiques",
+      "d": 0.2
+     }
+    },
+    {
+     "text": "Protestants",
+     "at": [
+      9.0,
+      52.8
+     ],
+     "size": 38,
+     "when": {
+      "line": 1,
+      "word": "protestants",
+      "d": 0.2
+     }
+    }
+   ],
+   "say": [
+    {
+     "say": "Dès 1644, les diplomates se réunissent à Munster et à Osnabruck.",
+     "show": "Dès 1644, les diplomates se réunissent à Münster et à Osnabrück."
+    },
+    "Catholiques et protestants refusent de siéger ensemble, et les traités sont signés le 24 octobre 1648."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1648",
+   "text": "L’Alsace revient à la France",
+   "focus": {
+    "box": [
+     3.0,
+     46.5,
+     11.0,
+     50.0
+    ]
+   },
+   "highlight": [
+    {
+     "regions": [
+      {
+       "c": "France",
+       "n": "Bas-Rhin"
+      },
+      {
+       "c": "France",
+       "n": "Haute-Rhin"
+      },
+      {
+       "c": "France",
+       "n": "Territoire de Belfort"
+      }
+     ],
+     "color": "#E8503A",
+     "at": {
+      "line": 0,
+      "word": "Alsace"
+     },
+     "keep": false
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      7.6,
+      47.9
+     ],
+     "to": [
+      5.0,
+      47.9
+     ],
+     "n": 3,
+     "color": "#4FA3E0",
+     "at": {
+      "line": 0,
+      "word": "obtient"
+     },
+     "dur": 2.2
+    }
+   ],
+   "people": [
+    {
+     "who": "roi",
+     "at": [
+      3.4,
+      47.2
+     ],
+     "size": 230,
+     "label": {
+      "title": "Louis XIV"
+     },
+     "when": {
+      "line": 0,
+      "word": "France"
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      7.5,
+      48.3
+     ],
+     "title": "Alsace",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "Alsace"
+     }
+    },
+    {
+     "at": [
+      6.18,
+      49.12
+     ],
+     "title": "Metz",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "Metz"
+     }
+    },
+    {
+     "at": [
+      5.89,
+      48.68
+     ],
+     "title": "Toul",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "Toul",
+      "d": 0.2
+     }
+    },
+    {
+     "at": [
+      5.38,
+      49.16
+     ],
+     "title": "Verdun",
+     "side": "l",
+     "when": {
+      "line": 0,
+      "word": "Verdun",
+      "d": 0.2
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      7.5,
+      48.3
+     ],
+     "when": 0.4
+    }
+   ],
+   "labels": [
+    {
+     "text": "Allemagne",
+     "at": [
+      9.0,
+      49.3
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "d": 1.2
+     }
+    },
+    {
+     "text": "Suisse",
+     "at": [
+      7.9,
+      47.1
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "d": 1.6
+     }
+    }
+   ],
+   "say": [
+    "La France obtient les droits des Habsbourg sur la majeure partie de l’Alsace et garde Metz, Toul et Verdun."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1648",
+   "text": "La Suède sur la Baltique",
+   "focus": {
+    "box": [
+     6.5,
+     52.0,
+     20.0,
+     58.5
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Sweden"
+     ],
+     "color": "#4F7FD0",
+     "at": {
+      "line": 0,
+      "d": 0.2
+     },
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "Poland",
+       "n": "West Pomeranian"
+      }
+     ],
+     "color": "#4F7FD0",
+     "at": {
+      "line": 0,
+      "word": "Poméranie"
+     },
+     "keep": false
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      15.5,
+      56.3
+     ],
+     "to": [
+      13.3,
+      54.3
+     ],
+     "n": 3,
+     "color": "#4F7FD0",
+     "at": {
+      "line": 0,
+      "word": "gagne"
+     },
+     "dur": 2.2
+    },
+    {
+     "from": [
+      12.8,
+      56.0
+     ],
+     "to": [
+      9.5,
+      53.7
+     ],
+     "n": 3,
+     "color": "#4F7FD0",
+     "at": {
+      "line": 0,
+      "word": "duchés"
+     },
+     "dur": 2.4
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      11.47,
+      53.89
+     ],
+     "title": "Wismar",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "Wismar"
+     }
+    },
+    {
+     "at": [
+      9.48,
+      53.6
+     ],
+     "title": "Brême-Verden",
+     "side": "l",
+     "when": {
+      "line": 0,
+      "word": "Brême"
+     }
+    },
+    {
+     "at": [
+      14.3,
+      53.9
+     ],
+     "title": "Oder",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "Oder"
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Suède",
+     "at": [
+      15.0,
+      57.3
+     ],
+     "size": 40,
+     "when": {
+      "line": 0,
+      "d": 0.3
+     }
+    },
+    {
+     "text": "Danemark",
+     "at": [
+      10.0,
+      56.0
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "d": 1.0
+     }
+    },
+    {
+     "text": "Pologne",
+     "at": [
+      18.2,
+      53.0
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "d": 1.4
+     }
+    }
+   ],
+   "say": [
+    "La Suède gagne la Poméranie occidentale, Wismar, les duchés de Brême et de Verden, et contrôle les embouchures de l’Oder, de l’Elbe et de la Weser."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1648",
+   "text": "Des États reconnus",
+   "focus": {
+    "box": [
+     2.5,
+     45.3,
+     11.5,
+     54.0
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Netherlands"
+     ],
+     "color": "#FF7A3C",
+     "at": {
+      "line": 0,
+      "d": 0.5
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Switzerland"
+     ],
+     "color": "#3E9A63",
+     "at": {
+      "line": 1,
+      "word": "Confédération"
+     },
+     "keep": false
+    }
+   ],
+   "people": [
+    {
+     "who": "marin",
+     "at": [
+      5.3,
+      52.3
+     ],
+     "size": 220,
+     "when": {
+      "line": 0,
+      "word": "indépendance",
+      "d": 0.3
+     }
+    },
+    {
+     "who": "confedere",
+     "at": [
+      8.2,
+      46.8
+     ],
+     "size": 220,
+     "when": {
+      "line": 1,
+      "word": "Confédération",
+      "d": 0.4
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Provinces-Unies",
+     "at": [
+      4.6,
+      53.3
+     ],
+     "size": 36,
+     "when": {
+      "line": 0,
+      "d": 0.2
+     }
+    },
+    {
+     "text": "Suisse",
+     "at": [
+      8.2,
+      47.7
+     ],
+     "size": 38,
+     "when": {
+      "line": 1,
+      "word": "suisse"
+     }
+    },
+    {
+     "text": "Saint-Empire",
+     "at": [
+      10.2,
+      50.3
+     ],
+     "size": 38,
+     "when": {
+      "line": 1,
+      "d": 0.2
+     }
+    },
+    {
+     "text": "France",
+     "at": [
+      3.8,
+      47.5
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "d": 0.6
+     }
+    }
+   ],
+   "say": [
+    "En janvier 1648, l’Espagne reconnaît l’indépendance des Provinces-Unies.",
+    "Puis l’Empire reconnaît la Confédération suisse."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1648",
+   "text": "Les États deviennent souverains",
+   "focus": {
+    "box": [
+     6.5,
+     46.0,
+     20.5,
+     55.0
+    ]
+   },
+   "highlight": [
+    {
+     "regions": [
+      {
+       "c": "Germany",
+       "n": "Bayern"
+      }
+     ],
+     "color": "#E8A33C",
+     "at": {
+      "line": 0,
+      "d": 0.2
+     },
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "Germany",
+       "n": "Sachsen"
+      }
+     ],
+     "color": "#C77DFF",
+     "at": {
+      "line": 0,
+      "d": 0.30000000000000004
+     },
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "Germany",
+       "n": "Brandenburg"
+      }
+     ],
+     "color": "#3E9A63",
+     "at": {
+      "line": 0,
+      "d": 0.4
+     },
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "Germany",
+       "n": "Hessen"
+      }
+     ],
+     "color": "#E8503A",
+     "at": {
+      "line": 0,
+      "d": 0.5
+     },
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "Germany",
+       "n": "Baden-Württemberg"
+      }
+     ],
+     "color": "#4FA3E0",
+     "at": {
+      "line": 0,
+      "d": 0.6000000000000001
+     },
+     "keep": false
+    }
+   ],
+   "art": [
+    {
+     "kind": "stats",
+     "at": {
+      "line": 0,
+      "word": "États"
+     },
+     "dur": 3.0,
+     "title": "Un empire éclaté",
+     "items": [
+      {
+       "value": 300,
+       "prefix": "plus de ",
+       "label": "États presque souverains",
+       "color": "#FFD83C",
+       "size": 84,
+       "count": false
+      },
+      {
+       "value": 1,
+       "prefix": "un seul ",
+       "label": "empereur, au pouvoir réduit",
+       "color": "#E8503A",
+       "size": 84,
+       "count": false
+      }
+     ]
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      16.37,
+      48.21
+     ],
+     "title": "Vienne",
+     "side": "l",
+     "when": {
+      "line": 1,
+      "word": "empereur",
+      "d": 0.6
+     }
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      10.5,
+      51.0
+     ],
+     "to": [
+      6.5,
+      49.5
+     ],
+     "n": 2,
+     "color": "#FFD83C",
+     "at": {
+      "line": 0,
+      "word": "alliances"
+     },
+     "dur": 2.0
+    }
+   ],
+   "labels": [
+    {
+     "text": "Saint-Empire",
+     "at": [
+      10.2,
+      52.6
+     ],
+     "size": 40,
+     "when": {
+      "line": 1,
+      "d": 0.3
+     }
+    }
+   ],
+   "say": [
+    "Plus de 300 États de l’Empire deviennent presque souverains, et peuvent signer des alliances.",
+    "L’empereur est affaibli et le Saint-Empire n’est plus qu’un cadre fragile."
+   ]
+  },
+  {
+   "type": "final",
+   "text": "L’Europe des États naît",
+   "sub": "Westphalie, 1648",
+   "focus": {
+    "box": [
+     3.5,
+     50.0,
+     12.5,
+     54.0
+    ]
+   },
+   "highlight": {
+    "regions": [
+     {
+      "c": "Germany",
+      "n": "Nordrhein-Westfalen"
+     },
+     {
+      "c": "Germany",
+      "n": "Niedersachsen"
+     }
+    ],
+    "color": "#FFD83C",
+    "at": 0.5,
+    "keep": false
+   },
+   "pills": [
+    {
+     "at": [
+      7.63,
+      51.96
+     ],
+     "title": "Münster",
+     "side": "l",
+     "when": 1.0
+    },
+    {
+     "at": [
+      8.05,
+      52.28
+     ],
+     "title": "Osnabrück",
+     "side": "r",
+     "when": 1.3
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      7.85,
+      52.1
+     ],
+     "when": 0.6
+    }
+   ],
+   "say": [
+    "Voilà pourquoi les traités de Westphalie posent les bases de l’Europe des États.",
+    "Voilà la réponse à la question qui nous a ouverts :"
+   ]
+  }
+ ]
+}

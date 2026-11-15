@@ -6,7 +6,7 @@
 import { mkdirSync } from 'node:fs'
 import path from 'node:path'
 import { chromium } from 'playwright'
-import { fitViewport, poseStates, seek, setupPage } from './page-fns.mjs'
+import { fitViewport, poseStates, seek, setupPage, visibleSubs } from './page-fns.mjs'
 
 const HI = 0.5, LO = 0.1
 
@@ -67,9 +67,20 @@ export async function checkLipsync(svgFile, { lines, voice, min = 85, framesDir 
       rep.silence.checked++
       for (const [name, o] of Object.entries(st)) if (o.talk > 0.5) rep.silence.bad.push(`${t.toFixed(2)} s : « ${name} » parle dans le silence`)
     }
+    // sous-titres : chaque réplique a son sous-titre visible pendant toute sa durée
+    rep.subs = { checked: 0, missing: [] }
+    for (const [k, { l, v, t0, t1 }] of spans.entries()) {
+      const end = v ? t1 : t0 + 0.3
+      for (let t = t0 + 0.08; t <= end - 0.05; t += 0.2) {
+        await page.evaluate(seek, t)
+        const vis = await page.evaluate(visibleSubs)
+        rep.subs.checked++
+        if (!vis.includes(k)) rep.subs.missing.push(`${t.toFixed(2)} s : sous-titre absent de « ${l.text} »`)
+      }
+    }
     const failedLine = rep.lines.some((r) => r.status === 'ÉCHEC')
     const checked = rep.lines.filter((r) => r.checked).length
-    rep.ok = !failedLine && !rep.silence.bad.length && !rep.others.bad.length && checked > 0
+    rep.ok = !failedLine && !rep.silence.bad.length && !rep.others.bad.length && !rep.subs.missing.length && checked > 0
     return rep
   } finally {
     await browser.close()
@@ -86,6 +97,8 @@ export function formatReport(rep) {
   out.push(`${rep.silence.bad.length ? '✗' : '✓'} silences : ${rep.silence.checked - rep.silence.bad.length}/${rep.silence.checked} images sans bouche ouverte`)
   out.push(`${rep.others.bad.length ? '✗' : '✓'} autres personnages : ${rep.others.checked - rep.others.bad.length}/${rep.others.checked} images où seul le locuteur parle`)
   for (const m of [...rep.silence.bad, ...rep.others.bad].slice(0, 5)) out.push(`      ↳ ${m}`)
+  out.push(`${rep.subs.missing.length ? '✗' : '✓'} sous-titres : ${rep.subs.checked - rep.subs.missing.length}/${rep.subs.checked} instants où la réplique dite a son sous-titre`)
+  for (const m of rep.subs.missing.slice(0, 5)) out.push(`      ↳ ${m}`)
   out.push(rep.ok ? '→ synchro conforme' : '→ synchro NON conforme')
   return out.join('\n')
 }

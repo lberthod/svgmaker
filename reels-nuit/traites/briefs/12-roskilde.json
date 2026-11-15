@@ -1,0 +1,1692 @@
+{
+ "format": "atlas",
+ "id": "traites-12-roskilde",
+ "base": {
+  "countries": [
+   "Denmark",
+   "Sweden",
+   "Norway",
+   "Germany",
+   "Poland",
+   "Finland"
+  ]
+ },
+ "open": {
+  "box": [
+   2,
+   51,
+   26,
+   64
+  ]
+ },
+ "terrain": [
+  {
+   "box": [
+    -14,
+    27,
+    40,
+    76
+   ],
+   "px": 3000,
+   "z": 6
+  },
+  {
+   "box": [
+    3.1,
+    52.6,
+    19.9,
+    65.4
+   ],
+   "px": 2800,
+   "z": 8
+  },
+  {
+   "box": [
+    8.4,
+    54.2,
+    15.6,
+    57.4
+   ],
+   "px": 2800,
+   "z": 9
+  }
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "year": "1658",
+   "text": "Pourquoi la Scanie est-elle suédoise ?",
+   "sub": "Traité de Roskilde",
+   "focus": {
+    "box": [
+     2,
+     51,
+     26,
+     64
+    ]
+   },
+   "highlight": [
+    {
+     "regions": [
+      {
+       "c": "Sweden",
+       "n": "Skåne"
+      },
+      {
+       "c": "Sweden",
+       "n": "Halland"
+      },
+      {
+       "c": "Sweden",
+       "n": "Blekinge"
+      }
+     ],
+     "color": "#FF2E88",
+     "at": 0,
+     "keep": false
+    },
+    {
+     "area": [
+      [
+       10.9,
+       59.1
+      ],
+      [
+       11.45,
+       59.08
+      ],
+      [
+       11.72,
+       58.95
+      ],
+      [
+       11.8,
+       58.6
+      ],
+      [
+       12.05,
+       58.35
+      ],
+      [
+       12.3,
+       58.25
+      ],
+      [
+       12.1,
+       57.95
+      ],
+      [
+       11.95,
+       57.72
+      ],
+      [
+       11.7,
+       57.66
+      ],
+      [
+       10.9,
+       57.66
+      ]
+     ],
+     "color": "#FF2E88",
+     "at": 0,
+     "keep": false
+    }
+   ],
+   "beacon": [
+    {
+     "at": "Roskilde",
+     "when": 0
+    }
+   ],
+   "labels": [
+    {
+     "text": "Suède",
+     "at": [
+      14.6,
+      58.4
+     ],
+     "size": 44,
+     "when": 1
+    },
+    {
+     "text": "Danemark",
+     "at": [
+      9.2,
+      56.3
+     ],
+     "size": 40,
+     "when": 1.3
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      13.6,
+      56
+     ],
+     "title": "Scanie",
+     "sub": "contours actuels",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "d": 1.0
+     }
+    }
+   ],
+   "say": [
+    "Pourquoi la Scanie est-elle suédoise ?",
+    "En un seul hiver, une armée marche sur la mer gelée, et tout bascule."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1657",
+   "text": "Le Danemark-Norvège tient le sud",
+   "focus": {
+    "box": [
+     4.5,
+     54,
+     19,
+     61.5
+    ]
+   },
+   "highlight": [
+    {
+     "regions": [
+      {
+       "c": "Sweden",
+       "n": "Norrbotten"
+      },
+      {
+       "c": "Sweden",
+       "n": "Västerbotten"
+      },
+      {
+       "c": "Sweden",
+       "n": "Jämtland"
+      },
+      {
+       "c": "Sweden",
+       "n": "Dalarna"
+      },
+      {
+       "c": "Sweden",
+       "n": "Värmland"
+      },
+      {
+       "c": "Sweden",
+       "n": "Västra Götaland"
+      },
+      {
+       "c": "Sweden",
+       "n": "Västernorrland"
+      },
+      {
+       "c": "Sweden",
+       "n": "Gävleborg"
+      },
+      {
+       "c": "Sweden",
+       "n": "Uppsala"
+      },
+      {
+       "c": "Sweden",
+       "n": "Stockholm"
+      },
+      {
+       "c": "Sweden",
+       "n": "Södermanland"
+      },
+      {
+       "c": "Sweden",
+       "n": "Östergötland"
+      },
+      {
+       "c": "Sweden",
+       "n": "Kalmar"
+      },
+      {
+       "c": "Sweden",
+       "n": "Gotland"
+      },
+      {
+       "c": "Sweden",
+       "n": "Västmanland"
+      },
+      {
+       "c": "Sweden",
+       "n": "Jönköping"
+      },
+      {
+       "c": "Sweden",
+       "n": "Orebro"
+      },
+      {
+       "c": "Sweden",
+       "n": "Kronoberg"
+      }
+     ],
+     "color": "#4F7FD0",
+     "at": 0.3,
+     "keep": true
+    },
+    {
+     "countries": [
+      "Denmark"
+     ],
+     "regions": [
+      {
+       "c": "Sweden",
+       "n": "Skåne"
+      },
+      {
+       "c": "Sweden",
+       "n": "Halland"
+      },
+      {
+       "c": "Sweden",
+       "n": "Blekinge"
+      }
+     ],
+     "area": [
+      [
+       10.9,
+       59.1
+      ],
+      [
+       11.45,
+       59.08
+      ],
+      [
+       11.72,
+       58.95
+      ],
+      [
+       11.8,
+       58.6
+      ],
+      [
+       12.05,
+       58.35
+      ],
+      [
+       12.3,
+       58.25
+      ],
+      [
+       12.1,
+       57.95
+      ],
+      [
+       11.95,
+       57.72
+      ],
+      [
+       11.7,
+       57.66
+      ],
+      [
+       10.9,
+       57.66
+      ]
+     ],
+     "color": "#D9773A",
+     "at": {
+      "line": 0,
+      "word": "possède",
+      "d": -0.3
+     },
+     "keep": true
+    },
+    {
+     "countries": [
+      "Norway"
+     ],
+     "color": "#D9773A",
+     "at": {
+      "line": 0,
+      "word": "possède",
+      "d": 0.2
+     },
+     "keep": true
+    }
+   ],
+   "labels": [
+    {
+     "text": "Suède",
+     "at": [
+      15.6,
+      60.2
+     ],
+     "size": 44,
+     "when": 1
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      9,
+      59.6
+     ],
+     "title": "Danemark-Norvège",
+     "sub": "auj. Danemark et Norvège",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "Danemark-Norvège",
+      "d": 0.3
+     }
+    },
+    {
+     "at": [
+      12.85,
+      56.9
+     ],
+     "title": "Halland",
+     "sub": "gage suédois depuis 1645",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "Suède",
+      "d": 0.3
+     }
+    },
+    {
+     "at": [
+      12.62,
+      55.9
+     ],
+     "title": "Le détroit",
+     "sub": "péage des navires",
+     "side": "b",
+     "when": {
+      "line": 1,
+      "word": "détroit"
+     }
+    }
+   ],
+   "say": [
+    "En 1657, le Danemark-Norvège possède encore le sud de l’actuelle Suède.",
+    "Ses rois tiennent les deux rives du détroit, et taxent les navires."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1657",
+   "text": "Le Danemark attaque",
+   "focus": {
+    "box": [
+     7.5,
+     53,
+     19,
+     58.5
+    ]
+   },
+   "people": [
+    {
+     "who": "roi",
+     "at": [
+      12.4,
+      55.75
+     ],
+     "size": 170,
+     "outfit": "#D9773A",
+     "say": "La guerre !",
+     "label": {
+      "title": "Frédéric III",
+      "sub": "roi du Danemark"
+     },
+     "when": {
+      "line": 0,
+      "word": "Frédéric",
+      "d": -0.2
+     }
+    },
+    {
+     "who": "roi",
+     "at": [
+      9.9,
+      56.6
+     ],
+     "size": 200,
+     "outfit": "#4F7FD0",
+     "say": "Au Danemark !",
+     "label": {
+      "title": "Charles X Gustave",
+      "sub": "roi de Suède"
+     },
+     "when": {
+      "line": 1,
+      "word": "roi",
+      "d": 0
+     }
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      18,
+      53.2
+     ],
+     "to": [
+      10.2,
+      53.7
+     ],
+     "n": 4,
+     "color": "#4F7FD0",
+     "label": "Armée suédoise",
+     "at": {
+      "line": 1,
+      "word": "quitte",
+      "d": -0.2
+     },
+     "dur": 1.6
+    },
+    {
+     "from": [
+      10.2,
+      53.7
+     ],
+     "to": [
+      9.5,
+      55.5
+     ],
+     "n": 3,
+     "color": "#4F7FD0",
+     "at": {
+      "line": 1,
+      "word": "quitte",
+      "d": 1.4
+     },
+     "dur": 1.4
+    }
+   ],
+   "labels": [
+    {
+     "text": "Pologne",
+     "at": [
+      17.6,
+      53.6
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "word": "Suède"
+     }
+    },
+    {
+     "text": "Jutland",
+     "at": [
+      9.1,
+      55.5
+     ],
+     "size": 36,
+     "when": {
+      "line": 1,
+      "word": "Jutland"
+     }
+    }
+   ],
+   "say": [
+    "En juin 1657, le roi Frédéric III déclare la guerre à la Suède.",
+    "Le roi suédois quitte la Pologne avec son armée, et conquiert le Jutland."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "Janv.-févr. 1658",
+   "text": "Une armée marche sur la mer",
+   "focus": {
+    "box": [
+     8.8,
+     54.3,
+     13.2,
+     56.1
+    ]
+   },
+   "moves": [
+    {
+     "from": [
+      9.45,
+      55.6
+     ],
+     "to": [
+      10.15,
+      55.38
+     ],
+     "n": 4,
+     "color": "#4F7FD0",
+     "label": "Sur la glace",
+     "at": {
+      "line": 0,
+      "word": "soldats",
+      "d": -0.2
+     },
+     "dur": 2
+    },
+    {
+     "from": [
+      10.55,
+      55.08
+     ],
+     "to": [
+      11.35,
+      54.75
+     ],
+     "n": 4,
+     "color": "#4F7FD0",
+     "at": {
+      "line": 1,
+      "word": "Grand-Belt",
+      "d": -0.2
+     },
+     "dur": 1.8
+    },
+    {
+     "from": [
+      11.6,
+      54.75
+     ],
+     "to": [
+      11.95,
+      55.3
+     ],
+     "n": 4,
+     "color": "#4F7FD0",
+     "at": {
+      "line": 1,
+      "word": "Seeland",
+      "d": -0.4
+     },
+     "dur": 1.6
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      9.72,
+      55.62
+     ],
+     "title": "Petit-Belt",
+     "sub": "gelé",
+     "side": "l",
+     "when": {
+      "line": 0,
+      "word": "Petit-Belt"
+     }
+    },
+    {
+     "at": [
+      10.98,
+      55.3
+     ],
+     "title": "Grand-Belt",
+     "side": "t",
+     "when": {
+      "line": 1,
+      "word": "Grand-Belt"
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Fionie",
+     "at": [
+      10.35,
+      55.22
+     ],
+     "size": 32,
+     "when": {
+      "line": 0,
+      "word": "gelé",
+      "d": 0.2
+     }
+    },
+    {
+     "text": "Lolland",
+     "at": [
+      11.15,
+      54.82
+     ],
+     "size": 32,
+     "when": {
+      "line": 1,
+      "word": "Grand-Belt",
+      "d": 0.8
+     }
+    },
+    {
+     "text": "Seeland",
+     "at": [
+      11.95,
+      55.5
+     ],
+     "size": 38,
+     "when": {
+      "line": 1,
+      "word": "Seeland"
+     }
+    }
+   ],
+   "say": [
+    "Le 30 janvier, ses soldats traversent à pied le Petit-Belt gelé.",
+    "Puis ils franchissent le Grand-Belt, d’île en île, jusqu’au Seeland."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "11 février 1658",
+   "text": "Copenhague menacée",
+   "focus": {
+    "box": [
+     10.8,
+     54.6,
+     13.4,
+     56.2
+    ]
+   },
+   "beacon": [
+    {
+     "at": "Copenhague",
+     "when": {
+      "line": 0,
+      "word": "Copenhague"
+     }
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      11.9,
+      55.05
+     ],
+     "to": [
+      12.35,
+      55.6
+     ],
+     "n": 5,
+     "color": "#4F7FD0",
+     "label": "Suédois",
+     "at": {
+      "line": 0,
+      "word": "armée",
+      "d": -0.3
+     },
+     "dur": 2
+    }
+   ],
+   "labels": [
+    {
+     "text": "Copenhague",
+     "at": [
+      12.45,
+      55.82
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "word": "Copenhague"
+     }
+    },
+    {
+     "text": "Seeland",
+     "at": [
+      11.7,
+      55.45
+     ],
+     "size": 36,
+     "when": {
+      "line": 0,
+      "word": "Seeland"
+     }
+    }
+   ],
+   "art": [
+    {
+     "kind": "timeline",
+     "at": {
+      "line": 1,
+      "d": 0.4
+     },
+     "dur": 4,
+     "title": "L’hiver de la défaite",
+     "items": [
+      {
+       "year": "Juin 1657",
+       "text": "Le Danemark attaque",
+       "color": "#D9773A"
+      },
+      {
+       "year": "30 janv. 1658",
+       "text": "Le Petit-Belt gelé",
+       "color": "#4F7FD0"
+      },
+      {
+       "year": "11 févr. 1658",
+       "text": "Le Seeland envahi",
+       "color": "#4F7FD0"
+      },
+      {
+       "year": "18 févr. 1658",
+       "text": "Paix préliminaire",
+       "color": "#D9773A"
+      }
+     ],
+     "spread": true
+    }
+   ],
+   "say": [
+    "Le 11 février, l’armée suédoise atteint le Seeland, à quelques jours de Copenhague.",
+    "Pris de court, le roi danois accepte une paix préliminaire, une semaine plus tard."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "26 février 1658",
+   "text": "La paix de Roskilde",
+   "focus": {
+    "box": [
+     10,
+     54.6,
+     15.6,
+     59.2
+    ]
+   },
+   "highlight": [
+    {
+     "regions": [
+      {
+       "c": "Sweden",
+       "n": "Skåne"
+      },
+      {
+       "c": "Sweden",
+       "n": "Halland"
+      },
+      {
+       "c": "Sweden",
+       "n": "Blekinge"
+      }
+     ],
+     "color": "#FF2E88",
+     "at": 0,
+     "keep": false
+    },
+    {
+     "area": [
+      [
+       10.9,
+       59.1
+      ],
+      [
+       11.45,
+       59.08
+      ],
+      [
+       11.72,
+       58.95
+      ],
+      [
+       11.8,
+       58.6
+      ],
+      [
+       12.05,
+       58.35
+      ],
+      [
+       12.3,
+       58.25
+      ],
+      [
+       12.1,
+       57.95
+      ],
+      [
+       11.95,
+       57.72
+      ],
+      [
+       11.7,
+       57.66
+      ],
+      [
+       10.9,
+       57.66
+      ]
+     ],
+     "color": "#FF2E88",
+     "at": 0,
+     "keep": false
+    }
+   ],
+   "beacon": [
+    {
+     "at": "Roskilde",
+     "when": 0.3
+    }
+   ],
+   "pills": [
+    {
+     "at": "Roskilde",
+     "title": "Roskilde",
+     "side": "l",
+     "when": {
+      "line": 0,
+      "word": "Roskilde"
+     }
+    }
+   ],
+   "art": [
+    {
+     "kind": "treaty",
+     "at": {
+      "line": 0,
+      "word": "signent",
+      "d": -0.3
+     },
+     "dur": 3.6,
+     "title": "Traité de Roskilde",
+     "sub": "26 février 1658, au nom de :",
+     "signers": [
+      "Charles X Gustave",
+      "Frédéric III"
+     ],
+     "year": "1658"
+    },
+    {
+     "kind": "split",
+     "at": {
+      "line": 1,
+      "d": -0.2
+     },
+     "dur": 4,
+     "title": "Les terres cédées",
+     "sub": "contours actuels",
+     "before": "Avant 1658",
+     "after": "Après 1658",
+     "legend": [
+      {
+       "color": "#FF2E88",
+       "text": "cédé"
+      },
+      {
+       "color": "#4F7FD0",
+       "text": "Suède"
+      },
+      {
+       "color": "#D9773A",
+       "text": "Danemark"
+      }
+     ],
+     "parts": [
+      {
+       "region": {
+        "c": "Sweden",
+        "n": "Västra Götaland"
+       },
+       "color": "#4F7FD0"
+      },
+      {
+       "region": {
+        "c": "Sweden",
+        "n": "Jönköping"
+       },
+       "color": "#4F7FD0"
+      },
+      {
+       "region": {
+        "c": "Sweden",
+        "n": "Kronoberg"
+       },
+       "color": "#4F7FD0"
+      },
+      {
+       "region": {
+        "c": "Sweden",
+        "n": "Kalmar"
+       },
+       "color": "#4F7FD0"
+      },
+      {
+       "region": {
+        "c": "Denmark",
+        "n": "Hovedstaden"
+       },
+       "color": "#D9773A"
+      },
+      {
+       "region": {
+        "c": "Denmark",
+        "n": "Sjaælland"
+       },
+       "color": "#D9773A"
+      },
+      {
+       "region": {
+        "c": "Norway",
+        "n": "Østfold"
+       },
+       "color": "#D9773A"
+      },
+      {
+       "region": {
+        "c": "Sweden",
+        "n": "Skåne"
+       },
+       "color": "#FF2E88",
+       "to": "#4F7FD0"
+      },
+      {
+       "region": {
+        "c": "Sweden",
+        "n": "Halland"
+       },
+       "color": "#FF2E88",
+       "to": "#4F7FD0"
+      },
+      {
+       "region": {
+        "c": "Sweden",
+        "n": "Blekinge"
+       },
+       "color": "#FF2E88",
+       "to": "#4F7FD0"
+      },
+      {
+       "area": [
+        [
+         10.9,
+         59.1
+        ],
+        [
+         11.45,
+         59.08
+        ],
+        [
+         11.72,
+         58.95
+        ],
+        [
+         11.8,
+         58.6
+        ],
+        [
+         12.05,
+         58.35
+        ],
+        [
+         12.3,
+         58.25
+        ],
+        [
+         12.1,
+         57.95
+        ],
+        [
+         11.95,
+         57.72
+        ],
+        [
+         11.7,
+         57.66
+        ],
+        [
+         10.9,
+         57.66
+        ]
+       ],
+       "color": "#FF2E88",
+       "to": "#4F7FD0"
+      },
+      {
+       "area": [
+        [
+         14.68,
+         55.28
+        ],
+        [
+         14.78,
+         55.3
+        ],
+        [
+         15.0,
+         55.23
+        ],
+        [
+         15.15,
+         55.13
+        ],
+        [
+         15.08,
+         55.0
+        ],
+        [
+         14.85,
+         54.99
+        ],
+        [
+         14.7,
+         55.09
+        ]
+       ],
+       "color": "#FF2E88",
+       "to": "#4F7FD0"
+      }
+     ]
+    }
+   ],
+   "labels": [
+    {
+     "text": "Scanie",
+     "at": [
+      13.5,
+      55.85
+     ],
+     "size": 36,
+     "when": {
+      "line": 1,
+      "d": 3.9
+     }
+    },
+    {
+     "text": "Halland",
+     "at": [
+      12.75,
+      56.85
+     ],
+     "size": 34,
+     "when": {
+      "line": 1,
+      "d": 4.15
+     }
+    },
+    {
+     "text": "Blekinge",
+     "at": [
+      15.2,
+      56.3
+     ],
+     "size": 32,
+     "when": {
+      "line": 1,
+      "d": 4.4
+     }
+    },
+    {
+     "text": "Bohuslän",
+     "at": [
+      11.75,
+      58.4
+     ],
+     "size": 32,
+     "when": {
+      "line": 1,
+      "d": 4.65
+     }
+    }
+   ],
+   "say": [
+    "Le 26 février, les envoyés des deux rois signent la paix à Roskilde.",
+    "La Suède gagne la Scanie, le Halland, le Blekinge et le Bohuslän ; le Danemark-Norvège les perd."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1658",
+   "text": "Deux prises de plus",
+   "focus": {
+    "box": [
+     3.5,
+     52.6,
+     19.5,
+     65
+    ]
+   },
+   "highlight": [
+    {
+     "regions": [
+      {
+       "c": "Sweden",
+       "n": "Skåne"
+      },
+      {
+       "c": "Sweden",
+       "n": "Halland"
+      },
+      {
+       "c": "Sweden",
+       "n": "Blekinge"
+      }
+     ],
+     "color": "#4F7FD0",
+     "at": 0,
+     "keep": true
+    },
+    {
+     "area": [
+      [
+       10.9,
+       59.1
+      ],
+      [
+       11.45,
+       59.08
+      ],
+      [
+       11.72,
+       58.95
+      ],
+      [
+       11.8,
+       58.6
+      ],
+      [
+       12.05,
+       58.35
+      ],
+      [
+       12.3,
+       58.25
+      ],
+      [
+       12.1,
+       57.95
+      ],
+      [
+       11.95,
+       57.72
+      ],
+      [
+       11.7,
+       57.66
+      ],
+      [
+       10.9,
+       57.66
+      ]
+     ],
+     "color": "#4F7FD0",
+     "at": 0,
+     "keep": true
+    },
+    {
+     "regions": [
+      {
+       "c": "Norway",
+       "n": "Nord-Trøndelag"
+      },
+      {
+       "c": "Norway",
+       "n": "Sør-Trøndelag"
+      }
+     ],
+     "area": [
+      [
+       14.6,
+       55.35
+      ],
+      [
+       15.3,
+       55.35
+      ],
+      [
+       15.3,
+       54.95
+      ],
+      [
+       14.6,
+       54.95
+      ]
+     ],
+     "color": "#4F7FD0",
+     "at": {
+      "line": 0,
+      "word": "Bornholm",
+      "d": -0.2
+     },
+     "keep": false
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      11.6,
+      64.0
+     ],
+     "title": "Trøndelag",
+     "sub": "en Norvège",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "Trondelag",
+      "d": 0.1
+     }
+    },
+    {
+     "at": [
+      14.92,
+      55.25
+     ],
+     "title": "Bornholm",
+     "side": "t",
+     "when": {
+      "line": 0,
+      "word": "Bornholm",
+      "d": 0.1
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      14.92,
+      55.13
+     ],
+     "when": {
+      "line": 0,
+      "word": "Bornholm"
+     }
+    }
+   ],
+   "say": [
+    {
+     "say": "La Suède prend aussi l’île de Bornholm et le Trondelag, en Norvège.",
+     "show": "La Suède prend aussi l’île de Bornholm et le Trøndelag, en Norvège."
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1660",
+   "text": "Deux prises rendues",
+   "focus": {
+    "box": [
+     10.4,
+     54.3,
+     16,
+     57
+    ]
+   },
+   "highlight": [
+    {
+     "regions": [
+      {
+       "c": "Norway",
+       "n": "Nord-Trøndelag"
+      },
+      {
+       "c": "Norway",
+       "n": "Sør-Trøndelag"
+      }
+     ],
+     "area": [
+      [
+       14.6,
+       55.35
+      ],
+      [
+       15.3,
+       55.35
+      ],
+      [
+       15.3,
+       54.95
+      ],
+      [
+       14.6,
+       54.95
+      ]
+     ],
+     "color": "#4F7FD0",
+     "at": 0,
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "Norway",
+       "n": "Nord-Trøndelag"
+      },
+      {
+       "c": "Norway",
+       "n": "Sør-Trøndelag"
+      }
+     ],
+     "area": [
+      [
+       14.6,
+       55.35
+      ],
+      [
+       15.3,
+       55.35
+      ],
+      [
+       15.3,
+       54.95
+      ],
+      [
+       14.6,
+       54.95
+      ]
+     ],
+     "color": "#D9773A",
+     "at": {
+      "line": 0,
+      "word": "rend"
+     },
+     "keep": false
+    }
+   ],
+   "beacon": [
+    {
+     "at": "Copenhague",
+     "when": {
+      "line": 0,
+      "word": "Copenhague",
+      "d": -0.4
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": "Copenhague",
+     "title": "Copenhague",
+     "side": "l",
+     "when": {
+      "line": 0,
+      "word": "Copenhague",
+      "d": 0.2
+     }
+    }
+   ],
+   "say": [
+    "En 1660, au traité de Copenhague, elle les rend ; le reste demeure suédois."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "Aujourd’hui",
+   "text": "L’Øresund sépare toujours deux pays",
+   "focus": {
+    "box": [
+     10.4,
+     53.6,
+     16.2,
+     59.4
+    ]
+   },
+   "highlight": [
+    {
+     "regions": [
+      {
+       "c": "Sweden",
+       "n": "Skåne"
+      },
+      {
+       "c": "Sweden",
+       "n": "Halland"
+      },
+      {
+       "c": "Sweden",
+       "n": "Blekinge"
+      }
+     ],
+     "color": "#FF2E88",
+     "at": 0.2,
+     "keep": false
+    },
+    {
+     "area": [
+      [
+       10.9,
+       59.1
+      ],
+      [
+       11.45,
+       59.08
+      ],
+      [
+       11.72,
+       58.95
+      ],
+      [
+       11.8,
+       58.6
+      ],
+      [
+       12.05,
+       58.35
+      ],
+      [
+       12.3,
+       58.25
+      ],
+      [
+       12.1,
+       57.95
+      ],
+      [
+       11.95,
+       57.72
+      ],
+      [
+       11.7,
+       57.66
+      ],
+      [
+       10.9,
+       57.66
+      ]
+     ],
+     "color": "#FF2E88",
+     "at": 0.2,
+     "keep": false
+    }
+   ],
+   "line": {
+    "points": [
+     [
+      12.95,
+      55.25
+     ],
+     [
+      12.8,
+      55.5
+     ],
+     [
+      12.72,
+      55.7
+     ],
+     [
+      12.65,
+      55.9
+     ],
+     [
+      12.6,
+      56.08
+     ],
+     [
+      12.5,
+      56.3
+     ],
+     [
+      12.4,
+      56.6
+     ]
+    ],
+    "color": "#FFFFFF",
+    "width": 8,
+    "draw": 2.2,
+    "at": {
+     "line": 0,
+     "d": 1.2
+    },
+    "parts": [
+     [
+      [
+       10.95,
+       59.1
+      ],
+      [
+       11.45,
+       59.08
+      ],
+      [
+       11.72,
+       58.95
+      ]
+     ]
+    ]
+   },
+   "labels": [
+    {
+     "text": "Suède",
+     "at": [
+      14.6,
+      58.2
+     ],
+     "size": 44,
+     "when": 1
+    },
+    {
+     "text": "Danemark",
+     "at": [
+      11.75,
+      55.35
+     ],
+     "size": 40,
+     "when": 1.3
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      12.82,
+      55.57
+     ],
+     "title": "Pont de l’Øresund",
+     "sub": "depuis 2000",
+     "side": "b",
+     "when": {
+      "line": 1,
+      "word": "pont"
+     }
+    },
+    {
+     "at": [
+      14.0,
+      56.3
+     ],
+     "title": "Sud de la Suède",
+     "sub": "toujours là",
+     "side": "r",
+     "when": {
+      "line": 1,
+      "d": 0.3
+     }
+    }
+   ],
+   "say": [
+    {
+     "say": "Aujourd’hui, la frontière passe toujours au milieu de l’Eureu-sound.",
+     "show": "Aujourd’hui, la frontière passe toujours au milieu de l’Øresund."
+    },
+    "Le Danemark ne tient plus qu’une rive du détroit ; un pont les relie depuis 2000."
+   ]
+  },
+  {
+   "type": "final",
+   "text": "La Scanie devenue suédoise",
+   "sub": "Roskilde, 1658",
+   "focus": {
+    "box": [
+     2,
+     51,
+     26,
+     64
+    ]
+   },
+   "highlight": [
+    {
+     "regions": [
+      {
+       "c": "Sweden",
+       "n": "Skåne"
+      },
+      {
+       "c": "Sweden",
+       "n": "Halland"
+      },
+      {
+       "c": "Sweden",
+       "n": "Blekinge"
+      }
+     ],
+     "color": "#FF2E88",
+     "at": 0.3,
+     "keep": false
+    },
+    {
+     "area": [
+      [
+       10.9,
+       59.1
+      ],
+      [
+       11.45,
+       59.08
+      ],
+      [
+       11.72,
+       58.95
+      ],
+      [
+       11.8,
+       58.6
+      ],
+      [
+       12.05,
+       58.35
+      ],
+      [
+       12.3,
+       58.25
+      ],
+      [
+       12.1,
+       57.95
+      ],
+      [
+       11.95,
+       57.72
+      ],
+      [
+       11.7,
+       57.66
+      ],
+      [
+       10.9,
+       57.66
+      ]
+     ],
+     "color": "#FF2E88",
+     "at": 0.3,
+     "keep": false
+    }
+   ],
+   "beacon": [
+    {
+     "at": "Roskilde",
+     "when": 0.5
+    }
+   ],
+   "say": [
+    "Voilà pourquoi la Scanie est suédoise : le Danemark-Norvège l’a cédée à Roskilde.",
+    "Et tout part de cette question :"
+   ]
+  }
+ ]
+}

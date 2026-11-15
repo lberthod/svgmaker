@@ -1,0 +1,7 @@
+- Ex.1 : say déjà convertibles (romains Henri VIII / Jacques VI, années) ; la validation passe.
+- Ex.2 : 4 arts conservés (compare taille, languages, stats population, timeline) ; durées ramenées à 5 s (languages, stats) et 4,5 s (timeline). Aucun nouveau fait.
+- Ex.3 : textes d'étiquettes >= 32 px vérifiés, aucun changement.
+- Ex.5 : dernière phrase « Voilà ce que ces siècles ont construit, en une phrase : » qui amène l'ouverture « Quatre nations forment un seul pays… ».
+- Ex.6 : terrain recalé sur l'union des focus.box : [-14,27,40,76] et [-11.4,49.4,4.9,59.6].
+- Ex.3/6 : pastille Londres side r -> l en 1603, 1801 et frise (x>1000 sous les icônes).
+- Ex.1,2,5,6 revérifiés : faits des arts (gallois 538 000, gaélique ~70 000, irlandais officiel 2022, population 2021, superficies) cohérents ; terrain = union des focus.box OK.

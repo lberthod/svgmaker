@@ -1,0 +1,1128 @@
+{
+ "format": "atlas",
+ "id": "atlas-bulgarie",
+ "base": {
+  "countries": [
+   "Bulgaria"
+  ]
+ },
+ "terrain": [
+  {
+   "box": [
+    -14,
+    27,
+    40,
+    76
+   ],
+   "px": 3000,
+   "z": 6
+  },
+  {
+   "box": [
+    15.1,
+    37.9,
+    31.9,
+    52.4
+   ],
+   "px": 2800,
+   "z": 8
+  }
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "text": "L’alphabet cyrillique",
+   "sub": "La Bulgarie",
+   "focus": {
+    "box": [
+     21.6,
+     40.6,
+     29.6,
+     44.8
+    ]
+   },
+   "highlight": {
+    "countries": [
+     "Bulgaria"
+    ],
+    "color": "#FFD83C",
+    "at": 0.7,
+    "keep": false
+   },
+   "pills": [
+    {
+     "at": [
+      23.32,
+      42.7
+     ],
+     "title": "Sofia",
+     "sub": "la capitale",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "Bulgarie"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      23.32,
+      42.7
+     ],
+     "when": 0.4
+    }
+   ],
+   "labels": [
+    {
+     "text": "Roumanie",
+     "at": [
+      25.5,
+      44.6
+     ],
+     "size": 36,
+     "when": {
+      "line": 1,
+      "d": 0.2
+     }
+    },
+    {
+     "text": "Grèce",
+     "at": [
+      24.8,
+      40.85
+     ],
+     "size": 36,
+     "when": {
+      "line": 1,
+      "d": 0.6
+     }
+    }
+   ],
+   "say": [
+    "D’où vient l’alphabet cyrillique ? La réponse passe par la Bulgarie.",
+    "Remontons au 7e siècle."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "681",
+   "text": "Les Bulgares arrivent au Danube",
+   "focus": {
+    "box": [
+     21,
+     41,
+     31.5,
+     46.5
+    ]
+   },
+   "highlight": {
+    "regions": [
+     {
+      "c": "Bulgaria",
+      "n": "Varna"
+     },
+     {
+      "c": "Bulgaria",
+      "n": "Shumen"
+     },
+     {
+      "c": "Bulgaria",
+      "n": "Razgrad"
+     },
+     {
+      "c": "Bulgaria",
+      "n": "Targovishte"
+     },
+     {
+      "c": "Bulgaria",
+      "n": "Dobrich"
+     },
+     {
+      "c": "Bulgaria",
+      "n": "Silistra"
+     }
+    ],
+    "color": "#FFD83C",
+    "at": {
+     "line": 1,
+     "word": "État"
+    },
+    "keep": false
+   },
+   "moves": [
+    {
+     "from": [
+      29.3,
+      45.9
+     ],
+     "to": [
+      26.9,
+      43.5
+     ],
+     "n": 3,
+     "color": "#E8A33C",
+     "label": "Les Bulgares",
+     "at": {
+      "line": 0,
+      "word": "Bulgares",
+      "d": 0.2
+     },
+     "dur": 2.4
+    }
+   ],
+   "people": [
+    {
+     "who": "soldat",
+     "at": [
+      24.3,
+      43.9
+     ],
+     "size": 230,
+     "say": "Un nouvel État !",
+     "label": {
+      "title": "Le khan Asparoukh"
+     },
+     "when": {
+      "line": 0,
+      "word": "Asparoukh"
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      26.1,
+      43.27
+     ],
+     "title": "Pliska",
+     "sub": "la capitale",
+     "side": "b",
+     "when": {
+      "line": 1,
+      "word": "État",
+      "d": 0.3
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Byzance",
+     "at": [
+      28.6,
+      41.2
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "d": 0.6
+     }
+    },
+    {
+     "text": "Danube",
+     "at": [
+      26,
+      43.95
+     ],
+     "size": 36,
+     "when": {
+      "line": 0,
+      "d": 1.2
+     }
+    },
+    {
+     "text": "Mer Noire",
+     "at": [
+      30,
+      43
+     ],
+     "size": 36,
+     "when": {
+      "line": 1,
+      "d": 0.4
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      26.1,
+      43.27
+     ],
+     "when": 0.4
+    }
+   ],
+   "say": [
+    "En 681, le khan Asparoukh installe les Bulgares au sud du Danube.",
+    "Avec les Slaves de la région, il fonde un premier État bulgare."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "863",
+   "text": "Cyrille et Méthode inventent un alphabet",
+   "focus": {
+    "box": [
+     15.5,
+     38.3,
+     29,
+     50.5
+    ]
+   },
+   "moves": [
+    {
+     "from": [
+      22.95,
+      40.9
+     ],
+     "to": [
+      17.3,
+      49
+     ],
+     "n": 3,
+     "color": "#4FA3E0",
+     "at": {
+      "line": 0,
+      "word": "partent"
+     },
+     "dur": 2
+    }
+   ],
+   "people": [
+    {
+     "who": "savant",
+     "at": [
+      22,
+      42.2
+     ],
+     "size": 230,
+     "say": "Un alphabet !",
+     "label": {
+      "title": "Cyrille"
+     },
+     "when": {
+      "line": 1,
+      "word": "Cyrille"
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      22.95,
+      40.64
+     ],
+     "title": "Thessalonique",
+     "side": "l",
+     "when": {
+      "line": 0,
+      "word": "Thessalonique"
+     }
+    },
+    {
+     "at": [
+      17.3,
+      48.9
+     ],
+     "title": "Moravie",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "Moravie"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      22.95,
+      40.64
+     ],
+     "when": 0.4
+    }
+   ],
+   "say": [
+    "Vers 863, les frères Cyrille et Méthode, de Thessalonique, partent chez les Slaves de Moravie.",
+    "Cyrille a inventé pour eux un alphabet : le glagolitique."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "886",
+   "text": "Deux écoles : Preslav et Ohrid",
+   "focus": {
+    "box": [
+     16,
+     39.2,
+     29,
+     52
+    ]
+   },
+   "highlight": {
+    "countries": [
+     "Bulgaria",
+     "North Macedonia"
+    ],
+    "color": "#FFD83C",
+    "at": {
+     "line": 0,
+     "word": "Bulgarie"
+    },
+    "keep": false
+   },
+   "moves": [
+    {
+     "from": [
+      17.3,
+      48.2
+     ],
+     "to": [
+      26.6,
+      43.3
+     ],
+     "n": 3,
+     "color": "#4FA3E0",
+     "at": {
+      "line": 0,
+      "word": "accueillis"
+     },
+     "dur": 2
+    },
+    {
+     "from": [
+      17.3,
+      48.2
+     ],
+     "to": [
+      20.9,
+      41.3
+     ],
+     "n": 3,
+     "color": "#4FA3E0",
+     "at": {
+      "line": 0,
+      "word": "accueillis",
+      "d": 0.3
+     },
+     "dur": 2
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      26.82,
+      43.17
+     ],
+     "title": "Preslav",
+     "side": "r",
+     "when": {
+      "line": 1,
+      "word": "Preslav"
+     }
+    },
+    {
+     "at": [
+      20.8,
+      41.12
+     ],
+     "title": "Ohrid",
+     "side": "r",
+     "when": {
+      "line": 1,
+      "word": "Ohrid"
+     },
+     "sub": "aujourd’hui Macédoine du Nord"
+    },
+    {
+     "at": [
+      17.3,
+      48.9
+     ],
+     "title": "Moravie",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "d": 0.1
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Empire bulgare",
+     "at": [
+      24.6,
+      42.9
+     ],
+     "size": 38,
+     "when": {
+      "line": 1,
+      "d": 0.2
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      26.82,
+      43.17
+     ],
+     "when": {
+      "line": 1,
+      "word": "Preslav"
+     }
+    },
+    {
+     "at": [
+      20.8,
+      41.12
+     ],
+     "when": {
+      "line": 1,
+      "word": "Ohrid"
+     }
+    }
+   ],
+   "say": [
+    "Chassés de Moravie en 886, leurs disciples sont accueillis en Bulgarie par le prince Boris.",
+    "Ils y ouvrent deux écoles, à Preslav et à Ohrid."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "Vers 900",
+   "text": "Le cyrillique naît à Preslav",
+   "focus": {
+    "box": [
+     19.8,
+     40.4,
+     29.6,
+     44.8
+    ]
+   },
+   "highlight": {
+    "countries": [
+     "Bulgaria",
+     "North Macedonia"
+    ],
+    "color": "#FFD83C",
+    "at": 0.3,
+    "keep": false
+   },
+   "people": [
+    {
+     "who": "roi",
+     "at": [
+      24.8,
+      42.9
+     ],
+     "size": 230,
+     "say": "Notre alphabet !",
+     "label": {
+      "title": "Syméon 1er"
+     },
+     "when": {
+      "line": 0,
+      "word": "Syméon"
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      26.82,
+      43.17
+     ],
+     "title": "Preslav",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "Preslav"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      26.82,
+      43.17
+     ],
+     "when": 0.4
+    }
+   ],
+   "labels": [
+    {
+     "text": "Roumanie",
+     "at": [
+      27.3,
+      44.7
+     ],
+     "size": 36,
+     "when": {
+      "line": 1,
+      "d": 0.3
+     }
+    }
+   ],
+   "say": [
+    "Vers 900, sous Syméon 1er, les lettrés de l’école de Preslav créent, dit-on, le cyrillique, nommé en hommage à Cyrille.",
+    "Il s’inspire surtout de l’alphabet grec."
+   ],
+   "art": [
+    {
+     "kind": "languages",
+     "at": {
+      "line": 1,
+      "d": -0.1
+     },
+     "dur": 4,
+     "title": "Du grec au cyrillique",
+     "items": [
+      {
+       "icon": "school",
+       "where": "Grec",
+       "lang": "Α Β Γ Δ",
+       "color": "#3E9A63"
+      },
+      {
+       "icon": "house",
+       "where": "Cyrillique",
+       "lang": "А Б В Г",
+       "color": "#C77DFF"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "Fin du 14e siècle",
+   "text": "Les Ottomans conquièrent le pays",
+   "focus": {
+    "box": [
+     21.3,
+     39.8,
+     29.8,
+     45.2
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Turkey"
+     ],
+     "color": "#E8503A",
+     "at": {
+      "line": 0,
+      "word": "Ottomans"
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Bulgaria"
+     ],
+     "color": "#E8503A",
+     "at": {
+      "line": 0,
+      "d": 0.3
+     },
+     "keep": false
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      27.6,
+      41.2
+     ],
+     "to": [
+      25.65,
+      43
+     ],
+     "n": 3,
+     "color": "#E8503A",
+     "label": "Les Ottomans",
+     "at": {
+      "line": 0,
+      "word": "Ottomans",
+      "d": -0.3
+     },
+     "dur": 2.4
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      25.65,
+      43.08
+     ],
+     "title": "Tarnovo, 1393",
+     "side": "t",
+     "when": {
+      "line": 0,
+      "word": "conquièrent"
+     }
+    },
+    {
+     "at": [
+      26.56,
+      41.68
+     ],
+     "title": "Andrinople",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "Ottomans"
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Turquie",
+     "at": [
+      28.6,
+      40.6
+     ],
+     "size": 36,
+     "when": {
+      "line": 0,
+      "d": 0.9
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      25.65,
+      43.08
+     ],
+     "when": 0.4
+    }
+   ],
+   "say": [
+    "À la fin du 14e siècle, les Ottomans conquièrent le pays.",
+    "Cette domination dure environ 480 ans, mais les monastères gardent l’écriture."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1878 · 1908",
+   "text": "Libération, puis indépendance",
+   "focus": {
+    "box": [
+     21.3,
+     40.3,
+     29.8,
+     45.5
+    ]
+   },
+   "highlight": [
+    {
+     "regions": [
+      {
+       "c": "Bulgaria",
+       "n": "Vidin"
+      },
+      {
+       "c": "Bulgaria",
+       "n": "Montana"
+      },
+      {
+       "c": "Bulgaria",
+       "n": "Vratsa"
+      },
+      {
+       "c": "Bulgaria",
+       "n": "Pleven"
+      },
+      {
+       "c": "Bulgaria",
+       "n": "Lovech"
+      },
+      {
+       "c": "Bulgaria",
+       "n": "Gabrovo"
+      },
+      {
+       "c": "Bulgaria",
+       "n": "Veliko Tarnovo"
+      },
+      {
+       "c": "Bulgaria",
+       "n": "Ruse"
+      },
+      {
+       "c": "Bulgaria",
+       "n": "Razgrad"
+      },
+      {
+       "c": "Bulgaria",
+       "n": "Silistra"
+      },
+      {
+       "c": "Bulgaria",
+       "n": "Targovishte"
+      },
+      {
+       "c": "Bulgaria",
+       "n": "Shumen"
+      },
+      {
+       "c": "Bulgaria",
+       "n": "Varna"
+      },
+      {
+       "c": "Bulgaria",
+       "n": "Dobrich"
+      },
+      {
+       "c": "Bulgaria",
+       "n": "Sofia"
+      },
+      {
+       "c": "Bulgaria",
+       "n": "Grad Sofiya"
+      },
+      {
+       "c": "Bulgaria",
+       "n": "Pernik"
+      }
+     ],
+     "color": "#FFD83C",
+     "at": {
+      "line": 0,
+      "word": "libère"
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Bulgaria"
+     ],
+     "color": "#FFD83C",
+     "at": {
+      "line": 1,
+      "d": 0
+     },
+     "keep": false
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      26,
+      44.9
+     ],
+     "to": [
+      24.2,
+      43
+     ],
+     "n": 3,
+     "color": "#FFFFFF",
+     "label": "L’armée russe",
+     "at": {
+      "line": 0,
+      "word": "russo-turque",
+      "d": -0.5
+     },
+     "dur": 2.4
+    }
+   ],
+   "people": [
+    {
+     "who": "roi",
+     "at": [
+      26.3,
+      43
+     ],
+     "size": 230,
+     "say": "Indépendants !",
+     "label": {
+      "title": "Le tsar Ferdinand"
+     },
+     "when": {
+      "line": 1,
+      "d": -0.3
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      23.32,
+      42.7
+     ],
+     "title": "Sofia",
+     "sub": "capitale",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "1878",
+      "d": 0.2
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Roumanie",
+     "at": [
+      27.8,
+      44.7
+     ],
+     "size": 36,
+     "when": {
+      "line": 0,
+      "d": 0.5
+     }
+    },
+    {
+     "text": "Serbie",
+     "at": [
+      21.9,
+      43.7
+     ],
+     "size": 36,
+     "when": {
+      "line": 1,
+      "d": 0.3
+     }
+    },
+    {
+     "text": "Turquie",
+     "at": [
+      28.3,
+      41.2
+     ],
+     "size": 36,
+     "when": {
+      "line": 1,
+      "d": 0.6
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      23.32,
+      42.7
+     ],
+     "when": 0.4
+    }
+   ],
+   "say": [
+    "En 1878, la guerre russo-turque libère le nord de la Bulgarie du pouvoir ottoman.",
+    "En 1908, elle proclame son indépendance complète."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "2007",
+   "text": "Le cyrillique entre dans l’Union",
+   "focus": {
+    "box": [
+     21,
+     40.5,
+     29.8,
+     45
+    ]
+   },
+   "highlight": {
+    "countries": [
+     "Bulgaria"
+    ],
+    "color": "#FFD83C",
+    "at": 0.3,
+    "keep": false
+   },
+   "pills": [
+    {
+     "at": [
+      23.32,
+      42.7
+     ],
+     "title": "Sofia",
+     "sub": "Union européenne",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "d": 0
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      23.32,
+      42.7
+     ],
+     "when": 0.4
+    }
+   ],
+   "labels": [
+    {
+     "text": "Grèce",
+     "at": [
+      24.8,
+      40.85
+     ],
+     "size": 36,
+     "when": {
+      "line": 0,
+      "d": 1
+     }
+    }
+   ],
+   "art": [
+    {
+     "kind": "languages",
+     "at": {
+      "line": 1,
+      "d": -0.8
+     },
+     "dur": 4,
+     "title": "Alphabets de l’Union",
+     "items": [
+      {
+       "icon": "school",
+       "where": "Majorité des pays",
+       "lang": "Latin",
+       "color": "#4FA3E0"
+      },
+      {
+       "icon": "house",
+       "where": "Grèce",
+       "lang": "Grec",
+       "color": "#3E9A63"
+      },
+      {
+       "icon": "court",
+       "where": "Bulgarie",
+       "lang": "Cyrillique",
+       "color": "#C77DFF"
+      }
+     ]
+    }
+   ],
+   "say": [
+    "Le 1er janvier 2007, la Bulgarie entre dans l’Union européenne.",
+    "Le cyrillique devient le troisième alphabet officiel de l’Union."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "681 – 2007",
+   "text": "Plus de treize siècles d’histoire",
+   "focus": {
+    "box": [
+     21.6,
+     40.6,
+     29.6,
+     44.8
+    ]
+   },
+   "highlight": {
+    "countries": [
+     "Bulgaria"
+    ],
+    "color": "#FFD83C",
+    "at": 0.3,
+    "keep": false
+   },
+   "art": [
+    {
+     "kind": "timeline",
+     "at": {
+      "line": 0,
+      "d": 0
+     },
+     "dur": 3.5,
+     "title": "Treize siècles",
+     "items": [
+      {
+       "year": "681",
+       "text": "L’État bulgare"
+      },
+      {
+       "year": "863",
+       "text": "Le glagolitique"
+      },
+      {
+       "year": "900",
+       "text": "Naissance du cyrillique"
+      },
+      {
+       "year": "1878",
+       "text": "La libération"
+      },
+      {
+       "year": "2007",
+       "text": "Union européenne"
+      }
+     ]
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      23.32,
+      42.7
+     ],
+     "when": 0.4
+    }
+   ],
+   "say": [
+    "De l’État bulgare à l’Europe, plus de treize siècles d’histoire.",
+    "Le cyrillique, né dans ses écoles, sert encore à des centaines de millions de personnes."
+   ]
+  },
+  {
+   "type": "final",
+   "text": "L’alphabet des écoles bulgares",
+   "sub": "La Bulgarie",
+   "focus": {
+    "box": [
+     21.6,
+     40.6,
+     29.6,
+     44.8
+    ]
+   },
+   "highlight": {
+    "countries": [
+     "Bulgaria"
+    ],
+    "color": "#FFD83C",
+    "at": 0.5,
+    "keep": false
+   },
+   "people": [
+    {
+     "who": "savant",
+     "at": [
+      25,
+      42.9
+     ],
+     "size": 250,
+     "say": "Cyrillique !",
+     "wave": true,
+     "when": 1.2
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      23.32,
+      42.7
+     ],
+     "title": "Sofia",
+     "side": "b",
+     "when": 2
+    }
+   ],
+   "say": [
+    "Voilà pourquoi le cyrillique est lié à la Bulgarie.",
+    "Voilà la réponse à la question qui nous a ouverts :"
+   ]
+  }
+ ]
+}

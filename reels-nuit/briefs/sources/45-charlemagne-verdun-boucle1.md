@@ -1,0 +1,5 @@
+- Faits : Corse -> Lothaire (jaune) en 843 ; West Flanders -> bleu ; "Deux langues naissent" -> "déjà vivantes s'éloignent" ; Lotharingie = partie nord ; NRW + Rheinland-Pfalz ajoutés (scène 6), Flandres retirées ; final "même origine" + "Voilà la réponse à la question du début :" ; titres hook/final adoucis.
+- Carto : Rome/roi (cesar)/pape recadrés, Catalogne [1.6,41.7] + provinces catalanes, Louis le Pieux (burgonde) "À moi l'empire !", Francie médiane sur la Suisse, pills Aix/Rome, Rhin, scène 7 = France bleu / Allemagne rouge (countries), final pill Verdun side l.
+- Lisibilité : titres courts (Louis, Charles), serment en note, icône house, year AUJOURD'HUI.
+- Caméra : highlights/pills/art calés (partage, Verdun d-0.3, alliés d-0.6, Lotharingie d0), art ≤3,6 s.
+- Compo : frise 840-841 -> split 3 fils (Italie/Allemagne/France) ; stats "3" -> timeline 870/1871/1918/1945 (faits connus, non re-vérifiés en ligne).

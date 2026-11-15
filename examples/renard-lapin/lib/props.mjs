@@ -21,7 +21,7 @@ export function makeCam(SHOTS, DUR) {
 // ───────── bulles (espace écran) : centre (bx,by), une ou plusieurs pointes ─────────
 export function say(who, text, t0, dur, { bx, by, tips = [], shout = false, fs: fs0 }) {
   lines.push({ who, t0, t1: t0 + dur, text });
-  const fs = fs0 || (shout ? 40 : 33), w = text.length * fs * 0.56 + 56, h = fs + 34;
+  const fs = Math.max(fs0 || (shout ? 50 : 41), shout ? 44 : 36), w = text.length * fs * 0.56 + 56, h = fs + 34;
   const x = Math.min(Math.max(bx, w / 2 + 16), W - 16 - w / 2), y = Math.min(Math.max(by, h / 2 + 14), H - h / 2 - 14);
   const fill = shout ? '#fff36b' : '#ffffff';
   const edge = (ty) => (ty < y ? y - h / 2 + 6 : y + h / 2 - 6);

@@ -73,6 +73,19 @@ export async function finalize({ segments, listFile, out, duration, music, music
 export const cover = (mp4, out, at) =>
   run(['-ss', String(at), '-i', mp4, '-frames:v', '1', '-q:v', '3', out])
 
+/** Empreinte d'une image : vignette brute en niveaux RVB (Buffer de w×h×3 octets), pour comparer des couvertures. */
+export function fingerprint(img, { width = 18, height = 32 } = {}) {
+  return new Promise((resolve, reject) => {
+    const p = spawn(FFMPEG, ['-hide_banner', '-loglevel', 'error', '-i', img, '-vf', `scale=${width}:${height}:flags=area,format=rgb24`, '-frames:v', '1', '-f', 'rawvideo', '-'], { stdio: ['ignore', 'pipe', 'pipe'] })
+    const out = []
+    let err = ''
+    p.stdout.on('data', (d) => out.push(d))
+    p.stderr.on('data', (d) => (err += d))
+    p.on('error', reject)
+    p.on('close', (c) => (c ? reject(new Error(`ffmpeg (${c}) : ${err.trim().slice(-800)}`)) : resolve(Buffer.concat(out))))
+  })
+}
+
 export const gif = (mp4, out, { fps = 12, width = 360 } = {}) =>
   run([
     '-i', mp4, '-vf',

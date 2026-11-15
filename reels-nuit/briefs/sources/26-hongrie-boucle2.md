@@ -1,0 +1,8 @@
+- Faits : Budapest-Helsinki « environ mille quatre cents kilomètres » (≈1 460 km, Tallinn ≈1 380 km, calcul grand cercle).
+- Art languages : titre « Quatre langues, quatre familles », at -0,6, dur 4,6 ; Germaniques/Romanes au pluriel.
+- 1526 : « Ottomans et Habsbourg » ; Serbie+Bulgarie en ottoman ; roi/flèche/focus recadrés.
+- 1844 « hongrois langue officielle » déplacé en tête de la scène 1867 (ordre chronologique) ; carte 1867 : Autriche+Hongrie dès « Compromis », pastilles Vienne/Buda, ligne « Vienne – Buda », labels Slovaquie/Transylvanie/Voïvodine.
+- Scène 2 : focus [13,41.5,36,63], pastille Tallinn remplacée par label Estonie, Helsinki à gauche.
+- Scène 4 : focus [8,43,46,58], cavaliers partent de [44,55] dès « Vers », soldat déplacé, « Árpád ».
+- Scène 9 : minorités en orange, Roumanie élargie (Mures, Bihor, Satu Mare), labels Roumanie/Slovaquie, « dans les pays voisins ». Régions slovaques (Nitriansky…) non vérifiées dans les données.
+- Terrain recalculé sur l'union des focus.box.

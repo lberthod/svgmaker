@@ -1,0 +1,24 @@
+{
+  "format": "dialogue",
+  "id": "demo-v2",
+  "theme": "night",
+  "cast": {
+    "figure": { "poses": { "idle": "test-figure--idle", "arms-up": "test-figure--arms-up", "walk": ["test-figure--idle", "test-figure--arms-up"] },
+                "height": 1100, "color": "#6E2B2B", "top": -1000 },
+    "marmot": { "art": "marmot", "talk": "marmot-talk", "surprised": "marmot-surprised", "color": "#C9772E", "feet": 195, "top": -230 }
+  },
+  "shots": [
+    { "duration": 5, "scene": { "id": "test-atelier", "x": 0, "pan": [{ "at": 1.0, "dur": 3.0, "to": 700 }] },
+      "texts": [{ "kind": "title", "text": "Décor et personnage V2", "at": 0.1 }],
+      "actors": [
+        { "who": "figure", "x": 500, "y": 1450, "pose": "idle", "play": [{ "at": 1.0, "walk": 1150, "dur": 2.4 }, { "at": 3.6, "pose": "arms-up" }],
+          "hold": { "art": "quill", "size": 220, "rotate": -20 } },
+        { "who": "marmot", "x": 1550, "y": 1340, "size": 300, "flip": true }
+      ],
+      "lines": [{ "at": 0.4, "who": "figure", "text": "Bienvenue dans l'atelier !" }, { "at": 3.7, "who": "marmot", "text": "Ça bouge !" }] },
+    { "duration": 4.5, "scene": "test-atelier",
+      "actors": [{ "who": "figure", "x": 700, "y": 1450, "pose": "arms-up", "play": [{ "at": 1.5, "pose": "idle" }] }],
+      "lines": [{ "at": 0.4, "who": "figure", "text": "Le trait reste fin." }] }
+  ],
+  "end": { "text": "À suivre !" }
+}

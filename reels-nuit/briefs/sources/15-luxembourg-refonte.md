@@ -1,0 +1,5 @@
+- Exigence 6 : terrain recalé (union des focus.box 1.5/48.2/9.4/51.4 : [-14,27,40,76] px 3000 z6 ; [1.1,47.8,9.8,51.8] px 2800 z9).
+- Exigence 5 : final, ajout de « Et c'est ce que nous disions tout au début : » pour relancer le hook en boucle.
+- Exigence 3 : badge du split « ≈ 35 % restent » (glyphe ≈ absent de la police) remplacé par « Un tiers reste » (Luxembourg actuel ≈ 2 586 km2 sur ~7 000 km2 avant 1839 ; Wikipédia FR « Histoire du Luxembourg »).
+- Exigence 1 et 2 : vérifiés, aucun chiffre dans les say ; 6 arts déjà présents (compare, castle, split, neutral, languages, timeline), aucun ajout.
+- Exigence 6 : scène 1839, couleur de la province belge du Luxembourg (surbrillance et flèche) alignée sur #E8A33C comme en 1815 et dans le split (un territoire = une couleur).

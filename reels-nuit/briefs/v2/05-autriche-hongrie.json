@@ -1,0 +1,849 @@
+{
+ "format": "atlas",
+ "id": "atlas-autriche-hongrie",
+ "scenes": [
+  {
+   "type": "hook",
+   "text": "Un empire de plus de 50 millions d’habitants a disparu : pourquoi ?",
+   "focus": {
+    "box": [
+     7.5,
+     42.0,
+     28.0,
+     51.5
+    ]
+   },
+   "highlight": {
+    "countries": [
+     "Austria",
+     "Hungary",
+     "Czechia",
+     "Slovakia",
+     "Slovenia",
+     "Croatia",
+     "Bosnia and Herz."
+    ],
+    "color": "#3B82F6",
+    "keep": false,
+    "at": {
+     "line": 0,
+     "word": "empire",
+     "d": 0.1
+    }
+   },
+   "say": [
+    "Un empire de plus de 50 millions d’habitants a disparu : pourquoi ?",
+    "L’Autriche-Hongrie, en quelques mois."
+   ],
+   "note": "Contours actuels des pays, indicatifs",
+   "people": [
+    {
+     "who": "paysan",
+     "at": "Budapest",
+     "size": 240,
+     "say": "Quel empire !",
+     "when": {
+      "line": 0,
+      "word": "empire",
+      "d": 0.3
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": "Vienne",
+     "title": "Vienne",
+     "sub": "capitale",
+     "side": "l",
+     "when": {
+      "line": 1,
+      "word": "Autriche"
+     }
+    },
+    {
+     "at": "Budapest",
+     "title": "Budapest",
+     "sub": "capitale",
+     "side": "b",
+     "when": {
+      "line": 1,
+      "word": "Autriche",
+      "d": 0.5
+     }
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1867",
+   "text": "Deux couronnes, un empereur",
+   "focus": {
+    "box": [
+     8.0,
+     44.0,
+     24.0,
+     50.5
+    ]
+   },
+   "pills": [
+    {
+     "at": "Vienne",
+     "title": "Vienne",
+     "sub": "Autriche",
+     "side": "l",
+     "when": {
+      "line": 0,
+      "word": "Vienne",
+      "d": 0.1
+     }
+    },
+    {
+     "at": "Budapest",
+     "title": "Budapest",
+     "sub": "Hongrie",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "Budapest",
+      "d": 0.1
+     }
+    }
+   ],
+   "people": [
+    {
+     "who": "roi",
+     "at": [
+      16.9,
+      47.8
+     ],
+     "size": 230,
+     "say": "François-Joseph",
+     "when": {
+      "line": 1,
+      "word": "François-Joseph",
+      "d": 0.3
+     }
+    }
+   ],
+   "say": [
+    "En 1867, par le Compromis, l’Autriche et la Hongrie forment une double monarchie : deux capitales, Vienne et Budapest.",
+    "Un seul souverain : François-Joseph, empereur d’Autriche et roi de Hongrie."
+   ],
+   "highlight": [
+    {
+     "countries": [
+      "Austria"
+     ],
+     "color": "#E8503A",
+     "at": {
+      "line": 0,
+      "word": "Autriche"
+     }
+    },
+    {
+     "countries": [
+      "Hungary"
+     ],
+     "color": "#2F9E6B",
+     "at": {
+      "line": 0,
+      "word": "Hongrie"
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Autriche",
+     "at": [
+      13.6,
+      47.4
+     ],
+     "size": 40,
+     "when": {
+      "line": 0,
+      "word": "Autriche",
+      "d": 0.2
+     }
+    },
+    {
+     "text": "Hongrie",
+     "at": [
+      19.6,
+      46.8
+     ],
+     "size": 40,
+     "when": {
+      "line": 0,
+      "word": "Hongrie",
+      "d": 0.2
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": "Vienne",
+     "when": 0.4
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "text": "Un empire de peuples",
+   "focus": {
+    "box": [
+     8.0,
+     42.0,
+     28.0,
+     51.0
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Austria"
+     ],
+     "color": "#E8503A",
+     "at": {
+      "line": 0,
+      "word": "Allemands",
+      "d": 0
+     }
+    },
+    {
+     "countries": [
+      "Hungary"
+     ],
+     "color": "#2F9E6B",
+     "at": {
+      "line": 0,
+      "word": "Hongrois",
+      "d": 0
+     }
+    },
+    {
+     "countries": [
+      "Czechia"
+     ],
+     "color": "#FFD83C",
+     "at": {
+      "line": 0,
+      "word": "Tchèques",
+      "d": 0
+     }
+    },
+    {
+     "countries": [
+      "Croatia"
+     ],
+     "color": "#9B6BE0",
+     "at": {
+      "line": 0,
+      "word": "Croates",
+      "d": 0
+     }
+    },
+    {
+     "countries": [
+      "Slovenia"
+     ],
+     "color": "#FF9F1C",
+     "at": {
+      "line": 0,
+      "word": "Slovènes",
+      "d": 0
+     }
+    }
+   ],
+   "say": [
+    "Dans cet empire vivent des Allemands, des Hongrois, des Tchèques, des Croates, des Slovènes et bien d’autres.",
+    "Une dizaine de peuples, et autant de langues !"
+   ],
+   "note": "Contours actuels, indicatifs",
+   "people": [
+    {
+     "who": "paysan",
+     "at": "Prague",
+     "size": 210,
+     "say": "Dobrý den !",
+     "label": {
+      "title": "Un Tchèque"
+     },
+     "when": {
+      "line": 0,
+      "word": "Tchèques"
+     }
+    },
+    {
+     "who": "paysan",
+     "at": "Budapest",
+     "size": 210,
+     "say": "Jó napot !",
+     "label": {
+      "title": "Un Hongrois"
+     },
+     "when": {
+      "line": 0,
+      "word": "Hongrois"
+     }
+    },
+    {
+     "who": "paysan",
+     "at": "Zagreb",
+     "size": 210,
+     "say": "Dobar dan !",
+     "label": {
+      "title": "Un Croate"
+     },
+     "when": {
+      "line": 0,
+      "word": "Croates"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": "Vienne",
+     "when": 0.4
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1867 – 1914",
+   "text": "Chaque peuple veut plus de liberté",
+   "focus": {
+    "box": [
+     8.0,
+     42.0,
+     28.0,
+     51.0
+    ]
+   },
+   "moves": [
+    {
+     "from": "Prague",
+     "to": "Vienne",
+     "n": 0,
+     "color": "#FFFFFF",
+     "at": {
+      "line": 0,
+      "word": "peuples",
+      "d": -0.2
+     },
+     "dur": 2.4
+    },
+    {
+     "from": "Zagreb",
+     "to": "Vienne",
+     "n": 0,
+     "color": "#FFFFFF",
+     "at": {
+      "line": 0,
+      "word": "veulent",
+      "d": 0
+     },
+     "dur": 2.4
+    }
+   ],
+   "say": [
+    "Au fil des années, les peuples demandent plus de droits et plus d’autonomie.",
+    "Les tensions montent."
+   ],
+   "people": [
+    {
+     "who": "rebelle",
+     "at": "Prague",
+     "size": 230,
+     "say": "Plus de droits !",
+     "when": {
+      "line": 0,
+      "word": "droits"
+     }
+    },
+    {
+     "who": "rebelle",
+     "at": "Zagreb",
+     "size": 230,
+     "say": "Autonomie !",
+     "when": {
+      "line": 0,
+      "word": "autonomie"
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": "Prague",
+     "title": "Prague",
+     "side": "t",
+     "when": {
+      "line": 0,
+      "word": "peuples"
+     }
+    },
+    {
+     "at": "Zagreb",
+     "title": "Zagreb",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "veulent",
+      "d": 0.2
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": "Vienne",
+     "when": 0.4
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1914 – 1918",
+   "text": "La guerre fait tout basculer",
+   "focus": {
+    "box": [
+     7.5,
+     42.0,
+     28.0,
+     51.5
+    ]
+   },
+   "pills": [
+    {
+     "at": "Sarajevo",
+     "title": "Sarajevo",
+     "sub": "28 juin 1914",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "Sarajevo",
+      "d": 0.1
+     }
+    }
+   ],
+   "say": [
+    "En 1914, l’assassinat de l’héritier du trône à Sarajevo déclenche la Première Guerre mondiale.",
+    "L’empire en sort épuisé et vaincu."
+   ],
+   "moves": [
+    {
+     "from": "Vienne",
+     "to": [
+      20.46,
+      44.82
+     ],
+     "n": 5,
+     "color": "#E8503A",
+     "label": "La guerre",
+     "at": {
+      "line": 1,
+      "word": "épuisé",
+      "d": -1.4
+     },
+     "dur": 2.4
+    }
+   ],
+   "people": [
+    {
+     "who": "soldat",
+     "at": "Vienne",
+     "size": 230,
+     "say": "En guerre !",
+     "when": {
+      "line": 0,
+      "word": "Mondiale",
+      "d": 0.2
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": "Vienne",
+     "when": 0.4
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1918 – 1920",
+   "text": "L’empire éclate en morceaux",
+   "focus": {
+    "box": [
+     8.0,
+     42.0,
+     24.0,
+     50.5
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Austria"
+     ],
+     "color": "#E8503A",
+     "at": {
+      "line": 0,
+      "word": "Autriche",
+      "d": 0
+     }
+    },
+    {
+     "countries": [
+      "Hungary"
+     ],
+     "color": "#2F9E6B",
+     "at": {
+      "line": 0,
+      "word": "Hongrie",
+      "d": 0
+     }
+    },
+    {
+     "countries": [
+      "Czechia",
+      "Slovakia"
+     ],
+     "color": "#FFD83C",
+     "at": {
+      "line": 0,
+      "word": "Tchécoslovaquie",
+      "d": 0
+     }
+    },
+    {
+     "countries": [
+      "Slovenia",
+      "Croatia",
+      "Bosnia and Herz."
+     ],
+     "color": "#9B6BE0",
+     "at": {
+      "line": 0,
+      "word": "Serbes",
+      "d": 0
+     }
+    }
+   ],
+   "say": [
+    "En 1918, l’empire disparaît et de nouveaux États naissent : l’Autriche, la Hongrie, la Tchécoslovaquie, le royaume des Serbes, Croates et Slovènes.",
+    "D’autres régions rejoignent la Pologne, la Roumanie ou l’Italie."
+   ],
+   "note": "Contours actuels, indicatifs",
+   "labels": [
+    {
+     "text": "Autriche",
+     "at": [
+      14.0,
+      47.6
+     ],
+     "size": 36,
+     "when": {
+      "line": 0,
+      "word": "Autriche",
+      "d": 0.2
+     }
+    },
+    {
+     "text": "Hongrie",
+     "at": [
+      19.6,
+      47.0
+     ],
+     "size": 36,
+     "when": {
+      "line": 0,
+      "word": "Hongrie",
+      "d": 0.2
+     }
+    },
+    {
+     "text": "Tchécoslovaquie",
+     "at": [
+      16.3,
+      49.6
+     ],
+     "size": 34,
+     "when": {
+      "line": 0,
+      "word": "Tchécoslovaquie",
+      "d": 0.2
+     }
+    }
+   ],
+   "people": [
+    {
+     "who": "rebelle",
+     "at": "Prague",
+     "size": 230,
+     "say": "Indépendance !",
+     "when": {
+      "line": 0,
+      "word": "Tchécoslovaquie",
+      "d": 0.5
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": "Vienne",
+     "when": 0.4
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1920",
+   "text": "Le traité de Trianon",
+   "focus": {
+    "box": [
+     9.0,
+     41.5,
+     29.0,
+     51.5
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Hungary"
+     ],
+     "color": "#2F9E6B"
+    },
+    {
+     "countries": [
+      "Slovakia",
+      "Romania",
+      "Croatia",
+      "Serbia",
+      "Austria",
+      "Slovenia",
+      "Ukraine"
+     ],
+     "color": "#6A7F9A",
+     "at": {
+      "line": 0,
+      "word": "perd",
+      "d": 0
+     }
+    }
+   ],
+   "big": {
+    "value": "2/3",
+    "sub": "du territoire hongrois perdu",
+    "at": {
+     "line": 0,
+     "word": "territoire",
+     "d": -0.9
+    },
+    "dur": 2.2
+   },
+   "say": [
+    "Par le traité de Trianon, en 1920, la Hongrie perd plus des deux tiers de son territoire.",
+    "Cette blessure marque encore la mémoire du pays."
+   ],
+   "note": "Contours actuels : la Hongrie d’aujourd’hui est en vert",
+   "pills": [
+    {
+     "at": "Budapest",
+     "title": "Trianon",
+     "sub": "4 juin 1920",
+     "side": "r",
+     "when": {
+      "line": 1,
+      "word": "marque",
+      "d": 0.3
+     }
+    }
+   ],
+   "people": [
+    {
+     "who": "paysan",
+     "at": "Budapest",
+     "size": 230,
+     "say": "Terre perdue",
+     "mood": "sad",
+     "when": {
+      "line": 1,
+      "word": "mémoire",
+      "d": 0.0
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": "Vienne",
+     "when": 0.4
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "text": "Une Europe centrale redessinée",
+   "focus": {
+    "box": [
+     7.0,
+     41.0,
+     25.0,
+     51.5
+    ]
+   },
+   "labels": [
+    {
+     "text": "Contours actuels des pays",
+     "at": [
+      14.0,
+      43.4
+     ],
+     "size": 40,
+     "when": {
+      "line": 0,
+      "word": "contours"
+     }
+    },
+    {
+     "text": "Autriche",
+     "at": [
+      14.2,
+      47.7
+     ],
+     "size": 36,
+     "when": {
+      "line": 1,
+      "word": "Voilà"
+     }
+    },
+    {
+     "text": "Hongrie",
+     "at": [
+      19.6,
+      47.0
+     ],
+     "size": 36,
+     "when": {
+      "line": 1,
+      "word": "empire"
+     }
+    },
+    {
+     "text": "Tchéquie",
+     "at": [
+      15.6,
+      49.8
+     ],
+     "size": 36,
+     "when": {
+      "line": 1,
+      "word": "laissé"
+     }
+    },
+    {
+     "text": "Croatie",
+     "at": [
+      16.2,
+      45.3
+     ],
+     "size": 36,
+     "when": {
+      "line": 1,
+      "word": "derrière"
+     }
+    }
+   ],
+   "say": [
+    "La carte de l’Europe centrale est redessinée : sur la carte, les contours des pays actuels.",
+    "Voilà ce qu’un grand empire a laissé derrière lui."
+   ],
+   "beacon": [
+    {
+     "at": "Vienne",
+     "when": 0.4
+    }
+   ]
+  },
+  {
+   "type": "final",
+   "text": "Un ancien empire",
+   "sub": "L’Autriche-Hongrie",
+   "focus": {
+    "box": [
+     8.0,
+     42.0,
+     24.0,
+     50.5
+    ]
+   },
+   "say": [
+    "Voilà comment l’Autriche-Hongrie a marqué l’Europe centrale !"
+   ],
+   "people": [
+    {
+     "who": "paysan",
+     "at": "Vienne",
+     "size": 240,
+     "say": "À bientôt !",
+     "wave": true,
+     "when": 3.0
+    }
+   ],
+   "highlight": [
+    {
+     "countries": [
+      "Austria",
+      "Hungary",
+      "Czechia",
+      "Slovakia",
+      "Slovenia",
+      "Croatia"
+     ],
+     "color": "#3B82F6",
+     "keep": false,
+     "at": 1.0
+    }
+   ],
+   "pills": [
+    {
+     "at": "Budapest",
+     "title": "Budapest",
+     "side": "b",
+     "when": 2.0
+    }
+   ]
+  }
+ ],
+ "base": {
+  "countries": [
+   "Austria",
+   "Hungary",
+   "Czechia",
+   "Slovakia",
+   "Slovenia",
+   "Croatia",
+   "Bosnia and Herz."
+  ]
+ },
+ "terrain": [
+  {
+   "box": [
+    -12,
+    34,
+    34,
+    66
+   ],
+   "px": 2800,
+   "z": 6
+  },
+  {
+   "box": [
+    6.6,
+    40.6,
+    29.4,
+    51.9
+   ],
+   "px": 2800,
+   "z": 8
+  }
+ ]
+}

@@ -1,0 +1,1195 @@
+{
+ "format": "atlas",
+ "id": "atlas-slovenie",
+ "base": {
+  "countries": [
+   "Slovenia"
+  ]
+ },
+ "terrain": [
+  {
+   "box": [
+    -14,
+    27,
+    40,
+    76
+   ],
+   "px": 3000,
+   "z": 6
+  },
+  {
+   "box": [
+    7.8,
+    43.4,
+    21.4,
+    50.4
+   ],
+   "px": 2800,
+   "z": 8
+  }
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "text": "Un petit pays, une langue intacte",
+   "sub": "La Slovénie",
+   "focus": {
+    "box": [
+     12.0,
+     45.0,
+     17.6,
+     47.6
+    ]
+   },
+   "highlight": {
+    "countries": [
+     "Slovenia"
+    ],
+    "color": "#3E9A63",
+    "at": 0.7,
+    "keep": false
+   },
+   "pills": [
+    {
+     "at": [
+      14.51,
+      46.06
+     ],
+     "title": "Ljubljana",
+     "side": "t",
+     "when": {
+      "line": 0,
+      "word": "Slovénie"
+     },
+     "sub": "la capitale"
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      14.51,
+      46.06
+     ],
+     "when": 1.0
+    }
+   ],
+   "art": [
+    {
+     "kind": "compare",
+     "at": {
+      "line": 1,
+      "word": "Deux",
+      "d": 0.1
+     },
+     "dur": 3.6,
+     "title": "Petit, vraiment ?",
+     "sub": "même échelle",
+     "ratio": "2×",
+     "items": [
+      {
+       "country": "Switzerland",
+       "label": "Suisse",
+       "value": "41 285 km²",
+       "color": "#E8503A"
+      },
+      {
+       "country": "Slovenia",
+       "label": "Slovénie",
+       "value": "20 273 km²",
+       "color": "#3E9A63"
+      }
+     ]
+    }
+   ],
+   "say": [
+    "Pourquoi la Slovénie a-t-elle gardé sa langue ?",
+    "Deux fois plus petite que la Suisse, environ 2 millions d’habitants, elle a traversé 6 siècles d’empire."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "7e siècle",
+   "text": "La Carantanie, berceau du slovène",
+   "focus": {
+    "box": [
+     11.8,
+     45.2,
+     17.8,
+     47.6
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Slovenia"
+     ],
+     "regions": [
+      {
+       "c": "Austria",
+       "n": "Kärnten"
+      },
+      {
+       "c": "Austria",
+       "n": "Steiermark"
+      }
+     ],
+     "color": "#3E9A63",
+     "at": {
+      "line": 0,
+      "word": "Carantanie"
+     },
+     "keep": false
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      17.2,
+      47.0
+     ],
+     "to": [
+      14.4,
+      46.6
+     ],
+     "n": 3,
+     "color": "#3E9A63",
+     "label": "Les Slaves",
+     "at": {
+      "line": 0,
+      "word": "fondent",
+      "d": 0.0
+     },
+     "dur": 2.4
+    }
+   ],
+   "people": [
+    {
+     "who": "paysan",
+     "at": [
+      14.35,
+      46.62
+     ],
+     "size": 230,
+     "say": "Ma langue !",
+     "when": {
+      "line": 1,
+      "word": "langue"
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      14.35,
+      46.62
+     ],
+     "title": "Carantanie",
+     "side": "t",
+     "when": {
+      "line": 0,
+      "word": "Carantanie",
+      "d": 0.3
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      14.35,
+      46.62
+     ],
+     "when": 0.4
+    }
+   ],
+   "labels": [
+    {
+     "text": "Italie",
+     "at": [
+      12.3,
+      46.0
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "d": 0.6
+     }
+    },
+    {
+     "text": "Hongrie",
+     "at": [
+      17.0,
+      46.5
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "d": 0.9
+     }
+    },
+    {
+     "text": "Croatie",
+     "at": [
+      15.9,
+      45.45
+     ],
+     "size": 38,
+     "when": {
+      "line": 1,
+      "d": 0.2
+     }
+    }
+   ],
+   "say": [
+    "Au 7e siècle, les Slaves fondent la Carantanie, dans les Alpes de l’Est.",
+    "Leur langue est l’ancêtre du slovène."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1335 – 1918",
+   "text": "Six siècles sous les Habsbourg",
+   "focus": {
+    "box": [
+     11.6,
+     45.0,
+     18.6,
+     48.6
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Slovenia"
+     ],
+     "color": "#3E9A63",
+     "at": {
+      "line": 0,
+      "d": 0.2
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Austria"
+     ],
+     "color": "#E8A33C",
+     "at": {
+      "line": 0,
+      "d": 0.3
+     },
+     "keep": false
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      16.37,
+      48.2
+     ],
+     "to": [
+      14.5,
+      46.1
+     ],
+     "n": 2,
+     "color": "#E8A33C",
+     "at": {
+      "line": 0,
+      "word": "dirigent",
+      "d": 0.0
+     },
+     "dur": 2.4
+    }
+   ],
+   "people": [
+    {
+     "who": "roi",
+     "at": [
+      16.37,
+      48.21
+     ],
+     "size": 230,
+     "say": "Les Habsbourg",
+     "when": {
+      "line": 0,
+      "d": 0.6
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      16.37,
+      48.21
+     ],
+     "title": "Vienne",
+     "side": "l",
+     "when": {
+      "line": 0,
+      "word": "Habsbourg"
+     }
+    },
+    {
+     "at": [
+      14.51,
+      46.06
+     ],
+     "title": "Ljubljana",
+     "side": "b",
+     "when": {
+      "line": 1,
+      "word": "campagnes"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      16.37,
+      48.21
+     ],
+     "when": 0.4
+    }
+   ],
+   "labels": [
+    {
+     "text": "Italie",
+     "at": [
+      12.4,
+      46.0
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "d": 0.6
+     }
+    },
+    {
+     "text": "Hongrie",
+     "at": [
+      17.5,
+      47.0
+     ],
+     "size": 38,
+     "when": {
+      "line": 1,
+      "d": 0.3
+     }
+    },
+    {
+     "text": "Croatie",
+     "at": [
+      15.9,
+      45.45
+     ],
+     "size": 38,
+     "when": {
+      "line": 1,
+      "d": 0.8
+     }
+    }
+   ],
+   "say": [
+    "En 1335, la Carniole et la Carinthie passent aux Habsbourg, qui les dirigent depuis Vienne.",
+    "Pendant environ 6 siècles, l’allemand domine les villes, mais le slovène vit dans les campagnes."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1550",
+   "text": "Primoz Trubar imprime le slovène",
+   "focus": {
+    "box": [
+     8.2,
+     44.5,
+     18.6,
+     50.0
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Slovenia"
+     ],
+     "color": "#3E9A63",
+     "at": 0.5,
+     "keep": false
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      9.74,
+      49.11
+     ],
+     "to": [
+      14.3,
+      46.3
+     ],
+     "n": 2,
+     "color": "#FFD83C",
+     "label": "Les livres",
+     "at": {
+      "line": 1,
+      "word": "voyagent",
+      "d": 0.0
+     },
+     "dur": 2.6
+    }
+   ],
+   "people": [
+    {
+     "who": "paysan",
+     "at": [
+      9.74,
+      49.45
+     ],
+     "size": 230,
+     "say": "Un livre !",
+     "label": {
+      "title": "Primoz Trubar",
+      "sub": "1550"
+     },
+     "when": {
+      "line": 0,
+      "word": "pasteur"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      9.74,
+      49.11
+     ],
+     "when": 0.4
+    }
+   ],
+   "labels": [
+    {
+     "text": "Allemagne",
+     "at": [
+      11.4,
+      49.9
+     ],
+     "size": 38,
+     "when": {
+      "line": 1,
+      "d": 0.3
+     }
+    },
+    {
+     "text": "Autriche",
+     "at": [
+      14.6,
+      47.9
+     ],
+     "size": 38,
+     "when": {
+      "line": 1,
+      "d": 0.6
+     }
+    },
+    {
+     "text": "Italie",
+     "at": [
+      11.0,
+      45.4
+     ],
+     "size": 38,
+     "when": {
+      "line": 1,
+      "d": 0.9
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      9.74,
+      49.11
+     ],
+     "title": "Schwäbisch Hall",
+     "sub": "Allemagne",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "pasteur"
+     }
+    },
+    {
+     "at": [
+      14.51,
+      46.06
+     ],
+     "title": "Ljubljana",
+     "side": "b",
+     "when": {
+      "line": 1,
+      "word": "Slovénie"
+     }
+    }
+   ],
+   "say": [
+    "En 1550, le pasteur slovène Primoz Trubar publie les premiers livres imprimés en slovène.",
+    "Imprimés en Allemagne, ils voyagent jusqu’en Slovénie et posent les bases de la langue écrite."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1918 · 1929",
+   "text": "Le royaume des Slaves du Sud",
+   "focus": {
+    "box": [
+     12.6,
+     43.8,
+     21.0,
+     47.4
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Austria"
+     ],
+     "color": "#E8A33C",
+     "at": 0.2,
+     "keep": false
+    },
+    {
+     "countries": [
+      "Serbia",
+      "Croatia",
+      "Bosnia and Herz.",
+      "Montenegro",
+      "Kosovo",
+      "North Macedonia"
+     ],
+     "color": "#FFD83C",
+     "at": {
+      "line": 0,
+      "word": "royaume",
+      "d": -0.2
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Slovenia"
+     ],
+     "color": "#3E9A63",
+     "at": {
+      "line": 0,
+      "word": "royaume",
+      "d": -0.2
+     },
+     "keep": false
+    }
+   ],
+   "people": [
+    {
+     "who": "roi",
+     "at": [
+      20.0,
+      44.5
+     ],
+     "size": 230,
+     "say": "Un royaume !",
+     "when": {
+      "line": 0,
+      "word": "royaume",
+      "d": 0.2
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      20.46,
+      44.82
+     ],
+     "title": "Belgrade",
+     "side": "l",
+     "when": {
+      "line": 0,
+      "word": "Slovènes",
+      "d": 0.2
+     },
+     "sub": "capitale"
+    },
+    {
+     "at": [
+      14.51,
+      46.06
+     ],
+     "title": "Ljubljana",
+     "side": "t",
+     "when": {
+      "line": 1,
+      "word": "Slovénie"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      20.46,
+      44.82
+     ],
+     "when": {
+      "line": 0,
+      "word": "royaume"
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Italie",
+     "at": [
+      12.9,
+      44.0
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "d": 0.6
+     }
+    },
+    {
+     "text": "Hongrie",
+     "at": [
+      18.6,
+      47.3
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "d": 0.9
+     }
+    }
+   ],
+   "say": [
+    "En 1918, l’empire des Habsbourg s’effondre, et naît le royaume des Serbes, Croates et Slovènes.",
+    "Il devient la Yougoslavie en 1929, et la Slovénie y garde sa langue."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1991",
+   "text": "Indépendance et guerre de dix jours",
+   "focus": {
+    "box": [
+     12.6,
+     44.6,
+     18.0,
+     47.2
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Slovenia"
+     ],
+     "color": "#3E9A63",
+     "at": {
+      "line": 0,
+      "word": "Slovénie"
+     },
+     "keep": false
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      16.0,
+      45.8
+     ],
+     "to": [
+      14.5,
+      46.1
+     ],
+     "n": 3,
+     "color": "#FF5A36",
+     "label": "Armée fédérale",
+     "at": {
+      "line": 1,
+      "word": "guerre",
+      "d": 0.0
+     },
+     "dur": 2.4
+    }
+   ],
+   "people": [
+    {
+     "who": "soldat",
+     "at": [
+      14.4,
+      46.0
+     ],
+     "size": 230,
+     "say": "Libres !",
+     "when": {
+      "line": 1,
+      "word": "commence"
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      14.51,
+      46.06
+     ],
+     "title": "Ljubljana",
+     "side": "t",
+     "when": {
+      "line": 0,
+      "word": "Slovénie",
+      "d": 0.3
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      14.51,
+      46.06
+     ],
+     "when": 0.4
+    }
+   ],
+   "labels": [
+    {
+     "text": "Italie",
+     "at": [
+      12.9,
+      45.8
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "d": 0.6
+     }
+    },
+    {
+     "text": "Autriche",
+     "at": [
+      14.6,
+      47.0
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "d": 0.9
+     }
+    },
+    {
+     "text": "Croatie",
+     "at": [
+      16.1,
+      45.2
+     ],
+     "size": 38,
+     "when": {
+      "line": 1,
+      "d": 0.4
+     }
+    }
+   ],
+   "art": [
+    {
+     "kind": "split",
+     "at": {
+      "line": 1,
+      "word": "termine",
+      "d": 0.0
+     },
+     "dur": 3.0,
+     "title": "La fin d’une fédération",
+     "sub": "même échelle",
+     "before": "Avant 1991",
+     "after": "Après 1991",
+     "badge": "La Slovénie part",
+     "parts": [
+      {
+       "country": "Slovenia",
+       "color": "#3E9A63",
+       "lost": true
+      },
+      {
+       "country": "Serbia",
+       "color": "#FFD83C"
+      },
+      {
+       "country": "Croatia",
+       "color": "#FFD83C"
+      },
+      {
+       "country": "Bosnia and Herz.",
+       "color": "#FFD83C"
+      },
+      {
+       "country": "Montenegro",
+       "color": "#FFD83C"
+      },
+      {
+       "country": "Kosovo",
+       "color": "#FFD83C"
+      },
+      {
+       "country": "North Macedonia",
+       "color": "#FFD83C"
+      }
+     ]
+    }
+   ],
+   "say": [
+    "Le 25 juin 1991, la Slovénie proclame son indépendance.",
+    "La guerre de dix jours commence le 27 juin et se termine le 7 juillet."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "2004 · 2007",
+   "text": "L’Europe, puis l’euro",
+   "focus": {
+    "box": [
+     12.0,
+     45.0,
+     17.6,
+     47.6
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Slovenia"
+     ],
+     "color": "#3E9A63",
+     "at": 0.3,
+     "keep": false
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      14.51,
+      46.06
+     ],
+     "title": "1er mai 2004",
+     "sub": "Union européenne",
+     "side": "l",
+     "when": {
+      "line": 0,
+      "word": "mai"
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      14.51,
+      46.06
+     ],
+     "when": 0.4
+    }
+   ],
+   "people": [
+    {
+     "who": "paysan",
+     "at": [
+      14.1,
+      46.2
+     ],
+     "size": 220,
+     "say": "Dobrodosli !",
+     "when": {
+      "line": 1,
+      "word": "officielles",
+      "d": -0.3
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Italie",
+     "at": [
+      12.2,
+      45.9
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "d": 0.6
+     }
+    },
+    {
+     "text": "Autriche",
+     "at": [
+      14.6,
+      47.4
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "d": 0.9
+     }
+    },
+    {
+     "text": "Croatie",
+     "at": [
+      15.9,
+      45.35
+     ],
+     "size": 38,
+     "when": {
+      "line": 1,
+      "d": 0.4
+     }
+    }
+   ],
+   "say": [
+    "Le 1er mai 2004, la Slovénie entre dans l’Union européenne, puis passe à l’euro en 2007.",
+    "Le slovène devient alors l’une des langues officielles de l’Union."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "Aujourd’hui",
+   "text": "Le duel slovène",
+   "focus": {
+    "box": [
+     13.2,
+     45.3,
+     16.8,
+     47.0
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Slovenia"
+     ],
+     "color": "#3E9A63",
+     "at": 0.3,
+     "keep": false
+    }
+   ],
+   "art": [
+    {
+     "kind": "languages",
+     "at": {
+      "line": 1,
+      "word": "duel",
+      "d": -0.2
+     },
+     "dur": 4.5,
+     "title": "Un, deux, ou plus ?",
+     "sub": "être, en slovène",
+     "items": [
+      {
+       "icon": "house",
+       "where": "Une personne",
+       "lang": "Jaz sem",
+       "note": "je suis",
+       "color": "#4FA3E0"
+      },
+      {
+       "icon": "school",
+       "where": "Deux personnes",
+       "lang": "Midva sva",
+       "note": "nous deux sommes",
+       "color": "#3E9A63"
+      },
+      {
+       "icon": "court",
+       "where": "Trois ou plus",
+       "lang": "Mi smo",
+       "note": "nous sommes",
+       "color": "#E8503A"
+      }
+     ]
+    }
+   ],
+   "people": [
+    {
+     "who": "paysan",
+     "at": [
+      14.9,
+      46.0
+     ],
+     "size": 220,
+     "say": "Midva sva !",
+     "when": {
+      "line": 1,
+      "d": 0.3
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      14.51,
+      46.06
+     ],
+     "when": 0.4
+    }
+   ],
+   "labels": [
+    {
+     "text": "Autriche",
+     "at": [
+      14.6,
+      46.85
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "d": 0.6
+     }
+    },
+    {
+     "text": "Croatie",
+     "at": [
+      15.4,
+      45.45
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "d": 1.0
+     }
+    }
+   ],
+   "say": [
+    "Au 19e siècle, l’éveil national en fait une langue écrite et parlée, toujours vivante.",
+    "Elle garde même un duel : une forme spéciale pour dire « on est deux »."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "7e siècle – 2007",
+   "text": "14 siècles, 6 dates",
+   "focus": {
+    "box": [
+     12.4,
+     44.9,
+     17.6,
+     47.5
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Slovenia"
+     ],
+     "color": "#3E9A63",
+     "at": 0.2,
+     "keep": false
+    }
+   ],
+   "art": [
+    {
+     "kind": "timeline",
+     "at": {
+      "line": 0,
+      "d": 0.1
+     },
+     "dur": 5.0,
+     "title": "Une langue, six dates",
+     "items": [
+      {
+       "year": "7e s.",
+       "text": "Carantanie",
+       "color": "#3E9A63"
+      },
+      {
+       "year": "1550",
+       "text": "Trubar"
+      },
+      {
+       "year": "1918",
+       "text": "Yougoslavie"
+      },
+      {
+       "year": "1991",
+       "text": "Indépendance"
+      },
+      {
+       "year": "2004",
+       "text": "Union européenne"
+      },
+      {
+       "year": "2007",
+       "text": "Euro"
+      }
+     ]
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      14.51,
+      46.06
+     ],
+     "when": 0.4
+    }
+   ],
+   "say": [
+    "De la Carantanie à l’euro, le petit pays n’a jamais lâché sa langue.",
+    "Six dates, une seule langue."
+   ]
+  },
+  {
+   "type": "final",
+   "text": "Un petit pays, une langue gardée",
+   "sub": "La Slovénie",
+   "focus": {
+    "box": [
+     13.0,
+     45.2,
+     16.8,
+     47.0
+    ]
+   },
+   "people": [
+    {
+     "who": "paysan",
+     "at": [
+      14.9,
+      46.0
+     ],
+     "size": 240,
+     "say": "Slovenija !",
+     "wave": true,
+     "when": 1.0
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      14.51,
+      46.06
+     ],
+     "title": "Ljubljana",
+     "side": "t",
+     "when": 0.6,
+     "sub": "la capitale"
+    }
+   ],
+   "highlight": [
+    {
+     "countries": [
+      "Slovenia"
+     ],
+     "color": "#3E9A63",
+     "at": 0.2,
+     "keep": false
+    }
+   ],
+   "say": [
+    "Voilà pourquoi la Slovénie, si petite, a gardé sa langue !",
+    "Voilà la réponse à la question qui nous a ouverts :"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,6 @@
+- Ex.2 : art `languages` ajouté (scène 1978) : Catalogne/Galice/Pays basque langues aussi officielles, castillan officiel partout. Source : Constitution espagnole 1978, art. 3 (congreso.es, BOE).
+- Ex.2 : art `timeline` ajouté (final) : 218 av. J.-C., 711, 1492, 1939, 1978. Source : Empúries 218 av. J.-C. (Universalis, enciclopedia.cat).
+- Ex.5 : final en 3 phrases ; dernière : « Voilà la réponse à la question qui nous a ouverts : » -> hook « L’Espagne parle plusieurs langues : pourquoi ? ». Bulle « À bientôt ! » remplacée par « Olé ! ».
+- Ex.6 : terrain recalculé ; halo Madrid remplacé par Bilbao (scène basque) et Séville (scène 711).
+- Ex.1 : say déjà sans chiffres problématiques (validation OK). Ex.3 : arts conçus en textes >= 32 px.
+- Ex.2 : art `stats` ajouté (scène 711) : détroit de Gibraltar ~14 km (CNES, Vikidia 14,3 km), 781 ans = 1492 − 711 (calcul). Timeline final ramenée à 5 s.

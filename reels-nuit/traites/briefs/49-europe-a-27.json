@@ -1,0 +1,1551 @@
+{
+ "format": "atlas",
+ "id": "traites-49-europe-a-27",
+ "base": {
+  "countries": [
+   "Belgium",
+   "France",
+   "Germany",
+   "Italy",
+   "Luxembourg",
+   "Netherlands",
+   "United Kingdom",
+   "Ireland",
+   "Denmark",
+   "Greece",
+   "Spain",
+   "Portugal",
+   "Austria",
+   "Finland",
+   "Sweden",
+   "Cyprus",
+   "Czechia",
+   "Estonia",
+   "Hungary",
+   "Latvia",
+   "Lithuania",
+   "Malta",
+   "Poland",
+   "Slovakia",
+   "Slovenia",
+   "Bulgaria",
+   "Romania",
+   "Croatia"
+  ]
+ },
+ "open": {
+  "box": [
+   -11,
+   34,
+   34,
+   62
+  ]
+ },
+ "terrain": [
+  {
+   "box": [
+    -20,
+    8,
+    48,
+    80
+   ],
+   "px": 3000,
+   "z": 6
+  },
+  {
+   "box": [
+    -12.4,
+    25,
+    37.4,
+    68.4
+   ],
+   "px": 2800,
+   "z": 8
+  }
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "year": "1957",
+   "text": "Comment 6 pays sont devenus 27 ?",
+   "sub": "Traités de Rome",
+   "focus": {
+    "box": [
+     -11,
+     34,
+     34,
+     62
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Belgium",
+      "France",
+      "Italy",
+      "Luxembourg",
+      "Netherlands"
+     ],
+     "color": "#4FA3E0",
+     "at": 0,
+     "keep": true
+    },
+    {
+     "regions": [
+      {
+       "c": "Germany",
+       "n": "Bayern"
+      },
+      {
+       "c": "Germany",
+       "n": "Rheinland-Pfalz"
+      },
+      {
+       "c": "Germany",
+       "n": "Saarland"
+      },
+      {
+       "c": "Germany",
+       "n": "Schleswig-Holstein"
+      },
+      {
+       "c": "Germany",
+       "n": "Niedersachsen"
+      },
+      {
+       "c": "Germany",
+       "n": "Nordrhein-Westfalen"
+      },
+      {
+       "c": "Germany",
+       "n": "Baden-Württemberg"
+      },
+      {
+       "c": "Germany",
+       "n": "Bremen"
+      },
+      {
+       "c": "Germany",
+       "n": "Hamburg"
+      },
+      {
+       "c": "Germany",
+       "n": "Hessen"
+      }
+     ],
+     "color": "#4FA3E0",
+     "at": 0,
+     "keep": true
+    },
+    {
+     "countries": [
+      "Ireland",
+      "Denmark",
+      "Greece",
+      "Spain",
+      "Portugal",
+      "Austria",
+      "Finland",
+      "Sweden",
+      "Cyprus",
+      "Czechia",
+      "Estonia",
+      "Hungary",
+      "Latvia",
+      "Lithuania",
+      "Malta",
+      "Poland",
+      "Slovakia",
+      "Slovenia",
+      "Bulgaria",
+      "Romania",
+      "Croatia"
+     ],
+     "color": "#FF2E88",
+     "at": 0,
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "Germany",
+       "n": "Sachsen"
+      },
+      {
+       "c": "Germany",
+       "n": "Brandenburg"
+      },
+      {
+       "c": "Germany",
+       "n": "Mecklenburg-Vorpommern"
+      },
+      {
+       "c": "Germany",
+       "n": "Thüringen"
+      },
+      {
+       "c": "Germany",
+       "n": "Sachsen-Anhalt"
+      },
+      {
+       "c": "Germany",
+       "n": "Berlin"
+      }
+     ],
+     "color": "#FF2E88",
+     "at": 0,
+     "keep": false
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      12.48,
+      41.89
+     ],
+     "when": 0
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      12.48,
+      41.89
+     ],
+     "title": "Rome",
+     "side": "r",
+     "when": {
+      "line": 1,
+      "word": "Rome",
+      "d": 0.2
+     }
+    }
+   ],
+   "say": [
+    "Comment six pays sont-ils devenus vingt-sept ?",
+    "Tout commence par une signature à Rome, douze ans après la guerre."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "25 mars 1957",
+   "text": "Six pays signent à Rome",
+   "focus": {
+    "box": [
+     -1.5,
+     40.5,
+     15,
+     54.5
+    ]
+   },
+   "beacon": [
+    {
+     "at": [
+      12.48,
+      41.89
+     ],
+     "when": 1
+    }
+   ],
+   "labels": [
+    {
+     "text": "France",
+     "at": [
+      2.5,
+      46.6
+     ],
+     "size": 36,
+     "when": {
+      "line": 0,
+      "word": "France",
+      "d": 0.2
+     }
+    },
+    {
+     "text": "Italie",
+     "at": [
+      11.5,
+      44.2
+     ],
+     "size": 34,
+     "when": {
+      "line": 0,
+      "word": "voisins",
+      "d": 0
+     }
+    },
+    {
+     "text": "Belgique",
+     "at": [
+      4.6,
+      50.5
+     ],
+     "size": 32,
+     "when": {
+      "line": 0,
+      "word": "voisins",
+      "d": 0.3
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      9.3,
+      50.9
+     ],
+     "title": "RFA",
+     "sub": "l’Allemagne de l’Ouest",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "RFA",
+      "d": 0.2
+     }
+    },
+    {
+     "at": [
+      12.48,
+      41.89
+     ],
+     "title": "Rome",
+     "side": "r",
+     "when": 1.2
+    }
+   ],
+   "art": [
+    {
+     "kind": "treaty",
+     "at": {
+      "line": 0,
+      "word": "signent",
+      "d": -0.3
+     },
+     "dur": 3.6,
+     "title": "Traités de Rome",
+     "sub": "25 mars 1957",
+     "signers": [
+      "France, RFA, Italie",
+      "Benelux"
+     ],
+     "year": "1957"
+    }
+   ],
+   "say": [
+    "Le 25 mars 1957, la France, la RFA et quatre voisins signent à Rome.",
+    "Leur but : rendre la guerre impossible ; et tout État européen pourra demander à entrer."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1973",
+   "text": "Le Royaume-Uni, l’Irlande, le Danemark",
+   "focus": {
+    "box": [
+     -11,
+     48,
+     17,
+     60
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "United Kingdom",
+      "Ireland",
+      "Denmark"
+     ],
+     "color": "#FF2E88",
+     "at": {
+      "line": 0,
+      "word": "Royaume-Uni",
+      "d": 0.2
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "United Kingdom",
+      "Ireland",
+      "Denmark"
+     ],
+     "color": "#4FA3E0",
+     "at": {
+      "line": 1,
+      "word": "neuf",
+      "d": 0
+     },
+     "keep": true
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      -0.13,
+      51.5
+     ],
+     "title": "Londres",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "Royaume-Uni",
+      "d": 1
+     }
+    },
+    {
+     "at": [
+      -6.26,
+      53.35
+     ],
+     "title": "Dublin",
+     "side": "l",
+     "when": {
+      "line": 0,
+      "word": "Irlande",
+      "d": 0.6
+     }
+    },
+    {
+     "at": [
+      12.57,
+      55.68
+     ],
+     "title": "Copenhague",
+     "side": "t",
+     "when": {
+      "line": 0,
+      "word": "Danemark",
+      "d": 0.4
+     }
+    }
+   ],
+   "say": [
+    "En 1973, le Royaume-Uni, l’Irlande et le Danemark franchissent la porte.",
+    "La Communauté compte désormais neuf membres."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1981 · 1986",
+   "text": "La Grèce, l’Espagne, le Portugal",
+   "focus": {
+    "box": [
+     -12,
+     34,
+     29,
+     46
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Greece"
+     ],
+     "color": "#FF2E88",
+     "at": {
+      "line": 0,
+      "word": "Grèce",
+      "d": 0.2
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Spain",
+      "Portugal"
+     ],
+     "color": "#FF2E88",
+     "at": {
+      "line": 0,
+      "word": "Espagne",
+      "d": 0.2
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Greece",
+      "Spain",
+      "Portugal"
+     ],
+     "color": "#4FA3E0",
+     "at": {
+      "line": 1,
+      "word": "douze",
+      "d": 0
+     },
+     "keep": true
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      23.73,
+      37.98
+     ],
+     "when": {
+      "line": 0,
+      "word": "Grèce",
+      "d": 0.4
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      23.73,
+      37.98
+     ],
+     "title": "Athènes",
+     "side": "t",
+     "when": {
+      "line": 0,
+      "word": "Grèce",
+      "d": 0.8
+     }
+    },
+    {
+     "at": [
+      -3.7,
+      40.4
+     ],
+     "title": "Madrid",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "Espagne",
+      "d": 0.3
+     }
+    },
+    {
+     "at": [
+      -9.14,
+      38.72
+     ],
+     "title": "Lisbonne",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "Portugal",
+      "d": 0.3
+     }
+    }
+   ],
+   "say": [
+    "La Grèce entre en 1981, l’Espagne et le Portugal en 1986.",
+    "Tous trois sont sortis de la dictature : ils sont désormais douze."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1990 · 1995",
+   "text": "L’Est allemand, puis le Nord",
+   "focus": {
+    "box": [
+     4,
+     42,
+     34,
+     68
+    ]
+   },
+   "highlight": [
+    {
+     "regions": [
+      {
+       "c": "Germany",
+       "n": "Sachsen"
+      },
+      {
+       "c": "Germany",
+       "n": "Brandenburg"
+      },
+      {
+       "c": "Germany",
+       "n": "Mecklenburg-Vorpommern"
+      },
+      {
+       "c": "Germany",
+       "n": "Thüringen"
+      },
+      {
+       "c": "Germany",
+       "n": "Sachsen-Anhalt"
+      },
+      {
+       "c": "Germany",
+       "n": "Berlin"
+      }
+     ],
+     "color": "#FF2E88",
+     "at": {
+      "line": 0,
+      "word": "réunifiée",
+      "d": 0
+     },
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "Germany",
+       "n": "Sachsen"
+      },
+      {
+       "c": "Germany",
+       "n": "Brandenburg"
+      },
+      {
+       "c": "Germany",
+       "n": "Mecklenburg-Vorpommern"
+      },
+      {
+       "c": "Germany",
+       "n": "Thüringen"
+      },
+      {
+       "c": "Germany",
+       "n": "Sachsen-Anhalt"
+      },
+      {
+       "c": "Germany",
+       "n": "Berlin"
+      }
+     ],
+     "color": "#4FA3E0",
+     "at": {
+      "line": 1,
+      "word": "d",
+      "d": 0
+     },
+     "keep": true
+    },
+    {
+     "countries": [
+      "Austria",
+      "Finland",
+      "Sweden"
+     ],
+     "color": "#FF2E88",
+     "at": {
+      "line": 1,
+      "word": "Autriche",
+      "d": 0
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Austria",
+      "Finland",
+      "Sweden"
+     ],
+     "color": "#4FA3E0",
+     "at": {
+      "line": 1,
+      "word": "quinze",
+      "d": 0.2
+     },
+     "keep": true
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      12.6,
+      51.9
+     ],
+     "title": "RDA",
+     "sub": "l’Allemagne de l’Est",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "RDA",
+      "d": 0.2
+     }
+    },
+    {
+     "at": [
+      16.37,
+      48.2
+     ],
+     "title": "Vienne",
+     "side": "r",
+     "when": {
+      "line": 1,
+      "word": "Autriche",
+      "d": 0.4
+     }
+    },
+    {
+     "at": [
+      24.94,
+      60.17
+     ],
+     "title": "Helsinki",
+     "side": "b",
+     "when": {
+      "line": 1,
+      "word": "Finlande",
+      "d": 0.3
+     }
+    },
+    {
+     "at": [
+      18.07,
+      59.33
+     ],
+     "title": "Stockholm",
+     "side": "b",
+     "when": {
+      "line": 1,
+      "word": "Suède",
+      "d": 0.3
+     }
+    }
+   ],
+   "say": [
+    "En 1990, l’Allemagne réunifiée fait entrer l’ancienne RDA.",
+    "En 1995, l’Autriche, la Finlande et la Suède portent l’Union à quinze."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "2004",
+   "text": "Dix pays d’un coup",
+   "focus": {
+    "box": [
+     9,
+     32,
+     37,
+     60.5
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Cyprus",
+      "Czechia",
+      "Estonia",
+      "Hungary",
+      "Latvia",
+      "Lithuania",
+      "Malta",
+      "Poland",
+      "Slovakia",
+      "Slovenia"
+     ],
+     "color": "#FF2E88",
+     "at": {
+      "line": 0,
+      "word": "dix",
+      "d": 0.3
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Cyprus",
+      "Czechia",
+      "Estonia",
+      "Hungary",
+      "Latvia",
+      "Lithuania",
+      "Malta",
+      "Poland",
+      "Slovakia",
+      "Slovenia"
+     ],
+     "color": "#4FA3E0",
+     "at": {
+      "line": 1,
+      "word": "élargissement",
+      "d": 0.2
+     },
+     "keep": true
+    }
+   ],
+   "labels": [
+    {
+     "text": "Pologne",
+     "at": [
+      19.2,
+      51.6
+     ],
+     "size": 36,
+     "when": {
+      "line": 0,
+      "word": "d",
+      "d": 1.2
+     }
+    },
+    {
+     "text": "Hongrie",
+     "at": [
+      19.6,
+      47
+     ],
+     "size": 34,
+     "when": {
+      "line": 0,
+      "word": "d",
+      "d": 1.8
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      14.51,
+      35.9
+     ],
+     "title": "Malte",
+     "side": "l",
+     "when": {
+      "line": 1,
+      "word": "élargissement",
+      "d": 0.3
+     }
+    },
+    {
+     "at": [
+      33.38,
+      35.17
+     ],
+     "title": "Chypre",
+     "side": "r",
+     "when": {
+      "line": 1,
+      "word": "élargissement",
+      "d": 0.6
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      14.51,
+      35.9
+     ],
+     "when": {
+      "line": 1,
+      "word": "élargissement",
+      "d": 0.3
+     }
+    },
+    {
+     "at": [
+      33.38,
+      35.17
+     ],
+     "when": {
+      "line": 1,
+      "word": "élargissement",
+      "d": 0.6
+     }
+    }
+   ],
+   "say": [
+    "En 2004, après la chute du mur de Berlin, dix pays, surtout de l’Est, entrent d’un coup.",
+    "C’est le plus grand élargissement : de 15 à 25 États."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "2007 · 2013",
+   "text": "La Bulgarie, la Roumanie, la Croatie",
+   "focus": {
+    "box": [
+     10,
+     39.5,
+     30,
+     49.5
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Bulgaria",
+      "Romania"
+     ],
+     "color": "#FF2E88",
+     "at": {
+      "line": 0,
+      "word": "Bulgarie",
+      "d": 0.2
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Croatia"
+     ],
+     "color": "#FF2E88",
+     "at": {
+      "line": 0,
+      "word": "Croatie",
+      "d": 0.2
+     },
+     "keep": false
+    },
+    {
+     "countries": [
+      "Bulgaria",
+      "Romania",
+      "Croatia"
+     ],
+     "color": "#4FA3E0",
+     "at": {
+      "line": 1,
+      "word": "d",
+      "d": 0.3
+     },
+     "keep": true
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      23.32,
+      42.7
+     ],
+     "when": {
+      "line": 0,
+      "word": "Bulgarie",
+      "d": 0.4
+     }
+    },
+    {
+     "at": [
+      15.98,
+      45.81
+     ],
+     "when": {
+      "line": 0,
+      "word": "Croatie",
+      "d": 0.4
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      23.32,
+      42.7
+     ],
+     "title": "Sofia",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "Bulgarie",
+      "d": 0.8
+     }
+    },
+    {
+     "at": [
+      26.1,
+      44.43
+     ],
+     "title": "Bucarest",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "Roumanie",
+      "d": 0.4
+     }
+    },
+    {
+     "at": [
+      15.98,
+      45.81
+     ],
+     "title": "Zagreb",
+     "side": "l",
+     "when": {
+      "line": 0,
+      "word": "Croatie",
+      "d": 0.6
+     }
+    }
+   ],
+   "art": [
+    {
+     "kind": "split",
+     "at": {
+      "line": 1,
+      "word": "d",
+      "d": -0.2
+     },
+     "dur": 4,
+     "title": "De 6 à 28 pays",
+     "sub": "contours actuels",
+     "before": "Avant 1957",
+     "after": "Après 2013",
+     "legend": [
+      {
+       "color": "#FF2E88",
+       "text": "entrés"
+      },
+      {
+       "color": "#4FA3E0",
+       "text": "membres"
+      }
+     ],
+     "parts": [
+      {
+       "country": "Belgium",
+       "color": "#4FA3E0"
+      },
+      {
+       "country": "France",
+       "color": "#4FA3E0"
+      },
+      {
+       "country": "Italy",
+       "color": "#4FA3E0"
+      },
+      {
+       "country": "Luxembourg",
+       "color": "#4FA3E0"
+      },
+      {
+       "country": "Netherlands",
+       "color": "#4FA3E0"
+      },
+      {
+       "region": {
+        "c": "Germany",
+        "n": "Bayern"
+       },
+       "color": "#4FA3E0"
+      },
+      {
+       "region": {
+        "c": "Germany",
+        "n": "Rheinland-Pfalz"
+       },
+       "color": "#4FA3E0"
+      },
+      {
+       "region": {
+        "c": "Germany",
+        "n": "Saarland"
+       },
+       "color": "#4FA3E0"
+      },
+      {
+       "region": {
+        "c": "Germany",
+        "n": "Schleswig-Holstein"
+       },
+       "color": "#4FA3E0"
+      },
+      {
+       "region": {
+        "c": "Germany",
+        "n": "Niedersachsen"
+       },
+       "color": "#4FA3E0"
+      },
+      {
+       "region": {
+        "c": "Germany",
+        "n": "Nordrhein-Westfalen"
+       },
+       "color": "#4FA3E0"
+      },
+      {
+       "region": {
+        "c": "Germany",
+        "n": "Baden-Württemberg"
+       },
+       "color": "#4FA3E0"
+      },
+      {
+       "region": {
+        "c": "Germany",
+        "n": "Bremen"
+       },
+       "color": "#4FA3E0"
+      },
+      {
+       "region": {
+        "c": "Germany",
+        "n": "Hamburg"
+       },
+       "color": "#4FA3E0"
+      },
+      {
+       "region": {
+        "c": "Germany",
+        "n": "Hessen"
+       },
+       "color": "#4FA3E0"
+      },
+      {
+       "country": "United Kingdom",
+       "color": "#FF2E88",
+       "to": "#4FA3E0"
+      },
+      {
+       "country": "Ireland",
+       "color": "#FF2E88",
+       "to": "#4FA3E0"
+      },
+      {
+       "country": "Denmark",
+       "color": "#FF2E88",
+       "to": "#4FA3E0"
+      },
+      {
+       "country": "Greece",
+       "color": "#FF2E88",
+       "to": "#4FA3E0"
+      },
+      {
+       "country": "Spain",
+       "color": "#FF2E88",
+       "to": "#4FA3E0"
+      },
+      {
+       "country": "Portugal",
+       "color": "#FF2E88",
+       "to": "#4FA3E0"
+      },
+      {
+       "country": "Austria",
+       "color": "#FF2E88",
+       "to": "#4FA3E0"
+      },
+      {
+       "country": "Finland",
+       "color": "#FF2E88",
+       "to": "#4FA3E0"
+      },
+      {
+       "country": "Sweden",
+       "color": "#FF2E88",
+       "to": "#4FA3E0"
+      },
+      {
+       "country": "Cyprus",
+       "color": "#FF2E88",
+       "to": "#4FA3E0"
+      },
+      {
+       "country": "Czechia",
+       "color": "#FF2E88",
+       "to": "#4FA3E0"
+      },
+      {
+       "country": "Estonia",
+       "color": "#FF2E88",
+       "to": "#4FA3E0"
+      },
+      {
+       "country": "Hungary",
+       "color": "#FF2E88",
+       "to": "#4FA3E0"
+      },
+      {
+       "country": "Latvia",
+       "color": "#FF2E88",
+       "to": "#4FA3E0"
+      },
+      {
+       "country": "Lithuania",
+       "color": "#FF2E88",
+       "to": "#4FA3E0"
+      },
+      {
+       "country": "Malta",
+       "color": "#FF2E88",
+       "to": "#4FA3E0"
+      },
+      {
+       "country": "Poland",
+       "color": "#FF2E88",
+       "to": "#4FA3E0"
+      },
+      {
+       "country": "Slovakia",
+       "color": "#FF2E88",
+       "to": "#4FA3E0"
+      },
+      {
+       "country": "Slovenia",
+       "color": "#FF2E88",
+       "to": "#4FA3E0"
+      },
+      {
+       "country": "Bulgaria",
+       "color": "#FF2E88",
+       "to": "#4FA3E0"
+      },
+      {
+       "country": "Romania",
+       "color": "#FF2E88",
+       "to": "#4FA3E0"
+      },
+      {
+       "country": "Croatia",
+       "color": "#FF2E88",
+       "to": "#4FA3E0"
+      },
+      {
+       "region": {
+        "c": "Germany",
+        "n": "Sachsen"
+       },
+       "color": "#FF2E88",
+       "to": "#4FA3E0"
+      },
+      {
+       "region": {
+        "c": "Germany",
+        "n": "Brandenburg"
+       },
+       "color": "#FF2E88",
+       "to": "#4FA3E0"
+      },
+      {
+       "region": {
+        "c": "Germany",
+        "n": "Mecklenburg-Vorpommern"
+       },
+       "color": "#FF2E88",
+       "to": "#4FA3E0"
+      },
+      {
+       "region": {
+        "c": "Germany",
+        "n": "Thüringen"
+       },
+       "color": "#FF2E88",
+       "to": "#4FA3E0"
+      },
+      {
+       "region": {
+        "c": "Germany",
+        "n": "Sachsen-Anhalt"
+       },
+       "color": "#FF2E88",
+       "to": "#4FA3E0"
+      },
+      {
+       "region": {
+        "c": "Germany",
+        "n": "Berlin"
+       },
+       "color": "#FF2E88",
+       "to": "#4FA3E0"
+      }
+     ]
+    }
+   ],
+   "say": [
+    "En 2007, la Bulgarie et la Roumanie entrent, puis la Croatie en 2013.",
+    "Depuis Rome, vingt-deux pays ont rejoint les six fondateurs, vague après vague."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "Aujourd’hui",
+   "text": "Une Union à 27",
+   "focus": {
+    "box": [
+     -10,
+     34,
+     33,
+     61
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Ireland",
+      "Denmark",
+      "Greece",
+      "Spain",
+      "Portugal",
+      "Austria",
+      "Finland",
+      "Sweden",
+      "Cyprus",
+      "Czechia",
+      "Estonia",
+      "Hungary",
+      "Latvia",
+      "Lithuania",
+      "Malta",
+      "Poland",
+      "Slovakia",
+      "Slovenia",
+      "Bulgaria",
+      "Romania",
+      "Croatia"
+     ],
+     "color": "#FF2E88",
+     "at": 0,
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "Germany",
+       "n": "Sachsen"
+      },
+      {
+       "c": "Germany",
+       "n": "Brandenburg"
+      },
+      {
+       "c": "Germany",
+       "n": "Mecklenburg-Vorpommern"
+      },
+      {
+       "c": "Germany",
+       "n": "Thüringen"
+      },
+      {
+       "c": "Germany",
+       "n": "Sachsen-Anhalt"
+      },
+      {
+       "c": "Germany",
+       "n": "Berlin"
+      }
+     ],
+     "color": "#FF2E88",
+     "at": 0,
+     "keep": false
+    },
+    {
+     "countries": [
+      "United Kingdom"
+     ],
+     "color": "#8A8F98",
+     "at": {
+      "line": 1,
+      "word": "Royaume-Uni",
+      "d": 0.2
+     },
+     "keep": false
+    }
+   ],
+   "art": [
+    {
+     "kind": "stats",
+     "at": {
+      "line": 0,
+      "word": "compte",
+      "d": 0
+     },
+     "dur": 3.5,
+     "title": "L’Union aujourd’hui",
+     "items": [
+      {
+       "value": 6,
+       "decimals": 0,
+       "label": "pays fondateurs",
+       "color": "#4FA3E0"
+      },
+      {
+       "value": 27,
+       "decimals": 0,
+       "label": "États membres",
+       "color": "#4FA3E0"
+      },
+      {
+       "value": 24,
+       "decimals": 0,
+       "label": "langues officielles",
+       "color": "#4FA3E0"
+      },
+      {
+       "value": 450,
+       "decimals": 0,
+       "suffix": " M",
+       "label": "habitants, environ",
+       "color": "#FF2E88"
+      }
+     ]
+    }
+   ],
+   "labels": [
+    {
+     "text": "France",
+     "at": [
+      2.5,
+      46.6
+     ],
+     "size": 36,
+     "when": {
+      "line": 1,
+      "word": "d",
+      "d": 0.3
+     }
+    },
+    {
+     "text": "Pologne",
+     "at": [
+      19.2,
+      51.9
+     ],
+     "size": 36,
+     "when": {
+      "line": 1,
+      "word": "d",
+      "d": 0.5
+     }
+    },
+    {
+     "text": "Espagne",
+     "at": [
+      -3.6,
+      39.8
+     ],
+     "size": 36,
+     "when": {
+      "line": 1,
+      "word": "d",
+      "d": 0.7
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      -1.5,
+      52.5
+     ],
+     "title": "Royaume-Uni",
+     "sub": "sorti en 2020",
+     "side": "b",
+     "when": {
+      "line": 1,
+      "word": "Royaume-Uni",
+      "d": 0.6
+     }
+    },
+    {
+     "at": [
+      12.48,
+      41.89
+     ],
+     "title": "Traités de Rome",
+     "sub": "toujours en vigueur",
+     "side": "r",
+     "when": {
+      "line": 1,
+      "word": "traité",
+      "d": 0.3
+     }
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      12.48,
+      41.89
+     ],
+     "when": {
+      "line": 1,
+      "word": "traité",
+      "d": 0.3
+     }
+    }
+   ],
+   "say": [
+    "Aujourd’hui, l’Union compte 27 États, 24 langues et environ 450 millions d’habitants.",
+    "Seul le Royaume-Uni est parti, en 2020 ; le traité de Rome reste en vigueur."
+   ]
+  },
+  {
+   "type": "final",
+   "text": "De 6 pays à 27",
+   "sub": "Traités de Rome, 1957",
+   "focus": {
+    "box": [
+     -11,
+     34,
+     34,
+     62
+    ]
+   },
+   "highlight": [
+    {
+     "countries": [
+      "Ireland",
+      "Denmark",
+      "Greece",
+      "Spain",
+      "Portugal",
+      "Austria",
+      "Finland",
+      "Sweden",
+      "Cyprus",
+      "Czechia",
+      "Estonia",
+      "Hungary",
+      "Latvia",
+      "Lithuania",
+      "Malta",
+      "Poland",
+      "Slovakia",
+      "Slovenia",
+      "Bulgaria",
+      "Romania",
+      "Croatia"
+     ],
+     "color": "#FF2E88",
+     "at": 0,
+     "keep": false
+    },
+    {
+     "regions": [
+      {
+       "c": "Germany",
+       "n": "Sachsen"
+      },
+      {
+       "c": "Germany",
+       "n": "Brandenburg"
+      },
+      {
+       "c": "Germany",
+       "n": "Mecklenburg-Vorpommern"
+      },
+      {
+       "c": "Germany",
+       "n": "Thüringen"
+      },
+      {
+       "c": "Germany",
+       "n": "Sachsen-Anhalt"
+      },
+      {
+       "c": "Germany",
+       "n": "Berlin"
+      }
+     ],
+     "color": "#FF2E88",
+     "at": 0,
+     "keep": false
+    }
+   ],
+   "beacon": [
+    {
+     "at": [
+      12.48,
+      41.89
+     ],
+     "when": 0.4
+    }
+   ],
+   "say": [
+    "Voilà pourquoi six pays sont devenus vingt-sept : Rome leur a ouvert la porte.",
+    "Et tout part de cette question :"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1644 @@
+{
+ "format": "atlas",
+ "id": "atlas-roumanie",
+ "base": {
+  "countries": [
+   "Romania"
+  ]
+ },
+ "terrain": [
+  {
+   "box": [
+    -14,
+    27,
+    40,
+    76
+   ],
+   "px": 3000,
+   "z": 6
+  },
+  {
+   "box": [
+    18.2,
+    42.6,
+    31.0,
+    49.8
+   ],
+   "px": 2800,
+   "z": 8
+  }
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "text": "Une langue latine chez les Slaves",
+   "sub": "La Roumanie",
+   "focus": {
+    "box": [
+     18.6,
+     43.0,
+     30.6,
+     49.4
+    ]
+   },
+   "highlight": [
+    {
+     "color": "#4FA3E0",
+     "at": {
+      "line": 0,
+      "word": "slaves",
+      "d": 0.0
+     },
+     "countries": [
+      "Ukraine",
+      "Serbia",
+      "Bulgaria"
+     ],
+     "keep": false
+    },
+    {
+     "color": "#3E9A63",
+     "at": {
+      "line": 0,
+      "word": "hongrois",
+      "d": 0.0
+     },
+     "countries": [
+      "Hungary"
+     ],
+     "keep": false
+    },
+    {
+     "color": "#FFD83C",
+     "at": {
+      "line": 0,
+      "word": "Roumanie",
+      "d": 0.1
+     },
+     "countries": [
+      "Romania"
+     ],
+     "keep": false
+    },
+    {
+     "color": "#FFE98A",
+     "at": {
+      "line": 0,
+      "word": "latine",
+      "d": 0.3
+     },
+     "countries": [
+      "Moldova"
+     ],
+     "keep": false
+    }
+   ],
+   "labels": [
+    {
+     "text": "Hongrie",
+     "at": [
+      19.6,
+      47.4
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "word": "hongrois",
+      "d": 0.0
+     }
+    },
+    {
+     "text": "Ukraine",
+     "at": [
+      25.6,
+      49.0
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "word": "slaves",
+      "d": 0.0
+     }
+    },
+    {
+     "text": "Bulgarie",
+     "at": [
+      25.3,
+      43.2
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "word": "slaves",
+      "d": 0.3
+     }
+    },
+    {
+     "text": "Serbie",
+     "at": [
+      20.3,
+      44.0
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "word": "slaves",
+      "d": 0.5
+     }
+    },
+    {
+     "text": "Moldova",
+     "at": [
+      28.9,
+      47.6
+     ],
+     "size": 34,
+     "when": {
+      "line": 0,
+      "word": "latine",
+      "d": 0.5
+     }
+    }
+   ],
+   "people": [
+    {
+     "who": "romain",
+     "at": [
+      24.2,
+      46.0
+     ],
+     "size": 220,
+     "say": "Un peuple latin",
+     "when": {
+      "line": 0,
+      "word": "latine",
+      "d": 0.0
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      26.1,
+      44.43
+     ],
+     "title": "Bucarest",
+     "side": "b",
+     "when": {
+      "line": 1,
+      "word": "Environ",
+      "d": 0.5
+     }
+    }
+   ],
+   "art": [
+    {
+     "kind": "stats",
+     "at": {
+      "line": 1,
+      "d": 0.0
+     },
+     "dur": 4.5,
+     "items": [
+      {
+       "value": 19.1,
+       "decimals": 1,
+       "suffix": " M",
+       "label": "habitants (2021)",
+       "color": "#FFD83C"
+      },
+      {
+       "value": 238400,
+       "suffix": " km²",
+       "label": "superficie",
+       "color": "#8FD0EE",
+       "size": 58
+      }
+     ]
+    }
+   ],
+   "say": [
+    "Entourée de voisins slaves et hongrois, la Roumanie parle pourtant une langue latine.",
+    "Environ 19 millions de personnes y vivent, sur 238 400 kilomètres carrés."
+   ],
+   "beacon": [
+    {
+     "at": [
+      26.1,
+      44.43
+     ],
+     "when": 0.4
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "106",
+   "text": "La Dacie devient romaine",
+   "focus": {
+    "box": [
+     19.8,
+     43.6,
+     28.6,
+     48.4
+    ]
+   },
+   "highlight": {
+    "color": "#FFD83C",
+    "at": {
+     "line": 0,
+     "word": "Dacie",
+     "d": 0.0
+    },
+    "regions": [
+     {
+      "c": "Romania",
+      "n": "Alba"
+     },
+     {
+      "c": "Romania",
+      "n": "Hunedoara"
+     },
+     {
+      "c": "Romania",
+      "n": "Sibiu"
+     },
+     {
+      "c": "Romania",
+      "n": "Cluj"
+     },
+     {
+      "c": "Romania",
+      "n": "Mures"
+     },
+     {
+      "c": "Romania",
+      "n": "Brasov"
+     },
+     {
+      "c": "Romania",
+      "n": "Mehedinti"
+     },
+     {
+      "c": "Romania",
+      "n": "Gorj"
+     },
+     {
+      "c": "Romania",
+      "n": "Vâlcea"
+     },
+     {
+      "c": "Romania",
+      "n": "Dolj"
+     },
+     {
+      "c": "Romania",
+      "n": "Olt"
+     },
+     {
+      "c": "Romania",
+      "n": "Arges"
+     },
+     {
+      "c": "Romania",
+      "n": "Caras-Severin"
+     },
+     {
+      "c": "Romania",
+      "n": "Timis"
+     }
+    ],
+    "keep": false
+   },
+   "moves": [
+    {
+     "from": [
+      21.0,
+      44.6
+     ],
+     "to": [
+      23.31,
+      45.62
+     ],
+     "n": 4,
+     "color": "#C62828",
+     "label": "Légions de Trajan",
+     "at": {
+      "line": 1,
+      "word": "Trajan",
+      "d": -0.3
+     },
+     "dur": 2.4
+    }
+   ],
+   "people": [
+    {
+     "who": "roi",
+     "at": [
+      25.0,
+      47.3
+     ],
+     "size": 220,
+     "say": "Résistons !",
+     "label": {
+      "title": "Décébale",
+      "sub": "roi des Daces"
+     },
+     "when": {
+      "line": 0,
+      "word": "Décébale",
+      "d": 0.0
+     }
+    },
+    {
+     "who": "cesar",
+     "at": [
+      21.4,
+      47.4
+     ],
+     "size": 220,
+     "say": "Une province !",
+     "label": {
+      "title": "Trajan",
+      "sub": "empereur romain"
+     },
+     "when": {
+      "line": 1,
+      "word": "Trajan",
+      "d": 0.0
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      23.31,
+      45.62
+     ],
+     "title": "Sarmizegetusa",
+     "side": "b",
+     "when": {
+      "line": 0,
+      "word": "Carpates",
+      "d": 0.2
+     },
+     "sub": "capitale des Daces"
+    }
+   ],
+   "labels": [
+    {
+     "text": "Carpates",
+     "at": [
+      26.0,
+      46.6
+     ],
+     "size": 40,
+     "when": {
+      "line": 0,
+      "word": "Carpates",
+      "d": 0.2
+     }
+    }
+   ],
+   "say": [
+    "Dans l’Antiquité, le roi Décébale dirige la Dacie, un royaume des Carpates.",
+    "En 106, l’empereur Trajan la conquiert et en fait une province romaine."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "Vers 271",
+   "text": "Le latin reste, les Slaves arrivent",
+   "focus": {
+    "box": [
+     19.8,
+     43.4,
+     30.0,
+     49.2
+    ]
+   },
+   "highlight": [
+    {
+     "color": "#FFD83C",
+     "at": {
+      "line": 0,
+      "word": "gardent",
+      "d": 0.0
+     },
+     "regions": [
+      {
+       "c": "Romania",
+       "n": "Alba"
+      },
+      {
+       "c": "Romania",
+       "n": "Hunedoara"
+      },
+      {
+       "c": "Romania",
+       "n": "Sibiu"
+      },
+      {
+       "c": "Romania",
+       "n": "Cluj"
+      },
+      {
+       "c": "Romania",
+       "n": "Mures"
+      },
+      {
+       "c": "Romania",
+       "n": "Brasov"
+      },
+      {
+       "c": "Romania",
+       "n": "Mehedinti"
+      },
+      {
+       "c": "Romania",
+       "n": "Gorj"
+      },
+      {
+       "c": "Romania",
+       "n": "Vâlcea"
+      },
+      {
+       "c": "Romania",
+       "n": "Dolj"
+      },
+      {
+       "c": "Romania",
+       "n": "Olt"
+      },
+      {
+       "c": "Romania",
+       "n": "Arges"
+      },
+      {
+       "c": "Romania",
+       "n": "Caras-Severin"
+      },
+      {
+       "c": "Romania",
+       "n": "Timis"
+      }
+     ],
+     "keep": false
+    },
+    {
+     "color": "#4FA3E0",
+     "at": {
+      "line": 1,
+      "word": "slaves",
+      "d": 0.0
+     },
+     "countries": [
+      "Ukraine",
+      "Bulgaria"
+     ],
+     "keep": false
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      23.5,
+      45.5
+     ],
+     "to": [
+      20.4,
+      44.0
+     ],
+     "n": 3,
+     "color": "#C62828",
+     "label": "Romains",
+     "at": {
+      "line": 0,
+      "word": "Romains",
+      "d": 0.0
+     },
+     "dur": 2.4
+    },
+    {
+     "from": [
+      26.0,
+      48.4
+     ],
+     "to": [
+      25.2,
+      47.0
+     ],
+     "n": 3,
+     "color": "#8FD0EE",
+     "label": "Peuples slaves",
+     "at": {
+      "line": 1,
+      "word": "Dès",
+      "d": 0.0
+     },
+     "dur": 2.4
+    },
+    {
+     "from": [
+      25.0,
+      43.9
+     ],
+     "to": [
+      25.6,
+      44.8
+     ],
+     "n": 3,
+     "color": "#8FD0EE",
+     "at": {
+      "line": 1,
+      "word": "Dès",
+      "d": 0.0
+     },
+     "dur": 2.4
+    }
+   ],
+   "people": [
+    {
+     "who": "romain",
+     "at": [
+      22.6,
+      46.0
+     ],
+     "size": 210,
+     "say": "On garde le latin",
+     "when": {
+      "line": 0,
+      "word": "gardent",
+      "d": 0.0
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Ukraine",
+     "at": [
+      27.0,
+      48.9
+     ],
+     "size": 38,
+     "when": {
+      "line": 1,
+      "word": "slaves",
+      "d": 0.0
+     }
+    },
+    {
+     "text": "Bulgarie",
+     "at": [
+      27.4,
+      43.6
+     ],
+     "size": 38,
+     "when": {
+      "line": 1,
+      "word": "slaves",
+      "d": 0.4
+     }
+    }
+   ],
+   "say": [
+    "Vers 271, les Romains partent, mais les habitants gardent le latin, devenu le roumain.",
+    "Dès le 6e siècle, des peuples slaves s’installent tout autour."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "14e siècle",
+   "text": "Valachie et Moldavie",
+   "focus": {
+    "box": [
+     20.4,
+     43.2,
+     30.0,
+     48.8
+    ]
+   },
+   "highlight": [
+    {
+     "color": "#E8A33C",
+     "at": {
+      "line": 0,
+      "word": "Valachie",
+      "d": -0.2
+     },
+     "regions": [
+      {
+       "c": "Romania",
+       "n": "Mehedinti"
+      },
+      {
+       "c": "Romania",
+       "n": "Dolj"
+      },
+      {
+       "c": "Romania",
+       "n": "Olt"
+      },
+      {
+       "c": "Romania",
+       "n": "Teleorman"
+      },
+      {
+       "c": "Romania",
+       "n": "Giurgiu"
+      },
+      {
+       "c": "Romania",
+       "n": "Calarasi"
+      },
+      {
+       "c": "Romania",
+       "n": "Ialomita"
+      },
+      {
+       "c": "Romania",
+       "n": "Braila"
+      },
+      {
+       "c": "Romania",
+       "n": "Buzau"
+      },
+      {
+       "c": "Romania",
+       "n": "Prahova"
+      },
+      {
+       "c": "Romania",
+       "n": "Dâmbovita"
+      },
+      {
+       "c": "Romania",
+       "n": "Ilfov"
+      },
+      {
+       "c": "Romania",
+       "n": "Bucharest"
+      },
+      {
+       "c": "Romania",
+       "n": "Arges"
+      },
+      {
+       "c": "Romania",
+       "n": "Gorj"
+      },
+      {
+       "c": "Romania",
+       "n": "Vâlcea"
+      }
+     ],
+     "keep": false
+    },
+    {
+     "color": "#B07CD8",
+     "at": {
+      "line": 0,
+      "word": "Moldavie",
+      "d": -0.2
+     },
+     "regions": [
+      {
+       "c": "Romania",
+       "n": "Botosani"
+      },
+      {
+       "c": "Romania",
+       "n": "Iasi"
+      },
+      {
+       "c": "Romania",
+       "n": "Vaslui"
+      },
+      {
+       "c": "Romania",
+       "n": "Galati"
+      },
+      {
+       "c": "Romania",
+       "n": "Suceava"
+      },
+      {
+       "c": "Romania",
+       "n": "Neamt"
+      },
+      {
+       "c": "Romania",
+       "n": "Bacau"
+      },
+      {
+       "c": "Romania",
+       "n": "Vrancea"
+      }
+     ],
+     "keep": false
+    },
+    {
+     "color": "#3E9A63",
+     "at": {
+      "line": 1,
+      "word": "Transylvanie",
+      "d": -0.2
+     },
+     "regions": [
+      {
+       "c": "Romania",
+       "n": "Alba"
+      },
+      {
+       "c": "Romania",
+       "n": "Bistrita-Nasaud"
+      },
+      {
+       "c": "Romania",
+       "n": "Brasov"
+      },
+      {
+       "c": "Romania",
+       "n": "Cluj"
+      },
+      {
+       "c": "Romania",
+       "n": "Covasna"
+      },
+      {
+       "c": "Romania",
+       "n": "Harghita"
+      },
+      {
+       "c": "Romania",
+       "n": "Hunedoara"
+      },
+      {
+       "c": "Romania",
+       "n": "Mures"
+      },
+      {
+       "c": "Romania",
+       "n": "Salaj"
+      },
+      {
+       "c": "Romania",
+       "n": "Sibiu"
+      },
+      {
+       "c": "Romania",
+       "n": "Timis"
+      },
+      {
+       "c": "Romania",
+       "n": "Caras-Severin"
+      },
+      {
+       "c": "Romania",
+       "n": "Arad"
+      },
+      {
+       "c": "Romania",
+       "n": "Bihor"
+      },
+      {
+       "c": "Romania",
+       "n": "Maramures"
+      },
+      {
+       "c": "Romania",
+       "n": "Satu Mare"
+      }
+     ],
+     "keep": false
+    }
+   ],
+   "labels": [
+    {
+     "text": "Valachie",
+     "at": [
+      24.8,
+      44.1
+     ],
+     "size": 40,
+     "when": {
+      "line": 0,
+      "word": "Valachie",
+      "d": 0.2
+     }
+    },
+    {
+     "text": "Moldavie",
+     "at": [
+      26.9,
+      46.4
+     ],
+     "size": 40,
+     "when": {
+      "line": 0,
+      "word": "Moldavie",
+      "d": 0.3
+     }
+    },
+    {
+     "text": "Transylvanie",
+     "at": [
+      23.6,
+      46.5
+     ],
+     "size": 40,
+     "when": {
+      "line": 1,
+      "word": "Transylvanie",
+      "d": 0.2
+     }
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      25.0,
+      43.6
+     ],
+     "to": [
+      26.1,
+      44.43
+     ],
+     "n": 3,
+     "color": "#C62828",
+     "label": "Ottomans (15e-16e s.)",
+     "at": {
+      "line": 1,
+      "word": "Ottomans",
+      "d": 0.0
+     },
+     "dur": 2.4
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      24.67,
+      45.14
+     ],
+     "title": "Curtea de Arges",
+     "side": "r",
+     "when": {
+      "line": 0,
+      "word": "Valachie",
+      "d": 0.4
+     }
+    },
+    {
+     "at": [
+      26.26,
+      47.65
+     ],
+     "title": "Suceava",
+     "side": "l",
+     "when": {
+      "line": 0,
+      "word": "Moldavie",
+      "d": 0.4
+     }
+    }
+   ],
+   "say": [
+    "Au 14e siècle naissent la Valachie, au sud, et la Moldavie, à l’est.",
+    "Plus tard, les Ottomans les dominent, tandis que la Transylvanie dépend de la Hongrie."
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1859",
+   "text": "Une seule principauté",
+   "focus": {
+    "box": [
+     22.0,
+     43.8,
+     30.0,
+     48.6
+    ]
+   },
+   "highlight": [
+    {
+     "color": "#FFD83C",
+     "at": {
+      "line": 0,
+      "word": "unissent",
+      "d": 0.0
+     },
+     "regions": [
+      {
+       "c": "Romania",
+       "n": "Mehedinti"
+      },
+      {
+       "c": "Romania",
+       "n": "Dolj"
+      },
+      {
+       "c": "Romania",
+       "n": "Olt"
+      },
+      {
+       "c": "Romania",
+       "n": "Teleorman"
+      },
+      {
+       "c": "Romania",
+       "n": "Giurgiu"
+      },
+      {
+       "c": "Romania",
+       "n": "Calarasi"
+      },
+      {
+       "c": "Romania",
+       "n": "Ialomita"
+      },
+      {
+       "c": "Romania",
+       "n": "Braila"
+      },
+      {
+       "c": "Romania",
+       "n": "Buzau"
+      },
+      {
+       "c": "Romania",
+       "n": "Prahova"
+      },
+      {
+       "c": "Romania",
+       "n": "Dâmbovita"
+      },
+      {
+       "c": "Romania",
+       "n": "Ilfov"
+      },
+      {
+       "c": "Romania",
+       "n": "Bucharest"
+      },
+      {
+       "c": "Romania",
+       "n": "Arges"
+      },
+      {
+       "c": "Romania",
+       "n": "Gorj"
+      },
+      {
+       "c": "Romania",
+       "n": "Vâlcea"
+      },
+      {
+       "c": "Romania",
+       "n": "Botosani"
+      },
+      {
+       "c": "Romania",
+       "n": "Iasi"
+      },
+      {
+       "c": "Romania",
+       "n": "Vaslui"
+      },
+      {
+       "c": "Romania",
+       "n": "Galati"
+      },
+      {
+       "c": "Romania",
+       "n": "Suceava"
+      },
+      {
+       "c": "Romania",
+       "n": "Neamt"
+      },
+      {
+       "c": "Romania",
+       "n": "Bacau"
+      },
+      {
+       "c": "Romania",
+       "n": "Vrancea"
+      }
+     ],
+     "keep": false
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      27.59,
+      47.16
+     ],
+     "to": [
+      26.1,
+      44.43
+     ],
+     "n": 3,
+     "color": "#FFFFFF",
+     "label": "L’union",
+     "at": {
+      "line": 0,
+      "word": "unissent",
+      "d": -0.3
+     },
+     "dur": 2.4
+    }
+   ],
+   "people": [
+    {
+     "who": "soldat",
+     "at": [
+      27.0,
+      46.2
+     ],
+     "size": 210,
+     "say": "Un seul prince !",
+     "label": {
+      "title": "Cuza",
+      "sub": "prince en 1859"
+     },
+     "when": {
+      "line": 0,
+      "word": "1859",
+      "d": 0.3
+     }
+    },
+    {
+     "who": "roi",
+     "at": [
+      26.1,
+      44.9
+     ],
+     "size": 210,
+     "say": "Un royaume",
+     "label": {
+      "title": "Carol Ier",
+      "sub": "roi en 1881"
+     },
+     "when": {
+      "line": 1,
+      "word": "1881",
+      "d": 0.0
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      26.1,
+      44.43
+     ],
+     "title": "Bucarest",
+     "side": "l",
+     "when": {
+      "line": 0,
+      "word": "Valaques",
+      "d": 0.0
+     }
+    },
+    {
+     "at": [
+      27.59,
+      47.16
+     ],
+     "title": "Iasi",
+     "side": "t",
+     "when": {
+      "line": 0,
+      "word": "Moldaves",
+      "d": -0.3
+     }
+    }
+   ],
+   "say": [
+    "En 1859, Valaques et Moldaves élisent le même prince, Cuza, et s’unissent.",
+    "En 1881, la Roumanie devient un royaume."
+   ],
+   "beacon": [
+    {
+     "at": [
+      26.1,
+      44.43
+     ],
+     "when": 0.4
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "1918",
+   "text": "La Grande Roumanie",
+   "focus": {
+    "box": [
+     19.8,
+     43.4,
+     30.2,
+     49.0
+    ]
+   },
+   "highlight": [
+    {
+     "color": "#FFD83C",
+     "at": {
+      "line": 1,
+      "word": "Grande",
+      "d": -0.2
+     },
+     "countries": [
+      "Romania"
+     ],
+     "keep": false
+    },
+    {
+     "color": "#E8A33C",
+     "at": {
+      "line": 0,
+      "word": "Transylvanie",
+      "d": 0.0
+     },
+     "regions": [
+      {
+       "c": "Romania",
+       "n": "Alba"
+      },
+      {
+       "c": "Romania",
+       "n": "Bistrita-Nasaud"
+      },
+      {
+       "c": "Romania",
+       "n": "Brasov"
+      },
+      {
+       "c": "Romania",
+       "n": "Cluj"
+      },
+      {
+       "c": "Romania",
+       "n": "Covasna"
+      },
+      {
+       "c": "Romania",
+       "n": "Harghita"
+      },
+      {
+       "c": "Romania",
+       "n": "Hunedoara"
+      },
+      {
+       "c": "Romania",
+       "n": "Mures"
+      },
+      {
+       "c": "Romania",
+       "n": "Salaj"
+      },
+      {
+       "c": "Romania",
+       "n": "Sibiu"
+      }
+     ],
+     "keep": false
+    },
+    {
+     "color": "#4FA3E0",
+     "at": {
+      "line": 0,
+      "word": "Bessarabie",
+      "d": 0.0
+     },
+     "countries": [
+      "Moldova"
+     ],
+     "keep": false
+    }
+   ],
+   "moves": [
+    {
+     "from": [
+      23.57,
+      46.07
+     ],
+     "to": [
+      26.1,
+      44.43
+     ],
+     "n": 0,
+     "color": "#FFFFFF",
+     "label": "L’union",
+     "at": {
+      "line": 1,
+      "word": "union",
+      "d": 0.0
+     },
+     "dur": 2.4
+    }
+   ],
+   "people": [
+    {
+     "who": "paysan",
+     "at": [
+      22.0,
+      47.2
+     ],
+     "size": 200,
+     "say": "Enfin unis !",
+     "mood": "happy",
+     "when": {
+      "line": 1,
+      "word": "vote",
+      "d": 0.0
+     }
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      23.57,
+      46.07
+     ],
+     "title": "Alba Iulia",
+     "side": "l",
+     "when": {
+      "line": 1,
+      "word": "Alba",
+      "d": -0.5
+     },
+     "sub": "1er décembre 1918"
+    },
+    {
+     "at": [
+      26.1,
+      44.43
+     ],
+     "title": "Bucarest",
+     "side": "b",
+     "when": {
+      "line": 1,
+      "word": "Grande",
+      "d": 0.3
+     }
+    }
+   ],
+   "labels": [
+    {
+     "text": "Bessarabie",
+     "at": [
+      28.9,
+      47.0
+     ],
+     "size": 36,
+     "when": {
+      "line": 0,
+      "word": "Bessarabie",
+      "d": 0.0
+     }
+    }
+   ],
+   "say": [
+    "En 1918, la Bessarabie, la Bucovine puis la Transylvanie rejoignent la Roumanie.",
+    "Le 1er décembre, à Alba Iulia, la Transylvanie vote son union : c’est la Grande Roumanie."
+   ],
+   "beacon": [
+    {
+     "at": [
+      26.1,
+      44.43
+     ],
+     "when": 0.4
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "Aujourd’hui",
+   "text": "Une île latine",
+   "focus": {
+    "box": [
+     18.6,
+     43.0,
+     30.6,
+     49.4
+    ]
+   },
+   "highlight": [
+    {
+     "color": "#4FA3E0",
+     "at": {
+      "line": 0,
+      "word": "slaves",
+      "d": 0.0
+     },
+     "countries": [
+      "Ukraine",
+      "Serbia",
+      "Bulgaria"
+     ],
+     "keep": true
+    },
+    {
+     "color": "#3E9A63",
+     "at": {
+      "line": 0,
+      "word": "hongrois",
+      "d": 0.0
+     },
+     "countries": [
+      "Hungary"
+     ],
+     "keep": true
+    },
+    {
+     "color": "#FFD83C",
+     "at": {
+      "line": 0,
+      "word": "latine",
+      "d": 0.0
+     },
+     "countries": [
+      "Romania"
+     ],
+     "keep": true
+    },
+    {
+     "color": "#FFE98A",
+     "at": {
+      "line": 1,
+      "word": "Moldavie",
+      "d": 0.0
+     },
+     "countries": [
+      "Moldova"
+     ],
+     "keep": true
+    }
+   ],
+   "labels": [
+    {
+     "text": "Ukraine",
+     "at": [
+      25.6,
+      48.9
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "word": "slaves",
+      "d": 0.0
+     }
+    },
+    {
+     "text": "Hongrie",
+     "at": [
+      19.6,
+      47.4
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "word": "hongrois",
+      "d": 0.0
+     }
+    },
+    {
+     "text": "Bulgarie",
+     "at": [
+      25.3,
+      43.2
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "word": "slaves",
+      "d": 0.3
+     }
+    },
+    {
+     "text": "Serbie",
+     "at": [
+      20.3,
+      44.0
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "word": "slaves",
+      "d": 0.5
+     }
+    },
+    {
+     "text": "Moldova",
+     "at": [
+      28.2,
+      47.2
+     ],
+     "size": 34,
+     "when": {
+      "line": 1,
+      "word": "Moldavie",
+      "d": 0.0
+     }
+    }
+   ],
+   "art": [
+    {
+     "kind": "languages",
+     "at": {
+      "line": 0,
+      "d": 0.3
+     },
+     "dur": 4.5,
+     "title": "Qui parle quoi ?",
+     "items": [
+      {
+       "where": "Roumanie",
+       "lang": "Roumain",
+       "note": "langue latine",
+       "color": "#FFD83C"
+      },
+      {
+       "where": "Ukraine",
+       "lang": "Ukrainien",
+       "note": "langue slave",
+       "color": "#4FA3E0"
+      },
+      {
+       "where": "Hongrie",
+       "lang": "Hongrois",
+       "note": "ni latin, ni slave",
+       "color": "#3E9A63"
+      }
+     ]
+    }
+   ],
+   "say": [
+    "Le roumain reste une île latine au milieu des langues slaves et du hongrois.",
+    "Environ 24 millions de personnes le parlent, aussi en Moldavie."
+   ],
+   "beacon": [
+    {
+     "at": [
+      26.1,
+      44.43
+     ],
+     "when": 0.4
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "year": "106 – 1918",
+   "text": "Dix-huit siècles en six dates",
+   "focus": {
+    "box": [
+     20.0,
+     43.4,
+     30.0,
+     48.8
+    ]
+   },
+   "art": [
+    {
+     "kind": "timeline",
+     "at": {
+      "line": 0,
+      "d": 0.2
+     },
+     "dur": 5.0,
+     "title": "Dates clés",
+     "items": [
+      {
+       "year": "106",
+       "text": "Dacie romaine"
+      },
+      {
+       "year": "Vers 271",
+       "text": "Les Romains partent"
+      },
+      {
+       "year": "Vers 1330",
+       "text": "La Valachie"
+      },
+      {
+       "year": "1859",
+       "text": "L’union"
+      },
+      {
+       "year": "1881",
+       "text": "Le royaume"
+      },
+      {
+       "year": "1918",
+       "text": "Grande Roumanie"
+      }
+     ]
+    }
+   ],
+   "say": [
+    "De la Dacie romaine à la Grande Roumanie, les frontières ont souvent bougé.",
+    "Mais la langue latine a traversé les siècles."
+   ]
+  },
+  {
+   "type": "final",
+   "text": "Une île latine chez les Slaves",
+   "sub": "La Roumanie",
+   "focus": {
+    "box": [
+     19.2,
+     43.0,
+     30.6,
+     48.8
+    ]
+   },
+   "people": [
+    {
+     "who": "romain",
+     "at": [
+      26.1,
+      44.95
+     ],
+     "size": 260,
+     "say": "Latin !",
+     "wave": true,
+     "when": 3.0
+    }
+   ],
+   "pills": [
+    {
+     "at": [
+      26.1,
+      44.7
+     ],
+     "title": "Bucarest",
+     "sub": "langue latine",
+     "side": "b",
+     "when": 2.0
+    }
+   ],
+   "say": [
+    "Voilà pourquoi la Roumanie parle une langue latine au milieu des Slaves !"
+   ],
+   "labels": [
+    {
+     "text": "Ukraine",
+     "at": [
+      25.6,
+      48.3
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "word": "Slaves",
+      "d": 0.0
+     }
+    },
+    {
+     "text": "Bulgarie",
+     "at": [
+      25.3,
+      43.2
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "word": "Slaves",
+      "d": 0.3
+     }
+    },
+    {
+     "text": "Serbie",
+     "at": [
+      20.3,
+      44.0
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "word": "Slaves",
+      "d": 0.5
+     }
+    },
+    {
+     "text": "Hongrie",
+     "at": [
+      19.8,
+      47.4
+     ],
+     "size": 38,
+     "when": {
+      "line": 0,
+      "word": "Slaves",
+      "d": 0.7
+     }
+    }
+   ]
+  }
+ ]
+}

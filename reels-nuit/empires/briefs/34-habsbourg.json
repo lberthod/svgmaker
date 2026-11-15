@@ -1,0 +1,3872 @@
+{
+  "format": "atlas",
+  "id": "empires-34-habsbourg",
+  "suisse": false,
+  "open": {
+    "box": [
+      -10,
+      35.5,
+      23,
+      54
+    ]
+  },
+  "base": {
+    "countries": [
+      "Spain",
+      "Portugal",
+      "France",
+      "Belgium",
+      "Netherlands",
+      "Luxembourg",
+      "Germany",
+      "Switzerland",
+      "Austria",
+      "Czechia",
+      "Slovakia",
+      "Hungary",
+      "Slovenia",
+      "Croatia",
+      "Italy",
+      "Poland"
+    ]
+  },
+  "terrain": [
+    {
+      "box": [
+        -14,
+        21.4,
+        40,
+        76
+      ],
+      "px": 3000,
+      "z": 6
+    },
+    {
+      "box": [
+        -10.4,
+        35.1,
+        23.4,
+        54.4
+      ],
+      "px": 2800,
+      "z": 8
+    }
+  ],
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "Comment une famille a-t-elle régné sur l’Europe par des mariages ?",
+      "sub": "Les Habsbourg",
+      "focus": {
+        "box": [
+          -10,
+          35.5,
+          23,
+          54
+        ]
+      },
+      "line": {
+        "points": [
+          [
+            -1.8,
+            43.4
+          ],
+          [
+            0.7,
+            42.85
+          ],
+          [
+            2.0,
+            42.9
+          ],
+          [
+            3.2,
+            43.0
+          ],
+          [
+            3.5,
+            42.3
+          ],
+          [
+            4.7,
+            40.0
+          ],
+          [
+            1.3,
+            38.6
+          ],
+          [
+            -0.4,
+            37.4
+          ],
+          [
+            -2.2,
+            36.6
+          ],
+          [
+            -5.6,
+            35.9
+          ],
+          [
+            -7.4,
+            37.1
+          ],
+          [
+            -7.4,
+            38.3
+          ],
+          [
+            -7.0,
+            39.6
+          ],
+          [
+            -6.9,
+            41.0
+          ],
+          [
+            -6.2,
+            41.95
+          ],
+          [
+            -8.9,
+            41.9
+          ],
+          [
+            -9.5,
+            43.2
+          ],
+          [
+            -7.0,
+            43.85
+          ],
+          [
+            -3.8,
+            43.6
+          ],
+          [
+            -1.8,
+            43.4
+          ]
+        ],
+        "color": "#A77BE0",
+        "at": 0.3,
+        "width": 8,
+        "draw": 2.4,
+        "parts": [
+          [
+            [
+              1.6,
+              50.9
+            ],
+            [
+              2.5,
+              51.2
+            ],
+            [
+              3.4,
+              51.6
+            ],
+            [
+              4.6,
+              53.05
+            ],
+            [
+              5.2,
+              53.5
+            ],
+            [
+              7.2,
+              53.35
+            ],
+            [
+              7.1,
+              52.2
+            ],
+            [
+              6.0,
+              51.85
+            ],
+            [
+              6.2,
+              51.0
+            ],
+            [
+              6.4,
+              50.3
+            ],
+            [
+              6.1,
+              49.45
+            ],
+            [
+              5.4,
+              49.5
+            ],
+            [
+              4.2,
+              49.95
+            ],
+            [
+              3.0,
+              50.1
+            ],
+            [
+              1.6,
+              50.25
+            ],
+            [
+              1.6,
+              50.9
+            ]
+          ],
+          [
+            [
+              5.4,
+              47.95
+            ],
+            [
+              6.8,
+              47.85
+            ],
+            [
+              7.05,
+              47.4
+            ],
+            [
+              6.1,
+              46.4
+            ],
+            [
+              5.35,
+              46.3
+            ],
+            [
+              5.2,
+              47.0
+            ],
+            [
+              5.4,
+              47.95
+            ]
+          ],
+          [
+            [
+              9.55,
+              47.55
+            ],
+            [
+              10.5,
+              47.55
+            ],
+            [
+              12.1,
+              47.75
+            ],
+            [
+              12.1,
+              50.3
+            ],
+            [
+              14.8,
+              51.05
+            ],
+            [
+              16.5,
+              50.45
+            ],
+            [
+              18.3,
+              50.0
+            ],
+            [
+              19.5,
+              49.5
+            ],
+            [
+              22.4,
+              49.1
+            ],
+            [
+              22.2,
+              48.4
+            ],
+            [
+              20.5,
+              47.8
+            ],
+            [
+              19.0,
+              47.9
+            ],
+            [
+              18.0,
+              47.55
+            ],
+            [
+              17.5,
+              46.9
+            ],
+            [
+              17.0,
+              46.3
+            ],
+            [
+              16.0,
+              45.6
+            ],
+            [
+              15.0,
+              45.0
+            ],
+            [
+              14.3,
+              45.3
+            ],
+            [
+              13.6,
+              45.6
+            ],
+            [
+              12.5,
+              46.6
+            ],
+            [
+              11.0,
+              46.4
+            ],
+            [
+              10.5,
+              46.7
+            ],
+            [
+              9.55,
+              47.0
+            ],
+            [
+              9.55,
+              47.55
+            ]
+          ],
+          [
+            [
+              8.5,
+              46.3
+            ],
+            [
+              9.5,
+              46.3
+            ],
+            [
+              10.0,
+              45.9
+            ],
+            [
+              10.3,
+              45.1
+            ],
+            [
+              9.5,
+              44.85
+            ],
+            [
+              8.6,
+              45.0
+            ],
+            [
+              8.4,
+              45.6
+            ],
+            [
+              8.5,
+              46.3
+            ]
+          ],
+          [
+            [
+              13.75,
+              41.25
+            ],
+            [
+              13.3,
+              41.8
+            ],
+            [
+              13.1,
+              42.1
+            ],
+            [
+              13.4,
+              42.6
+            ],
+            [
+              13.95,
+              42.9
+            ],
+            [
+              16.3,
+              42.15
+            ],
+            [
+              18.7,
+              40.1
+            ],
+            [
+              18.6,
+              39.7
+            ],
+            [
+              17.2,
+              38.95
+            ],
+            [
+              16.5,
+              38.25
+            ],
+            [
+              16.15,
+              37.8
+            ],
+            [
+              15.4,
+              37.0
+            ],
+            [
+              15.2,
+              36.6
+            ],
+            [
+              14.3,
+              36.6
+            ],
+            [
+              12.3,
+              37.65
+            ],
+            [
+              12.2,
+              38.1
+            ],
+            [
+              15.6,
+              38.35
+            ],
+            [
+              15.7,
+              39.5
+            ],
+            [
+              14.8,
+              40.2
+            ],
+            [
+              14.1,
+              40.5
+            ],
+            [
+              13.75,
+              41.25
+            ]
+          ],
+          [
+            [
+              8.0,
+              41.35
+            ],
+            [
+              9.9,
+              41.35
+            ],
+            [
+              9.9,
+              38.8
+            ],
+            [
+              8.2,
+              38.75
+            ],
+            [
+              8.0,
+              39.9
+            ],
+            [
+              8.0,
+              41.35
+            ]
+          ]
+        ]
+      },
+      "beacon": [
+        {
+          "at": "Vienne",
+          "when": 0
+        }
+      ],
+      "art": [
+        {
+          "kind": "split",
+          "at": {
+            "line": 1,
+            "word": "château",
+            "d": -0.2
+          },
+          "dur": 3.9,
+          "title": "D’un château à un empire",
+          "sub": "Le château de Habsbourg est en Suisse",
+          "before": "11e siècle",
+          "after": "En 1556",
+          "parts": [
+            {
+              "country": "Portugal",
+              "color": "#8A93A8"
+            },
+            {
+              "country": "France",
+              "color": "#8A93A8"
+            },
+            {
+              "country": "Germany",
+              "color": "#8A93A8"
+            },
+            {
+              "country": "Switzerland",
+              "color": "#8A93A8"
+            },
+            {
+              "country": "Italy",
+              "color": "#8A93A8"
+            },
+            {
+              "country": "Poland",
+              "color": "#8A93A8"
+            },
+            {
+              "country": "Hungary",
+              "color": "#8A93A8"
+            },
+            {
+              "country": "Croatia",
+              "color": "#8A93A8"
+            },
+            {
+              "country": "Spain",
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "country": "Belgium",
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "country": "Netherlands",
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "country": "Luxembourg",
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "country": "Czechia",
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "country": "Slovakia",
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "country": "Slovenia",
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Austria",
+                "n": "Niederösterreich"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Austria",
+                "n": "Wien"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Austria",
+                "n": "Oberösterreich"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Austria",
+                "n": "Steiermark"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Austria",
+                "n": "Kärnten"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Austria",
+                "n": "Tirol"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Austria",
+                "n": "Vorarlberg"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Austria",
+                "n": "Burgenland"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Italy",
+                "n": "Bozen"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "France",
+                "n": "Nord"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "France",
+                "n": "Pas-de-Calais"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "France",
+                "n": "Doubs"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "France",
+                "n": "Jura"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "France",
+                "n": "Haute-Saône"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Hungary",
+                "n": "Gyor-Moson-Sopron"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Hungary",
+                "n": "Sopron"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Hungary",
+                "n": "Gyôr"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Hungary",
+                "n": "Vas"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Hungary",
+                "n": "Szombathely"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Hungary",
+                "n": "Zala"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Hungary",
+                "n": "Zalaegerszeg"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Hungary",
+                "n": "Nagykanizsa"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Hungary",
+                "n": "Heves"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Hungary",
+                "n": "Eger"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Hungary",
+                "n": "Borsod-Abaúj-Zemplén"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Hungary",
+                "n": "Miskolc"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Croatia",
+                "n": "Grad Zagreb"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Croatia",
+                "n": "Zagrebacka"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Croatia",
+                "n": "Varaždinska"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Croatia",
+                "n": "Krapinsko-Zagorska"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Croatia",
+                "n": "Medimurska"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Croatia",
+                "n": "Karlovacka"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Croatia",
+                "n": "Primorsko-Goranska"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Italy",
+                "n": "Milano"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Italy",
+                "n": "Monza e Brianza"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Italy",
+                "n": "Lodi"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Italy",
+                "n": "Pavia"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Italy",
+                "n": "Como"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Italy",
+                "n": "Varese"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Italy",
+                "n": "Lecco"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Italy",
+                "n": "Cremona"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Italy",
+                "n": "Napoli"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Italy",
+                "n": "Caserta"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Italy",
+                "n": "Salerno"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Italy",
+                "n": "Avellino"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Italy",
+                "n": "Campobasso"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Italy",
+                "n": "Isernia"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Italy",
+                "n": "Chieti"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Italy",
+                "n": "Pescara"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Italy",
+                "n": "Teramo"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Italy",
+                "n": "L'Aquila"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Italy",
+                "n": "Foggia"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Italy",
+                "n": "Bari"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Italy",
+                "n": "Barletta-Andria Trani"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Italy",
+                "n": "Brindisi"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Italy",
+                "n": "Lecce"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Italy",
+                "n": "Taranto"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Italy",
+                "n": "Matera"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Italy",
+                "n": "Potenza"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Italy",
+                "n": "Cosenza"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Italy",
+                "n": "Crotene"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Italy",
+                "n": "Catanzaro"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Italy",
+                "n": "Vibo Valentia"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Italy",
+                "n": "Reggio Calabria"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Italy",
+                "n": "Trapani"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Italy",
+                "n": "Palermo"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Italy",
+                "n": "Messina"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Italy",
+                "n": "Agrigento"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Italy",
+                "n": "Caltanissetta"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Italy",
+                "n": "Enna"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Italy",
+                "n": "Catania"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Italy",
+                "n": "Ragusa"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Italy",
+                "n": "Siracusa"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Italy",
+                "n": "Sassari"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Italy",
+                "n": "Olbia-Tempio"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Italy",
+                "n": "Nuoro"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Italy",
+                "n": "Oristrano"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Italy",
+                "n": "Ogliastra"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Italy",
+                "n": "Medio Campidano"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Italy",
+                "n": "Cagliari"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Italy",
+                "n": "Carbonia-Iglesias"
+              },
+              "color": "#8A93A8",
+              "to": "#E8823A"
+            },
+            {
+              "region": {
+                "c": "Switzerland",
+                "n": "Aargau"
+              },
+              "color": "#E8823A"
+            }
+          ],
+          "legend": [
+            {
+              "color": "#E8823A",
+              "text": "Habsbourg"
+            },
+            {
+              "color": "#8A93A8",
+              "text": "les autres"
+            }
+          ]
+        }
+      ],
+      "say": [
+        "Comment une famille a-t-elle régné sur l’Europe par des mariages ?",
+        "D’un château suisse à Vienne et Madrid, puis un roi sans enfant."
+      ]
+    },
+    {
+      "type": "map",
+      "year": "1278",
+      "text": "Un château, puis Vienne",
+      "note": "Contours approximatifs",
+      "focus": {
+        "box": [
+          6,
+          45.3,
+          17.5,
+          50.5
+        ]
+      },
+      "highlight": [
+        {
+          "regions": [
+            {
+              "c": "Switzerland",
+              "n": "Aargau"
+            }
+          ],
+          "color": "#E8823A",
+          "at": 0.2,
+          "keep": false
+        },
+        {
+          "regions": [
+            {
+              "c": "Austria",
+              "n": "Niederösterreich"
+            },
+            {
+              "c": "Austria",
+              "n": "Wien"
+            },
+            {
+              "c": "Austria",
+              "n": "Oberösterreich"
+            },
+            {
+              "c": "Austria",
+              "n": "Steiermark"
+            }
+          ],
+          "color": "#E8823A",
+          "at": {
+            "line": 0,
+            "word": "Autriche",
+            "d": -0.2
+          },
+          "keep": false
+        }
+      ],
+      "beacon": [
+        {
+          "at": [
+            8.19,
+            47.46
+          ],
+          "when": {
+            "line": 0,
+            "word": "château",
+            "d": 0
+          }
+        },
+        {
+          "at": "Vienne",
+          "when": {
+            "line": 0,
+            "word": "Autriche",
+            "d": 0.3
+          }
+        }
+      ],
+      "pills": [
+        {
+          "at": [
+            8.19,
+            47.46
+          ],
+          "title": "Château de Habsbourg",
+          "sub": "Argovie, Suisse",
+          "side": "b",
+          "when": {
+            "line": 0,
+            "word": "château",
+            "d": 0.1
+          }
+        },
+        {
+          "at": [
+            16.7,
+            48.35
+          ],
+          "title": "Marchfeld",
+          "sub": "victoire, 1278",
+          "side": "t",
+          "when": {
+            "line": 0,
+            "word": "Autriche",
+            "d": 0.2
+          }
+        }
+      ],
+      "people": [
+        {
+          "who": "roi",
+          "outfit": "#E8823A",
+          "at": [
+            11.4,
+            48.9
+          ],
+          "size": 200,
+          "say": "L’Autriche !",
+          "label": {
+            "title": "Rodolphe Ier",
+            "sub": "élu roi en 1273"
+          },
+          "when": {
+            "line": 0,
+            "word": "Rodolphe",
+            "d": -0.3
+          }
+        }
+      ],
+      "moves": [
+        {
+          "from": [
+            8.4,
+            47.6
+          ],
+          "to": "Vienne",
+          "n": 4,
+          "color": "#E8823A",
+          "at": {
+            "line": 0,
+            "word": "Rodolphe",
+            "d": 0
+          },
+          "dur": 1.8
+        }
+      ],
+      "labels": [
+        {
+          "text": "Bohême",
+          "at": [
+            14.6,
+            49.6
+          ],
+          "size": 36,
+          "when": {
+            "line": 0,
+            "word": "Autriche",
+            "d": 0.4
+          }
+        }
+      ],
+      "say": [
+        "En 1278, Rodolphe, parti d’un château suisse, s’impose en Autriche."
+      ]
+    },
+    {
+      "type": "map",
+      "year": "1477",
+      "text": "Se marier plutôt que se battre",
+      "sub": "Héritière : celle qui reçoit les terres",
+      "note": "Contours approximatifs",
+      "focus": {
+        "box": [
+          -1.5,
+          44.5,
+          17.5,
+          54
+        ]
+      },
+      "highlight": [
+        {
+          "regions": [
+            {
+              "c": "Austria",
+              "n": "Niederösterreich"
+            },
+            {
+              "c": "Austria",
+              "n": "Wien"
+            },
+            {
+              "c": "Austria",
+              "n": "Oberösterreich"
+            },
+            {
+              "c": "Austria",
+              "n": "Steiermark"
+            },
+            {
+              "c": "Austria",
+              "n": "Kärnten"
+            },
+            {
+              "c": "Austria",
+              "n": "Tirol"
+            },
+            {
+              "c": "Austria",
+              "n": "Vorarlberg"
+            }
+          ],
+          "color": "#E8823A",
+          "at": 0.2,
+          "keep": false
+        },
+        {
+          "regions": [
+            {
+              "c": "Belgium",
+              "n": "West Flanders"
+            },
+            {
+              "c": "Belgium",
+              "n": "East Flanders"
+            },
+            {
+              "c": "Belgium",
+              "n": "Antwerp"
+            },
+            {
+              "c": "Belgium",
+              "n": "Brussels"
+            },
+            {
+              "c": "Belgium",
+              "n": "Flemish Brabant"
+            },
+            {
+              "c": "Belgium",
+              "n": "Walloon Brabant"
+            },
+            {
+              "c": "Belgium",
+              "n": "Hainaut"
+            },
+            {
+              "c": "Belgium",
+              "n": "Namur"
+            },
+            {
+              "c": "Belgium",
+              "n": "Luxembourg"
+            },
+            {
+              "c": "Netherlands",
+              "n": "Zeeland"
+            },
+            {
+              "c": "Netherlands",
+              "n": "Zuid-Holland"
+            },
+            {
+              "c": "Netherlands",
+              "n": "Noord-Holland"
+            },
+            {
+              "c": "Netherlands",
+              "n": "Noord-Brabant"
+            },
+            {
+              "c": "France",
+              "n": "Nord"
+            },
+            {
+              "c": "France",
+              "n": "Pas-de-Calais"
+            }
+          ],
+          "countries": [
+            "Luxembourg"
+          ],
+          "color": "#E8823A",
+          "at": {
+            "line": 1,
+            "word": "Pays-Bas",
+            "d": -0.3
+          },
+          "keep": false
+        }
+      ],
+      "beacon": [
+        {
+          "at": "Gand",
+          "when": {
+            "line": 1,
+            "word": "Marie",
+            "d": 0
+          }
+        }
+      ],
+      "people": [
+        {
+          "who": "roi",
+          "outfit": "#E8823A",
+          "beard": false,
+          "at": [
+            12.2,
+            48.6
+          ],
+          "size": 200,
+          "label": {
+            "title": "Maximilien"
+          },
+          "when": {
+            "line": 1,
+            "word": "Maximilien",
+            "d": -0.3
+          }
+        },
+        {
+          "who": "roi",
+          "outfit": "#C9662A",
+          "style": "braids",
+          "beard": false,
+          "hair": "#C08A3E",
+          "at": [
+            4.4,
+            50.0
+          ],
+          "size": 200,
+          "say": "Oui !",
+          "label": {
+            "title": "Marie de Bourgogne",
+            "sub": "l’héritière"
+          },
+          "when": {
+            "line": 1,
+            "word": "Marie",
+            "d": -0.2
+          }
+        }
+      ],
+      "pills": [
+        {
+          "at": "Gand",
+          "title": "Gand",
+          "sub": "mariage, août 1477",
+          "side": "l",
+          "when": {
+            "line": 1,
+            "word": "épouse",
+            "d": 0.2
+          }
+        }
+      ],
+      "labels": [
+        {
+          "text": "France",
+          "at": [
+            1.2,
+            46.0
+          ],
+          "size": 38,
+          "when": {
+            "line": 0,
+            "word": "guerre",
+            "d": 0
+          }
+        }
+      ],
+      "say": [
+        "Leur devise, dit-on : « Que d’autres fassent la guerre ; toi, heureuse Autriche, marie-toi. »",
+        "En 1477, Maximilien épouse Marie de Bourgogne : les Pays-Bas entrent dans la famille."
+      ]
+    },
+    {
+      "type": "map",
+      "year": "1496 · 1526",
+      "text": "L’Espagne, la Bohême, la Hongrie",
+      "note": "Contours approximatifs",
+      "focus": {
+        "box": [
+          -10,
+          35.5,
+          23,
+          54
+        ]
+      },
+      "highlight": [
+        {
+          "regions": [
+            {
+              "c": "Austria",
+              "n": "Niederösterreich"
+            },
+            {
+              "c": "Austria",
+              "n": "Wien"
+            },
+            {
+              "c": "Austria",
+              "n": "Oberösterreich"
+            },
+            {
+              "c": "Austria",
+              "n": "Steiermark"
+            },
+            {
+              "c": "Austria",
+              "n": "Kärnten"
+            },
+            {
+              "c": "Austria",
+              "n": "Tirol"
+            },
+            {
+              "c": "Austria",
+              "n": "Vorarlberg"
+            },
+            {
+              "c": "Austria",
+              "n": "Burgenland"
+            },
+            {
+              "c": "Italy",
+              "n": "Bozen"
+            },
+            {
+              "c": "Belgium",
+              "n": "West Flanders"
+            },
+            {
+              "c": "Belgium",
+              "n": "East Flanders"
+            },
+            {
+              "c": "Belgium",
+              "n": "Antwerp"
+            },
+            {
+              "c": "Belgium",
+              "n": "Brussels"
+            },
+            {
+              "c": "Belgium",
+              "n": "Flemish Brabant"
+            },
+            {
+              "c": "Belgium",
+              "n": "Walloon Brabant"
+            },
+            {
+              "c": "Belgium",
+              "n": "Hainaut"
+            },
+            {
+              "c": "Belgium",
+              "n": "Namur"
+            },
+            {
+              "c": "Belgium",
+              "n": "Luxembourg"
+            },
+            {
+              "c": "Netherlands",
+              "n": "Zeeland"
+            },
+            {
+              "c": "Netherlands",
+              "n": "Zuid-Holland"
+            },
+            {
+              "c": "Netherlands",
+              "n": "Noord-Holland"
+            },
+            {
+              "c": "Netherlands",
+              "n": "Noord-Brabant"
+            },
+            {
+              "c": "France",
+              "n": "Nord"
+            },
+            {
+              "c": "France",
+              "n": "Pas-de-Calais"
+            },
+            {
+              "c": "France",
+              "n": "Doubs"
+            },
+            {
+              "c": "France",
+              "n": "Jura"
+            },
+            {
+              "c": "France",
+              "n": "Haute-Saône"
+            }
+          ],
+          "countries": [
+            "Luxembourg"
+          ],
+          "color": "#E8823A",
+          "at": 0.2,
+          "keep": false
+        },
+        {
+          "countries": [
+            "Spain"
+          ],
+          "color": "#E8823A",
+          "at": {
+            "line": 0,
+            "word": "Jeanne",
+            "d": 0
+          },
+          "keep": false,
+          "regions": [
+            {
+              "c": "France",
+              "n": "Pyrénées-Orientales"
+            }
+          ]
+        },
+        {
+          "regions": [
+            {
+              "c": "Czechia",
+              "n": "Ústecký"
+            },
+            {
+              "c": "Czechia",
+              "n": "Liberecký"
+            },
+            {
+              "c": "Czechia",
+              "n": "Karlovarský"
+            },
+            {
+              "c": "Czechia",
+              "n": "Plzeňský"
+            },
+            {
+              "c": "Czechia",
+              "n": "Jihočeský"
+            },
+            {
+              "c": "Czechia",
+              "n": "Královéhradecký"
+            },
+            {
+              "c": "Czechia",
+              "n": "Olomoucký"
+            },
+            {
+              "c": "Czechia",
+              "n": "Pardubický"
+            },
+            {
+              "c": "Czechia",
+              "n": "Moravskoslezský"
+            },
+            {
+              "c": "Czechia",
+              "n": "Jihomoravský"
+            },
+            {
+              "c": "Czechia",
+              "n": "Zlínský"
+            },
+            {
+              "c": "Czechia",
+              "n": "Vysočina"
+            },
+            {
+              "c": "Czechia",
+              "n": "Středočeský"
+            },
+            {
+              "c": "Czechia",
+              "n": "Prague"
+            },
+            {
+              "c": "Hungary",
+              "n": "Gyor-Moson-Sopron"
+            },
+            {
+              "c": "Hungary",
+              "n": "Sopron"
+            },
+            {
+              "c": "Hungary",
+              "n": "Gyôr"
+            },
+            {
+              "c": "Hungary",
+              "n": "Vas"
+            },
+            {
+              "c": "Hungary",
+              "n": "Szombathely"
+            },
+            {
+              "c": "Hungary",
+              "n": "Zala"
+            },
+            {
+              "c": "Hungary",
+              "n": "Zalaegerszeg"
+            },
+            {
+              "c": "Hungary",
+              "n": "Nagykanizsa"
+            },
+            {
+              "c": "Hungary",
+              "n": "Heves"
+            },
+            {
+              "c": "Hungary",
+              "n": "Eger"
+            },
+            {
+              "c": "Hungary",
+              "n": "Borsod-Abaúj-Zemplén"
+            },
+            {
+              "c": "Hungary",
+              "n": "Miskolc"
+            },
+            {
+              "c": "Croatia",
+              "n": "Grad Zagreb"
+            },
+            {
+              "c": "Croatia",
+              "n": "Zagrebacka"
+            },
+            {
+              "c": "Croatia",
+              "n": "Varaždinska"
+            },
+            {
+              "c": "Croatia",
+              "n": "Krapinsko-Zagorska"
+            },
+            {
+              "c": "Croatia",
+              "n": "Medimurska"
+            },
+            {
+              "c": "Croatia",
+              "n": "Karlovacka"
+            },
+            {
+              "c": "Croatia",
+              "n": "Primorsko-Goranska"
+            }
+          ],
+          "countries": [
+            "Slovakia",
+            "Slovenia"
+          ],
+          "color": "#E8823A",
+          "at": {
+            "line": 0,
+            "word": "Bohême",
+            "d": -0.2
+          },
+          "keep": false
+        }
+      ],
+      "moves": [
+        {
+          "from": "Bruxelles",
+          "to": "Tolède",
+          "n": 3,
+          "color": "#E8823A",
+          "at": {
+            "line": 0,
+            "word": "épouse",
+            "d": -0.2
+          },
+          "dur": 1.6
+        },
+        {
+          "from": "Vienne",
+          "to": "Prague",
+          "n": 2,
+          "color": "#E8823A",
+          "at": {
+            "line": 0,
+            "word": "Bohême",
+            "d": -0.6
+          },
+          "dur": 1.4
+        }
+      ],
+      "pills": [
+        {
+          "at": "Tolède",
+          "title": "Jeanne de Castille",
+          "sub": "mariée en 1496",
+          "side": "b",
+          "when": {
+            "line": 0,
+            "word": "Jeanne",
+            "d": 0.1
+          }
+        },
+        {
+          "at": "Mohács",
+          "title": "Mohács, 1526",
+          "sub": "le roi de Hongrie y meurt",
+          "side": "b",
+          "when": {
+            "line": 0,
+            "word": "Hongrie",
+            "d": 0
+          }
+        }
+      ],
+      "labels": [
+        {
+          "text": "France",
+          "at": [
+            2.4,
+            46.8
+          ],
+          "size": 38,
+          "when": {
+            "line": 0,
+            "word": "épouse",
+            "d": 0.3
+          }
+        },
+        {
+          "text": "Empire ottoman",
+          "at": [
+            20.5,
+            44.0
+          ],
+          "size": 34,
+          "when": {
+            "line": 0,
+            "word": "Hongrie",
+            "d": 0.3
+          }
+        }
+      ],
+      "say": [
+        "Leur fils épouse Jeanne de Castille ; en 1526 viennent la Bohême et la Hongrie."
+      ]
+    },
+    {
+      "type": "map",
+      "year": "1556",
+      "text": "À son apogée",
+      "note": "Contours approximatifs",
+      "focus": {
+        "box": [
+          -10,
+          35.5,
+          23,
+          54
+        ]
+      },
+      "highlight": [
+        {
+          "regions": [
+            {
+              "c": "Austria",
+              "n": "Niederösterreich"
+            },
+            {
+              "c": "Austria",
+              "n": "Wien"
+            },
+            {
+              "c": "Austria",
+              "n": "Oberösterreich"
+            },
+            {
+              "c": "Austria",
+              "n": "Steiermark"
+            },
+            {
+              "c": "Austria",
+              "n": "Kärnten"
+            },
+            {
+              "c": "Austria",
+              "n": "Tirol"
+            },
+            {
+              "c": "Austria",
+              "n": "Vorarlberg"
+            },
+            {
+              "c": "Austria",
+              "n": "Burgenland"
+            },
+            {
+              "c": "Italy",
+              "n": "Bozen"
+            },
+            {
+              "c": "Belgium",
+              "n": "West Flanders"
+            },
+            {
+              "c": "Belgium",
+              "n": "East Flanders"
+            },
+            {
+              "c": "Belgium",
+              "n": "Antwerp"
+            },
+            {
+              "c": "Belgium",
+              "n": "Brussels"
+            },
+            {
+              "c": "Belgium",
+              "n": "Flemish Brabant"
+            },
+            {
+              "c": "Belgium",
+              "n": "Walloon Brabant"
+            },
+            {
+              "c": "Belgium",
+              "n": "Hainaut"
+            },
+            {
+              "c": "Belgium",
+              "n": "Namur"
+            },
+            {
+              "c": "Belgium",
+              "n": "Luxembourg"
+            },
+            {
+              "c": "Netherlands",
+              "n": "Zeeland"
+            },
+            {
+              "c": "Netherlands",
+              "n": "Zuid-Holland"
+            },
+            {
+              "c": "Netherlands",
+              "n": "Noord-Holland"
+            },
+            {
+              "c": "Netherlands",
+              "n": "Noord-Brabant"
+            },
+            {
+              "c": "France",
+              "n": "Nord"
+            },
+            {
+              "c": "France",
+              "n": "Pas-de-Calais"
+            },
+            {
+              "c": "France",
+              "n": "Doubs"
+            },
+            {
+              "c": "France",
+              "n": "Jura"
+            },
+            {
+              "c": "France",
+              "n": "Haute-Saône"
+            },
+            {
+              "c": "Netherlands",
+              "n": "Utrecht"
+            },
+            {
+              "c": "Netherlands",
+              "n": "Gelderland"
+            },
+            {
+              "c": "Netherlands",
+              "n": "Overijssel"
+            },
+            {
+              "c": "Netherlands",
+              "n": "Friesland"
+            },
+            {
+              "c": "Netherlands",
+              "n": "Groningen"
+            },
+            {
+              "c": "Netherlands",
+              "n": "Drenthe"
+            },
+            {
+              "c": "Netherlands",
+              "n": "Flevoland"
+            },
+            {
+              "c": "Czechia",
+              "n": "Ústecký"
+            },
+            {
+              "c": "Czechia",
+              "n": "Liberecký"
+            },
+            {
+              "c": "Czechia",
+              "n": "Karlovarský"
+            },
+            {
+              "c": "Czechia",
+              "n": "Plzeňský"
+            },
+            {
+              "c": "Czechia",
+              "n": "Jihočeský"
+            },
+            {
+              "c": "Czechia",
+              "n": "Královéhradecký"
+            },
+            {
+              "c": "Czechia",
+              "n": "Olomoucký"
+            },
+            {
+              "c": "Czechia",
+              "n": "Pardubický"
+            },
+            {
+              "c": "Czechia",
+              "n": "Moravskoslezský"
+            },
+            {
+              "c": "Czechia",
+              "n": "Jihomoravský"
+            },
+            {
+              "c": "Czechia",
+              "n": "Zlínský"
+            },
+            {
+              "c": "Czechia",
+              "n": "Vysočina"
+            },
+            {
+              "c": "Czechia",
+              "n": "Středočeský"
+            },
+            {
+              "c": "Czechia",
+              "n": "Prague"
+            },
+            {
+              "c": "Hungary",
+              "n": "Gyor-Moson-Sopron"
+            },
+            {
+              "c": "Hungary",
+              "n": "Sopron"
+            },
+            {
+              "c": "Hungary",
+              "n": "Gyôr"
+            },
+            {
+              "c": "Hungary",
+              "n": "Vas"
+            },
+            {
+              "c": "Hungary",
+              "n": "Szombathely"
+            },
+            {
+              "c": "Hungary",
+              "n": "Zala"
+            },
+            {
+              "c": "Hungary",
+              "n": "Zalaegerszeg"
+            },
+            {
+              "c": "Hungary",
+              "n": "Nagykanizsa"
+            },
+            {
+              "c": "Hungary",
+              "n": "Heves"
+            },
+            {
+              "c": "Hungary",
+              "n": "Eger"
+            },
+            {
+              "c": "Hungary",
+              "n": "Borsod-Abaúj-Zemplén"
+            },
+            {
+              "c": "Hungary",
+              "n": "Miskolc"
+            },
+            {
+              "c": "Croatia",
+              "n": "Grad Zagreb"
+            },
+            {
+              "c": "Croatia",
+              "n": "Zagrebacka"
+            },
+            {
+              "c": "Croatia",
+              "n": "Varaždinska"
+            },
+            {
+              "c": "Croatia",
+              "n": "Krapinsko-Zagorska"
+            },
+            {
+              "c": "Croatia",
+              "n": "Medimurska"
+            },
+            {
+              "c": "Croatia",
+              "n": "Karlovacka"
+            },
+            {
+              "c": "Croatia",
+              "n": "Primorsko-Goranska"
+            },
+            {
+              "c": "Italy",
+              "n": "Milano"
+            },
+            {
+              "c": "Italy",
+              "n": "Monza e Brianza"
+            },
+            {
+              "c": "Italy",
+              "n": "Lodi"
+            },
+            {
+              "c": "Italy",
+              "n": "Pavia"
+            },
+            {
+              "c": "Italy",
+              "n": "Como"
+            },
+            {
+              "c": "Italy",
+              "n": "Varese"
+            },
+            {
+              "c": "Italy",
+              "n": "Lecco"
+            },
+            {
+              "c": "Italy",
+              "n": "Cremona"
+            },
+            {
+              "c": "Italy",
+              "n": "Napoli"
+            },
+            {
+              "c": "Italy",
+              "n": "Caserta"
+            },
+            {
+              "c": "Italy",
+              "n": "Salerno"
+            },
+            {
+              "c": "Italy",
+              "n": "Avellino"
+            },
+            {
+              "c": "Italy",
+              "n": "Campobasso"
+            },
+            {
+              "c": "Italy",
+              "n": "Isernia"
+            },
+            {
+              "c": "Italy",
+              "n": "Chieti"
+            },
+            {
+              "c": "Italy",
+              "n": "Pescara"
+            },
+            {
+              "c": "Italy",
+              "n": "Teramo"
+            },
+            {
+              "c": "Italy",
+              "n": "L'Aquila"
+            },
+            {
+              "c": "Italy",
+              "n": "Foggia"
+            },
+            {
+              "c": "Italy",
+              "n": "Bari"
+            },
+            {
+              "c": "Italy",
+              "n": "Barletta-Andria Trani"
+            },
+            {
+              "c": "Italy",
+              "n": "Brindisi"
+            },
+            {
+              "c": "Italy",
+              "n": "Lecce"
+            },
+            {
+              "c": "Italy",
+              "n": "Taranto"
+            },
+            {
+              "c": "Italy",
+              "n": "Matera"
+            },
+            {
+              "c": "Italy",
+              "n": "Potenza"
+            },
+            {
+              "c": "Italy",
+              "n": "Cosenza"
+            },
+            {
+              "c": "Italy",
+              "n": "Crotene"
+            },
+            {
+              "c": "Italy",
+              "n": "Catanzaro"
+            },
+            {
+              "c": "Italy",
+              "n": "Vibo Valentia"
+            },
+            {
+              "c": "Italy",
+              "n": "Reggio Calabria"
+            },
+            {
+              "c": "Italy",
+              "n": "Trapani"
+            },
+            {
+              "c": "Italy",
+              "n": "Palermo"
+            },
+            {
+              "c": "Italy",
+              "n": "Messina"
+            },
+            {
+              "c": "Italy",
+              "n": "Agrigento"
+            },
+            {
+              "c": "Italy",
+              "n": "Caltanissetta"
+            },
+            {
+              "c": "Italy",
+              "n": "Enna"
+            },
+            {
+              "c": "Italy",
+              "n": "Catania"
+            },
+            {
+              "c": "Italy",
+              "n": "Ragusa"
+            },
+            {
+              "c": "Italy",
+              "n": "Siracusa"
+            },
+            {
+              "c": "Italy",
+              "n": "Sassari"
+            },
+            {
+              "c": "Italy",
+              "n": "Olbia-Tempio"
+            },
+            {
+              "c": "Italy",
+              "n": "Nuoro"
+            },
+            {
+              "c": "Italy",
+              "n": "Oristrano"
+            },
+            {
+              "c": "Italy",
+              "n": "Ogliastra"
+            },
+            {
+              "c": "Italy",
+              "n": "Medio Campidano"
+            },
+            {
+              "c": "Italy",
+              "n": "Cagliari"
+            },
+            {
+              "c": "Italy",
+              "n": "Carbonia-Iglesias"
+            },
+            {
+              "c": "France",
+              "n": "Pyrénées-Orientales"
+            }
+          ],
+          "countries": [
+            "Luxembourg",
+            "Spain",
+            "Slovakia",
+            "Slovenia"
+          ],
+          "color": "#A77BE0",
+          "at": {
+            "line": 0,
+            "word": "règne",
+            "d": -0.2
+          },
+          "keep": false
+        }
+      ],
+      "line": {
+        "points": [
+          [
+            -1.8,
+            43.4
+          ],
+          [
+            0.7,
+            42.85
+          ],
+          [
+            2.0,
+            42.9
+          ],
+          [
+            3.2,
+            43.0
+          ],
+          [
+            3.5,
+            42.3
+          ],
+          [
+            4.7,
+            40.0
+          ],
+          [
+            1.3,
+            38.6
+          ],
+          [
+            -0.4,
+            37.4
+          ],
+          [
+            -2.2,
+            36.6
+          ],
+          [
+            -5.6,
+            35.9
+          ],
+          [
+            -7.4,
+            37.1
+          ],
+          [
+            -7.4,
+            38.3
+          ],
+          [
+            -7.0,
+            39.6
+          ],
+          [
+            -6.9,
+            41.0
+          ],
+          [
+            -6.2,
+            41.95
+          ],
+          [
+            -8.9,
+            41.9
+          ],
+          [
+            -9.5,
+            43.2
+          ],
+          [
+            -7.0,
+            43.85
+          ],
+          [
+            -3.8,
+            43.6
+          ],
+          [
+            -1.8,
+            43.4
+          ]
+        ],
+        "color": "#A77BE0",
+        "at": {
+          "line": 0,
+          "word": "Vienne",
+          "d": 0
+        },
+        "width": 6,
+        "draw": 2,
+        "parts": [
+          [
+            [
+              1.6,
+              50.9
+            ],
+            [
+              2.5,
+              51.2
+            ],
+            [
+              3.4,
+              51.6
+            ],
+            [
+              4.6,
+              53.05
+            ],
+            [
+              5.2,
+              53.5
+            ],
+            [
+              7.2,
+              53.35
+            ],
+            [
+              7.1,
+              52.2
+            ],
+            [
+              6.0,
+              51.85
+            ],
+            [
+              6.2,
+              51.0
+            ],
+            [
+              6.4,
+              50.3
+            ],
+            [
+              6.1,
+              49.45
+            ],
+            [
+              5.4,
+              49.5
+            ],
+            [
+              4.2,
+              49.95
+            ],
+            [
+              3.0,
+              50.1
+            ],
+            [
+              1.6,
+              50.25
+            ],
+            [
+              1.6,
+              50.9
+            ]
+          ],
+          [
+            [
+              5.4,
+              47.95
+            ],
+            [
+              6.8,
+              47.85
+            ],
+            [
+              7.05,
+              47.4
+            ],
+            [
+              6.1,
+              46.4
+            ],
+            [
+              5.35,
+              46.3
+            ],
+            [
+              5.2,
+              47.0
+            ],
+            [
+              5.4,
+              47.95
+            ]
+          ],
+          [
+            [
+              9.55,
+              47.55
+            ],
+            [
+              10.5,
+              47.55
+            ],
+            [
+              12.1,
+              47.75
+            ],
+            [
+              12.1,
+              50.3
+            ],
+            [
+              14.8,
+              51.05
+            ],
+            [
+              16.5,
+              50.45
+            ],
+            [
+              18.3,
+              50.0
+            ],
+            [
+              19.5,
+              49.5
+            ],
+            [
+              22.4,
+              49.1
+            ],
+            [
+              22.2,
+              48.4
+            ],
+            [
+              20.5,
+              47.8
+            ],
+            [
+              19.0,
+              47.9
+            ],
+            [
+              18.0,
+              47.55
+            ],
+            [
+              17.5,
+              46.9
+            ],
+            [
+              17.0,
+              46.3
+            ],
+            [
+              16.0,
+              45.6
+            ],
+            [
+              15.0,
+              45.0
+            ],
+            [
+              14.3,
+              45.3
+            ],
+            [
+              13.6,
+              45.6
+            ],
+            [
+              12.5,
+              46.6
+            ],
+            [
+              11.0,
+              46.4
+            ],
+            [
+              10.5,
+              46.7
+            ],
+            [
+              9.55,
+              47.0
+            ],
+            [
+              9.55,
+              47.55
+            ]
+          ],
+          [
+            [
+              8.5,
+              46.3
+            ],
+            [
+              9.5,
+              46.3
+            ],
+            [
+              10.0,
+              45.9
+            ],
+            [
+              10.3,
+              45.1
+            ],
+            [
+              9.5,
+              44.85
+            ],
+            [
+              8.6,
+              45.0
+            ],
+            [
+              8.4,
+              45.6
+            ],
+            [
+              8.5,
+              46.3
+            ]
+          ],
+          [
+            [
+              13.75,
+              41.25
+            ],
+            [
+              13.3,
+              41.8
+            ],
+            [
+              13.1,
+              42.1
+            ],
+            [
+              13.4,
+              42.6
+            ],
+            [
+              13.95,
+              42.9
+            ],
+            [
+              16.3,
+              42.15
+            ],
+            [
+              18.7,
+              40.1
+            ],
+            [
+              18.6,
+              39.7
+            ],
+            [
+              17.2,
+              38.95
+            ],
+            [
+              16.5,
+              38.25
+            ],
+            [
+              16.15,
+              37.8
+            ],
+            [
+              15.4,
+              37.0
+            ],
+            [
+              15.2,
+              36.6
+            ],
+            [
+              14.3,
+              36.6
+            ],
+            [
+              12.3,
+              37.65
+            ],
+            [
+              12.2,
+              38.1
+            ],
+            [
+              15.6,
+              38.35
+            ],
+            [
+              15.7,
+              39.5
+            ],
+            [
+              14.8,
+              40.2
+            ],
+            [
+              14.1,
+              40.5
+            ],
+            [
+              13.75,
+              41.25
+            ]
+          ],
+          [
+            [
+              8.0,
+              41.35
+            ],
+            [
+              9.9,
+              41.35
+            ],
+            [
+              9.9,
+              38.8
+            ],
+            [
+              8.2,
+              38.75
+            ],
+            [
+              8.0,
+              39.9
+            ],
+            [
+              8.0,
+              41.35
+            ]
+          ]
+        ]
+      },
+      "beacon": [
+        {
+          "at": "Madrid",
+          "when": {
+            "line": 0,
+            "word": "Espagne",
+            "d": 0
+          }
+        },
+        {
+          "at": "Vienne",
+          "when": {
+            "line": 0,
+            "word": "Vienne",
+            "d": 0
+          }
+        }
+      ],
+      "pills": [
+        {
+          "at": [
+            -9.4,
+            37.4
+          ],
+          "title": "+ l’Amérique",
+          "sub": "espagnole",
+          "side": "r",
+          "when": {
+            "line": 0,
+            "word": "Sicile",
+            "d": 0.3
+          }
+        }
+      ],
+      "labels": [
+        {
+          "text": "France",
+          "at": [
+            2.4,
+            46.8
+          ],
+          "size": 38,
+          "when": {
+            "line": 0,
+            "word": "Sicile",
+            "d": 0
+          }
+        },
+        {
+          "text": "Empire ottoman",
+          "at": [
+            20.5,
+            44.0
+          ],
+          "size": 34,
+          "when": {
+            "line": 0,
+            "word": "Sicile",
+            "d": 0.3
+          }
+        }
+      ],
+      "art": [
+        {
+          "kind": "languages",
+          "at": {
+            "line": 1,
+            "word": "Charles",
+            "d": -0.2
+          },
+          "dur": 4.4,
+          "title": "Quatre grands-parents",
+          "sub": "quatre héritages pour Charles Quint",
+          "items": [
+            {
+              "icon": "court",
+              "where": "Maximilien",
+              "lang": "l’Autriche",
+              "note": "son grand-père",
+              "color": "#E8823A"
+            },
+            {
+              "icon": "court",
+              "where": "Marie",
+              "lang": "les Pays-Bas",
+              "note": "sa grand-mère",
+              "color": "#C9662A"
+            },
+            {
+              "icon": "court",
+              "where": "Isabelle",
+              "lang": "la Castille",
+              "note": "sa grand-mère",
+              "color": "#B5562A"
+            },
+            {
+              "icon": "court",
+              "where": "Ferdinand",
+              "lang": "Aragon, Naples",
+              "note": "son grand-père",
+              "color": "#9E4A26"
+            }
+          ]
+        }
+      ],
+      "say": [
+        "Vers 1556, ils règnent de l’Espagne à Vienne, jusqu’en Sicile.",
+        "Leur petit-fils Charles Quint hérite de quatre grands-parents à la fois !"
+      ]
+    },
+    {
+      "type": "map",
+      "year": "1700",
+      "text": "Un roi sans enfant",
+      "sub": "Consanguin : né de proches parents",
+      "focus": {
+        "box": [
+          -10,
+          35.5,
+          8,
+          50
+        ]
+      },
+      "highlight": [
+        {
+          "countries": [
+            "Spain"
+          ],
+          "color": "#F5BE8C",
+          "at": 0.2,
+          "keep": false
+        }
+      ],
+      "beacon": [
+        {
+          "at": "Madrid",
+          "when": {
+            "line": 0,
+            "word": "Charles",
+            "d": 0
+          }
+        }
+      ],
+      "people": [
+        {
+          "who": "roi",
+          "outfit": "#F5BE8C",
+          "beard": false,
+          "mood": "sad",
+          "at": [
+            -4.2,
+            41.6
+          ],
+          "size": 210,
+          "say": "Pas d’héritier…",
+          "label": {
+            "title": "Charles II d’Espagne",
+            "sub": "mort en 1700"
+          },
+          "when": {
+            "line": 0,
+            "word": "Charles",
+            "d": -0.3
+          }
+        }
+      ],
+      "labels": [
+        {
+          "text": "France",
+          "at": [
+            2.4,
+            46.8
+          ],
+          "size": 38,
+          "when": {
+            "line": 0,
+            "word": "cousins",
+            "d": 0
+          }
+        }
+      ],
+      "art": [
+        {
+          "kind": "stats",
+          "at": {
+            "line": 1,
+            "word": "régné",
+            "d": -0.2
+          },
+          "dur": 4.4,
+          "title": "Des siècles de règne",
+          "items": [
+            {
+              "value": 184,
+              "suffix": " ans",
+              "label": "en Espagne, de 1516 à 1700",
+              "color": "#F5BE8C"
+            },
+            {
+              "value": 640,
+              "suffix": " ans",
+              "label": "à Vienne, environ, 1278-1918",
+              "color": "#E8823A"
+            }
+          ]
+        }
+      ],
+      "say": [
+        "Après des générations de mariages entre cousins, le roi Charles II meurt sans enfant en 1700.",
+        "Ils auront régné 184 ans en Espagne, et environ 640 ans à Vienne."
+      ]
+    },
+    {
+      "type": "map",
+      "year": "1477 – 1794",
+      "text": "La future Belgique, espagnole puis autrichienne",
+      "note": "Contours approximatifs",
+      "focus": {
+        "box": [
+          1.2,
+          48.8,
+          7.8,
+          52.6
+        ]
+      },
+      "highlight": [
+        {
+          "regions": [
+            {
+              "c": "Belgium",
+              "n": "West Flanders"
+            },
+            {
+              "c": "Belgium",
+              "n": "East Flanders"
+            },
+            {
+              "c": "Belgium",
+              "n": "Antwerp"
+            },
+            {
+              "c": "Belgium",
+              "n": "Brussels"
+            },
+            {
+              "c": "Belgium",
+              "n": "Flemish Brabant"
+            },
+            {
+              "c": "Belgium",
+              "n": "Walloon Brabant"
+            },
+            {
+              "c": "Belgium",
+              "n": "Hainaut"
+            },
+            {
+              "c": "Belgium",
+              "n": "Namur"
+            },
+            {
+              "c": "Belgium",
+              "n": "Luxembourg"
+            }
+          ],
+          "countries": [
+            "Luxembourg"
+          ],
+          "color": "#F5BE8C",
+          "at": {
+            "line": 0,
+            "word": "espagnole",
+            "d": -0.3
+          },
+          "keep": false
+        },
+        {
+          "regions": [
+            {
+              "c": "Belgium",
+              "n": "West Flanders"
+            },
+            {
+              "c": "Belgium",
+              "n": "East Flanders"
+            },
+            {
+              "c": "Belgium",
+              "n": "Antwerp"
+            },
+            {
+              "c": "Belgium",
+              "n": "Brussels"
+            },
+            {
+              "c": "Belgium",
+              "n": "Flemish Brabant"
+            },
+            {
+              "c": "Belgium",
+              "n": "Walloon Brabant"
+            },
+            {
+              "c": "Belgium",
+              "n": "Hainaut"
+            },
+            {
+              "c": "Belgium",
+              "n": "Namur"
+            },
+            {
+              "c": "Belgium",
+              "n": "Luxembourg"
+            }
+          ],
+          "countries": [
+            "Luxembourg"
+          ],
+          "color": "#E8823A",
+          "at": {
+            "line": 0,
+            "word": "autrichienne",
+            "d": -0.2
+          },
+          "keep": false
+        }
+      ],
+      "beacon": [
+        {
+          "at": "Bruxelles",
+          "when": {
+            "line": 0,
+            "word": "Belgique",
+            "d": 0
+          }
+        }
+      ],
+      "pills": [
+        {
+          "at": "Bruxelles",
+          "title": "Bruxelles",
+          "sub": "capitale des Pays-Bas espagnols",
+          "side": "t",
+          "when": {
+            "line": 0,
+            "word": "espagnole",
+            "d": 0.2
+          }
+        }
+      ],
+      "labels": [
+        {
+          "text": "Pays-Bas",
+          "at": [
+            5.6,
+            52.2
+          ],
+          "size": 36,
+          "when": {
+            "line": 0,
+            "word": "siècles",
+            "d": 0
+          }
+        },
+        {
+          "text": "France",
+          "at": [
+            2.8,
+            49.3
+          ],
+          "size": 36,
+          "when": {
+            "line": 0,
+            "word": "siècles",
+            "d": 0.3
+          }
+        }
+      ],
+      "say": [
+        "La future Belgique a été espagnole, puis autrichienne : environ trois siècles de Habsbourg."
+      ]
+    },
+    {
+      "type": "map",
+      "text": "Une histoire en quatre dates",
+      "focus": {
+        "box": [
+          8,
+          44,
+          22,
+          52
+        ]
+      },
+      "beacon": [
+        {
+          "at": "Vienne",
+          "when": 0.3
+        }
+      ],
+      "art": [
+        {
+          "kind": "timeline",
+          "at": {
+            "line": 0,
+            "d": 0.1
+          },
+          "dur": 4.8,
+          "title": "Les Habsbourg",
+          "items": [
+            {
+              "year": "1273",
+              "text": "Naissance : Rodolphe roi",
+              "color": "#E8823A"
+            },
+            {
+              "year": "1556",
+              "text": "Apogée : Charles Quint",
+              "color": "#A77BE0"
+            },
+            {
+              "year": "1700",
+              "text": "Chute : sans héritier",
+              "color": "#8A93A8"
+            },
+            {
+              "year": "Aujourd’hui",
+              "text": "Schönbrunn",
+              "color": "#FFFFFF"
+            }
+          ]
+        }
+      ],
+      "say": [
+        "Rois en 1273, à leur sommet en 1556, sans héritier à Madrid en 1700."
+      ]
+    },
+    {
+      "type": "final",
+      "text": "Les Habsbourg",
+      "sub": "Les héritages, de Vienne à Madrid",
+      "note": "Contour approximatif, frontières d’aujourd’hui",
+      "focus": {
+        "box": [
+          -10,
+          35.5,
+          23,
+          54
+        ]
+      },
+      "line": {
+        "points": [
+          [
+            -1.8,
+            43.4
+          ],
+          [
+            0.7,
+            42.85
+          ],
+          [
+            2.0,
+            42.9
+          ],
+          [
+            3.2,
+            43.0
+          ],
+          [
+            3.5,
+            42.3
+          ],
+          [
+            4.7,
+            40.0
+          ],
+          [
+            1.3,
+            38.6
+          ],
+          [
+            -0.4,
+            37.4
+          ],
+          [
+            -2.2,
+            36.6
+          ],
+          [
+            -5.6,
+            35.9
+          ],
+          [
+            -7.4,
+            37.1
+          ],
+          [
+            -7.4,
+            38.3
+          ],
+          [
+            -7.0,
+            39.6
+          ],
+          [
+            -6.9,
+            41.0
+          ],
+          [
+            -6.2,
+            41.95
+          ],
+          [
+            -8.9,
+            41.9
+          ],
+          [
+            -9.5,
+            43.2
+          ],
+          [
+            -7.0,
+            43.85
+          ],
+          [
+            -3.8,
+            43.6
+          ],
+          [
+            -1.8,
+            43.4
+          ]
+        ],
+        "color": "#A77BE0",
+        "at": {
+          "line": 1,
+          "word": "Voilà",
+          "d": 0
+        },
+        "width": 8,
+        "draw": 2.2,
+        "parts": [
+          [
+            [
+              1.6,
+              50.9
+            ],
+            [
+              2.5,
+              51.2
+            ],
+            [
+              3.4,
+              51.6
+            ],
+            [
+              4.6,
+              53.05
+            ],
+            [
+              5.2,
+              53.5
+            ],
+            [
+              7.2,
+              53.35
+            ],
+            [
+              7.1,
+              52.2
+            ],
+            [
+              6.0,
+              51.85
+            ],
+            [
+              6.2,
+              51.0
+            ],
+            [
+              6.4,
+              50.3
+            ],
+            [
+              6.1,
+              49.45
+            ],
+            [
+              5.4,
+              49.5
+            ],
+            [
+              4.2,
+              49.95
+            ],
+            [
+              3.0,
+              50.1
+            ],
+            [
+              1.6,
+              50.25
+            ],
+            [
+              1.6,
+              50.9
+            ]
+          ],
+          [
+            [
+              5.4,
+              47.95
+            ],
+            [
+              6.8,
+              47.85
+            ],
+            [
+              7.05,
+              47.4
+            ],
+            [
+              6.1,
+              46.4
+            ],
+            [
+              5.35,
+              46.3
+            ],
+            [
+              5.2,
+              47.0
+            ],
+            [
+              5.4,
+              47.95
+            ]
+          ],
+          [
+            [
+              9.55,
+              47.55
+            ],
+            [
+              10.5,
+              47.55
+            ],
+            [
+              12.1,
+              47.75
+            ],
+            [
+              12.1,
+              50.3
+            ],
+            [
+              14.8,
+              51.05
+            ],
+            [
+              16.5,
+              50.45
+            ],
+            [
+              18.3,
+              50.0
+            ],
+            [
+              19.5,
+              49.5
+            ],
+            [
+              22.4,
+              49.1
+            ],
+            [
+              22.2,
+              48.4
+            ],
+            [
+              20.5,
+              47.8
+            ],
+            [
+              19.0,
+              47.9
+            ],
+            [
+              18.0,
+              47.55
+            ],
+            [
+              17.5,
+              46.9
+            ],
+            [
+              17.0,
+              46.3
+            ],
+            [
+              16.0,
+              45.6
+            ],
+            [
+              15.0,
+              45.0
+            ],
+            [
+              14.3,
+              45.3
+            ],
+            [
+              13.6,
+              45.6
+            ],
+            [
+              12.5,
+              46.6
+            ],
+            [
+              11.0,
+              46.4
+            ],
+            [
+              10.5,
+              46.7
+            ],
+            [
+              9.55,
+              47.0
+            ],
+            [
+              9.55,
+              47.55
+            ]
+          ],
+          [
+            [
+              8.5,
+              46.3
+            ],
+            [
+              9.5,
+              46.3
+            ],
+            [
+              10.0,
+              45.9
+            ],
+            [
+              10.3,
+              45.1
+            ],
+            [
+              9.5,
+              44.85
+            ],
+            [
+              8.6,
+              45.0
+            ],
+            [
+              8.4,
+              45.6
+            ],
+            [
+              8.5,
+              46.3
+            ]
+          ],
+          [
+            [
+              13.75,
+              41.25
+            ],
+            [
+              13.3,
+              41.8
+            ],
+            [
+              13.1,
+              42.1
+            ],
+            [
+              13.4,
+              42.6
+            ],
+            [
+              13.95,
+              42.9
+            ],
+            [
+              16.3,
+              42.15
+            ],
+            [
+              18.7,
+              40.1
+            ],
+            [
+              18.6,
+              39.7
+            ],
+            [
+              17.2,
+              38.95
+            ],
+            [
+              16.5,
+              38.25
+            ],
+            [
+              16.15,
+              37.8
+            ],
+            [
+              15.4,
+              37.0
+            ],
+            [
+              15.2,
+              36.6
+            ],
+            [
+              14.3,
+              36.6
+            ],
+            [
+              12.3,
+              37.65
+            ],
+            [
+              12.2,
+              38.1
+            ],
+            [
+              15.6,
+              38.35
+            ],
+            [
+              15.7,
+              39.5
+            ],
+            [
+              14.8,
+              40.2
+            ],
+            [
+              14.1,
+              40.5
+            ],
+            [
+              13.75,
+              41.25
+            ]
+          ],
+          [
+            [
+              8.0,
+              41.35
+            ],
+            [
+              9.9,
+              41.35
+            ],
+            [
+              9.9,
+              38.8
+            ],
+            [
+              8.2,
+              38.75
+            ],
+            [
+              8.0,
+              39.9
+            ],
+            [
+              8.0,
+              41.35
+            ]
+          ]
+        ]
+      },
+      "beacon": [
+        {
+          "at": "Vienne",
+          "when": {
+            "line": 0,
+            "word": "Vienne",
+            "d": 0
+          }
+        }
+      ],
+      "pills": [
+        {
+          "at": "Vienne",
+          "title": "Schönbrunn",
+          "sub": "1 441 pièces, Unesco",
+          "side": "t",
+          "when": {
+            "line": 0,
+            "word": "palais",
+            "d": 0
+          }
+        }
+      ],
+      "people": [
+        {
+          "who": "paysan",
+          "outfit": "#E8823A",
+          "at": [
+            13.6,
+            47.0
+          ],
+          "size": 190,
+          "say": "Quel palais !",
+          "wave": true,
+          "when": {
+            "line": 0,
+            "word": "palais",
+            "d": 0.2
+          }
+        }
+      ],
+      "say": [
+        {
+          "say": "À Vienne, on visite encore leur palais de Cheune-brounne.",
+          "show": "À Vienne, on visite encore leur palais de Schönbrunn."
+        },
+        "Voilà comment une famille a régné sur l’Europe : par des mariages, plus que par la guerre."
+      ]
+    }
+  ]
+}

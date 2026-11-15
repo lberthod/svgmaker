@@ -1,0 +1,998 @@
+{
+  "format": "atlas",
+  "id": "atlas-albanie",
+  "base": {
+    "countries": [
+      "Albania"
+    ]
+  },
+  "terrain": [
+    {
+      "box": [
+        -14,
+        27,
+        40,
+        76
+      ],
+      "px": 3000,
+      "z": 6
+    },
+    {
+      "box": [
+        10.8,
+        38.4,
+        24.0,
+        45.4
+      ],
+      "px": 2800,
+      "z": 8
+    }
+  ],
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "Une langue sans cousine",
+      "sub": "L’albanais",
+      "focus": {
+        "box": [
+          18.4,
+          39.2,
+          22.6,
+          43.0
+        ]
+      },
+      "highlight": {
+        "countries": [
+          "Albania"
+        ],
+        "color": "#FFD83C",
+        "at": 0.7,
+        "keep": false
+      },
+      "pills": [
+        {
+          "at": [
+            19.82,
+            41.33
+          ],
+          "title": "Tirana",
+          "sub": "la capitale",
+          "side": "r",
+          "when": {
+            "line": 0,
+            "d": 2.0
+          }
+        }
+      ],
+      "labels": [
+        {
+          "text": "Monténégro",
+          "at": [
+            19.2,
+            42.7
+          ],
+          "size": 34,
+          "when": {
+            "line": 0,
+            "d": 1.2
+          }
+        },
+        {
+          "text": "Grèce",
+          "at": [
+            21.0,
+            39.5
+          ],
+          "size": 34,
+          "when": {
+            "line": 0,
+            "d": 1.5
+          }
+        }
+      ],
+      "art": [
+        {
+          "kind": "stats",
+          "at": {
+            "line": 1,
+            "d": -0.6
+          },
+          "dur": 3.8,
+          "title": "Une branche à part",
+          "items": [
+            {
+              "value": 1,
+              "label": "branche à elle seule",
+              "color": "#FFD83C"
+            },
+            {
+              "value": 7,
+              "suffix": " millions",
+              "label": "de locuteurs environ",
+              "color": "#4FA3E0",
+              "size": 58
+            }
+          ]
+        }
+      ],
+      "say": [
+        "Pourquoi l’albanais ne ressemble-t-il à aucune autre langue d’Europe ?",
+        "C’est une branche à part de la famille indo-européenne, restée isolée dans les montagnes, et parlée par environ 7 millions de personnes."
+      ],
+      "duration": 9
+    },
+    {
+      "type": "map",
+      "year": "Antiquité",
+      "text": "Les Illyriens, ancêtres possibles",
+      "focus": {
+        "box": [
+          14.0,
+          38.8,
+          23.6,
+          45.0
+        ]
+      },
+      "highlight": {
+        "countries": [
+          "Albania",
+          "Montenegro",
+          "Bosnia and Herz.",
+          "Croatia",
+          "Kosovo"
+        ],
+        "color": "#4FA3E0",
+        "at": {
+          "line": 0,
+          "word": "Illyriens",
+          "d": -0.2
+        },
+        "keep": false
+      },
+      "people": [
+        {
+          "who": "paysan",
+          "at": [
+            19.9,
+            41.9
+          ],
+          "size": 230,
+          "say": "Illyrien",
+          "when": {
+            "line": 1,
+            "word": "linguistes"
+          }
+        }
+      ],
+      "beacon": [
+        {
+          "at": [
+            19.82,
+            41.9
+          ],
+          "when": 0.4
+        }
+      ],
+      "labels": [
+        {
+          "text": "Mer Adriatique",
+          "at": [
+            16.2,
+            42.2
+          ],
+          "size": 34,
+          "when": {
+            "line": 0,
+            "d": 0.6
+          }
+        },
+        {
+          "text": "Italie",
+          "at": [
+            15.6,
+            40.3
+          ],
+          "size": 34,
+          "when": {
+            "line": 0,
+            "d": 0.9
+          }
+        }
+      ],
+      "say": [
+        "Les Illyriens vivent sur la côte ouest des Balkans.",
+        "Des linguistes y voient l’origine possible de l’albanais."
+      ]
+    },
+    {
+      "type": "map",
+      "year": "168 av. J.-C.",
+      "text": "Rome vainc les Illyriens du sud",
+      "focus": {
+        "box": [
+          11.2,
+          39.0,
+          23.0,
+          44.5
+        ]
+      },
+      "highlight": {
+        "countries": [
+          "Albania",
+          "Montenegro"
+        ],
+        "color": "#4FA3E0",
+        "at": 0.3,
+        "keep": false
+      },
+      "moves": [
+        {
+          "from": [
+            12.5,
+            41.9
+          ],
+          "to": [
+            19.45,
+            41.32
+          ],
+          "n": 3,
+          "color": "#E8503A",
+          "label": "Les légions",
+          "at": {
+            "line": 0,
+            "word": "Rome",
+            "d": -0.6
+          },
+          "dur": 2.0
+        }
+      ],
+      "pills": [
+        {
+          "at": [
+            19.45,
+            41.32
+          ],
+          "title": "Durrës",
+          "sub": "port romain",
+          "side": "b",
+          "when": {
+            "line": 1,
+            "word": "latin"
+          }
+        }
+      ],
+      "beacon": [
+        {
+          "at": [
+            19.45,
+            41.32
+          ],
+          "when": {
+            "line": 0,
+            "word": "conquiert"
+          }
+        }
+      ],
+      "labels": [
+        {
+          "text": "Italie",
+          "at": [
+            13.4,
+            42.9
+          ],
+          "size": 36,
+          "when": {
+            "line": 0,
+            "d": 0.4
+          }
+        }
+      ],
+      "say": [
+        "En 168 avant J.-C., Rome vainc le roi illyrien Gentius, puis Byzance lui succède.",
+        "Le latin laisse des mots, mais la langue reste."
+      ]
+    },
+    {
+      "type": "map",
+      "year": "1443 – 1468",
+      "text": "Skanderbeg se révolte",
+      "focus": {
+        "box": [
+          18.6,
+          39.8,
+          21.8,
+          42.8
+        ]
+      },
+      "highlight": {
+        "countries": [
+          "Albania"
+        ],
+        "color": "#FFD83C",
+        "at": 0.3,
+        "keep": false
+      },
+      "people": [
+        {
+          "who": "soldat",
+          "at": [
+            19.79,
+            41.51
+          ],
+          "size": 230,
+          "say": "Liberté !",
+          "label": {
+            "title": "Skanderbeg",
+            "sub": "1443 – 1468"
+          },
+          "when": 0.6
+        }
+      ],
+      "pills": [
+        {
+          "at": [
+            19.79,
+            41.51
+          ],
+          "title": "Krujë",
+          "side": "l",
+          "when": {
+            "line": 0,
+            "d": 0.8
+          }
+        }
+      ],
+      "moves": [
+        {
+          "from": [
+            21.7,
+            41.3
+          ],
+          "to": [
+            20.6,
+            41.2
+          ],
+          "n": 3,
+          "color": "#E8503A",
+          "label": "Les Ottomans",
+          "at": {
+            "line": 1,
+            "word": "repousse",
+            "d": -0.3
+          },
+          "dur": 2.2
+        }
+      ],
+      "beacon": [
+        {
+          "at": [
+            19.79,
+            41.51
+          ],
+          "when": 0.4
+        }
+      ],
+      "labels": [
+        {
+          "text": "Macédoine du Nord",
+          "at": [
+            21.7,
+            42.3
+          ],
+          "size": 32,
+          "when": {
+            "line": 1,
+            "d": 0.6
+          }
+        }
+      ],
+      "say": [
+        "En 1443, Skanderbeg se révolte à Kruje contre les Ottomans.",
+        "Il les repousse jusqu’à sa mort, en 1468."
+      ]
+    },
+    {
+      "type": "map",
+      "year": "1479 – 1912",
+      "text": "Plus de quatre siècles ottomans",
+      "focus": {
+        "box": [
+          18.0,
+          39.8,
+          22.6,
+          42.8
+        ]
+      },
+      "highlight": {
+        "countries": [
+          "Albania"
+        ],
+        "color": "#E8503A",
+        "at": {
+          "line": 0,
+          "word": "1479",
+          "d": -0.2
+        },
+        "keep": false
+      },
+      "moves": [
+        {
+          "from": [
+            23.4,
+            41.2
+          ],
+          "to": [
+            20.4,
+            41.2
+          ],
+          "n": 4,
+          "color": "#E8503A",
+          "label": "L’Empire ottoman",
+          "at": {
+            "line": 0,
+            "word": "ottomans",
+            "d": 0.1
+          },
+          "dur": 2.4
+        }
+      ],
+      "pills": [
+        {
+          "at": [
+            19.82,
+            41.33
+          ],
+          "title": "Tirana",
+          "side": "l",
+          "when": {
+            "line": 1,
+            "d": 0
+          }
+        }
+      ],
+      "beacon": [
+        {
+          "at": [
+            19.82,
+            41.33
+          ],
+          "when": 0.6
+        }
+      ],
+      "labels": [],
+      "say": [
+        "Les Ottomans dominent tout le pays de 1479 à 1912.",
+        "Beaucoup se convertissent à l’islam, mais la langue survit."
+      ]
+    },
+    {
+      "type": "map",
+      "year": "28 novembre 1912",
+      "text": "L’indépendance, à Vlora",
+      "focus": {
+        "box": [
+          18.6,
+          39.6,
+          22.2,
+          43.6
+        ]
+      },
+      "highlight": [
+        {
+          "countries": [
+            "Albania"
+          ],
+          "color": "#FFD83C",
+          "at": {
+            "line": 0,
+            "word": "Vlora",
+            "d": -0.3
+          },
+          "keep": false
+        },
+        {
+          "countries": [
+            "Kosovo"
+          ],
+          "color": "#FF8FB8",
+          "at": {
+            "line": 1,
+            "word": "Kosovo",
+            "d": -0.3
+          },
+          "keep": false
+        }
+      ],
+      "people": [
+        {
+          "who": "savant",
+          "at": [
+            19.49,
+            40.47
+          ],
+          "size": 230,
+          "say": "Indépendance !",
+          "label": {
+            "title": "Ismail Qemali",
+            "sub": "1912"
+          },
+          "when": {
+            "line": 0,
+            "word": "Vlora",
+            "d": 0.2
+          }
+        }
+      ],
+      "pills": [
+        {
+          "at": [
+            19.49,
+            40.47
+          ],
+          "title": "Vlora",
+          "side": "l",
+          "when": {
+            "line": 0,
+            "word": "Vlora"
+          }
+        }
+      ],
+      "beacon": [
+        {
+          "at": [
+            19.49,
+            40.47
+          ],
+          "when": 0.4
+        }
+      ],
+      "moves": [
+        {
+          "from": [
+            20.3,
+            42.4
+          ],
+          "to": [
+            21.0,
+            42.3
+          ],
+          "n": 2,
+          "color": "#FF8FB8",
+          "label": "Albanais hors frontières",
+          "at": {
+            "line": 1,
+            "word": "Kosovo",
+            "d": 0.3
+          },
+          "dur": 2.2
+        }
+      ],
+      "labels": [
+        {
+          "text": "Kosovo",
+          "at": [
+            21.0,
+            42.9
+          ],
+          "size": 36,
+          "when": {
+            "line": 1,
+            "d": 0.1
+          }
+        }
+      ],
+      "say": [
+        "Le 28 novembre 1912, Ismail Qemali proclame l’indépendance à Vlora.",
+        "Mais des Albanais restent hors des frontières."
+      ]
+    },
+    {
+      "type": "map",
+      "year": "1944 – 1991",
+      "text": "Hoxha isole le pays",
+      "focus": {
+        "box": [
+          18.4,
+          39.2,
+          22.8,
+          43.2
+        ]
+      },
+      "highlight": {
+        "countries": [
+          "Albania"
+        ],
+        "color": "#FFD83C",
+        "at": 0.3,
+        "keep": false
+      },
+      "people": [
+        {
+          "who": "ouvrier",
+          "at": [
+            19.82,
+            41.33
+          ],
+          "size": 230,
+          "say": "Isolement",
+          "label": {
+            "title": "Enver Hoxha",
+            "sub": "1944 – 1985"
+          },
+          "when": 0.6
+        }
+      ],
+      "pills": [
+        {
+          "at": [
+            19.82,
+            41.33
+          ],
+          "title": "Tirana",
+          "side": "r",
+          "when": {
+            "line": 0,
+            "word": "Hoxha"
+          }
+        }
+      ],
+      "beacon": [
+        {
+          "at": [
+            19.82,
+            41.33
+          ],
+          "when": 0.4
+        }
+      ],
+      "say": [
+        "De 1944 à 1985, Enver Hoxha isole le pays.",
+        "Le régime communiste ne tombe qu’en 1991."
+      ],
+      "duration": 10,
+      "art": [
+        {
+          "kind": "timeline",
+          "at": {
+            "line": 1,
+            "d": 0
+          },
+          "dur": 4.8,
+          "title": "Cinq dates clés",
+          "items": [
+            {
+              "year": "1443",
+              "text": "Skanderbeg"
+            },
+            {
+              "year": "1479",
+              "text": "Les Ottomans"
+            },
+            {
+              "year": "1912",
+              "text": "Indépendance"
+            },
+            {
+              "year": "1944",
+              "text": "Hoxha"
+            },
+            {
+              "year": "1991",
+              "text": "Fin du régime"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "map",
+      "year": "Aujourd’hui",
+      "text": "Des Albanais hors d’Albanie",
+      "focus": {
+        "box": [
+          18.2,
+          40.2,
+          23.2,
+          43.9
+        ]
+      },
+      "highlight": [
+        {
+          "countries": [
+            "Albania"
+          ],
+          "color": "#FFD83C",
+          "at": 0.3,
+          "keep": false
+        },
+        {
+          "countries": [
+            "Kosovo"
+          ],
+          "color": "#FF8FB8",
+          "at": {
+            "line": 0,
+            "word": "Kosovo",
+            "d": -0.2
+          },
+          "keep": false
+        },
+        {
+          "countries": [
+            "North Macedonia"
+          ],
+          "color": "#C77DFF",
+          "at": {
+            "line": 0,
+            "word": "Macédoine",
+            "d": -0.2
+          },
+          "keep": false
+        },
+        {
+          "countries": [
+            "Montenegro"
+          ],
+          "color": "#FF7A3C",
+          "at": {
+            "line": 0,
+            "word": "Monténégro",
+            "d": -0.2
+          },
+          "keep": false
+        }
+      ],
+      "pills": [
+        {
+          "at": [
+            21.17,
+            42.67
+          ],
+          "title": "Pristina",
+          "side": "t",
+          "when": {
+            "line": 0,
+            "word": "Kosovo",
+            "d": 0.3
+          }
+        }
+      ],
+      "beacon": [
+        {
+          "at": [
+            21.17,
+            42.67
+          ],
+          "when": {
+            "line": 0,
+            "word": "Kosovo"
+          }
+        }
+      ],
+      "art": [
+        {
+          "kind": "bars",
+          "at": {
+            "line": 1,
+            "d": 0
+          },
+          "dur": 4.6,
+          "title": "Albanais dans la population",
+          "items": [
+            {
+              "label": "Kosovo",
+              "value": "92 %",
+              "h": 0.92,
+              "color": "#FF8FB8"
+            },
+            {
+              "label": "Macédoine",
+              "value": "25 %",
+              "h": 0.25,
+              "color": "#C77DFF"
+            },
+            {
+              "label": "Monténégro",
+              "value": "5 %",
+              "h": 0.07,
+              "color": "#FF7A3C"
+            }
+          ]
+        }
+      ],
+      "say": [
+        "On parle albanais au Kosovo, en Macédoine du Nord et au Monténégro.",
+        "Les Albanais sont environ 92 % au Kosovo, 25 % en Macédoine, 5 % au Monténégro."
+      ],
+      "labels": [
+        {
+          "text": "Monténégro",
+          "at": [
+            19.2,
+            42.9
+          ],
+          "size": 34,
+          "when": {
+            "line": 0,
+            "d": 0.5
+          }
+        },
+        {
+          "text": "Macédoine du Nord",
+          "at": [
+            21.7,
+            41.4
+          ],
+          "size": 34,
+          "when": {
+            "line": 0,
+            "d": 0.8
+          }
+        },
+        {
+          "text": "Kosovo",
+          "at": [
+            20.9,
+            42.9
+          ],
+          "size": 34,
+          "when": {
+            "line": 0,
+            "d": 0.2
+          }
+        }
+      ]
+    },
+    {
+      "type": "map",
+      "text": "Deux dialectes, séparés par une rivière",
+      "focus": {
+        "box": [
+          19.0,
+          39.6,
+          21.9,
+          42.9
+        ]
+      },
+      "highlight": [
+        {
+          "countries": [
+            "Albania"
+          ],
+          "color": "#FFD83C",
+          "at": 0.3,
+          "keep": false
+        }
+      ],
+      "line": {
+        "points": [
+          [
+            19.43,
+            41.02
+          ],
+          [
+            20.0,
+            41.05
+          ],
+          [
+            20.7,
+            40.95
+          ]
+        ],
+        "label": "Rivière Shkumbin",
+        "color": "#1B5FD6",
+        "at": {
+          "line": 0,
+          "word": "rivière",
+          "d": -0.3
+        }
+      },
+      "pills": [
+        {
+          "at": [
+            20.0,
+            42.2
+          ],
+          "stack": [
+            {
+              "text": "Guegue",
+              "color": "#4FA3E0"
+            }
+          ],
+          "when": {
+            "line": 0,
+            "word": "guegue"
+          }
+        },
+        {
+          "at": [
+            20.4,
+            40.4
+          ],
+          "stack": [
+            {
+              "text": "Tosque",
+              "color": "#E8503A"
+            }
+          ],
+          "when": {
+            "line": 0,
+            "word": "tosque"
+          }
+        }
+      ],
+      "art": [
+        {
+          "kind": "languages",
+          "at": {
+            "line": 1,
+            "d": -0.8
+          },
+          "dur": 4.2,
+          "title": "Deux dialectes",
+          "items": [
+            {
+              "icon": "compass",
+              "where": "Nord",
+              "lang": "Guegue",
+              "note": "aussi au Kosovo",
+              "color": "#4FA3E0"
+            },
+            {
+              "icon": "compass",
+              "where": "Sud",
+              "lang": "Tosque",
+              "note": "base du standard",
+              "color": "#E8503A"
+            }
+          ]
+        }
+      ],
+      "say": [
+        "Le guegue se parle au nord, le tosque au sud, de part et d’autre d’une rivière.",
+        "La langue officielle, fixée en 1972, repose sur le tosque."
+      ],
+      "duration": 10.5
+    },
+    {
+      "type": "final",
+      "text": "Une langue à part",
+      "sub": "L’albanais",
+      "focus": {
+        "box": [
+          18.4,
+          39.2,
+          22.6,
+          43.0
+        ]
+      },
+      "highlight": {
+        "countries": [
+          "Albania"
+        ],
+        "color": "#FFD83C",
+        "at": 0.5,
+        "keep": false
+      },
+      "pills": [
+        {
+          "at": [
+            19.82,
+            41.33
+          ],
+          "stack": [
+            {
+              "text": "Shqip",
+              "color": "#0B1F44"
+            }
+          ],
+          "when": 2.0
+        }
+      ],
+      "say": [
+        "Voilà pourquoi l’albanais est resté à part, malgré Rome, les Ottomans et Hoxha.",
+        "Et voici la question qui nous a ouverts :"
+      ]
+    }
+  ]
+}

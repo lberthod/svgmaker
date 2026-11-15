@@ -1,0 +1,12 @@
+# 48 Le rideau de fer — journal de sources
+- Churchill, Fulton (Missouri), 5 mars 1946, « de Stettin sur la Baltique à Trieste sur l'Adriatique » → https://fr.wikipedia.org/wiki/Rideau_de_fer
+- Pacte de Varsovie signé le 14 mai 1955 par huit États → https://fr.wikipedia.org/wiki/Pacte_de_Varsovie
+- OTAN créée en avril 1949 (traité du 4 avril, douze membres fondateurs : connaissance générale, non revérifiée page par page) → https://fr.wikipedia.org/wiki/Organisation_du_traité_de_l'Atlantique_Nord
+- RFA (23 mai 1949) / RDA (7 octobre 1949), partage de Berlin : connaissance générale → https://fr.wikipedia.org/wiki/Allemagne_de_l'Est
+- Mur de Berlin : construction dans la nuit du 12 au 13 août 1961, 155 km autour de Berlin-Ouest, chute le 9 novembre 1989 (28 ans = 1961-1989) → https://fr.wikipedia.org/wiki/Mur_de_Berlin
+- Pique-nique paneuropéen : 19 août 1989, Sopronkőhida près de Sopron, près de 700 Est-Allemands passent → https://fr.wikipedia.org/wiki/Pique-nique_paneuropéen
+- Hongrie ouvre officiellement sa frontière avec l'Autriche le 10 septembre 1989 (retiré de la voix pour la durée) → https://fr.wikipedia.org/wiki/Rideau_de_fer
+- Réunification : 3 octobre 1990 → https://fr.wikipedia.org/wiki/Mur_de_Berlin ; dissolution du Pacte le 1er juillet 1991 (non utilisée)
+- Longueur du rideau de fer : AUCUN chiffre unique fiable trouvé (le « 7 000 km » n'est pas confirmé) → non utilisé. Frontière intérieure allemande : 1 393 km (Wikipédia FR).
+- Sentier du rideau de fer (EuroVelo 13) : 10 550 km, 20 pays, de la mer de Barents à la mer Noire (arrondi « environ 10 500 km ») → https://en.eurovelo.com/ev13
+- Blocs colorés : Ouest bleu (pays OTAN 1949 + Länder de la RFA), Est rouge (Pologne, Tchéquie, Slovaquie, Hongrie, Roumanie, Bulgarie + Länder de la RDA). Yougoslavie, Albanie, Autriche, Suisse, Suède, Finlande, Espagne, Grèce, Turquie non colorés.

@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Série Pourquoi… ? — lecteur</title>
+<style>
+:root{--bg:#0f1218;--card:#1a1f2a;--line:#2b3242;--tx:#eef1f6;--mut:#9aa4b5;--ac:#ffb703}
+@media (prefers-color-scheme: light){:root{--bg:#f3f4f7;--card:#fff;--line:#d9dde6;--tx:#161a22;--mut:#5b6577;--ac:#d98200}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font:15px/1.4 system-ui,sans-serif;min-height:100vh}
+.app{display:grid;grid-template-columns:minmax(300px,420px) 1fr;gap:20px;max-width:1100px;margin:0 auto;padding:16px}
+.stage{position:sticky;top:16px;align-self:start}
+.screen{position:relative;aspect-ratio:9/16;max-height:calc(100vh - 150px);margin:0 auto;background:#000;border-radius:18px;overflow:hidden;border:1px solid var(--line)}
+video{width:100%;height:100%;object-fit:contain;display:block;background:#000}
+.start{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,.55);color:#fff;font-size:20px;font-weight:600;cursor:pointer;border:0;width:100%}
+.start span{background:var(--ac);color:#111;padding:14px 26px;border-radius:40px}
+.bar{display:flex;gap:8px;align-items:center;justify-content:center;margin-top:12px;flex-wrap:wrap}
+button.b{background:var(--card);color:var(--tx);border:1px solid var(--line);border-radius:10px;padding:8px 14px;font:inherit;cursor:pointer}
+button.b[aria-pressed=true]{background:var(--ac);color:#111;border-color:var(--ac);font-weight:600}
+button.b:focus-visible,.item:focus-visible{outline:2px solid var(--ac);outline-offset:2px}
+.now{text-align:center;margin:10px 0 0;color:var(--mut);font-size:13px}
+h1{font-size:20px;margin:4px 0 12px}
+.list{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px}
+.item{background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;cursor:pointer;text-align:left;padding:0;color:inherit;font:inherit}
+.item img{width:100%;aspect-ratio:9/16;object-fit:cover;display:block;background:#222}
+.item .t{padding:8px 10px;font-size:13px}
+.item .t b{display:block}
+.item .t i{font-style:normal;color:var(--mut);font-size:12px}
+.item.on{border-color:var(--ac);box-shadow:0 0 0 2px var(--ac)}
+.hint{color:var(--mut);font-size:12px;margin-top:14px}
+@media (max-width:760px){.app{grid-template-columns:1fr}.stage{position:static}.screen{max-height:70vh}}
+</style>
+</head>
+<body>
+<div class="app">
+  <div class="stage">
+    <div class="screen">
+      <video id="v" playsinline preload="auto"></video>
+      <button class="start" id="start"><span>▶ Lancer la série</span></button>
+    </div>
+    <div class="bar">
+      <button class="b" id="prev" aria-label="Précédent">⏮</button>
+      <button class="b" id="pp" aria-label="Lecture / pause">⏯</button>
+      <button class="b" id="next" aria-label="Suivant">⏭</button>
+      <button class="b" id="loop" aria-pressed="true" title="Enchaîne les 22 reels en boucle">Boucle série</button>
+      <button class="b" id="one" aria-pressed="false" title="Répète le reel en cours">Boucle reel</button>
+    </div>
+    <p class="now" id="now"></p>
+  </div>
+  <div>
+    <h1>Série « Pourquoi… ? » — 22 reels</h1>
+    <div class="list" id="list"></div>
+    <p class="hint">Les vidéos sont lues depuis <code>final/</code> : garde ce fichier dans le dossier <code>reels-nuit/</code>. Raccourcis : espace = pause, ← → = reel précédent / suivant.</p>
+  </div>
+</div>
+<script>
+const R=[["00-suisse","Suisse","Pourquoi 4 langues","94 s"],["01-belgique","Belgique","3 langues","92 s"],["02-italie","Italie","Comment elle est née","83 s"],["03-pays-bas","Pays-Bas","Sous le niveau de la mer","75 s"],["04-portugal","Portugal","Pourquoi il existe","90 s"],["05-autriche-hongrie","Autriche-Hongrie","Un empire disparu","72 s"],["06-scandinavie","Scandinavie","L'union de Kalmar","65 s"],["07-espagne","Espagne","Plusieurs langues","70 s"],["08-irlande","Irlande","La partition","74 s"],["09-france","France","Pourquoi le français","79 s"],["10-allemagne","Allemagne","Pourquoi 1871","91 s"],["15-luxembourg-v5","Luxembourg","Avant/après 1839","77 s"],["16-royaume-uni","Royaume-Uni","Quatre pays en un","94 s"],["17-pologne","Pologne","Effacée de la carte","72 s"],["18-grece","Grèce","Une langue de 3 000 ans","72 s"],["19-finlande","Finlande","Une langue à part","79 s"],["20-pays-baltes","Pays baltes","Trois pays, trois langues","79 s"],["21-roumanie","Roumanie","Une île latine","77 s"],["22-balkans-yougoslavie","Yougoslavie","Six républiques, sept pays","91 s"],["23-islande","Islande","Une langue de mille ans","75 s"],["24-malte","Malte","Une langue sémitique","90 s"],["25-micro-etats","Micro-États","Petits mais vivants","94 s"]];
+const $=s=>document.querySelector(s), v=$('#v'), list=$('#list');
+let i=0, serie=true, one=false, started=false;
+R.forEach((r,k)=>{const b=document.createElement('button');b.className='item';b.innerHTML=`<img src="couvertures/${r[0]}.jpg" alt=""><div class="t"><b>${r[1]}</b><i>${r[2]} · ${r[3]}</i></div>`;b.onclick=()=>{go(k);play()};list.append(b)});
+function go(k){i=(k+R.length)%R.length;v.src=`final/${R[i][0]}.mp4`;v.loop=one;document.querySelectorAll('.item').forEach((e,j)=>e.classList.toggle('on',j===i));$('#now').textContent=`${i+1} / ${R.length} — ${R[i][1]} : ${R[i][2]}`;try{history.replaceState(null,'','#'+i)}catch(e){}}
+function play(){started=true;$('#start').style.display='none';v.play().catch(()=>{})}
+v.controls=true;
+v.addEventListener('ended',()=>{if(one)return;if(serie||i<R.length-1){go(i+1);play()}});
+$('#start').onclick=()=>play();
+$('#pp').onclick=()=>v.paused?play():v.pause();
+$('#prev').onclick=()=>{go(i-1);if(started)play()};
+$('#next').onclick=()=>{go(i+1);if(started)play()};
+$('#loop').onclick=e=>{serie=!serie;e.currentTarget.setAttribute('aria-pressed',serie)};
+$('#one').onclick=e=>{one=!one;v.loop=one;e.currentTarget.setAttribute('aria-pressed',one)};
+addEventListener('keydown',e=>{if(e.code==='Space'){e.preventDefault();$('#pp').click()}else if(e.key==='ArrowRight')$('#next').click();else if(e.key==='ArrowLeft')$('#prev').click()});
+go(+location.hash.slice(1)||0);
+</script>
+</body>
+</html>

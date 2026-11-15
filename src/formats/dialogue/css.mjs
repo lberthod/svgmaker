@@ -7,6 +7,7 @@ export const DIALOGUE_CSS = `
 @keyframes dwin0{0%,99.9%{opacity:1}100%{opacity:0}}
 @keyframes dwinEnd{0%{opacity:0}.01%,100%{opacity:1}}
 @keyframes dwinOnly{from,to{opacity:1}}
+@keyframes dshot{from,to{opacity:1}}
 @keyframes dgOn{from,to{opacity:1}}
 @keyframes dgOff{from,to{opacity:0}}
 @keyframes dgBat{0%{opacity:1}50%{opacity:0}}
@@ -29,6 +30,9 @@ export const DIALOGUE_CSS = `
 @keyframes dgWiggle{0%,100%{transform:rotate(-6deg)}50%{transform:rotate(6deg)}}
 @keyframes dgBounce{0%,100%{transform:translateY(0)}50%{transform:translateY(-26px)}}
 @keyframes dgStamp{0%{opacity:0;transform:scale(3.2) rotate(-14deg)}55%{opacity:1;transform:scale(.9) rotate(2deg)}72%{transform:scale(1.07)}100%{opacity:1;transform:none}}
+@keyframes dgPress{0%{transform:none;animation-timing-function:ease-in}42%{transform:translateY(calc(var(--k,40) * 1px));animation-timing-function:linear}62%{transform:translateY(calc(var(--k,40) * 1px));animation-timing-function:ease-out}100%{transform:none}}
+@keyframes dgPullBar{0%,100%{transform:rotate(calc(var(--k0,-35) * 1deg))}28%,45%{transform:rotate(0deg)}}
+@keyframes dgFlipX{0%,100%{transform:scaleX(1)}50%{transform:scaleX(0)}}
 @keyframes dgDrain{from{transform:scaleY(1)}to{transform:scaleY(0)}}
 @keyframes dgFill{from{transform:scaleY(0)}to{transform:scaleY(1)}}
 @keyframes dgBonk{0%{opacity:1;transform:translateY(-1000px) rotate(0)}30%{transform:translateY(0) rotate(0)}38%{transform:translateY(-34px) rotate(25deg)}100%{opacity:0;transform:translate(300px,420px) rotate(330deg)}}
@@ -47,7 +51,8 @@ export const DIALOGUE_CSS = `
 export const PROP_ANIMS = {
   pop: ['pop', 0.6, 0, 'both'], drop: ['dgDrop', 0.9, 0, 'both'], rise: ['dgRise', 0.8, 0, 'both'], fly: ['dgFly', 0.9, 0, 'both'],
   stamp: ['dgStamp', 0.5, 0, 'both'], fade: ['fadeIn', 0.5, 0, 'both'], grow: ['dgGrow', 1.2, 0, 'forwards'], shrink: ['dgShrink', 1.2, 0, 'forwards'],
-  wiggle: ['dgWiggle', 1.4, 1 / 1.4, 'none'], bounce: ['dgBounce', 0.9, 1 / 0.9, 'none'], pulse: ['dgPulse', 0.9, 1 / 0.9, 'none'],
+  flipx: ['dgFlipX', 0.4, 0, 'none'],
+  wiggle: ['dgWiggle', 1.4, 1 / 1.4, 'none'], spin: ['dgSpin', 1, 1, 'none'], bounce: ['dgBounce', 0.9, 1 / 0.9, 'none'], pulse: ['dgPulse', 0.9, 1 / 0.9, 'none'],
 }
 export const PROP_ENTERS = ['pop', 'drop', 'rise', 'fly', 'fade', 'stamp', 'grow', 'none']
 export const PROP_EXITS = { fade: 'out', pop: 'dgPopOut', fly: 'dgFlyOut', drop: 'dgDropOut', shrink: 'dgPopOut' }
@@ -55,7 +60,9 @@ export const IDLES = { wiggle: 'dgWiggle 1.6s ease-in-out infinite', bounce: 'dg
 /** Animations de parties d'un dessin (`parts[].do`). */
 export const PART_ANIMS = {
   pop: ['pop', 0.5, 'both'], appear: ['fadeIn', 0.4, 'both'], vanish: ['out', 0.4, 'forwards'], pulse: ['dgPulse', 0.8, 'none'], wiggle: ['dgWiggle', 1.2, 'none'],
-  shrink: ['dgShrink', 1.2, 'forwards'], grow: ['dgGrow', 1.2, 'both'], drain: ['dgDrain', 3, 'forwards'], fill: ['dgFill', 3, 'both'], stamp: ['dgStamp', 0.5, 'both'],
+  shrink: ['dgShrink', 1.2, 'forwards'], grow: ['dgGrow', 1.2, 'both'], drain: ['dgDrain', 3, 'forwards'],
+  show: ['dgShowP', 0.25, 'forwards'], hide: ['dgHideP', 0.25, 'forwards'], flicker: ['dgFlicker', 0.6, 'none'], smoke: ['dgSmoke', 2.2, 'none'],
+  twinkle: ['dgTwinkle', 1.6, 'none'], swing: ['dgSwing', 1.6, 'none'], sway: ['dgSway', 3, 'none'], glow: ['dgGlowP', 2, 'none'], spin: ['dgSpin', 1, 'none'], press: ['dgPress', 1.2, 'none'], pullbar: ['dgPullBar', 0.9, 'both'], fill: ['dgFill', 3, 'both'], stamp: ['dgStamp', 0.5, 'both'],
 }
 /** Actions d'un acteur (`do`) : [keyframes, durée par défaut]. */
 export const ACTOR_ACTIONS = { hop: ['dgHop', 0.5], bigjump: ['dgJump', 0.9], nod: ['dgNod', 1.1], shake: ['dgShake', 0.9], tilt: ['dgTilt', 1.4], tiltback: ['dgTiltBack', 1.4], surprised: ['dgHop', 0.45] }

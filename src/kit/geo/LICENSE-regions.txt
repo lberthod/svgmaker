@@ -1,0 +1,4 @@
+eu-regions.json : subdivisions administratives, fleuves et lacs issus de Natural Earth (1:10m
+admin-1 states/provinces, rivers + lake centerlines, lakes), reprojetés et simplifiés.
+Natural Earth est dans le domaine public (aucune attribution requise, mais appréciée).
+https://www.naturalearthdata.com/ - https://github.com/nvkelso/natural-earth-vector

@@ -1,0 +1,1365 @@
+{
+  "format": "atlas",
+  "id": "atlas-bretagne",
+  "base": {
+    "countries": [
+      "France",
+      "United Kingdom",
+      "Ireland",
+      "Belgium",
+      "Spain"
+    ]
+  },
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "Une langue celtique en France",
+      "sub": "La Bretagne",
+      "focus": {
+        "box": [
+          -5.6,
+          46.4,
+          -0.6,
+          49.6
+        ]
+      },
+      "highlight": [
+        {
+          "regions": [
+            {
+              "c": "France",
+              "n": "Finistère"
+            },
+            {
+              "c": "France",
+              "n": "Côtes-d'Armor"
+            },
+            {
+              "c": "France",
+              "n": "Morbihan"
+            },
+            {
+              "c": "France",
+              "n": "Ille-et-Vilaine"
+            }
+          ],
+          "color": "#4FA3E0",
+          "at": 0.7,
+          "keep": false
+        }
+      ],
+      "pills": [
+        {
+          "at": [
+            -1.68,
+            48.11
+          ],
+          "title": "Rennes",
+          "sub": "capitale régionale",
+          "side": "b",
+          "when": {
+            "line": 1,
+            "word": "Bretagne",
+            "d": 0.2
+          }
+        }
+      ],
+      "beacon": [
+        {
+          "at": [
+            -1.68,
+            48.11
+          ],
+          "when": 0.5
+        }
+      ],
+      "labels": [
+        {
+          "text": "Manche",
+          "at": [
+            -3.0,
+            49.35
+          ],
+          "size": 36,
+          "when": {
+            "line": 1,
+            "d": 0.6
+          }
+        },
+        {
+          "text": "Océan Atlantique",
+          "at": [
+            -4.4,
+            46.8
+          ],
+          "size": 34,
+          "when": {
+            "line": 1,
+            "d": 1.2
+          }
+        }
+      ],
+      "say": [
+        "Pourquoi parle-t-on une langue celtique en France ?",
+        "Le breton vient de Grande-Bretagne, il y a quinze siècles."
+      ]
+    },
+    {
+      "type": "map",
+      "year": "5e - 7e siècle",
+      "text": "Les Brittons passent la Manche",
+      "focus": {
+        "box": [
+          -6.4,
+          47.4,
+          -0.8,
+          51.0
+        ]
+      },
+      "moves": [
+        {
+          "from": [
+            -3.9,
+            50.4
+          ],
+          "to": [
+            -3.4,
+            48.6
+          ],
+          "n": 5,
+          "color": "#E8503A",
+          "label": "Les Brittons",
+          "at": {
+            "line": 0,
+            "word": "quittent",
+            "d": 0.0
+          },
+          "dur": 2.6
+        }
+      ],
+      "highlight": [
+        {
+          "regions": [
+            {
+              "c": "France",
+              "n": "Finistère"
+            },
+            {
+              "c": "France",
+              "n": "Côtes-d'Armor"
+            },
+            {
+              "c": "France",
+              "n": "Morbihan"
+            },
+            {
+              "c": "France",
+              "n": "Ille-et-Vilaine"
+            }
+          ],
+          "color": "#4FA3E0",
+          "at": {
+            "line": 1,
+            "word": "Armorique",
+            "d": 0.2
+          },
+          "keep": false
+        }
+      ],
+      "people": [
+        {
+          "who": "marin",
+          "at": [
+            -4.6,
+            49.5
+          ],
+          "size": 210,
+          "say": "En bateau !",
+          "when": {
+            "line": 0,
+            "word": "Brittons",
+            "d": -0.3
+          }
+        }
+      ],
+      "pills": [
+        {
+          "at": [
+            -4.5,
+            48.5
+          ],
+          "title": "Armorique",
+          "sub": "future Bretagne",
+          "side": "l",
+          "when": {
+            "line": 1,
+            "word": "Armorique",
+            "d": 0.0
+          }
+        }
+      ],
+      "beacon": [
+        {
+          "at": [
+            -3.4,
+            48.6
+          ],
+          "when": {
+            "line": 0,
+            "word": "quittent",
+            "d": 2.0
+          }
+        }
+      ],
+      "labels": [
+        {
+          "text": "Grande-Bretagne",
+          "at": [
+            -3.0,
+            50.7
+          ],
+          "size": 38,
+          "when": 0.5
+        },
+        {
+          "text": "Manche",
+          "at": [
+            -2.2,
+            49.6
+          ],
+          "size": 34,
+          "when": {
+            "line": 1,
+            "d": 0.6
+          }
+        }
+      ],
+      "say": [
+        "Du 5e au 7e siècle, des Brittons quittent la Grande-Bretagne, chassés par les invasions.",
+        "Ils s’installent en Armorique, qui devient la Bretagne."
+      ]
+    },
+    {
+      "type": "map",
+      "year": "9e - 15e siècle",
+      "text": "Un royaume (851), puis un duché",
+      "focus": {
+        "box": [
+          -5.8,
+          46.6,
+          -0.2,
+          49.4
+        ]
+      },
+      "highlight": [
+        {
+          "regions": [
+            {
+              "c": "France",
+              "n": "Finistère"
+            },
+            {
+              "c": "France",
+              "n": "Côtes-d'Armor"
+            },
+            {
+              "c": "France",
+              "n": "Morbihan"
+            },
+            {
+              "c": "France",
+              "n": "Ille-et-Vilaine"
+            },
+            {
+              "c": "France",
+              "n": "Loire-Atlantique"
+            }
+          ],
+          "color": "#4FA3E0",
+          "at": {
+            "line": 0,
+            "word": "royaume",
+            "d": 0.0
+          },
+          "keep": false
+        }
+      ],
+      "people": [
+        {
+          "who": "roi",
+          "at": [
+            -2.9,
+            48.45
+          ],
+          "size": 230,
+          "say": "Un duc !",
+          "when": {
+            "line": 1,
+            "word": "duché",
+            "d": 0.0
+          }
+        }
+      ],
+      "pills": [
+        {
+          "at": [
+            -1.68,
+            48.11
+          ],
+          "title": "Rennes",
+          "side": "t",
+          "when": {
+            "line": 1,
+            "word": "ducs",
+            "d": 0.2
+          }
+        },
+        {
+          "at": [
+            -1.55,
+            47.22
+          ],
+          "title": "Nantes",
+          "side": "l",
+          "when": {
+            "line": 1,
+            "word": "ducs",
+            "d": 0.5
+          }
+        }
+      ],
+      "beacon": [
+        {
+          "at": [
+            -1.68,
+            48.11
+          ],
+          "when": {
+            "line": 0,
+            "word": "royaume",
+            "d": 0.3
+          }
+        }
+      ],
+      "labels": [
+        {
+          "text": "Normandie",
+          "at": [
+            -0.7,
+            48.9
+          ],
+          "size": 34,
+          "when": {
+            "line": 0,
+            "d": 0.9
+          }
+        },
+        {
+          "text": "Anjou",
+          "at": [
+            -0.2,
+            47.0
+          ],
+          "size": 34,
+          "when": {
+            "line": 0,
+            "d": 1.3
+          }
+        }
+      ],
+      "say": [
+        "Au 9e siècle naît un royaume de Bretagne, puis un duché.",
+        "Il reste presque indépendant, avec ses ducs et ses États."
+      ]
+    },
+    {
+      "type": "map",
+      "year": "1491 · 1532",
+      "text": "Anne de Bretagne, puis l’union",
+      "focus": {
+        "box": [
+          -5.2,
+          46.4,
+          2.2,
+          49.2
+        ]
+      },
+      "highlight": [
+        {
+          "regions": [
+            {
+              "c": "France",
+              "n": "Finistère"
+            },
+            {
+              "c": "France",
+              "n": "Côtes-d'Armor"
+            },
+            {
+              "c": "France",
+              "n": "Morbihan"
+            },
+            {
+              "c": "France",
+              "n": "Ille-et-Vilaine"
+            },
+            {
+              "c": "France",
+              "n": "Loire-Atlantique"
+            }
+          ],
+          "color": "#4FA3E0",
+          "at": 0.3,
+          "keep": false
+        },
+        {
+          "regions": [
+            {
+              "c": "France",
+              "n": "Finistère"
+            },
+            {
+              "c": "France",
+              "n": "Côtes-d'Armor"
+            },
+            {
+              "c": "France",
+              "n": "Morbihan"
+            },
+            {
+              "c": "France",
+              "n": "Ille-et-Vilaine"
+            },
+            {
+              "c": "France",
+              "n": "Loire-Atlantique"
+            }
+          ],
+          "color": "#E8503A",
+          "at": {
+            "line": 1,
+            "word": "1532",
+            "d": 0.0
+          },
+          "keep": false
+        }
+      ],
+      "moves": [
+        {
+          "from": [
+            -1.68,
+            48.11
+          ],
+          "to": [
+            0.4,
+            47.33
+          ],
+          "n": 0,
+          "color": "#FFD83C",
+          "at": {
+            "line": 0,
+            "word": "Charles",
+            "d": 0.0
+          },
+          "dur": 2.0
+        }
+      ],
+      "people": [
+        {
+          "who": "roi",
+          "at": [
+            -0.4,
+            47.5
+          ],
+          "size": 220,
+          "say": "Un mariage !",
+          "when": {
+            "line": 0,
+            "word": "Charles",
+            "d": 0.3
+          },
+          "label": {
+            "title": "Charles VIII",
+            "sub": "1491"
+          }
+        },
+        {
+          "who": "roi",
+          "at": [
+            -2.6,
+            47.7
+          ],
+          "size": 220,
+          "say": "Louis XII",
+          "when": {
+            "line": 0,
+            "word": "1499",
+            "d": -0.1
+          },
+          "label": {
+            "title": "Louis XII",
+            "sub": "1499"
+          }
+        }
+      ],
+      "pills": [
+        {
+          "at": [
+            0.4,
+            47.33
+          ],
+          "title": "Langeais",
+          "side": "t",
+          "when": {
+            "line": 0,
+            "word": "Charles",
+            "d": 0.8
+          }
+        },
+        {
+          "at": [
+            -1.55,
+            47.22
+          ],
+          "title": "Nantes",
+          "side": "b",
+          "when": {
+            "line": 0,
+            "word": "1499",
+            "d": 0.2
+          }
+        }
+      ],
+      "beacon": [
+        {
+          "at": [
+            -1.68,
+            48.11
+          ],
+          "when": 0.4
+        }
+      ],
+      "labels": [
+        {
+          "text": "Bretagne",
+          "at": [
+            -2.9,
+            48.3
+          ],
+          "size": 40,
+          "when": 0.8
+        },
+        {
+          "text": "France",
+          "at": [
+            0.9,
+            48.7
+          ],
+          "size": 40,
+          "when": {
+            "line": 0,
+            "d": 0.6
+          }
+        }
+      ],
+      "art": [
+        {
+          "kind": "timeline",
+          "at": {
+            "line": 1,
+            "d": 0.3
+          },
+          "dur": 3.0,
+          "title": "Vers la France",
+          "items": [
+            {
+              "year": "1491",
+              "text": "Anne et Charles VIII",
+              "color": "#FFD83C"
+            },
+            {
+              "year": "1499",
+              "text": "Anne et Louis XII",
+              "color": "#FFD83C"
+            },
+            {
+              "year": "1532",
+              "text": "Union à la France",
+              "color": "#E8503A"
+            }
+          ]
+        }
+      ],
+      "say": [
+        "La duchesse Anne épouse deux rois de France, en 1491, puis en 1499.",
+        "En 1532, le duché s’unit à la France."
+      ]
+    },
+    {
+      "type": "map",
+      "year": "1790",
+      "text": "La Bretagne devient cinq départements",
+      "focus": {
+        "box": [
+          -5.6,
+          46.5,
+          -0.6,
+          49.3
+        ]
+      },
+      "highlight": [
+        {
+          "regions": [
+            {
+              "c": "France",
+              "n": "Finistère"
+            },
+            {
+              "c": "France",
+              "n": "Côtes-d'Armor"
+            },
+            {
+              "c": "France",
+              "n": "Morbihan"
+            },
+            {
+              "c": "France",
+              "n": "Ille-et-Vilaine"
+            },
+            {
+              "c": "France",
+              "n": "Loire-Atlantique"
+            }
+          ],
+          "color": "#4FA3E0",
+          "at": 0.3,
+          "keep": false
+        },
+        {
+          "regions": [
+            {
+              "c": "France",
+              "n": "Finistère"
+            }
+          ],
+          "color": "#E8503A",
+          "at": {
+            "line": 1,
+            "word": "Finistère",
+            "d": -0.1
+          },
+          "keep": false
+        },
+        {
+          "regions": [
+            {
+              "c": "France",
+              "n": "Côtes-d'Armor"
+            }
+          ],
+          "color": "#FF7A3C",
+          "at": {
+            "line": 1,
+            "word": "Côtes-du-Nord",
+            "d": -0.1
+          },
+          "keep": false
+        },
+        {
+          "regions": [
+            {
+              "c": "France",
+              "n": "Morbihan"
+            }
+          ],
+          "color": "#C77DFF",
+          "at": {
+            "line": 1,
+            "word": "Morbihan",
+            "d": -0.1
+          },
+          "keep": false
+        },
+        {
+          "regions": [
+            {
+              "c": "France",
+              "n": "Ille-et-Vilaine"
+            }
+          ],
+          "color": "#3E9A63",
+          "at": {
+            "line": 1,
+            "word": "Ille-et-Vilaine",
+            "d": -0.1
+          },
+          "keep": false
+        },
+        {
+          "regions": [
+            {
+              "c": "France",
+              "n": "Loire-Atlantique"
+            }
+          ],
+          "color": "#FFD83C",
+          "at": {
+            "line": 1,
+            "word": "Loire-Inférieure",
+            "d": -0.1
+          },
+          "keep": false
+        }
+      ],
+      "pills": [
+        {
+          "at": [
+            -4.0,
+            48.3
+          ],
+          "title": "Finistère",
+          "side": "l",
+          "when": {
+            "line": 1,
+            "word": "Finistère",
+            "d": 0.2
+          }
+        },
+        {
+          "at": [
+            -2.9,
+            48.45
+          ],
+          "title": "Côtes-du-Nord",
+          "side": "t",
+          "when": {
+            "line": 1,
+            "word": "Côtes-du-Nord",
+            "d": 0.2
+          }
+        },
+        {
+          "at": [
+            -2.9,
+            47.75
+          ],
+          "title": "Morbihan",
+          "side": "l",
+          "when": {
+            "line": 1,
+            "word": "Morbihan",
+            "d": 0.2
+          }
+        },
+        {
+          "at": [
+            -1.3,
+            48.4
+          ],
+          "title": "Ille-et-Vilaine",
+          "side": "t",
+          "when": {
+            "line": 1,
+            "word": "Ille-et-Vilaine",
+            "d": 0.2
+          }
+        },
+        {
+          "at": [
+            -1.9,
+            47.2
+          ],
+          "title": "Loire-Inférieure",
+          "side": "l",
+          "when": {
+            "line": 1,
+            "word": "Loire-Inférieure",
+            "d": 0.2
+          }
+        }
+      ],
+      "say": [
+        "En 1790, la Révolution crée cinq départements.",
+        "Finistère, Côtes-du-Nord, Morbihan, Ille-et-Vilaine, Loire-Inférieure."
+      ],
+      "people": [
+        {
+          "who": "paysan",
+          "at": [
+            -3.3,
+            48.12
+          ],
+          "size": 200,
+          "say": "Un département !",
+          "when": {
+            "line": 0,
+            "d": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "type": "map",
+      "year": "1882",
+      "text": "L’école obligatoire, en français",
+      "focus": {
+        "box": [
+          -5.4,
+          46.8,
+          3.2,
+          49.6
+        ]
+      },
+      "highlight": [
+        {
+          "regions": [
+            {
+              "c": "France",
+              "n": "Finistère"
+            },
+            {
+              "c": "France",
+              "n": "Côtes-d'Armor"
+            },
+            {
+              "c": "France",
+              "n": "Morbihan"
+            },
+            {
+              "c": "France",
+              "n": "Ille-et-Vilaine"
+            }
+          ],
+          "color": "#4FA3E0",
+          "at": 0.2,
+          "keep": false
+        }
+      ],
+      "people": [
+        {
+          "who": "savant",
+          "at": [
+            2.35,
+            49.2
+          ],
+          "size": 230,
+          "say": "École obligatoire !",
+          "label": {
+            "title": "Jules Ferry",
+            "sub": "Instruction publique"
+          },
+          "when": {
+            "line": 0,
+            "word": "Ferry",
+            "d": 0.3
+          }
+        },
+        {
+          "who": "ouvrier",
+          "at": [
+            -3.3,
+            48.15
+          ],
+          "size": 210,
+          "say": "Le symbole...",
+          "when": {
+            "line": 1,
+            "word": "symbole",
+            "d": -0.2
+          }
+        }
+      ],
+      "moves": [
+        {
+          "from": [
+            2.35,
+            48.86
+          ],
+          "to": [
+            -2.0,
+            48.2
+          ],
+          "n": 0,
+          "color": "#FFD83C",
+          "at": {
+            "line": 0,
+            "word": "obligatoire",
+            "d": 0.0
+          },
+          "dur": 2.2
+        }
+      ],
+      "pills": [
+        {
+          "at": [
+            2.35,
+            48.86
+          ],
+          "title": "Paris",
+          "side": "t",
+          "when": {
+            "line": 0,
+            "word": "Instruction",
+            "d": 0.0
+          }
+        }
+      ],
+      "beacon": [
+        {
+          "at": [
+            -1.68,
+            48.11
+          ],
+          "when": {
+            "line": 1,
+            "word": "Bretagne",
+            "d": 0.0
+          }
+        }
+      ],
+      "labels": [
+        {
+          "text": "Bretagne",
+          "at": [
+            -2.9,
+            48.3
+          ],
+          "size": 40,
+          "when": {
+            "line": 1,
+            "d": 0.2
+          }
+        }
+      ],
+      "say": [
+        "En 1882, Jules Ferry, ministre de l’Instruction publique, rend l’école obligatoire.",
+        "Souvent, l’élève surpris à parler breton reçoit le « symbole », un objet humiliant."
+      ]
+    },
+    {
+      "type": "map",
+      "year": "1977",
+      "text": "Les écoles Diwan",
+      "focus": {
+        "box": [
+          -5.6,
+          46.8,
+          -0.8,
+          49.2
+        ]
+      },
+      "highlight": [
+        {
+          "regions": [
+            {
+              "c": "France",
+              "n": "Finistère"
+            },
+            {
+              "c": "France",
+              "n": "Côtes-d'Armor"
+            },
+            {
+              "c": "France",
+              "n": "Morbihan"
+            },
+            {
+              "c": "France",
+              "n": "Ille-et-Vilaine"
+            }
+          ],
+          "color": "#4FA3E0",
+          "at": 0.2,
+          "keep": false
+        }
+      ],
+      "people": [
+        {
+          "who": "fr",
+          "at": [
+            -4.2,
+            48.2
+          ],
+          "size": 220,
+          "say": "En breton !",
+          "when": {
+            "line": 0,
+            "word": "Lampaul",
+            "d": 0.5
+          }
+        }
+      ],
+      "pills": [],
+      "beacon": [
+        {
+          "at": [
+            -4.62,
+            48.53
+          ],
+          "when": {
+            "line": 0,
+            "word": "1977",
+            "d": 0.0
+          }
+        }
+      ],
+      "art": [
+        {
+          "kind": "stats",
+          "at": {
+            "line": 1,
+            "d": 0.0
+          },
+          "dur": 4.5,
+          "title": "Diwan, le germe",
+          "items": [
+            {
+              "value": 5,
+              "label": "élèves en 1977",
+              "color": "#FFD83C",
+              "size": 84
+            },
+            {
+              "value": 4000,
+              "label": "élèves en 2023, environ",
+              "color": "#4FA3E0",
+              "size": 84,
+              "count": false
+            }
+          ]
+        }
+      ],
+      "say": [
+        "En 1977, la première école Diwan ouvre à Lampaul-Ploudalmézeau, avec cinq élèves.",
+        "Aujourd’hui, environ quatre mille élèves apprennent en breton, car Diwan veut dire « germe »."
+      ]
+    },
+    {
+      "type": "map",
+      "year": "Aujourd’hui",
+      "text": "Un breton menacé, mais bien vivant",
+      "focus": {
+        "box": [
+          -5.6,
+          46.8,
+          -0.8,
+          49.2
+        ]
+      },
+      "highlight": [
+        {
+          "regions": [
+            {
+              "c": "France",
+              "n": "Finistère"
+            },
+            {
+              "c": "France",
+              "n": "Côtes-d'Armor"
+            },
+            {
+              "c": "France",
+              "n": "Morbihan"
+            },
+            {
+              "c": "France",
+              "n": "Ille-et-Vilaine"
+            }
+          ],
+          "color": "#4FA3E0",
+          "at": 0.2,
+          "keep": false
+        },
+        {
+          "regions": [
+            {
+              "c": "France",
+              "n": "Finistère"
+            }
+          ],
+          "color": "#1F6FB5",
+          "at": {
+            "line": 0,
+            "d": 0.3
+          },
+          "keep": false
+        }
+      ],
+      "art": [
+        {
+          "kind": "bars",
+          "at": {
+            "line": 1,
+            "word": "2018",
+            "d": -0.3
+          },
+          "dur": 4.5,
+          "title": "Locuteurs du breton",
+          "sub": "enquêtes TMO pour la Région, 5 départements",
+          "items": [
+            {
+              "label": "2018",
+              "value": "environ 207 000",
+              "h": 1.0,
+              "color": "#4FA3E0"
+            },
+            {
+              "label": "2024",
+              "value": "environ 107 000",
+              "h": 0.52,
+              "color": "#E8503A"
+            }
+          ]
+        }
+      ],
+      "say": [
+        "Le breton se parle surtout en Basse-Bretagne, à l’ouest.",
+        "Selon la Région, il passe d’environ 207 000 locuteurs en 2018 à environ 107 000 en 2024."
+      ],
+      "labels": [
+        {
+          "text": "Basse-Bretagne",
+          "at": [
+            -4.0,
+            48.2
+          ],
+          "size": 36,
+          "when": {
+            "line": 0,
+            "d": 0.8
+          }
+        }
+      ]
+    },
+    {
+      "type": "map",
+      "text": "Et la Loire-Atlantique ?",
+      "focus": {
+        "box": [
+          -5.6,
+          46.4,
+          -0.6,
+          49.2
+        ]
+      },
+      "highlight": [
+        {
+          "regions": [
+            {
+              "c": "France",
+              "n": "Finistère"
+            },
+            {
+              "c": "France",
+              "n": "Côtes-d'Armor"
+            },
+            {
+              "c": "France",
+              "n": "Morbihan"
+            },
+            {
+              "c": "France",
+              "n": "Ille-et-Vilaine"
+            }
+          ],
+          "color": "#4FA3E0",
+          "at": {
+            "line": 0,
+            "word": "Bretagne",
+            "d": 0.0
+          },
+          "keep": false
+        },
+        {
+          "regions": [
+            {
+              "c": "France",
+              "n": "Loire-Atlantique"
+            }
+          ],
+          "color": "#7BD88F",
+          "at": {
+            "line": 1,
+            "d": 0.0
+          },
+          "keep": false
+        }
+      ],
+      "pills": [
+        {
+          "at": [
+            -1.55,
+            47.22
+          ],
+          "title": "Nantes",
+          "sub": "Pays de la Loire",
+          "side": "b",
+          "when": {
+            "line": 1,
+            "word": "Nantes",
+            "d": 0.0
+          }
+        }
+      ],
+      "beacon": [
+        {
+          "at": [
+            -1.55,
+            47.22
+          ],
+          "when": {
+            "line": 1,
+            "word": "Nantes",
+            "d": 0.0
+          }
+        }
+      ],
+      "art": [
+        {
+          "kind": "split",
+          "at": {
+            "line": 0,
+            "word": "quatre",
+            "d": 0.0
+          },
+          "dur": 3.2,
+          "title": "Bretagne historique",
+          "sub": "même échelle",
+          "before": "Historique",
+          "after": "Région actuelle",
+          "badge": "Nantes : hors région",
+          "parts": [
+            {
+              "region": {
+                "c": "France",
+                "n": "Finistère"
+              },
+              "color": "#4FA3E0"
+            },
+            {
+              "region": {
+                "c": "France",
+                "n": "Côtes-d'Armor"
+              },
+              "color": "#4FA3E0"
+            },
+            {
+              "region": {
+                "c": "France",
+                "n": "Morbihan"
+              },
+              "color": "#4FA3E0"
+            },
+            {
+              "region": {
+                "c": "France",
+                "n": "Ille-et-Vilaine"
+              },
+              "color": "#4FA3E0"
+            },
+            {
+              "region": {
+                "c": "France",
+                "n": "Loire-Atlantique"
+              },
+              "color": "#7BD88F",
+              "lost": true
+            }
+          ]
+        }
+      ],
+      "say": [
+        "Aujourd’hui, la région Bretagne compte quatre départements.",
+        "Nantes, ancienne résidence des ducs, est dans les Pays de la Loire : cela fait débat."
+      ]
+    },
+    {
+      "type": "final",
+      "text": "Une langue celtique venue de la mer",
+      "sub": "La Bretagne",
+      "focus": {
+        "box": [
+          -5.6,
+          46.4,
+          -0.6,
+          49.6
+        ]
+      },
+      "highlight": [
+        {
+          "regions": [
+            {
+              "c": "France",
+              "n": "Finistère"
+            },
+            {
+              "c": "France",
+              "n": "Côtes-d'Armor"
+            },
+            {
+              "c": "France",
+              "n": "Morbihan"
+            },
+            {
+              "c": "France",
+              "n": "Ille-et-Vilaine"
+            }
+          ],
+          "color": "#4FA3E0",
+          "at": 0.3,
+          "keep": false
+        }
+      ],
+      "people": [
+        {
+          "who": "marin",
+          "at": [
+            -3.2,
+            48.9
+          ],
+          "size": 240,
+          "say": "Breizh !",
+          "wave": true,
+          "when": 1.0
+        }
+      ],
+      "pills": [
+        {
+          "at": [
+            -1.68,
+            48.11
+          ],
+          "title": "Rennes",
+          "side": "r",
+          "when": 5.5
+        }
+      ],
+      "say": [
+        "Voilà pourquoi : des Brittons ont apporté leur langue, que des écoles comme Diwan font vivre.",
+        "Voilà la réponse à la question qui nous a ouverts :"
+      ]
+    }
+  ],
+  "terrain": [
+    {
+      "box": [
+        -14,
+        27,
+        40,
+        76
+      ],
+      "px": 3000,
+      "z": 6
+    },
+    {
+      "box": [
+        -6.8,
+        46.0,
+        3.6,
+        51.4
+      ],
+      "px": 2800,
+      "z": 8
+    }
+  ]
+}

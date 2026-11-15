@@ -1,0 +1,15 @@
+# 25-micro-etats, boucle 1 : journal des changements
+- terrain[0].box [-14,27,40,76] (formule demandée) ; ajout de terrain[2] [11.5,43.4,13.4,44.5] et [3] [11.8,41.3,13.2,42.5], px 2800 z 9 (carto 3)
+- S1 sub « Les micro-États d'Europe » (lisibilité 5) ; art stats : sub « surface » retiré, at d 0 (lisibilité 2, compo 8)
+- S1 side des pastilles : Andorre b, Monaco l, Saint-Marin l, Vatican l (hors zone icônes x>1000 et bord gauche)
+- S2 text « Andorre : deux princes » (lisibilité 7) ; prince at [1.46,42.36], when line 0 « évêque » (carto 8, caméra 4) ; pastille Andorre-la-Vieille side b (carto 8)
+- S3 highlight #FF8A3C (carto 5) ; Charles VI at [10.05,47.55], label Autriche [10.0,47.28] (carto 5, compo 7) ; pastille Vaduz when line 0 « Liechtenstein » (carto 5, compo 7)
+- S3 labels 1806, 1868, 1924 calés sur les mots (caméra 5) ; say « forme une union douanière avec la Suisse en 1924 » (faits 3)
+- S4 highlight Monaco #FFD83C ; savant at [7.2,43.78] (carto/compo 6, lisibilité 4) ; label « 1861 » calé sur le mot (caméra 6)
+- S5 highlight #E8503A (carto 3) ; Marin at [12.1,44.2], when « tailleur » ; étiquette Italie [12.15,43.65] (en terre) ; pastille side b (faits 7, compo 7, caméra 7)
+- S6 year « 1870 – 1929 », text « Le Vatican, État du pape » (lisibilité 7) ; focus [11.85,41.4,13.2,42.4] (caméra 7) ; Rome [12.55,41.86] (faits 7, carto 6) ; garde [12.15,42.0] when « Rome » ; pastille Vatican when « Rome » (carto 6)
+- S7 art languages : titre « Les langues officielles », 5 pays (Saint-Marin, Vatican ajoutés), dur 7 ; pastilles et beacons supprimés (faits 4, compo 2, lisibilité 3, caméra 3) ; say « le Vatican emploie l'italien et le latin » (faits 5)
+- S8 say : pacte, légende, décret d'empereur, traité ou tradition ; protecteurs : France, Italie, Suisse et Espagne (faits 2, 8) ; move Espagne + beacon ; from France [4.0,46.0], Suisse [7.0,46.6] ; dur 1.5 (compo 4, caméra 2)
+- S8 frise recomposée sur l'ordre de la voix avec mots-clés pacte/légende/décret/traité/tradition (compo 3) ; at sur « pacte »
+- S9 titre « Petits, mais pleins de vie » (lisibilité 1) ; say sans « au centre de l'Europe » (faits 1) ; cadrage du hook, highlight 4 pays keep, 5 beacons, pastille en mer supprimée, savant [4.5,45.5] when 1,6 (carto 1, compo 1, caméra 1)
+- Non appliqué : `punch` (champ absent du générateur) ; texte « Suisse représente le Liechtenstein » (trop long à dire, union douanière retenue) ; second personnage « comte » (pas de type adapté) ; focus S7 vers le nord (contradiction carto/compo, panneau à 5 lignes retenu) ; Vatican sans polygone Natural Earth donc pas de highlight (pastille + beacon) ; faits non resourcés par web (connus : 1806, 1868, 1923-24, 1861)
